@@ -1,0 +1,3881 @@
+[TABLEALIAS Common]
+
+[GalaxySizeTxt0]  Diminuta
+[GalaxySizeTxt1]  Pequeña
+[GalaxySizeTxt2]  Media
+[GalaxySizeTxt3]  Grande
+[GalaxySizeTxt4]  Enorme
+[GalaxySizeTxt5]  Gigantesca
+[GalaxySizeTxt6]  Inmenso
+[GalaxySizeTxt7]  Personalizado
+[GalaxySizeTxt8]  Aleatorio
+
+
+[Intelligence] Inteligencia
+[Intelligence0] Imbécil
+[Intelligence1] Mema
+[Intelligence2] Principiante
+[Intelligence3] Despistada
+[Intelligence4] Normal
+[Intelligence5] Brillante
+[Intelligence6] Inteligente
+[Intelligence7] Talentosa
+[Intelligence8] Genial
+[Intelligence9] Increíble
+[Intelligence10] Divina
+[Intelligence11] Invencible
+
+[Alignment] Alineamiento
+[Alignment0] Benigno puro
+[Alignment1] Caótico benigno
+[Alignment2] Neutral
+[Alignment3] Caótico maligno
+[Alignment4] Maligno puro
+
+[Difficulty] Dificultad
+[Difficulty0] Chupado
+[Difficulty1] Fácil
+[Difficulty2] Sencillo
+[Difficulty3] Principiante
+[Difficulty4] Normal
+[Difficulty5] Desafiante
+[Difficulty6] Peliagudo
+[Difficulty7] Difícil
+[Difficulty8] Abrumador
+[Difficulty9] Masoquista
+[Difficulty10] Escandoloso
+[Difficulty11] Suicida
+
+[Relations] Relaciones
+[Relations_0] Desconocidos
+[Relations_1] En guerra
+[Relations_2] Hostiles
+[Relations_3] Cautelosos
+[Relations_4] Indiferentes
+[Relations_5] Neutrales
+[Relations_6] Entusiastas
+[Relations_7] Amistosos
+[Relations_8] Afines
+[Relations_9] Aliados
+[ThousandAbbreviation] m
+[Thousand] mil
+
+[MillionAbbreviation] M
+[Million] Millones
+
+[BillionAbbreviation] B
+[Billion] Billones
+
+[TrillionAbbreviation] T
+[Trillion] Trillones
+
+[Anomaly] Anomalía
+[Resource] Recurso
+[RallyPoint] Reunión
+[Fleet] Flota
+[AsteroidField] Campo de Asteróides
+[AsteroidFieldMiningBase] Base Minera
+
+
+[RankDescription0] Desconocido
+[RankDescription1] Muy débil
+[RankDescription2] Débil
+[RankDescription3] Media
+[RankDescription4] Fuerte
+[RankDescription5] Muy fuerte
+
+[BCPerTurn] B€$/sem
+[bc] B€$
+[Percent] %
+
+[ResourceType1] Recurso de influencia
+[ResourceType2] Recurso militar
+[ResourceType3] Recurso económico
+[ResourceType4] Recurso de moral
+[ResourceType5] Recurso de investigación
+
+[ResourceTypeLetter1] IN
+[ResourceTypeLetter2] MI
+[ResourceTypeLetter3] EC
+[ResourceTypeLetter4] MO
+[ResourceTypeLetter5] I
+
+[NotApplicable] N/A
+
+[and] y
+
+[Class] Clase
+
+[AnomalyType0] Tipo de anomalía: Chatarra espacial
+[AnomalyType1] Tipo de anomalía: Meteorito
+[AnomalyType2] Tipo de anomalía: Nubes de gas
+[AnomalyType3] Tipo de anomalía: Cementerio de naves estelares
+[AnomalyType4] Tipo de anomalía: Asteroide
+[AnomalyType5] Tipo de anomalía: Agujero negro
+[AnomalyType6] Clase de anomalía: Cementerio de una civilización
+[AnomalyType7] Clase de anomalía: Planetoide
+[AnomalyType8] Clase de anomalía: Inexplicable
+
+[HullSize0] Diminuto
+[HullSize1] Pequeño
+[HullSize2] Medio
+[HullSize3] Grande
+[HullSize4] Enorme
+[HullSize5] Gigantesco
+[HullSize6] De carga
+[HullSize7] Desconocido
+
+[TABLEEND]
+
+
+[TABLEALIAS CreditsWnd]
+
+[DoneBtn] Hecho
+[CopyrightNotice] Copyright © 2007 Stardock Entertainment, Inc.
+[TABLEEND]
+
+
+[TABLEALIAS TitleWnd]
+
+[CantPlayModdedMetaverse] No puedes empezar una partida del metaverso con los "mods" activados.\n\nPara jugar una, ve a "Opciones", desmarca "Usar modificaciones ("mods")" y reinicia GalCiv2.
+
+[NewGameBtn] Nueva Partida
+[ContinueGameBtn] Continuar
+[SaveGameBtn] Salvar Partida
+[CampaignBtn] Campaña
+[MetaverseBtn] Metaverso
+[OptionsBtn] Opciones
+[TutorialsBtn] Tutoriales
+[CreditsBtn] Créditos
+[ScoresBtn] Ranking
+[QuitBtn] Salir
+[Loading] Cargando...
+
+[Title] MENÚ
+
+[MissingSerial] El número del serial no se ha encontrado en el registro- No podrás jugar en el metaverso hasta que no lo registres.
+
+[TABLEEND]
+
+[TABLEALIAS TutorialWnd]
+[Back] ANTERIOR
+[PlayAll] Reproducir todos
+[Play] Reproducir
+[Title] Vídeos tutoriales
+[FullScreen] Pantalla completa
+[TABLEEND]
+
+[TABLEALIAS GalaxyWnd]
+ScreenTitle] Configurar la Galaxia
+[GalaxySize] Elije Galaxia
+[GalaxySettings] Ajustes de la Galaxia
+
+[NextBtn] SIGUIENTE
+[BackBtn] ANTERIOR
+
+[Scenario] Escenario
+[CustomMap] Personalizado
+[HabitablePlanets] Planetas Habitables
+[AsteroidFields] Campos de Asteróides
+[NumOfResources] Presencia de Recursos
+[Anomalies] Anomalías
+[NumOfStars] Presencia Estelar
+[StarDensity] Densidad Estelar
+[NumOfPlanets] Presencia Planetaria
+[TechnologyRate] Progreso Tecnológico
+[NumAsteroids] Presencia de Asteróides
+[NumMinorRaces] Razas Menores
+[DetailsBtn] Detalles
+
+[MinorRaceSingular] 1 Raza menor
+[MinorRacePlural] %lu Razas menores
+
+[ScenarioPopulation] Población:
+[ScenarioCulture] Cultura:
+[ScenarioResearch] Investigación:
+
+[Normal] Normal
+[NormalScenario] Se aplican las reglas normales.
+
+[VictoryConditions] Modos de victoria:
+[ResearchVictory] Investigación
+[CulturalVictory] Influencia
+[AllianceVictory] Alianza
+[AscensionVictory] Ascensión
+
+[GameOptions] Opciones de juego:
+
+[DisableTechTrading] Sin trato tecnológico
+[BlindExploration] Explorar a ciegas
+[EnableMinorRaces] Sin razas menores
+[AllowCPUIntensiveAlgorithms] Permitir a la IA un uso intenso de la CPU
+[MegaEvents] Mega eventos
+[SuperAbilities] Superhabilidades
+[AllowSurrenders] Permitir rendiciones
+
+[VictoryConditionDescriptionHeader] Formas de ganar:\n
+[ResearchVictoryDescription] + Investigar la tecnología definitiva y trascender la mortalidad.\n
+[CulturalVictoryDescription] + Usar la influencia y comerciar para lograr la supremacía cultural.\n
+[AllianceVictoryDescription] + Forjar alianzas con las demás civilizaciones principales.\n
+[MilitaryVictoryDescription] + Destruir a todo los que se te opongan.
+
+[FrequencyText0] Singular
+[FrequencyText1] Infrecuente
+[FrequencyText2] Ocasional
+[FrequencyText3] Común
+[FrequencyText4] Abundante
+
+[Density0] Compacta
+[Density1] Amplia
+[Density2] Dispersa
+
+[TechnologyRate0] Muy lenta
+[TechnologyRate1] Lenta
+[TechnologyRate2] Normal
+[TechnologyRate3] Rápida
+[TechnologyRate4] Muy rápida
+
+[Default] Predeterminado
+[None] Ninguno
+[Enabled] Activado
+[Disabled] Desactivado
+
+[Custom] Personalizado
+[Random] Aleatorio
+
+[TABLEEND]
+
+
+[TABLEALIAS ScenarioWnd]
+
+[AcceptBtn] ACEPTAR
+[Scenario] Escenario
+[Normal] Normal
+[NormalScenario] Se aplican las reglas normales.
+
+[TABLEEND]
+
+[TABLEALIAS RaceWnd]
+
+[NextBtn] SIGUIENTE
+[BackBtn] ANTERIOR
+[EditBtn] Editar
+
+[ScreenTitle] ELIGE UNA CIVILIZACIÓN
+
+[CivName] Nombre de la civilización:
+[Homeworld] Planeta natal:
+[Logo] Logo:
+[Attributes] Atributos
+
+[Tolerance] Tolerancia
+[Propulsion] Propulsión
+[PopulationGrowth] Población
+[Warfare] Hostilidad
+[Efficiency] Eficiencia
+[Espionage] Espionaje
+[Morale] Moral
+[Culture] Cultura
+[Trade] Comercio
+[Technology] Tecnología
+[Logistics] Logística
+[Diplomacy] Diplomacia
+
+[DefaultCivName] Consorcio Terráqueo
+[DefaultHomeworld] Tierra
+
+[RaceAbilities] Habilidades raciales:
+[RaceTechs] Tecnologías raciales:
+
+[SuperAbilityTitle] Habilidad especial
+
+[TABLEEND]
+
+[TABLEALIAS OpponentWnd]
+
+[SelectedOpponentsLabel] Oponentes seleccionados:
+[SpecialAbilityLabel] Habilidad especial:
+
+[NextBtn] SIGUIENTE
+[BackBtn] ANTERIOR
+[EnableBtn] Activar
+[DisableBtn] Desactivar
+[EditBtn] Editar
+[NewBtn] Create New Opponent
+
+[ScreenTitle] Elegir oponentes
+
+[NumOfOpponents] Oponentes:
+[Difficulty] Dificultad:
+[Intelligence] Inteligencia
+[Relations] Relaciones:
+[AvailableOpponents] Oponentes disponibles
+
+[NumOfOpponents0] Uno (1)
+[NumOfOpponents1] Dos (2)
+[NumOfOpponents2] Tres (3)
+[NumOfOpponents3] Cuatro (4)
+[NumOfOpponents4] Cinco (5)
+[NumOfOpponents5] Seis (6)
+[NumOfOpponents6] Siete (7)
+[NumOfOpponents7] Ocho (8)
+[NumOfOpponents8] Nueve (9)
+[NumOfOpponentsRand] Aleatorio
+//[NumOfOpponents9] Diez (10)
+
+[UnknownIntel] ? ? ?
+
+[AvailableCivs] Civilizaciones disponibles
+[Settings] Ajustes
+[SelectedCiv] Civ. seleccionada
+[GameSettings] Ajustes del juego
+[PlayerRace] Raza jugad:
+
+
+[NothingSelectedTitle] Elige qué civilizaciones habitarán la galaxia contigo.
+[NothingSelectedDescription] Puedes seleccionar hasta nueve civilizaciones que se apunten contigo a la carrera por dominar la galaxia. Haz clic en un retrato para seleccionar una civilización. Puedes activar o desactivar la civilización seleccionada y modificar su inteligencia y relaciones iniciales con tu civilización.
+
+[NoOpponentsSelected] No puedes desactivar a todos los oponentes.
+[TooManyOpponents] No puedes tener más de 9 oponentes.
+[CustomMapTooManyOpponents] El mapa personalizado que has seleccionado no admite la cantidad de oponentes que has seleccionado. El número de oponentes está siendo reducido.
+[Error] Error
+
+
+[RandomizeRaces] Razas aleatorias
+[RandomizeIntel] Inteligencia aleatoria
+
+[TooHighRelations] En las partidas del metaverso, no puedes empezar con relaciones superiores a "amistosos". Dichas relaciones se han bajado a este nivel.
+
+[IntelligenceDescription0] La economía del jugador IA se reduce en un 90% y se usan los algoritmos más simples.
+[IntelligenceDescription1] La economía del jugador IA se reduce en un 75% y se usan los algoritmos más simples. 
+[IntelligenceDescription2] La economía del jugador IA se reduce en un 50% y se usan los algoritmos más simples.
+[IntelligenceDescription3] La economía del jugador IA se reduce en un 30% y se usan los algoritmos más simples.
+[IntelligenceDescription4] La economía del jugador IA se reduce en un 20% y se usan algoritmos generales.
+[IntelligenceDescription5] La economía del jugador IA se reduce en un 10% y se usan algoritmos avanzados.
+[IntelligenceDescription6] La economía del jugador IA es la misma que la tuya y se usan algoritmos avanzados.
+[IntelligenceDescription7] La economía del jugador IA aumenta en un 5% y se usan algoritmos avanzados.
+[IntelligenceDescription8] La economía del jugador IA aumenta en un 10% y se usan algoritmos avanzados.
+[IntelligenceDescription9] La economía del jugador IA aumenta en un 25% y se usan algoritmos avanzados.
+[IntelligenceDescription10] La economía del jugador IA aumenta en un 50% y se usan algoritmos avanzados.
+[IntelligenceDescription11] La economía del jugador IA aumenta en un 100%, se usan algoritmos avanzados, y el jugador del ordenador no tiene niebla de guerra.
+
+[NoSuperAbility] Sin superhabilidad
+
+[TABLEEND]
+
+[TABLEALIAS MessageBoxWnd]
+
+[Yes] Sí
+[No] No
+[Cancel] Cancelar
+[Done] Hecho
+
+[TABLEEND]
+
+[TABLEALIAS RandomEventWnd]
+
+[DoneBtn] HECHO
+
+[TABLEEND]
+
+[TABLEALIAS MainWnd]
+
+[TurnBtn] TURNO
+[FindBtn] SIG.
+[SkipBtn] OMITIR
+[MoveBtn] MOVER
+
+[ClearIcons]  Borrar iconos de noticias
+[LaunchShips] Lanzar naves en órbita
+
+[MiniMap] MAPA
+[Population] Población
+[Treasury] Tesoreria
+[Rank] Clasificación
+[NowResearching] Investigación actual:
+
+[PieChartTitle] Dominación galáctica
+
+[Move] Mover
+[Details] Detalles
+[Disband] Disolver
+
+[MenuBtn] MENÚ
+
+[MM_Default] Minimapa
+[MM_AutoPilot] Pilo. Aut.
+[MM_Trade] Comercio
+[MM_ZOC] Dominios
+[MM_Industry] Industria
+[MM_Population] Población
+[MM_RallyPoints] Reunión
+[MM_Ships] Naves
+[MM_Planets] Planetas
+[MM_Stars] Estrellas
+[MM_Anomalies] Anomalías
+[MM_Range] Autonomía
+[MM_Asteroids] Asteroides
+
+[Approval] Aprobación:
+
+[EmpTreasury] -Tesoreria del imperio-\nIngresos: %ld B€$/sem\nGastos: %ld B€$/sem\nNeto: %ld B€$/sem
+
+[SectorTitle] Sector:
+
+[TABLEEND]
+
+
+[TABLEALIAS SDesignWnd]
+
+[Title] Diseño de naves
+[Prompt] Diseña una nueva clase de nave.
+[New] NUEVO
+[Save] GUARDAR
+[Done]  HECHO
+[Clear] Borrar
+[Remove] Eliminar
+[Move] Mov.
+
+[Yaw] Rotar componente: guiñada (clic-derecho para girar)
+[Pitch] Rotar componente: cabeceo (clic-derecho para girar)
+[Roll] Girar componente: balanceo (clic-derecho para girar)
+
+[Hull] Casco
+[Weapons] Armas
+[Defenses] Defensas
+[Propulsion] Motores
+[Modules] Módulos
+[Extras] Extras
+
+[AvailableHulls] Cascos disponibles:
+[AvailableWeapons] Armas disponibles:
+[AvailableDefenses] Defensas disponibles:
+[AvailableEngines] Motores disponibles:
+[AvailableModules] Módulos disponibles:
+[AvailableExtras] Extras disponibles:
+
+[ClassTitle] Clase:
+[DetailsTitle] Detalles de nave
+[AttackTitle] Ataque:
+[DefenseTitle] Defensa:
+[SpeedTitle] Velocidad:
+[LogisticsTitle] Autonomía:
+[HitPointsTitle] PI:
+[CostTitle] Coste:
+[UpkeepTitle] Mantenimiento:
+[BeamTitle] Rayo:
+[MissileTitle] Misil:
+[ProjectileTitle] Cañón:
+[ArmorTitle] Blindaje:
+[ShieldTitle] Escudo:
+[PointDefenseTitle] Antimisil:
+[SpecialAbilitiesTitle] Habilidad especial:
+
+[Place] Poner
+
+[InvalidNameHeader] Nombre no válido
+[InvalidName] El nombre para el diseño de la nave no es válido. Los caracteres no válidos son < > : " / \ % ? | , y .
+
+[ShipDesignFilter0] Todos
+[ShipDesignFilter1] Básicos
+[ShipDesignFilter2] Usuario
+[ShipDesignFilter3] Diseños de la IA
+
+[StructureStyleYou] Mi Estilo
+[StructureStyleGeneric] Genérico
+[StructureStyleOther] Otro
+
+[Mark] Mk.
+
+[ResetComponent] Quitar componentes
+[ShowAll] Mostrar todos los componentes
+[ShowComponents] Mostrar sólo componentes funcionales
+[ShowExtras] Mostrar sólo extras
+
+[Tiny] Diminuto
+[Small] Pequeño
+[Medium] Mediano
+[Large] Grande
+[Huge] Enorme
+[Gigantic] Gigantesco
+[Cargo] Cargo
+[Unknown] Desconocido
+
+[Armor] Blindaje
+[Shields] Escudos
+[Point Defense] Antimisil
+[Mass Driver] Cañón
+[Beam] Laser
+[Missile] Misil
+[Engine] Motor
+[Sensor] Sensor
+[Support] Soporte
+[Capacity] Capacidad
+[Structure] Estructura
+
+[NewDesign] Nuevo diseño
+
+[TABLEEND]
+
+[TABLEALIAS SDesignEntryWnd]
+[NoName] Sin nombre
+[NoDesc] Sin descripción.
+[Nothing] Nada
+[NothingDescription] No se está construyendo ninguna nave.
+
+[Class] Clase
+[Size] Masa
+[Damage] Daño
+[Cost] Coste
+[Defense] Def.
+[Speed] Vel.
+[Range] Autono.
+[Sensors] Sens.
+[Capacity] Capac.
+[HitPoints] P. Impacto
+[HP] Hit Points
+
+[TABLEEND]
+
+[TABLEALIAS PlanetWnd]
+
+[Bonus] Bonificación
+[Unspent] Sin gastar
+[FromSocial] Desde social
+[MaxPop] Máx.
+
+[[OpenTiles] En este planeta hay %ld casillas abiertas.
+
+[Focus_Industry] Centra la producción en proyectos militares (ejército)
+[Focus_Social] Centra la producción en mejoras planetarias
+[Focus_Research] Centra la producción en investigación
+
+[MilitarySpending1] Producción militar = %d. %d por fábricas. %d por habilidades y bonificaciones (sólo se te cobra la mitad).
+[MilitarySpending2] Producción militar = %d. %d por fábricas. %d por habilidades y bonificaciones (sólo se te cobra la mitad). Más %d de producción social sin utilizar.
+[MilitarySpending3] Producción militar = 0. Tu inversión potencial de %ld revierte a la tesoreria. Aumenta el nivel de inversiones al menos al 1%% para que se utilice la inversión social.
+[MilitarySpending4] Producción militar potencial = %d. %d por fábricas. %d por habilidades y bonificaciones. %d transferido de la producción social porque no se están construyendo mejoras planetarias.
+[InfluenceText] Influencia = %d. %d por planeta + %d por población + %d por mejoras y varios + %d por tu habilidad de influencia + %d por la influencia de la civilización.
+
+[Tip_Morale] Moral = %d%%.
+[Tip_Morale_Debt]  -%d%% por deudas.
+[Tip_Morale_Propaganda] +%d%% por propaganda.
+[Tip_Morale_Ability] +%d%% por habilidad nativa.
+[Tip_Morale_Buildings] +%d%% por edificios en el planeta.
+[Tip_Morale_Taxes] -%d%% por impuestos.
+[Tip_Morale_Population] -%d%% por población.
+[Tip_Morale_Misc] +%d%% por factores externos.
+[Tip_Morale_NicePlanet] +%d%% por categoría de planeta alta.
+[Tip_Morale_PlanetBonus] %+d%% por bonif. a la moral por planeta.
+[Tip_Agent_Btn] Agentes disponibles: %lu
+[Tip_Planet_Quality] Planeta clase %lu. Este es el número de casillas disponibles para construir mejoras planetarias.
+
+[DoneBtn] Hecho
+[PlanetDetailsBtn] Detalles
+[GovernorBtn] Gobernador
+[SummaryBtn] Resumen
+
+[PrevPlanetBtn] Anterior
+[NextPlanetBtn] Siguiente
+[AutomateBtn] Automatizar
+[LaunchBtn] Lanzar
+[BuildBtn] Construir
+[ShipyardDetailsBtn] Const. nave
+[BuildingDetailsBtn] Detalles
+[PlanetDestroyImpBtn] Destruir
+[PlanetListBtn] Lista de planetas
+[BuyImpBtn] Comprar
+[AgentBtn] Anular agente
+[UpgradeImpBtn] Modernizar
+[BuyUpgradeBtn] Comprar modern.
+[DestroyImpBtn] Demoler
+
+[PlanetClassFormatString] Clase %d
+[PlanetPopLabel] Población (máx.):
+[PlanetFoodLabel] Prod. Alimentos:
+[PlanetUnemploymentLabel] Desempleo:
+[PlanetApprovalLabel] Aprobación:
+[PlanetInfluenceLabel] Influencia:
+[PlanetIncomeLabel] Ingresos:
+[PlanetSpendingLabel]  Inversiones:
+[PlanetMaintenanceLabel] Mantenimiento:
+[PlanetMilitaryLabel] Ejército:
+[PlanetSocialLabel] Social:
+[PlanetResearchLabel] Investigación:
+[PlanetShipyardLabel] Construcción orbital
+[PlanetOrbitLabel] Naves en órbita
+[PlanetSocialProjectLabel] Proyecto en curso
+[PlanetBuildQueueLabel] En Espera
+[PlanetScreenTitleLabel] Gestión de colonias
+[PlanetMapTitleLabel] Superficie del planeta
+[PlanetProjectListLabel] Proyectos:
+
+[BuildMenuIndustryLabel] Industria:
+[BuildMenuMaintLabel] Mantenimiento:
+[BuildMenuEmployLabel] Empleo:
+[BuildMenuTimeLabel] Tiempo:
+[BuildMenuUpgradeTimeLabel] Tiempo para modernizar:
+[BuildMenuResearchLabel] Investigación:
+[BuildMenuFoodLabel] Alimentos:
+[BuildMenuManufacturingBonusLabel] Bonif. industria:
+[BuildMenuMoraleBonusLabel] Bonif. moral:
+[BuildMenuEconomicBonusLabel] Bonif. economía:
+[BuildMenuPrestigeBonusLabel] Bonif. influencia:
+[BuildMenuPlanetaryDefenseBonusLabel] Bonif. defensa:
+[BuildMenuStarshipQualityBonusLabel] Bonif. categoría naves:
+[BuildMenuResearchBonusLabel] Bonif. investigación:
+[BuildMenuResistBonusLabel]	Bonif. resistencia:
+[BuildMenuShipSpeedBonusLabel] Bonif. velocidad naves:
+[BuildMenuPopulationBonusLabel] Bonif. crecim. poblacion:
+[BuildMenuFoodProductionBonusLabel] Bonif. produc. comida:
+
+[ManufacturingUnit] al
+[ResearchUnit] in
+[Percent] %
+[WeeksAbbreviation] sem
+[LogisticsUnit] lo
+[SensorUnit] se
+
+[ImprovementFilter01] Nuevas
+[ImprovementFilter02] Antiguas
+[ImprovementFilter03] Todas
+
+[ImpTypeGalacticAchievement] Logro galáctico
+[ImpTypeSuperProject] Superproyecto
+[ImpTypeTradeGood] Bien comercial
+
+[Ability0] Bonif. economía:
+[Ability1] Bonif. armas:
+[Ability2] Bonif. defensa:
+[Ability3] Bonif. velocidad:
+[Ability4] Bonif. moral:
+[Ability5] Bonif. crecimiento de población:
+[Ability6] Bonif. producción social:
+[Ability7] Bonif. producción militar:
+[Ability8] Bonif. investigación:
+[Ability9] Bonif. influencia:
+[Ability10] Bonif. comercio:
+[Ability11] Bonif. diplomacia:
+[Ability12] Bonif. puntos de impacto:
+[Ability13] Bonif. reparación:
+[Ability14] Aumento de sensores:
+[Ability15] Bonif. espionaje:
+[Ability16] Bonif. veteranía:
+[Ability17] Bonif. tipos de interés:
+[Ability18] Bonif. categoría planetas:
+[Ability19] Bonif. rutas comerciales:
+[Ability20] Bonif. delincuencia:
+[Ability21] Bonif. gabinete:
+[Ability22] Bonif. autonomía:
+[Ability23] Bonif. suerte:
+[Ability24] Bonif. coraje:
+[Ability25] Bonif. creatividad:
+[Ability26] Bonif. gobierno:
+[Ability27] Bonif. lealtad:
+[Ability28] Puntos de logística:
+[Ability29] Bonif. miniaturización:
+[Ability30] Bonif. categoría planeta natal:
+[Ability31] Colonizar mundos con fuerte Gravedad
+[Ability32] Colonizar mundos acuáticos
+[Ability33] Colonizar mundos tóxicos
+[Ability34] Colonizar mundos desérticos
+[Ability35] Colonizar mundos radiactivos
+
+[TerrainTypeWater] Océano
+[TerrainTypeMountain] Montañas
+[TerrainTypeFoothills] Estribaciones
+[TerrainTypeDesert] Desierto
+[TerrainTypeWasteland] Yermo
+[TerrainTypeTundra] Tundra
+[TerrainTypePrairie] Pradera
+[TerrainTypeJungle] Jungla
+[TerrainTypeSwamp] Pantano
+
+[TerrainTypeDenseJungle] Jungla tupida
+[TerrainTypeShoreline] Costa
+
+[BonusFoodProduction] Bonif. alimentos:
+[BonusManufacturing] Bonif. fabricación:
+[BonusApproval] Bonif. aprobación:
+[BonusResearch] Bonif. investigación:
+[BonusInfluence] Bonif. influencia:
+[BonusTechnology] Bonif. puntos tecnol: 
+[NoBonus] Sin bonif.
+
+[SectorQueryUnusableMsg] Sector inutilizable
+[SectorQueryNeedsEnhancementMsg] El sector necesita Aprovechamiento de Terrenos para ser utilizable.
+[SectorQueryNeedsEnhancementMsg2] El sector necesita Mejora del Entorno para ser utilizable.
+[SectorQueryNeedsEnhancementMsg3] El sector necesita Terraformación para ser utilizable.
+[SectorQueryUsableMsg] Sector apropiado para construir
+[SectorQueryImprovementPlanned] Sector destinado a construcción
+[SectorQueryImprovementUnderConstruction] En construcción
+[SectorQueryImprovementDestroyed] Destruido
+[SectorQueryUpgradeInProgress] Modernización en curso
+
+[QueryBonusLabel] Bonificación:
+[NoSectorMessage] Ningún sector seleccionado
+[NoColonyMessage] No tienes una colonia en este planeta
+[NoBuildingMessage] No hay mejoras disponibles
+[InfiniteBuildTime] Nunca
+[NoShipyardMessage] Ningún puerto estelar en el planeta
+[BuildingShipyardMessage] En construcción
+[ShipyardIdleMessage] Puerto estelar inactivo
+[StarportFull] Puerto estelar lleno
+[ChooseProjectPrompt] Constr. aquí proyecto social
+[InfoNotAvailable] Información no disponible
+[UnuseableTile] Aquí no se puede construir.
+[UnuseableTileMessage] Para construir algo, selecciona una casilla verde de la cuadrícula.
+
+[MillionAbbreviation] M
+[WeekSingular] semana
+[WeekPlural] semanas
+
+[InfluencePointsUnit] inf
+[FoodProductionPointsUnit] pa/sem
+
+[AvailableProjects] Proyectos dispon.
+
+[Upgrading] (Modernizando %NAME%)
+
+[HeavyGravity] Mundo con fuerte gravedad
+[Aquatic] Mundo acuático
+[Toxic] Mundo tóxico
+[Radioactive] Mundo radiactivo
+[Barren] Mundo desértico
+
+[ColonizationAbilityBonus] (Producción %ld%%)
+
+[TABLEEND]
+
+
+[TABLEALIAS PlanetDetailsWnd]
+[Planet_Details_Manager_Title] Detalles planeta
+
+[Planet_Details_Previous_Button] Anterior
+[Planet_Details_Next_Button] Siguiente
+
+[Planet_Details_Stats_Title] Estadísticas
+[Planet_Details_Pop_Title] Población:
+[Planet_Details_Approval_Title] Aprobación:
+[Planet_Details_Starbase_Title] Bonif. bases estelares
+[Planet_Details_Word_Title] La voz de la calle
+[Planet_Details_Projects_Title] Proyectos finalizados
+[Planet_Details_Context_Maintance_Title] Mantenimiento
+[Planet_Details_Location_Title] Ubicación:
+[Planet_Details_Sector_Title] Sector
+[Planet_Details_Prop_Title] Propaganda
+[Planet_Details_Planet_Quality_Title] Categoría del planeta:
+[Planet_Details_Maintenance_Title] Mantenimiento
+[Planet_Details_Revenue_Title] Recaudación:
+[Planet_Details_Total_Defense_Title] Defensa total:
+[Planet_Details_Pollution_Title] Polución:
+[Planet_Details_Population_Title] Población:
+[Planet_Details_Events_Title] Bonificaciones del planeta:
+[Planet_Details_Discription_Title] Descripción del planeta
+[Planet_Details_Stats_Title] Estadísticas planetarias
+[Planet_Details_Prop_Description_Title] Propaganda
+
+[Planet_Details_Stat_Name_Button] Estadística:
+[Planet_Details_CivRank_Button] Clasif. civilización:
+[Planet_Details_GalRank_Button] Clasif. galáctica:
+
+[Planet_Details_Bonuses_Title] Bonificaciones:
+[Planet_Details_Production_Bonus_Title] Producción:
+[Planet_Details_Morale_Bonus_Title] Moral:
+[Planet_Details_Research_Bonus_Title] Investigación:
+[Planet_Details_Economic_Bonus_Title] Economía:
+[Planet_Details_Planet_Quality_Bonus_Title] Categoría del planeta:
+[Planet_Details_Population_Growth_Bonus_Title] Crecimiento de población:
+[Planet_Details_Starship_Bonus_Title] Naves estelares:
+
+[Planet_Details_Options_Title] Opciones del planeta
+[Planet_Details_Gov_Button] Gobernador
+[Planet_Details_Homeworld_Button] Convertir a Planeta natal
+[Planet_Details_Rename_Button] Renombrar planeta
+[Planet_Details_Demolish_Button] Demoler todas las mejoras
+[Planet_Details_Destroy_Button] Destruir colonia
+
+[Planet_Details_Back_Button] Anterior
+[Planet_Details_Done_Button] Hecho
+
+[ClassValue] Clase %lu
+[NoStarbaseBonuses] Sin bonif. por bases estelares
+[NoAFMBBonuses] Sin bonificaciones de bases mineras en campos de asteroides
+[NoPropSpending] No se ha destinado recaudación mensual a sostener la opinión pública:
+[PropSpending] Se han invertido %lu B€$ de la recaudación mensual en mejorar la opinión pública.
+[AllPropSpending] Se ha invertido toda la recaudación mensual (%lu B€$) en mejorar la opinión pública.
+
+[Bonus0] Fabricación
+[Bonus1] Moral
+[Bonus2] Economía
+[Bonus3] Prestigio
+[Bonus4] Defensa
+[Bonus5] Categoría de naves
+[Bonus6] Investigación
+[Bonus7] Resistencia
+
+[SBProduction] Producción/investigación
+[SBInfluence] Influencia
+
+[AFMBMorale] Moral
+[AFMBPopGrowth] Crecimiento de población
+[AFMBResearch] Investigación
+[AFMBIndustrial] Unidades industriales
+
+[FromStarbases] De bases estelares:
+[FromAsteroidFieldMiningBases] De bases mineras en campos de asteroides:
+
+[Industry] Industria
+[Maintenance] Mantenimiento
+
+[Stat_Population] Población
+[Stat_Approval] Índice aprobación
+[Stat_Food] Producción alimentos
+[Stat_Military] Producción militar
+[Stat_Social] Producción social
+[Stat_Research] Investigación
+[Stat_TaxRevenue] Impuestos
+[Stat_Influence] Influencia
+[Stat_Spending] Inversiones
+[Stat_Maint] Mantenimiento
+
+[Of] de
+
+[Age] Edad:
+
+[TABLEEND]
+
+
+[TABLEALIAS InvasionOptionsWnd]
+
+[WindowTitle] Opciones de invasión
+[ListTitle] Tácticas de invasión disponibles
+
+[AttackBtn] Invadir
+[CancelBtn] Cancelar
+
+[Cost] Coste: %lu B€$
+[OurMilitary] De +%lu%% a +%lu%% añadido a nuestro factor de ventaja.
+[TheirMilitary] De -%lu%% a -%lu%% quitado al factor de ventaja enemigo.
+[UnhappyCitizens] De %lu a %lu ciudadanos descontentos se unirán a nuestras filas.
+[PQualPenalty] Reducción de -%lu%% a -%lu%% en la categoría del planeta.
+[ImpPenalty] De %lu%% a %lu%% de todas las mejoras planetarias destruidas.
+[InfPenalty] Reducción de -%lu a -%lu ptos. de influencia planetaria.
+
+[InvasionTitle] %s está invadiendo el planeta %s.
+
+[Troops] Tropas
+[Advantage] Ventaja
+[Morale] Índice aprobación
+
+[AttackingRace] Raza atacante
+[DefendingRace] Raza defensora
+
+[TABLEEND]
+
+[TABLEALIAS InvasionWnd]
+
+[AttackBtn] ATACAR
+[SkipBattleBtn] OMITIR
+[DoneBtn] HECHO
+[ScreenTitle] Invasión de %PLANETNAME%
+
+[Advantage] Ventaja
+[Tech] Tecnología:
+[Offense] Veteranía:
+[Defense] Defensa:
+[Casualties] Bajas:
+[Troops] Tropas:
+
+[InvasionTitle] La nave "%SHIPNAME%" está invadiendo el planeta %PLANETNAME%.
+[vs] contra 
+
+[Thwarted] Invasión fallida
+[Successful] Invasión conseguida
+
+
+[OurTacticsSummary] Al utilizar %s para atacar a nuestro enemigo, nuestro nuevo planeta, %s, ha sufrido los daños siguientes:\n\n
+[TheirTacticsSummary] Aunque han ganado la batalla, atacar con %s ha dañado el hogar del enemigo de las siguientes maneras:\n\n
+[PlanetQualOverview] La categoría del planeta invadido se ha reducido en un %lu por ciento.
+[ImprovementsOverview] En el planeta han resultado destruidas %lu mejora(s) planetaria(s), exactamente.
+[InfluenceOverview] La influencia generada por este mundo ha decrecido en un %lu por ciento.
+
+[TABLEEND]
+
+[TABLEALIAS PlanetContextWnd]
+
+[Population] Población:
+[Approval] Aprobación:
+[Influence] Influencia:
+[Revenue] Recaudación:
+[Spending] Inversiones:
+
+[LaunchBtn] Lanzar nave
+[ShipsInOrbt] Naves en órbita:
+
+[BuildButton] Construir nave
+
+[View] Ver
+
+[Idle] Inactivo
+[Remaining] Semanas
+[NoRoom] Puerto estelar lleno
+[BuildNothing] Sin proyectos
+[ShipsInOrbit] Naves en órbita:
+
+[NoShipYard] No hay astillero
+[BuildingShipYard] Construyendo astillero
+
+[SpeakToButton] Hablar con
+[ReportButton] Informe
+[SpyButton] Espionaje
+
+[TABLEEND]
+
+[TABLEALIAS QuickProjectWnd]
+
+[Title] Lista de construcción rápida
+[Build] Construir
+[Cancel] Cancelar
+[Buy] Comprar
+[BuildNothing] Nada
+[DoneBtn] Hecho
+[StarportFull] Puerto estelar lleno
+
+[AttackTitle] Ataque:
+[DefenseTitle] Defensa:
+
+[Filter0] Todos
+[Filter1] Básicos
+[Filter2] Usuario
+
+[SocialTitle] Mover al principio de la cola:
+[TABLEEND]
+
+[TABLEALIAS ShipContextWnd]
+
+[Details] Detalles
+[Upgrade] Modernizar
+[Construct] Construir
+[Sentry] Patrullar
+[Guard] Vigilar
+[Destroy] Destruir
+[Level] Nivel
+[AddToFleet] Añadir a flota
+[HP] Ptos. impacto
+[BuildMiningBase] Construir
+[ImproveMiningBase] Mejorar
+[AutoImprove] Automatizar
+[StopAutoImprove] Parar auto
+[CancelImprovement] Cancelar
+[UnSentry] No patrullar
+[UnGuard] No vigilar
+
+[Troops] Tropas
+[Colonists] Colonos
+[Soldiers] Soldados
+
+[DestinationUnknown] Destino desconocido
+[NoDestination] Sin destino
+[Destination] Destino:
+
+[Class] Clase:
+[MovesLeft] Movimientos restantes:
+[SensorRange] Alcance del sensor:
+[Range] Autonomía:
+[TradeValue] Valor comercial:
+
+[InfoTooltip] Detalles de nave
+
+[TABLEEND]
+
+[TABLEALIAS ContextWnd]
+
+[AnomalyHeader0] Anomaly Class: Space Junk
+[AnomalyHeader1] Anomaly Class: Meteorite
+[AnomalyHeader2] Anomaly Class: Freeform Gas
+[AnomalyHeader3] Anomaly Class: Starship Graveyard
+[AnomalyHeader4] Anomaly Class: Asteroid
+[AnomalyHeader5] Anomaly Class: Wormhole
+[AnomalyHeader6] Anomaly Class: Civilization Graveyard
+[AnomalyHeader7] Anomaly Class: Planetoid
+[AnomalyHeader8] Anomaly Class: Unexplained
+
+[AnomalyDescription0] Restos de naves naufragadas, materiales de desecho y hasta algún ataúd espacial.\n\nPuede darse el caso de encontrar entre los escombros alguna aleación valiosa.
+[AnomalyDescription1] Pequeños fragmentos desprendidos de una masa de roca de mayor tamaño, los meteoritos alcanzan tamaños entre los 0,05 y los 2 km.\n\nEstas piedras a la deriva por el espacio a menudo contienen elementos valiosos, aunque algunas no son más que pura roca.
+[AnomalyDescription2] Producidas por una fuente desconocida, la sustancia que compone las nubes sigue siendo un misterio hasta que una nave de reconocimiento realice las pruebas pertinentes.
+[AnomalyDescription3] Los restos de una nave abandonada. ¿Un viejo tesoro perdido o simple chatarra espacial?
+[AnomalyDescription4] Un gran pedazo de roca.
+[AnomalyDescription5] Algo realmente escalofriante. ¿Qué raza se atreverá a desvelar sus secretos?
+[AnomalyDescription6] Restos de lo que una vez fue una gran civilización... a veces ricos en tecnología... a veces habitados por monstruos espaciales al acecho.
+[AnomalyDescription7] Un planeta que se ha salido de la órbita de su estrella de origen. ¿Qué recompensas contendrá?
+[AnomalyDescription8] Grietas espaciales y otras singularidades que en ocasiones pueden ayudarnos a comprender diversos aspectos del universo.
+
+[ResourceHeader1] Recurso de influencia
+[ResourceHeader2] Recurso militar
+[ResourceHeader3] Recurso económico
+[ResourceHeader4] Recurso de moral
+[ResourceHeader5] Recurso de investigación
+
+[PlanetsInSystem] Planeta(s) en el sistema
+[HabitablePlanets] Planeta(s) habitable(s)
+[ColonizedPlanets] Planeta(s) colonizado(s)
+[PlanetOwners] Dueño(s):
+[AsteroidFields] Campo(s) de asteroides
+[AsteroidFieldOwners] Dueño del campo de asteroides:
+
+[NumberOfAsteroids] Número de asteroides:
+[AsteroidText] Construye aquí una base para enviar recursos al punto designado.
+[ClosestPlanet] Colonia que recibe la bonif.:
+
+[PlanetClass] Planeta clase:
+[Habitability] Habitabilidad del planeta:
+
+[Uninhabitable] Inhabitable
+[Habitable] Habitable
+[RequiresTech] ( Requiere %s )
+
+[Habitability0] Inhabitable
+[Habitability1] Habitable por todos 
+[Habitability2] Mundo con fuerte gravedad
+[Habitability3] Mundo acuático
+[Habitability4] Mundo tóxico
+[Habitability5] Mundo desértico
+[Habitability6] Mundo radiactivo
+
+[Context_Rename_Button] Renombrar
+[Context_Name_Title] Click para renombrar
+
+[TABLEEND]
+
+[TABLEALIAS OptionsWnd]
+
+[ScreenTitle] Opciones
+
+[ContinueGame] Continuar
+[Quit] Salir
+[SaveBtn] Guardar ráp
+[LoadBtn] Carg/Guar
+[RetireBtn] Abandonar
+[MainMenuBtn] Menú princ.
+
+[Tab1] Partida
+[Tab2] Interfaz
+[Tab3] Sonido
+[Tab4] Vídeo
+
+[On] Sí
+[Off] No
+
+[Video] Opciones de vídeo
+[Multisample] Suavizado de bordes
+[MultisampleOff] No
+[Multisample2X] 2X
+[Multisample4X] 4X
+[MultisampleX] X
+[UseRecommendedMultisample] Se el recomienda suavizado de bordes
+[HardwareMouse] Puntero por hardware
+[Brightness] Brillo
+[Contrast] Contraste
+[AmbientLight] Luz ambiental
+[SpecularIntensity] Intensidad especular
+[SnapBack] Deshacer la rotación
+[ShowTradeRouteLines] Mostrar líneas de rutas comerciales
+[ShowAutoPilotLines] Mostrar líneas de piloto automático
+[ShowAsteroidFieldBonusLines] Mostrar líneas de bonif. de campos de asteroides
+
+[Sound] Sound Options
+
+[MusicVolume] Volumen de la música
+[EventMusicVolume] Volumen de la sintonía de suceso
+[UserDefinedPlayList] Usar lista musical personalizada
+[CurrPlayListDir] Directorio de la lista de reproducción actual
+[CurrentPlayList] Lista de reproducción actual
+[Sfx] Efectos de sonido
+[Music] Música de fondo
+[EventMusic] Sintonía de suceso
+[SFXVolume] Volumen de los efectos de sonido
+[Prompts] Opciones de avisos
+
+[PromptToBuildStarbase] Aviso de construcción de bases estelares
+[PromptToUpgradeStarbase] Aviso de modernización de bases estelares
+[PromptToPayForUpgrade] Aviso de pago de módulo de base estelar
+[PromptToHarvestResource] Aviso de recolección de recursos
+[ImpDonePopup] Notificar cuando se complete una mejora especial
+[ShowAnomalyPopup] Mostrar aviso al encontrar anomalías
+
+[Display] Opciones visuales
+[DrawGrid] Mostrar cuadrícula
+[HardwareMouseCursor] Puntero por hardware
+[EnableToolTips] Mostrar ventanas informativas
+[EnableMods] Usar modificaciones (“mods”)
+[ModsDir] Directorio de "mods"
+[BackgroundStars] Densidad estelar de fondo
+[BackgroundNebulas] Densidad de la nebulosa de fondo
+[EdgeScrollSpeed] Velocidad desplaz. en bordes
+[ZoomSensitivity] Velocidad de Zoom
+[SaveShipDesignsToDisk] Guardar diseños de naves en el disco duro
+
+[SkipInternetAvailableTest] Omitir comprobación de conexión a Internet
+
+[GameOptions] Opciones de juego
+[ShipMovement] Movimiento de naves
+
+[TutorialMode] Activar modo tutorial
+
+[AutoFocus] Activar enfoque automático para mover cámara a nave seleccionada
+[AutoSelectShip] Permitir que el juego seleccione siguiente nave con movimientos
+[AutoTurn] Activar turno automático
+[LoseRemainingMoves] Omitir movimiento sobrante después del pilotaje automático
+[CancelDestinationOnClick] Cancelar destino de la nave con clic izquierdo
+
+[AutoSave] Activar guardado automático
+[TurnsBeforeAutoSaving] Turnos para autoguardado
+[PreviousAutoSave] Guardar anterior autoguardado
+
+[AutoBuild] Construir la misma nave hasta nueva orden
+[GNN] Mostrar noticias de la GNN
+[ShowQuarterlyReport] Mostrar informes trimestrales
+[ViewAttacks] Mover cámara para ver ataques
+[WatchEnemyShips] Vigilar movimiento de naves oponentes
+[WatchAutoPilot] Seguimiento de naves con piloto automático
+[BattleOptions] Opciones de combate
+[ShowShipBattles] Mostrar secuencia de combate
+[ShowAIShipBattles] Mostrar secuencia de combate entre oponentes
+[ShowShipDamage] Mostrar daños en las naves
+[ShowExplosions] Mostrar explosiones
+[SimpleExplosions] Explosiones sencillas
+[QuickBattles]Combates rápidos
+[NoEngineTrails]Desactivar estelas de motor en combates completos
+[BattleType] Duración del combate
+[BattleType0] Combate instantáneo
+[BattleType1] Combate rápido
+[BattleType2] Combate normal
+[BattleType3] Combate completo
+[FullFleetBattles] Combates completos de flotas
+[FullFleetBattlesBothFleets] Mostrar sólo combates de flotas vs flotas
+[AutoPlayFullBattles] Ejecución automática de combates completos
+[AlwaysWatchPlayerShips] Vigilar naves propias durante el combate completo
+[TacticalMapZoom] Nivel de zoom en la vista táctica
+[ShowOrbitingShipInPlanetWhenFighting] Ver naves en órbita en batallas
+
+[ShipBattleSpeed] Velocidad de combate de las naves
+[ShipMoveSpeed] Velocidad de movimiento de las naves
+[ShipTurnSpeed] Velocidad de viraje de las naves
+
+[EmptyQueue] Mostrar sucesos sociales si no hay cola
+[AIMaxCPU] Forzar a la AI a usar al maximo la CPU
+
+[NeedsRestart] Los cambios no tendrán efecto hasta que reinicies Galactic Civilizations II.
+[NeedsRestartTitle] Es necesario reiniciar
+[OptionsNeedingRestart] Opciones que necesitan de reinicio:
+
+[Fullscreen] Pantalla completa
+[Resolution] Resolución
+[CustomResolution] Resolución personalizada
+
+[VideoPresets] Calidad de Video
+[Preset] Escoger una predefinida:
+[VidPreset0] Min.
+[VidPreset1] Baja
+[VidPreset2] Med.
+[VidPreset3] Alta
+[VidPreset4] Máx.
+
+[PerformanceOptions] Rendimiento
+[GfxForceTnL] Sin transformación/iluminación por hardware
+[GfxForceNoTexShips] Desactivar texturas de naves
+[GfxForceNoTexPlanets] Desactivar texturas de planetas/lunas/anillos
+[GfxForceNoTexAnomalies] Desactivar texturas de anomalías
+[GfxForceNoTexResources] Desactivar texturas de recursos
+[GfxForceNoTexStars] Desactivar texturas de estrellas
+[GfxForceNoTexDamage] Desactivar texturas de daño
+[GfxForceNoTexWeaponsDefenses] Desactivar texturas de armas/defensas
+[GfxForceNoTexRallyPoints] Desactivar texturas de puntos de reunión
+[GfxForceNoBump] Desactivar mapas de relieve en naves
+[GfxThrottleFrameRate] Acelerar velocidad de imagen
+[GfxForceNoPointSprites] Desactivar puntos de textura
+[GfxForceNoCityLights] Desactivar alumbrado en caras ocultas de planetas
+[GfxForceNoTexAsteroidFields] Desactivar texturas de campos de asteroides
+[GfxDisableDOF] Desactivar efecto de profundidad de campo en batallas completas
+[AllowMixedVPMode] Permitir modo de procesamiento de vértice mixto
+[GfxUseEnhancedRendering] Usar renderizado mejorado de naves
+[PlanetSurfaceVariety] Variedad superf. planetas (%)
+
+[ShipDesigner] Diseñador de nave
+[RotateParts] Rotar partes
+[RotatePartsOption0] 90 grados
+[RotatePartsOption1] 45 grados
+[RotatePartsOption2] 30 grados
+[RotatePartsOption3] 15 grados
+[RotatePartsOption4] 10 grados
+[RotatePartsOption5] 5 grados
+[RotatePartsOption6] Libremente
+[StripComponentsWhenUpgrading] Quitar componentes al modernizar
+[HideNebulasAndStars] Sin nebulosas ni estrellas en previsualización de naves
+[LevelOfDetailZoomLevel] Detalle de animaciones con zoom
+[ShowShipsInOrbit] Mostrar naves en óbita alrededor de planetas
+[ShowPlanetLaunchDir] Mostrar dirección de lanzamiento cuando se selecciona el planeta
+
+[ScrollToSelectedPlanetInColonyManager] Mover cámara a la colonia seleccionada en la lista
+
+[ScreenShotFormat] Formato de Captura
+[ScreenShotFormatBMP] BMP
+[ScreenShotFormatJPG] JPG
+[ScreenShotFormatTGA] TGA
+[ScreenShotFormatPNG] PNG
+[ScreenShotFormatDIB] DIB
+
+[FlushResourceManager] Elimine texturas inútiles
+
+[TABLEEND]
+
+[TABLEALIAS OptionsModsWnd] 
+
+[CurrentDirLabel] Directorio actual de "mods"
+[ChangeBtn] Cambiar
+
+[GenericDescription] Ésta es una carpeta genérica para las "mods" puntuales.
+[DefaultModName] Genérico
+
+[TABLEEND]
+
+[TABLEALIAS TradeWnd]
+
+[AddBtn] Añadir
+[RemoveBtn] Eliminar
+
+[SendBtn] Enviar
+[ClearBtn] Borrar
+[DoneBtn] Hecho
+[RejectBtn] Denegar
+[Accept] Aceptar
+
+[Money] %lu B€$
+[Influence] %ld punto(s) de influencia
+[We Have] Tenemos
+[They Have] Tienen
+
+[Cancel] Cancelar
+[Done] Hecho
+
+[TreatyPopupHeader] Elige una raza.
+[AmountPopupHeader] Selecciona una cantidad.
+
+[MoneyTitle] Dinero / Influencia
+[TradeGoodsTitle] Bienes comerciales
+[TreatiesTitle] Tratados
+[PlanetsTitle] Planetas
+[TechsTitle] Tecnologías
+[ShipsTitle] Naves estelares
+
+[ReportTitle] Ver informe:
+[NoReport] Videoconferencia
+[TradeReport] Informe de comercio
+[RelationsReport] Informe de relaciones
+[ViewpointReport] Informe general
+[TechReport] Informe de tecnología
+
+[TechsInCommon] Tecnologías que tenemos en común:
+[TreatiesReport] Informe de tratados
+
+[WithThe] con el
+[FromThe] de los
+[Max] Máx.
+
+[ScreenTitle] Comercio
+
+[StarbaseRuleAdd] Añadir la base estelar %s a este trato dará al %s más de 4 bases en el sector %ld, %ld. Esto es inadmisible por motivos de navegabilidad.
+[StarbaseRuleRemove] Quitar la base estelar %s de este trato dará al %s más de 4 bases en el sector %ld, %ld. Esto es inadmisible por motivos de navegabilidad.
+
+[TreatyDesc_Peace] Un Tratado de Paz asegurará la paz entre dos civilizaciones.
+[TreatyDesc_Attack] Un Pacto de Ataque es un acuerdo para declarar la guerra a otra civilización.
+[TreatyDesc_Alliance] Un tratado de Alianza creará una alianza entre ambas civilizaciones.  Si una de las civilizaciones es atacada, la otra debe declarar la guerra a la civilización que haya atacado a su aliado, o romper la alianza.
+[TreatyDesc_MakePeace] Hacer las Paces dará lugar a que una de las civilizaciones haga las paces con otra civilización.
+[TreatyDesc_Surrender] Rendición hara que se rinda una civilización a otra.
+[TreatyDesc_DeclareWar] Declaración de Guerra hará que se declare la guerra a otra civilización.
+[TreatyDesc_BreakAlliance] Romper Alianza hará que se rompa la alianza entre dos civilizaciones.  Las relaciones pueden verse afectadas.
+[TreatyDesc_Economy] Un Tratado Económico compartirá una participación del 10% de la economia de una civilización con la otra.  La economía de la civilización que comparte, no se ve afectada.
+[TreatyDesc_Research] Un Tratado de Investigación compartirá el 10% de los gastos de investigación de una civilización con otra.  Los gastos de investigación de la civilización que los comparte, no se ven afectados.
+[TreatyDesc_BreakEconomy] Romper Tratado Económico cancelará un Tratado Económico que exista entre dos civilizaciones.
+[TreatyDesc_BreakResearch] Romper Tratado de Investigación cancelará un Tratado de Investigación existente entre dos civilizaciones.
+
+
+[Trade_TooOften] Su embajador informa de que están demasiado ocupados para atendernos otra vez tan pronto. Vuelve a intentarlo dentro de un par de meses.
+[Trade_TooOftenDiplomat] Su embajador informa de que están demasiado ocupados para atendernos, pero tu encanto (Supehabilidad de Diplomacia) les ha convencido para hacerte un sitio en su agenda dentro de pocas semanas...
+[Trade_War] Han rechazado nuestra petición de negociación debido al reciente estallido de las hostilidades.
+[Trade_WarDiplomat] Han rechazado nuestra petición de negociación... sin embargo, hemos logrado la forma de encontrarnos con ellos (Superhabilidad de Diplomacia) dentro de pocas semanas.
+
+[NoMoneyForTradePlayer] No hay dinero en la tesorería para comerciar con el %s.
+[NoMoneyForTradePartner] El %s no tiene dinero para comerciar.
+
+[TABLEEND]
+
+[TABLEALIAS BrowseWnd]
+
+[Title] Examinar directorios
+[CurrDirectory] Directorio actual
+[DoneBtn] Hecho
+[CancelBtn] Cancelar
+[DefaultBtn] Predet.
+
+[EmptyModsDir] Actualmente no hay "mods" en este directorio. Usa esta carpeta para guardar "mods" puntuales o de conversión total.
+
+[DefaultDir] Predeterminado
+
+[TABLEEND]
+
+[TABLEALIAS SaveItemWnd]
+
+[NameTitle] Nombre:
+[DetailsTitle] Descripción:
+[OK] Aceptar
+[Cancel] Cancelar
+[SaveAsTemplate] Añadir también este diseño a las plantillas
+
+[TABLEEND]
+
+[TABLEALIAS DomesticWnd]
+
+[Title] Política interior
+
+[Economy] Economía
+[Trade] Comercio
+[Espionage] Espionaje
+[Leases] Plazos y mantenimiento
+
+[DoneBtn] Hecho
+
+[TABLEEND]
+
+[TABLEALIAS EconomicWnd]
+
+DoneBtn] Hecho
+[Approval] Índice aprobación:
+[TaxRateTitle] Nivel de impuestos:
+[SpendingRateTitle] Capacidad industrial:
+[SpendingTitle] Inversiones
+[TaxTitle] Impuestos
+[IncomeTitle] Ingresos:
+[MilitaryTitle] Índice militar:
+[SocialTitle] Índice social:
+[ResearchTitle] Investigación:
+[RevenueTitle] Impuestos:
+[ShareEconomyTreaties] Tratados económicos:
+[SpendingMoneyTitle] Inversión asignada:
+[NetTitle] Ingresos netos:
+[DistributionTitle] Distribución de inversiones:
+[ExpensesTitle] Gastos:
+[Tourism] Turismo:
+[Tribute] Tributos:
+[Starbases] Bonif. prod/inves:
+[EspionageTitle] Gasto en espionaje:
+
+[Taxes] Impuestos:
+[Trade] Comercio:
+[Total] Total:
+
+[Military] Ejército:
+[Social] Social:
+[Research] Investigación:
+[ShipMaintenance] Mantenimiento de naves:
+[Maintenance] Mantenimiento de colonias:
+[Leases] Plazos:
+[Espionage] Espionaje:
+[Destabilization] Desestabilización:
+[StarbaseMaint] Mant. de bases estelares:
+
+[WarTax] Impuesto de los Planetas Unidos por guerra:
+[PlanetTax] Impuesto de los Planetas Unidos por colonia:
+[StarbaseTax] Impuesto de los Planetas Unidos por base estelar:
+[EvilTax] Impuesto de los Planetas Unidos por maldad:
+
+[TABLEEND]
+
+[TABLEALIAS DomesticStatsWnd]
+
+DoneBtn] Hecho
+[ScreenTitle] Estadísticas de interior
+
+[Population] Población:
+[Economy] Economía:
+[Military] Ejército:
+[Technology] Tecnología:
+[Morale] Índice aprobación:
+[Popularity] Popularidad:
+[Treasury] Tesorería:
+[Influence] Influencia:
+[Production] Producción:
+
+[FirstAbbreviation] º
+[SecondAbbreviation] º
+[ThirdAbbreviation] º
+[FourthAbbreviation] º
+[FifthAbbreviation] º
+[SixthAbbreviation] º
+[SeventhAbbreviation] º
+[EighthAbbreviation] º
+[NinthAbbreviation] º
+[TenthAbbreviation] º
+[EleventhAbbreviation] º
+
+[AbilitiesBtn] Habilidad
+[EconomyBtn] Economía
+[MilitaryBtn] Ejército
+[SocietyBtn] Sociedad
+[MiscBtn] Miscelanea
+
+[OverallTitle] Global:
+[OverallRankingTitle] Clasificación
+
+[TotalIncome] Ingresos totales:
+[TaxIncome] Ingresos por impuestos:
+[TradeIncome]Ingresos por comercio:
+[TributeIncome] Ingresos por tributos:
+[Tourism] Ingresos por turismo:
+[TotalExpenses]Gastos totales:
+[MilitaryExpenses] Gastos militares:
+[ShipMaintenance] Mantenimiento de naves:
+[StarbaseMaint] Mant. de bases estelares:
+[SocialExpenses] Gastos sociales:
+[ResearchExpenses] Gastos en investigación:
+[ColonyMaintenance] Mantenimiento de colonias:
+[LeaseExpenses] Total de pagos aplazados:
+[EspionageExpenses] Gastos en espionaje:
+[DestabilizationExpenses] Gastos en desestabilización:
+[IncomeStatLabel] INGRESOS
+[BCPerTurn] B€$/semana
+[ExpensesStatLabel] GASTOS
+[NumTotalShips] Naves en total:
+[NumTransports] Transportes en total:
+[NumSpecialized] Naves especializadas en total:
+[NumAttackers] Naves de ataque en total:
+[NumDefenders] Naves de defensa en total:
+[NumStarbases] Bases estelares en total
+[NumMaintenances] Mantenimiento de naves:
+[MilitaryRanking] Clasificación militar:
+[NumUndefendedColonies] Colonias indefensas en total:
+[NumTradeShips] Naves comerciales en total:
+[Starbases] Bonif. prod./inves.:
+
+[Leader] Líder:
+[Homeworld] Planeta natal:
+[Alignment] Alineamiento:
+
+[Approval] Aprobación:
+[NumOfColonies] Colonias:
+[NumOfUnhappyColonies] Colonias descontentas:
+[Government] Forma de gobierno:
+[PoliticalParty] Facción política:
+[LeadingPoliticalParty] Facción política dominante:
+
+[GovernmentLevel0] Imperio
+[GovernmentLevel1] República
+[GovernmentLevel2] Democracia
+[GovernmentLevel3] Federación estelar
+
+[ResearchProduction] Producción de investigación:
+[CurrentTech] Investigación actual:
+[CurrentTechTimeLeft] Semanas restantes:
+
+[TABLEEND]
+
+[TABLEALIAS DomesticGraphsWnd]
+[DoneBtn] Hecho
+[GraphTitle0] Ejército
+[GraphTitle1] Población
+[GraphTitle2] Moral
+[GraphTitle3] Popularidad
+[GraphTitle4] Economía
+[GraphTitle5] Tesorería
+[GraphTitle6] Influencia
+[GraphTitle7] Producción
+[GraphTitle8] Tecnología
+
+[Label0] Índice de poder militar
+[Label1] Ciudadanos
+[Label2] Índice de poder moral
+[Label3] Índice de poder de popularidad
+[Label4] Índice de poder económico
+[Label5] Índice de poder de tesorería
+[Label6] Índice de poder de influencia
+[Label7] Índice de poder de producción
+[Label8] Índice de poder tecnológico
+
+[None] (Sin contactos)
+
+[CompareAgainst] Comparar estadísticas con...
+[MostPowerful] Raza más poderosa
+[Summary] Resumen
+
+[TopPlayer] Mejores jugadores
+
+[TABLEEND]
+
+[TABLEALIAS TroopLoadingWnd]
+
+[Troops] Tropas
+[Colonists] Colonos
+
+[Done] Hecho
+[Cancel] Cancelar
+
+[Title] Embarcar
+
+[MaxTroops] Población disponible:
+
+[Full] Lleno
+[Empty] Vacío
+
+[TABLEEND]
+
+[TABLEALIAS ResearchWnd]
+
+[DoneBtn] Hecho
+[ArchiveBtn] Archivo
+[AvailableBtn] Disponible
+[ExpandBtn] Más >>
+[ContractBtn] Menos <<
+[ResearchBtn] Investigar
+[Never] Nunca
+
+[ScreenTitle] Investigación
+[ScreenHeader] Selecciona una tecnología a investigar
+[CurrentlyResearching] Investigación actual:
+[AvailableTechs] Tecnologías disponibles:
+[TechTree] Árbol tecnológico:
+[HypotheticalTech] Tecnología hipotética:
+
+[Unknown] DESCONOCIDO
+[TimeLeft] Tiempo restante:
+[TimeToComplete] Tiempo para completar:
+[RequiredTech] Tecnología requerida:
+
+[WeekSingular] semana
+[WeekPlural] semanas
+[TechAlreadyKnown] Tecnología ya conocida
+[Never] Nunca
+
+[SortOption0] Coste
+[SortOption1] Tiempo restante
+[SortOption2] Categoría
+[SortOption3] Prerrequisitos
+[SortOption4] ID
+[SortOption5] Nombre
+
+[ResearchSpending] Gasto en invest.:
+[ResearchTreaties] Tratos de invest.:
+[ResearchTotal] Total:
+
+[TABLEEND]
+
+[TABLEALIAS StarportWnd]
+
+[Title] Puerto estelar
+[Prompt] Elige una nave para construir en este planeta.
+[AvailableTypes] Tipos de naves:
+[ShipDetails] Detalles de la nave:
+[ShipsInOrbit] En órbita:
+[ShipBuildingQueue] Cola de construcción de naves:
+
+[LaunchShip] Lanzar
+[Purchase] Comprar
+[Build] Construir
+[Done] Hecho
+[Shipyard] Astillero
+[ReturnBtn] Ir al planeta
+[RallyPointBtn] Punto de reunión
+
+[WeekAbbreviation] sem
+[Parsecs] Pársecs
+[Weeks] semanas
+[Location] Ubicación:
+[HPUnits] PI
+[ParsecsPerWeek] Parsécs/sem
+[ParsecsAbbreviation] ps
+[SensorUnit] sen
+[RangeUnit] sec
+
+[Population] Población:
+[Influence] Influencia:
+[Approval] Aprobación:
+[Revenue] Recaudación:
+[Spending] Inversiones:
+
+[BuildTime] Tiempo:
+
+[PurchaseComplete] La nave estará disponible la semana que viene.
+[AlreadyPurchased] Ya has comprado la nave.
+[BuildShip] La nave estará completada en %d semanas.
+[BuildShip1] La nave estará completada en 1 semana.
+[BuildShipNever] La nave nunca se completará. Destina más fondos a la producción militar.
+
+[Cancel] Cancelar
+
+[Filter0] Todos
+[Filter1] Básicos
+[Filter2] Usuario
+[Filter3] Mejores
+
+[TABLEEND]
+
+[TABLEALIAS SaveGameWnd]
+
+[DoneBtn] Hecho
+[SaveBtn] Guardar
+[LoadBtn] Cargar
+[DeleteBtn] Borrar
+
+[ScreenTitle] Partidas guardadas
+
+[EnterName] Introduce un nombre para la partida:
+[PleaseSelect] Selecciona la partida a cargar.
+[NothingSelected] No has seleccionado ninguna partida.
+[SaveCompleted] La partida ha sido guardada.
+
+[TABLEEND]
+
+[TABLEALIAS GraphContextWnd]
+
+[Population] Población
+[Military] Ejército
+[Economy] Economía
+[Research] Investigac.
+[Influence] Influencia
+[Production] Industria
+
+[TABLEEND]
+
+[TABLEALIAS ShipYardWnd]
+
+[ScreenTitle] Astillero
+[Prompt] Gestiona los diseños de tus naves.
+
+[AvailableShips] Diseños:
+[ShipDetails] Detalles:
+[Defense] Defensa:
+[Attack] Ataque:
+[Beam] Laser:
+[Missile] Misil:
+[Mass] Cañón:
+[Shield] Escudo:
+[Point] Antimis.:
+[Armor] Blindaje:
+[SpecialAbilities] Habil. especiales:
+
+[DoneBtn] Hecho
+[NewBtn] Nuevo
+[UpgradeBtn] Actualiz.
+[DeleteBtn] Borrar
+[ObsoleteBtn] Obsoleto
+[UseBtn] Usar
+
+[Filter0] Todos
+[Filter1] Básicos
+[Filter2] Usuario
+[Filter3] Mejores
+
+[ShipsTab] Naves
+[TemplatesTab] Plantillas
+
+[TABLEEND]
+
+[TABLEALIAS PurchaseWnd]
+
+[PurchaseShip] Comprar nave
+[PurchaseImp] Comprar mejora
+
+[Buisiness0] Manufacturas Galácticas S. A.
+[Buisiness1] Manufacturas Terran
+[Buisiness2] Constructores Unidos, Inc.
+[Buisiness3] Mitrosoft
+
+[CostInital] %ld B€$
+[CostWeekly] %ld B€$ durante %lu Semanas
+[test] BLA
+[TreasuryAfter] Tesoreria tras la compra:
+[WeeklyAfter] Gastos semanales tras la compra:
+
+[Accept] Aceptar
+[Cancel] Cancelar
+
+[TABLEEND]
+
+[TABLEALIAS CustomRaceWnd]
+
+[SaveBtn] Guardar
+[LoadBtn] Cargar
+[BackBtn] Anterior
+[ClearBtn] Borrar
+[DoneBtn] Hecho
+[NextBtn] Siguiente
+
+[CustomizeRaceTitle] PERSONALIZA TU CIVILIZACIÓN
+[CustomizeOpponentTitle] PERSONALIZA A TU OPONENTE
+
+[Prompt] ¿Con qué tipo de raza te gustaría jugar?
+
+[Homeworld] Planeta natal:
+[LeaderName] Nombre del líder:
+[RaceName] Nombre de raza:
+[RaceDescription] Descripción de la raza:
+[RacePortrait] Retrato de la raza:
+[RaceLogo] Logo de la raza:
+
+[Tab0] Vista general
+[Tab1] Habilidades
+[Tab2] Tecnologías
+[Tab3] Política
+[Tab4] Apariencia
+[Tab5] Personalidad
+[Tab6] Planeta natal
+
+[CustomRaceDefaultString] La raza personalizada es exáctamente como tu la definas.
+
+[NoDescription] Escribe una descripción para mí.
+
+[CustomCivName] Raza personalizada
+[CustomCivHomeworld] Planeta natal personalizado
+[CustomCivLeaderName] Líder personalizado
+[CurrentCustomRace] CurrentCustomRace
+
+[TABLEEND]
+
+[TABLEALIAS SaveRaceWnd]
+
+[ScreenTitle] Guardar/cargar raza personalizada
+[Filename] Nombre del archivo:
+[SaveBtn] Guardar
+[LoadBtn] Cargar
+[DoneBtn] Cancelar
+[DeleteBtn] Borrar
+[PleaseSelect] Selecciona un fichero de configuración de raza.
+[NothingSelected] No hay nada seleccionado.
+
+[TABLEEND]
+
+[TABLEALIAS SetupTechnologiesWnd]
+
+[Title] Selecciona las tecnologías iniciales
+[PointDisplayTitle] Puntos restantes:
+[AddTechnology] Añadir tecnología
+[RemoveTechnology] Quitar tecnología
+[Details] Más detalles
+[Cost] Coste: %d
+[Uncovers] Futuras Investigaciones:
+
+[TABLEEND]
+
+[TABLEALIAS SetupAbilitiesWnd]
+
+[Title] Selecciona las habilidades iniciales
+[PointDisplayTitle] Puntos restantes:
+[Reset] Reinic.
+
+[SpecialAbility] Habilidad especial
+[RaceAbilities]  Habilidades de raza
+
+[InherentAbility] Habilidad inherente de raza
+
+[TABLEEND]
+
+[TABLEALIAS AbilityOptionEntry]
+
+[DescriptionSingular] (+%d %s) cuesta: 1 pto.
+[Description] (+%d %s) cuesta: %d ptos.
+[DefaultUnits] %%
+
+[TABLEEND]
+
+[TABLEALIAS SetupPoliticalPartyWnd]
+
+[ScreenTitle] Selecciona tu facción política
+[RaceAbilities] Habilid. de raza:
+
+[TABLEEND]
+
+[TABLEALIAS SetupAppearanceWnd]
+
+[Title] Selecciona el estilo y los colores de la raza.
+[ShipStyleTitle] Estilo de las naves:
+[ShipColors] Colores de las naves:
+[RaceColors] Colores de la raza:
+
+[Hull] Casco
+[Trim] Adornos
+[Engine] Motor
+[Race] Raza
+[Interface] Interfaz
+[CustomStyle] Crear estilo de naves personalizado
+
+[Style0] Terráqueo
+[Style1] Drengin
+[Style2] Altariano
+[Style3] Arceano
+[Style4] Toriano
+[Style5] Yor
+[Style6] Korx
+[Style7] Drath
+[Style8] Thalano
+[Style9] Iconiano
+[Style10] Korath
+[Style11] Krynn
+
+
+[TALBEEND]
+
+[TABLEALIAS ColorPickerWnd]
+
+[AcceptBtn] Aceptar
+[CancelBtn] Cancelar
+[ScreenTitle] Selecciona un color
+[MixerTitle] Selecciona un color
+
+[TABLEEND]
+
+[TABLEALIAS CustomRaceOverviewWnd]
+
+[ScreenTitle] Vista general
+[RaceAbilities] Habilid. de raza:
+[RaceTechnologies] Tecnologías de la raza:
+[PoliticalParty] Facción política:
+[SpecialAbility] Superhabilidad:
+[Description] Descripción:
+[EditBtn] Editar
+
+[TABLEEND]
+
+[TABLEALIAS DomesticGovernmentWnd]
+
+[ScreenTitle] Formas de gobierno disponibles:
+[SenateTitle] Senado 
+
+[AcceptBtn] Cambiar tipo de gobierno
+[CancelBtn] Hecho
+[DetailsBtn] Mostrar bonif. de facción
+
+[ImperialBtn] Imperio
+[DemocracyBtn] Democracia
+[RepublicBtn] República
+[FederationBtn] Federación
+
+[Imperial] Autoridad imperial
+[ImperialDescription] Al estar todo el poder en manos de un único gobernante, el gobierno con autoridad imperial es el que menos problemas da con los sistemas estelares rebeldes. Todo el mundo te obedece, pero al precio de la expansión económica.
+[ImperialGood] Con el peso de los problemas a tus espaldas, el gobierno con autoridad imperial permite al pueblo llevar una vida fácil. Es improbable que los planetas abandonen tu buen liderazgo, y la moral permanecerá alta. Sin embargo, los frutos del bienestar económico no madurarán hasta que se les dé más voz a los líderes propios de cada planeta.
+[ImperialEvil] Tu férreo control mantiene unido al imperio. Leyes duras y muestras ocasionales de tortura pública mantendrán firmes a tus seguidores. El control de los planetas será sencillo, pero la riqueza no llegará hasta que el poder no se reparta más equitativamente entre los sistemas.
+[ImperialGovBonus] Economía: 0%
+
+[Republic] República
+[RepublicDescription] Se conceden ciertos poderes a los líderes de los planetas, lo cual incrementa la productividad. También cabe una ligera posibilidad de rebelión planetaria.
+[RepublicDescriptionGood] Se conceden ciertos poderes a los líderes de los planetas, lo cual incrementa la productividad. También cabe una ligera posibilidad de rebelión planetaria.
+[RepublicDescriptionEvil] Se conceden ciertos poderes a los líderes de los planetas, lo cual incrementa la productividad. También cabe una ligera posibilidad de rebelión planetaria, que podemos "despachar" si fuera necesario.
+
+[Democracy] Democracia
+[DemocracyDescription] Cada planeta se encarga de resolver la mayoría de sus asuntos. Ser capaces de gobernarse a sí mismos eleva el nivel de producción, pero será más difícil tener al pueblo contento.
+[DemocracyDescriptionGood] Cada planeta se encarga de resolver la mayoría de sus asuntos. Ser capaces de gobernarse a sí mismos eleva el nivel de producción, pero será más difícil tener al pueblo contento.
+[DemocracyDescriptionEvil] Cada planeta se encarga de resolver la mayoría de sus asuntos. Ser capaces de gobernarse a sí mismos eleva el nivel de producción, pero será más difícil tener al pueblo contento. Si saben lo que les conviene, irán por el buen camino...
+
+[Federation] Federación
+[FederationDescription] Se concede a los sistemas estelares libertad de gobierno. La productividad se eleva mucho, pero el Índice aprobación será clave para evitar que los planetas se separen de tu imperio.
+[FederationDesriptionGood] Se concede a los sistemas estelares libertad de gobierno. La productividad se eleva mucho, pero el Índice aprobación será clave para evitar que los planetas se separen de tu imperio.
+[FederationDesriptionEvil] Se concede a los sistemas estelares libertad de gobierno. La productividad se eleva mucho, pero el Índice aprobación será clave para evitar que los planetas se separen de tu imperio.
+
+[GovBonusTitle] Bonificaciones del gobierno
+[SenateBonusTitle] Bonif./penal. del senado:
+
+[UP_PreventsChangeOfGov] Debido a las leyes aprobadas por el consejo de los Planetas Unidos, no se nos permitirá cambiar la forma de gobierno que se nos ha impuesto.
+
+[TABLEEND]
+
+[TABLEALIAS DomesticTradeWnd]
+
+[StatsTitle] Rutas comerciales
+[OverallTitle] Ingr. comercio:
+[MinimapTitle] Mapa de rutas comerciales
+
+[DoneBtn] Hecho
+[KillRoutesBtn] Eliminar ruta
+[ShowAllRoutesBtn] Mostrar todas las rutas
+[MyRoutesBtn] Mostrar mis rutas
+
+[HomePlanet] Planeta de origen:
+[DestPlanet] Destino:
+[Turn] Turno en curso:
+[Value] Valor actual:
+[MaxValue] Valor máximo:
+[Rank] Clasificación:
+[TradingPartner] Comerciar con:
+
+[Open] Abrir
+[Unavailable] No disponible
+
+[TradingPartner] Raza destinataria:
+[DateEstablished] Fecha de fundación:
+
+[Income] Ingresos:
+[RoundTrip] Recorrido:
+[Maintenance] Mantenimiento:
+[Taxation] Impuestos:
+
+[NoRoutes] El comercio interestelar no está disponible hasta que hayas investigado la tecnología de "Comercio". Una vez completada la investigación, pueden crearse rutas comerciales con planetas o civilizaciones amigas.
+[NotInUP] Al abandonar el consejo de los Planetas Unidos pierdes el derecho a comerciar con otras civilizaciones. Todas las rutas comerciales en activo han sido disueltas.
+
+[TABLEEND]
+
+[TABLEALIAS PlanetShipListWnd]
+
+[ShowAll] Todo
+[ShowMine] Míos
+[ShowAliens] Ajenos
+[ShowUnowned] Deshabitado
+[ShowStarbases] Bases estelares
+
+
+[SortByClass] Clase
+SortByHabitability] Habilabilidad
+[SortByName] Nombre
+[SortByIncome] Ingresos
+[SortByExpenses] Gastos
+[SortByMorale] Aprobación
+[SortByPopulation] Población
+[SortByMilitaryTurnsLeft] Turnos militares
+[SortBySocialTurnsLeft] Turnos sociales
+[SortByStarSystem] Sistema estelar
+[SortByMililtaryProduction] Producción militar
+[SortBySocialProduction] Producción social
+[SortByOverallProduction] Producción general
+[SortByResearchProduction] Investigación
+[SortByMilitaryProject] Construcción de naves
+[SortBySocialProject] Construcción de proyectos
+[SortByRallyPoint] Punto de reunión
+[SortBySector] Sector
+[SortByDefended] Se defiende
+
+[Morale] Índice aprobación:
+[Population] Población:
+[Income] Ingresos:
+[Expenses] Gastos:
+
+[FleetSize] Naves en total:
+[Maintenance] Mantenimiento:
+[MilitaryRank] Clasif. militar:
+[NumStarbases] Bases estelares:
+
+[SortByOverallAttack] Ataque total
+[SortByOverallDefense] Defensa total
+[SortByMassDriver] Cañones
+[SortByBeam] Rayos
+[SortByMissile] Misiles
+[SortByArmor] Blindaje
+[SortByShields] Escudos
+[SortByPointDefense] Antimisiles
+[SortByMaxHitPoints] Puntos de impacto máx.
+[SortByHitPoints] Puntos de impacto actuales
+[SortByLevel] Nivel
+[SortByCrew] Tripulación
+[SortByTotalMoves] Movimientos totales
+[SortByMovesLeft] Movimientos restantes
+[SortByCost] Coste
+[SortByMaintenance] Mantenimiento
+[SortByStatus] Estado
+[SortByPlanetOrbiting] En órbita
+[SortBySensorRange] Alcance de los sensores
+[SortByDistanceRange] Autonomía
+[SortByDestinationSector] Destino
+[SortByFleetID] ID de flota
+[SortByStarbase] Base estelar
+
+[TABLEEND]
+
+[TABLEALIAS PlanetListEntry]
+
+[Population] Población:
+[Morale] Aprobación:
+[NoStarport] No un hay puerto estelar en este planeta. No puedes construir naves en él hasta que construyas un puerto estelar.
+[NoStarportHeader] No hay puerto estelar
+[NoShipyard] No hay astillero
+[Nothing] Nada
+[NoRoom] Puerto estelar lleno
+
+[TABLEEND]
+
+[TABLEALIAS ShipListEntry]
+
+[LevelLabel] Nivel:
+[SectorLabel] Sect.:
+
+[TABLEEND]
+
+[TABLEALIAS ForeignWnd]
+
+[ScreenTitle] Política exterior
+
+[Relations] Relaciones
+[Treaties] Tratados
+[Report] Informe
+[MinorRaces] Razas menores
+[Stats] Estadís.
+[UnitedPlanets] Planetas Unidos
+
+[DoneBtn] Hecho
+
+[TABLEEND]
+
+[TABLEALIAS ForeignRelationsWnd]
+
+[Destabilization] Desestabilización:
+
+[Trade] Comercio con nosotros:
+
+[Economy] Economía:
+[Military] Ejército:
+[Relations] Relaciones:
+
+[ScreenTitle] Relaciones exteriores
+
+[ZeroMoney] 0 €$
+
+[TradeEmbargo] Embargo comercial
+[BreakAlliance] Romper alianza
+
+[SpeakTo] Hablar con
+
+[TABLEEND]
+
+[TABLEALIAS ForeignStatsWnd]
+
+[DoneBtn] Hecho
+[ScreenTitle] Estadísticas de exteriores
+
+[LowEspionageNeeded] Se necesita nivel de espionaje bajo
+
+[Population] Población:
+[Economy] Economía:
+[Military] Ejército:
+[Technology]Tecnología:
+[Morale] Aprobación:
+[Popularity] Popularidad:
+[Treasury] Tesorería:
+[Influence] Influencia:
+[Production] Producción:
+
+[FirstAbbreviation] º
+[SecondAbbreviation] º
+[ThirdAbbreviation] º
+[FourthAbbreviation] º
+[FifthAbbreviation] º
+[SixthAbbreviation] º
+[SeventhAbbreviation] º
+[EighthAbbreviation] º
+[NinthAbbreviation] º
+[TenthAbbreviation] º
+[EleventhAbbreviation] º
+
+[AbilitiesBtn] Habilidades
+[EconomyBtn] Economía
+[MilitaryBtn] Ejército
+[SocietyBtn] Sociedad
+[MiscBtn] Misc.
+
+[OverallTitle] General:
+[OverallRankingTitle] Clasificación
+
+[TotalIncome] Ingresos totales:
+[TaxIncome] Ingresos por impuestos:
+[TradeIncome]Ingresos por comercio:
+[TotalExpenses]Gastos totales:
+[MilitaryExpenses] Gastos militares:
+[ShipMaintenance] Mantenimiento de naves:
+[StarbaseMaint] Mantenimiento de bases estelares:
+[SocialExpenses] Gastos sociales:
+[ResearchExpenses] Gastos en investigación:
+[ColonyMaintenance] Mantenimiento de colonias:
+[LeaseExpenses] Total de pagos aplazados:
+[EspionageExpenses] Gastos en espionaje:
+[DestabilizationExpenses] Gastos en desestabilización:
+[IncomeStatLabel] INGRESOS
+[BCPerTurn] mMc/semana
+[ExpensesStatLabel] GASTOS
+[NumTotalShips] Naves en total:
+[NumTransports] Transportes en total:
+[NumSpecialized] Naves especializadas en total:
+[NumAttackers] Naves de ataque en total:
+[NumDefenders] Naves de defensa en total:
+[NumStarbases] Bases estelares en total:
+[NumMaintenances] Mantenimiento de naves:
+[MilitaryRanking] Clasificación militar:
+[NumUndefendedColonies] Colonias indefensas en total:
+[NumTradeShips] Naves comerciales en total:
+[Starbases] Bonif. prod./inves.:
+
+[Leader] Líder:
+[Homeworld] Planeta Natal:
+[Alignment] Alineamiento:
+
+[Approval] Aprobación:
+[NumOfColonies] Colonias:
+[NumOfUnhappyColonies] Colonias descontentas:
+[Government] Forma de gobierno:
+[PoliticalParty] Facción política:
+[LeadingPoliticalParty] Facción política dominante:
+
+[GovernmentLevel0] Autoridad imperial
+[GovernmentLevel1] República
+[GovernmentLevel2] Democracia
+[GovernmentLevel3] Federación estelar
+
+[ResearchProduction] Producción de investigación:
+[CurrentTech] Investigación actual:
+[CurrentTechTimeLeft] Semanas restantes:
+[IntelLevel] Inteligencia:
+
+[TABLEEND]
+
+[TABLEALIAS ForeignReportWnd]
+
+[SpeakTo] Hablar con
+[ScreenTitle] Informe de exteriores
+[DescriptionTitle] Informe de Inteligencia:
+[EventTitle] Sucesos recientes:
+
+[RelationsInfo] Análisis de relaciones:
+[RelationsStatus] Relaciones con nosotros:
+[Factors] Factores de relación:
+[FactorPositive] +
+[FactorNegative] -
+[FactorVeryPositive] ++
+[FactorVeryNegative] --
+[Factor_Military] Nuestra fuerza militar
+[Factor_Diplomacy] Nuestra habilidad diplomática
+[Factor_Trade] Comerciando
+[Factor_Distance] Nuestras fronteras cercanas
+[Factor_Ethics] Nuestro alineamiento ético
+[Factor_RecentWar] Guerra reciente
+[Factor_Influence] Nuestra influencia alarmante
+[Factor_OtherWar] Demasiado ocupados para atreverse a una guerra con nosotros
+[Factor_Militaristic] Belicistas
+[Factor_Racial] Resentimiento racial persistente
+[Factor_AtWar] ¡EN GUERRA!
+[Factor_Friendship] Nuestra amistad histórica
+[Factor_Animosity] Nuestra hostilidad histórica
+[Factor_Trust] "Sabemos lo que estáis haciendo..."
+[Factor_Fear] Nuestra tendencia a conquistar a los demás
+[Factor_Treaty] Tratados que compartimos
+[Factor_Grudge] No confían en nosotros
+[Factor_Help] Aprecian nuestra ayuda en el pasado
+[Factor_Peaceful] Amantes de la paz
+[Factor_Warmonger] Amantes de la guerra
+
+[NoEvents] No hay sucesos de los que informar en este momento.
+[NoEspionage] Poco más se sabe de esta raza. Tendremos que dedicar más fondos a espionaje si queremos enterarnos de algo mínimamente importante.
+
+[TABLEEND]
+
+[TABLEALIAS ForeignTreatiesWnd]
+
+[ScreenTitleFmt] Estadísticas del %s
+[SpeakTo] Hablar con
+[TreatySummary] Resumen de tratados:
+[Alliances] Alianzas
+[War] Guerra
+[Trade] Comercio
+[PeaceTreaty] Tratado de paz
+[Team] Equipo
+[ShareEconomy] Tratado económico
+[ShareResearch] Tratado de investigación
+
+[RelationsWith] Relaciones con...
+
+
+[TABLEEND]
+
+[TABLEALIAS MainGraphWnd]
+
+[Economy] Economía
+[Military] Ejército
+[Population] Población
+[Research] Investigación
+[Manufacturing] Fabricación
+[Production] Producción social
+[Influence] Influencia
+[Morale] Aprobación
+[Popularity] Popularidad
+[Diplomacy] Diplomacia
+[Treasury] Tesorería
+
+[ScreenTitle] Historial
+[Timeline] Cronología
+
+[Legend] Leyenda
+
+[PastMonths] Últ. %lu meses
+[PastWeeks] Últ. %lu semanas
+
+[AvailableGraphs] Historiales disponibles
+
+[ScreenPurposeTitle] Comparación de estadísticas en el tiempo
+
+[MaxBtn] Ver todo
+[MinBtn] Ver mínimo
+[DoneBtn] Hecho
+[AllBtn] Todo
+
+[TABLEEND]
+
+[TABLEALIAS ElectionWnd]
+
+[ScreenTitle] Votación en el senado: elecciones
+[PreambleTitle] Preámbulo
+[SenateTitle] Senado
+[YourPartyTitle] Tu facción:
+[LeadPartyTitle] Facción dirigente:
+[PartyPercent] %lu %
+
+[ElectionTitle] Elecciones al senado
+[PreElectionParagraph] Estamos en año de elecciones, lo que significa que la gente votará a la facción que quiere que le represente.\n\nSi tu facción tiene el control, obtienes bonificaciones a la civilización, mientras que no tenerlo conlleva penalizaciones.
+[KeptControl] Tu facción política sigue teniendo el control del senado.
+[LostControl] Tu facción política ha perdido el control del senado.
+[GainedControl] Tu facción política ha conseguido, afortunadamente, el control del senado.
+[ContinueLack] Tu facción política sigue sin tener el control del senado.
+
+[WarVoteTitle] Votación de la declaración de guerra
+[PreWarVoteParagraph] Se ha convocado esta sesión de votación de emergencia para decidir si debemos entrar en guerra o no contra el %s.
+[GoToWar] Los miembros del senado han votado declararles la guerra al %s.
+[NoWar] Los miembros del senado han votado en favor del %s. No se declarará la guerra.
+
+[ChangeGovernmentVoteTitle] Votación para cambiar el gobierno
+[GovVoteParagraph] El senado se ha reunido para decidir si debemos pasar o no de la %s a la %s como forma de gobierno.
+[ChangeGov] Tras el escrutinio de todos los votos, se ha decidido que la forma de gobierno de la %s será un buen cambio para todo el imperio %s.
+[DoNotChangeGov] Los miembros del senado han hablado. Nuestro sistema de gobierno se quedará como está.
+
+[AbilityModifiers] Bonificaciones-Penalizaciones:
+
+[VoteBtn] Votar
+[DoneBtn] Hecho
+
+[TABLEEND]
+
+[TABLEALIAS StarbaseWnd]
+
+[AcceptBtn] Aceptar
+[CancelBtn] Cancelar
+
+[ScreenTitle] Gestión de bases estelares
+[WhatDoYouWantToBuild] ¿Qué tipo de base estelar quieres construir?
+[ChooseModuleToBuild] Elige un módulo a construir.
+[AvailableModules] Módulos disponibles.
+
+[MilitaryStarbase] Base estelar militar
+[EconomyStarbase] Base estelar comercial
+[CultureStarbase] Base estelar de influencia
+[ResourceStarbase] Base estelar de recursos
+[MiningStarbase] Base estelar minera
+
+[MilitaryStarbaseDescription] Te permite construir módulos que ayudan a las naves en combate.
+[EconomyStarbaseDescription] Te permite construir módulos que ayudan a incrementar los ingresos.
+[CultureStarbaseDescription] Te permite construir módulos que ayudan a extender tu influencia.
+[ResourceStarbaseDescription] Te permite recolectar un recurso espacial.
+[MiningStarbaseDescription] Te permite explotar campos de asteroides.
+
+[AvailableConstructors] Constructores disp.:
+[MaxModules] Módulos máx.:
+[AvailableModules] Módulos disponibles:
+[NotApplicable] N/A
+[InstalledModules] Módulos instalados:
+[TABLEEND]
+
+[TABLEALIAS FleetContextWnd]
+
+[Details] Detalles
+[Manage] Gestión
+[Disband] Disolver
+[Ships] Naves
+[Ship] Nave
+[MovesLeft] Mov. restantes:
+[HitPoints] P. impacto:
+[NoDestination] Sin destino
+[HP] PI:
+[LogisticsTitle] Logística
+
+[TABLEEND]
+
+
+
+[TABLEALIAS InvasionBattleWnd]
+
+[Title] Invasión planetaria
+[DoneBtn] Hecho
+
+[TABLEEND]
+
+
+[TABLEALIAS FleetCombatWnd]
+
+[ScreenTitle] Combate de flotas
+[DoneBtn] Hecho
+[SpeedBtn] Velocidad
+[ReportBtn] Informe
+[StatsTab] Estadísticas
+[ShipsTab] Naves
+[ShowDetails] Mostrar detalles
+[LogAttackTitle] Nave atacante:
+[LogDefendTitle] Nave defensora:
+[StatsTitle] Estadísticas de flota combinada
+[Title] Visor de combate
+[StatsMore] Puntos de impacto:
+[WepTitle] Arm.:
+[DefTitle] Def.:
+[DamageTitle] Daño:
+[Ships] Naves
+[StatBreakdown] %s\nTotal: %lu\nBase: %lu\nAyuda de bases estelares: %lu
+
+[Speed0]1x
+[Speed1]2x
+[Speed2]5x
+[Speed3]10x
+[Speed4]1/2x
+
+[Camera0] Desde arriba 1
+[Camera1] Desde arriba 2
+[Camera2] Seguimiento 1
+[Camera3] Seguimiento 2
+[Camera4] Seguimiento 3
+[Camera5] Seguimiento 4
+[Camera6] Orbitar
+[Camera7] Desde el centro
+[Camera8] Desde el inicio
+[Camera9] Aleatoria
+[Camera10] Desde la nave
+[Camera11] Cinematográfica
+[Camera12] Cámara libre
+
+[BeamTitle] Laser
+[MissileTitle] Misil
+[MassTitle] Cañón
+
+[ShieldTitle] Escudo
+[PointTitle] Antimisil
+[ArmorTitle] Blindaje
+
+[TABLEEND]
+
+[TABLEALIAS FleetReportWnd]
+
+[CombatStats] Estadísticas de combate
+[ShipsLost] Unidades perdidas
+[Victory] Victoria
+[Defeat] Derrota
+[Draw] Empate
+
+[ShotsFired] Disparos efectuados
+[CrewLost] Soldados perdidos
+[DamageInflicted] Daño causado
+[DamageReceived] Daño recibido
+[InitHP] PI iniciales
+[CurrHP] PI finales
+[MaxHP] PI máx.
+[BonusHP] Bonif. PI
+[Attack] Ataque
+[Defense] Defensa
+[BonusAttack] Bonif. ataque
+[BonusDefense] Bonif. defensa
+[StarbaseAttack] Ataque de bases estelares
+[StarbaseDefense]  Defensa de bases estelares
+
+[Shots] Disparos
+[Ships] Naves
+[Crew] Soldados
+
+[TABLEEND]
+
+[TABLEALIAS HeadlineWnd]
+
+[DoneBtn] Hecho
+[ResearchComplete] Investigación finalizada
+[NewImprovments] Nuevas mejoras
+[NetworkTitle] Galactic News Network
+[Perfected] Perfeccionado
+
+[TABLEEND]
+
+[TABLEALIAS ShipDetailsWnd]
+
+[SweepBtn] Exploración [W]
+[RetreatBtn] Retirada auto. [R]
+[RallyBtn] P. de reunión [T]
+[GuardBtn] Vigilar [G]
+[SentryBtn] Patrullar [S]
+[SurveyBtn] Reconocimiento [A]
+[AttackBtn] Ataque auto. [K]
+[DisbandBtn] Desmantelar
+[IntelBtn] Inf. inteligencia
+[DoneBtn] Hecho
+
+[ConstructBtn] Construir
+[UpgradeBtn] Modernizar
+
+[BuildMiningBaseBtn] Construir
+[ImproveMiningBaseBtn] Mejorar
+[AutoImprove] Automatizar
+[StopAutoImprove] Parar Autom.
+[CancelImprovement] Cancelar
+
+[DestinationTitle] Destino de la nave:
+
+[DefenseTitle] Defensa:
+[HPTitle] P. impacto:
+[AttackTitle] Ataque:
+[SpeedTitle] Velocidad:
+[TroopsTitle] Tropas:
+[ColonistsTitle] Colonos:
+[DescriptionTitle] Descripción:
+[DialogTitle] Detalles de la nave
+
+[Mil] Mil.
+
+[BeamShort] R
+[MissileShort] M
+[ProjectileShort] C
+[ShieldShort] E
+[PointDefenseShort] A
+[ArmorShort] B
+
+[SpeedUnit] vel
+[RangeUnit] sec
+[SensorUnit] sen
+
+[HitPoints] P. impacto:
+[RangeTitle] Autonomía:
+[SensorRangeTitle] Sensores:
+[XPTitle] Experiencia:
+[LevelTitle] Nivel:
+
+[Attack] Ataque
+[Defense] Defensa
+
+[MaintenanceTitle] Mantenim.:
+
+[HullSize] Tamaño del casco:
+[ShipComponenets] Componentes de la nave:
+
+[ShipsInFleet] Naves en la flota:
+
+[TABLEEND]
+
+[TABLEALIAS StackedShipsWnd]
+
+[Title] Naves agrupadas:
+
+[CreateFleetBtn] Crear flota
+[DetailsBtn] Detalles
+[MoreBtn] Más...
+
+[Logistics] Logística:
+[Of] De
+
+[InvalidShip] Las flotas no pueden incluir cargueros asignados a rutas comerciales ni bases estelares. Deselecciona las naves que no sean válidas.
+[FleetOfOne] Para formar una flota debe haber al menos dos naves válidas seleccionadas.
+[FleetSize] El total de puntos de logística de las naves seleccionadas no pueden exceder el total de tu habilidad logística.
+[InvalidFleet] La flota no es válida
+
+[HP] PI
+[MovesLeft] Movimientos:
+
+[TABLEEND]
+
+[TABLEALIAS AlienMsgWnd]
+[DoneBtn] Hecho
+[SpeakToBtn] Hablar con
+[TABLEEND]
+
+[TABLEALIAS GNNWnd]
+
+[DoneBtn] Hecho
+[GotoBtn] Ir a
+
+[OptionLabel] Mostrar GNN
+[StoriesTitle] ¡Última hora!
+[SpecialTitle] Habilidades especiales:
+
+[ImprovementComplete] Mejora completada
+[ShipComplete] Nave completada
+[ShipCombat] Combate de naves
+[ShipCombatEntry] Combate: %s
+[Invasion] Invasión planetaria
+[InvasionEntry] Invasión planetaria\n[%s]
+[InvasionWin] El %s ha conquistado el planeta %s del %s.
+[InvasionLose] El %s no ha conseguido conquistar el planeta %s del %s.
+[DeclareWar] Declaración de guerra
+[WeDeclareWar] Le hemos declarado la guerra al %s.
+[TheyDeclareWar] El %s nos ha declarado la guerra.
+[OtherDeclareWar] El %s ha declarado la guerra a al %s.
+[MakePeace] Tratado de paz
+[WeMakePeace] Hemos firmado un tratado de paz con el %s.
+[TheyMakePeace] El %s ha firmado un tratado de paz con nosotros.
+[OtherMakePeace] El %s ha firmado un tratado de paz con el %s.
+[Surrender] Rendición
+[WeSurrender] Nos hemos rendido al %s.
+[TheySurrender] El %s se ha rendido ante nosotros.
+[OtherSurrender] El %s se ha rendido ante el %s.
+[AgentAvailable] Agente disponible!
+[AgentDetected] Agente extranjero detectado
+[AgentNullified] Nuestro agente en %s ha sido anulado por el %s.
+
+
+[IsAWonder] * Es una maravilla, única en toda la galaxia.
+[IsASuperProject] * Es un superproyecto, sólo cabe uno por raza.
+[IsATradeGood] * Es un bien comercial, los derechos comerciales son exclusivos del constructor.
+
+[TABLEEND]
+
+[TABLEALIAS CampaignWnd]
+
+[ContinueBtn] Continuar
+[CancelBtn] Cancelar
+
+[ScreenTitle] Campaña
+[SelectPrompt] Seleccionar campaña
+[RestartCampaign] Reiniciar campaña
+[RestartMission] Reiniciar misión
+[ContinueMission] Continuar campaña
+
+[NothingSelected] Selecciona una opción.
+
+[Status] Estado de la campaña:
+[Mission] Misión en curso:
+
+[TABLEEND]
+
+[TABLEALIAS Units]
+[Weeks] semanas
+[TimeUnit] sem
+[RangeUnit] sec
+[SensorUnit] sen
+[SpeedUnit] vel/sem
+[HPUnit] PI
+[Money] B€$
+
+[His] su
+[Her] su
+[Him] de él
+[He]  él
+[she] ella
+[Sir] sir
+[Maam] ma'am
+
+[ManufacturingUnit] fa
+
+[pts] ptos.
+[Mpts] Movs.
+[Techs] Tecnologías
+[Ships] Naves
+[Soldiers] Soldados
+[Percent] por ciento
+[PercentSign] %
+[Citizens] Ciudadanos
+[bcweek]  B€$/semana
+[bcmonth] B€$/mes
+
+[TABLEEND]
+
+[TABLEALIAS StarbaseDetailsWnd]
+
+[DoneBtn] Hecho
+[IntelBtn] Inf. inteligencia
+
+[DefenseTitle] Defensa:
+[HPTitle] P. impacto:
+[AttackTitle] Ataque:
+[SpeedTitle] Velocidad:
+[InstalledModulesTitle] Módulos instalados:
+[DialogTitle] Detalles de la base estelar
+
+[SpeedUnit] vel
+[RangeUnit] sec
+[SensorUnit] sen
+
+[HitPoints] P. impacto:
+[RangeTitle] Autonomía:
+[SensorRangeTitle] Sensores:
+[XPTitle] Experiencia:
+[LevelTitle] Nivel:
+
+[Attack] Ataque
+[Defense] Defensa
+
+[MaintenanceTitle] Mantenim.:
+
+[MilitaryStarbase] Base estelar militar
+[EconomyStarbase] Base estelar comercial
+[CultureStarbase] Base estelar de influencia
+[MiningStarbase] Base estelar minera
+[ResourceStarbase] Base estelar de recursos
+
+[BuildMgr] Manejo de la Est. del Terror
+[BuildPriority] Auto-const. por prioridad.
+[ModulesListbox] Prioridad de const. Módulos
+
+[TABLEEND]
+
+[TABLEALIAS RallyPointWnd]
+
+[CancelBtn] Cancelar
+[SetBtn] Fijar
+[DisbandBtn] Disolver
+
+[RallyPointWndSet] Fijar punto de reunión
+[RallyPointWndAssign] Asignar punto de reunión
+
+[DescriptionSet] Descripción de punto de reunión
+[DescriptionAssign] Descripción de punto de reunión
+
+[ChoosePromptSet] Elegir tipo de punto de reunión
+[ChoosePromptAssign] Elegir destino de punto de reunión
+
+[None] Ninguno
+[NoRallyPoint] Punto de reunión sin asignar
+[Home] Origen
+
+[RallyPointType0] Normal
+[RallyPointType1] Flota
+[RallyPointType2] Ataque automático
+
+[RallyPointTypeDescription0] Normal: Lugar de reunión básico para las naves. Permanecerán allí hasta nueva orden.
+[RallyPointTypeDescription1] Flota: Las naves forman una flota automáticamente según llegan.
+[RallyPointTypeDescription2] Ataque automático: Las naves que llegan a este punto de reunión entran al instante en modo de ataque automático.
+
+
+[TABLEEND]
+
+[TABLEALIAS SummaryWnd]
+
+[Title] Resumen de final de partida
+[OverviewBtn] Vista general
+[DoneBtn] Hecho
+[SummaryBtn] Resumen
+[TechBtn] Tecnología
+[MilitaryBtn] Ejército
+[EconomyBtn] Economía
+[SocialBtn] Social
+[TimelineBtn] L. temporal
+[EpicBtn] Cronología
+
+[TABLEEND]
+
+[TABLEALIAS SummaryOverviewWnd]
+
+[Victory] Victoria
+[Defeat] Derrota
+[DemoOverTitle] Fin de la demostración
+[TotalScore] Puntuación total
+
+[StoryLostQuick] A lo largo de las eras, la galaxia ha sido escenario de acontecimientos extraordinarios, pero ninguno tan singular como la prematura extinción del %s. Aniquilados antes de que pudieran andar a gatas, el %s se ha convertido en una de las primeras víctimas desafortunadas de la carrera por la supremacía universal. Tal vez habría sido prudente por parte de su líder, el emperador %s, haber consultado el foro www.GalCiv2.com en busca de consejo. Pero nunca sabremos el porqué del abrupto fin del pueblo %s.
+[StoryMilitaryVictory] Regando el camino a la victoria con la sangre de sus enemigos, el pueblo %s ha salido victorioso de la competición galáctica. Su puntuación, muy probablemente, quedará inscrita en el metaverso, como inspiración a los futuros líderes en los años venideros. A hombros de sus tropas, el emperador %s será elevado y recordado como el mayor líder de la galaxia, portador de la cultura de su nación a los rincones más remotos del espacio... sin importar quién se cruce en su camino.
+[StoryAlliancesVictory] Nuestra civilización ha conseguido una victoria diplomática verdaderamente notable. Gracias a una serie de tratados, toda la galaxia está unida ahora de forma pacífica. Quién sabe qué grandes logros puede conseguir la galaxia unida. ¡Felicidades por una gran victoria para tu pueblo y para el resto de la galaxia!
+[StoryCulturalVictory] Hemos conquistado la galaxia. Los del %s no hemos ganado con armas, sino con ideas. Durante siglos, nuestros alimentos, tejidos y filosofía han ganado la batalla de las ideas. Aunque formalmente no controlamos la galaxia en ningún sentido legal o militar, nadie podría concebir un día en el que la galaxia pensara siquiera en no doblegarse a nuestra voluntad. La galaxia se fija en nosotros para progresar hacia el futuro. Sin nuestras diversiones y nuestro último grito en, nuestros restaurantes y nuestros centros de vacaciones, la vida les parecería vacía y sin sentido. Hemos logrado una victoria cultural. ¡Enhorabuena, %s!
+[StoryCulturalDefeat] Hemos sufrido una derrota cultural.\n\nLa juventud empezó a vestir ropas al estilo del %s. Los padres y los políticos pusieron el grito en el cielo. Con los años, los espectáculos a los que íbamos, los deportes a los que jugábamos, la comida que comíamos y las cosas que bebíamos parecían venir del %s.\n\nFue algo lento, sutil. ¿Quién podría decir el día en el que nuestra cultura dejó de ser nuestra? Nuestras filosofía, concepción de la vida y forma de vivir fueron totalmente influidas desde un lugar muy lejano. Nuestro pueblo, como el resto de la galaxia, no puede imaginar un mundo en el que el %s no forme parte de la vida diaria.\n\nAunque no estamos unidos a ellos oficialmente, de hecho, somos sus vasallos.\n\nEste mensaje es una gentileza de Slurm Cola. La principal bebida del %s y, por lo tanto, de toda la galaxia.
+[StoryTechWin] Los científicos del %s, sucesores de aquellos pioneros que llevaron el hiperimpulso a la galaxia, nos traen ahora el logro tecnológico definitivo. Han llevado la evolución de nuestra raza más allá de la barrera que separa al hombre de los dioses.
+[StoryTechLoss] Los científicos del %s han hecho que el invento del hiperimpulso parezca tan sencillo como el mecanismo de un botijo. Han utilizado su conocimiento tecnológico superior para controlar la evolución de su pueblo, ahora convertidos en dioses. Todos se estremecerán ante su grandeza. 
+[DemoOver] ¿Sabes eso que dicen de que el tiempo y el espacio son infinitos? Pues en esta demostración, no. Hasta aquí has conseguido sobrevivir. Tal vez, si tuvieras la versión completa, habrías llevado a nuestra raza a conquistar toda la galaxia. Bueno, ¿te vas a pasar el resto de tu vida preguntándote lo que pudo haber sido o vas a conseguir la versión completa y averiguarlo? ¡Pídelo ya por Internet o en tu tienda habitual!
+[StoryRetire] Cansado de las contiendas e intrigas que inevitablemente conlleva el gobierno de un gran imperio, el emperador %s ha dejado las riendas del poder. El futuro del %s es ahora más incierto que nunca, pues carecen de liderazgo y las demás civilizaciones miran con codicia sus posesiones. Pero eso ya es otra historia...
+[StoryLost] El pueblo %s... una civilización sabia y duradera. Gracias al liderazgo del emperador %s, fueron una raza que aguantó hasta el final. Llegaron hasta donde otros no podrían, hicieron frente al poderoso %s hasta perder la última batalla y el último hombre. La historia del %s es una historia de amor y odio, de la eterna lucha por el éxito. Una historia que perdurará a lo largo de los años; pero, por desgracia, una historia que acabó tristemente.\n\n¿Y si la próxima vez probamos algo un poco menos difícil?
+
+[TABLEEND]
+
+[TABLEALIAS SummaryTableWnd]
+
+[SocietyScore] Puntuación de sociedad
+[TechScore] Puntuación de tecnología
+[EconomyScore] Puntuación de economía
+[MilitaryScore] Puntuación de ejército
+[OverallScore] Puntuación general
+
+[TechsResearched] Tecnologías investigadas
+[TechsStolen] Tecnologías robadas
+[MostTimeIntensive] Más tiempo en tecnología intensiva
+[MostProductive] Colonia más productiva en investigación
+
+[EnemyShipsDestroyed] Naves enemigas destruidas
+[PersonalShipsDestroyed] Naves propias destruidas
+[MostPowerfulShip] Nave más poderosa
+[SoldiersKilled] Soldados muertos en combate
+
+[AvgMonthlyIncome] Ingresos medios mensuales
+[MostProfitable] Mes más provechoso
+[CashLost] Dinero perdido en plazos y tributos
+[AvgTaxRate] Nivel medio de impuestos
+
+[MostPopulous] Planeta con mayor población
+[HappiestPlanet] Planeta más satisfecho
+[AvgApproval] Índice aprobación medio
+[MostInfluentialPlanet] Planeta más influyente
+
+[NotApplicable] N/A
+
+[Approval] aprobación
+
+[TABLEEND]
+
+[TABLEALIAS SummaryGraphWnd]
+
+[Military] Ejército
+[Population] Población
+[Research] Investigación
+[Manufacturing] Fabricación
+[Influence] Influencia
+
+[TABLEEND]
+
+[TABLEALIAS SummaryEpicWnd]
+
+[EpicTitle] Cronología
+
+[TABLEEND]
+
+[TABLEALIAS GovernorWnd]
+
+[DialogTitle] Gobernador
+[DoneBtn] Hecho
+
+[AutoUpgradeImprovements] Modernización automática de mejoras en cuanto estén disponibles
+[AutoTerraform] Terraformación automática en cuanto se disponga de la tecnología
+
+[TABLEEND]
+
+
+
+[TABLEALIAS MetaverseURLs]
+[MetaversePost] http://metaverse.galciv2.com/rpc.axd
+[MetaverseAddCharacter] http://metaverse.galciv2.com/index.aspx?g=char&cmd=add
+[MetaverseCreateAccount] http://www.galciv2.com/login.aspx
+[MetaverseManager] http://metaverse.galciv2.com
+[TABLEEND]
+
+
+[TABLEALIAS MetaverseLoginWnd]
+
+[WindowTitle] Iniciar sesión en el metaverso
+
+[Description] Juega con uno de tus personajes en el metaverso y deja tus mejores partidas en Internet. Para empezar, inicia sesión mediante tu cuenta de Stardock.net.
+
+[EnterPassword] Introduce la contraseña para este alias en el metaverso.
+
+[UserName] Alias:
+[Password] Contraseña:
+
+[LoginBtn] Iniciar sesión
+[BackBtn] Volver
+[CreateAccountBtn] Crear cuenta
+
+[CreateAccount] ¿Necesitas una cuenta de Stardock.net?
+
+[ErrorUnexpectedServerResponse] El servidor del metaverso no responde. Por favor, vuelve a intentarlo más tarde.
+[ErrorMetaverseLoginFailure] El servidor del metaverso ha rechazado el nombre de usuario y la contraseña que has proporcionado. Vuelve a introducirlos y prueba de nuevo.
+[ErrorMetaverseTokenExpired] Se ha cerrado la conexión con el servidor del metaverso. Para conectar de nuevo, vuelve a introducir tu nombre de usuario y contraseña.
+[ErrorNoInternetConnection] Es posible que la conexión con Internet no esté establecida. Verifica que el ordenador esté conectado a Internet e intenta iniciar la sesión otra vez.
+[ErrorMetaverseTimeout] La transacción con el servidor ha tardado mucho en completarse y se ha cancelado.
+
+[TABLEEND]
+
+
+[TABLEALIAS MetaverseConnectProgressDlg]
+
+[ConnectingTitle] Conectando con el metaverso
+[InProgressMessage] Espera, por favor...
+
+[TABLEEND]
+
+
+[TABLEALIAS MetaversePostProgressDlg]
+
+[PostingTitle] Enviando al metaverso
+[InProgressMessage] Espera, por favor...
+
+[TABLEEND]
+
+
+[TABLEALIAS MetaversePostGameOutcomeDlg]
+
+[AskToPostMessage] ¿Te gustaría publicar los resultados de esta partida en el metaverso?
+[AskToRetryMessage] ¿Quieres intentar publicar tus resultados otra vez?
+
+[ErrorExpiredLoginTokenMessage] La conexión con el servidor del metaverso ha expirado.
+[ErrorBadLoginCredentialsMessage] El servidor del metaverso ha rechazado el nombre de usuario y contraseña.
+[ErrorNoInternetConnectionMessage] Es posible que la conexión con Internet no esté establecida.
+[ErrorTimeoutMessage] La transacción con el servidor ha tardado mucho en completarse y se ha cancelado.
+
+[ErrorNegativeScore] La partida enviada ha sido rechazada debido a un total de puntos negativo.
+[ErrorSerialNumberProblem] La partida enviada ha sido rechazada porque el número de serie de la aplicación no se corresponde con el número de serie en el servidor del metaverso.
+[ErrorGameAlreadySubmitted] La partida enviada ha sido rechazada porque ya había sido enviada al metaverso.
+[ErrorServerDatabaseError] La partida enviada ha sido rechazada por un error interno del servidor del metaverso.
+
+[ErrorGenericFailureMessage] Es posible que los resultados de esta partida no se publiquen en el metaverso.
+
+[TABLEEND]
+
+
+[TABLEALIAS MetaverseCreateCharacterDlg]
+
+[AskToCreateCharacterMessage] Antes de jugar una partida en el metaverso, tienes que crear un personaje en él. ¿Quieres crear ahora un personaje en el metaverso?
+
+[TABLEEND]
+
+
+
+
+[TABLEALIAS MetaverseWnd]
+
+[WindowTitle] Partida del metaverso
+
+[CharacterSectionTitle] Información del personaje:
+[CharacterNameTitle] Nombre del personaje:
+[CharacterRaceTitle] Nombre de la raza:
+[CharacterScoreTitle] Puntuación media:
+[CharacterRankTitle] Clasificación:
+[CharacterGamesTitle] Partidas jugadas:
+[CharacterMoralityTitle] Alineamiento medio:
+[CharacterDifficultyTitle] Dificultad media:
+
+[EmpireSectionTitle] Estadísticas del imperio:
+[EmpireNameTitle] Imperio:
+[EmpireRankTitle] Clasificación del imperio:
+[EmpireControlTitle] Control de la galaxia por el imperio:
+[EmpireWebsiteTitle] Página Web del metaverso:
+
+[NullEmpireName] <No en un imperio>
+[NullEmpireData] N/A
+[NullRanking] Sin clasificar
+
+[MedalsSectionTitle] Medallas:
+
+[PlayBtn] Jugar
+[BackBtn] Volver
+[ChangeBtn] Crear personaje
+[MetaverseManagerBtn] Gestor del metaverso
+[RefreshBtn] Actualizar
+
+[TABLEEND]
+
+[TABLEALIAS AlertWnd]
+
+[DoneBtn] Hecho
+
+[TABLEEND]
+
+[TABLEALIAS AchievementWnd]
+
+[DoneBtn] Hecho
+
+WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se podría calificar incluso de maravilla galáctica. No se pueden construir más portentos "%s".
+[AchievementBuilt] Nos llega noticia de que el %s ha construido el logro: %s.
+[TradeGoodBuilt] El Ministerio de Comercio se complace en informar de que el %s ha desarrollado un nuevo bien comercial: %s. Tienen el control exclusivo de su distribución y está prohibida la vulneración de su monopolio.
+
+[WonderBuiltTitle] ¡Logro galáctico completado!
+[WonderBuiltHeadline] ¡Ha llegado una nueva era para la galaxia!
+[AchievementBuiltTitle] ¡Logro galáctico creado!
+[AchievementBuiltHeadline] ¡Ha llegado una nueva era para la galaxia!
+[TradeGoodBuiltTitle] ¡Nuevo producto comercial!
+[TradeGoodBuiltHeadline] ¡Ha llegado una nueva era para la galaxia!
+
+
+[BreakingNews] ¡Gran descubrimiento en el planeta %s!
+
+[TABLEEND]
+
+[TABLEALIAS CivManagerWnd]
+[Title] Gestor civilización
+[Description] Gestiona y supervisa el estado de tu civilización en la galaxia.
+[PlanetDetails] Colonias
+[GraphsTimeline] L. temporal
+[GovEthics] Gobierno y ética
+[EventTab] Eventos
+[VictoryStatus] Victoria
+[Done] Hecho
+[Governors] Gobernadores
+[StatsAndGraphs] Estad. y gráficos
+
+
+[TABLEEND]
+
+[TABLEALIAS CivManagerListWnd]
+
+[CivManager_Button_Filter_0] Colonia
+[CivManager_Button_Filter_1] Clase
+[CivManager_Button_Filter_2] Ejército
+[CivManager_Button_Filter_3] Social
+[CivManager_Button_Filter_4] Investigación
+[CivManager_Button_Filter_5] Aprobac.
+[CivManager_Button_Filter_6] En construcción
+[CivManager_Button_Filter_7] Puerto estelar
+[CivManager_Button_Filter_8] Población
+[CivManager_Button_Filter_9] Ingresos
+
+[NoStarport] -
+[TABLEEND]
+
+
+[TABLEALIAS CivManagerEventWnd]
+
+[CivManager_Button_Filter_0] Fecha
+[CivManager_Button_Filter_1] Tipo
+[CivManager_Button_Filter_2] Descripción
+
+[MainEventFilter0] Planetas
+[MainEventFilter1] Investigaciones
+[MainEventFilter2] Naves
+[MainEventFilter3] Comunicaciones
+[MainEventFilter4] Guerra y paz
+[MainEventFilter5] Muerte
+[MainEventFilter6] Mercado
+[MainEventFilter7] Espías
+
+[TABLEEND]
+
+
+[TABLEALIAS CivManagerGovernmentWnd]
+
+[Government] Gobierno
+
+[PoliticalParty] Facción política
+
+[EthicAlignment] Alineamiento ético
+
+[Bonus] Bonificaciones:
+[Penalties] Penalizaciones:
+[Description] Descripción:
+
+[PoliticalPenaltyDesc] Por desgracia, la facción de los %s tiene actualmente la mayoría en el senado. Tendrás que sufrir penalizaciones hasta que tu facción retome el control.
+[PoliticalBonusDesc] ¡Felicidades! Tu facción política tiene la mayoría en el senado. Esto te permite beneficiarte de las bonificaciones que ofrece tu facción.
+[PoliticalBonusDictatorDesc] Tu facción política tiene el control del gobierno. Esto te permite beneficiarte de las bonificaciones que ofrece tu facción.
+
+[NextElectionPlural] Las próximas elecciones tendrán lugar dentro de %ld semanas.
+[NextElectionSingular] Las próximas elecciones tendrán lugar la semana que viene.
+[NextElectionNow] Las próximas elecciones tendrán lugar al finalizar esta semana.
+
+[AlignmentBonuses0] + Los ciudadanos son más leales y menos propensos a cambiar de bando si sus colonias se encuentran bajo la influencia de un oponente.\n+ Los cinco planetas más poblados no pagan costes de mantenimiento por su colonia inicial.\n+ Los ingresos por comercio con otras civilizaciones benignas gozan de un incremento del 25%.\n+ Se obtiene una bonificación a la habilidad diplomática al tratar con otras civilizaciones benignas.\n+ Las tecnologías particulares incluyen defensas superiores.\n+ El logro galáctico "Templo de la Virtud" sólo está disponible para las civilizaciones benignas.
+[AlignmentBonuses1] + Los ciudadanos son más leales y menos propensos a cambiar de bando si sus colonias se encuentran bajo la influencia de un oponente.\n+ Los cinco planetas más poblados no pagan costes de mantenimiento por su colonia inicial.\n+ Los ingresos por comercio con otras civilizaciones benignas gozan de un incremento del 25%.\n+ Se obtiene una bonificación a la habilidad diplomática al tratar con otras civilizaciones benignas.\n+ Las tecnologías particulares incluyen defensas superiores.\n+ El logro galáctico "Templo de la Virtud" sólo está disponible para las civilizaciones benignas.
+[AlignmentBonuses2] + Los ciudadanos están más contentos, y se aplica una bonificación a la aprobación.\n+ Obtienes un descuento cuando compras directamente una nave en lugar de fabricarla.\n+ Las casillas susceptibles de modernización están disponibles inmediatamente.\n+ Se aplica una bonificación a las invasiones terrestres contra todos los alineamientos que no sean neutrales.\n+ Las tecnologías particulares incluyen más armas y tecnologías defensivas.\n+ El logro galáctico "Templo de la Neutralidad" sólo está disponible para las civilizaciones neutrales.
+[AlignmentBonuses3] + No hay costes por modernizar una base estelar.\n+ Los proyectos de centros de propaganda hacen a los planetas menos susceptibles a la rebelión.\n+ Los proyectos de Policía Secreta mejoran el nivel de aprobación de una colonia.\n+ Las rutas comerciales de las demás civilizaciones pagan 1 B€$ por cada turno que gasten dentro de la esfera de influencia de una civilización maligna.\n+ Las tecnologías particulares incluyen armas superiores.\n+ El logro galáctico "Templo del Mal" sólo está disponible para las civilizaciones malignas.
+[AlignmentBonuses4] + No hay costes por modernizar una base estelar.\n+ Los proyectos de centros de propaganda hacen a los planetas menos susceptibles a la rebelión.\n+ Los proyectos de Policía Secreta mejoran el nivel de aprobación de una colonia.\n+ Las rutas comerciales de las demás civilizaciones pagan 1 B€$ por cada turno que gasten dentro de la esfera de influencia de una civilización maligna.\n+ Las tecnologías particulares incluyen armas superiores.\n+ El logro galáctico "Templo del Mal" sólo está disponible para las civilizaciones malignas.
+[AlignmentBonuses99] Sin bonificaciones
+
+[AlignmentDescription0] Tu civilización es benigna pura y siempre va en pos de la honradez y la justicia en todo. Hasta la propia idea del mal le desagrada.
+[AlignmentDescription1] Tu civilización es benigna y siempre trata de hacer lo correcto en toda circunstancia. Se esfuerza en ser un ejemplo para todas las demás civilizaciones de la galaxia.
+[AlignmentDescription2] Tu civilización es neutral y siempre sopesa los pros y contras de cada situación y elige la solución que parece proporcionar el mejor resultado.
+[AlignmentDescription3] Tu civilización es maligna y piensa únicamente en su propio progreso. No importa quién resulte dañado en el proceso mientras ella acabe prosperando.
+[AlignmentDescription4] Tu civilización es maligna pura. Toda la galaxia se estremece al pensar en ella.
+[AlignmentDescription99] Tu civilización no ha adoptado oficialmente ningún alineamiento ético.
+
+[EthicalLeaning] Tu civilización tiende hacia lo
+[NeedResearch] Para poder escoger tu alineamiento ético, tienes que investigar antes la tecnología "%s".
+
+[NoContacts] No has encontrado ninguna civilización que comparta tu alineamiento ético.
+[Contacts] Has encontrado las siguientes civilizaciones que comparten tu alineamiento ético:
+
+[VeryLowApproval] Tu Índice aprobación general es del %lu%%. Es un índice muy bajo. Tienes que empezar a pensar en cómo hacer que vuelva a subir. Intenta reducir los impuestos o construye más mejoras que suban la moral.
+[LowApproval] Tu Índice aprobación general es del %lu%%. Tienes que trabajar en ello.
+[MidApproval] Tu Índice aprobación general es del %lu%%. Es un índice aceptable, pero se puede mejorar. No permitas que descienda por debajo de este nivel.
+[HighApproval] Tu Índice aprobación general es del %lu%%. Los ciudadanos están contentos con tu liderazgo. Sigue haciendo este gran trabajo.
+[VeryHighApproval] Tu Índice aprobación general es del %lu%%. Los ciudadanos te adoran. ¡Lo estás haciendo estupendamente!
+
+[ChangeGovButton] Cambiar gobierno
+
+[TABLEEND]
+
+[TABLEALIAS CivManagerVictoryWnd]
+
+[Condition1] Conquista
+[Condition2] Influencia
+[Condition3] Diplomática
+[Condition4] Tecnológica
+[Condition5] Cristal Ascension
+
+[VictoryConditionDisabled] Esta condición de victoria está desactivada.
+
+
+[MilitaryVictory] Consigues una victoria militar si eliminas a todas las demás razas principales.
+[CulturalVictory] Para conseguir una victoria cultural, difunde tus bondades por el 75% de la galaxia.
+[ResearchVictory] Para conseguir una victoria tecnológica, investiga más allá de la existencia mortal.
+[AllianceVictory] Para obtener una victoria de alianza, forma alianzas con todas las razas principales con las que no estés en guerra.
+[AIResearchVictory] Permitir a la IA ganar por victoria tecnológica
+[AscensionVictory] Para la victoria, las bases estelares tienen que absorber suficiente aura de los Cristales Ascension para ascender a un nuevo plano de existencia.
+
+[MilitaryFlavor] Hemos conquistado el %lu%% de la galaxia.
+[CulturalFlavor] Hemos influido en el %lu%% de la galaxia.
+[AllianceFlavor] Hemos recorrido el %lu%% del camino a una victoria diplomática.
+[TechFlavor] Hemos investigado el %lu%% de todas las tecnologías posibles.
+
+[[MilitaryVictoryReqKillNone] Felicidades, has destruido a todos los enemigos. La semana que viene conseguirás una victoria por conquista.
+[MilitaryVictoryReqKillOne] Para conseguir una victoria por conquista tienes que destruir al %s.
+[MilitaryVictoryReqKillPlural] Para conseguir una victoria por conquista tienes que destruir %lu civilizaciones.
+[MilitaryVictoryCivsConqueredOne] Ya has destruido 1 civilización.
+[MilitaryVictoryCivsConqueredPlural] Ya has destruido %lu civilizaciones.
+
+[CulturalVictoryReqGameYear] No puedes conseguir una victoria por influencia antes del año %lu.
+[CulturalVictoryReqPeace] No puedes conseguir una victoria por influencia mientras tu civilización esté en guerra. Tienes que firmar la paz con el %s.
+[CulturalVictoryReqPeacePlural] No puedes conseguir una victoria por influencia mientras tu civilización esté en guerra. Tienes que firmar la paz con otras %lu civilizaciones.
+[CulturalVictoryReqControl] No puedes conseguir una victoria por influencia hasta que tu civilización controle más del 75%% de la galaxia. Actualmente, tu civilización controla el %lu%% de la galaxia.
+[CulturalVictoryReqTurns] Controlas el %lu%% de la galaxia. Conseguirás una victoria por influencia en %lu semanas.
+[CulturalVictoryReqTurn] Controlas el %lu%% de la galaxia. Conseguirás una victoria por influencia la semana que viene.
+
+[TechVictoryReqTech] Para empezar a indagar en la victoria tecnológica, tienes que investigar antes "%s".
+[TechVictoryReqTechs] Para empezar a indagar en la victoria tecnológica, tienes que investigar antes %lu tecnologías necesarias. La siguiente tecnología que tienes que investigar es "%s".
+[TechVictoryReqVictory] Actualmente estás investigando la victoria tecnológica. Cuando completes la investigación, conseguirás una victoria tecnológica.
+
+[AllianceVictoryReqCiv] Para conseguir una victoria diplomática tienes que formar una alianza con el %s.
+[AllianceVictoryReqCivs] Para conseguir una victoria diplomática tienes que formar una alianza con %lu civilizaciones.
+[AllianceVictoryReqNone] Tienes alianzas con todas las demás civilizaciones. La semana que viene conseguirás una victoria diplomática. ¡Felicidades!
+
+[TABLEEND]
+
+[TABLEALIAS DomesticGovernorWnd]
+
+[UpdateBtn] Actualizar construcción de naves
+[DoneBtn] Hecho
+[BeforeSwapTitle] Constr. de puertos estelares:
+[AfterSwapTitle] Deberíamos construir:
+
+
+
+[TABLEEND]
+
+[TABLEALIAS RaceLegendWnd]
+
+[Title] Leyenda de razas
+[Done] Hecho
+
+[TABLEEND]
+
+[TABLEALIAS EthicsWnd]
+
+[Good] Benigno
+[Neutral] Neutral
+[Evil] Maligno
+[None] Sin alineamiento
+[NoneLeaning] Sin alineamiento (tiende a %s)
+
+[DialogTitle] Elige un alineamiento ético
+[WindowDescriptionTitle] Ha llegado el momento de que elijas un alineamiento ético.
+[WindowDescription] Tu civilización ha llegado a un punto de inflexión en su desarrollo. Debes elegir cuál será su alineamiento ético. La elección que hagas ahora podría determinar el destino de tu civilización. Elige sabiamente...
+
+[CurrentlyLeaning] Actualmente, tu civilización tiende hacia el alineamiento:
+[CurrentlyAligned] Actualmente, tu civilización tiene el alineamiento:
+
+[Cost] Coste:
+
+[GoodBtn] Alineamiento benigno
+[NeutralBtn] Alineamiento neutral
+[EvilBtn] Alineamiento maligno
+
+[DoneBtn] Hecho
+
+[NotEnoughMoney] Careces de fondos suficientes para tener un alineamiento %s. Si lo escoges, tendrás que pagar %lu B€$ por semana durante %lu semanas.
+
+[ToolTipGoodNo] Tu civilización tiende hacia lo %s. Eso significa que le costará más ponerse del lado benigno.
+[ToolTipGoodYes] Ya que tu civilización tiende hacia el lado benigno, puede alinearse con esa opción a un bajo coste.
+
+[ToolTipNeutralNo] Tu civilización tiende hacia lo %s. Eso significa que le costará más ponerse del lado neutral.
+[ToolTipNeutralYes] Ya que tu civilización tiende hacia el lado neutral, puede alinearse con esa opción a un bajo coste.
+
+[ToolTipEvilNo] Tu civilización tiende hacia lo %s. Eso significa que le costará más ponerse del lado maligno.
+[ToolTipEvilYes] Ya que tu civilización tiende hacia el lado maligno, puede alinearse con esa opción a un bajo coste.
+
+
+[TABLEEND]
+
+[TABLEALIAS MinorRaceWnd]
+
+[ReportTitle] Informe de Inteligencia
+[TradeTitle] Comercio por semana:
+[PageTitle] Razas menores
+[EmbargoTitle] Embargo comercial
+
+[SpeakToBtn] Hablar con
+
+[Treasury] Tesorería:
+[TotalIncome] Ingresos totales:
+[TotalExpenses] Gastos totales:
+
+[TABLEEND]
+
+
+[TABLEALIAS UpgradeShipWnd]
+
+[ScreenTitle_Ship] Modernizar nave
+[ScreenTitle_Class] Modernizar clase de nave
+
+[UpgradeAllRaw] Modernizar todas las naves de esta clase (%lu)
+[ShipsOfClass] %lu naves de esta clase
+
+[UpgradeTo] Clase modernizándose a
+[TimeToComplete] Semanas para completar:
+
+[Upgrade] Modernizar
+[Cancel] Cancelar
+
+[Entry_ChangeOfStats] Ata.:%s, Def.:%s, PI:%s, Vel.:%s
+
+[To] a
+[WeekSingular] sem
+[WeekPlural] sems
+
+[TABLEEND]
+
+[TABLEALIAS CivManagerGovernorWnd]
+
+[UpdateStarportBtn] Actualizar construcción de naves
+[UpdateShipDestinationBtn] Actualizar destinos de naves
+[UpdateColonyDestinationBtn] Actualizar puntos de reunión de colonias
+[DoneBtn] Hecho
+[BeforeSwapTitleStarports] Constr. de puertos estelares:
+[AfterSwapTitleStarports] Deberíamos construir:
+[BeforeSwapTitleRallyPoints] Las naves van a:
+[AfterSwapTitleRallyPoints] Deberíamos ir a:
+[AvailableGovernors] Gobernadores disponibles
+
+[ShipOfType] Naves de este tipo:
+[ShouldAlwaysGo] Debemos ir siempre por:
+[StarportsWithDestination] Puntos estelares con destino:
+
+[StarportConstructionBtn] Constr. de puertos estelares
+[StarshipRallypointsBtn] Puntos de reunión de naves estelares
+[ColonyRallypointsBtn] Puntos de reunión de colonias
+[RerouteShipsBtn] Enrutar naves tipo
+[ReassignColonyBtn] Reasignar colonia
+
+[Locations] Ubicaciones:
+[Location] Ubicación:
+
+[Nothing] Nada
+[None] Ninguno
+[NoRoom] Puerto estelar lleno
+
+[TABLEEND]
+
+
+[TABLEALIAS CivManagerStatsWnd]
+
+[DoneBtn] Hecho
+[ScreenTitle] Estadísticas de interior
+
+[Population] Población:
+[Economy] Economía:
+[Military] Ejército:
+[Technology] Tecnología:
+[Morale] Aprobación:
+[Popularity] Popularidad:
+[Treasury] Tesorería:
+[Influence] Influencia:
+[Production] Producción:
+
+[FirstAbbreviation] º
+[SecondAbbreviation] º
+[ThirdAbbreviation] º
+[FourthAbbreviation] º
+[FifthAbbreviation] º
+[SixthAbbreviation] º
+[SeventhAbbreviation] º
+[EighthAbbreviation] º
+[NinthAbbreviation] º
+[TenthAbbreviation] º
+[EleventhAbbreviation] º
+
+[AbilitiesBtn] Habilidades
+[EconomyBtn] Economía
+[MilitaryBtn] Ejército
+[SocietyBtn] Sociedad
+[MiscBtn] Misc.
+
+[OverallTitle] General:
+[OverallRankingTitle] Clasificación
+
+[TotalIncome] Ingresos totales:
+[TaxIncome] Ingresos por impuestos:
+[TradeIncome]Ingresos por comercio:
+[TributeIncome] Ingresos por tributos:
+[Tourism] Ingresos por turismo:
+[ShareEconomyTreaties] Ingresos por tratados económicos:
+[TotalExpenses]Gastos totales:
+[MilitaryExpenses] Gastos militares:
+[ShipMaintenance] Mantenimiento de naves:
+[StarbaseMaint] Mantenimiento de bases estelares:
+[SocialExpenses] Gastos sociales:
+[ResearchExpenses] Gastos en investigación:
+[ColonyMaintenance] Mantenimiento de colonias:
+[LeaseExpenses] Total de pagos aplazados:
+[EspionageExpenses] Gastos en espionaje:
+[DestabilizationExpenses] Gastos en desestabilización:
+[UPWarTaxExpenses] Impuesto de los Planetas Unidos por guerra:
+[UPPlanetTaxExpenses] Impuesto de los Planetas Unidos:
+[UPStarbaseTaxExpenses] Impuesto de los Planetas Unidos por base estelar:
+[UPEvilTaxExpenses] Impuesto de los Planetas Unidos por maldad:
+[IncomeStatLabel] INGRESOS
+[BCPerTurn] B€$/semana
+[ExpensesStatLabel] GASTOS
+[NumTotalShips] Naves en total:
+[NumTransports] Transportes en total:
+[NumSpecialized] Naves especializadas en total:
+[NumAttackers] Naves de ataque en total:
+[NumDefenders] Naves de defensa en total:
+[NumStarbases] Bases estelares en total:
+[NumMaintenances] Mantenimiento de naves:
+[MilitaryRanking] Clasificación militar:
+[NumUndefendedColonies] Colonias indefensas en total:
+[NumTradeShips] Naves comerciales en total:
+[Starbases] Bonif. prod./inves.:
+
+[Leader] Líder:
+[Homeworld] Planeta Natal:
+[Alignment] Alineamiento:
+
+[Approval] Aprobac.:
+[NumOfColonies] Colonias:
+[NumOfUnhappyColonies] Colonias descontentas:
+[Government] Forma de gobierno:
+[PoliticalParty] Facción política:
+[LeadingPoliticalParty] Facción política dominante:
+
+[GovernmentLevel0] Autoridad imperial
+[GovernmentLevel1] República
+[GovernmentLevel2] Democracia
+[GovernmentLevel3] Federación estelar
+
+[ResearchProduction] Producción de investigación:
+[CurrentTech] Investigación actual:
+[CurrentTechTimeLeft] Semanas restantes:
+
+[GraphTitle0] Ejército
+[GraphTitle1] Población
+[GraphTitle2] Moral
+[GraphTitle3] Popularidad
+[GraphTitle4] Economía
+[GraphTitle5] Tesorería
+[GraphTitle6] Influencia
+[GraphTitle7] Producción
+[GraphTitle8] Tecnología
+
+[Label0] Índice de poder militar
+[Label1] Ciudadanos
+[Label2] Índice de poder moral
+[Label3] Índice de poder de popularidad
+[Label4] Índice de poder económico
+[Label5] Índice de poder de tesorería
+[Label6] Índice de poder de influencia
+[Label7] Índice de poder de producción
+[Label8] Índice de poder tecnológico
+
+[None] (Sin contactos)
+
+[CompareAgainst] Comparar estadísticas con...
+[MostPowerful] Raza más poderosa
+[Summary] Resumen
+
+[TopPlayer] Mejores jugadores
+
+[TABLEEND]
+
+[TABLEALIAS CombatLogEntryWnd]
+
+[ShipKilled] %s ha destruido: %s
+
+[TABLEEND]
+
+[TABLEALIAS CampaignListEntryWnd]
+
+[RestartCampaign] Reiniciar campaña
+[RestartMission] Reiniciar misión
+[ContinueCampaign] Continuar campaña
+[LoadSavedGame] Cargar partida guardada de campaña
+[AlternativeMission] Misión alternativa
+
+[TABLEEND]
+
+[TABLEALIAS CampaignSaveListWnd]
+
+[ContinueBtn] Continuar
+[CancelBtn] Cancelar
+
+[ScreenTitle] Campaña
+[SelectPrompt] Seleccionar campaña
+[RestartCampaign] Reiniciar campaña
+[RestartMission] Reiniciar misión
+[ContinueMission] Continuar campaña
+
+[NothingSelected] Selecciona una opción.
+
+[Status] Estado de campaña:
+[Mission] Misión
+
+[DefaultCampaign] Campaña de los Señores del Miedo
+
+
+[TABLENED]
+
+[TABLEALIAS MissionWnd]
+
+[Objectives] Condiciones finales:
+[Teams] Equipos:
+[UnalliedPlayers] No aliados
+[NextBtn] Siguiente
+[BackBtn] Volver
+
+[Difficulty] Dificultad:
+[Team] Equipo
+
+[and] y
+
+[WinCondition0] Usar la influencia y comerciar para lograr la supremacía cultural.
+[WinCondition1] Investigar la tecnología definitiva y trascender la mortalidad.
+[WinCondition2] Forjar alianzas con las demás civilizaciones principales y crear una paz duradera.
+[WinCondition3] Si una de las demás civilizaciones investiga la tecnología definitiva, ya no podrás hacerlo tú.
+[WinCondition4] Demostrar la validez de "la ley del más fuerte" y derrotar a todo el que se te oponga.
+
+[TABLEEND]
+
+[TABLEALIAS ShipDataReadout]
+
+[Title] Informe de Inteligencia
+
+[ShipName] Nombre de la nave: %s
+[ShipClass] Tipo de nave: %s
+
+[CostToBuild] Coste: %ld
+[Level] Nivel %ld
+[CurrHP] PI actuales: (%ld/%ld)
+[Owner] Dueño de la nave: %s
+
+[ComponentHeader] Componentes de la nave:
+[ComponentEntry] + %s (%s %+ld)
+[ComponentEntryNoData] + %s (%s)
+
+[Armor] Blindaje
+[PtDefense] Antimis.
+[Shield] Escudo
+[Beam] Laser
+[Missile] Misil
+[Mass] Cañones
+[Hull] Casco
+[Speed] Velocidad
+[Trade] Comercio
+[Range] Autonomía
+[SpaceTruck] Construye minas en campos de asteroides
+[SensorRange] Alcance de los sensores
+[Capacity] Tropas
+[MaxCapacity] Capacidad máx.
+
+
+
+[TABLEEND]
+
+[TABLEALIAS ImprovementSummaryWnd]
+
+[Improvemts_Title] Resumen de mejoras
+[Improvments_Totals_Title] Total de mejoras planetarias:
+
+[Improvments_Done_Button] Hecho
+
+[TABLEEND]
+
+[TABLEALIAS FleetManagerWnd]
+
+[FleetManagerTitle] Gestor de flota
+[Details] Detalles
+[StackedShips] Naves en este pársec
+[OverallFleetStats] Estadísticas generales de la flota
+[FleetDetails] Detalles de la flota
+[Destination] Destino:
+[Troops] Tropas:
+[Colonists] Colonos:
+
+[AddShipToFleet] Añadir la nave seleccionada a la flota
+[RemoveShipFromFleet] Quitar la nave seleccionada de la flota
+
+[NoShipSelected] (Ninguna nave seleccionada)
+
+[InFleet] (En %s)
+
+[DisbandBtn] Disolver flota
+
+[Done] Hecho
+
+[HP] PI
+[Logistics] Logística
+
+
+[TABLEEND]
+
+[TABLEALIAS MiningBaseContextWnd]
+
+[DecommissionBtn] Desmantelar
+[NextModule] Sig. módulo de base minera:
+[UpgradingTo] Mejorando a:
+[Building] Construyendo:
+[NoModules] Mejoras no disponibles
+[Cost] Coste:
+[ConstructionTime] Tiempo de constr.:
+[NearestColony] Planeta que recibe bonif.:
+[Bonus] Bonif.:
+[Level] Nivel:
+[Of] de
+[Research] Investigación
+[Morale] Moral
+[PopulationGrowth] Crecimiento de población
+[Industrial] Industria
+[Distance] Distancia:
+[ChangeColony] Asignar
+[Requires] (Requiere %s)
+
+[RenameMiningBaseTip] Clic para cambiar el nombre de la base minera
+
+[TipInfluenceWarningPlayer] La influencia extranjera es MUY FUERTE en esta base minera (%0.2f veces nuestra influencia).  Tenemos que actuar inmediatamente o podríamos perder el control de la base minera.
+[TipInfluenceForeignPlayer] La influencia extranjera en esta base minera es de %0.2f veces nuestra influencia.  Tenemos que estar atentos, o la base puede desertar a otra civilización.
+
+[TipInfluenceWarning] La influencia extranjera es MUY FUERTE en esta base minera (%0.2f veces la influencia del dueño de la base minera).  Está cerca de desertar a otra civilización.
+[TipInfluenceForeign] La influencia extranjera en esta base minera es de %0.2f veces la influencia del dueño de la base minera.
+
+[TABLEEND]
+
+[TABLEALIAS MiningBaseWnd]
+
+[Title] Construir base minera
+
+[ListTitle] Selecciona tipo de base minera:
+[Time] Tiempo de constr.:
+
+[Accept] Aceptar
+[Cancel] Cancelar
+
+[Research] Investigación
+[Morale] Moral
+[PopulationGrowth] Crecimiento de población
+[Industrial] Industrial
+
+[TABLEEND]
+
+[TABLEALIAS MiningBaseEntryWnd]
+
+[Bonus] Bonif.:
+[Cost] Coste:
+
+[TABLEEND]
+
+[TABLEALIAS PlaceAgentWnd]
+
+[PlaceRemoveTitle] Asignar/Quitar agente
+[NullifyTitle] Anular agente
+[NumActiveAgentsLabel] Agentes en el planeta:
+[NumAvailableAgents] Agentes disponibles:
+[PlanetaryProductionTitle] Producción máx. planetaria: 
+[MilitaryLabel] Ejército:
+[SocialLabel] Social:
+[ResearchLabel] Investigación:
+[CancelBtn] Hecho
+[PlaceAgentBtn] Asignar agente
+[RemoveAgentBtn] Quitar agente
+[NullifyAgentBtn] Anular agente
+
+[BuildMenuIndustryLabel] Industria:
+[BuildMenuMaintLabel] Mantenimiento:
+[BuildMenuEmployLabel] Empleo:
+[BuildMenuTimeLabel] Tiempo:
+[BuildMenuUpgradeTimeLabel] Tiempo para modernizar:
+[BuildMenuResearchLabel] Investigación:
+[BuildMenuFoodLabel] Alimentos:
+[BuildMenuManufacturingBonusLabel] Bonif. industria:
+[BuildMenuMoraleBonusLabel] Bonif. moral:
+[BuildMenuEconomicBonusLabel] Bonif. economía:
+[BuildMenuPrestigeBonusLabel] Bonif. influencia:
+[BuildMenuPlanetaryDefenseBonusLabel] Bonif. defensa:
+[BuildMenuStarshipQualityBonusLabel] Bonif. categoría naves:
+[BuildMenuResearchBonusLabel] Bonif. investigación:
+[BuildMenuResistBonusLabel]	Bonif. resistencia:
+[BuildMenuShipSpeedBonusLabel] Bonif. velocidad naves:
+[BuildMenuPopulationBonusLabel] Bonif. crecim. poblacion:
+[BuildMenuFoodProductionBonusLabel] Bonif. produc. comida:
+
+[PercentFormat] %ld%%
+[LogisticsFormat] %ld lo
+[SensorFormat] %ld sen
+[ManufacturingUnit] %ld fa
+[ResearchUnit] %ld in
+[InfluencePointsUnit] %lu inf
+[FoodProductionPointsUnit] %lu al/sem
+
+[Ability0] Bonif. economía:
+[Ability1] Bonif. armas:
+[Ability2] Bonif. defensa:
+[Ability3] Bonif. velocidad:
+[Ability4] Bonific. moral:
+[Ability5] Bonif. crecimiento de población:
+[Ability6] Bonif. producción social:
+[Ability7] Bonif. producción militar:
+[Ability8] Bonif. investigación:
+[Ability9] Bonif. influencia:
+[Ability10] Bonif. comercio:
+[Ability11] Bonif. diplomacia:
+[Ability12] Bonif. puntos de impacto:
+[Ability13] Bonif. reparación:
+[Ability14] Aumento de sensores:
+[Ability15] Bonif. espionaje:
+[Ability16] Bonif. veteranía:
+[Ability17] Bonif. tipos de interés:
+[Ability18] Bonif. categoría planetas:
+[Ability19] Bonif. rutas comerciales:
+[Ability20] Bonif. delincuencia:
+[Ability21] Bonif. gabinete:
+[Ability22] Bonif. autonomía:
+[Ability23] Bonif. suerte:
+[Ability24] Bonif. coraje:
+[Ability25] Bonif. creatividad:
+[Ability26] Bonif. gobierno:
+[Ability27] Bonif. lealtad:
+[Ability28] Puntos de logística:
+[Ability29] Bonif. miniaturización:
+[Ability30] Bonif. categoría planeta natal:
+
+[BonusFoodProduction] Bonif. alimentos:
+[BonusManufacturing] Bonif. fabricación:
+[BonusApproval] Bonif. aprobación:
+[BonusResearch] Bonif. investigación:
+[BonusInfluence] Bonif. influencia:
+[BonusTechnology] Bonif. puntos tecnol.: 
+[NoBonus] Sin bonif.
+
+[TerrainTypeWater] Océano
+[TerrainTypeMountain] Montañas
+[TerrainTypeFoothills] Estribaciones
+[TerrainTypeDesert] Desierto
+[TerrainTypeWasteland] Yermo
+[TerrainTypeTundra] Tundra
+[TerrainTypePrairie] Pradera
+[TerrainTypeJungle] Jungla
+[TerrainTypeSwamp] Pantano
+[TerrainTypeDenseJungle] Jungla tupida
+[TerrainTypeShoreline] Costa
+
+[ImpTypeGalacticAchievement] Logro galáctico
+[ImpTypeSuperProject] Superproyecto
+[ImpTypeTradeGood] Bien comercial
+
+[PlaceDescriptionText] Sitúa uno de tus agentes disponibles en la mejora enemiga seleccionada como objetivo.
+[RemoveDescriptionText] Quita un agente que hayas situado, poniendolo otra vez como uno de tus agentes disponibles.
+[NullifyDescriptionText] Usa uno de tus agentes disponibles para anular un agente extrangero que haya sido situado en una de tus mejoras.
+
+[TABLEEND]
+
+[TABLEALIAS Treaties]
+
+[Generic] Tratado
+
+[DeclareWar] Declaración de guerra
+[BreakAlliance] Romper alianza
+[ShareEconomy] Tratado económico
+[ShareResearch] Tratado de investigación
+[BreakShareEconomy] Romper tratado económico
+[BreakShareResearch] Romper tratado de investigación
+
+[TABLEEND]
+
+[TABLEALIAS DomesticEspionageWnd]
+
+[AgentsTitle] Agentes disponibles:
+[ForeignAgentsTitle] Agentes extranjeros:
+[PlacedAgentsTitle] Agentes asignados:
+[SpendingTitle] Gasto en espionaje:
+[SpendingTimeTitle] Tiempo para el próximo agente:
+[SliderTitle] Inversión:
+[PlaceAgentBtnTitle] Asignar agente planetario, usando el mapa estelar
+[RemoveAgentBtnTitle] Quitar agente planetario, usando el mapa estelar
+[RaceAgentTitle] Agentes de toda la raza:
+
+[PlaceAgentBtn] Asignar
+[RemoveAgentBtn] Quitar
+[NullifyBtn] Anular
+[RemoveBtn] Eliminar
+																		   
+
+[WeekSingular] Semana
+[WeekPlural] Semanas
+[Never] Nunca
+
+[EspiIndex_0] Nada
+[EspiIndex_1] Bajo
+[EspiIndex_2] Mediuo
+[EspiIndex_3] Alto
+
+[Espionage_Spending_Value] Porcentaje de ingresos invertidos en espionaje más la bonificación de tu habilidad de espionaje:\n (%lu%s de %lu%s) + %lu%s = %lu%s
+[Espionage_Slider_Value] Porcentaje de ingresos invertidos en espionaje:\n (%lu x 0.%lu) 
+
+[TABLEEND]
+
+[TABLEALIAS EspionageRaceEntryWnd]
+
+[PlaceBtnTitle] Asignar
+[RemoveBtn] Quitar
+
+[TABLEEND]
+
+[TABLEALIAS CustomPersonalityWnd]
+
+[Prompt] Personaliza la inteligencia y personalidad de la IA
+
+[RaceBehaviorLabel] Comportamiento de la raza:
+[NaturalAbilitiesLabel] Habilidades naturales:
+[AggressionLabel] Agresividad:
+[FinancialLabel] Recursos financieros:
+[EthicsLabel] Alineamiento ético:
+[CPULabel] Uso de la CPU:
+[SpecialAbilityLabel] Superhabilidad:
+
+[RaceBehaviorDescription] Este valor determina qué personalidad de la IA utilizará la raza.
+[NaturalAbilitiesDescription] Cuanto mayor sea este valor, mas habilidades extra tendrá la IA a su disposición.
+[AggressionDescription] Las razas belicosas están mas dispuestas a declararte la guerra mientras que las razas pacíficas requieren más provocación.
+[FinancialDescription] Este valor determina la recaudación por impuestos natural de este jugador en comparación a los tuyos. Al 100% son iguales a los tuyos.
+[EthicsDescription] Este valor determina cómo de benigna o maligna es la raza.  
+[CPUDescription] Los valores más altos significan que esta raza se tomará más tiempo para tomar sus decisiones, así que será más inteligente en los niveles más altos. 
+[SpecialAbilityDescription] La superhabilidad cambia las reglas del juego para la raza que la posea. Esto no puede cambiarse en las razas predeterminadas.
+
+[Simple] Simple
+[Average] Normal
+[GodLike] Avanzado
+
+[Peaceful] Pacifica
+[Warmonger] Belicosa
+
+[Good] Benigna
+[Neutral] Neutral
+[Evil] Maligna
+
+[Low] Normal
+[Normal] Alto
+[High] Máximo
+
+[LowFinance] 10%
+[MidFinance] 100%
+[HighFinance] 200%
+
+[Personality0] Humano
+[Personality1] Drengin
+[Personality2] Altariano
+[Personality3] Arceano
+[Personality4] Toriano
+[Personality5] Yor
+[Personality6] Korx
+[Personality7] Drath
+[Personality8] Thalano
+[Personality9] Iconiano
+[Personality10] Korath
+[Personality11] Krynn
+[Personality12] Generico
+
+
+[DefaultPersonalityDescription0] Humano
+[DefaultPersonalityDescription1] Drengin
+[DefaultPersonalityDescription2] Altariano
+[DefaultPersonalityDescription3] Arceano
+[DefaultPersonalityDescription4] Toriano
+[DefaultPersonalityDescription5] Yor
+[DefaultPersonalityDescription6] Korx
+[DefaultPersonalityDescription7] Drath
+[DefaultPersonalityDescription8] Thalano
+[DefaultPersonalityDescription9] Iconiano
+[DefaultPersonalityDescription10] Korath
+[DefaultPersonalityDescription11] Krynn
+
+[NoSuperAbility] No Super Ability
+
+
+[SuperAbilityDescription0] Los superdiplomáticos son negociadores expertos y gozan de una gran influencia.  
+[SuperAbilityDescription1] Los superdominadores son buenos extorsionando a otras razas, y tienen siervos que les ayudan en sus ataques.
+[SuperAbilityDescription2] Los superorganizadores son buenos atrayendo a otros a su causa si son atacados.
+[SuperAbilityDescription3] Los superguerreros dan el primer golpe en las batallas.
+[SuperAbilityDescription4] Los supercriadores pueden aumentar rápidamente su población si su aprobación es del 100%.
+[SuperAbilityDescription5] Los superaislacionistas pueden colonizar mundos desérticos por defecto, y las naves que viajan a través de su espacio se mueven más lentamente.
+[SuperAbilityDescription6] Los supercomerciantes empiezan con todas las tecnologías de comercio.
+[SuperAbilityDescription7] Los supermanipuladores son buenos haciendo que otras razas vayan a la guerra contra cualquier otra.
+[SuperAbilityDescription8] Los supercolmenas tienen una significativa bonificación de autonomía y pueden construir fábricas más rápido.
+[SuperAbilityDescription9] Los superadaptables automáticamente pueden colonizar mundos tóxicos y acuáticos. 
+[SuperAbilityDescription10] Los superexterminadores pueden construir una nave Espora que elimina toda forma de vida en un planeta y lo convierte en un mundo tóxico.
+[SuperAbilityDescription11] Los superespías empiezan con un agente y la tecnología "Contraespionaje".
+
+[NoSpecialAbilityDescription] Esta raza no tiene superhabilidad.
+
+[TABLEEND]
+
+[TABLEALIAS ShipReportWnd]
+
+[ShipReportTitle] Informe de Inteligencia de Nave
+
+[ShipStat1] Dueño:
+[ShipStat2] Clase:
+[ShipStat3] Longitud:
+[ShipStat4] Envergadura:
+[ShipStat5] Masa:
+[ShipStat6] Velocidad:
+[ShipStat7] Autonomía:
+[ShipStat8] Ataque:
+[ShipStat9] Defensa:
+[ShipStat10] Tripulación:
+[ShipStat11] PI:
+[ShipStat12] Coste:
+
+[FleetStat1] Dueño:
+[FleetStat2] Número de naves:
+[FleetStat3] Nave más larga:
+[FleetStat4] Mayor Envergadura:
+[FleetStat5] Masa en total:
+[FleetStat6] Velocidad:
+[FleetStat7] Autonomía:
+[FleetStat8] Ataque en total:
+[FleetStat9] Defensa en total:
+[FleetStat10] Tripulación en total:
+[FleetStat11] PI en total:
+[FleetStat12] Coste en total:
+
+[SBStat1] Dueño:
+[SBStat2] Tipo:
+[SBStat3] Masa:
+[SBStat4] Sensores:
+[SBStat5] Mód. instalados:
+[SBStat6] Ataque:
+[SBStat7] Defensa:
+[SBStat8] Asis. ataque:
+[SBStat9] Asis. defensa:
+[SBStat10] Tripulación:
+[SBStat11] PI:
+[SBStat12] Coste:
+
+[LengthUnit] Metros
+[MassUnit] Ton. métricas
+[Million] Mill.
+
+[Crew] Trip.
+
+[NA] N/A
+
+[SBBonuses] Bonif. de base estelar:
+[SBModules] Módulos
+
+[DoneBtn] Hecho
+
+[FleetShipData] Ataque: %ld/%ld/%ld\nDefensa: %ld/%ld/%ld
+
+[TABLEEND]
+
+[TABLEALIAS CustomShipStyleWnd]
+
+[Title] Personaliza el estilo de naves del oponente
+[AvailableShips] Plantillas disponibles de naves:
+[DefaultShips] Naves %s:
+
+[ResetBtn] Reinicar todo
+[SaveShipStyleBtn] Guardar estilo de nave
+[DefaultBtn] Por defecto
+[ChangeBtn] Cambiar
+[BackBtn] Cancelar
+[PlayBtn] Hecho
+
+[ColonyShip] Nave colonia %d
+[Defender] Defensor %d
+[Frigate] Fragata %d
+[Freighter] Carguero %d
+[Fighter] Caza %d
+[Attacker] De ataque %d
+[Battleship] Nave de guerra %d
+[Dreadnought] Acorazado %d
+[Transport] Transporte %d
+[Constructor] Constructor %d
+[HeavyFighter] Caza pesado %d
+[SpaceMiner] Minero espacial %d
+[Survey] Reconocimiento %d
+[Spore] Nave Espora %d
+
+[NoUserDefinedTemplates] No tienes ninguna plantilla de usuario.  El juego incluye algunas plantillas básicas predefinidas, pero tú tambien puedes diseñaro los tuyos propios en la pantalla del juego "Diseño de naves".  Simplemente juega con esta raza, y cuando guardes tus diseños de nave, selecciona la casilla que dice "Añadir también este diseño a las plantillas."  La próxima vez que inicies una nueva partida, y edites este estilo de naves personalizado, podrás seleccionar tus propias plantillas de naves así como las plantillas básicas incluidas.
+
+[TABLEEND]
+
+[TABLEALIAS SaveCustomShipStyleWnd]
+
+[ScreenTitle] Guardar/Cargar estilo de naves personalizado
+[Filename] Nombre del archivo:
+[SaveBtn] Guardar
+[LoadBtn] Cargar
+[DoneBtn] Cancelar
+[DeleteBtn] Borrar
+[PleaseSelect] Por favor, selecciona un archivo de estilo de naves.
+[NothingSelected] No hay nada seleccionado.
+
+[NewShipStyle] Nuevo estilo de naves personalizado
+
+[TABLEEND]
+
+
+[TABLEALIAS GameScreenWnd] 
+
+[AgentButtonTip]Asignar agente\nAgentes disponibles: %lu
+
+[TABLEEND]
+
+
+[TABLEALIAS MiniMapWnd]
+
+[Title] Mapa de la galaxia
+[DoneBtn] Hecho
+
+[TABLEEND]
+
+
+[TABLEALIAS DomesticLeaseAndMaintWnd]
+
+[LeaseTitle] Plazos
+[LeaseBtn] Cancelar crédito
+
+[MaintenanceTitle] Mantenimiento
+[MaintenanceBtn] Retirar del servicio
+
+[WeeklyTotal] %lu B€$/semana Total
+
+[LeasePayoffTooHigh] No tienes suficiente dinero en la tesorería para cancelar este crédito.
+
+[TABLEEND]
+
+
+[TABLEALIAS DomesticLeaseEntryWnd]
+
+[BCPerWeek] %lu B€$/semana
+[Payoff] Coste de cancelación: %lu B€$
+[WeeksRemaining] %lu semanas restantes
+
+[TABLEEND]
+
+
+[TABLEALIAS HighScoresWnd]
+
+[HighScores] Mejores Puntuaciones
+
+[Rank] Ranking:
+[Score] Puntuación final:
+[GalaxySize] Tamaño galaxia:
+[Difficulty] Dificultad:
+[GameLength] Tiempo jugado:
+[Morality] Moralidad:
+[DatePlayed] Fecha jugada:
+
+[DoneBtn] Hecho
+
+[GameLengthMonthPlural] %lu Mes
+[GameLengthWeekPlural] %lu Sem
+[GameLengthYearPlural] %lu Años
+
+[GameLengthMonthSingular] %lu Me
+[GameLengthWeekSingular] %lu Se
+[GameLengthYearSingular] %lu Año
+
+[SectorRange0] Desconocido
+[SectorRange3] Enano
+[SectorRange4] Pequeño
+[SectorRange5] Mediano
+[SectorRange8] Grande
+[SectorRange12] Enorme
+[SectorRange18] Gigantesco
+
+[TABLEEND]

@@ -1,0 +1,460 @@
+[TABLEALIAS Gamescr01Tips]
+
+[PieChart] Este grafico circular muestra el poder adquisitivo de las distintas razas.
+
+[SectorMap] Mapa del sector
+[PlanetList] Lista de planetas
+[Fleet] Lista de Estaciones estelares
+[DomesticPolicy] Politica domestica
+[ForeignPolicy] Politica exterior
+[Research] Investigacion
+
+[StarsMMap] Mostrar estrellas
+[SectorOwnershipMMap] Mostrar propietario del sector
+[ShipsMMap] Mostrar naves
+[PopulationMMap] Mostrar poblacion
+[ProductionMMap] Mostrar produccion
+[AutoPilotMMap] Mostrar destinos de AutoPilot
+
+[PopulationGraph] Crecimiento de la poblacion
+[MilitaryGraph] Poder militar
+[EconomicGraph] Poder economico
+[TechGraph] Avance tecnologico
+[ManufacturingGraph] Pode de frabricacion
+[InfluenceGraph] Influencia
+[Sentry] Establecer modo centinela
+[Guard] Establecer modo guardia
+[Decommision] Desmantelamiento de nave
+
+[ShipDataSentry] Centinela
+[ShipDataGuard] Guardia
+[ShipDataDisband] Disolver
+
+
+[SectorInfluence] Esto abre un dialogo que muestra cuanta influencia tienen las principales razas en este sector.
+[RallyPointBtn] Establecer un punto de reunion para naves de nueva construccion
+[ZoomFactor] Este campo muestra cuanto aumentado esta el minimapa. El acercamiento disminuye la cantidad de sectores que se muestran porque los sectores mostrados se dibujan mas grandes.
+[FormUpBtn]    Crea una flota de naves apiladas
+[FormBreakBtn] Disolver flota
+
+[TABLEEND]
+
+
+[TABLEALIAS Shipdata01Tips]
+
+[ShipDataSentry] Centinela
+[ShipDataGuard] Guardia
+[ShipDataDisband] Disolver nave
+[ShipDataConst] Construir Base estelar
+
+[TABLEEND]
+
+
+[TABLEALIAS TradescreenTips]
+
+[DiplomaticStats] Estadisticas de diplomacia sobre esta civilizacion
+[TradeStats] Estadisticas comerciales sobre esta civilizacion
+[RelationsStats] Informacion sobre nuestras relaciones con esta civilizacion
+
+[TABLEEND]
+
+[TABLEALIAS PlanetDataTips]
+
+[ModeButton] Este boton cambia entre la vista del sistema y la vista de lista de planetas. En la vista del sistema, las flechas direccionales se mueven de un sistema estelar a otro. En la vista de lista de planetas, se mueven de planeta en planeta.
+
+[TABLEEND]
+
+
+[TABLEALIAS GalaxyWnd]
+[Size_Spinner_Down] Aumenta el tamano de la Galaxia
+[Size_Spinner_Up] Disminuye el tamano de la Galaxia
+
+[Galaxy_Custom_Combo_Button] Elegir mapa personalizado
+
+[Habitable_Spinner_Up] Mas planetas habitables
+[Habitable_Spinner_Down] Menos planetas habitables
+
+[Planets_Spinner_Up] Mas planetas en la Galaxia
+[Planets_Spinner_Down] Menos planetas en la Galaxia
+
+[Stars_Spinner_Up] Mas estrellas en la galaxia
+[Stars_Spinner_Down] Menos estrellas en la galaxia
+
+[Clusters_Spinner_Up] Cumulos de estrellas mas estrechos
+[Clusters_Spinner_Down] Cumulos de estrellas mas sueltos
+
+[Anomalies_Spinner_Up] Mas anomalias
+[Anomalies_Spinner_Down] Menos anomalias
+
+[Asteroid_Spinner_Up] Mas campos de asteroides
+[Asteroid_Spinner_Down] Menos campos de asteroides
+
+[Scenario_Combo_Down] Elije un escenario
+
+[TABLEEND]
+
+
+[TABLEALIAS OpponentWnd]
+[DisableRace] Desactiva esta carrera
+[EnableRace] Habilita esta carrera
+
+[Intel_Spinner_Up] Aumenta la Inteligencia de esta raza
+[Intel_Spinner_Down] Disminuye la Inteligencia de esta raza
+
+[Relations_Spinner_Back_Up] Aumenta las relaciones con el jugador
+[Relations_Spinner_Back_Down] Disminuye las relaciones con el jugador
+
+[Player_Spinner_Up] Aumenta el numero de oponentes en la galaxia
+[Player_Spinner_Down] Disminuye el numero de oponentes en la galaxia
+
+[Difficulty_Spinner_Up] Aumenta la dificultad general
+[Difficulty_Spinner_Down] Disminuir dificultad general
+[TABLEEND]
+
+[TABLEALIAS PlanetWnd]
+[Planet_Queue_Remove_Button] Eliminar este proyecto de la cola
+[Planet_Queue_Up_Button] Aumenta la prioridad de construccion
+[Planet_Queue_Down_Button] Disminuye la prioridad de construccion
+
+[Planet_Icons_Mil_Focus_Button] Centra tu produccion en proyectos militares
+[Planet_Icons_Soc_Focus_Button] Centra tu produccion en mejoras planetarias
+[Planet_Icons_Rec_Focus_Button] Centra tu produccion en la investigacion
+
+[Planet_Icons_Soc_Shift Image] La produccion social no utilizada de este planeta se esta agregando a tu produccion militar
+[TABLEEND]
+
+[TABLEALIAS ShipContextWnd]
+[ShipContext_Name_Title] Clic para cambiar el nombre de nave
+
+[ShipContext_Beam_Image] Haz
+[ShipContext_Shield_Image] Escudo
+
+[ShipContext_Missile_Image] Misil
+[ShipContext_Point_Image] Puntos Defivos
+
+[ShipContext_Mass_Image] Controlador de masa
+[ShipContext_Armor_Image] Armadura
+
+[ShipContext_Beam_Value] Haz
+[ShipContext_Shield_Value] Escudo
+
+[ShipContext_Missile_Value] Misil
+[ShipContext_Point_Value] Puntos Defivos
+
+[ShipContext_Mass_Value] Controlador de masa
+[ShipContext_Armor_Value] Armadura
+
+[ShipContext_Rename_Button] Renombrar nave
+[ShipContext_Assign_Button] Marcar el destino
+[TABLEEND]
+
+
+[TABLEALIAS PlanetContextWnd]
+[PlanetContext_Name_Title] Clic para cambiar el nombre del planeta
+[NoStarport] No hay Puerto estelar disponible en este planeta
+
+[PlanetContext_Buy_Button] Comprar nave
+[PlanetContext_Planet_Button] Pantalla del Planeta
+
+[PlanetContext_Shield_Icon] Defendido
+
+[ShipContext_Beam_Image] Haz
+[ShipContext_Missile_Image] Misil
+[ShipContext_Mass_Image] Controlador de masa
+[ShipContext_Shield_Image] Escudo
+[ShipContext_Armor_Image] Armadura
+[ShipContext_Point_Image] Puntos Defivos
+
+[PlanetContext_Rename_Button] Renombrar planeta
+[ShipContext_Assign_Button] Establecer destino
+
+[Planet_Launch_Area_Button] Establece la direccion de lanzamiento
+[TABLEEND]
+
+
+[TABLEALIAS MainWnd]
+[Main_Current_Tech_Name_Title] Clic para cambiar la tecnologia que se esta investigando
+
+[MainPopValue] Poblacion del Imperio
+[MainMoneyValue] Tesoreria del Imperio
+
+[ShipPlanetBtn] Lista Planeta/Naves
+[MainTechBtn] Pantalla de investigacion
+[MainDomesticBtn] Estadisticas nacionales
+[MainDiplomacyBtn] Estadisticas extranjeras
+[MainGraphsBtn] Administra la Civilizacion
+[ShipYardBtn] Astillero
+
+[MainLocationTitle] Sector actual
+[MainDateTitle] Fecha galactica
+
+[Main_Rally_Normal_Button] Establece punto de reunion
+[Main_Agent_Icon] No tienes agentes para colocar
+
+[Main_Show_Button] Expandir area de contexto
+[Main_Hide_Button] Ocultar area de contexto
+
+[Main_Money_Morale_Image] La deuda prolongada esta perjudicando tu indice de aprobacion!
+
+[Main_Pop_Icon] Poblacion
+[Main_Money_Icon] Tesoreria
+
+[Main_MiniMap_Zoom_In_Button] Acercar
+[Main_MiniMap_Zoom_Out_Button] Alejar
+[Main_MiniMap_Zoom_Bling] Mapa de Galaxia
+
+[TABLEEND]
+
+
+[TABLEALIAS EconomicWnd]
+[Economic_Military_Lock] Bloquear ratio militar
+[Economic_Social_Value_Lock] Bloquear ratio social
+[Economic_Research_Lock] Bloquear ratio investigacion
+[Economic_Espionage_Lock] Bloquear gasto de espionaje
+[TABLEEND]
+
+
+[TABLEALIAS PlanetShipListWnd]
+[MyPlanets] Mostrar mis planetas
+[ForeignPlanets] Mostrar planetas de propiedad extranjera
+[UnoccupiedPlanets] Mostrar planetas desocupados
+[AllPlanets] Mostrar todos los planetas conocidos
+
+[MyShips] Mostrar mis naves
+[ForeignShips] Mostrar naves de propiedad extranjera
+[OnlyStarbases] Mostrar solo bases estelares
+[AllShips] Mostrar todos las naves conocidos
+
+[PlanetShip_List_Ship_Button] Ver naves
+[PlanetShip_List_Planet_Button] Ver planetas
+[PlanetShip_List_Close_Button] Cerrar lista
+
+[SearchForPlanet] Buscar planeta
+[SearchForShip] Buscar nave
+[TABLEEND]
+
+
+[TABLEALIAS PlanetListEntryWnd]
+[Planet_Entry_Shield_Icon] Defendido
+[TABLEEND]
+
+[TABLEALIAS ShipListEntryWnd]
+[Ship_Entry_Center_Button] Enviar nave al sector actual
+[TABLEEND]
+
+[TABLEALIAS ShipYardWnd]
+[ShipYard_New_Button] Crear un nuevo diseno de nave
+[ShipYard_Upgrade_Button] Actualiza este diseno de nave
+[ShipYard_Obsolete_Button] Hace que este diseno de nave sea obsoleto
+[ShipYard_Delete_Button] Elimina un diseno de nave personalizado
+[ShipYard_Button_Close] Al mapa principal
+[TABLEEND]
+
+[TABLEALIAS ShipStats]
+[Beam] Armas de haz
+[Shields] Escudos
+
+[MassDrivers] Controlador de masa
+[Armor] Armadura
+
+[Missiles] Misils
+[PointDefense] Puntos de defensa
+[TABLEEND]
+
+
+[TABLEALIAS CameraControlWnd]
+[Camera_Rotate_Play] Auto-Rotar
+[Camera_Points_Toggle] Alternar puntos de fijacion
+[Camera_Zoom_In] Acercar
+[Camera_Zoom_Out] Alejar
+[Camera_Zoom_Default2] Zoom predeterminado
+
+[Camera_Rotate_Top] Vista superior
+[Camera_Rotate_Front] Vista frontal
+[Camera_Rotate_Side] Vista lateral
+[Camera_Rotate_Default] Vista predeterminada
+
+[Camera_Rotate_Left] Girar a la izquierda
+[Camera_Rotate_Right] Girar a la derecha
+[Camera_Rotate_Up] Girar hacia arriba
+[Camera_Rotate_Down] Rotar hacia abajo
+[TABLEEND]
+
+
+[TABLEALIAS ShipDesign]
+[SDesign_Hull_Image] Cascos de naves disponibles
+[SDesign_prop_Image] Extras estructurales
+[SDesign_Bling_Image] Motores disponibles
+[SDesign_Weapons_Image] Armas disponibles
+[SDesign_Defense_Image] Defensas disponibles
+[SDesign_Modules_Image] Modulos disponibles
+
+[SDesign_Button_Place] Auto-Coloca este componente
+
+[SDesign_Button_Clear] Borrar el casco de todos los componentes
+[SDesign_Button_Save] Guardar este diseno
+[SDesign_Button_Close] Sale de la ventana de diseno de envio
+
+[SDesign_Size_Slider_Right] Ampliar componente
+[SDesign_Size_Slider_Left] Hacer componente sea mas pequeno
+[SDesign_Button_Remove] Eliminar componente de nave
+[SDesign_Button_Move] Mover componente de nave
+[TABLEEND]
+
+[TABLEALIAS ForeignRelationsWnd]
+[Foreign_Relations_Race_Next] Proxima raza
+[Foreign_Relations_Race_Prev] Anterior raza
+[TABLEEND]
+
+[TABLEALIAS ForeignReportWnd]
+[Foreign_Report_Race_Next] Proxima raza
+[Foreign_Report_Race_Prev] Anterior raza
+[TABLEEND]
+
+[TABLEALIAS ShipDetailsWnd]
+[ShipDetails_Beam_Image] Haz
+[ShipDetails_Missile_Image] Misil
+[ShipDetails_Mass_Image] Controlador de masa
+[ShipDetails_Shield_Image] Escudos
+[ShipDetails_Point_Image] Puntos defensivos
+[ShipDetails_Armor_Image] Armadura
+
+[Ship_Details_Next_Ship] Proxima nave
+[Ship_Details_Last_Ship] Anterior nave
+[TABLEEND]
+
+[TABLEALIAS StackedShipsWnd]
+[Stacked_Beam_Image] Haz
+[Stacked_Missile_Image] Misil
+[Stacked_Mass_Image] Controlador de masa
+[Stacked_Shield_Image] Escudos
+[Stacked_Point_Image] Puntos defensivos
+[Stacked_Armor_Image] Armadura
+[TABLEEND]
+
+[TABLEALIAS FleetContextWnd]
+[Fleet_Context_Beam_Image] Haz
+[Fleet_Context_Missile_Image] Misil
+[Fleet_Context_Mass_Image] Controlador de masa
+[Fleet_Context_Shield_Image] Escudos
+[Fleet_Context_Point_Image] Puntos defensivos
+[Fleet_Context_Armor_Image] Armadura
+[TABLEEND]
+
+[TABLEALIAS FleetContextEntryWnd]
+[Fleet_Context_Checkbox] Eliminar de la flota
+[TABLEEND]
+
+[TABLEALIAS FleetReportWnd]
+[FleetReport_Close_Button] Cerrar
+[TABLEEND]
+
+[TABLEALIAS FleetCombatWnd]
+[FleetCombat_Beam_Image_1] Haz
+[FleetCombat_Shield_Image_1] Escudo
+[FleetCombat_Missile_Image_1] Misil
+[FleetCombat_Point_Image_1] Puntos defensivos
+[FleetCombat_Mass_Image_1] Controlador de masa
+[FleetCombat_Armor_Image_1] Armadura
+
+[FleetCombat_Beam_Image_2] Haz
+[FleetCombat_Shield_Image_2] Escudo
+[FleetCombat_Missile_Image_2] Misil
+[FleetCombat_Point_Image_2] Puntos defensivos
+[FleetCombat_Mass_Image_2] Controlador de masa
+[FleetCombat_Armor_Image_2] Armadura
+
+[FleetCombat_Start_Button] Iniciar
+[FleetCombat_Play_Button] Jugar
+[FleetCombat_Pause_Button] Pausa
+[FleetCombat_End_Button] Fin
+
+[FleetCombat_Report_Button] Resumen del informe
+[FleetCombat_Camera_Button] Cambiar vista de camara
+[FleetCombat_Speed_Button] Cambiar la velocidad de reproduccion
+
+[FleetCombat_Details_Down_Button_Left] Minimizar visualizacion de datos
+[FleetCombat_Details_Down_Button_Right] Minimizar visualizacion de datos
+[FleetCombat_Show_Details_Button] Maximizar visualizacion de datos
+[TABLEEND]
+
+[TABLEALIAS CombatLogEntryWnd]
+[Combat_Log_Beam] Haz
+[Combat_Log_Missile] Misil
+[Combat_Log_Mass] Controlador de masa
+
+[Combat_Log_Shield] Escudos
+[Combat_Log_Point] Puntos de defensa
+[Combat_Log_Armor] Armadura
+
+[No] No
+[TABLEEND]
+
+[TABLEALIAS FleetManagerWnd]
+[FleetMan_Beam_Image] Haz
+[FleetMan_Shield_Image] Escudo
+[FleetMan_Missile_Image] Misil
+[FleetMan_Point_Image] Puntos de defensa
+[FleetMan_Mass_Image] Controlador de masa
+[FleetMan_Armor_Image] Armadura
+
+[FleetMan_Fleet_Context_Beam_Image] Haz
+[FleetMan_Fleet_Context_Shield_Image] Escudo
+[FleetMan_Fleet_Context_Missile_Image] Misil
+[FleetMan_Fleet_Context_Point_Image] Puntos de defensa
+[FleetMan_Fleet_Context_Mass_Image] Controlador de masa
+[FleetMan_Fleet_Context_Armor_Image] Armadura
+
+[FleetMan_All_Beam_Image] Haz
+[FleetMan_All_Shield_Image] Escudo
+[FleetMan_All_Missile_Image] Misil
+[FleetMan_All_Point_Image] Puntos de defensa
+[FleetMan_All_Mass_Image] Controlador de masa
+[FleetMan_All_Armor_Image] Armadura
+
+[FleetMan_Add_Button] Anadir a la flota
+[FleetMan_Remove_Arrows] Eliminar de la flota
+[TABLEEND]
+
+[TABLEALIAS CivManagerListWnd]
+
+[CivManager_Button_Filter_1] Ordenar por nombre de planeta
+[CivManager_Button_Filter_2] Ordenar por clase de planeta
+[CivManager_Button_Filter_3] Ordenar por produccion militar
+[CivManager_Button_Filter_4] Ordenar por Produccion social
+[CivManager_Button_Filter_5] Ordenar por Produccion de investigacion
+[CivManager_Button_Filter_6] Ordenar por clasificacion de aprobacion planetaria
+[CivManager_Button_Filter_7] Ordenar por nombre de mejora en construccion
+[CivManager_Button_Filter_8] Ordenar por nombre de nave en construccion
+[CivManager_Button_Filter_9] Ordenar por poblacion
+[CivManager_Button_Filter_10] Ordenar por ingresos netos planetarios
+
+[TABLEEND]
+
+
+[TABLEALIAS ResearchWnd]
+
+[Research_Resarched_Button] Mostrar/Ocultar Tecnologias Investigadas
+[Research_Future_Button] Mostrar/Ocultar futuras tecnologias
+[Research_All_Button] Mostrar todos los tecnologias
+
+[TABLEEND]
+
+[TABLEALIAS MiningBaseContextWnd]
+
+[Miningbase_Name_Rename_Button] Cambiar el nombre de la base minera
+
+[TABLEEND]
+
+[TABLEALIAS SummaryEntryWnd]
+
+[Summary_Ship_Beam_Image] Haz
+[Summary_Ship_Shield_Image] Escudo
+
+[Summary_Ship_Mass_Image] Controlador de masa
+[Summary_Ship_Armor_Image] Armadura
+
+[Summary_Ship_Point_Image] Puntos de defensa
+[Summary_Ship_Missile_Image] Misil
+
+[TABLEEND]

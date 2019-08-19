@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<UPIssues>
+<DataChecksum NoParse="1">
+	<Ignore>Question,SubQuestion,Option01,Option02,Option03,Option04,Option05,Option06</Ignore>
+	<Translate>Question,SubQuestion,Option01,Option02,Option03,Option04,Option05,Option06</Translate>
+</DataChecksum>
+
+<UPIssue InternalName="UPHeadquarters01">
+<Question>A medida que el consejo de los Planetas Unidos va aprobando leyes, es necesaria la creacion de un centro en el que los individuos puedan expresar sus opiniones sobre las leyes y acceder a la documentacion sobre propuestas enviadas a los PU. La raza elegida recibira una bonificacion del 50% a la influencia en el planeta central que se establezca durante unos 2 anos.</Question>
+<SubQuestion>Que raza deberia albergar este centro?</SubQuestion>
+<Option01></Option01>
+<Option02></Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>0</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>21</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>2</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>1</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>7</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="AnomalyOwnership01">
+<Question>A lo largo y ancho de la galaxia hemos descubierto un gran numero de rarezas. Aunque muchas de ellas tienen poco valor, otras han demostrado ser bastante provechosas. Teniendo esto en cuenta, vamos a votar sobre la concesion de la propiedad territorial de tales anomalias. Atendiendo a la nueva propuesta, las naves con capacidad de reconocimiento solo podran dirigirse a investigar las anormalidades espaciales que se encuentren en su propio territorio o en espacio sin colonizar.</Question>
+<SubQuestion>Estais de acuerdo con esta restriccion?</SubQuestion>
+<Option01>Si</Option01>
+<Option02>No</Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>1</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>2</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>0</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>1</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="Welfare01">
+<Question>Con el objeto de extender la igualdad por la galaxia, esta resolucion requeriria que la civilizacion con la mejor economia aportara el 5 por ciento de sus ingresos mensuales, durante 2 anos, para subvencionar a otras civilizaciones. El consejo ha determinado que el [OtherEmpireName] es el lider economico y deberia compartir sus riquezas con los demas.</Question>
+<SubQuestion>Deberia ese imperio repartir sus ingresos?</SubQuestion>
+<Option01>Si</Option01>
+<Option02>No</Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>5</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>31</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>2</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>5</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>5</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="Welfare02">
+<Question>Esta resolucion solicitara que el [OtherEmpireName], la nacion mas boyante de la galaxia, pague un 2 por ciento de sus ingresos durante 3 anos para extender la igualdad a todas las demas civilizaciones.</Question>
+<SubQuestion>Os parece un acuerdo justo?</SubQuestion>
+<Option01>Si</Option01>
+<Option02>No</Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>2</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>31</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>3</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>5</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>5</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="Welfare03">
+<Question>Ha habido quejas de que el [OtherEmpireName] esta explotando a las poblaciones nativas de las demas civilizaciones. Para rectificar este desequilibrio, esta resolucion le exigiria el pago de un 7 por ciento de sus ingresos a las demas civilizaciones durante 1 ano.</Question>
+<SubQuestion>Deberia [OtherLeaderName] asumir la responsabilidad financiera?</SubQuestion>
+<Option01>Si</Option01>
+<Option02>No</Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>7</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>31</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>1</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>5</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>5</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="ChangeGovernment01">
+<Question>Para gobernar de forma responsable, los lideres de las civilizaciones deberian escuchar las opiniones del pueblo. Una de las mas autorizadas formas de gobierno disponibles es la democracia estelar, en la que cada planeta se gobierna a si mismo, unido al imperio unicamente por debiles lazos. Resulta dificil mantener alta la moral, pero la produccion y la economia se incrementaran de forma exponencial. Por el bien de nuestros pueblos, se deberia exigir a los gobiernos funcionar bajo las reglas de la democracia estelar durante 3 anos?</Question>
+<SubQuestion>Os parece justo?</SubQuestion>
+<Option01>Si</Option01>
+<Option02>No</Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>3</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>18</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>3</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>1</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="ChangeGovernment02">
+<Question>En ocasiones, las mejores decisiones son aquellas que toma una unica cabeza gobernante, en lugar de las masas. Al tener un solo punto de vista y un unico objetivo, los que estan en el poder pueden dirigir con exito a su nacion con poca o ninguna intervencion del pueblo. Nos hemos reunido para votar si debemos obligar a todas las civilizaciones a gobernarse bajo las reglas de la autoridad imperial.</Question>
+<SubQuestion>Deberian funcionar todas las naciones bajo la ley imperial?</SubQuestion>
+<Option01>Si</Option01>
+<Option02>No</Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>1</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>18</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>2</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>2</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="ConstructorSpeed01">
+<Question>Como unidad cuyo unico proposito es transportar enormes cantidades de carga, el constructor suele resultar inutil en tiempos de guerra. Estamos aqui para decidir si aplicar o no una politica rigurosa sobre la velocidad de impulso minima de estas naves. Si se aprueba, esta ley estara vigente durante 3 anos.</Question>
+<SubQuestion>Que velocidad base deberian tener las naves tipo "Constructor"?</SubQuestion>
+<Option01>2 parsecs/sema</Option01>
+<Option02>3 parsecs/sema</Option02>
+<Option03>5 parsecs/sema</Option03>
+<Option04>Sin cambios</Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>2</OptionVal01>
+<OptionVal02>3</OptionVal02>
+<OptionVal03>5</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>30</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>3</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>2</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="ConstructorSpeed02">
+<Question>Para mantener a salvo a los miembros de las tripulaciones de las naves del tipo "Constructor" en tiempos de guerra, hemos decidido votar el aumento permanente de la velocidad minima de estas. Si de decide realizar el cambio, se le exigira a los fabricantes que se ajusten a nuestros criterios. Que velocidad minima creeis apropiada para las naves del tipo "Constructor"?</Question>
+<SubQuestion>Que velocidad minima debe tener un constructor?</SubQuestion>
+<Option01>2 parsecs/sema</Option01>
+<Option02>3 parsecs/sema</Option02>
+<Option03>5 parsecs/sema</Option03>
+<Option04>Sin cambios</Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>2</OptionVal01>
+<OptionVal02>3</OptionVal02>
+<OptionVal03>5</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>30</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>0</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>2</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="ForcePeace01">
+<Question>No se podra conseguir la paz en la galaxia mientras hasta las civilizaciones mas grandes sigan con viejas rencillas del pasado. Todos somos ciudadanos de este universo y, como tales, tenemos que anteponer siempre los ideales de paz a los de la avaricia y el beneficio personal. Apoya el pueblo del [YourEmpireName] el alto el fuego galactico para acabar con todas las guerras actuales?</Question>
+<SubQuestion>Deberian zanjarse todas las guerras actuales?</SubQuestion>
+<Option01>Si</Option01>
+<Option02>No</Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>1</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>12</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>0</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>2</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>2</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="FreePlanet01">
+<Question>Tras anos de actividad volcanica y cambio atmosferico, el planeta [PlanetName], en su dia inhabitable, se ha convertido en un entorno totalmente apropiado para vivir. Nos hemos reunido para decidir entre todos y con imparcialidad quien deberia supervisar la colonizacion de este nuevo planeta ya maduro.
+A quien concede el voto el emperador [YourLeaderName]?</Question>
+<SubQuestion>Que nacion merece este planeta recien habitable?</SubQuestion>
+<Option01></Option01>
+<Option02></Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>1</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>11</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>0</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>7</QuestionStr01>
+<QuestionStr02>1</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>7</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="NoEvilTrade01">
+<Question>Mientras que los justos de la galaxia establecen rutas comerciales con las esperanzas puestas en el avance de la cultura, las civilizaciones malignas utilizan el dinero del comercio para estimular sus odiosas acciones. Si se limita el numero de rutas que puedan establecer las razas malignas, se veran limitados sus ingresos y tendran que mantener sus ejercitos con otros medios. Si se aprueba, esta ley estara vigente durante 3 anos.</Question>
+<SubQuestion>Cual deberia ser el limite de rutas de las razas malignas?</SubQuestion>
+<Option01>5 rutas</Option01>
+<Option02>3 rutas</Option02>
+<Option03>1 ruta</Option03>
+<Option04>Sin limite</Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>5</OptionVal01>
+<OptionVal02>3</OptionVal02>
+<OptionVal03>1</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>14</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>3</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>4</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="NoEvilTrade02">
+<Question>Ha llegado el momento de terminar con las practicas deshonestas de los comerciantes de las civilizaciones malignas. Negociando en los mercados negros, alentando la esclavitud mediante la venta de siervos... las razas crueles han estado haciendo dinero mediante villanias durante demasiado tiempo. Nos hemos reunido para votar la limitacion permanente del numero de rutas comerciales permitido que pueden establecer las razas malignas. Cual considerais que seria un limite responsable?</Question>
+<SubQuestion>Cual deberia ser el limite de rutas de las razas malignas?</SubQuestion>
+<Option01>5 rutas</Option01>
+<Option02>2 rutas</Option02>
+<Option03>1 ruta</Option03>
+<Option04>Sin limite</Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>5</OptionVal01>
+<OptionVal02>3</OptionVal02>
+<OptionVal03>1</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>14</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>0</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>4</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="Olympics01">
+<Question>En una galaxia repleta de todo tipo de seres, resulta todo un reto conseguir que nuestros ciudadanos congenien. Aunque se han puesto muchas ideas sobre la mesa, la manera mas obvia de que nuestros pueblos se acerquen es a traves de una Olimpiada Galactica. El ano que viene, todas las razas participantes se reuniran para competir en distintas pruebas. Como la raza anfitriona vera un incremento economico de 20 mMc al mes mientras duren las competiciones, debemos votar un emplazamiento.</Question>
+<SubQuestion>Que raza se merece albergar este evento de 1 ano de duracion?</SubQuestion>
+<Option01></Option01>
+<Option02></Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>0</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>6</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>1</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>1</QuestionStr01>
+<QuestionStr02>1</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>7</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="PrisonPlanet01">
+<Question>A medida que crece el conjunto de la poblacion de la galaxia, el indice de delincuencia aumenta tambien. Las instalaciones locales de confinamiento estan a punto de desbordarse, razon por la cual hoy votamos la idea de una Prision Galactica. Los delincuentes de todas las razas seran enviados a un unico planeta en el que poder concentrar la seguridad y donde los delincuentes seran utilizados como mano de obra para estimular el comercio. Esto duplicaria la produccion local durante los 3 anos que estaria vigente la ley.</Question>
+<SubQuestion>Donde deberia situarse esta prision?</SubQuestion>
+<Option01></Option01>
+<Option02></Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>0</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>20</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>3</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>6</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="PrisonPlanet02">
+<Question>El tema de esta sesion del consejo es la idea de una Prision Galactica permanente como lugar centralizado para la reclusion de delincuentes. Al disponer de una unica localizacion carcelera, el planeta que albergue la prision duplicara la produccion, ya que los presos le serviran como mano de obra.</Question>
+<SubQuestion>Quien deberia encargarse de esta prision permanente?</SubQuestion>
+<Option01></Option01>
+<Option02></Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>0</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>20</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>0</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>6</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="RestrictModules01">
+<Question>Con bases estelares construyendose continuamente por toda la galaxia, se ha hecho evidente que, de hacerse algunas demasiado fuertes, perturbarian por completo el equilibrio de poder. Por esta razon, se ha sugerido obligar a las civilizaciones a restringir el numero de modulos instalados. Las bases estelares ya construidas no deberan deshacerse del exceso de instalaciones, pero no podran anadir mas. Esta ley estara vigente durante 3 anos.</Question>
+<SubQuestion>Que limite de modulos os parece apropiado?</SubQuestion>
+<Option01>2 modulos</Option01>
+<Option02>4 modulos</Option02>
+<Option03>8 modulos</Option03>
+<Option04>Sin limite</Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>2</OptionVal01>
+<OptionVal02>4</OptionVal02>
+<OptionVal03>8</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>16</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>3</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>1</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="RestrictModules02">
+<Question>Para limitar de forma permanente el poder de las bases estelares, someteremos a votacion la restriccion del numero de modulos permitidos en estas estructuras. Las bases estelares que actualmente excedan dicho limite no deberan desmantelar los modulos que tengan, pero no se les permitiran mas instalaciones.</Question>
+<SubQuestion>Que limite permanente de modulos os parece razonable?</SubQuestion>
+<Option01>2 modulos</Option01>
+<Option02>4 modulos</Option02>
+<Option03>8 modulos</Option03>
+<Option04>Sin limite</Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>2</OptionVal01>
+<OptionVal02>4</OptionVal02>
+<OptionVal03>8</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>16</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>0</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>1</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="SBAssistAllies01">
+<Question>Cuando se firma un tratado de alianza, el poder militar no deberia ser la unica ayuda que prestaramos a nuestros amigos. Nos hemos reunido para votar si las bases estelares deberian proporcionar ayuda o no a las fuerzas aliadas. Esta ley tendria una vigencia de 3 anos y entraria en vigor inmediatamente despues del recuento de votos. Que opinais al respecto, [YourLeaderName]?</Question>
+<SubQuestion>Deberian las bases estelares ayudar a los aliados?</SubQuestion>
+<Option01>Si</Option01>
+<Option02>No</Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>1</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>17</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>3</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>1</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>4</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="SBAssistAllies02">
+<Question>Para reforzar de forma permanente los vinculos de alianza, se ha propuesto que entre en vigor una ley que exija el apoyo de las bases estelares entre aliados. En virtud de esta ley, los modulos instalados en una base estelar se utilizarian para ayudar tanto a las civilizaciones aliadas como a la propia. Cual es vuestro voto, [YourLeaderName]?</Question>
+<SubQuestion>Deberian las bases estelares ayudar para siempre a los aliados?</SubQuestion>
+<Option01>Si</Option01>
+<Option02>No</Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>1</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>17</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>0</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>1</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>4</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="StarbaseTax01">
+<Question>En un esfuerzo por evitar que las civilizaciones abusen de la buena voluntad de otras razas, someteremos a votacion la entrada en vigor de un impuesto sobre las bases estelares establecidas en sectores que no esten controlados por el imperio de aquellas. Esta ley tendria una vigencia de 3 anos y se espera que sirva para evitar la saturacion de estructuras gigantescas por la galaxia. Cuanto creeis que deberian pagar los propietarios de las bases estelares que ocupen el territorio de otras razas?</Question>
+<SubQuestion>Que impuesto semanal deben pagar esas bases estelares?</SubQuestion>
+<Option01>5 mMc/semana</Option01>
+<Option02>3 mMc/semana</Option02>
+<Option03>1 mMc/semana</Option03>
+<Option04>Libres de impuestos</Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>5</OptionVal01>
+<OptionVal02>3</OptionVal02>
+<OptionVal03>1</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>28</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>3</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>2</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="StarbaseTax02">
+<Question>Como solucion permanente al problema de la concentracion de bases estelares en sectores extranjeros, se procedera a votar la propuesta de un impuesto sobre las bases estelares. Por cada estructura que posea una civilizacion fuera de su territorio, se le impondra una multa semanal.</Question>
+<SubQuestion>Que impuesto permanente por base estelar deberia pagarse?</SubQuestion>
+<Option01>5 mMc/semana</Option01>
+<Option02>3 mMc/semana</Option02>
+<Option03>1 mMc/semana</Option03>
+<Option04>Libres de impuestos</Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>5</OptionVal01>
+<OptionVal02>3</OptionVal02>
+<OptionVal03>1</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>28</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>0</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>2</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="StarTax01">
+<Question>Para ser justos con los duenos del sector, los planetas colonizados que se encuentren en sectores que no esten bajo su control seran gravados con un impuesto. Si se aprueba, esta politica se mantendra durante 2 anos.</Question>
+<SubQuestion>Que impuesto semanal seria justo?</SubQuestion>
+<Option01>10 mMc/mes</Option01>
+<Option02>5 mMc/mes</Option02>
+<Option03>2 mMc/mes</Option03>
+<Option04>Ninguno</Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>10</OptionVal01>
+<OptionVal02>5</OptionVal02>
+<OptionVal03>2</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>4</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>2</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>2</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="StarTax02">
+<Question>A veces, incluso el mas amigable de los vecinos acaba resultando insufrible. Lo mismo sucede con los planetas colonizados. Cuando una colonia de una civilizacion se encuentra en el centro de otro imperio, es facil que puedan acabar saltando chispas al menor desliz. Por esta razon nos hemos reunido para votar la entrada en vigor de un impuesto de peaje estelar permanente. A las colonias situadas en un sector que no sea el propio se les descontara un impuesto de sus ingresos semanales.</Question>
+<SubQuestion>Que cantidad seria razonable como impuesto a la colonia?</SubQuestion>
+<Option01>10 mMc/mes</Option01>
+<Option02>5 mMc/mes</Option02>
+<Option03>2 mMc/mes</Option03>
+<Option04>Ninguno</Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>10</OptionVal01>
+<OptionVal02>5</OptionVal02>
+<OptionVal03>2</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>4</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>0</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>1</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>1</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="TechRevolution01">
+<Question>En un intento por promover un sentimiento de confianza entre las razas, se ha propuesto que todas las civilizaciones intercambien una cantidad de tecnologias entre ellas. Si ayudamos a que las civilizaciones menos afortunadas se pongan al dia con los descubrimientos actuales, avanzaremos mas rapidamente como galaxia.</Question>
+<SubQuestion>Cuantas tecnologias unicas deberia compartir cada raza?</SubQuestion>
+<Option01>3</Option01>
+<Option02>2</Option02>
+<Option03>1</Option03>
+<Option04>Ninguna</Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>3</OptionVal01>
+<OptionVal02>2</OptionVal02>
+<OptionVal03>1</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>22</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>0</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>2</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="TradeFed01">
+<Question>Para proteger el comercio galactico en tiempos de guerra, se ha hecho una peticion para formar una Federacion de Comercio. Los agentes de la paz designados viajaran con los cargueros y se aseguraran de que estos no sean atacados por las naves de guerra enemigas. Este servicio duraria 3 anos y requeriria el pago de un 10% de todos los ingresos comerciales a la Federacion.</Question>
+<SubQuestion>Deberia crearse una Federacion de Comercio?</SubQuestion>
+<Option01>Si</Option01>
+<Option02>No</Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>10</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>7</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>3</YearsInEffect>
+<Value01>10</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>4</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="TradeFed02">
+<Question>Para proteger el comercio galactico en tiempos de guerra, se ha hecho una peticion para formar una Federacion de Comercio. Los agentes de la paz designados viajaran con los cargueros y se aseguraran de que estos no sean atacados por las naves de guerra enemigas. Este servicio duraria 2 anos y requeriria el pago de un 10% de todos los ingresos comerciales a la Federacion.</Question>
+<SubQuestion>Creamos una Federacion de Comercio?</SubQuestion>
+<Option01>Si</Option01>
+<Option02>No</Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>10</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>7</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>2</YearsInEffect>
+<Value01>10</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>4</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="UnitedCelebration01">
+<Question>Como la mayoria del pueblo del [YourEmpireName], los ciudadanos de toda la galaxia crecen cansados de una vida bajo la sombra de la guerra. Para aliviar sus espiritus, se le ha pedido a cada civilizacion que aporte dinero para una "Celebracion Unida", la cual estimulara su moral para el ano proximo.</Question>
+<SubQuestion>Cuanto habria que aportar para la celebracion?</SubQuestion>
+<Option01>100 mMc por raza</Option01>
+<Option02>500 mMc por raza</Option02>
+<Option03>1000 mMc por raza</Option03>
+<Option04>Nada</Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>100</OptionVal01>
+<OptionVal02>500</OptionVal02>
+<OptionVal03>1000</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>26</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>1</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>2</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>4</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="UPHeadquarters02">
+<Question>A medida que crece la influencia del consejo de los Planetas Unidos, se hace necesaria la formacion de un centro publico con informacion referente a nuestras decisiones. Esta oficina permitiria a los individuos dar su opinion sobre las leyes promulgadas y acceder a la documentacion de las propuestas enviadas a los PU. Este centro gratificara permanentemente uno de los planetas de las razas elegidas con un 50% de bonificacion a la influencia.</Question>
+<SubQuestion>Quien es el mas apropiado para albergar estas oficinas?</SubQuestion>
+<Option01></Option01>
+<Option02></Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>0</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>21</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>0</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>1</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>7</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="WarFareTax01">
+<Question>Preparaos, belicosos! Para un mayor progreso de la paz en la galaxia, el consejo de los Planetas Unidos esta dispuesto a crear un impuesto por conflicto belico sobre cualquier civilizacion en guerra. Este impuesto tendra una vigencia de 5 anos y se descontara de la recaudacion semanal de cada civilizacion culpable.</Question>
+<SubQuestion>En cuanto debemos fijar la penalizacion economica por guerra?</SubQuestion>
+<Option01>20mMc</Option01>
+<Option02>15mMc</Option02>
+<Option03>10mMc</Option03>
+<Option04>En nada</Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>20</OptionVal01>
+<OptionVal02>15</OptionVal02>
+<OptionVal03>10</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>3</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>5</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>1</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>4</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="WarFareTax02">
+<Question>En un intento por erradicar el odio de la galaxia de una vez por todas, los miembros del consejo votaran hoy el impuesto permanente para las civilizaciones en guerra. Se recaudara un impuesto mensual para pagar ayuda humanitaria.</Question>
+<SubQuestion>Cuanto de los ingresos semanales seria justo?</SubQuestion>
+<Option01>20mMc</Option01>
+<Option02>15mMc</Option02>
+<Option03>10mMc</Option03>
+<Option04>Ninguno</Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>20</OptionVal01>
+<OptionVal02>15</OptionVal02>
+<OptionVal03>10</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>3</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>0</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>4</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="OpenTourism">
+<Question>A medida que las distintas naciones se encuentran mas comodas con sus vecinos, aumenta el interes del ciudadano medio en el turismo galactico. Las vacaciones que implican localizaciones exoticas en el extranjero se han vuelto muy solicitadas, y mediante la apertura completa del turismo a todas las clases de la ciudadania, y no solo a la elite cultural, el turismo deberia crecer como la espuma y las ganancias internacionales se doblarian.</Question>
+<SubQuestion>Deberiamos abrir completamente el mercado del turismo?</SubQuestion>
+<Option01>Si</Option01>
+<Option02>No</Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>1</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>36</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>0</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>1</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="OpenTrade">
+<Question>Durante mucho tiempo, la creciente lista de restricciones al transporte ha impedido alcanzar todo su potencial a la industria del comercio. Fuerte seguridad en los puntos de control, verificaciones al cruzar las fronteras, y limitaciones a la cantidad de carga, han dado como resultado un sistema con una minima eficiencia y beneficios. Confiando en las otras razas y aliviando estas fuertes restricciones, entrariamos en una nueva era de comercio, duplicando los ingresos a traves de las fronteras.</Question>
+<SubQuestion>Deberiamos aliviar estas restricciones comerciales?</SubQuestion>
+<Option01>Si</Option01>
+<Option02>No</Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>1</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>35</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>0</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>4</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="AntiAggression">
+<Question>Con el paso de los anos, los ataques a traicion se han vuelto cada vez mas mortales para nuestros jovenes soldados. Sin la apropiada advertencia, estas tropas tienen muy pocas posibilidades de sobrevivir y son deshonradas por los lideres que eligieron esta cobarde tactica. Hoy sometemos a votacion una resolucion para exigir que las distintas naciones tengan que declarar la guerra antes de que a sus fuerzas se les permita atacar. Si es aprobada, sera obligatorio conceder un periodo de no agresion de una semana de duracion, entre dos naciones que entren en guerra. Durante este periodo, no podra tener lugar ninguna invasion o batalla entre naves.</Question>
+<SubQuestion>Se deberia aprobar esta ley de no agresion?</SubQuestion>
+<Option01>Si</Option01>
+<Option02>No</Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>1</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>32</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>0</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>8</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="MiningLoyalty">
+<<Question>Como nos hemos podido dar cuenta, las bases mineras son considerablemente mas susceptibles de rebelarse que sus equivalentes planetarios. Una vez dentro de las crecientes fronteras culturales de una raza vecina, una base minera de otra nacion se enamorara rapidamente de su cultura y redirigira sus exportaciones de recursos.  La ley de "Lealtad Minera" que hemos venido a votar, rectificara este problema. Bajo esta ley, aunque una de tus bases mineras este rodeada por una influencia cultural extranjera, tendra prohibido rebelarse si uno de tus planetas esta mas cerca de ella que otro planeta extrajero.</Question>
+<SubQuestion>Sera implementada la ley de "Lealtad Minera"?</SubQuestion>
+<Option01>Si</Option01>
+<Option02>No</Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>1</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>34</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>0</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>1</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="NeutralZones">
+<Question>La acumulacion de fuerzas extranjeras antes de declarar la guerra es una tactica deshonrosa y cobarde. Permitiendo la utilizacion de esta "estrategia", plantamos activamente las semillas de la sospecha y la desconfianza entre nuestros vecinos.\nHoy nos reunimos para luchar por una counidad mas digna de confianza. Despues de una declaracion de guerra, todas las naves de guerra en activo de ambos bandos seran conducidas a la fuerza a territorio no hostil. El uso de los territorios neutrales impedira los ataques por sorpresa que, con demasiada frecuencia, siguen a una acumulacion de tropas.</Question>
+<SubQuestion>Deberia ser obligatoria la idea de "Territorio Neutral"?</SubQuestion>
+<Option01>Si</Option01>
+<Option02>No</Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>1</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>33</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>0</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>8</HowAIWouldVote>
+</UPIssue>
+
+<UPIssue InternalName="UPTerrorStars">
+<Question>Las Estrellas del terror son armas devastadoras en manos equivocadas. Se ha propuesto que el uso de estas armas este estrictamente prohibido.</Question>
+<SubQuestion>Deberian prohibirse las Estrellas del terror?</SubQuestion>
+<Option01>Si</Option01>
+<Option02>No</Option02>
+<Option03></Option03>
+<Option04></Option04>
+<Option05></Option05>
+<Option06></Option06>
+<OptionVal01>1</OptionVal01>
+<OptionVal02>0</OptionVal02>
+<OptionVal03>0</OptionVal03>
+<OptionVal04>0</OptionVal04>
+<OptionVal05>0</OptionVal05>
+<OptionVal06>0</OptionVal06>
+<Attribute>25</Attribute>
+<AppliesTo>0</AppliesTo>
+<Prereq>0</Prereq>
+<Probability>0</Probability>
+<YearsInEffect>0</YearsInEffect>
+<Value01>0</Value01>
+<Value02>0</Value02>
+<Value03>0</Value03>
+<Value04>0</Value04>
+<QuestionStr01>0</QuestionStr01>
+<QuestionStr02>0</QuestionStr02>
+<QuestionStr03>0</QuestionStr03>
+<QuestionStr04>0</QuestionStr04>
+<HowAIWouldVote>1</HowAIWouldVote>
+</UPIssue>
+
+</UPIssues>
