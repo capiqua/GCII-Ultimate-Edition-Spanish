@@ -19,9 +19,9 @@ Esta es la traducción del juego Galactic Civilizations II: Ultimate Edition v2.
 
 ## Traducción
  
-	·northern_alliance -100%
-	·rayyas_children -100%
-	·StoneHearth_es_ES -90% (solo falta algunos; pensamientos, objetos, recetas)
+	·UPIssues.xml -100%
+	·screens.str -100%
+	·TechTree.xml -90%
 
 ## Traductores
 
