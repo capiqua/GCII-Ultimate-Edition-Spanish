@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes" ?>
+<Races>
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName,Description,Homeworld,Homestar,RaceLeader,ShortEmpireName,Portrait,Logo,RaceColor,ShadowColor,UndefendedStarColor,DefendedStarColor,SectorColor,BaseColor,TrimColor,EngineColor,InterfaceColor,ShipStyle,ModuleStyle</Ignore>
+	</DataChecksum>
+	<Race Name="Consorcio Terráqueo">
+		<DisplayName>Consorcio Terráqueo</DisplayName>
+		<Logo>Gfx\Race\RaceLogo00.png</Logo>
+		<RaceColor>12,12,255</RaceColor>
+		<SectorColor>12,12,255</SectorColor>
+		<BaseColor>241,251,220</BaseColor>
+		<TrimColor>0,64,128</TrimColor>
+		<EngineColor>0,255,255</EngineColor>
+		<InterfaceColor>0,200,255</InterfaceColor>
+		<ShipStyle>0</ShipStyle>
+		<ModuleStyle>0</ModuleStyle>
+	</Race>
+	<Race Name="Imperio Drengin">
+		<DisplayName>Imperio Drengin</DisplayName>
+		<Logo>Gfx\Race\RaceLogo01.png</Logo>
+		<RaceColor>255,0,0</RaceColor>
+		<SectorColor>255,0,0</SectorColor>
+		<BaseColor>102,102,51</BaseColor>
+		<TrimColor>144, 54,23</TrimColor>
+		<EngineColor>255, 204, 0</EngineColor>
+		<InterfaceColor>240,   0,   0</InterfaceColor>
+		<ShipStyle>3</ShipStyle>
+		<ModuleStyle>3</ModuleStyle>
+	</Race>
+	<Race Name="Sistema Republicano Altariano">
+		<DisplayName>Sistema Republicano Altariano</DisplayName>
+		<Logo>Gfx\Race\RaceLogo02.png</Logo>
+		<RaceColor>0, 255, 255</RaceColor>
+		<SectorColor>0, 255, 255</SectorColor>
+		<BaseColor>0, 64, 64</BaseColor>
+		<TrimColor>128, 255, 255</TrimColor>
+		<EngineColor>128, 255, 0</EngineColor>
+		<InterfaceColor>0, 255, 255</InterfaceColor>
+		<ShipStyle>4</ShipStyle>
+		<ModuleStyle>4</ModuleStyle>
+	</Race>
+	<Race Name="Imperio Arceano">
+		<DisplayName>Imperio Arceano</DisplayName>
+		<Logo>Gfx\Race\RaceLogo03.png</Logo>
+		<RaceColor>255, 255,   0</RaceColor>
+		<SectorColor>255, 255,   0</SectorColor>
+		<BaseColor>255, 255, 128</BaseColor>
+		<TrimColor>130, 85, 19</TrimColor>
+		<EngineColor>255, 128, 0</EngineColor>
+		<InterfaceColor>255, 255,   0</InterfaceColor>
+		<ShipStyle>0</ShipStyle>
+		<ModuleStyle>0</ModuleStyle>
+	</Race>
+	<Race Name="Sistema Confederado Toriano">
+		<DisplayName>Sistema Confederado Toriano</DisplayName>
+		<Logo>Gfx\Race\RaceLogo04.png</Logo>
+		<RaceColor>0, 255,   0</RaceColor>
+		<SectorColor>0, 255,   0</SectorColor>
+		<BaseColor>111, 198, 15</BaseColor>
+		<TrimColor>255, 255, 128</TrimColor>
+		<EngineColor>255, 255, 0</EngineColor>
+		<InterfaceColor>0, 255,   0</InterfaceColor>
+		<ShipStyle>1</ShipStyle>
+		<ModuleStyle>1</ModuleStyle>
+	</Race>
+	<Race Name="Colectivo Yor">
+		<DisplayName>Colectivo Yor</DisplayName>
+		<Logo>Gfx\Race\RaceLogo05.png</Logo>
+		<RaceColor>153,   0, 204</RaceColor>
+		<SectorColor>153,   0, 204</SectorColor>
+		<BaseColor>64, 0, 64</BaseColor>
+		<TrimColor>255, 130, 255</TrimColor>
+		<EngineColor>0, 255, 0</EngineColor>
+		<InterfaceColor>153,   0, 204</InterfaceColor>
+		<ShipStyle>2</ShipStyle>
+		<ModuleStyle>2</ModuleStyle>
+	</Race>
+	<Race Name="Dominio de Korx">
+		<DisplayName>Dominio de Korx</DisplayName>
+		<Logo>Gfx\Race\RaceLogo06.png</Logo>
+		<RaceColor>215, 200, 255</RaceColor>
+		<SectorColor>215, 200, 255</SectorColor>
+		<BaseColor>195, 225, 240</BaseColor>
+		<TrimColor>215, 180, 255</TrimColor>
+		<EngineColor>255, 200, 255</EngineColor>
+		<InterfaceColor>215, 200, 255</InterfaceColor>
+		<ShipStyle>4</ShipStyle>
+		<ModuleStyle>4</ModuleStyle>
+	</Race>
+	<Race Name="Legion Drath">
+		<DisplayName>Legion Drath</DisplayName>
+		<Logo>Gfx\Race\RaceLogo07.png</Logo>
+		<RaceColor>237, 88, 19</RaceColor>
+		<SectorColor>237, 88, 19</SectorColor>
+		<BaseColor>208, 160, 62</BaseColor>
+		<TrimColor>64, 0, 0</TrimColor>
+		<EngineColor>255, 255, 0</EngineColor>
+		<InterfaceColor>237, 88, 19</InterfaceColor>
+		<ShipStyle>1</ShipStyle>
+		<ModuleStyle>1</ModuleStyle>
+	</Race>
+	<Race Name="Imperio Thalan">
+		<DisplayName>Imperio Thalan</DisplayName>
+		<Logo>Gfx\Race\RaceLogo08.png</Logo>
+		<RaceColor>255, 100, 255</RaceColor>
+		<SectorColor>255, 100, 255</SectorColor>
+		<BaseColor>10, 255, 10</BaseColor>
+		<TrimColor>175, 0, 75</TrimColor>
+		<EngineColor>150, 255, 150</EngineColor>
+		<InterfaceColor>255, 100, 255</InterfaceColor>
+		<ShipStyle>2</ShipStyle>
+		<ModuleStyle>2</ModuleStyle>
+	</Race>
+	<Race Name="Refugio Iconiano">
+		<DisplayName>Refugio Iconiano</DisplayName>
+		<Logo>Gfx\Race\RaceLogo09.png</Logo>
+		<RaceColor>200, 245, 255</RaceColor>
+		<SectorColor>200, 245, 255</SectorColor>
+		<BaseColor>32, 32, 32</BaseColor>
+		<TrimColor>149, 140, 192</TrimColor>
+		<EngineColor>200, 255, 255</EngineColor>
+		<InterfaceColor>200, 245, 255</InterfaceColor>
+		<ShipStyle>1</ShipStyle>
+		<ModuleStyle>1</ModuleStyle>
+	</Race>
+	<Race Name="Raza personalizada">
+		<DisplayName>Raza personalizada</DisplayName>
+		<Logo>Gfx\Race\RaceLogo_Default.png</Logo>
+		<RaceColor>255,0,0</RaceColor>
+		<SectorColor>255,0,0</SectorColor>
+		<BaseColor>102,102,51</BaseColor>
+		<TrimColor>144, 54,23</TrimColor>
+		<EngineColor>255, 204, 0</EngineColor>
+		<InterfaceColor>240,   0,   0</InterfaceColor>
+		<ShipStyle>3</ShipStyle>
+		<ModuleStyle>3</ModuleStyle>
+	</Race>
+	<Race Name="Imperio de los Señores del Miedo">
+		<DisplayName>Imperio de los Señores del Miedo</DisplayName>
+		<Logo>Gfx\Race\RaceLogo23.png</Logo>
+		<RaceColor>255,0,0</RaceColor>
+		<SectorColor>255,0,0</SectorColor>
+		<BaseColor>159,0,0</BaseColor>
+		<TrimColor>40,0,0</TrimColor>
+		<EngineColor>255, 246, 0</EngineColor>
+		<InterfaceColor>240,   0,   0</InterfaceColor>
+		<ShipStyle>5</ShipStyle>
+		<ModuleStyle>5</ModuleStyle>
+	</Race>
+	<Race Name="Clan Korath">
+		<DisplayName>Clan Korath</DisplayName>
+		<Logo>Gfx\Race\RaceLogo01.png</Logo>
+		<RaceColor>155,76,63</RaceColor>
+		<SectorColor>255,0,0</SectorColor>
+		<BaseColor>144, 54,23</BaseColor>
+		<TrimColor>102,102,51</TrimColor>
+		<EngineColor>55, 204, 0</EngineColor>
+		<InterfaceColor>183,   56,   31</InterfaceColor>
+		<ShipStyle>3</ShipStyle>
+		<ModuleStyle>3</ModuleStyle>
+	</Race>
+	<Race Name="Consulado Krynn">
+		<DisplayName>Consulado Krynn</DisplayName>
+		<Logo>Gfx\Race\RaceLogo07.png</Logo>
+		<RaceColor>255, 179, 47</RaceColor>
+		<SectorColor>237, 88, 19</SectorColor>
+		<BaseColor>209, 96, 61</BaseColor>
+		<TrimColor>64, 96, 61</TrimColor>
+		<EngineColor>255, 255, 0</EngineColor>
+		<InterfaceColor>255, 189, 47</InterfaceColor>
+		<ShipStyle>1</ShipStyle>
+		<ModuleStyle>1</ModuleStyle>
+	</Race>
+</Races>

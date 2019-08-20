@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<InvTactics>
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName,Description,Image</Ignore>
+		<Translate>DisplayName,Description</Translate>
+	</DataChecksum>
+	<InvTactic InternalName="TraditionalWarfare">
+		<DisplayName>Guerra tradicional</DisplayName>
+		<Description>Usando las tropas en reserva y el mejor equipamiento militar disponible, enviamos a los soldados a la batalla a la manera clasica. Nuestros hombres no recibiran ningun tipo de bonificacion, pero es la forma mas segura de atacar sin temor a danar los mundos que estamos invadiendo.</Description>
+		<Tech_Requirement>Planetary Invasion</Tech_Requirement>
+		<Image>Tactics_Flag</Image>
+		<Cost>0</Cost>
+		<LuckFactor>0</LuckFactor>
+		<PreRequirement>0</PreRequirement>
+		<PreReqValue>0</PreReqValue>
+		<BonusType>0</BonusType>
+		<BonusValueMin>0</BonusValueMin>
+		<BonusValueMax>0</BonusValueMax>
+		<PlanetQualityPenaltyMin>0</PlanetQualityPenaltyMin>
+		<PlanetQualityPenaltyMax>0</PlanetQualityPenaltyMax>
+		<InfluencePenaltyMin>0</InfluencePenaltyMin>
+		<InfluencePenaltyMax>0</InfluencePenaltyMax>
+		<ImprovementPenaltyMin>0</ImprovementPenaltyMin>
+		<ImprovementPenaltyMax>0</ImprovementPenaltyMax>
+	</InvTactic>
+	<InvTactic InternalName="MassDrivers">
+		<DisplayName>Impulsores de masa</DisplayName>
+		<Description>Acoplando propulsores a asteroides cercanos, seremos capaces de utilizar estas grandes rocas espaciales como armas de proyectil a gran escala. Aunque el ataque resultara imparable, la destruccion a nivel planetario es inevitable.</Description>
+		<Tech_Requirement>Planetary Bombardment</Tech_Requirement>
+		<Image>Tactics_Meteor</Image>
+		<Cost>200</Cost>
+		<LuckFactor>0</LuckFactor>
+		<PreRequirement>0</PreRequirement>
+		<PreReqValue>0</PreReqValue>
+		<BonusType>1</BonusType>
+		<BonusValueMin>100</BonusValueMin>
+		<BonusValueMax>200</BonusValueMax>
+		<PlanetQualityPenaltyMin>10</PlanetQualityPenaltyMin>
+		<PlanetQualityPenaltyMax>50</PlanetQualityPenaltyMax>
+		<InfluencePenaltyMin>0</InfluencePenaltyMin>
+		<InfluencePenaltyMax>0</InfluencePenaltyMax>
+		<ImprovementPenaltyMin>50</ImprovementPenaltyMin>
+		<ImprovementPenaltyMax>100</ImprovementPenaltyMax>
+	</InvTactic>
+	<InvTactic InternalName="CoreDetination">
+		<DisplayName>Detonacion del nucleo</DisplayName>
+		<Description>Antes de iniciar el ataque enviaremos un equipo a la superficie del planeta objetivo. El grupo ira equipado con media docena de vehiculos perforadores con explosivos de Illudio Ligero que enviaran directamente al nucleo de cada planeta. Esto causara una explosion que hara estremecerse todo el planeta, lo que debilitara significativamente las defensas enemigas.</Description>
+		<Tech_Requirement>Space Marines</Tech_Requirement>
+		<Image>Tactics_Core</Image>
+		<Cost>250</Cost>
+		<LuckFactor>50</LuckFactor>
+		<PreRequirement>0</PreRequirement>
+		<PreReqValue>0</PreReqValue>
+		<BonusType>4</BonusType>
+		<BonusValueMin>40</BonusValueMin>
+		<BonusValueMax>50</BonusValueMax>
+		<PlanetQualityPenaltyMin>10</PlanetQualityPenaltyMin>
+		<PlanetQualityPenaltyMax>30</PlanetQualityPenaltyMax>
+		<InfluencePenaltyMin>0</InfluencePenaltyMin>
+		<InfluencePenaltyMax>0</InfluencePenaltyMax>
+		<ImprovementPenaltyMin>20</ImprovementPenaltyMin>
+		<ImprovementPenaltyMax>30</ImprovementPenaltyMax>
+	</InvTactic>
+	<InvTactic InternalName="TidalDisruptors">
+		<DisplayName>Disruptores de mareas</DisplayName>
+		<Description>Si diseminamos satelites que alteran la gravedad por la orbita de los planetas habitados, controlaremos los oceanos y sepultaremos al enemigo en una tumba de agua. Los monzones que arrasaran el planeta reduciran enormemente las defensas enemigas, pero tambien destruiran casi todas las mejoras planetarias.</Description>
+		<Tech_Requirement>Tidal Disruption</Tech_Requirement>
+		<Image>Tactics_Tidal</Image>
+		<Cost>200</Cost>
+		<LuckFactor>20</LuckFactor>
+		<PreRequirement>0</PreRequirement>
+		<PreReqValue>0</PreReqValue>
+		<BonusType>4</BonusType>
+		<BonusValueMin>40</BonusValueMin>
+		<BonusValueMax>50</BonusValueMax>
+		<PlanetQualityPenaltyMin>0</PlanetQualityPenaltyMin>
+		<PlanetQualityPenaltyMax>0</PlanetQualityPenaltyMax>
+		<InfluencePenaltyMin>0</InfluencePenaltyMin>
+		<InfluencePenaltyMax>0</InfluencePenaltyMax>
+		<ImprovementPenaltyMin>80</ImprovementPenaltyMin>
+		<ImprovementPenaltyMax>100</ImprovementPenaltyMax>
+	</InvTactic>
+	<InvTactic InternalName="MiniSoldiers">
+		<DisplayName>Minisoldados</DisplayName>
+		<Description>Gracias al milagro de la inteligencia artificial avanzada, estamos en condiciones de enviar robots inteligentes al campo de batalla. Estos guerreros son bastante duros, pero se les puede dejar fuera de combate con relativa facilidad y resultan muy caros de fabricar. Ademas, son algo descuidados cuando luchan en lugares cerrados, por lo que cabe esperar ciertas perdidas entre las mejoras planetarias.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Image>Tactics_Bots</Image>
+		<Cost>500</Cost>
+		<LuckFactor>60</LuckFactor>
+		<PreRequirement>0</PreRequirement>
+		<PreReqValue>0</PreReqValue>
+		<BonusType>1</BonusType>
+		<BonusValueMin>40</BonusValueMin>
+		<BonusValueMax>70</BonusValueMax>
+		<PlanetQualityPenaltyMin>0</PlanetQualityPenaltyMin>
+		<PlanetQualityPenaltyMax>0</PlanetQualityPenaltyMax>
+		<InfluencePenaltyMin>0</InfluencePenaltyMin>
+		<InfluencePenaltyMax>0</InfluencePenaltyMax>
+		<ImprovementPenaltyMin>5</ImprovementPenaltyMin>
+		<ImprovementPenaltyMax>10</ImprovementPenaltyMax>
+	</InvTactic>
+	<InvTactic InternalName="GasWarfare">
+		<DisplayName>Guerra bacteriologica</DisplayName>
+		<Description>Antes de atacar se soltaran nubes virales sobre las areas mas pobladas del mundo objetivo. El potencial defensivo del enemigo se vera debilitado, pero el dano irreversible a la vida organica del planeta reducira la categoria del planeta.</Description>
+		<Tech_Requirement>Planetary Invasion</Tech_Requirement>
+		<Image>Tactics_Gas</Image>
+		<Cost>200</Cost>
+		<LuckFactor>20</LuckFactor>
+		<PreRequirement>0</PreRequirement>
+		<PreReqValue>0</PreReqValue>
+		<BonusType>3</BonusType>
+		<BonusValueMin>15</BonusValueMin>
+		<BonusValueMax>30</BonusValueMax>
+		<PlanetQualityPenaltyMin>5</PlanetQualityPenaltyMin>
+		<PlanetQualityPenaltyMax>20</PlanetQualityPenaltyMax>
+		<InfluencePenaltyMin>0</InfluencePenaltyMin>
+		<InfluencePenaltyMax>0</InfluencePenaltyMax>
+		<ImprovementPenaltyMin>0</ImprovementPenaltyMin>
+		<ImprovementPenaltyMax>0</ImprovementPenaltyMax>
+	</InvTactic>
+	<InvTactic InternalName="InformationWarfare">
+		<DisplayName>Guerra propagandistica</DisplayName>
+		<Description>Naves de comunicacion en orbita de los planetas habitados avisaran a los ciudadanos sobre nuestros planes de invasion. Si les prometemos una vida mejor bajo nuestro gobierno, los ciudadanos descontentos se podrian poner de nuestro lado. Sin embargo, el precio para una distribucion adecuada del mensaje sera elevado.</Description>
+		<Tech_Requirement>Advanced Diplomacy</Tech_Requirement>
+		<Image>Tactics_Comm</Image>
+		<Cost>800</Cost>
+		<LuckFactor>80</LuckFactor>
+		<PreRequirement>0</PreRequirement>
+		<PreReqValue>0</PreReqValue>
+		<BonusType>5</BonusType>
+		<BonusValueMin>15</BonusValueMin>
+		<BonusValueMax>30</BonusValueMax>
+		<PlanetQualityPenaltyMin>0</PlanetQualityPenaltyMin>
+		<PlanetQualityPenaltyMax>0</PlanetQualityPenaltyMax>
+		<InfluencePenaltyMin>0</InfluencePenaltyMin>
+		<InfluencePenaltyMax>0</InfluencePenaltyMax>
+		<ImprovementPenaltyMin>0</ImprovementPenaltyMin>
+		<ImprovementPenaltyMax>0</ImprovementPenaltyMax>
+	</InvTactic>
+	<InvTactic InternalName="Intimidation">
+		<DisplayName>Intimidacion.</DisplayName>
+		<Description>Quien necesita propaganda cuando puedes intimidarlos! Simplemente muestra a los lugarenos bajo algunas imagenes, lo que sucede cuando no se unen a nosotros y... voila! Ciudadanos infelices se unen a nosotros en masa.</Description>
+		<Tech_Requirement>Xeno Intimidation</Tech_Requirement>
+		<Image>Tactics_Comm</Image>
+		<Cost>800</Cost>
+		<LuckFactor>80</LuckFactor>
+		<PreRequirement>0</PreRequirement>
+		<PreReqValue>0</PreReqValue>
+		<BonusType>5</BonusType>
+		<BonusValueMin>15</BonusValueMin>
+		<BonusValueMax>30</BonusValueMax>
+		<PlanetQualityPenaltyMin>0</PlanetQualityPenaltyMin>
+		<PlanetQualityPenaltyMax>0</PlanetQualityPenaltyMax>
+		<InfluencePenaltyMin>0</InfluencePenaltyMin>
+		<InfluencePenaltyMax>0</InfluencePenaltyMax>
+		<ImprovementPenaltyMin>0</ImprovementPenaltyMin>
+		<ImprovementPenaltyMax>0</ImprovementPenaltyMax>
+	</InvTactic>
+	<InvTactic InternalName="Marines">
+		<DisplayName>Marines</DisplayName>
+		<Description>Los marines son soldados altamente entrenados, especializados en combate cuerpo a cuerpo. Hacen uso de nuestro equipo de combate mas avanzado, lo que les da una gran ventaja en el campo de batalla.</Description>
+		<Tech_Requirement>Space Marines</Tech_Requirement>
+		<Image>Tactics_Missiles</Image>
+		<Cost>500</Cost>
+		<LuckFactor>60</LuckFactor>
+		<PreRequirement>0</PreRequirement>
+		<PreReqValue>0</PreReqValue>
+		<BonusType>1</BonusType>
+		<BonusValueMin>70</BonusValueMin>
+		<BonusValueMax>100</BonusValueMax>
+		<PlanetQualityPenaltyMin>0</PlanetQualityPenaltyMin>
+		<PlanetQualityPenaltyMax>0</PlanetQualityPenaltyMax>
+		<InfluencePenaltyMin>0</InfluencePenaltyMin>
+		<InfluencePenaltyMax>0</InfluencePenaltyMax>
+		<ImprovementPenaltyMin>5</ImprovementPenaltyMin>
+		<ImprovementPenaltyMax>10</ImprovementPenaltyMax>
+	</InvTactic>
+	<InvTactic InternalName="ShockTroops">
+		<DisplayName>Tropas de asalto</DisplayName>
+		<Description>Nuestras tropas de asalto consisten en guerreros geneticamente mejorados. No son particularmente brillantes, pero lo compensan con su ferocidad en la batalla.</Description>
+		<Tech_Requirement>Shock Troops</Tech_Requirement>
+		<Image>Tactics_Research</Image>
+		<Cost>300</Cost>
+		<LuckFactor>60</LuckFactor>
+		<PreRequirement>0</PreRequirement>
+		<PreReqValue>0</PreReqValue>
+		<BonusType>1</BonusType>
+		<BonusValueMin>40</BonusValueMin>
+		<BonusValueMax>70</BonusValueMax>
+		<PlanetQualityPenaltyMin>0</PlanetQualityPenaltyMin>
+		<PlanetQualityPenaltyMax>0</PlanetQualityPenaltyMax>
+		<InfluencePenaltyMin>0</InfluencePenaltyMin>
+		<InfluencePenaltyMax>0</InfluencePenaltyMax>
+		<ImprovementPenaltyMin>20</ImprovementPenaltyMin>
+		<ImprovementPenaltyMax>30</ImprovementPenaltyMax>
+	</InvTactic>
+	<InvTactic InternalName="MechanizedWarriors">
+		<DisplayName>Guerreros Mecanizados</DisplayName>
+		<Description>Los guerreros mecanizados son ejercitos de tropas roboticas que se pueden controlar desde lejos. Son inmensamente poderosos. Sin embargo, controlarlos puede ser dificil, debido a datos de sensores poco confiables del campo de batalla, por lo que es de esperar algun dano colateral.</Description>
+		<Tech_Requirement>MechanizedWarriors</Tech_Requirement>
+		<Image>Tactics_Starbase</Image>
+		<Cost>800</Cost>
+		<LuckFactor>60</LuckFactor>
+		<PreRequirement>0</PreRequirement>
+		<PreReqValue>0</PreReqValue>
+		<BonusType>1</BonusType>
+		<BonusValueMin>40</BonusValueMin>
+		<BonusValueMax>50</BonusValueMax>
+		<PlanetQualityPenaltyMin>0</PlanetQualityPenaltyMin>
+		<PlanetQualityPenaltyMax>0</PlanetQualityPenaltyMax>
+		<InfluencePenaltyMin>0</InfluencePenaltyMin>
+		<InfluencePenaltyMax>0</InfluencePenaltyMax>
+		<ImprovementPenaltyMin>80</ImprovementPenaltyMin>
+		<ImprovementPenaltyMax>100</ImprovementPenaltyMax>
+	</InvTactic>
+	<InvTactic InternalName="TerrorDrones">
+		<DisplayName>Drones del Terror</DisplayName>
+		<Description>Los Drones del Terror son maquinas casi inteligentes que patrullan junto a nuestros soldados. Magnifican enormemente la fuerza de combate de nuestras tropas. Estimamos un aumento en la eficiencia del soldado del 20% y un dano colateral del 25%.</Description>
+		<Tech_Requirement>TerrorDrones1</Tech_Requirement>
+		<Image>Tactics_Bots</Image>
+		<Cost>250</Cost>
+		<LuckFactor>60</LuckFactor>
+		<PreRequirement>0</PreRequirement>
+		<PreReqValue>0</PreReqValue>
+		<BonusType>1</BonusType>
+		<BonusValueMin>20</BonusValueMin>
+		<BonusValueMax>20</BonusValueMax>
+		<PlanetQualityPenaltyMin>0</PlanetQualityPenaltyMin>
+		<PlanetQualityPenaltyMax>0</PlanetQualityPenaltyMax>
+		<InfluencePenaltyMin>0</InfluencePenaltyMin>
+		<InfluencePenaltyMax>0</InfluencePenaltyMax>
+		<ImprovementPenaltyMin>25</ImprovementPenaltyMin>
+		<ImprovementPenaltyMax>25</ImprovementPenaltyMax>
+	</InvTactic>
+</InvTactics>

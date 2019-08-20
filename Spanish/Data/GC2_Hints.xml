@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Hints>
+	<Translate NoParse="1">Text</Translate>
+	<Hint>
+		<Text>Crear tus propias naves personalizadas no solo es divertido, sino que suele comportar la diferencia entre la victoria y la derrota en combate.
+
+Inspecciona lo que construye el enemigo y contrarresta el despliegue de sus defensas y armamento con tus propias naves especializadas.
+
+Dales un toque personal y guarda los disenos para futuras partidas.
+</Text>
+		<Image>Hint_01.png</Image>
+	</Hint>
+	<Hint>
+		<Text>Presta atencion a los recursos de influencia. Las bases estelares de influencia te permiten extender el alcance cultural mas alla de tus colonias e incluso pueden ayudarte a subir la moral de los mundos cercanos.
+
+Incrementa las bonificaciones de las bases estelares construidas sobre recursos anadiendoles mas modulos de explotacion.</Text>
+		<Image>Influance_Resource.png</Image>
+	</Hint>
+	<Hint>
+		<Text>Por ser muy escasos, los recursos economicos valen su peso en oro liquido. Busca y explota estos preciados recursos galacticos para proporcionarle a tu civilizacion holgura economica para dominar la galaxia.
+
+Para incrementar las bonificaciones en recursos de las bases estelares, anadeles mas modulos de explotacion.</Text>
+		<Image>Economic_Resource.png</Image>
+	</Hint>
+	<Hint>
+		<Text>Si suenas con conquistar la galaxia desde el trono, localiza y explota tantos recursos militares como puedas. Estos recursos refuerzan tu ejercito con una bonificacion extensiva a toda tu civilizacion que infundira temor a los enemigos y fortaleza a los aliados.
+
+Si quieres incrementar la recoleccion de recursos, utiliza constructores para anadir modulos de explotacion adicionales a las bases estelares ya existentes.</Text>
+		<Image>Military_Resource.png</Image>
+	</Hint>
+	<Hint>
+			<Text>Estos recursos contienen un tipo especial de fluido que incrementa la salud de cualquier ser vivo. Cuanto mas extraigas, mayor sera la subida de moral que recibira el pueblo (lo cual incrementa tu indice de aprobacion).
+
+Las bases estelares con modulos de explotacion adicionales incrementan las bonificaciones en recursos que generan cada turno.</Text>
+		<Image>Morale_Resource.png</Image>
+	</Hint>
+	<Hint>
+		<Text>Estos recursos contienen un tipo de cristal util para lograr un gran incremento en la efectividad de las computadoras de investigacion que tengas. La mejora de las habilidades de investigacion beneficiara a tu imperio en muchos sentidos.
+
+Para incrementar las bonificaciones en recursos, construye modulos de explotacion adicionales en las bases estelares.</Text>
+		<Image>Research_Resource.png</Image>
+	</Hint>
+	<Hint>
+		<Text>Demuestra que eres el mas poderoso con una victoria por conquista.
+
+La ultima civilizacion que quede, gana. Conquista a las demas razas principales con todos los medios que sean necesarios.</Text>
+		<Image>Conquest_Victory.png</Image>
+	</Hint>
+	<Hint>
+		<Text>Lleva la paz a la galaxia con una victoria diplomatica.
+
+Para conseguir una victoria asi, forma una alianza con todas las razas principales supervivientes.
+
+O forma una alianza y luego deshazte de cualquiera que no pertenezca a tu club.
+</Text>
+		<Image>Alliance_Victory.png</Image>
+	</Hint>
+	<Hint>
+		<Text>Cuando consigues una victoria por influencia el resto de la galaxia se rinde ante tu superioridad cultural.
+
+Ganas al extender tu influencia para controlar una determinada porcion de la galaxia. Incrementar la influencia tambien te aumentara los ingresos por turismo. Esto puede hacer que resulte lucrativo intentar una victoria asi.</Text>
+		<Image>Culture_Victory.png</Image>
+	</Hint>
+	<Hint>
+		<Text>Para conseguir una victoria tecnologica hay que usar mas mana que fuerza.
+
+Encontraras esta victoria al final de una rama larga y cara del arbol tecnologico. Si consigues llegar hasta alli, la habras logrado.</Text>
+		<Image>Research_Victory.png</Image>
+	</Hint>
+	<Hint>
+		<Text>Las bases espaciales militares incrementan la efectividad en combate de las naves que esten en su area de efecto.
+
+Las bonificaciones sirven para las naves en orbita, que ayudan a defender las colonias, y puede servir para contribuir a reforzar tu poder en territorio enemigo. </Text>
+		<Image>Mil_Base.png</Image>
+	</Hint>
+	<Hint>
+		<Text>Las bases estelares comerciales incrementan el valor de las rutas comerciales cuando los cargueros pasen por sus areas de efecto.
+
+Para incrementar aun mas su valor, instala modulos de comercio o anade modulos de produccion para aumentar los puntos de produccion en las colonias que se encuentren dentro del area de efecto.</Text>
+		<Image>Economic_Base.png</Image>
+	</Hint>
+	<Hint>
+		<Text>Las bases estelares de influencia aumentan esta en un area determinada por el porcentaje de los modulos acumulados. El alcance esta limitado al area afectada por la base estelar.
+
+Mejora las bases estelares de influencia investigando las ramas del arbol tecnologico dedicadas a la diplomacia y la influencia.</Text>
+		<Image>Culture_Base.png</Image>
+	</Hint>
+	<Hint>
+		<Text>Activa la pantalla del visor de combate para ver como tus naves presentan batalla al enemigo.
+
+La pantalla de combate te permite ver a tus naves y flotas. Ademas de que es muy bonito, utiliza el visor de combate para comprobar como se desenvuelven tus armas y defensas contra los oponentes.
+</Text>
+		<Image>Combat_View.png</Image>
+	</Hint>
+	<Hint>
+		<Text>Utiliza los botones de prioridad, que se encuentran en la parte superior de la pantalla de gestion de la colonia, para impulsar la produccion en una categoria especifica (ejercito, social o investigacion).
+
+Esto tiene una contrapartida: centrar la prioridad en un area disminuira la produccion en las otras dos.
+</Text>
+		<Image>Hint_ProdFocus.png</Image>
+	</Hint>
+	<Hint>
+		<Text>Las casillas de los planteas pueden tener bonificaciones asociadas a ellas, que se indican con un pequeno icono en la esquina inferior izquierda.
+
+Para aprovechar al maximo los terrenos especiales de tu planeta, haz que las mejoras coincidan con las bonificaciones.
+</Text>
+		<Image>Hint_TileBonuses.png</Image>
+	</Hint>
+	<Hint>
+		<Text>Contempla todo el mundo de un vistazo. A medida que recorras la galaxia, podras aprender muchas cosas de los planetas que veas. Los simbolos que acompanan a los planetas te informan de quien posee el planeta y de si esta defendido. Tambien te indican si en tus planetas se estan construyendo naves estelares o proyectos sociales.
+
+Presta atencion al simbolo de la calavera y las tibias cruzadas. Si lo ves, significa que el planeta esta a punto de rebelarse. Eso puede ser bueno o malo, dependiendo de si es uno de tus planetas o no.
+</Text>
+		<Image>Overlays_Hint.png</Image>
+	</Hint>
+	
+	<Hint>
+		<Text>Construir bases esterales en Cristales Ascension son sintoma de poder, permitiendo a la raza ascender a un nuevo punto de su existencia.</Text>
+		<Image>Hint_Ascension.png</Image>
+	</Hint>
+	
+	<!-- RACE SPECIFIC -->
+	<Hint>
+		<Text>Los Arceanos no tienen la misma tecnologia de motores que otras razas. 
+		
+En lugar de actualizar sus motores fisicos, los centros de navegacion estan disenados para mejorar la velocidad de los buques en funcion de cada planeta.</Text>
+		<Image>Hint_ArceanEngines.png</Image>
+		<TechTree>Arcean_TechTree</TechTree>
+	</Hint>
+	
+	<Hint>
+		<Text>La Matriz Hyperion es un logro digno de coronacion de los Thalan, , la culminacion del conocimiento de su antigua casa. 
+		
+		Solo puede ser construido en un planeta... Elige sabiamente mi joven Padawan.</Text>
+		<Image>Hint_HyperionMatrix.png</Image>
+		<TechTree>Thalan_TechTree</TechTree>
+	</Hint>
+	
+	<Hint>
+		<Text>En la parte mas baja en el arbol tecnologico Korath se encuentra el Incinerador Aul, una mejora vil que mina la vida-energia del planeta para mejorar en las capacidades de fabricacion.</Text>
+		<Image>Hint_AulIncinerator.png</Image>
+		<TechTree>Korath_TechTree</TechTree>
+	</Hint>
+	
+</Hints>

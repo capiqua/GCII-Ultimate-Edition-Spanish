@@ -1,0 +1,4632 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<GC2>
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName,Description,Model,Thumbnail,Animation,FlavorText0,FlavorText1,FlavorText2,FlavorText3,FlavorText4,FlavorText5</Ignore>
+		<Translate>DisplayName,Description,FlavorText0,FlavorText1,FlavorText2,FlavorText3,FlavorText4,FlavorText5</Translate>
+	</DataChecksum>
+<!--Beam-->
+	<Weapon Name="ParticleBeam">
+		<DisplayName>Maser</DisplayName>
+		<Class>B</Class>
+		<Type>1</Type>
+		<Size>13</Size>
+		<SizeMod>4</SizeMod>
+		<Cost>45</Cost>
+		<Damage>1</Damage>
+		<Model>BeamWepX1</Model>
+		<Category>Beam</Category>
+        <Tech_Requirement>Space Weapons</Tech_Requirement>
+        <Animation>lasers.x</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_particlebeam_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect</DeflectSound>
+		<ScaleWidthPercent>5</ScaleWidthPercent>
+		<FlavorText0>Aegis Mk I Basic Particle Beam System.</FlavorText0>
+		<FlavorText1>Torabran Particle energy beam weapon.</FlavorText1>
+		<FlavorText2>B-1 basic particle beam weapon.</FlavorText2>
+		<FlavorText3>Ti'Kinth Particle Beamer</FlavorText3>
+		<FlavorText4>Slight nudge giver negotiation proposition.</FlavorText4>
+		<FlavorText5>Yet Another Primitive Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="Laser0">
+		<DisplayName>Laser</DisplayName>
+		<Class>B</Class>
+		<Type>1</Type>
+		<Size>10</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>45</Cost>
+		<Damage>1</Damage>
+		<Model>Laser0</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>Laser</Tech_Requirement>
+		<Animation>Lasersg.X</Animation>
+		<FrameCount>20</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>3</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>laser</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect</DeflectSound>
+		<ScaleWidthPercent>100</ScaleWidthPercent>
+		<FlavorText0>Westinghouse Fusion-powered laser cannon. Mark I.</FlavorText0>
+		<FlavorText1>Torabran Particle energy beam weapon.</FlavorText1>
+		<FlavorText2>B-1 basic laser beam weapon.</FlavorText2>
+		<FlavorText3>Ti'Kinth laser Beamer</FlavorText3>
+		<FlavorText4>Reasonable nudge giver negotiation proposition.</FlavorText4>
+		<FlavorText5>Primitive direct beam weapon.</FlavorText5>
+	</Weapon>
+	<Weapon Name="Laser1">
+		<DisplayName>Laser Mark II</DisplayName>
+		<Class>B</Class>
+		<Type>1</Type>
+		<Size>8</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>45</Cost>
+		<Damage>1</Damage>
+		<Model>Laser1</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>Laser II</Tech_Requirement>
+		<Animation>Lasersg.X</Animation>
+		<FrameCount>20</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>3</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>laser</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect</DeflectSound>
+		<ScaleWidthPercent>150</ScaleWidthPercent>
+		<FlavorText0>Westinghouse Fusion-powered laser cannon. Mark II.</FlavorText0>
+		<FlavorText1>Torabran Particle energy beam weapon.</FlavorText1>
+		<FlavorText2>B-1B basic laser beam weapon.</FlavorText2>
+		<FlavorText3>Ti'Kinth laser Beamer</FlavorText3>
+		<FlavorText4>Reasonable nudge giver negotiation proposition.</FlavorText4>
+		<FlavorText5>Primitive direct beam weapon.</FlavorText5>
+	</Weapon>
+	<Weapon Name="Laser2">
+		<DisplayName>Laser Mark III</DisplayName>
+		<Class>B</Class>
+		<Type>1</Type>
+		<Size>6</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>45</Cost>
+		<Damage>1</Damage>
+		<Model>Laser2</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>Laser III</Tech_Requirement>
+		<Animation>Lasersg.X</Animation>
+		<FrameCount>20</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>3</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>laser</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect</DeflectSound>
+		<ScaleWidthPercent>200</ScaleWidthPercent>
+		<FlavorText0>Westinghouse Fusion-powered laser cannon. Mark III.</FlavorText0>
+		<FlavorText1>Torabran Particle energy beam weapon.</FlavorText1>
+		<FlavorText2>B-1N basic laser beam weapon.</FlavorText2>
+		<FlavorText3>Ti'Kinth laser Beamer</FlavorText3>
+		<FlavorText4>Reasonable nudge giver negotiation proposition.</FlavorText4>
+		<FlavorText5>Primitive direct beam weapon.</FlavorText5>
+	</Weapon>	
+	<Weapon Name="KineticStream1">
+		<DisplayName>Kinetic Stream I</DisplayName>
+		<Class>B</Class>
+		<Type>1</Type>
+		<Size>8</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>55</Cost>
+		<Damage>1</Damage>
+		<Model>Laser2</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>KineticStreams1</Tech_Requirement>
+		<Animation>KineticStreams.X</Animation>
+		<FrameCount>20</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>1</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>KineticStreams</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect</DeflectSound>
+		<ScaleWidthPercent>150</ScaleWidthPercent>
+		<FlavorText0>Westinghouse "Long Lance" laser cannon. Mark V.</FlavorText0>
+		<FlavorText1>Torabran Particle energy beam weapon.</FlavorText1>
+		<FlavorText2>B-1 basic laser beam weapon.</FlavorText2>
+		<FlavorText3>Ti'Kinth laser Beamer</FlavorText3>
+		<FlavorText4>Reasonable nudge giver negotiation proposition.</FlavorText4>
+		<FlavorText5>Primitive direct beam weapon.</FlavorText5>
+	</Weapon>
+	<Weapon Name="KineticStream2">
+		<DisplayName>Kinetic Stream II</DisplayName>
+		<Class>B</Class>
+		<Type>1</Type>
+		<Size>6</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>55</Cost>
+		<Damage>1</Damage>
+		<Model>Laser3</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>KineticStreams2</Tech_Requirement>
+		<Animation>KineticStreams.X</Animation>
+		<FrameCount>20</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>1</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>KineticStreams</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect</DeflectSound>
+		<ScaleWidthPercent>300</ScaleWidthPercent>
+		<FlavorText0>Westinghouse "Long Lance" laser cannon. Mark V.</FlavorText0>
+		<FlavorText1>Torabran Particle energy beam weapon.</FlavorText1>
+		<FlavorText2>B-1 basic laser beam weapon.</FlavorText2>
+		<FlavorText3>Ti'Kinth laser Beamer</FlavorText3>
+		<FlavorText4>Reasonable nudge giver negotiation proposition.</FlavorText4>
+		<FlavorText5>Primitive direct beam weapon.</FlavorText5>
+	</Weapon>
+	<Weapon Name="KineticStream3">
+		<DisplayName>Kinetic Stream III</DisplayName>
+		<Class>B</Class>
+		<Type>1</Type>
+		<Size>4</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>55</Cost>
+		<Damage>1</Damage>
+		<Model>Laser4</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>KineticStreams3</Tech_Requirement>
+		<Animation>KineticStreams.X</Animation>
+		<FrameCount>20</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>1</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>KineticStreams</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect</DeflectSound>
+		<ScaleWidthPercent>450</ScaleWidthPercent>
+		<FlavorText0>Westinghouse "Long Lance" laser cannon. Mark V.</FlavorText0>
+		<FlavorText1>Torabran Particle energy beam weapon.</FlavorText1>
+		<FlavorText2>B-1 basic laser beam weapon.</FlavorText2>
+		<FlavorText3>Ti'Kinth laser Beamer</FlavorText3>
+		<FlavorText4>Reasonable nudge giver negotiation proposition.</FlavorText4>
+		<FlavorText5>Primitive direct beam weapon.</FlavorText5>
+	</Weapon>
+	<Weapon Name="ParticleBeam1">
+		<DisplayName>Particle Beam I</DisplayName>
+		<Class>B</Class>
+		<Type>2</Type>
+		<Size>11</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>40</Cost>
+		<Damage>2</Damage>
+		<Model>Plasma0</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>ParticleBeams</Tech_Requirement>
+		<Animation>ParticleBeam.x</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>ParticleBeam</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect</DeflectSound>
+		<ScaleWidthPercent>150</ScaleWidthPercent>
+		<FlavorText0>Raetheon G1 Heavy Plasma Cannon. Continuous spread.</FlavorText0>
+		<FlavorText1>Valta Plasma Reactor Beam Weapon.</FlavorText1>
+		<FlavorText2>PL-1 Plasma Annihilator.</FlavorText2>
+		<FlavorText3>Ti'Ila "Slammer" Plasma gunpod.</FlavorText3>
+		<FlavorText4>Irritated response plasma touch.</FlavorText4>
+		<FlavorText5>Primitive direct beam weapon.</FlavorText5>
+	</Weapon>
+	<Weapon Name="ParticleBeam2">
+		<DisplayName>Particle Beam II</DisplayName>
+		<Class>B</Class>
+		<Type>2</Type>
+		<Size>9</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>40</Cost>
+		<Damage>2</Damage>
+		<Model>Plasma1</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>ParticleBeams2</Tech_Requirement>
+		<Animation>ParticleBeam.x</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>ParticleBeam</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect</DeflectSound>
+		<ScaleWidthPercent>250</ScaleWidthPercent>
+		<FlavorText0>Raetheon G1 Heavy Plasma Cannon. Continuous spread.</FlavorText0>
+		<FlavorText1>Valta Plasma Reactor Beam Weapon.</FlavorText1>
+		<FlavorText2>PL-1 Plasma Annihilator.</FlavorText2>
+		<FlavorText3>Ti'Ila "Slammer" Plasma gunpod.</FlavorText3>
+		<FlavorText4>Irritated response plasma touch.</FlavorText4>
+		<FlavorText5>Primitive direct beam weapon.</FlavorText5>
+	</Weapon>
+	<Weapon Name="ParticleBeam3">
+		<DisplayName>Particle Beam III</DisplayName>
+		<Class>B</Class>
+		<Type>2</Type>
+		<Size>7</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>40</Cost>
+		<Damage>2</Damage>
+		<Model>Plasma2</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>ParticleBeams3</Tech_Requirement>
+		<Animation>ParticleBeam.x</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>ParticleBeam</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect</DeflectSound>
+		<ScaleWidthPercent>400</ScaleWidthPercent>
+		<FlavorText0>Raetheon G1 Heavy Plasma Cannon. Continuous spread.</FlavorText0>
+		<FlavorText1>Valta Plasma Reactor Beam Weapon.</FlavorText1>
+		<FlavorText2>PL-1 Plasma Annihilator.</FlavorText2>
+		<FlavorText3>Ti'Ila "Slammer" Plasma gunpod.</FlavorText3>
+		<FlavorText4>Irritated response plasma touch.</FlavorText4>
+		<FlavorText5>Primitive direct beam weapon.</FlavorText5>
+	</Weapon>
+	<Weapon Name="Plasma0">
+		<DisplayName>Plasma</DisplayName>
+		<Class>B</Class>
+		<Type>2</Type>
+		<Size>12</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>72</Cost>
+		<Damage>4</Damage>
+		<Model>Phasors0</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>Plasma Weapons</Tech_Requirement>
+		<Animation>WFX_Plasma01.X</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_plasma_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect_2</DeflectSound>
+		<ScaleWidthPercent>50</ScaleWidthPercent>
+		<FlavorText0>Raetheon G1 Heavy Plasma Cannon. Continuous spread.</FlavorText0>
+		<FlavorText1>Valta Plasma Reactor Beam Weapon.</FlavorText1>
+		<FlavorText2>PL-1 Plasma Annihilator.</FlavorText2>
+		<FlavorText3>Ti'Ila "Slammer" Plasma gunpod.</FlavorText3>
+		<FlavorText4>Irritated response plasma touch.</FlavorText4>
+		<FlavorText5>Primitive direct beam weapon.</FlavorText5>
+	</Weapon>
+	<Weapon Name="Plasma1">
+		<DisplayName>Plasma II</DisplayName>
+		<Class>B</Class>
+		<Type>2</Type>
+		<Size>10</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>72</Cost>
+		<Damage>4</Damage>
+		<Model>Phasors1</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>Plasma Weapons II</Tech_Requirement>
+		<Animation>WFX_Plasma01.X</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_plasma_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect_2</DeflectSound>
+		<ScaleWidthPercent>70</ScaleWidthPercent>
+		<FlavorText0>Raetheon Ion-Plasma Canon with magnetic deflection. 80 Terajoule output.</FlavorText0>
+		<FlavorText1>Valta Plasma Reactor Beam Weapon.</FlavorText1>
+		<FlavorText2>PL-1A Plasma Annihilator.</FlavorText2>
+		<FlavorText3>Ti'Ila "Slammer" Plasma gunpod.</FlavorText3>
+		<FlavorText4>Irritated response plasma touch.</FlavorText4>
+		<FlavorText5>Primitive direct beam weapon.</FlavorText5>
+	</Weapon>
+	<Weapon Name="Plasma2">
+		<DisplayName>Plasma III</DisplayName>
+		<Class>B</Class>
+		<Type>2</Type>
+		<Size>8</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>72</Cost>
+		<Damage>4</Damage>
+		<Model>Phasors2</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>Plasma Weapons III</Tech_Requirement>
+		<Animation>WFX_Plasma01.X</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_plasma_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect_2</DeflectSound>
+		<ScaleWidthPercent>100</ScaleWidthPercent>
+		<FlavorText0>Raetheon G-X Super-Heavy Plasma Canon w/95 Terajouse output extender.</FlavorText0>
+		<FlavorText1>Valta Plasma Reactor Beam Weapon.</FlavorText1>
+		<FlavorText2>PL-1 Plasma Annihilator.</FlavorText2>
+		<FlavorText3>Ti'Ila "Slammer" Plasma gunpod.</FlavorText3>
+		<FlavorText4>Irritated response plasma touch.</FlavorText4>
+		<FlavorText5>Primitive direct beam weapon.</FlavorText5>
+	</Weapon>
+	<Weapon Name="IonBeams0">
+		<DisplayName>Ion Beams</DisplayName>
+		<Class>B</Class>
+		<Type>4</Type>
+		<Size>11</Size>
+		<SizeMod>2</SizeMod>
+		<Cost>70</Cost>
+		<Damage>4</Damage>
+		<Model>Phasors0</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>IonBeams</Tech_Requirement>
+		<Animation>WFX_SubspaceBlast01.x</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>phasor</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect</DeflectSound>
+		<ScaleWidthPercent>100</ScaleWidthPercent>
+		<FlavorText0>Raetheon G1 Heavy Ion Beam. Continuous spread.</FlavorText0>
+		<FlavorText1>Valta Ion Reactor Beam Weapon.</FlavorText1>
+		<FlavorText2>PL-1 IonAnnihilator.</FlavorText2>
+		<FlavorText3>Ti'Ila "Slammer" Ion gunpod.</FlavorText3>
+		<FlavorText4>Irritated response ion touch.</FlavorText4>
+		<FlavorText5>Primitive direct beam weapon.</FlavorText5>
+	</Weapon>
+	<Weapon Name="IonBeams1">
+		<DisplayName>Ion Beams II</DisplayName>
+		<Class>B</Class>
+		<Type>4</Type>
+		<Size>9</Size>
+		<SizeMod>2</SizeMod>
+		<Cost>70</Cost>
+		<Damage>4</Damage>
+		<Model>Phasors1</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>IonBeams2</Tech_Requirement>
+		<Animation>WFX_SubspaceBlast01.x</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>phasor</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect</DeflectSound>
+		<ScaleWidthPercent>200</ScaleWidthPercent>
+		<FlavorText0>Raetheon G1 Heavy Ion Beam. Continuous spread.</FlavorText0>
+		<FlavorText1>Valta Ion Reactor Beam Weapon.</FlavorText1>
+		<FlavorText2>PL-1 Ion Annihilator.</FlavorText2>
+		<FlavorText3>Ti'Ila "Slammer" Ion gunpod.</FlavorText3>
+		<FlavorText4>Irritated response ion touch.</FlavorText4>
+		<FlavorText5>Primitive direct beam weapon.</FlavorText5>
+	</Weapon>
+	<Weapon Name="IonBeams2">
+		<DisplayName>Ion Beams III</DisplayName>
+		<Class>B</Class>
+		<Type>4</Type>
+		<Size>7</Size>
+		<SizeMod>2</SizeMod>
+		<Cost>70</Cost>
+		<Damage>4</Damage>
+		<Model>Phasors2</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>IonBeams3</Tech_Requirement>
+		<Animation>WFX_SubspaceBlast01.x</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>phasor</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect</DeflectSound>
+		<ScaleWidthPercent>300</ScaleWidthPercent>
+		<FlavorText0>Raetheon G1 Heavy Ion Beam. Continuous spread.</FlavorText0>
+		<FlavorText1>Valta Ion Reactor Beam Weapon.</FlavorText1>
+		<FlavorText2>PL-1 Ion Annihilator.</FlavorText2>
+		<FlavorText3>Ti'Ila "Slammer" Ion gunpod.</FlavorText3>
+		<FlavorText4>Irritated response ion touch.</FlavorText4>
+		<FlavorText5>Primitive direct beam weapon.</FlavorText5>
+	</Weapon>
+	<Weapon Name="Phasors0">
+		<DisplayName>Phasors</DisplayName>
+		<Class>B</Class>
+		<Type>3</Type>
+		<Size>12</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>90</Cost>
+		<Damage>6</Damage>
+		<Model>Phasors3</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>Phasors</Tech_Requirement>
+		<Animation>phasersg.x</Animation>
+		<FrameCount>60</FrameCount>
+		<LaunchFrame>9</LaunchFrame>
+		<ImpactFrame>10</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>phasor</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect_2</DeflectSound>
+		<ScaleWidthPercent>100</ScaleWidthPercent>
+		<FlavorText0>Westinghouse NOVA KOS-1000 Phasor Array.</FlavorText0>
+		<FlavorText1>Eala 100TW Phased beam weapon.</FlavorText1>
+		<FlavorText2>PH-1 Phased Spectrum Beam Director.</FlavorText2>
+		<FlavorText3>Vir'Ki Lethal Phasor. 100TW Rated</FlavorText3>
+		<FlavorText4>Aggravated attention instigation system. Phased beam based.</FlavorText4>
+		<FlavorText5>Primitive direct beam weapon.</FlavorText5>
+	</Weapon>
+	<Weapon Name="Phasors1">
+		<DisplayName>Phasors II</DisplayName>
+		<Class>B</Class>
+		<Type>3</Type>
+		<Size>10</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>90</Cost>
+		<Damage>6</Damage>
+		<Model>Phasors4</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>Phasors II</Tech_Requirement>
+		<Animation>phasersg.x</Animation>
+		<FrameCount>60</FrameCount>
+		<LaunchFrame>9</LaunchFrame>
+		<ImpactFrame>10</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>phasor</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect_2</DeflectSound>
+		<ScaleWidthPercent>150</ScaleWidthPercent>
+		<FlavorText0>Westinghouse NOVA KOS-2000 Phasor Array.</FlavorText0>
+		<FlavorText1>Eala 120TW Phased beam weapon.</FlavorText1>
+		<FlavorText2>PH-1 Phased Spectrum Beam Director.</FlavorText2>
+		<FlavorText3>Vir'Ki Lethal Phasor. 120TW Rated</FlavorText3>
+		<FlavorText4>Aggravated attention instigation system. Phased beam based.</FlavorText4>
+		<FlavorText5>Primitive direct beam weapon.</FlavorText5>
+	</Weapon>
+	<Weapon Name="Phasors2">
+		<DisplayName>Phasors III</DisplayName>
+		<Class>B</Class>
+		<Type>3</Type>
+		<Size>8</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>90</Cost>
+		<Damage>6</Damage>
+		<Model>Phasors5</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>Phasors III</Tech_Requirement>
+		<Animation>phasersg.x</Animation>
+		<FrameCount>60</FrameCount>
+		<LaunchFrame>9</LaunchFrame>
+		<ImpactFrame>10</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>phasor</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect_2</DeflectSound>
+		<ScaleWidthPercent>200</ScaleWidthPercent>
+		<FlavorText0>Westinghouse NOVA KOS-3000 Phasor Array.</FlavorText0>
+		<FlavorText1>Eala 150TW Phased beam weapon.</FlavorText1>
+		<FlavorText2>PH-1 Phased Spectrum Beam Director.</FlavorText2>
+		<FlavorText3>Vir'Ki Lethal Phasor. 150TW Rated</FlavorText3>
+		<FlavorText4>Aggravated attention instigation system. Phased beam based.</FlavorText4>
+		<FlavorText5>Primitive direct beam weapon.</FlavorText5>
+	</Weapon>	
+	<Weapon Name="Disruptors0">
+		<DisplayName>Disruptors</DisplayName>
+		<Class>B</Class>
+		<Type>4</Type>
+		<Size>13</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>75</Cost>
+		<Damage>10</Damage>
+		<Model>Disruptor0</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>Disruptors</Tech_Requirement>
+		<Animation>Disruptorsg.X</Animation>
+		<FrameCount>30</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>12</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>disruptorsg</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect_3</DeflectSound>
+		<ScaleWidthPercent>75</ScaleWidthPercent>
+		<FlavorText0>Westinghouse-Raetheon Phased-Disruption M1-155 "Warlock" beam canon.</FlavorText0>
+		<FlavorText1>Ithilari-Disruptor Beam weapon with 315TW output</FlavorText1>
+		<FlavorText2>D-1000 Material disruption weapon system.</FlavorText2>
+		<FlavorText3>Vir'Dinia Disruption generator.</FlavorText3>
+		<FlavorText4>Slightly confrontational disruption itcher.</FlavorText4>
+		<FlavorText5>Primitive direct beam weapon.</FlavorText5>
+	</Weapon>
+	<Weapon Name="Disruptors1">
+		<DisplayName>Disruptors II</DisplayName>
+		<Class>B</Class>
+		<Type>4</Type>
+		<Size>11</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>75</Cost>
+		<Damage>10</Damage>
+		<Model>Disruptor1</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>Disruptors II</Tech_Requirement>
+		<Animation>Disruptorsg.X</Animation>
+		<FrameCount>30</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>12</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>disruptorsg</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect_3</DeflectSound>
+		<ScaleWidthPercent>150</ScaleWidthPercent>
+		<FlavorText0>Westinghouse-Raetheon Phased-Disruption M1-255 "Warlock" beam canon.</FlavorText0>
+		<FlavorText1>Ithilari-Disruptor Beam weapon with 335TW output</FlavorText1>
+		<FlavorText2>D-1000 Material disruption weapon system.</FlavorText2>
+		<FlavorText3>Vir'Dinia Disruption generator.</FlavorText3>
+		<FlavorText4>Slightly confrontational disruption itcher.</FlavorText4>
+		<FlavorText5>Primitive direct beam weapon.</FlavorText5>
+	</Weapon>
+	<Weapon Name="Disruptors2">
+		<DisplayName>Disruptors III</DisplayName>
+		<Class>B</Class>
+		<Type>4</Type>
+		<Size>9</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>75</Cost>
+		<Damage>10</Damage>
+		<Model>Disruptor2</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>Disruptors III</Tech_Requirement>
+		<Animation>Disruptorsg.X</Animation>
+		<FrameCount>30</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>12</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>disruptorsg</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect_3</DeflectSound>
+		<ScaleWidthPercent>300</ScaleWidthPercent>
+		<FlavorText0>Westinghouse-Raetheon Phased-Disruption M1-1000 "OMEGA" beam canon.</FlavorText0>
+		<FlavorText1>Ithilari-Disruptor Beam weapon with 355TW output</FlavorText1>
+		<FlavorText2>D-2000 Material disruption weapon system.</FlavorText2>
+		<FlavorText3>Vir'Dinia Disruption generator.</FlavorText3>
+		<FlavorText4>Slightly confrontational disruption itcher.</FlavorText4>
+		<FlavorText5>Primitive direct beam weapon.</FlavorText5>
+	</Weapon>	
+	
+	<Weapon Name="DoomRay">
+		<DisplayName>Doom Ray</DisplayName>
+		<Class>B</Class>
+		<Type>5</Type>
+		<Size>14</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>220</Cost>
+		<Damage>32</Damage>
+		<Model>Disruptor3</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>Doom Ray</Tech_Requirement>
+		<Animation>DoomRaysg.x</Animation>
+		<FrameCount>60</FrameCount>
+		<LaunchFrame>30</LaunchFrame>
+		<ImpactFrame>30</ImpactFrame>
+		<Explosion>Explosion_normal.png</Explosion>
+		<AttackSound>doomray</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect_3</DeflectSound>
+		<ScaleWidthPercent>380</ScaleWidthPercent>
+		<FlavorText0>Westinghouse-Raetheon Nova-2332 Doom beam.</FlavorText0>
+		<FlavorText1>Ithilari-Disruptor Ultimate Revenge beam.</FlavorText1>
+		<FlavorText2>D-5000 Final energy beam system.</FlavorText2>
+		<FlavorText3>Vir'Vinth Victory weapon.</FlavorText3>
+		<FlavorText4>Decision acquisition challenge.</FlavorText4>
+		<FlavorText5>Nor'milntir-rava (life carver)</FlavorText5>
+	</Weapon>
+	<Weapon Name="Psionic Beam">
+		<DisplayName>Psionic Beam</DisplayName>
+		<Class>B</Class>
+		<Type>4</Type>
+		<Size>8</Size>
+		<SizeMod>4</SizeMod>
+		<Cost>65</Cost>
+		<Damage>4</Damage>
+		<Model>PsyonicBeam01</Model>
+		<Category>Beam</Category>
+		<Tech_Requirement>Psionic Beam</Tech_Requirement>
+		<Animation>WFX_PsyonicBeam01.X</Animation>
+		<FrameCount>80</FrameCount>
+		<LaunchFrame>25</LaunchFrame>
+		<ImpactFrame>53</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_psyonic_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect</DeflectSound>
+		<ScaleWidthPercent>100</ScaleWidthPercent>
+		<FlavorText0>Psyonic based beam weapon. Inventor unknown.</FlavorText0>
+		<FlavorText1>Psyonic based beam weapon. Inventor unknown.</FlavorText1>
+		<FlavorText2>P-1 Psyonic Beam Weapon.</FlavorText2>
+		<FlavorText3>Kli'Kitar Agony weapon.</FlavorText3>
+		<FlavorText4>Enemy Sadness screamer.</FlavorText4>
+		<FlavorText5>Yet Another Primitive Death Rock.</FlavorText5>
+	</Weapon>
+<!--Missile-->
+	<Weapon Name="Sparrow">
+		<DisplayName>Sparrow</DisplayName>
+		<Class>M</Class>
+		<Type>1</Type>
+		<Size>16</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>40</Cost>
+		<Damage>1</Damage>
+		<Model>Stinger0</Model>
+		<Description>This bird ain't nice.</Description>
+		<Category>Missile</Category>
+		<Tech_Requirement>Missile Weapon Theory</Tech_Requirement>
+		<Animation>Sparrow.X</Animation>
+		<FrameCount>35</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>29</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>Sparrow</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_missile</ExplosionSound2>
+		<DeflectSound>battle_point_deflect</DeflectSound>
+		<FlavorText0>Locksteed P-133 Sparrow Nuclear Missile.</FlavorText0>
+		<FlavorText1>Hania Atomic propulsion-based weapon</FlavorText1>
+		<FlavorText2>M-1 Hydrogen reaction propelled missile.</FlavorText2>
+		<FlavorText3>Kiklar-Ti Missile.</FlavorText3>
+		<FlavorText4>Pretty sky making joy seeker.</FlavorText4>
+		<FlavorText5>Primitive missile.</FlavorText5>
+	</Weapon>
+	<Weapon Name="Stinger0">
+		<DisplayName>Stinger</DisplayName>
+		<Class>M</Class>
+		<Type>1</Type>
+		<Size>15</Size>
+		<SizeMod>2</SizeMod>
+		<Cost>80</Cost>
+		<Damage>2</Damage>
+		<Model>Stinger1</Model>
+		<Description>This missile stings.</Description>
+		<Category>Missile</Category>
+		<Tech_Requirement>Stinger</Tech_Requirement>
+		<Animation>Stinger.X</Animation>
+		<FrameCount>35</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>29</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>stinger</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_missile</ExplosionSound2>
+		<DeflectSound>battle_point_deflect</DeflectSound>
+		<FlavorText0>Locksteed N-1000 Space-based "Stinger" Nuclear Missile.</FlavorText0>
+		<FlavorText1>Hania Atomic propulsion-based weapon</FlavorText1>
+		<FlavorText2>M-1 Hydrogen reaction propelled missile.</FlavorText2>
+		<FlavorText3>Kiklar-Ti Missile.</FlavorText3>
+		<FlavorText4>Pretty sky making joy seeker.</FlavorText4>
+		<FlavorText5>Primitive missile.</FlavorText5>
+	</Weapon>
+	<Weapon Name="Stinger1">
+		<DisplayName>Stinger II</DisplayName>
+		<Class>M</Class>
+		<Type>1</Type>
+		<Size>13</Size>
+		<SizeMod>2</SizeMod>
+		<Cost>80</Cost>
+		<Damage>2</Damage>
+		<Model>Stinger2</Model>
+		<Description>More missiles</Description>
+		<Category>Missile</Category>
+		<Tech_Requirement>Stinger II</Tech_Requirement>
+		<Animation>Stinger.X</Animation>
+		<FrameCount>35</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>29</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>stinger</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_missile</ExplosionSound2>
+		<DeflectSound>battle_point_deflect</DeflectSound>
+		<FlavorText0>Locksteed N-1100 Space-based "Stinger" Nuclear Missile.</FlavorText0>
+		<FlavorText1>Hania Atomic propulsion-based weapon</FlavorText1>
+		<FlavorText2>M-1 Hydrogen reaction propelled missile.</FlavorText2>
+		<FlavorText3>Kiklar-Ti Missile.</FlavorText3>
+		<FlavorText4>Pretty sky making joy seeker.</FlavorText4>
+		<FlavorText5>Primitive missile.</FlavorText5>
+	</Weapon>
+	<Weapon Name="Stinger2">
+		<DisplayName>Stinger III</DisplayName>
+		<Class>M</Class>
+		<Type>1</Type>
+		<Size>11</Size>
+		<SizeMod>2</SizeMod>
+		<Cost>80</Cost>
+		<Damage>2</Damage>
+		<Model>Stinger3</Model>
+		<Description>More missiles</Description>
+		<Category>Missile</Category>
+		<Tech_Requirement>Stinger III</Tech_Requirement>
+		<Animation>Stinger.X</Animation>
+		<FrameCount>35</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>29</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>stinger</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_missile</ExplosionSound2>
+		<DeflectSound>battle_point_deflect</DeflectSound>
+		<FlavorText0>Locksteed N-1200 Space-based "Stinger" Nuclear Missile.</FlavorText0>
+		<FlavorText1>Hania Atomic propulsion-based weapon</FlavorText1>
+		<FlavorText2>M-1 Hydrogen reaction propelled missile.</FlavorText2>
+		<FlavorText3>Kiklar-Ti Missile.</FlavorText3>
+		<FlavorText4>Pretty sky making joy seeker.</FlavorText4>
+		<FlavorText5>Primitive missile.</FlavorText5>
+	</Weapon>	
+	<Weapon Name="Seeker1">
+		<DisplayName>Seeker Missile I</DisplayName>
+		<Class>M</Class>
+		<Type>1</Type>
+		<Size>10</Size>
+		<SizeMod>2</SizeMod>
+		<Cost>35</Cost>
+		<Damage>1</Damage>
+		<Model>Stinger0</Model>
+		<Description>Cheap but effective missile.</Description>
+		<Category>Missile</Category>
+		<Tech_Requirement>Seeker1</Tech_Requirement>
+		<Animation>Seeker.X</Animation>
+		<FrameCount>35</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>29</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>Sparrow</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_missile</ExplosionSound2>
+		<DeflectSound>battle_point_deflect</DeflectSound>
+		<FlavorText0>Locksteed N-1000 Space-based "Seeker" Nuclear Missile.</FlavorText0>
+		<FlavorText1>Hania Atomic propulsion-based weapon</FlavorText1>
+		<FlavorText2>M-1 Hydrogen reaction propelled missile.</FlavorText2>
+		<FlavorText3>Kiklar-Ti Missile.</FlavorText3>
+		<FlavorText4>Pretty sky making joy seeker.</FlavorText4>
+		<FlavorText5>Primitive missile.</FlavorText5>
+	</Weapon>
+	<Weapon Name="Seeker2">
+		<DisplayName>Seeker Missile II</DisplayName>
+		<Class>M</Class>
+		<Type>1</Type>
+		<Size>8</Size>
+		<SizeMod>2</SizeMod>
+		<Cost>35</Cost>
+		<Damage>1</Damage>
+		<Model>Stinger0</Model>
+		<Description>Cheap but effective missile.</Description>
+		<Category>Missile</Category>
+		<Tech_Requirement>Seeker2</Tech_Requirement>
+		<Animation>Seeker.X</Animation>
+		<FrameCount>35</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>29</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>Sparrow</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_missile</ExplosionSound2>
+		<DeflectSound>battle_point_deflect</DeflectSound>
+		<FlavorText0>Locksteed N-1000 Space-based "Seeker" Nuclear Missile.</FlavorText0>
+		<FlavorText1>Hania Atomic propulsion-based weapon</FlavorText1>
+		<FlavorText2>M-1 Hydrogen reaction propelled missile.</FlavorText2>
+		<FlavorText3>Kiklar-Ti Missile.</FlavorText3>
+		<FlavorText4>Pretty sky making joy seeker.</FlavorText4>
+		<FlavorText5>Primitive missile.</FlavorText5>
+	</Weapon>
+	<Weapon Name="Seeker3">
+		<DisplayName>Seeker Missile III</DisplayName>
+		<Class>M</Class>
+		<Type>1</Type>
+		<Size>6</Size>
+		<SizeMod>2</SizeMod>
+		<Cost>35</Cost>
+		<Damage>1</Damage>
+		<Model>Stinger0</Model>
+		<Description>Cheap but effective missile.</Description>
+		<Category>Missile</Category>
+		<Tech_Requirement>Seeker3</Tech_Requirement>
+		<Animation>Seeker.X</Animation>
+		<FrameCount>35</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>29</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>Sparrow</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_missile</ExplosionSound2>
+		<DeflectSound>battle_point_deflect</DeflectSound>
+		<FlavorText0>Locksteed N-1000 Space-based "Seeker" Nuclear Missile.</FlavorText0>
+		<FlavorText1>Hania Atomic propulsion-based weapon</FlavorText1>
+		<FlavorText2>M-1 Hydrogen reaction propelled missile.</FlavorText2>
+		<FlavorText3>Kiklar-Ti Missile.</FlavorText3>
+		<FlavorText4>Pretty sky making joy seeker.</FlavorText4>
+		<FlavorText5>Primitive missile.</FlavorText5>
+	</Weapon>
+	<Weapon Name="Harpoon0">
+		<DisplayName>Harpoon</DisplayName>
+		<Class>M</Class>
+		<Type>2</Type>
+		<Size>14</Size>
+		<SizeMod>2</SizeMod>
+		<Cost>85</Cost>
+		<Damage>3</Damage>
+		<Model>Harpoon0</Model>
+		<Category>Missile</Category>
+		<Tech_Requirement>Harpoon</Tech_Requirement>
+		<Animation>Harpoon.X</Animation>
+		<FrameCount>35</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>29</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>harpoon</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_missile</ExplosionSound2>
+		<DeflectSound>battle_point_deflect</DeflectSound>
+		<FlavorText0>Locksteed T950 "Harpoon" Nuclear missile. Hyperdrive-1 equipped propulsion system for greater damage.</FlavorText0>
+		<FlavorText1>Hania Atomic HD propulsion-based weapon</FlavorText1>
+		<FlavorText2>M-1 Hydrogen reaction propelled missile. Hyperdrive equipped.</FlavorText2>
+		<FlavorText3>Kiklar-Ti Hyperdrive Missile.</FlavorText3>
+		<FlavorText4>Pretty sky making joy seeker. Now with faster spice.</FlavorText4>
+		<FlavorText5>Primitive missile.</FlavorText5>
+	</Weapon>
+	<Weapon Name="Harpoon1">
+		<DisplayName>Harpoon II</DisplayName>
+		<Class>M</Class>
+		<Type>2</Type>
+		<Size>12</Size>
+		<SizeMod>2</SizeMod>
+		<Cost>85</Cost>
+		<Damage>3</Damage>
+		<Model>Harpoon1</Model>
+		<Category>Missile</Category>
+		<Tech_Requirement>Harpoon II</Tech_Requirement>
+		<Animation>Harpoon.X</Animation>
+		<FrameCount>35</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>29</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>harpoon</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_missile</ExplosionSound2>
+		<DeflectSound>battle_point_deflect</DeflectSound>
+		<FlavorText0>Locksteed T960 "Harpoon" Nuclear missile. Hyperdrive-1 equipped propulsion system for greater damage.</FlavorText0>
+		<FlavorText1>Hania Atomic HD propulsion-based weapon</FlavorText1>
+		<FlavorText2>M-1 Hydrogen reaction propelled missile. Hyperdrive equipped.</FlavorText2>
+		<FlavorText3>Kiklar-Ti Hyperdrive Missile.</FlavorText3>
+		<FlavorText4>Pretty sky making joy seeker. Now with faster spice.</FlavorText4>
+		<FlavorText5>Primitive missile.</FlavorText5>
+	</Weapon>
+	<Weapon Name="Harpoon2">
+		<DisplayName>Harpoon III</DisplayName>
+		<Class>M</Class>
+		<Type>2</Type>
+		<Size>10</Size>
+		<SizeMod>2</SizeMod>
+		<Cost>85</Cost>
+		<Damage>3</Damage>
+		<Model>Harpoon2</Model>
+		<Category>Missile</Category>
+		<Tech_Requirement>Harpoon III</Tech_Requirement>
+		<Animation>Harpoon.X</Animation>
+		<FrameCount>35</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>29</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>harpoon</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_missile</ExplosionSound2>
+		<DeflectSound>battle_point_deflect</DeflectSound>
+		<FlavorText0>Locksteed T970 "Harpoon" Nuclear missile. Hyperdrive-1 equipped propulsion system for greater damage.</FlavorText0>
+		<FlavorText1>Hania Atomic HD propulsion-based weapon</FlavorText1>
+		<FlavorText2>M-1 Hydrogen reaction propelled missile. Hyperdrive equipped.</FlavorText2>
+		<FlavorText3>Kiklar-Ti Hyperdrive Missile.</FlavorText3>
+		<FlavorText4>Pretty sky making joy seeker. Now with faster spice.</FlavorText4>
+		<FlavorText5>Primitive missile.</FlavorText5>
+	</Weapon>
+	<Weapon Name="PhotonicTorpedo0">
+		<DisplayName>Photonic Torpedo</DisplayName>
+		<Class>M</Class>
+		<Type>3</Type>
+		<Size>14</Size>
+		<SizeMod>1</SizeMod>
+		<Cost>80</Cost>
+		<Damage>5</Damage>
+		<Model>PhotonTorp0</Model>
+		<Category>Missile</Category>
+		<Tech_Requirement>Photonic Torpedo</Tech_Requirement>
+		<Animation>WFX_PhotonicTorp01.X</Animation>
+		<FrameCount>35</FrameCount>
+		<LaunchFrame>8</LaunchFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_photon_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_missile</ExplosionSound2>
+		<DeflectSound>battle_point_deflect_2</DeflectSound>
+		<FlavorText0>Westinghouse-Norfok V-35 Space Torpedo. Anti-matter based warhead with Q-35 Aegis/3 Guidance Center.</FlavorText0>
+		<FlavorText1>Uthon Photonic Weapon with missile propulsion.</FlavorText1>
+		<FlavorText2>PT-1 Photonic charged missile system.</FlavorText2>
+		<FlavorText3>Fravker'Siath Photonic Destruction Giver.</FlavorText3>
+		<FlavorText4>Sparkling Joy rocket with happy energy induction.</FlavorText4>
+		<FlavorText5>Primitive missile.</FlavorText5>
+	</Weapon>
+	<Weapon Name="PhotonicTorpedo1">
+		<DisplayName>Photonic Torpedo II</DisplayName>
+		<Class>M</Class>
+		<Type>3</Type>
+		<Size>12</Size>
+		<SizeMod>1</SizeMod>
+		<Cost>80</Cost>
+		<Damage>5</Damage>
+		<Model>PhotonTorp1</Model>
+		<Category>Missile</Category>
+		<Tech_Requirement>Photonic Torpedo II</Tech_Requirement>
+		<Animation>WFX_PhotonicTorp01.X</Animation>
+		<FrameCount>35</FrameCount>
+		<LaunchFrame>8</LaunchFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_photon_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_missile</ExplosionSound2>
+		<DeflectSound>battle_point_deflect_2</DeflectSound>
+		<FlavorText0>Westinghouse-Norfok V-36 Space Torpedo. Anti-matter based warhead with Q-35 Aegis/3 Guidance Center.</FlavorText0>
+		<FlavorText1>Uthon Photonic Weapon with missile propulsion.</FlavorText1>
+		<FlavorText2>PT-1 Photonic charged missile system.</FlavorText2>
+		<FlavorText3>Fravker'Siath Photonic Destruction Giver.</FlavorText3>
+		<FlavorText4>Sparkling Joy rocket with happy energy induction.</FlavorText4>
+		<FlavorText5>Primitive missile.</FlavorText5>
+	</Weapon>
+	<Weapon Name="PhotonicTorpedo2">
+		<DisplayName>Photonic Torpedo III</DisplayName>
+		<Class>M</Class>
+		<Type>3</Type>
+		<Size>10</Size>
+		<SizeMod>1</SizeMod>
+		<Cost>80</Cost>
+		<Damage>5</Damage>
+		<Model>PhotonTorp2</Model>
+		<Category>Missile</Category>
+		<Tech_Requirement>Photonic Torpedo III</Tech_Requirement>
+		<Animation>WFX_PhotonicTorp01.X</Animation>
+		<FrameCount>35</FrameCount>
+		<LaunchFrame>8</LaunchFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_photon_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_missile</ExplosionSound2>
+		<DeflectSound>battle_point_deflect_2</DeflectSound>
+		<FlavorText0>Westinghouse-Norfok V-36 Space Torpedo. Anti-matter based warhead with Q-35 Aegis/3 Guidance Center.</FlavorText0>
+		<FlavorText1>Uthon Photonic Weapon with missile propulsion.</FlavorText1>
+		<FlavorText2>PT-1 Photonic charged missile system.</FlavorText2>
+		<FlavorText3>Fravker'Siath Photonic Destruction Giver.</FlavorText3>
+		<FlavorText4>Sparkling Joy rocket with happy energy induction.</FlavorText4>
+		<FlavorText5>Primitive missile.</FlavorText5>
+	</Weapon>
+	<Weapon Name="PhotonTorpedo0">
+		<DisplayName>Photon Torpedo</DisplayName>
+		<Class>M</Class>
+		<Type>3</Type>
+		<Size>13</Size>
+		<SizeMod>1</SizeMod>
+		<Cost>100</Cost>
+		<Damage>7</Damage>
+		<Model>PhotonTorp2</Model>
+		<Category>Missile</Category>
+		<Tech_Requirement>Photon Torpedo</Tech_Requirement>
+		<Animation>WFX_PhotonTorp01.X</Animation>
+		<FrameCount>60</FrameCount>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_photonic_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_missile</ExplosionSound2>
+		<DeflectSound>battle_point_deflect_2</DeflectSound>
+		<FlavorText0>Westinghouse-Norfok X-1 Pure Energy charge. QX-100 Nano-guidance system operates in quantum subspace.</FlavorText0>
+		<FlavorText1>Uthon Hyper-Energy Photon charge with invisible tracking system.</FlavorText1>
+		<FlavorText2>PT-X1 Energized Particle Missile with smart guidance in extra-dimensional construct.</FlavorText2>
+		<FlavorText3>Fravker'Siathi high-dimensional raw energy weapon.</FlavorText3>
+		<FlavorText4>Sparkling Joy energy ball with happy energy induction.</FlavorText4>
+		<FlavorText5>Somewhat less primitive missile.</FlavorText5>
+	</Weapon>
+	<Weapon Name="PhotonTorpedo1">
+		<DisplayName>Photon Torpedo II</DisplayName>
+		<Class>M</Class>
+		<Type>3</Type>
+		<Size>11</Size>
+		<SizeMod>1</SizeMod>
+		<Cost>100</Cost>
+		<Damage>7</Damage>
+		<Model>PhotonTorp3</Model>
+		<Category>Missile</Category>
+		<Tech_Requirement>Photon Torpedo II</Tech_Requirement>
+		<Animation>WFX_PhotonTorp01.X</Animation>
+		<FrameCount>60</FrameCount>
+		<LaunchFrame>3</LaunchFrame>
+		<ImpactFrame>60</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_photonic_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_missile</ExplosionSound2>
+		<DeflectSound>battle_point_deflect_2</DeflectSound>
+		<FlavorText0>Westinghouse-Norfok X-1A Pure Energy charge. QX-100 Nano-guidance system operates in quantum subspace.</FlavorText0>
+		<FlavorText1>Uthon Hyper-Energy Photon charge with invisible tracking system.</FlavorText1>
+		<FlavorText2>PT-X1 Energized Particle Missile with smart guidance in extra-dimensional construct.</FlavorText2>
+		<FlavorText3>Fravker'Siathi high-dimensional raw energy weapon.</FlavorText3>
+		<FlavorText4>Sparkling Joy energy ball with happy energy induction.</FlavorText4>
+		<FlavorText5>Somewhat less primitive missile.</FlavorText5>
+	</Weapon>
+	<Weapon Name="PhotonTorpedo2">
+		<DisplayName>Photon Torpedo III</DisplayName>
+		<Class>M</Class>
+		<Type>3</Type>
+		<Size>9</Size>
+		<SizeMod>1</SizeMod>
+		<Cost>100</Cost>
+		<Damage>7</Damage>
+		<Model>PhotonTorp4</Model>
+		<Category>Missile</Category>
+		<Tech_Requirement>Photon Torpedo III</Tech_Requirement>
+		<Animation>PhotDisrupt.X</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>PhotDisrupt</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_missile</ExplosionSound2>
+		<DeflectSound>battle_point_deflect_2</DeflectSound>
+		<FlavorText0>Westinghouse-Norfok X-2 Pure Energy charge. QX-100 Nano-guidance system operates in quantum subspace.</FlavorText0>
+		<FlavorText1>Uthon Hyper-Energy Photon charge with invisible tracking system.</FlavorText1>
+		<FlavorText2>PT-X1 Energized Particle Missile with smart guidance in extra-dimensional construct.</FlavorText2>
+		<FlavorText3>Fravker'Siathi high-dimensional raw energy weapon.</FlavorText3>
+		<FlavorText4>Sparkling Joy energy ball with happy energy induction.</FlavorText4>
+		<FlavorText5>Somewhat less primitive missile.</FlavorText5>
+	</Weapon>
+	<Weapon Name="AntiMatterTorpedo0">
+		<DisplayName>Anti-Matter Torpedo</DisplayName>
+		<Class>M</Class>
+		<Type>4</Type>
+		<Size>12</Size>
+		<SizeMod>1</SizeMod>
+		<Cost>110</Cost>
+		<Damage>10</Damage>
+		<Model>antimatterTorp0</Model>
+		<Category>Missile</Category>
+		<Tech_Requirement>Anti-Matter Torp</Tech_Requirement>
+		<Animation>WFX_PositronicTorp01.x</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>antimatterT</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_missile</ExplosionSound2>
+		<DeflectSound>battle_point_deflect_2</DeflectSound>
+		<FlavorText0>Westinghouse-Norfok X-10 Pure Energy charge. QX-200 Nano-guidance system operates in quantum subspace. Upgraded with Anti-matter charge</FlavorText0>
+		<FlavorText1>Uthon Hyper-Energy Photon charge with invisible tracking system.</FlavorText1>
+		<FlavorText2>PT-X5 Energized Particle Missile with smart guidance in extra-dimensional construct.</FlavorText2>
+		<FlavorText3>Fravker'Siathi high-dimensional raw energy weapon.</FlavorText3>
+		<FlavorText4>Sparkling Joy energy ball with happy energy induction.</FlavorText4>
+		<FlavorText5>Somewhat less primitive missile.</FlavorText5>
+	</Weapon>
+	<Weapon Name="AntiMatterTorpedo1">
+		<DisplayName>Anti-Matter Torpedo II</DisplayName>
+		<Class>M</Class>
+		<Type>4</Type>
+		<Size>10</Size>
+		<SizeMod>1</SizeMod>
+		<Cost>110</Cost>
+		<Damage>10</Damage>
+		<Model>antimatterTorp1</Model>
+		<Category>Missile</Category>
+		<Tech_Requirement>Anti-Matter Torp II</Tech_Requirement>
+		<Animation>WFX_PositronicTorp01.x</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>antimatterT</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_missile</ExplosionSound2>
+		<DeflectSound>battle_point_deflect_2</DeflectSound>
+		<FlavorText0>Westinghouse-Norfok X-10 Pure Energy charge. QX-210 Nano-guidance system operates in quantum subspace. Upgraded with Anti-matter charge</FlavorText0>
+		<FlavorText1>Uthon Hyper-Energy Photon charge with invisible tracking system.</FlavorText1>
+		<FlavorText2>PT-X5 Energized Particle Missile with smart guidance in extra-dimensional construct.</FlavorText2>
+		<FlavorText3>Fravker'Siathi high-dimensional raw energy weapon.</FlavorText3>
+		<FlavorText4>Sparkling Joy energy ball with happy energy induction.</FlavorText4>
+		<FlavorText5>Somewhat less primitive missile.</FlavorText5>
+	</Weapon>
+	<Weapon Name="AntiMatterTorpedo2">
+		<DisplayName>Anti-Matter Torpedo III</DisplayName>
+		<Class>M</Class>
+		<Type>4</Type>
+		<Size>8</Size>
+		<SizeMod>1</SizeMod>
+		<Cost>110</Cost>
+		<Damage>10</Damage>
+		<Model>antimatterTorp2</Model>
+		<Category>Missile</Category>
+		<Tech_Requirement>Anti-Matter Torp III</Tech_Requirement>
+		<Animation>WFX_PositronicTorp01.x</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>antimatterT</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_missile</ExplosionSound2>
+		<DeflectSound>battle_point_deflect_2</DeflectSound>
+		<FlavorText0>Westinghouse-Norfok X-10 Pure Energy charge. QX-220 Nano-guidance system operates in quantum subspace. Upgraded with Anti-matter charge</FlavorText0>
+		<FlavorText1>Uthon Hyper-Energy Photon charge with invisible tracking system.</FlavorText1>
+		<FlavorText2>PT-X5 Energized Particle Missile with smart guidance in extra-dimensional construct.</FlavorText2>
+		<FlavorText3>Fravker'Siathi high-dimensional raw energy weapon.</FlavorText3>
+		<FlavorText4>Sparkling Joy energy ball with happy energy induction.</FlavorText4>
+		<FlavorText5>Somewhat less primitive missile.</FlavorText5>
+	</Weapon>			
+	<Weapon Name="NightmareTorp">
+		<DisplayName>Nightmare Torpedo</DisplayName>
+		<Class>M</Class>
+		<Type>6</Type>
+		<Size>8</Size>
+		<SizeMod>1</SizeMod>
+		<Cost>100</Cost>
+		<Damage>20</Damage>
+		<Model>SubspaceTorp3</Model>
+		<Category>Missile</Category>
+		<Tech_Requirement>NightmareTorpedo</Tech_Requirement>
+		<Animation>Nightmaretorp.X</Animation>
+		<FrameCount>30</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>16</ImpactFrame>
+		<Explosion>Explosion_normal.png</Explosion>
+		<AttackSound>Nightmaretorp</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_missile</ExplosionSound2>
+		<DeflectSound>battle_point_deflect_2</DeflectSound>
+		<FlavorText0>Locksteed XV-1000 Null-point generator "Nightmare Torpedo" missile. Generates the event horizon of a blackhole near target.</FlavorText0>
+		<FlavorText1>Kazon Event-Horizon creation rocket.</FlavorText1>
+		<FlavorText2>X-1 Threshold elimination missile. Generates event horizon of a blackhole near target.</FlavorText2>
+		<FlavorText3>Fravker'Siathi high-dimensional super gravitation missile.</FlavorText3>
+		<FlavorText4>Guest leaves happily and quickly signal handshake.</FlavorText4>
+		<FlavorText5>Somewhat less primitive missile.</FlavorText5>
+	</Weapon>
+	<Weapon Name="Psionic Missile">
+		<DisplayName>Psionic Missile</DisplayName>
+		<Class>M</Class>
+		<Type>2</Type>
+		<Size>10</Size>
+		<SizeMod>2</SizeMod>
+		<Cost>75</Cost>
+		<Damage>5</Damage>
+		<Model>antimatterTorp3</Model>
+		<Category>Missile</Category>
+		<Tech_Requirement>Psionic Missile</Tech_Requirement>
+		<Animation>Ripper.X</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_psyonic_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_missile</ExplosionSound2>
+		<DeflectSound>battle_point_deflect</DeflectSound>
+		<FlavorText0>Psyonic warhead. Maker uncredited.</FlavorText0>
+		<FlavorText1>Hania Psyonic HD propulsion-based weapon</FlavorText1>
+		<FlavorText2>Psyonic based weapon. Source unknown.</FlavorText2>
+		<FlavorText3>Platha-Damager with Psyonic additions.</FlavorText3>
+		<FlavorText4>Shouter Missile.</FlavorText4>
+		<FlavorText5>Primitive missile.</FlavorText5>
+	</Weapon>
+<!--Mass Driver-->
+	<Weapon Name="SpaceCannon">
+		<DisplayName>Space Cannon</DisplayName>
+		<Class>G</Class>
+		<Type>1</Type>
+		<Size>15</Size>
+		<SizeMod>4</SizeMod>
+		<Cost>35</Cost>
+		<Damage>1</Damage>
+		<Model>SpaceCannon</Model>
+		<Description>Small projectile weapon.</Description>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>Mass Driver Theory</Tech_Requirement>
+		<Animation>WFX_SpaCannon01.X</Animation>
+		<FrameCount>30</FrameCount>
+		<LaunchFrame>1</LaunchFrame>
+		<ImpactFrame>30</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_mini_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_mass</ExplosionSound2>
+		<DeflectSound>battle_armor_deflect</DeflectSound>
+		<FlavorText0>Tarnis "War Giver" Railgun Level 2.</FlavorText0>
+		<FlavorText1>Retribution High velocity Projectile Bringer</FlavorText1>
+		<FlavorText2>T-1A Projectile Unit</FlavorText2>
+		<FlavorText3>Kli'tir Death Rock</FlavorText3>
+		<FlavorText4>High density persuassion provider</FlavorText4>
+		<FlavorText5>Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="MiniBalls0">
+		<DisplayName>Railgun</DisplayName>
+		<Class>G</Class>
+		<Type>1</Type>
+		<Size>12</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>30</Cost>
+		<Damage>1</Damage>
+		<Model>MassDriver0</Model>
+		<Description>Small projectile weapon.</Description>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>MiniBalls</Tech_Requirement>
+		<Animation>WFX_MiniBalls01.X</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_mini_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_mass</ExplosionSound2>
+		<DeflectSound>battle_armor_deflect</DeflectSound>
+		<FlavorText0>Tarnis "War Giver" Railgun.</FlavorText0>
+		<FlavorText1>Retribution High velocity Projectile Bringer</FlavorText1>
+		<FlavorText2>T-1 Projectile Unit</FlavorText2>
+		<FlavorText3>Kli'tir Death Rock</FlavorText3>
+		<FlavorText4>High density persuassion provider</FlavorText4>
+		<FlavorText5>Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="MiniBalls1">
+		<DisplayName>Railgun MK II</DisplayName>
+		<Class>G</Class>
+		<Type>1</Type>
+		<Size>10</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>30</Cost>
+		<Damage>1</Damage>
+		<Model>MassDriver1</Model>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>MiniBalls II</Tech_Requirement>
+		<Animation>WFX_MiniBalls01.X</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_mini_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_mass</ExplosionSound2>
+		<DeflectSound>battle_armor_deflect</DeflectSound>
+		<FlavorText0>Tarnis "War Giver" Railgun Level 2.</FlavorText0>
+		<FlavorText1>Retribution High velocity Projectile Bringer</FlavorText1>
+		<FlavorText2>T-1A Projectile Unit</FlavorText2>
+		<FlavorText3>Kli'tir Death Rock</FlavorText3>
+		<FlavorText4>High density persuassion provider</FlavorText4>
+		<FlavorText5>Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="MassDriver0">
+		<DisplayName>Railgun MK III</DisplayName>
+		<Class>G</Class>
+		<Type>2</Type>
+		<Size>8</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>30</Cost>
+		<Damage>1</Damage>
+		<Model>MassDriver2</Model>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>Mass Drivers</Tech_Requirement>
+		<Animation>WFX_MiniBalls01.X</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_mini_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_mass</ExplosionSound2>
+		<DeflectSound>battle_armor_deflect</DeflectSound>
+		<FlavorText0>Tarnis "War Giver" Railgun Mark III.</FlavorText0>
+		<FlavorText1>Retribution High velocity Projectile Bringer</FlavorText1>
+		<FlavorText2>T-1B Projectile Unit</FlavorText2>
+		<FlavorText3>Kli'tir Death Rock</FlavorText3>
+		<FlavorText4>High density persuassion provider</FlavorText4>
+		<FlavorText5>Death Rock.</FlavorText5>
+	</Weapon>	
+	<Weapon Name="IonCannon">
+		<DisplayName>Ion Cannon I</DisplayName>
+		<Class>G</Class>
+		<Type>2</Type>
+		<Size>10</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>35</Cost>
+		<Damage>1</Damage>
+		<Model>MassDriver0</Model>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>IonCannons</Tech_Requirement>
+		<Animation>WFX_MassDrivers01.X</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_massdrivers_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_mass</ExplosionSound2>
+		<DeflectSound>battle_armor_deflect</DeflectSound>
+		<FlavorText0>Ion Pulse Canon</FlavorText0>
+		<FlavorText1>Retribution High velocity Projectile Bringer</FlavorText1>
+		<FlavorText2>T-1B Projectile Unit</FlavorText2>
+		<FlavorText3>Tor'athi Ion Pulse Cannon</FlavorText3>
+		<FlavorText4>Lights of shining ion system</FlavorText4>
+		<FlavorText5>Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="IonCannon2">
+		<DisplayName>Ion Cannon II</DisplayName>
+		<Class>G</Class>
+		<Type>2</Type>
+		<Size>8</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>35</Cost>
+		<Damage>1</Damage>
+		<Model>MassDriver1</Model>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>IonCannons2</Tech_Requirement>
+		<Animation>WFX_MassDrivers01.X</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_massdrivers_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_mass</ExplosionSound2>
+		<DeflectSound>battle_armor_deflect</DeflectSound>
+		<FlavorText0>Ion Pulse Canon</FlavorText0>
+		<FlavorText1>Retribution High velocity Projectile Bringer</FlavorText1>
+		<FlavorText2>T-1B Projectile Unit</FlavorText2>
+		<FlavorText3>Tor'athi Ion Pulse Cannon</FlavorText3>
+		<FlavorText4>Lights of shining ion system</FlavorText4>
+		<FlavorText5>Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="IonCannon3">
+		<DisplayName>Ion Cannon III</DisplayName>
+		<Class>G</Class>
+		<Type>2</Type>
+		<Size>6</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>35</Cost>
+		<Damage>1</Damage>
+		<Model>MassDriver2</Model>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>IonCannons3</Tech_Requirement>
+		<Animation>WFX_MassDrivers01.X</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_massdrivers_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_mass</ExplosionSound2>
+		<DeflectSound>battle_armor_deflect</DeflectSound>
+		<FlavorText0>Ion Pulse Canon</FlavorText0>
+		<FlavorText1>Retribution High velocity Projectile Bringer</FlavorText1>
+		<FlavorText2>T-1B Projectile Unit</FlavorText2>
+		<FlavorText3>Tor'athi Ion Pulse Cannon</FlavorText3>
+		<FlavorText4>Lights of shining ion system</FlavorText4>
+		<FlavorText5>Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="ScatterGun1">
+		<DisplayName>Scatter Gun Mark I</DisplayName>
+		<Class>G</Class>
+		<Type>1</Type>
+		<Size>14</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>20</Cost>
+		<Damage>1</Damage>
+		<Model>Miniballs0</Model>
+		<Description>Small projectile weapon.</Description>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>ScatterBlaster1</Tech_Requirement>
+		<Animation>ScatterBlaster.X</Animation>
+		<FrameCount>30</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>10</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>ScatterBlaster</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect</DeflectSound>
+		<ScaleWidthPercent>50</ScaleWidthPercent>
+		<FlavorText0>Tarnis "War Giver" Railgun.</FlavorText0>
+		<FlavorText1>Retribution High velocity Projectile Bringer</FlavorText1>
+		<FlavorText2>T-1 Projectile Unit</FlavorText2>
+		<FlavorText3>Kli'tir Death Rock</FlavorText3>
+		<FlavorText4>High density persuassion provider</FlavorText4>
+		<FlavorText5>Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="ScatterGun2">
+		<DisplayName>Scatter Gun Mark II</DisplayName>
+		<Class>G</Class>
+		<Type>1</Type>
+		<Size>12</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>20</Cost>
+		<Damage>1</Damage>
+		<Model>Miniballs1</Model>
+		<Description>Small projectile weapon.</Description>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>ScatterBlaster2</Tech_Requirement>
+		<Animation>ScatterBlaster.X</Animation>
+		<FrameCount>30</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>10</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>ScatterBlaster</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect</DeflectSound>
+		<ScaleWidthPercent>100</ScaleWidthPercent>
+		<FlavorText0>Tarnis "War Giver" Railgun.</FlavorText0>
+		<FlavorText1>Retribution High velocity Projectile Bringer</FlavorText1>
+		<FlavorText2>T-1 Projectile Unit</FlavorText2>
+		<FlavorText3>Kli'tir Death Rock</FlavorText3>
+		<FlavorText4>High density persuassion provider</FlavorText4>
+		<FlavorText5>Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="ScatterGun3">
+		<DisplayName>Scatter Gun Mark III</DisplayName>
+		<Class>G</Class>
+		<Type>1</Type>
+		<Size>10</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>20</Cost>
+		<Damage>1</Damage>
+		<Model>Miniballs1</Model>
+		<Description>Small projectile weapon.</Description>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>ScatterBlaster3</Tech_Requirement>
+		<Animation>ScatterBlaster.X</Animation>
+		<FrameCount>30</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>10</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>ScatterBlaster</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect</DeflectSound>
+		<ScaleWidthPercent>150</ScaleWidthPercent>
+		<FlavorText0>Tarnis "War Giver" Railgun.</FlavorText0>
+		<FlavorText1>Retribution High velocity Projectile Bringer</FlavorText1>
+		<FlavorText2>T-1 Projectile Unit</FlavorText2>
+		<FlavorText3>Kli'tir Death Rock</FlavorText3>
+		<FlavorText4>High density persuassion provider</FlavorText4>
+		<FlavorText5>Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="SingularityDriver0">
+		<DisplayName>Singularity Driver</DisplayName>
+		<Class>G</Class>
+		<Type>3</Type>
+		<Size>12</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>50</Cost>
+		<Damage>2</Damage>
+		<Model>SingularityDriver0</Model>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>Singularity Driver</Tech_Requirement>
+		<Animation>WFX_SingleDriver01.x</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_singularity_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_mass</ExplosionSound2>
+		<DeflectSound>battle_armor_deflect_2</DeflectSound>
+		<FlavorText0>Lockertress Corp. MRV Singularity.</FlavorText0>
+		<FlavorText1>Fearless High energy Projectile</FlavorText1>
+		<FlavorText2>S-1 Singularity Weapon.</FlavorText2>
+		<FlavorText3>Kli'Thath Fire rock.</FlavorText3>
+		<FlavorText4>Hyper Density Justice Sunshine.</FlavorText4>
+		<FlavorText5>Another Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="SingularityDriver1">
+		<DisplayName>Singularity Driver II</DisplayName>
+		<Class>G</Class>
+		<Type>3</Type>
+		<Size>10</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>50</Cost>
+		<Damage>2</Damage>
+		<Model>SingularityDriver1</Model>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>Singularity Driver II</Tech_Requirement>
+		<Animation>WFX_SingleDriver01.x</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_singularity_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_mass</ExplosionSound2>
+		<DeflectSound>battle_armor_deflect_2</DeflectSound>
+		<FlavorText0>Lockertress Corp. MRV2 Singularity.</FlavorText0>
+		<FlavorText1>Fearless High energy Projectile</FlavorText1>
+		<FlavorText2>S-1A Singularity Weapon.</FlavorText2>
+		<FlavorText3>Kli'Thath Fire rock.</FlavorText3>
+		<FlavorText4>Hyper Density Justice Sunshine.</FlavorText4>
+		<FlavorText5>Another Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="SingularityDriver2">
+		<DisplayName>Singularity Driver III</DisplayName>
+		<Class>G</Class>
+		<Type>3</Type>
+		<Size>8</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>50</Cost>
+		<Damage>2</Damage>
+		<Model>SingularityDriver2</Model>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>Singularity Driver III</Tech_Requirement>
+		<Animation>WFX_SingleDriver01.x</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_singularity_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_mass</ExplosionSound2>
+		<DeflectSound>battle_armor_deflect_2</DeflectSound>
+		<FlavorText0>Lockertress Corp. MRV 3 Singularity.</FlavorText0>
+		<FlavorText1>Fearless High energy Projectile</FlavorText1>
+		<FlavorText2>S-1B Singularity Weapon.</FlavorText2>
+		<FlavorText3>Kli'Thath Fire rock.</FlavorText3>
+		<FlavorText4>Hyper Density Justice Sunshine.</FlavorText4>
+		<FlavorText5>Another Death Rock.</FlavorText5>
+	</Weapon>	
+	<Weapon Name="PulseCannon1">
+		<DisplayName>Pulse Cannon</DisplayName>
+		<Class>G</Class>
+		<Type>4</Type>
+		<Size>11</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>55</Cost>
+		<Damage>3</Damage>
+		<Model>gravDisruptor0</Model>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>PulseCannons</Tech_Requirement>
+		<Animation>photonpc.X</Animation>
+		<FrameCount>40</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>17</ImpactFrame>
+		<Explosion>Explosion_normal.png</Explosion>
+		<AttackSound>photonpc</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect</DeflectSound>
+		<ScaleWidthPercent>75</ScaleWidthPercent>
+		<FlavorText0>Westinghouse AEGIS MK I Heavy Pulse Canon.</FlavorText0>
+		<FlavorText1>Pulse Driver Level 1</FlavorText1>
+		<FlavorText2>G-1 Pulse Cannon Weapon.</FlavorText2>
+		<FlavorText3>Kli'Lon Graviruption Death Stone.</FlavorText3>
+		<FlavorText4>Pulsating Joy Happy Driving System</FlavorText4>
+		<FlavorText5>Yet Another Primitive Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="PulseCannon2">
+		<DisplayName>Pulse Cannon II</DisplayName>
+		<Class>G</Class>
+		<Type>4</Type>
+		<Size>10</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>55</Cost>
+		<Damage>3</Damage>
+		<Model>gravDisruptor1</Model>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>PulseCannons2</Tech_Requirement>
+		<Animation>photonpc.X</Animation>
+		<FrameCount>40</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>17</ImpactFrame>
+		<Explosion>Explosion_normal.png</Explosion>
+		<AttackSound>photonpc</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect</DeflectSound>
+		<ScaleWidthPercent>100</ScaleWidthPercent>
+		<FlavorText0>Westinghouse AEGIS MK II Heavy Pulse Canon.</FlavorText0>
+		<FlavorText1>Pulse Driver Level 2</FlavorText1>
+		<FlavorText2>G-1 Pulse Cannon Weapon.</FlavorText2>
+		<FlavorText3>Kli'Lon Graviruption Death Stone.</FlavorText3>
+		<FlavorText4>Pulsating Joy Happy Driving System</FlavorText4>
+		<FlavorText5>Yet Another Primitive Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="PulseCannon3">
+		<DisplayName>Pulse Cannon III</DisplayName>
+		<Class>G</Class>
+		<Type>4</Type>
+		<Size>9</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>55</Cost>
+		<Damage>3</Damage>
+		<Model>gravDisruptor1</Model>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>PulseCannons3</Tech_Requirement>
+		<Animation>photonpc.X</Animation>
+		<FrameCount>40</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>17</ImpactFrame>
+		<Explosion>Explosion_normal.png</Explosion>
+		<AttackSound>photonpc</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_beam</ExplosionSound2>
+		<DeflectSound>battle_shield_deflect</DeflectSound>
+		<ScaleWidthPercent>150</ScaleWidthPercent>
+		<FlavorText0>Westinghouse AEGIS MK III Heavy Pulse Canon.</FlavorText0>
+		<FlavorText1>Pulse Driver Level 3</FlavorText1>
+		<FlavorText2>G-1 Pulse Cannon Weapon.</FlavorText2>
+		<FlavorText3>Kli'Lon Graviruption Death Stone.</FlavorText3>
+		<FlavorText4>Pulsating Joy Happy Driving System</FlavorText4>
+		<FlavorText5>Yet Another Primitive Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="NeutronDriver">
+		<DisplayName>Neutron Driver</DisplayName>
+		<Class>G</Class>
+		<Type>4</Type>
+		<Size>10</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>70</Cost>
+		<Damage>4</Damage>
+		<Model>gravDisruptor0</Model>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>NeutronDriver</Tech_Requirement>
+		<Animation>WFX_GravDisruptor01.X</Animation>
+		<FrameCount>70</FrameCount>
+		<LaunchFrame>2</LaunchFrame>
+		<ImpactFrame>58</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_graviton_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_mass</ExplosionSound2>
+		<DeflectSound>battle_armor_deflect_2</DeflectSound>
+		<FlavorText0>Westinghouse AEGIS MK I Heavy Pulse Canon.</FlavorText0>
+		<FlavorText1>Pulse Driver Level 1</FlavorText1>
+		<FlavorText2>G-1 Pulse Cannon Weapon.</FlavorText2>
+		<FlavorText3>Kli'Lon Graviruption Death Stone.</FlavorText3>
+		<FlavorText4>Pulsating Joy Happy Driving System</FlavorText4>
+		<FlavorText5>Yet Another Primitive Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="NeutronDriver2">
+		<DisplayName>Neutron Driver II</DisplayName>
+		<Class>G</Class>
+		<Type>4</Type>
+		<Size>9</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>70</Cost>
+		<Damage>4</Damage>
+		<Model>gravDisruptor1</Model>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>NeutronDriver2</Tech_Requirement>
+		<Animation>WFX_GravDisruptor01.X</Animation>
+		<FrameCount>70</FrameCount>
+		<LaunchFrame>2</LaunchFrame>
+		<ImpactFrame>58</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_graviton_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_mass</ExplosionSound2>
+		<DeflectSound>battle_armor_deflect_2</DeflectSound>
+		<FlavorText0>Westinghouse AEGIS MK II Heavy Pulse Canon.</FlavorText0>
+		<FlavorText1>Pulse Driver Level 2</FlavorText1>
+		<FlavorText2>G-1 Pulse Cannon Weapon.</FlavorText2>
+		<FlavorText3>Kli'Lon Graviruption Death Stone.</FlavorText3>
+		<FlavorText4>Pulsating Joy Happy Driving System</FlavorText4>
+		<FlavorText5>Yet Another Primitive Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="NeutronDriver3">
+		<DisplayName>Neutron Driver III</DisplayName>
+		<Class>G</Class>
+		<Type>4</Type>
+		<Size>8</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>70</Cost>
+		<Damage>4</Damage>
+		<Model>gravDisruptor1</Model>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>NeutronDriver3</Tech_Requirement>
+		<Animation>WFX_GravDisruptor01.X</Animation>
+		<FrameCount>70</FrameCount>
+		<LaunchFrame>2</LaunchFrame>
+		<ImpactFrame>58</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_graviton_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_mass</ExplosionSound2>
+		<DeflectSound>battle_armor_deflect_2</DeflectSound>
+		<FlavorText0>Westinghouse AEGIS MK III Heavy Pulse Canon.</FlavorText0>
+		<FlavorText1>Pulse Driver Level 3</FlavorText1>
+		<FlavorText2>G-1 Pulse Cannon Weapon.</FlavorText2>
+		<FlavorText3>Kli'Lon Graviruption Death Stone.</FlavorText3>
+		<FlavorText4>Pulsating Joy Happy Driving System</FlavorText4>
+		<FlavorText5>Yet Another Primitive Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="GravitonDisruptor0">
+		<DisplayName>Graviton Driver</DisplayName>
+		<Class>G</Class>
+		<Type>4</Type>
+		<Size>10</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>60</Cost>
+		<Damage>5</Damage>
+		<Model>gravDisruptor2</Model>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>Graviton Driver</Tech_Requirement>
+		<Animation>gravdsg.X</Animation>
+		<FrameCount>20</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>12</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>gravd</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_mass</ExplosionSound2>
+		<DeflectSound>battle_armor_deflect_2</DeflectSound>
+		<FlavorText0>Viper Mk1 Graviton Disruption Canon.</FlavorText0>
+		<FlavorText1>Graviton Liberation Driver.</FlavorText1>
+		<FlavorText2>G-1 Graviton Weapon.</FlavorText2>
+		<FlavorText3>Kli'Lon Graviruption Death Stone.</FlavorText3>
+		<FlavorText4>Gravitational Mystery Happy Driving System</FlavorText4>
+		<FlavorText5>Yet Another Primitive Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="GravitonDisruptor1">
+		<DisplayName>Graviton Driver II</DisplayName>
+		<Class>G</Class>
+		<Type>4</Type>
+		<Size>9</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>60</Cost>
+		<Damage>5</Damage>
+		<Model>gravDisruptor3</Model>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>Graviton Driver II</Tech_Requirement>
+		<Animation>gravdsg.X</Animation>
+		<FrameCount>20</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>12</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>gravd</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_mass</ExplosionSound2>
+		<DeflectSound>battle_armor_deflect_2</DeflectSound>
+		<FlavorText0>Viper Mk1 Graviton Disruption Canon. Upgraded</FlavorText0>
+		<FlavorText1>Graviton Liberation Driver.</FlavorText1>
+		<FlavorText2>G-1 Graviton Weapon.</FlavorText2>
+		<FlavorText3>Kli'Lon Graviruption Death Stone.</FlavorText3>
+		<FlavorText4>Gravitational Mystery Happy Driving System</FlavorText4>
+		<FlavorText5>Yet Another Primitive Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="GravitonDisruptor2">
+		<DisplayName>Graviton Driver III</DisplayName>
+		<Class>G</Class>
+		<Type>4</Type>
+		<Size>8</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>60</Cost>
+		<Damage>5</Damage>
+		<Model>gravDisruptor4</Model>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>Graviton Driver III</Tech_Requirement>
+		<Animation>gravdsg.X</Animation>
+		<FrameCount>20</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>12</ImpactFrame>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>gravd</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_mass</ExplosionSound2>
+		<DeflectSound>battle_armor_deflect_2</DeflectSound>
+		<FlavorText0>Viper Mk1 Graviton Disruption Canon.</FlavorText0>
+		<FlavorText1>Graviton Liberation Driver.</FlavorText1>
+		<FlavorText2>G-1 Graviton Weapon.</FlavorText2>
+		<FlavorText3>Kli'Lon Graviruption Death Stone.</FlavorText3>
+		<FlavorText4>Gravitational Mystery Happy Driving System</FlavorText4>
+		<FlavorText5>Yet Another Primitive Death Rock.</FlavorText5>
+	</Weapon>	
+	<Weapon Name="QuantumDriver0">
+		<DisplayName>Quantum Driver</DisplayName>
+		<Class>G</Class>
+		<Type>5</Type>
+		<Size>9</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>60</Cost>
+		<Damage>6</Damage>
+		<Model>QuantumDriver0</Model>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>Quantum Driver</Tech_Requirement>
+		<Animation>WFX_QuantDriver01.X</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_quantum_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_small</ExplosionSound2>
+		<DeflectSound>battle_armor_deflect_2</DeflectSound>
+		<FlavorText0>Smithon 32-Terrawatt Quantum Rail Gun. 125 meter penetration version.</FlavorText0>
+		<FlavorText1>Gravity Manipulated Pelletia unit.</FlavorText1>
+		<FlavorText2>Q-1 Advanced Physics Weapon Manipulator. Mass Driver Version.</FlavorText2>
+		<FlavorText3>Kli'Quantum "Slayer".</FlavorText3>
+		<FlavorText4>Strange mechanics Quantum based mass drivation joy system.</FlavorText4>
+		<FlavorText5>Yet Another Primitive Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="QuantumDriver1">
+		<DisplayName>Quantum Driver II</DisplayName>
+		<Class>G</Class>
+		<Type>5</Type>
+		<Size>8</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>60</Cost>
+		<Damage>6</Damage>
+		<Model>QuantumDriver1</Model>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>Quantum Driver II</Tech_Requirement>
+		<Animation>WFX_QuantDriver01.X</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_quantum_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_mass</ExplosionSound2>
+		<DeflectSound>battle_armor_deflect_2</DeflectSound>
+		<FlavorText0>Smithon 36-Terrawatt Quantum Rail Gun. 140 meter penetration version.</FlavorText0>
+		<FlavorText1>Gravity Manipulated Pelletia unit.</FlavorText1>
+		<FlavorText2>Q-1 Advanced Physics Weapon Manipulator. Mass Driver Version.</FlavorText2>
+		<FlavorText3>Kli'Quantum "Slayer".</FlavorText3>
+		<FlavorText4>Strange mechanics Quantum based mass drivation joy system.</FlavorText4>
+		<FlavorText5>Yet Another Primitive Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="QuantumDriver2">
+		<DisplayName>Quantum Driver III</DisplayName>
+		<Class>G</Class>
+		<Type>5</Type>
+		<Size>7</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>60</Cost>
+		<Damage>6</Damage>
+		<Model>QuantumDriver2</Model>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>Quantum Driver III</Tech_Requirement>
+		<Animation>WFX_QuantDriver01.X</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_quantum_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_mass</ExplosionSound2>
+		<DeflectSound>battle_armor_deflect_2</DeflectSound>
+		<FlavorText0>Smithon 40-Terrawatt Quantum Rail Gun. 150 meter penetration version.</FlavorText0>
+		<FlavorText1>Gravity Manipulated Pelletia unit.</FlavorText1>
+		<FlavorText2>Q-1 Advanced Physics Weapon Manipulator. Mass Driver Version.</FlavorText2>
+		<FlavorText3>Kli'Quantum "Slayer".</FlavorText3>
+		<FlavorText4>Strange mechanics Quantum based mass drivation joy system.</FlavorText4>
+		<FlavorText5>Yet Another Primitive Death Rock.</FlavorText5>
+	</Weapon>		
+	<Weapon Name="BlackHoleGun">
+		<DisplayName>Black Hole Generator</DisplayName>
+		<Class>G</Class>
+		<Type>6</Type>
+		<Size>6</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>80</Cost>
+		<Damage>10</Damage>
+		<Model>QuantumDriver7</Model>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>Black Hole Gun</Tech_Requirement>
+		<Animation>blackholegunsg.X</Animation>
+		<FrameCount>20</FrameCount>
+		<LaunchFrame>0</LaunchFrame>
+		<ImpactFrame>12</ImpactFrame>
+		<Explosion>Explosion_normal.png</Explosion>
+		<AttackSound>blackholegun</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_mass</ExplosionSound2>
+		<DeflectSound>battle_armor_deflect_3</DeflectSound>
+		<ScaleWidthPercent>300</ScaleWidthPercent>
+		<FlavorText0>DarkOps Hyper-density projectile reactive gravity generator (Blackhole) gun.</FlavorText0>
+		<FlavorText1>Super-dense shaped-projectile mass driver.</FlavorText1>
+		<FlavorText2>Event Horizon Inducer</FlavorText2>
+		<FlavorText3>Kli'null Null point weapon.</FlavorText3>
+		<FlavorText4>Very very high gravity generation weapon of bliss.</FlavorText4>
+		<FlavorText5>Yet Another Primitive Death Rock.</FlavorText5>
+	</Weapon>
+	<Weapon Name="Bsionic Shredder">
+    <!-- Bsionic is not a spelling mistake.  This way the AI picks Graviton Driver I over the shredder when it becomes available.  -->
+    	<DisplayName>Psionic Shredder</DisplayName>
+		<Class>G</Class>
+		<Type>4</Type>
+		<Size>8</Size>
+		<SizeMod>4</SizeMod>
+		<Cost>60</Cost>
+		<Damage>4</Damage>
+		<Model>MassDriver4</Model>
+		<Category>Mass Driver</Category>
+		<Tech_Requirement>Psionic Shredder</Tech_Requirement>
+		<Animation>Mini_Balls.x</Animation>
+		<Explosion>explosion01.png</Explosion>
+		<AttackSound>battle_psyonic_attack</AttackSound>
+		<ExplosionSound0>battle_explosion_small</ExplosionSound0>
+		<ExplosionSound1>battle_explosion_small_2</ExplosionSound1>
+		<ExplosionSound2>battle_explosion_mass</ExplosionSound2>
+		<DeflectSound>battle_armor_deflect_2</DeflectSound>
+		<FlavorText0>Vulcan High Frequency Impact Canon.</FlavorText0>
+		<FlavorText1>Screaming Mass Driver canon.</FlavorText1>
+		<FlavorText2>K-1 anti-Organic mass driving system</FlavorText2>
+		<FlavorText3>Kli'Plin Torment driver.</FlavorText3>
+		<FlavorText4>Distress causing non fun gun.</FlavorText4>
+		<FlavorText5>Yet Another Primitive Death Rock.</FlavorText5>
+	</Weapon>	
+<!--Shields-->
+	<Defense Name="BasicDeflectors">
+		<Class>S</Class>
+		<Size>8</Size>
+		<SizeMod>4</SizeMod>
+		<Cost>10</Cost>
+		<Absorption>1</Absorption>
+		<DisplayName>Basic Deflectors</DisplayName>
+		<Description>Deflectors are the first of the shield based defenses. They absorb beam weapon attacks.</Description>
+		<Model>shields0</Model>
+		<Thumbnail>shields</Thumbnail>
+		<Category>Shields</Category>
+		<Tech_Requirement>Shield Defense Theory</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="Deflectors">
+		<Class>S</Class>
+		<Size>6</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>10</Cost>
+		<Absorption>1</Absorption>
+		<DisplayName>Deflectors</DisplayName>
+		<Description>Deflectors are the first of the shield based defenses. They absorb beam weapon attacks.</Description>
+		<Model>shields0</Model>
+		<Thumbnail>shields</Thumbnail>
+		<Category>Shields</Category>
+		<Tech_Requirement>Deflectors</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="Deflectors2">
+		<Class>S</Class>
+		<Size>5</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>10</Cost>
+		<Absorption>1</Absorption>
+		<DisplayName>Enhanced Deflectors</DisplayName>
+		<Description>Defense against beam weapons.</Description>
+		<Model>shields0</Model>
+		<Thumbnail>shields</Thumbnail>
+		<Category>Shields</Category>
+		<Tech_Requirement>EnhDeflectors</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="Deflectors3">
+		<Class>S</Class>
+		<Size>4</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>10</Cost>
+		<Absorption>1</Absorption>
+		<DisplayName>Advanced Deflectors</DisplayName>
+		<Description>Defense against beam weapons.</Description>
+		<Model>shields0</Model>
+		<Thumbnail>shields</Thumbnail>
+		<Category>Shields</Category>
+		<Tech_Requirement>ADvDeflectors</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>	
+	<Defense Name="Shields">
+		<Class>S</Class>
+		<Size>6</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>12</Cost>
+		<Absorption>2</Absorption>
+		<DisplayName>Shields</DisplayName>
+		<Description>Defense against beam weapons.</Description>
+		<Model>shields0</Model>
+		<Thumbnail>shields</Thumbnail>
+		<Category>Shields</Category>
+		<Tech_Requirement>Shields</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="Shields2">
+		<Class>S</Class>
+		<Size>5</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>12</Cost>
+		<Absorption>2</Absorption>
+		<DisplayName>Shields II</DisplayName>
+		<Description>Defense against beam weapons.</Description>
+		<Model>shields0</Model>
+		<Thumbnail>shields</Thumbnail>
+		<Category>Shields</Category>
+		<Tech_Requirement>Shields II</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="Shields3">
+		<Class>S</Class>
+		<Size>4</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>12</Cost>
+		<Absorption>2</Absorption>
+		<DisplayName>Shields III</DisplayName>
+		<Description>Defense against beam weapons.</Description>
+		<Model>shields0</Model>
+		<Thumbnail>shields</Thumbnail>
+		<Category>Shields</Category>
+		<Tech_Requirement>Shields III</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="Barriers">
+		<Class>S</Class>
+		<Size>6</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>16</Cost>
+		<Absorption>4</Absorption>
+		<DisplayName>Barriers</DisplayName>
+		<Description>Defense against beam weapons.</Description>
+		<Model>shields0</Model>
+		<Thumbnail>shields</Thumbnail>
+		<Category>Shields</Category>
+		<Tech_Requirement>Barriers</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="Barriers2">
+		<Class>S</Class>
+		<Size>5</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>16</Cost>
+		<Absorption>4</Absorption>
+		<DisplayName>Barriers II</DisplayName>
+		<Description>Defense against beam weapons.</Description>
+		<Model>shields0</Model>
+		<Thumbnail>shields</Thumbnail>
+		<Category>Shields</Category>
+		<Tech_Requirement>Barriers II</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="Barriers3">
+		<Class>S</Class>
+		<Size>4</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>16</Cost>
+		<Absorption>4</Absorption>
+		<DisplayName>Barriers III</DisplayName>
+		<Description>Defense against beam weapons.</Description>
+		<Model>shields0</Model>
+		<Thumbnail>shields</Thumbnail>
+		<Category>Shields</Category>
+		<Tech_Requirement>Barriers III</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="ForceField">
+		<Class>S</Class>
+		<Size>6</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>18</Cost>
+		<Absorption>8</Absorption>
+		<DisplayName>Force Field</DisplayName>
+		<Description>Defense against beam weapons.</Description>
+		<Model>shields0</Model>
+		<Thumbnail>shields</Thumbnail>
+		<Category>Shields</Category>
+		<Tech_Requirement>Force Fields</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="ForceField2">
+		<Class>S</Class>
+		<Size>5</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>18</Cost>
+		<Absorption>8</Absorption>
+		<DisplayName>Advanced Force Fields</DisplayName>
+		<Description>Defense against beam weapons.</Description>
+		<Model>shields0</Model>
+		<Thumbnail>shields</Thumbnail>
+		<Category>Shields</Category>
+		<Tech_Requirement>Advanced Force Fields</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="ForceField3">
+		<Class>S</Class>
+		<Size>4</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>18</Cost>
+		<Absorption>8</Absorption>
+		<DisplayName>Superior Force Fields</DisplayName>
+		<Description>Defense against beam weapons.</Description>
+		<Model>shields0</Model>
+		<Thumbnail>shields</Thumbnail>
+		<Category>Shields</Category>
+		<Tech_Requirement>Superior Force Fields</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>		
+	<Defense Name="ForceField6">
+		<Class>S</Class>
+		<Size>4</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>15</Cost>
+		<Absorption>12</Absorption>
+		<DisplayName>Ultimate Invulnerability</DisplayName>
+		<Description>Defense against beam weapons.</Description>
+		<Model>shields0</Model>
+		<Thumbnail>shields</Thumbnail>
+		<Category>Shields</Category>
+		<Tech_Requirement>Ultimate Invulnerability</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="Subspace Rebounder">
+		<Class>S</Class>
+		<Size>5</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>18</Cost>
+		<Absorption>6</Absorption>
+		<DisplayName>Subspace Rebounder</DisplayName>
+		<Description>An expensive but effective shield</Description>
+		<Model>shields0</Model>
+		<Thumbnail>shields</Thumbnail>
+		<Category>Shields</Category>
+		<Tech_Requirement>Subspace Rebounder</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>	
+<!--Point Defense-->
+	<Defense Name="BasicChaff">
+		<Class>PD</Class>
+		<Size>8</Size>
+		<SizeMod>3</SizeMod>
+		<Cost>10</Cost>
+		<Absorption>1</Absorption>
+		<DisplayName>Basic Chaff</DisplayName>
+		<Description>Chaff is a missile defense technology. It helps block missile-based attacks.</Description>
+		<Model>pointDefense0</Model>
+		<Thumbnail>pointdefense</Thumbnail>
+		<Category>Point Defense</Category>
+		<Tech_Requirement>Missile Defense Theory</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="Chaff">
+		<Class>PD</Class>
+		<Size>5</Size>
+		<SizeMod>2</SizeMod>
+		<Cost>10</Cost>
+		<Absorption>1</Absorption>
+		<DisplayName>Chaff</DisplayName>
+		<Description>Chaff is a missile defense technology. It helps block missile-based attacks.</Description>
+		<Model>pointDefense0</Model>
+		<Thumbnail>pointdefense</Thumbnail>
+		<Category>Point Defense</Category>
+		<Tech_Requirement>Chaff</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="Chaff1">
+		<Class>PD</Class>
+		<Size>4</Size>
+		<SizeMod>2</SizeMod>
+		<Cost>10</Cost>
+		<Absorption>1</Absorption>
+		<DisplayName>Chaff</DisplayName>
+		<Description>More advanced mix of confusing scrap to confuse missiles.</Description>
+		<Model>pointDefense0</Model>
+		<Thumbnail>pointdefense</Thumbnail>
+		<Category>Point Defense</Category>
+		<Tech_Requirement>Smart Chaff</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="Chaff2">
+		<Class>PD</Class>
+		<Size>3</Size>
+		<SizeMod>2</SizeMod>
+		<Cost>10</Cost>
+		<Absorption>1</Absorption>
+		<DisplayName>Chaff</DisplayName>
+		<Description>Adaptive Chaff,  embedded with simple electronics.</Description>
+		<Model>pointDefense0</Model>
+		<Thumbnail>pointdefense</Thumbnail>
+		<Category>Point Defense</Category>
+		<Tech_Requirement>Adaptive Chaff</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="ECM">
+		<Class>PD</Class>
+		<Size>5</Size>
+		<SizeMod>2</SizeMod>
+		<Cost>12</Cost>
+		<Absorption>2</Absorption>
+		<DisplayName>ECM</DisplayName>
+		<Description>Missile defense.</Description>
+		<Model>pointDefense0</Model>
+		<Thumbnail>pointdefense</Thumbnail>
+		<Category>Point Defense</Category>
+		<Tech_Requirement>ECM</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="ECM2">
+		<Class>PD</Class>
+		<Size>4</Size>
+		<SizeMod>2</SizeMod>
+		<Cost>12</Cost>
+		<Absorption>2</Absorption>
+		<DisplayName>ECM II</DisplayName>
+		<Description>Missile defense.</Description>
+		<Model>pointDefense0</Model>
+		<Thumbnail>pointdefense</Thumbnail>
+		<Category>Point Defense</Category>
+		<Tech_Requirement>ECM II</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="ECM3">
+		<Class>PD</Class>
+		<Size>3</Size>
+		<SizeMod>2</SizeMod>
+		<Cost>12</Cost>
+		<Absorption>2</Absorption>
+		<DisplayName>ECM III</DisplayName>
+		<Description>Missile defense.</Description>
+		<Model>pointDefense0</Model>
+		<Thumbnail>pointdefense</Thumbnail>
+		<Category>Point Defense</Category>
+		<Tech_Requirement>ECM III</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="PointDefense">
+		<Class>PD</Class>
+		<Size>5</Size>
+		<SizeMod>1</SizeMod>
+		<Cost>15</Cost>
+		<Absorption>4</Absorption>
+		<DisplayName>Point Defense</DisplayName>
+		<Description>Missile defense.</Description>
+		<Model>pointDefense0</Model>
+		<Thumbnail>pointdefense</Thumbnail>
+		<Category>Point Defense</Category>
+		<Tech_Requirement>Point Defense</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="PointDefense2">
+		<Class>PD</Class>
+		<Size>4</Size>
+		<SizeMod>1</SizeMod>
+		<Cost>15</Cost>
+		<Absorption>4</Absorption>
+		<DisplayName>Point Defense II</DisplayName>
+		<Description>Missile defense.</Description>
+		<Model>pointDefense0</Model>
+		<Thumbnail>pointdefense</Thumbnail>
+		<Category>Point Defense</Category>
+		<Tech_Requirement>Point Defense II</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="PointDefense3">
+		<Class>PD</Class>
+		<Size>3</Size>
+		<SizeMod>1</SizeMod>
+		<Cost>15</Cost>
+		<Absorption>4</Absorption>
+		<DisplayName>Point Defense III</DisplayName>
+		<Description>Missile defense.</Description>
+		<Model>pointDefense0</Model>
+		<Thumbnail>pointdefense</Thumbnail>
+		<Category>Point Defense</Category>
+		<Tech_Requirement>Point Defense III</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="PDCombo">
+		<Class>PD</Class>
+		<Size>5</Size>
+		<SizeMod>1</SizeMod>
+		<Cost>18</Cost>
+		<Absorption>8</Absorption>
+		<DisplayName>PD Combo</DisplayName>
+		<Description>Missile defense.</Description>
+		<Model>pointDefense0</Model>
+		<Thumbnail>pointdefense</Thumbnail>
+		<Category>Point Defense</Category>
+		<Tech_Requirement>PD Combo</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="PDCombo2">
+		<Class>PD</Class>
+		<Size>4</Size>
+		<SizeMod>1</SizeMod>
+		<Cost>18</Cost>
+		<Absorption>8</Absorption>
+		<DisplayName>PD Combo II</DisplayName>
+		<Description>Missile defense.</Description>
+		<Model>pointDefense0</Model>
+		<Thumbnail>pointdefense</Thumbnail>
+		<Category>Point Defense</Category>
+		<Tech_Requirement>PD Combo II</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="PDCombo3">
+		<Class>PD</Class>
+		<Size>3</Size>
+		<SizeMod>1</SizeMod>
+		<Cost>18</Cost>
+		<Absorption>8</Absorption>
+		<DisplayName>PD Combo III</DisplayName>
+		<Description>Missile defense.</Description>
+		<Model>pointDefense0</Model>
+		<Thumbnail>pointdefense</Thumbnail>
+		<Category>Point Defense</Category>
+		<Tech_Requirement>PD Combo III</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="AeronMissileDefense">
+		<Class>PD</Class>
+		<Size>3</Size>
+		<SizeMod>1</SizeMod>
+		<Cost>15</Cost>
+		<Absorption>12</Absorption>
+		<DisplayName>Aereon Missile Defense</DisplayName>
+		<Description>Missile defense.</Description>
+		<Model>pointDefense0</Model>
+		<Thumbnail>pointdefense</Thumbnail>
+		<Category>Point Defense</Category>
+		<Tech_Requirement>Aereon Missile Defense</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="Telepathic Defense">
+		<Class>PD</Class>
+		<Size>4</Size>
+		<SizeMod>2</SizeMod>
+		<Cost>18</Cost>
+		<Absorption>6</Absorption>
+		<DisplayName>Telepathic Defense</DisplayName>
+		<Description>Mentally pre-detonates warheads.</Description>
+		<Model>pointDefense0</Model>
+		<Thumbnail>pointdefense</Thumbnail>
+		<Category>Point Defense</Category>
+		<Tech_Requirement>Telepathic Defense</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+<!--Armor-->
+	<Defense Name="ArmorPlating">
+		<Class>A</Class>
+		<Size>8</Size>
+		<SizeMod>4</SizeMod>
+		<Cost>10</Cost>
+		<Absorption>1</Absorption>
+		<DisplayName>Armor Plating</DisplayName>
+		<Description>Armor helps deflect damage from mass-driver based weapons.</Description>
+		<Model>armor0</Model>
+		<Thumbnail>armor</Thumbnail>
+		<Category>Armor</Category>
+		<Tech_Requirement>Armor Theory</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+		<FlavorText0>Human Style Armor</FlavorText0>
+		<FlavorText1>Torian Style Armor</FlavorText1>
+		<FlavorText2>Yor Style Armor</FlavorText2>
+		<FlavorText3>Drengin Style Armor</FlavorText3>
+		<FlavorText4>Altarian Style Armor</FlavorText4>
+		<FlavorText5>Dread Lord Style Armor</FlavorText5>
+	</Defense>
+	<Defense Name="Titanium">
+		<Class>A</Class>
+		<Size>6</Size>
+		<SizeMod>4</SizeMod>
+		<Cost>10</Cost>
+		<Absorption>1</Absorption>
+		<DisplayName>Titanium Armor</DisplayName>
+		<Description>Armor helps deflect damage from mass-driver based weapons.</Description>
+		<Model>armor0</Model>
+		<Thumbnail>armor</Thumbnail>
+		<Category>Armor</Category>
+		<Tech_Requirement>Titanitum Armor</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="Titanium2">
+		<Class>A</Class>
+		<Size>5</Size>
+		<SizeMod>4</SizeMod>
+		<Cost>10</Cost>
+		<Absorption>1</Absorption>
+		<DisplayName>Titanium Armor II</DisplayName>
+		<Description>Defense against mass-drivers.</Description>
+		<Model>armor0</Model>
+		<Thumbnail>armor</Thumbnail>
+		<Category>Armor</Category>
+		<Tech_Requirement>Titanium Armor II</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="Titanium3">
+		<Class>A</Class>
+		<Size>4</Size>
+		<SizeMod>4</SizeMod>
+		<Cost>10</Cost>
+		<Absorption>1</Absorption>
+		<DisplayName>Titanium Armor III</DisplayName>
+		<Description>Defense against mass-drivers.</Description>
+		<Model>armor0</Model>
+		<Thumbnail>armor</Thumbnail>
+		<Category>Armor</Category>
+		<Tech_Requirement>Titanium Armor III</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="Duranthium">
+		<Class>A</Class>
+		<Size>6</Size>
+		<SizeMod>4</SizeMod>
+		<Cost>12</Cost>
+		<Absorption>2</Absorption>
+		<DisplayName>Duranthium Armor</DisplayName>
+		<Description>Defense against mass-drivers.</Description>
+		<Model>armor0</Model>
+		<Thumbnail>armor</Thumbnail>
+		<Category>Armor</Category>
+		<Tech_Requirement>Duranthium</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="Duranthium2">
+		<Class>A</Class>
+		<Size>5</Size>
+		<SizeMod>4</SizeMod>
+		<Cost>12</Cost>
+		<Absorption>2</Absorption>
+		<DisplayName>Duranthium Armor II</DisplayName>
+		<Description>Defense against mass-drivers.</Description>
+		<Model>armor0</Model>
+		<Thumbnail>armor</Thumbnail>
+		<Category>Armor</Category>
+		<Tech_Requirement>Duranthium II</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="Duranthium3">
+		<Class>A</Class>
+		<Size>4</Size>
+		<SizeMod>4</SizeMod>
+		<Cost>12</Cost>
+		<Absorption>2</Absorption>
+		<DisplayName>Duranthium Armor III</DisplayName>
+		<Description>Defense against mass-drivers.</Description>
+		<Model>armor0</Model>
+		<Thumbnail>armor</Thumbnail>
+		<Category>Armor</Category>
+		<Tech_Requirement>Duranthium III</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="TriStrontium">
+		<Class>A</Class>
+		<Size>6</Size>
+		<SizeMod>4</SizeMod>
+		<Cost>16</Cost>
+		<Absorption>4</Absorption>
+		<DisplayName>Tri-Strontium Armor</DisplayName>
+		<Description>Defense against mass-drivers.</Description>
+		<Model>armor0</Model>
+		<Thumbnail>armor</Thumbnail>
+		<Category>Armor</Category>
+		<Tech_Requirement>Tri-Strontium</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="TriStrontium2">
+		<Class>A</Class>
+		<Size>5</Size>
+		<SizeMod>4</SizeMod>
+		<Cost>16</Cost>
+		<Absorption>4</Absorption>
+		<DisplayName>Tri-Strontium Armor II</DisplayName>
+		<Description>Defense against mass-drivers.</Description>
+		<Model>armor0</Model>
+		<Thumbnail>armor</Thumbnail>
+		<Category>Armor</Category>
+		<Tech_Requirement>Enhanced Tri-Strontium</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="TriStrontium3">
+		<Class>A</Class>
+		<Size>4</Size>
+		<SizeMod>4</SizeMod>
+		<Cost>16</Cost>
+		<Absorption>4</Absorption>
+		<DisplayName>Tri-Strontium Armor III</DisplayName>
+		<Description>Defense against mass-drivers.</Description>
+		<Model>armor0</Model>
+		<Thumbnail>armor</Thumbnail>
+		<Category>Armor</Category>
+		<Tech_Requirement>Superior Tri-Strontium</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="Admantium">
+		<Class>A</Class>
+		<Size>6</Size>
+		<SizeMod>4</SizeMod>
+		<Cost>18</Cost>
+		<Absorption>8</Absorption>
+		<DisplayName>Admantium Armor</DisplayName>
+		<Description>Defense against mass-drivers.</Description>
+		<Model>armor0</Model>
+		<Thumbnail>armor</Thumbnail>
+		<Category>Armor</Category>
+		<Tech_Requirement>Adamantium Armor</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="Admantium2">
+		<Class>A</Class>
+		<Size>5</Size>
+		<SizeMod>4</SizeMod>
+		<Cost>18</Cost>
+		<Absorption>8</Absorption>
+		<DisplayName>Admantium Armor II</DisplayName>
+		<Description>Defense against mass-drivers.</Description>
+		<Model>armor0</Model>
+		<Thumbnail>armor</Thumbnail>
+		<Category>Armor</Category>
+		<Tech_Requirement>Adamantium II</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="Admantium5">
+		<Class>A</Class>
+		<Size>4</Size>
+		<SizeMod>4</SizeMod>
+		<Cost>18</Cost>
+		<Absorption>8</Absorption>
+		<DisplayName>Ultimate Adamantium</DisplayName>
+		<Description>Defense against mass-drivers.</Description>
+		<Model>armor0</Model>
+		<Thumbnail>armor</Thumbnail>
+		<Category>Armor</Category>
+		<Tech_Requirement>Ultimate Adamantium</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="Zero-Point Armor">
+		<Class>A</Class>
+		<Size>4</Size>
+		<SizeMod>4</SizeMod>
+		<Cost>15</Cost>
+		<Absorption>12</Absorption>
+		<DisplayName>Zero-Point Armor</DisplayName>
+		<Description>Defense against mass-drivers.</Description>
+		<Model>armor0</Model>
+		<Thumbnail>armor</Thumbnail>
+		<Category>Armor</Category>
+		<Tech_Requirement>Zero-Point Armor</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>
+	<Defense Name="ArnorianArmor">
+		<Class>A</Class>
+		<Size>5</Size>
+		<SizeMod>4</SizeMod>
+		<Cost>18</Cost>
+		<Absorption>6</Absorption>
+		<DisplayName>Arnorian Battle Armor</DisplayName>
+		<Description>Legendary organic armor.</Description>
+		<Model>armor0</Model>
+		<Thumbnail>armor</Thumbnail>
+		<Category>Armor</Category>
+		<Tech_Requirement>Arnorian Battle Armor</Tech_Requirement>
+		<Animation>Defense.x</Animation>
+	</Defense>	
+<!--Engine-->
+	<Drive Name="HyperDrive">
+		<DisplayName>HyperDrive</DisplayName>
+		<Cost>30</Cost>
+		<Size>9</Size>
+		<SizeMod>20</SizeMod>
+		<Speed>1</Speed>
+		<Model>Hyperdrive0</Model>
+		<Tech_Requirement>HyperDrive</Tech_Requirement>
+		<Thumbnail>Hyperdrive0</Thumbnail>
+		<Category>Engine</Category>
+		<FlavorText0>Westinghouse "Event Horizon" Fusion powered "HyperDrive" I-36 Model A.</FlavorText0>
+		<FlavorText1>Talfaxian High Energy Drive Package.</FlavorText1>
+		<FlavorText2>N-41 Drive System.</FlavorText2>
+		<FlavorText3>Kil'thir Space Folding Matrix Level 1.</FlavorText3>
+		<FlavorText4>Heavenly space manipulation drive.</FlavorText4>
+		<FlavorText5>Dread Basic Drive.</FlavorText5>
+	</Drive>
+	<Drive Name="HyperDrive Plus">
+		<DisplayName>HyperDrive Plus</DisplayName>
+		<Cost>30</Cost>
+		<Size>8</Size>
+		<SizeMod>18</SizeMod>
+		<Speed>1</Speed>
+		<Model>Hyperdrive0</Model>
+		<Tech_Requirement>NewPropulsion</Tech_Requirement>
+		<Thumbnail>Hyperdrive0</Thumbnail>
+		<Category>Engine</Category>
+		<FlavorText0>Westinghouse GR-1001 HyperDrive Graviton System (Extended)</FlavorText0>
+		<FlavorText1>Parson Stellar Manipulation Package.</FlavorText1>
+		<FlavorText2>N-5 Space Traction Drive - Ionbased.</FlavorText2>
+		<FlavorText3>It'In Ion Drive Mechanism.</FlavorText3>
+		<FlavorText4>Gentle Ion Heaven ascension Drive system.</FlavorText4>
+		<FlavorText5>Dread Drive</FlavorText5>
+	</Drive>
+	<Drive Name="IonDrive">
+		<DisplayName>Ion Drive</DisplayName>
+		<Cost>30</Cost>
+		<Size>7</Size>
+		<SizeMod>16</SizeMod>
+		<Speed>1</Speed>
+		<Model>EngineX1</Model>
+		<Tech_Requirement>IonDrive</Tech_Requirement>
+		<Thumbnail>EngineX1</Thumbnail>
+		<Category>Engine</Category>
+		<FlavorText0>Westinghouse GR-1000 Ion HyperDrive Graviton System</FlavorText0>
+		<FlavorText1>Parson Stellar Manipulation Package.</FlavorText1>
+		<FlavorText2>N-5 Space Traction Drive - Ionbased.</FlavorText2>
+		<FlavorText3>It'In Ion Drive Mechanism.</FlavorText3>
+		<FlavorText4>Gentle Ion Heaven ascension Drive system.</FlavorText4>
+		<FlavorText5>Dread Drive</FlavorText5>
+	</Drive>
+	<Drive Name="Impulsedrive">
+		<DisplayName>Impulse Drive</DisplayName>
+		<Cost>50</Cost>
+		<Size>9</Size>
+		<SizeMod>20</SizeMod>
+		<Speed>2</Speed>
+		<Model>Hyperdrive0</Model>
+		<Tech_Requirement>ImpulseDrive</Tech_Requirement>
+		<Category>Engine</Category>
+		<FlavorText0>General Propulsion P-109 Fusion "Impulse" Drive.</FlavorText0>
+		<FlavorText1>Thirund Stellar Manipulation Pulsation Package.</FlavorText1>
+		<FlavorText2>N-12 Space Traction Drive - Impulse Focused.</FlavorText2>
+		<FlavorText3>It'In Fusion Impulse Core Level 30.</FlavorText3>
+		<FlavorText4>Gentle Ion Heaven ascension Drive system.</FlavorText4>
+		<FlavorText5>Dread Drive</FlavorText5>
+	</Drive>
+	<Drive Name="ImpulseDrive2">
+		<DisplayName>Impulse Drive Mark II</DisplayName>
+		<Cost>50</Cost>
+		<Size>8</Size>
+		<SizeMod>18</SizeMod>
+		<Speed>2</Speed>
+		<Model>Hyperdrive1</Model>
+		<Tech_Requirement>Impulse Drive Mark II</Tech_Requirement>
+		<Category>Engine</Category>
+		<FlavorText0>General Propulsion P-110 Fusion "Impulse" Drive.</FlavorText0>
+		<FlavorText1>Thirund Stellar Manipulation Pulsation Package.</FlavorText1>
+		<FlavorText2>N-12 Space Traction Drive - Impulse Focused.</FlavorText2>
+		<FlavorText3>It'In Fusion Impulse Core Level 30.</FlavorText3>
+		<FlavorText4>Gentle Ion Heaven ascension Drive system.</FlavorText4>
+		<FlavorText5>Dread Drive</FlavorText5>
+	</Drive>
+	<Drive Name="ImpulseDrive3">
+		<DisplayName>Impulse Drive Mark III</DisplayName>
+		<Cost>50</Cost>
+		<Size>7</Size>
+		<SizeMod>16</SizeMod>
+		<Speed>2</Speed>
+		<Model>Hyperdrive2</Model>
+		<Tech_Requirement>Impulse Drive Mark III</Tech_Requirement>
+		<Category>Engine</Category>
+		<FlavorText0>General Propulsion P-150 Fusion "Impulse" Drive.</FlavorText0>
+		<FlavorText1>Thirund Stellar Manipulation Pulsation Package.</FlavorText1>
+		<FlavorText2>N-12 Space Traction Drive - Impulse Focused.</FlavorText2>
+		<FlavorText3>It'In Fusion Impulse Core Level 30.</FlavorText3>
+		<FlavorText4>Gentle Ion Heaven ascension Drive system.</FlavorText4>
+		<FlavorText5>Dread Drive</FlavorText5>
+	</Drive>
+	<Drive Name="Warpdrive0">
+		<DisplayName>Warp Drive</DisplayName>
+		<Cost>80</Cost>
+		<Size>9</Size>
+		<SizeMod>20</SizeMod>
+		<Speed>3</Speed>
+		<Model>Warpdrive0</Model>
+		<Tech_Requirement>Warp Drive</Tech_Requirement>
+		<Category>Engine</Category>
+		<FlavorText0>Galactic Dynamics T-13 Stellar "Warp" Engine</FlavorText0>
+		<FlavorText1>Thirund Stellar Warped Drive Engine Package.</FlavorText1>
+		<FlavorText2>N-50 Space Traction Drive - Full Spacial Warp.</FlavorText2>
+		<FlavorText3>Yir'Ta Space Folding Engine Drive.</FlavorText3>
+		<FlavorText4>Warp field folding pleasing.</FlavorText4>
+		<FlavorText5>Dread Drive</FlavorText5>
+	</Drive>
+	<Drive Name="Warpdrive1">
+		<DisplayName>Warp Drive Mk. II</DisplayName>
+		<Cost>80</Cost>
+		<Size>8</Size>
+		<SizeMod>18</SizeMod>
+		<Speed>3</Speed>
+		<Model>Warpdrive1</Model>
+		<Tech_Requirement>Warp Drive II</Tech_Requirement>
+		<Category>Engine</Category>
+		<FlavorText0>Galactic Dynamics T-20 Stellar "Warp" Engine</FlavorText0>
+		<FlavorText1>Thirund Stellar Warped Drive Engine Package.</FlavorText1>
+		<FlavorText2>N-50 Space Traction Drive - Full Spacial Warp.</FlavorText2>
+		<FlavorText3>Yir'Ta Space Folding Engine Drive.</FlavorText3>
+		<FlavorText4>Warp field folding pleasing.</FlavorText4>
+		<FlavorText5>Dread Drive</FlavorText5>
+	</Drive>
+	<Drive Name="Warpdrive2">
+		<DisplayName>Warp Drive Mk. III</DisplayName>
+		<Cost>80</Cost>
+		<Size>7</Size>
+		<SizeMod>16</SizeMod>
+		<Speed>3</Speed>
+		<Model>Warpdrive2</Model>
+		<Tech_Requirement>Warp Drive III</Tech_Requirement>
+		<Category>Engine</Category>
+		<FlavorText0>Galactic Dynamics T-33 Stellar "Warp" Engine</FlavorText0>
+		<FlavorText1>Thirund Stellar Warped Drive Engine Package.</FlavorText1>
+		<FlavorText2>N-50 Space Traction Drive - Full Spacial Warp.</FlavorText2>
+		<FlavorText3>Yir'Ta Space Folding Engine Drive.</FlavorText3>
+		<FlavorText4>Warp field folding pleasing.</FlavorText4>
+		<FlavorText5>Dread Drive</FlavorText5>
+	</Drive>		
+	<Drive Name="Hyperwarp0">
+		<DisplayName>Hyper Warp Drive</DisplayName>
+		<Cost>110</Cost>
+		<Size>9</Size>
+		<SizeMod>20</SizeMod>
+		<Speed>4</Speed>
+		<Model>Hyperwarp0</Model>
+		<Tech_Requirement>HyperWarp</Tech_Requirement>
+		<Category>Engine</Category>
+		<FlavorText0>Galactic Dynamics Subspace "HyperWarp" drive Model 110.</FlavorText0>
+		<FlavorText1>Thirund Stellar Hyper-Warp Engine Package.</FlavorText1>
+		<FlavorText2>N-100 Space Traction Drive - HyperWarp injected.</FlavorText2>
+		<FlavorText3>Yir'Ta Space Folding Engine Drive Extreme Edition.</FlavorText3>
+		<FlavorText4>Intense space folding persuasion drive channel.</FlavorText4>
+		<FlavorText5>Dread Drive</FlavorText5>
+	</Drive>
+	<Drive Name="Hyperwarp1">
+		<DisplayName>Hyper Warp Drive Mk. II</DisplayName>
+		<Cost>110</Cost>
+		<Size>8</Size>
+		<SizeMod>18</SizeMod>
+		<Speed>4</Speed>
+		<Model>Hyperwarp1</Model>
+		<Tech_Requirement>HyperWarp II</Tech_Requirement>
+		<Category>Engine</Category>
+		<FlavorText0>Galactic Dynamics Subspace "HyperWarp" drive Model 120.</FlavorText0>
+		<FlavorText1>Thirund Stellar Hyper-Warp Engine Package.</FlavorText1>
+		<FlavorText2>N-100 Space Traction Drive - HyperWarp injected.</FlavorText2>
+		<FlavorText3>Yir'Ta Space Folding Engine Drive Extreme Edition.</FlavorText3>
+		<FlavorText4>Intense space folding persuasion drive channel.</FlavorText4>
+		<FlavorText5>Dread Drive</FlavorText5>
+	</Drive>
+	<Drive Name="Hyperwarp2">
+		<DisplayName>Hyper Warp Drive Mk. III</DisplayName>
+		<Cost>110</Cost>
+		<Size>7</Size>
+		<SizeMod>16</SizeMod>
+		<Speed>4</Speed>
+		<Model>Hyperwarp2</Model>
+		<Tech_Requirement>HyperWarp III</Tech_Requirement>
+		<Category>Engine</Category>
+		<FlavorText0>Galactic Dynamics Subspace "HyperWarp" drive Model 110.</FlavorText0>
+		<FlavorText1>Thirund Stellar Hyper-Warp Engine Package.</FlavorText1>
+		<FlavorText2>N-120 Space Traction Drive - HyperWarp injected.</FlavorText2>
+		<FlavorText3>Yir'Ta Space Folding Engine Drive Extreme Edition.</FlavorText3>
+		<FlavorText4>Intense space folding persuasion drive channel.</FlavorText4>
+		<FlavorText5>Dread Drive</FlavorText5>
+	</Drive>
+	<Drive Name="StellarFolder">
+		<DisplayName>Stellar Folder</DisplayName>
+		<Cost>140</Cost>
+		<Size>7</Size>
+		<SizeMod>16</SizeMod>
+		<Speed>5</Speed>
+		<Description>Engine system that adds +5 to base speed.</Description>
+		<Model>Hyperwarp2</Model>
+		<Tech_Requirement>StellarFolding</Tech_Requirement>
+		<Category>Engine</Category>
+		<FlavorText0>Galactic Dynamics Subspace "HyperWarp" drive Model 110.</FlavorText0>
+		<FlavorText1>Thirund Stellar Hyper-Warp Engine Package.</FlavorText1>
+		<FlavorText2>N-120 Space Traction Drive - HyperWarp injected.</FlavorText2>
+		<FlavorText3>Yir'Ta Space Folding Engine Drive Extreme Edition.</FlavorText3>
+		<FlavorText4>Intense space folding persuasion drive channel.</FlavorText4>
+		<FlavorText5>Dread Drive</FlavorText5>
+	</Drive>
+<!--Sensor-->
+	<Sensor Name="StarScanner0">
+		<DisplayName>Survey Module</DisplayName>
+		<Description>Gives ships the ability to explore anomalies.</Description>
+		<Cost>45</Cost>
+		<AltCost>0</AltCost>
+		<AltCostPrereq>GA:EyesOfTheUniverse</AltCostPrereq>
+		<Size>5</Size>
+		<SizeMod>5</SizeMod>
+		<SensorRange>2</SensorRange>
+		<Ability>Survey</Ability>
+		<Category>Sensor</Category>
+		<Thumbnail>Sensor</Thumbnail>
+		<Tech_Requirement>StarScanner</Tech_Requirement>
+		<Model>Sensor0</Model>
+	</Sensor>
+	<Sensor Name="Sensors0">
+		<DisplayName>Sensors</DisplayName>
+		<Description>Increases the area your ships can see around them.</Description>
+		<Cost>10</Cost>
+		<AltCost>0</AltCost>
+		<AltCostPrereq>GA:EyesOfTheUniverse</AltCostPrereq>
+		<Size>5</Size>
+		<SizeMod>5</SizeMod>
+		<SensorRange>1</SensorRange>
+		<Category>Sensor</Category>
+		<Thumbnail>Sensor</Thumbnail>
+		<Model>Sensor0</Model>
+	</Sensor>
+	<Sensor Name="Sensors1">
+		<DisplayName>Sensors Mk. II</DisplayName>
+		<Description>Increases the area around the ship that you can see.</Description>
+		<Cost>10</Cost>
+		<AltCost>0</AltCost>
+		<AltCostPrereq>GA:EyesOfTheUniverse</AltCostPrereq>
+		<Size>4</Size>
+		<SizeMod>5</SizeMod>
+		<SensorRange>1</SensorRange>
+		<Category>Sensor</Category>
+		<Thumbnail>Sensor</Thumbnail>
+		<Tech_Requirement>StarScanner2</Tech_Requirement>
+		<Model>Sensor0</Model>
+	</Sensor>
+	<Sensor Name="Sensors2">
+		<DisplayName>Sensors Mk. III</DisplayName>
+		<Description>Increases the area around the ship that you can see.</Description>
+		<Cost>10</Cost>
+		<AltCost>0</AltCost>
+		<AltCostPrereq>GA:EyesOfTheUniverse</AltCostPrereq>
+		<Size>3</Size>
+		<SizeMod>5</SizeMod>
+		<SensorRange>1</SensorRange>
+		<Category>Sensor</Category>
+		<Thumbnail>Sensor</Thumbnail>
+		<Tech_Requirement>Sensor2</Tech_Requirement>
+		<Model>Sensor0</Model>
+	</Sensor>
+	<Sensor Name="Sensors3">
+		<DisplayName>Sensors Mk. IV</DisplayName>
+		<Description>Increases the area around the ship that you can see.</Description>
+		<Cost>10</Cost>
+		<AltCost>0</AltCost>
+		<AltCostPrereq>GA:EyesOfTheUniverse</AltCostPrereq>
+		<Size>2</Size>
+		<SizeMod>5</SizeMod>
+		<SensorRange>1</SensorRange>
+		<Category>Sensor</Category>
+		<Thumbnail>Sensor</Thumbnail>
+		<Tech_Requirement>Sensor3</Tech_Requirement>
+		<Model>Sensor0</Model>
+	</Sensor>
+<!--Sensor Terran-->
+	<Sensor Name="SensorArray">
+		<DisplayName>Sensor Array</DisplayName>
+		<Description>Increases the area around the ship that you can see.</Description>
+		<Cost>10</Cost>
+		<AltCost>0</AltCost>
+		<AltCostPrereq>GA:EyesOfTheUniverse</AltCostPrereq>
+		<Size>1</Size>
+		<SizeMod>5</SizeMod>
+		<SensorRange>2</SensorRange>
+		<Category>Sensor</Category>
+		<Thumbnail>Sensor</Thumbnail>
+		<Tech_Requirement>Sensor Array</Tech_Requirement>
+		<Model>Sensor0</Model>
+	</Sensor>
+<!--Support-->
+	<LifeSupport Name="BasicSupport">
+		<DisplayName>Basic Support</DisplayName>
+		<Description>Extends the range of our ships.</Description>
+		<Cost>2</Cost>
+		<Size>2</Size>
+		<SizeMod>5</SizeMod>
+		<Range>3</Range>
+		<Category>Support</Category>
+		<Thumbnail>Support</Thumbnail>
+		<Model>Support0</Model>
+	</LifeSupport>
+	<LifeSupport Name="GeneralSupport">
+		<DisplayName>General Life Support</DisplayName>
+		<Description>Extends the range of our ships.</Description>
+		<Cost>3</Cost>
+		<Size>2</Size>
+		<SizeMod>5</SizeMod>
+		<Range>6</Range>
+		<Category>Support</Category>
+		<Tech_Requirement>Basic Life Support</Tech_Requirement>
+		<Thumbnail>Support</Thumbnail>
+		<Model>Support0</Model>
+	</LifeSupport>
+	<LifeSupport Name="ExtendedSupport">
+		<DisplayName>Extended Support</DisplayName>
+		<Description>Extends the range of our ships.</Description>
+		<Cost>4</Cost>
+		<Size>2</Size>
+		<SizeMod>5</SizeMod>
+		<Range>9</Range>
+		<Category>Support</Category>
+		<Tech_Requirement>Extended Life Support</Tech_Requirement>
+		<Thumbnail>Support</Thumbnail>
+		<Model>Support0</Model>
+	</LifeSupport>
+	<LifeSupport Name="AdvancedSupport">
+		<DisplayName>Advanced Support</DisplayName>
+		<Description>Extends the range of our ships.</Description>
+		<Cost>5</Cost>
+		<Size>2</Size>
+		<SizeMod>5</SizeMod>
+		<Range>12</Range>
+		<Category>Support</Category>
+		<Tech_Requirement>Advanced Life Support</Tech_Requirement>
+		<Thumbnail>Support</Thumbnail>
+		<Model>Support0</Model>
+	</LifeSupport>
+	<LifeSupport Name="UltraSupport">
+		<DisplayName>Ultra Support</DisplayName>
+		<Description>Extends the range of our ships.</Description>
+		<Cost>6</Cost>
+		<Size>2</Size>
+		<SizeMod>5</SizeMod>
+		<Range>15</Range>
+		<Category>Support</Category>
+		<Tech_Requirement>Ultra Life Support</Tech_Requirement>
+		<Thumbnail>Support</Thumbnail>
+		<Model>Support0</Model>
+	</LifeSupport>
+<!--Capacity-->
+	<Module Name="ColonyModule">
+		<DisplayName>Colony Module</DisplayName>
+		<Description>Each colony module holds 500 million colonists. Put these on your ships and then send those ships to uncolonized worlds that are habitable (class 1 or better).</Description>
+		<Cost>50</Cost>
+		<Size>20</Size>
+		<MaxCapacity>500</MaxCapacity>
+		<Model>Colony0</Model>
+		<Ability>Colonize</Ability>
+		<Thumbnail>Colony0</Thumbnail>
+		<Category>Capacity</Category>
+		<FlavorText0>Microhabitations Corp. Portable Environment Colonization Module.</FlavorText0>
+		<FlavorText1>Aul Citizen Transportion Module.</FlavorText1>
+		<FlavorText2>C-400 Non-Military Unit Transport Module.</FlavorText2>
+		<FlavorText3>Vox'tir Civilian Transport Module.</FlavorText3>
+		<FlavorText4>New Horizon Happy Sunshine Joy Place.</FlavorText4>
+		<FlavorText5>Dread Transport</FlavorText5>
+	</Module>
+	<Module Name="TroopsModule">
+		<DisplayName>Troops Module</DisplayName>
+		<Description>Put these on your ships to turn them into invasion transports. Each one holds 500 legions of troops.</Description>
+		<Cost>50</Cost>
+		<Size>15</Size>
+		<MaxCapacity>500</MaxCapacity>
+		<Model>TroopModule</Model>
+		<Ability>Troops</Ability>
+		<Thumbnail>TroopModule</Thumbnail>
+		<Category>Capacity</Category>
+		<Tech_Requirement>Planetary Invasion</Tech_Requirement>
+		<FlavorText0>Microhabitations Corp. Portable Environment Colonization Module. Military Edition</FlavorText0>
+		<FlavorText1>Aul Warrior Transportion Module.</FlavorText1>
+		<FlavorText2>C-400 Warrior Unit Transport Module.</FlavorText2>
+		<FlavorText3>Vox'tir Military Transport Module.</FlavorText3>
+		<FlavorText4>New Horizon Happy Sunshine Joy Place. With Killers.</FlavorText4>
+		<FlavorText5>Dread Transport</FlavorText5>
+	</Module>
+	<Module Name="AdvTroopsModule">
+		<DisplayName>Adv Troops Module</DisplayName>
+		<Description>This the superior troop module. It costs more but holds 1000 legions of troops.</Description>
+		<Cost>70</Cost>
+		<Size>20</Size>
+		<MaxCapacity>1000</MaxCapacity>
+		<Model>TroopModule</Model>
+		<Ability>Troops</Ability>
+		<Thumbnail>TroopModule</Thumbnail>
+		<Category>Capacity</Category>
+		<Tech_Requirement>Advanced Troop Mods</Tech_Requirement>
+		<FlavorText0>Microhabitations Corp. Portable Environment Colonization Module. Advanced Military Edition</FlavorText0>
+		<FlavorText1>Aul Warrior Transportion Module.</FlavorText1>
+		<FlavorText2>C-401 Warrior Unit Transport Module.</FlavorText2>
+		<FlavorText3>Vox'tir Military Transport Module.</FlavorText3>
+		<FlavorText4>New Horizon Happy Sunshine Joy Place. With Killers Bonus.</FlavorText4>
+		<FlavorText5>Dread Transport</FlavorText5>
+	</Module>
+	<Module Name="ConstructorModule">
+		<DisplayName>Constructor Module</DisplayName>
+		<Description>Allows this ship to construct starbases. You only need ONE per ship.</Description>
+		<Cost>70</Cost>
+		<Size>20</Size>
+		<Model>ConstructorModuleLeft</Model>
+		<Ability>ConstructStarbase</Ability>
+		<Thumbnail>ConstructorModule</Thumbnail>
+		<Category>Capacity</Category>
+		<FlavorText0>Genral Industrial Ltd. Model 105 "Base Maker". Contains everything necessary to convert ship and components into a starbase or addition to a starbase.</FlavorText0>
+		<FlavorText1>Aul Space Station Construction Set.</FlavorText1>
+		<FlavorText2>B-309 Star Station Creation Matrix. Converts ship into a Star Station or add-on to existing Star Station.</FlavorText2>
+		<FlavorText3>Hithirl Starbase Module.</FlavorText3>
+		<FlavorText4>Space Center Creation Module.</FlavorText4>
+		<FlavorText5>Dread Starbase Module.</FlavorText5>
+	</Module>
+	<Module Name="LiteConstructorModule">
+		<DisplayName>Lite Constructor Module</DisplayName>
+		<Description>Unique to this civilization. Allows this ship to construct starbases. You only need ONE per ship.</Description>
+		<Cost>30</Cost>
+		<Size>20</Size>
+		<Model>ConstructorModuleLeft</Model>
+		<Ability>ConstructStarbase</Ability>
+		<Thumbnail>ConstructorModule</Thumbnail>
+		<Category>Capacity</Category>
+		<Tech_Requirement>GloriousHistory</Tech_Requirement>
+		<FlavorText0>Genral Industrial Ltd. Model 105 "Base Maker". Contains everything necessary to convert ship and components into a starbase or addition to a starbase.</FlavorText0>
+		<FlavorText1>Aul Space Station Construction Set.</FlavorText1>
+		<FlavorText2>B-309 Star Station Creation Matrix. Converts ship into a Star Station or add-on to existing Star Station.</FlavorText2>
+		<FlavorText3>Hithirl Starbase Module.</FlavorText3>
+		<FlavorText4>Space Center Creation Module.</FlavorText4>
+		<FlavorText5>Dread Starbase Module.</FlavorText5>
+	</Module>
+	<Module Name="TradeModuleLeft">
+		<DisplayName>Trade Module</DisplayName>
+		<Description>Gives the vessel the ability to establish a trade route with another planet. Only ONE needed on a ship.</Description>
+		<Cost>60</Cost>
+		<Size>20</Size>
+		<Model>TradeModuleLeft</Model>
+		<Ability>Trade</Ability>
+		<Thumbnail>TradeModule</Thumbnail>
+		<Category>Capacity</Category>
+		<Tech_Requirement>Trade</Tech_Requirement>
+	</Module>
+<!--SpaceTruck-->
+	<Module Name="SpaceTruckModule">
+		<DisplayName>Mining Module</DisplayName>
+		<Description>Allows this ship to mine asteroid fields. You only need ONE per ship.</Description>
+		<Cost>50</Cost>
+		<Size>20</Size>
+		<Model>MiningModule</Model>
+		<Ability>SpaceTruck</Ability>
+		<Thumbnail>MiningModule</Thumbnail>
+		<Category>Capacity</Category>
+	</Module>
+<!--Spore-->
+	<Module Name="SporeModule">
+		<DisplayName>Spore Module</DisplayName>
+		<Description>Allows this ship to destroy all life on a planet and toxifies the atmosphere. You only need ONE per ship.</Description>
+		<Cost>50</Cost>
+		<Size>25</Size>
+		<Model>SporeModule0</Model>
+		<Ability>Spore</Ability>
+		<Thumbnail>SporeModule0</Thumbnail>
+		<Category>Capacity</Category>
+		<Tech_Requirement>SporeWeapons</Tech_Requirement>
+	</Module>
+<!--Advanced Fortitude-->
+	<Fortitude Name="ReinforcedHullPoint">
+		<DisplayName>Reinforced Hull Point</DisplayName>
+		<Description>Adds 5 HP to ship.</Description>
+		<Cost>50</Cost>
+		<Size>3</Size>
+		<SizeMod>2</SizeMod>
+		<Model>ReinforcedHullPoint</Model>
+		<FortitudeStrength>5</FortitudeStrength>
+		<Thumbnail>ReinforcedHullPoint</Thumbnail>
+		<Category>Advanced</Category>
+		<Tech_Requirement>Advanced Materials</Tech_Requirement>
+	</Fortitude>
+	<Fortitude Name="Hardened Hull Point">
+		<DisplayName>Hardened Hull Point</DisplayName>
+		<Description>Adds 5 HP to ship.</Description>
+		<Cost>45</Cost>
+		<Size>2</Size>
+		<SizeMod>2</SizeMod>
+		<Model>ReinforcedHullPoint</Model>
+		<FortitudeStrength>5</FortitudeStrength>
+		<Thumbnail>ReinforcedHullPoint</Thumbnail>
+		<Category>Advanced</Category>
+		<Tech_Requirement>Hardened Hull Design</Tech_Requirement>
+	</Fortitude>
+	<Fortitude Name="RobustConstruction">
+		<DisplayName>Robust Hull Construction</DisplayName>
+		<Description>Adds 6 HP to ship.</Description>
+		<Cost>70</Cost>
+		<Size>2</Size>
+		<SizeMod>2</SizeMod>
+		<Model>ReinforcedHullPoint</Model>
+		<FortitudeStrength>6</FortitudeStrength>
+		<Thumbnail>ReinforcedHullPoint</Thumbnail>
+		<Category>Advanced</Category>
+		<Tech_Requirement>Robust Hull Construction</Tech_Requirement>
+	</Fortitude>
+	<Fortitude Name="ExoskeletonHullPoint">
+		<DisplayName>Exoskeleton Hull Point</DisplayName>
+		<Description>Adds 6 HP to ship.</Description>
+		<Cost>60</Cost>
+		<Size>3</Size>
+		<SizeMod>2</SizeMod>
+		<Model>ExoskeletonHullPoint</Model>
+		<FortitudeStrength>6</FortitudeStrength>
+		<Thumbnail>ExoskeletonHullPoint</Thumbnail>
+		<Category>Advanced</Category>
+		<Tech_Requirement>HullStrengthening</Tech_Requirement>
+	</Fortitude>
+	<Fortitude Name="OrganicHullPlating">
+		<DisplayName>Organic Hull Plating</DisplayName>
+		<Description>Adds 8 HP to our ships.</Description>
+		<Cost>60</Cost>
+		<Size>4</Size>
+		<SizeMod>0</SizeMod>
+		<Model>ReinforcedHullPoint</Model>
+		<FortitudeStrength>8</FortitudeStrength>
+		<Thumbnail>ReinforcedHullPoint</Thumbnail>
+		<Category>Advanced</Category>
+		<Tech_Requirement>OrganicHulls</Tech_Requirement>
+	</Fortitude>
+	<Fortitude Name="RobustHullDesign">
+		<DisplayName>Robust Hull Design</DisplayName>
+		<Description>Adds 2 hit points to our hulls.</Description>
+		<Cost>25</Cost>
+		<Size>2</Size>
+		<SizeMod>2</SizeMod>
+		<Model>ReinforcedHullPoint</Model>
+		<FortitudeStrength>2</FortitudeStrength>
+		<Thumbnail>ReinforcedHullPoint</Thumbnail>
+		<Category>Advanced</Category>
+		<Tech_Requirement>RobustHulls</Tech_Requirement>
+	</Fortitude>
+	<Fortitude Name="IntegrityGrid">
+		<DisplayName>IntegrityGrid</DisplayName>
+		<Description>Adds 8 HP to ship.</Description>
+		<Cost>60</Cost>
+		<Size>3</Size>
+		<SizeMod>2</SizeMod>
+		<Model>IntegrityGrid</Model>
+		<FortitudeStrength>8</FortitudeStrength>
+		<Thumbnail>IntegrityGrid</Thumbnail>
+		<Category>Advanced</Category>
+		<Tech_Requirement>Integrity Grid</Tech_Requirement>
+	</Fortitude>
+	<Fortitude Name="HyperionHullPoint">
+		<DisplayName>Hyperion Hull Point</DisplayName>
+		<Description>Provides 5 more hit points to our ships.</Description>
+		<Cost>50</Cost>
+		<Size>2</Size>
+		<SizeMod>2</SizeMod>
+		<Model>ReinforcedHullPoint</Model>
+		<FortitudeStrength>5</FortitudeStrength>
+		<Thumbnail>ReinforcedHullPoint</Thumbnail>
+		<Category>Advanced</Category>
+		<Tech_Requirement>HyperionHullDesign</Tech_Requirement>
+	</Fortitude>
+<!--Advanced Driver-->
+	<Driver Name="Fleets of Haste">
+		<DisplayName>Fleets of Haste</DisplayName>
+		<Description>Adds +1 pc to speed of fleet</Description>
+		<Cost>60</Cost>
+		<Size>5</Size>
+		<SizeMod>5</SizeMod>
+		<Model>WarpBubbleProjector</Model>
+		<Thumbnail>WarpBubbleProjector</Thumbnail>
+		<Category>Advanced</Category>
+		<DriverStrength>1</DriverStrength>
+		<Tech_Requirement>HastyFleets</Tech_Requirement>
+	</Driver>
+	<Driver Name="WarpBubbleProjector">
+		<DisplayName>Warp Bubble Projector</DisplayName>
+		<Description>Adds +1 pc to speed of fleet</Description>
+		<Cost>50</Cost>
+		<Size>15</Size>
+		<SizeMod>10</SizeMod>
+		<Model>WarpBubbleProjector</Model>
+		<Thumbnail>WarpBubbleProjector</Thumbnail>
+		<Category>Advanced</Category>
+		<DriverStrength>1</DriverStrength>
+		<Tech_Requirement>Fleet Warp Bubbles</Tech_Requirement>
+	</Driver>
+	<Driver Name="AdvWarpBubbleProjector">
+		<DisplayName>Advanced Warp Bubble Projector</DisplayName>
+		<Description>Adds +2 pc to speed of fleet</Description>
+		<Cost>70</Cost>
+		<Size>15</Size>
+		<SizeMod>10</SizeMod>
+		<Model>AdvWarpBubbleProjector</Model>
+		<Thumbnail>AdvWarpBubbleProjector</Thumbnail>
+		<Category>Advanced</Category>
+		<DriverStrength>2</DriverStrength>
+		<Tech_Requirement>Fleet Warp Bubbles II</Tech_Requirement>
+	</Driver>
+	<Driver Name="UltWarpBubbleProjector">
+		<DisplayName>Ultimate Warp Bubble Projector</DisplayName>
+		<Description>Adds +3 pc to speed of fleet</Description>
+		<Cost>80</Cost>
+		<Size>15</Size>
+		<SizeMod>10</SizeMod>
+		<Model>UltWarpBubbleProjector</Model>
+		<Thumbnail>UltWarpBubbleProjector</Thumbnail>
+		<Category>Advanced</Category>
+		<DriverStrength>3</DriverStrength>
+		<Tech_Requirement>Fleet Warp Bubbles III</Tech_Requirement>
+	</Driver>
+<!--Advanced Atlas Attack-->
+	<Atlas Name="TulonWeaponFocus">
+		<DisplayName>Tulon Weapon Focus</DisplayName>
+		<Description>Provides a 20% boost to attack for ships in the same fleet.</Description>
+		<Cost>50</Cost>
+		<Size>35</Size>
+		<SizeMod>20</SizeMod>
+		<Model>AtlasFireCoordinator</Model>
+		<Thumbnail>AtlasFireCoordinator</Thumbnail>
+		<Category>Advanced</Category>
+		<AtlasFleetAttackStrength>20</AtlasFleetAttackStrength>
+		<Tech_Requirement>TulonWeaponFocus</Tech_Requirement>
+	</Atlas>
+	<Atlas Name="VengeanceScanner">
+		<DisplayName>Vengeance Scanner</DisplayName>
+		<Description>Provides a 33% boost to attack for ships in the same fleet.</Description>
+		<Cost>50</Cost>
+		<Size>35</Size>
+		<SizeMod>30</SizeMod>
+		<Model>AtlasFireCoordinator</Model>
+		<Thumbnail>AtlasFireCoordinator</Thumbnail>
+		<Category>Advanced</Category>
+		<AtlasFleetAttackStrength>30</AtlasFleetAttackStrength>
+		<Tech_Requirement>VengeanceScanner</Tech_Requirement>
+	</Atlas>
+	<Atlas Name="Righteous Might">
+		<DisplayName>Righteous Might</DisplayName>
+		<Description>Allows ship and ships in a fleet to get a 25% first round bonus on weapons.</Description>
+		<Cost>50</Cost>
+		<Size>5</Size>
+		<Model>StellarDefender</Model>
+		<Thumbnail>AdvStellarDefender</Thumbnail>
+		<Category>Advanced</Category>
+		<AtlasFleetAttackFirstRoundStrength>25</AtlasFleetAttackFirstRoundStrength>
+		<Tech_Requirement>RighteousMight</Tech_Requirement>
+	</Atlas>
+	<Atlas Name="Offensive Meditation Module">
+		<DisplayName>Offensive Meditation Module</DisplayName>
+		<Description>Immensely powerful battle module that increases our attack in the zone of control by 20% as well as increases our fleets first round of attack by 20%.</Description>
+		<Cost>80</Cost>
+		<Size>10</Size>
+		<SizeMod>10</SizeMod>
+		<Model>StellarDefender</Model>
+		<Thumbnail>StellarDefender</Thumbnail>
+		<Category>Advanced</Category>
+		<AtlasAttackInZOCStrength>20</AtlasAttackInZOCStrength>
+		<AtlasFleetAttackFirstRoundStrength>20</AtlasFleetAttackFirstRoundStrength>
+		<Tech_Requirement>OffensiveMeditation</Tech_Requirement>
+	</Atlas>
+	<Atlas Name="Advanced Fire Control">
+		<DisplayName>Advanced Fire Control</DisplayName>
+		<Description>Provides a 25% boost to our weapons when used in our sphere of influence</Description>
+		<Cost>50</Cost>
+		<Size>5</Size>
+		<Model>StellarDefender</Model>
+		<Thumbnail>StellarDefender</Thumbnail>
+		<Category>Advanced</Category>
+		<AtlasAttackInZOCStrength>25</AtlasAttackInZOCStrength>
+		<Tech_Requirement>AdvancedFireControl</Tech_Requirement>
+	</Atlas>
+	<Atlas Name="Advanced Battle Station Module">
+		<DisplayName>Advanced Battle Station Module</DisplayName>
+		<Description>Provides a 33% boost to our weapons when used in our sphere of influence</Description>
+		<Cost>50</Cost>
+		<Size>5</Size>
+		<Model>StellarDefender</Model>
+		<Thumbnail>StellarDefender</Thumbnail>
+		<Category>Advanced</Category>
+		<AtlasAttackInZOCStrength>33</AtlasAttackInZOCStrength>
+		<Tech_Requirement>AdvancedBattleStations</Tech_Requirement>
+	</Atlas>
+	<Atlas Name="WeaponAmplifier">
+		<DisplayName>Weapon Amplifier</DisplayName>
+		<Description>Uses intel from friendly space to amplify damage by weapons by 25%.</Description>
+		<Cost>60</Cost>
+		<Size>5</Size>
+		<Model>StellarDefender</Model>
+		<Thumbnail>StellarDefender</Thumbnail>
+		<Category>Advanced</Category>
+		<AtlasAttackInZOCStrength>25</AtlasAttackInZOCStrength>
+		<Tech_Requirement>AmplifiedWeaponry</Tech_Requirement>
+	</Atlas>
+	<Atlas Name="KillZone Computer">
+		<DisplayName>KillZone Computer</DisplayName>
+		<Description>Powerful Mainframe increases damge by 50% in friendly territory.</Description>
+		<Cost>100</Cost>
+		<Size>5</Size>
+		<Model>StellarDefender</Model>
+		<Thumbnail>StellarDefender</Thumbnail>
+		<Category>Advanced</Category>
+		<AtlasAttackInZOCStrength>50</AtlasAttackInZOCStrength>
+		<Tech_Requirement>KillZoneComputers</Tech_Requirement>
+	</Atlas>
+	<Atlas Name="FleetsOfWrath">
+		<DisplayName>Fleets of Wrath</DisplayName>
+		<Description>Provides a 10% boost to attack for ships in the same fleet.</Description>
+		<Cost>50</Cost>
+		<Size>5</Size>
+		<SizeMod>5</SizeMod>
+		<Model>AtlasFireCoordinator</Model>
+		<Thumbnail>AtlasFireCoordinator</Thumbnail>
+		<Category>Advanced</Category>
+		<AtlasFleetAttackStrength>10</AtlasFleetAttackStrength>
+		<Tech_Requirement>VengefulFleets</Tech_Requirement>
+	</Atlas>
+	<Atlas Name="StellarAvenger">
+		<DisplayName>Stellar Avenger</DisplayName>
+		<Description>Provides a 20% boost to our weapons when used in our sphere of influence</Description>
+		<Cost>50</Cost>
+		<Size>5</Size>
+		<Model>StellarDefender</Model>
+		<Thumbnail>StellarDefender</Thumbnail>
+		<Category>Advanced</Category>
+		<AtlasAttackInZOCStrength>20</AtlasAttackInZOCStrength>
+		<Tech_Requirement>Space Superiority</Tech_Requirement>
+	</Atlas>
+<!--Advanced Atlas Defense-->
+	<Atlas Name="XalaxDefenseCoordinator">
+		<DisplayName>Xalax Defense Coordinator</DisplayName>
+		<Description>Provides a 20% boost to defense for ships in the same fleet. Does not stack with others in a fleet.</Description>
+		<Cost>30</Cost>
+		<Size>20</Size>
+		<SizeMod>20</SizeMod>
+		<Model>AtlasDefenseCoordinator</Model>
+		<Thumbnail>AtlasDefenseCoordinator</Thumbnail>
+		<Category>Advanced</Category>
+		<AtlasFleetDefenseStrength>20</AtlasFleetDefenseStrength>
+		<Tech_Requirement>XalaxDefenseCoord</Tech_Requirement>
+	</Atlas>
+	<Atlas Name="ZalonDefenseMainframe">
+		<DisplayName>Zalon Defense Mainframe</DisplayName>
+		<Description>Provides a 30% boost to defense for ships in the same fleet. Does not stack with others in a fleet.</Description>
+		<Cost>30</Cost>
+		<Size>20</Size>
+		<SizeMod>20</SizeMod>
+		<Model>AtlasDefenseCoordinator</Model>
+		<Thumbnail>AtlasDefenseCoordinator</Thumbnail>
+		<Category>Advanced</Category>
+		<AtlasFleetDefenseStrength>30</AtlasFleetDefenseStrength>
+		<Tech_Requirement>ZalonDefenseMainframe</Tech_Requirement>
+	</Atlas>
+	<Atlas Name="Righteous Fleet Defense">
+		<DisplayName>Righteous Fleet Defense</DisplayName>
+		<Description>Provides a 30% boost to defense for ships in the same fleet. Does not stack with others in a fleet.</Description>
+		<Cost>50</Cost>
+		<Size>5</Size>
+		<SizeMod>5</SizeMod>
+		<Model>AtlasDefenseCoordinator</Model>
+		<Thumbnail>AtlasDefenseCoordinator</Thumbnail>
+		<Category>Advanced</Category>
+		<AtlasFleetDefenseStrength>30</AtlasFleetDefenseStrength>
+		<Tech_Requirement>RighteousFleets</Tech_Requirement>
+	</Atlas>
+	<Atlas Name="Defense Meditation Module">
+		<DisplayName>Defense Meditation Module</DisplayName>
+		<Description>Expensive but powerful module that magnifies the defenses of all ships in a given fleet.</Description>
+		<Cost>75</Cost>
+		<Size>4</Size>
+		<SizeMod>4</SizeMod>
+		<Model>AtlasDefenseCoordinator</Model>
+		<Thumbnail>AtlasDefenseCoordinator</Thumbnail>
+		<Category>Advanced</Category>
+		<AtlasDefenseStrength>20</AtlasDefenseStrength>
+		<AtlasFleetDefenseStrength>20</AtlasFleetDefenseStrength>
+		<Tech_Requirement>DefensiveMeditation</Tech_Requirement>
+	</Atlas>
+	<Atlas Name="Righteous Justice">
+		<DisplayName>Righteous Justice</DisplayName>
+		<Description>Increases our defenses by 25% in friendly territory.</Description>
+		<Cost>55</Cost>
+		<Size>4</Size>
+		<SizeMod>0</SizeMod>
+		<Model>StellarDefender</Model>
+		<Thumbnail>AdvStellarDefender</Thumbnail>
+		<Category>Advanced</Category>
+		<AtlasDefenseStrength>25</AtlasDefenseStrength>
+		<Tech_Requirement>RighteousJustice</Tech_Requirement>
+	</Atlas>
+	<Atlas Name="StellarDefender">
+		<DisplayName>Stellar Defender</DisplayName>
+		<Description>Provides a 25% boost to the defense of a ship when used in our sphere of influence</Description>
+		<Cost>50</Cost>
+		<Size>5</Size>
+		<Model>AdvStellarDefender</Model>
+		<Thumbnail>AdvStellarDefender</Thumbnail>
+		<Category>Advanced</Category>
+		<AtlasDefenseInZOCStrength>25</AtlasDefenseInZOCStrength>
+		<Tech_Requirement>Advanced Defensive Techniques</Tech_Requirement>
+	</Atlas>
+	<Atlas Name="Hyperion Defense Module">
+		<DisplayName>Hyperion Defense Module</DisplayName>
+		<Description>Gives ships a significant defensive boost when in friendly territory.</Description>
+		<Cost>50</Cost>
+		<Size>4</Size>
+		<SizeMod>0</SizeMod>
+		<Model>AtlasDefenseCoordinator</Model>
+		<Thumbnail>AtlasDefenseCoordinator</Thumbnail>
+		<Category>Advanced</Category>
+		<AtlasDefenseInZOCStrength>50</AtlasDefenseInZOCStrength>
+		<Tech_Requirement>HyperionDefense</Tech_Requirement>
+	</Atlas>
+<!--Hulls-->
+	<Hull Name="TinyHull0">
+		<DisplayName>Tiny</DisplayName>
+		<Description>Tiny hulls are for fighters and scouts. They use 4 logistical points.</Description>
+		<Cost>25</Cost>
+		<SensorRange>2</SensorRange>
+		<Size>16</Size>
+		<HP>5</HP>
+		<Model>Tiny_0</Model>
+		<Thumbnail>Tiny_0</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Tiny</Category>
+		<Logistics>4</Logistics>
+	</Hull>
+	<Hull Name="TinyHull1">
+		<DisplayName>Tiny</DisplayName>
+		<Description>Tiny hulls are for fighters and scouts. They use 4 logistical points.</Description>
+		<Cost>25</Cost>
+		<SensorRange>2</SensorRange>
+		<Size>16</Size>
+		<HP>5</HP>
+		<Model>Tiny_1</Model>
+		<Thumbnail>Tiny_1</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Tiny</Category>
+		<Logistics>4</Logistics>
+	</Hull>
+	<Hull Name="TinyHull2">
+		<DisplayName>Tiny</DisplayName>
+		<Description>Tiny hulls are for fighters and scouts. They use 4 logistical points.</Description>
+		<Cost>25</Cost>
+		<SensorRange>2</SensorRange>
+		<Size>16</Size>
+		<HP>5</HP>
+		<Model>Tiny_2</Model>
+		<Thumbnail>Tiny_2</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Tiny</Category>
+		<Logistics>4</Logistics>
+	</Hull>
+	<Hull Name="TinyHull3">
+		<DisplayName>Tiny</DisplayName>
+		<Description>Tiny hulls are for fighters and scouts. They use 4 logistical points.</Description>
+		<Cost>25</Cost>
+		<SensorRange>2</SensorRange>
+		<Size>16</Size>
+		<HP>5</HP>
+		<Model>Tiny_3</Model>
+		<Speed>1</Speed>
+		<Category>Tiny</Category>
+		<Logistics>4</Logistics>
+	</Hull>
+	<Hull Name="TinyHull6">
+		<DisplayName>Tiny</DisplayName>
+		<Description>Tiny hulls are for fighters and scouts. They use 4 logistical points.</Description>
+		<Cost>25</Cost>
+		<SensorRange>2</SensorRange>
+		<Size>16</Size>
+		<HP>5</HP>
+		<Model>Tiny_6</Model>
+		<Thumbnail>TinyBrick_6</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Tiny</Category>
+		<Logistics>4</Logistics>
+	</Hull>
+	<Hull Name="SmallHull0">
+		<DisplayName>Small</DisplayName>
+		<Description>Small hulls have somewhat more space than tiny hulls. Ideal for making a heavy fighter. They use 6 logistics points.</Description>
+		<Cost>40</Cost>
+		<SensorRange>2</SensorRange>
+		<Size>24</Size>
+		<HP>8</HP>
+		<Model>Small_0</Model>
+		<Thumbnail>Small_0</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Small</Category>
+		<Logistics>6</Logistics>
+		<Tech_Requirement>InterstellarConstruction</Tech_Requirement>
+	</Hull>
+	<Hull Name="SmallHull1">
+		<DisplayName>Small</DisplayName>
+		<Description>Small hulls have somewhat more space than tiny hulls. Ideal for making a heavy fighter. They use 6 logistics points.</Description>
+		<Cost>40</Cost>
+		<SensorRange>2</SensorRange>
+		<Size>24</Size>
+		<HP>8</HP>
+		<Model>Small_1</Model>
+		<Thumbnail>Small_1</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Small</Category>
+		<Logistics>6</Logistics>
+		<Tech_Requirement>InterstellarConstruction</Tech_Requirement>
+	</Hull>
+	<Hull Name="SmallHull2">
+		<DisplayName>Small</DisplayName>
+		<Description>Small hulls have somewhat more space than tiny hulls. Ideal for making a heavy fighter. They use 6 logistics points.</Description>
+		<Cost>40</Cost>
+		<SensorRange>2</SensorRange>
+		<Size>24</Size>
+		<HP>8</HP>
+		<Model>Small_2</Model>
+		<Thumbnail>Small_2</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Small</Category>
+		<Logistics>6</Logistics>
+		<Tech_Requirement>InterstellarConstruction</Tech_Requirement>
+	</Hull>
+	<Hull Name="SmallHull3">
+		<DisplayName>Small</DisplayName>
+		<Description>Small hulls have somewhat more space than tiny hulls. Ideal for making a heavy fighter. They use 6 logistics points.</Description>
+		<Cost>40</Cost>
+		<SensorRange>2</SensorRange>
+		<Size>24</Size>
+		<HP>8</HP>
+		<Model>Small_3</Model>
+		<Speed>1</Speed>
+		<Category>Small</Category>
+		<Logistics>6</Logistics>
+		<Tech_Requirement>InterstellarConstruction</Tech_Requirement>
+	</Hull>
+	<Hull Name="SmallHull6">
+		<DisplayName>Small</DisplayName>
+		<Description>Build your own Small hull, with this simple starter block. They use 6 logistical points.</Description>
+		<Cost>40</Cost>
+		<SensorRange>2</SensorRange>
+		<Size>24</Size>
+		<HP>8</HP>
+		<Model>Small_6</Model>
+		<Thumbnail>SmallBrick_6</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Small</Category>
+		<Logistics>6</Logistics>
+		<Tech_Requirement>InterstellarConstruction</Tech_Requirement>
+	</Hull>
+	<Hull Name="MediumHull0">
+		<DisplayName>Medium</DisplayName>
+		<Description>Medium hulls are frigate class size. They use 10 logistical points.</Description>
+		<Cost>80</Cost>
+		<SensorRange>3</SensorRange>
+		<Size>48</Size>
+		<HP>20</HP>
+		<Model>Medium_0</Model>
+		<Thumbnail>Medium_0</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Medium</Category>
+		<Logistics>10</Logistics>
+		<Tech_Requirement>Medium Scale Building</Tech_Requirement>
+	</Hull>
+	<Hull Name="MediumHull1">
+		<DisplayName>Medium</DisplayName>
+		<Description>Medium hulls are frigate class size. They use 10 logistical points.</Description>
+		<Cost>80</Cost>
+		<SensorRange>3</SensorRange>
+		<Size>48</Size>
+		<HP>20</HP>
+		<Model>Medium_1</Model>
+		<Thumbnail>Medium_1</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Medium</Category>
+		<Logistics>10</Logistics>
+		<Tech_Requirement>Medium Scale Building</Tech_Requirement>
+	</Hull>
+	<Hull Name="MediumHull2">
+		<DisplayName>Medium</DisplayName>
+		<Description>Medium hulls are frigate class size. They use 10 logistical points.</Description>
+		<Cost>80</Cost>
+		<SensorRange>3</SensorRange>
+		<Size>48</Size>
+		<HP>20</HP>
+		<Model>Medium_2</Model>
+		<Thumbnail>Medium_2</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Medium</Category>
+		<Logistics>10</Logistics>
+		<Tech_Requirement>Medium Scale Building</Tech_Requirement>
+	</Hull>
+	<Hull Name="MediumHull3">
+		<DisplayName>Medium</DisplayName>
+		<Description>Medium hulls are frigate class size. They use 10 logistical points.</Description>
+		<Cost>80</Cost>
+		<SensorRange>3</SensorRange>
+		<Size>48</Size>
+		<HP>20</HP>
+		<Model>Medium_3</Model>
+		<Speed>1</Speed>
+		<Category>Medium</Category>
+		<Logistics>10</Logistics>
+		<Tech_Requirement>Medium Scale Building</Tech_Requirement>
+	</Hull>
+	<Hull Name="MediumHull6">
+		<DisplayName>Medium</DisplayName>
+		<Description>Medium hulls are frigate class size. They use 10 logistical points. This one lets you design your own.</Description>
+		<Cost>80</Cost>
+		<SensorRange>3</SensorRange>
+		<Size>48</Size>
+		<HP>20</HP>
+		<Model>Medium_6</Model>
+		<Thumbnail>MediumBrick_6</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Medium</Category>
+		<Logistics>10</Logistics>
+		<Tech_Requirement>Medium Scale Building</Tech_Requirement>
+	</Hull>
+	<Hull Name="LargeHull0">
+		<DisplayName>Large</DisplayName>
+		<Description>Large hulls are for capital ships. They use 14 logistical points.</Description>
+		<Cost>160</Cost>
+		<SensorRange>3</SensorRange>
+		<Size>80</Size>
+		<HP>42</HP>
+		<Model>Large_0</Model>
+		<Thumbnail>Large_0</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Large</Category>
+		<Logistics>14</Logistics>
+		<Tech_Requirement>Large Scale Building</Tech_Requirement>
+	</Hull>
+	<Hull Name="LargeHull1">
+		<DisplayName>Large</DisplayName>
+		<Description>Large hulls are for capital ships. They use 14 logistical points.</Description>
+		<Cost>160</Cost>
+		<SensorRange>3</SensorRange>
+		<Size>80</Size>
+		<HP>42</HP>
+		<Model>Large_1</Model>
+		<Thumbnail>Large_1</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Large</Category>
+		<Logistics>14</Logistics>
+		<Tech_Requirement>Large Scale Building</Tech_Requirement>
+	</Hull>
+	<Hull Name="LargeHull2">
+		<DisplayName>Large</DisplayName>
+		<Description>Large hulls are for capital ships. They use 14 logistical points.</Description>
+		<Cost>160</Cost>
+		<SensorRange>3</SensorRange>
+		<Size>80</Size>
+		<HP>42</HP>
+		<Model>Large_2</Model>
+		<Thumbnail>Large_2</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Large</Category>
+		<Logistics>14</Logistics>
+		<Tech_Requirement>Large Scale Building</Tech_Requirement>
+	</Hull>
+	<Hull Name="LargeHull3">
+		<DisplayName>Large</DisplayName>
+		<Description>Large hulls are for capital ships. They use 14 logistical points.</Description>
+		<Cost>160</Cost>
+		<SensorRange>3</SensorRange>
+		<Size>80</Size>
+		<HP>42</HP>
+		<Model>Large_3</Model>
+		<Speed>1</Speed>
+		<Category>Large</Category>
+		<Logistics>14</Logistics>
+		<Tech_Requirement>Large Scale Building</Tech_Requirement>
+	</Hull>
+	<Hull Name="LargeHull6">
+		<DisplayName>Large</DisplayName>
+		<Description>Design your own large hull. Large hulls are for capital ships. They use 14 logistical points.</Description>
+		<Cost>160</Cost>
+		<SensorRange>3</SensorRange>
+		<Size>80</Size>
+		<HP>42</HP>
+		<Model>Large_6</Model>
+		<Thumbnail>LargeBrick_6</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Large</Category>
+		<Logistics>14</Logistics>
+		<Tech_Requirement>Large Scale Building</Tech_Requirement>
+	</Hull>
+	<Hull Name="LargeHull7">
+		<DisplayName>Large</DisplayName>
+		<Description>Design your own large hull. Large hulls are for capital ships. They use 14 logistical points.</Description>
+		<Cost>160</Cost>
+		<SensorRange>3</SensorRange>
+		<Size>80</Size>
+		<HP>42</HP>
+		<Model>Arnor_Hull_1</Model>
+		<Thumbnail>Arnor_Hull_1</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Large</Category>
+		<Logistics>14</Logistics>
+		<Tech_Requirement>Large Scale Building</Tech_Requirement>
+		<Hidden>1</Hidden>
+	</Hull>
+	<Hull Name="HugeHull0">
+		<DisplayName>Huge</DisplayName>
+		<Description>Huge hulls are for true capital ships. They use 20 logistical points.</Description>
+		<Cost>320</Cost>
+		<SensorRange>4</SensorRange>
+		<Size>150</Size>
+		<HP>90</HP>
+		<Model>Huge_0</Model>
+		<Thumbnail>Huge_0</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Huge</Category>
+		<Logistics>20</Logistics>
+		<Tech_Requirement>Massive Scale Building</Tech_Requirement>
+	</Hull>
+	<Hull Name="HugeHull1">
+		<DisplayName>Huge</DisplayName>
+		<Description>Huge hulls are for true capital ships. They use 20 logistical points.</Description>
+		<Cost>320</Cost>
+		<SensorRange>4</SensorRange>
+		<Size>150</Size>
+		<HP>90</HP>
+		<Model>Huge_1</Model>
+		<Thumbnail>Huge_1</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Huge</Category>
+		<Logistics>20</Logistics>
+		<Tech_Requirement>Massive Scale Building</Tech_Requirement>
+	</Hull>
+	<Hull Name="HugeHull2">
+		<DisplayName>Huge</DisplayName>
+		<Description>Huge hulls are for true capital ships. They use 20 logistical points.</Description>
+		<Cost>320</Cost>
+		<SensorRange>4</SensorRange>
+		<Size>150</Size>
+		<HP>90</HP>
+		<Model>Huge_2</Model>
+		<Thumbnail>Huge_2</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Huge</Category>
+		<Logistics>20</Logistics>
+		<Tech_Requirement>Massive Scale Building</Tech_Requirement>
+	</Hull>
+	<Hull Name="HugeHull3">
+		<DisplayName>Huge</DisplayName>
+		<Description>Huge hulls are for true capital ships. They use 20 logistical points.</Description>
+		<Cost>320</Cost>
+		<SensorRange>4</SensorRange>
+		<Size>150</Size>
+		<HP>90</HP>
+		<Model>Huge_3</Model>
+		<Speed>1</Speed>
+		<Category>Huge</Category>
+		<Logistics>20</Logistics>
+		<Tech_Requirement>Massive Scale Building</Tech_Requirement>
+	</Hull>
+	<Hull Name="HugeHull6">
+		<DisplayName>Huge</DisplayName>
+		<Description>Huge hulls are for true capital ships. They use 20 logistical points. This is a special hull in that you can design the hull yourself using ship extras</Description>
+		<Cost>320</Cost>
+		<SensorRange>4</SensorRange>
+		<Size>150</Size>
+		<HP>90</HP>
+		<Model>Huge_6</Model>
+		<Thumbnail>HugeBrick_6</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Huge</Category>
+		<Logistics>20</Logistics>
+		<Tech_Requirement>Massive Scale Building</Tech_Requirement>
+	</Hull>
+	<Hull Name="CargoHull0">
+		<DisplayName>Cargo Hull</DisplayName>
+		<Description>Cargo hulls have only 1 hit point but are cheap and only use 10 logistical units.</Description>
+		<Cost>55</Cost>
+		<SensorRange>3</SensorRange>
+		<Size>60</Size>
+		<HP>1</HP>
+		<Model>Cargo_0</Model>
+		<Thumbnail>Cargo_0</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Cargo</Category>
+		<Logistics>10</Logistics>
+	</Hull>
+	<Hull Name="CargoHull1">
+		<DisplayName>Cargo Hull</DisplayName>
+		<Description>Cargo hulls have only 1 hit point but are cheap and only use 10 logistical units.</Description>
+		<Cost>55</Cost>
+		<SensorRange>3</SensorRange>
+		<Size>60</Size>
+		<HP>1</HP>
+		<Model>Cargo_1</Model>
+		<Thumbnail>Cargo_1</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Cargo</Category>
+		<Logistics>10</Logistics>
+	</Hull>
+	<Hull Name="CargoHull3">
+		<DisplayName>Cargo Hull</DisplayName>
+		<Description>Cargo hulls have only 1 hit point but are cheap and only use 10 logistical units.</Description>
+		<Cost>55</Cost>
+		<SensorRange>3</SensorRange>
+		<Size>60</Size>
+		<HP>1</HP>
+		<Model>Cargo_3</Model>
+		<Speed>1</Speed>
+		<Category>Cargo</Category>
+		<Logistics>10</Logistics>
+	</Hull>
+	<Hull Name="CargoHull6">
+		<DisplayName>Cargo Hull</DisplayName>
+		<Description>Build your own Cargo hull, with this simple starter block. Uses 10 logistical points.</Description>
+		<Cost>55</Cost>
+		<SensorRange>3</SensorRange>
+		<Size>60</Size>
+		<HP>1</HP>
+		<Model>Cargo_6</Model>
+		<Thumbnail>LargeBrick_6</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Cargo</Category>
+		<Logistics>10</Logistics>
+	</Hull>
+	<Hull Name="StarbaseHull">
+		<DisplayName>Starbase</DisplayName>
+		<Description>Starbase hulls are for starbases. They use 10 logistical points.</Description>
+		<Cost>160</Cost>
+		<SensorRange>3</SensorRange>
+		<Size>0</Size>
+		<Model>None</Model>
+		<Thumbnail>None</Thumbnail>
+		<Speed>1</Speed>
+		<Category>Cargo</Category>
+		<Logistics>10</Logistics>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+    <HP>50</HP>
+	</Hull>
+<!--Structure-->
+	<Structure Name="Structure0">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure0</Model>
+		<Thumbnail>Structure0</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure1">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure1</Model>
+		<Thumbnail>Structure1</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure2">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure2</Model>
+		<Thumbnail>Structure2</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure3">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure3</Model>
+		<Thumbnail>Structure3</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure4">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure4</Model>
+		<Thumbnail>Structure4</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure5">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure5</Model>
+		<Thumbnail>Structure5</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure6">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure6</Model>
+		<Thumbnail>Structure6</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure7">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure7</Model>
+		<Thumbnail>Structure7</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure8">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure8</Model>
+		<Thumbnail>Structure8</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure9">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure9</Model>
+		<Thumbnail>Structure9</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure10">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure10</Model>
+		<Thumbnail>Structure10</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure11">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure11</Model>
+		<Thumbnail>Structure11</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure12">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure12</Model>
+		<Thumbnail>Structure12</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure13">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure13</Model>
+		<Thumbnail>Structure13</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure14">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure14</Model>
+		<Thumbnail>Structure14</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure15">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure15</Model>
+		<Thumbnail>Structure15</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure16">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure16</Model>
+		<Thumbnail>Structure16</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure17">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure17</Model>
+		<Thumbnail>Structure17</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure18">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure18</Model>
+		<Thumbnail>Structure18</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure19">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure19</Model>
+		<Thumbnail>Structure19</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure20">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure20</Model>
+		<Thumbnail>Structure20</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure21">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure21</Model>
+		<Thumbnail>Structure21</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure22">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure22</Model>
+		<Thumbnail>Structure22</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure23">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure23</Model>
+		<Thumbnail>Structure23</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure24">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure24</Model>
+		<Thumbnail>Structure24</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure25">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure25</Model>
+		<Thumbnail>Structure25</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure26">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure26</Model>
+		<Thumbnail>Structure26</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure27">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure27</Model>
+		<Thumbnail>Structure27</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure28">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure28</Model>
+		<Thumbnail>Structure28</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure29">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure29</Model>
+		<Thumbnail>Structure29</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure30">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure30</Model>
+		<Thumbnail>Structure30</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure100">
+		<DisplayName>Attachment Modifier</DisplayName>
+		<Description>Rotate Hardpoint +90 Degrees</Description>
+		<Model>Structure100</Model>
+		<Thumbnail>Structure100</Thumbnail>
+		<Category>Structure</Category>
+		<Hidden>1</Hidden>
+	</Structure>
+	<Structure Name="Structure101">
+		<DisplayName>Attachment Modifier</DisplayName>
+		<Description>Flip Hardpoint Direction</Description>
+		<Model>Structure101</Model>
+		<Thumbnail>Structure101</Thumbnail>
+		<Category>Structure</Category>
+		<Hidden>1</Hidden>
+	</Structure>
+	<Structure Name="Structure102">
+		<DisplayName>Attachment Modifier</DisplayName>
+		<Description>Rotate Hardpoint -90 Degrees</Description>
+		<Model>Structure102</Model>
+		<Thumbnail>Structure102</Thumbnail>
+		<Category>Structure</Category>
+		<Hidden>1</Hidden>
+	</Structure>
+	<Structure Name="Structure103">
+		<DisplayName>Attachment Spire</DisplayName>
+		<Description>Extend the reach of your Hardpoints</Description>
+		<Model>Structure103</Model>
+		<Thumbnail>Structure103</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure104">
+		<DisplayName>Extention Pylon</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure104</Model>
+		<Thumbnail>Structure104</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure105">
+		<DisplayName>Pylon Sphere</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure105</Model>
+		<Thumbnail>Structure105</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure110">
+		<DisplayName>Blue Light</DisplayName>
+		<Description>A basic blue light, for a splash of color</Description>
+		<Model>Structure110</Model>
+		<Thumbnail>Structure110</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure112">
+		<DisplayName>Red Light</DisplayName>
+		<Description>A basic red light, for a splash of color.</Description>
+		<Model>Structure112</Model>
+		<Thumbnail>Structure112</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure113">
+		<DisplayName>White Light</DisplayName>
+		<Description>A basic white light, for a splash of color.</Description>
+		<Model>Structure113</Model>
+		<Thumbnail>Structure113</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure114">
+		<DisplayName>Yellow Light</DisplayName>
+		<Description>A basic yellow light, for a splash of color.</Description>
+		<Model>Structure114</Model>
+		<Thumbnail>Structure114</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure126">
+		<DisplayName>Attachment Modifier</DisplayName>
+		<Description>Hardpoint Spindle Facing Up.</Description>
+		<Model>Structure126</Model>
+		<Thumbnail>Structure126</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure128">
+		<DisplayName>Attachment Modifier</DisplayName>
+		<Description>Hardpoint Spindle Facing Forward.</Description>
+		<Model>Structure128</Model>
+		<Thumbnail>Structure128</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure130">
+		<DisplayName>Attachment Modifier</DisplayName>
+		<Description>Tall Antennae.</Description>
+		<Model>Structure130</Model>
+		<Thumbnail>Structure130</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure131">
+		<DisplayName>Attachment Modifier</DisplayName>
+		<Description>Short Antennae.</Description>
+		<Model>Structure131</Model>
+		<Thumbnail>Structure131</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure200">
+		<DisplayName>Special Structure</DisplayName>
+		<Description>Collector's Edition Structure</Description>
+		<Model>Structure200</Model>
+		<Thumbnail>Structure200</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure201">
+		<DisplayName>Special Structure</DisplayName>
+		<Description>Collector's Edition Structure</Description>
+		<Model>Structure201</Model>
+		<Thumbnail>Structure201</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure202">
+		<DisplayName>Special Structure</DisplayName>
+		<Description>Collector's Edition Structure</Description>
+		<Model>Structure202</Model>
+		<Thumbnail>Structure202</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure203">
+		<DisplayName>Special Structure</DisplayName>
+		<Description>Collector's Edition Structure</Description>
+		<Model>Structure203</Model>
+		<Thumbnail>Structure203</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure204">
+		<DisplayName>Special Structure</DisplayName>
+		<Description>Collector's Edition Structure</Description>
+		<Model>Structure204</Model>
+		<Thumbnail>Structure204</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure205">
+		<DisplayName>Special Structure</DisplayName>
+		<Description>Collector's Edition Structure</Description>
+		<Model>Structure205</Model>
+		<Thumbnail>Structure205</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure206">
+		<DisplayName>Special Structure</DisplayName>
+		<Description>Collector's Edition Structure</Description>
+		<Model>Structure206</Model>
+		<Thumbnail>Structure206</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure207">
+		<DisplayName>Special Structure</DisplayName>
+		<Description>Collector's Edition Structure</Description>
+		<Model>Structure207</Model>
+		<Thumbnail>Structure207</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure208">
+		<DisplayName>Special Structure</DisplayName>
+		<Description>Collector's Edition Structure</Description>
+		<Model>Structure208</Model>
+		<Thumbnail>Structure208</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure209">
+		<DisplayName>Special Structure</DisplayName>
+		<Description>Collector's Edition Structure</Description>
+		<Model>Structure209</Model>
+		<Thumbnail>Structure209</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure210">
+		<DisplayName>Special Structure</DisplayName>
+		<Description>Collector's Edition Structure</Description>
+		<Model>Structure210</Model>
+		<Thumbnail>Structure210</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure211">
+		<DisplayName>Special Structure</DisplayName>
+		<Description>Collector's Edition Structure</Description>
+		<Model>Structure211</Model>
+		<Thumbnail>Structure211</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure212">
+		<DisplayName>Special Structure</DisplayName>
+		<Description>Collector's Edition Structure</Description>
+		<Model>Structure212</Model>
+		<Thumbnail>Structure212</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure213">
+		<DisplayName>Special Structure</DisplayName>
+		<Description>Collector's Edition Structure</Description>
+		<Model>Structure213</Model>
+		<Thumbnail>Structure213</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure214">
+		<DisplayName>Special Structure</DisplayName>
+		<Description>Collector's Edition Structure</Description>
+		<Model>Structure214</Model>
+		<Thumbnail>Structure214</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure215">
+		<DisplayName>Special Structure</DisplayName>
+		<Description>Collector's Edition Structure</Description>
+		<Model>Structure215</Model>
+		<Thumbnail>Structure215</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure216">
+		<DisplayName>Special Structure</DisplayName>
+		<Description>Collector's Edition Structure</Description>
+		<Model>Structure216</Model>
+		<Thumbnail>Structure216</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure217">
+		<DisplayName>Special Structure</DisplayName>
+		<Description>Collector's Edition Structure</Description>
+		<Model>Structure217</Model>
+		<Thumbnail>Structure217</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="SDSBonus1Structure1">
+		<DisplayName>Quad-Antennae</DisplayName>
+		<Description>Ship Jewelry</Description>
+		<Model>SDSBonus1Structure1</Model>
+		<Thumbnail>SDSBonus1Structure1</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="SDSBonus1Structure2">
+		<DisplayName>Hardpoint Claw</DisplayName>
+		<Description>Ship Jewelry</Description>
+		<Model>SDSBonus1Structure2</Model>
+		<Thumbnail>SDSBonus1Structure2</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="SDSBonus1Structure3">
+		<DisplayName>Light Spire</DisplayName>
+		<Description>Ship Jewelry</Description>
+		<Model>SDSBonus1Structure3</Model>
+		<Thumbnail>SDSBonus1Structure3</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="SDSBonus1Structure4">
+		<DisplayName>Extended Wing</DisplayName>
+		<Description>Ship Jewelry</Description>
+		<Model>SDSBonus1Structure4</Model>
+		<Thumbnail>SDSBonus1Structure4</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="SDSBonus1Structure5">
+		<DisplayName>Giant Space Sprocket</DisplayName>
+		<Description>Factory Tested by G.J.</Description>
+		<Model>SDSBonus1Structure5</Model>
+		<Thumbnail>SDSBonus1Structure5</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="SDSBonus1Structure6">
+		<DisplayName>Graviton Pulley</DisplayName>
+		<Description>Ship Jewelry</Description>
+		<Model>SDSBonus1Structure6</Model>
+		<Thumbnail>SDSBonus1Structure6</Thumbnail>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure106">
+		<DisplayName>Structure</DisplayName>
+		<Description>Add your civilization logo to your ship.</Description>
+		<Model>Structure106</Model>
+		<Thumbnail>Structure106</Thumbnail>
+		<Category>Structure</Category>
+		<ApplyCivLogo>1</ApplyCivLogo>
+	</Structure>
+	<Structure Name="Structure107">
+		<DisplayName>Structure</DisplayName>
+		<Description>Add your civilization logo to your ship.</Description>
+		<Model>Structure107</Model>
+		<Thumbnail>Structure107</Thumbnail>
+		<Category>Structure</Category>
+		<ApplyCivLogo>1</ApplyCivLogo>
+	</Structure>
+	<Structure Name="Structure108">
+		<DisplayName>Structure</DisplayName>
+		<Description>Add your civilization logo to your ship.</Description>
+		<Model>Structure108</Model>
+		<Thumbnail>Structure108</Thumbnail>
+		<Category>Structure</Category>
+		<ApplyCivLogo>1</ApplyCivLogo>
+	</Structure>
+	<Structure Name="Structure300">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure300</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure301">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure301</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure302">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure302</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure303">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure303</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure304">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure304</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure305">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure305</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure306">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure306</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure307">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure307</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure308">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure308</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure309">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure309</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure310">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure310</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure311">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure311</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure312">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure312</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure313">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure313</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure314">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure314</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure315">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure315</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure316">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure316</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure317">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure317</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure318">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure318</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure319">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure319</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure320">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure320</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure321">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure321</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure322">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure322</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure323">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure323</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure324">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure324</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure325">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure325</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure326">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure326</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure327">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure27</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure328">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure328</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure329">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure329</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure330">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure330</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure150">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure150</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure151">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure151</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure152">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure152</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure153">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure153</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure154">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure154</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure155">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure155</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure156">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure156</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure157">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure157</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure158">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure158</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure159">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure159</Model>
+		<Category>Structure</Category>
+	</Structure>
+	<Structure Name="Structure160">
+		<DisplayName>Structure</DisplayName>
+		<Description>Customize how your ship looks visually with Extras. They use no space.</Description>
+		<Model>Structure160</Model>
+		<Category>Structure</Category>
+	</Structure>
+</GC2>

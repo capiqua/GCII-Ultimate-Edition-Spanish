@@ -76,6 +76,7 @@
 [AsteroidField] Campo de Asteróides
 [AsteroidFieldMiningBase] Base Minera
 
+[Default] Por defecto
 
 [RankDescription0] Desconocido
 [RankDescription1] Muy débil
@@ -125,6 +126,8 @@
 [HullSize6] De carga
 [HullSize7] Desconocido
 
+[AscensionCrystal] Ascensión Cristal
+
 [TABLEEND]
 
 
@@ -137,7 +140,7 @@
 
 [TABLEALIAS TitleWnd]
 
-[CantPlayModdedMetaverse] No puedes empezar una partida del metaverso con los "mods" activados.\n\nPara jugar una, ve a "Opciones", desmarca "Usar modificaciones ("mods")" y reinicia GalCiv2.
+[CantPlayModdedMetaverse] No puedes empezar una partida del Metaverso con los "mods" activados.\n\nPara jugar una, ve a "Opciones", desmarca "Usar modificaciones ("mods")" y reinicia GalCiv2.
 
 [NewGameBtn] Nueva Partida
 [ContinueGameBtn] Continuar
@@ -149,11 +152,13 @@
 [CreditsBtn] Créditos
 [ScoresBtn] Ranking
 [QuitBtn] Salir
+[TournamentBtn] Torneos
+[ShipDesignerBtn] Diseñar nave
 [Loading] Cargando...
 
 [Title] MENÚ
 
-[MissingSerial] El número del serial no se ha encontrado en el registro- No podrás jugar en el metaverso hasta que no lo registres.
+[MissingSerial] El número del serial no se ha encontrado en el registro- No podrás jugar en el Metaverso hasta que no lo registres.
 
 [TABLEEND]
 
@@ -185,6 +190,8 @@ ScreenTitle] Configurar la Galaxia
 [TechnologyRate] Progreso Tecnológico
 [NumAsteroids] Presencia de Asteróides
 [NumMinorRaces] Razas Menores
+[NumExtremePlanets] Número de planetas extremos
+[EventChance] Probabilidad de eventos aleatorios
 [DetailsBtn] Detalles
 
 [MinorRaceSingular] 1 Raza menor
@@ -212,12 +219,14 @@ ScreenTitle] Configurar la Galaxia
 [MegaEvents] Mega eventos
 [SuperAbilities] Superhabilidades
 [AllowSurrenders] Permitir rendiciones
+[AllowTechStealing] Permitir robo de tecnologías
 
 [VictoryConditionDescriptionHeader] Formas de ganar:\n
-[ResearchVictoryDescription] + Investigar la tecnología definitiva y trascender la mortalidad.\n
+[ResearchVictoryDescription] + Investigar la tecnología definitiva.\n
 [CulturalVictoryDescription] + Usar la influencia y comerciar para lograr la supremacía cultural.\n
 [AllianceVictoryDescription] + Forjar alianzas con las demás civilizaciones principales.\n
 [MilitaryVictoryDescription] + Destruir a todo los que se te opongan.
+[AscensionVictoryDescription] + Ascender a un nivel superior de existencia.\n
 
 [FrequencyText0] Singular
 [FrequencyText1] Infrecuente
@@ -242,6 +251,18 @@ ScreenTitle] Configurar la Galaxia
 
 [Custom] Personalizado
 [Random] Aleatorio
+
+[ExtremeText0] Raro
+[ExtremeText1] Poco frecuente
+[ExtremeText2] Ocasional
+[ExtremeText3] Frecuente
+
+[EventText0] Ninguno
+[EventText1] Raro
+[EventText2] Ocasional
+[EventText3] Frecuente
+
+[TechBrokering] Desactivar Tecnologías correlativas
 
 [TABLEEND]
 
@@ -380,6 +401,10 @@ ScreenTitle] Configurar la Galaxia
 
 [TABLEALIAS MainWnd]
 
+[ToggleModeDateTip] Fecha galáctica
+[ToggleModeTurnTip] Turno de juego
+[Turn] Turno
+
 [TurnBtn] TURNO
 [FindBtn] SIG.
 [SkipBtn] OMITIR
@@ -422,6 +447,9 @@ ScreenTitle] Configurar la Galaxia
 
 [SectorTitle] Sector:
 
+[NoAscensionCrystals] Sin cristales de ascensión
+[AscensionVictoryTurns] Victoria Ascension en %lu semanas
+
 [TABLEEND]
 
 
@@ -435,6 +463,15 @@ ScreenTitle] Configurar la Galaxia
 [Clear] Borrar
 [Remove] Eliminar
 [Move] Mov.
+[Animate] Animar
+[Favorite] Favorito
+[UnFavorite] No favorito
+
+[RotateOn] Rotar sobre:
+[XAxis] X
+[YAxis] Y
+[ZAxis] Z Eje
+[Speed] Velocidad:
 
 [Yaw] Rotar componente: guiñada (clic-derecho para girar)
 [Pitch] Rotar componente: cabeceo (clic-derecho para girar)
@@ -476,6 +513,8 @@ ScreenTitle] Configurar la Galaxia
 [InvalidNameHeader] Nombre no válido
 [InvalidName] El nombre para el diseño de la nave no es válido. Los caracteres no válidos son < > : " / \ % ? | , y .
 
+[All] Todos
+
 [ShipDesignFilter0] Todos
 [ShipDesignFilter1] Básicos
 [ShipDesignFilter2] Usuario
@@ -484,10 +523,13 @@ ScreenTitle] Configurar la Galaxia
 [StructureStyleYou] Mi Estilo
 [StructureStyleGeneric] Genérico
 [StructureStyleOther] Otro
+[StructureFavorites] Favoritos
 
 [Mark] Mk.
 
 [ResetComponent] Quitar componentes
+[Play] Reproducir animaciones
+[Pause] Pausa animaciones
 [ShowAll] Mostrar todos los componentes
 [ShowComponents] Mostrar sólo componentes funcionales
 [ShowExtras] Mostrar sólo extras
@@ -534,6 +576,14 @@ ScreenTitle] Configurar la Galaxia
 [Capacity] Capac.
 [HitPoints] P. Impacto
 [HP] Hit Points
+[FleetSpeed] Velocidad de flota
+[AtlasAttack] Bonif. de Ataque
+[AtlasAttackInZOC] Bonif. de Ataque (en influencia propia)
+[AtlasFleetAttackFirstRound] Bonif. de Ataque de flota (primera ronda si es atacante)
+[AtlasDefense] Bonif. de Defensa
+[AtlasDefenseInZOC] Bonif. de Defensa (en influencia propia)
+[AtlasFleetAttack] Bonif. de Ataque de Flota
+[AtlasFleetDefense] Bonif. de Defensa de Flota
 
 [TABLEEND]
 
@@ -620,8 +670,9 @@ ScreenTitle] Configurar la Galaxia
 [BuildMenuMoraleBonusLabel] Bonif. moral:
 [BuildMenuEconomicBonusLabel] Bonif. economía:
 [BuildMenuPrestigeBonusLabel] Bonif. influencia:
-[BuildMenuPlanetaryDefenseBonusLabel] Bonif. defensa:
+[BuildMenuPlanetaryDefenseBonusLabel] Bonif. defensa planetaria:
 [BuildMenuStarshipQualityBonusLabel] Bonif. categoría naves:
+[BuildMenuStarshipHPBonusLabel] Bonif. PI nave:
 [BuildMenuResearchBonusLabel] Bonif. investigación:
 [BuildMenuResistBonusLabel]	Bonif. resistencia:
 [BuildMenuShipSpeedBonusLabel] Bonif. velocidad naves:
@@ -642,6 +693,7 @@ ScreenTitle] Configurar la Galaxia
 [ImpTypeGalacticAchievement] Logro galáctico
 [ImpTypeSuperProject] Superproyecto
 [ImpTypeTradeGood] Bien comercial
+[ImpTypeOnePerPlanet] Uno por planeta
 
 [Ability0] Bonif. economía:
 [Ability1] Bonif. armas:
@@ -660,7 +712,7 @@ ScreenTitle] Configurar la Galaxia
 [Ability14] Aumento de sensores:
 [Ability15] Bonif. espionaje:
 [Ability16] Bonif. veteranía:
-[Ability17] Bonif. tipos de interés:
+[Ability17] Bonif. compra actual:
 [Ability18] Bonif. categoría planetas:
 [Ability19] Bonif. rutas comerciales:
 [Ability20] Bonif. delincuencia:
@@ -679,6 +731,8 @@ ScreenTitle] Configurar la Galaxia
 [Ability33] Colonizar mundos tóxicos
 [Ability34] Colonizar mundos desérticos
 [Ability35] Colonizar mundos radiactivos
+[Ability36] Aprovechamiento de guerra
+[Ability37] Rutas comerciales persistentes
 
 [TerrainTypeWater] Océano
 [TerrainTypeMountain] Montañas
@@ -786,6 +840,7 @@ ScreenTitle] Configurar la Galaxia
 [Planet_Details_Planet_Quality_Bonus_Title] Categoría del planeta:
 [Planet_Details_Population_Growth_Bonus_Title] Crecimiento de población:
 [Planet_Details_Starship_Bonus_Title] Naves estelares:
+[Planet_Details_Starship_HP_Bonus_Title] Naves estelares PI:
 
 [Planet_Details_Options_Title] Opciones del planeta
 [Planet_Details_Gov_Button] Gobernador
@@ -870,6 +925,8 @@ ScreenTitle] Configurar la Galaxia
 [AttackingRace] Raza atacante
 [DefendingRace] Raza defensora
 
+[Treasury] Tesorería: %ld B€$
+
 [TABLEEND]
 
 [TABLEALIAS InvasionWnd]
@@ -884,7 +941,9 @@ ScreenTitle] Configurar la Galaxia
 [Offense] Veteranía:
 [Defense] Defensa:
 [Casualties] Bajas:
-[Troops] Tropas:
+[AttackingTroops] Tropas de ataque:
+[DefendingTroops] Defendiendo Tropas:
+[Bonus] Bonif:
 
 [InvasionTitle] La nave "%SHIPNAME%" está invadiendo el planeta %PLANETNAME%.
 [vs] contra 
@@ -898,6 +957,8 @@ ScreenTitle] Configurar la Galaxia
 [PlanetQualOverview] La categoría del planeta invadido se ha reducido en un %lu por ciento.
 [ImprovementsOverview] En el planeta han resultado destruidas %lu mejora(s) planetaria(s), exactamente.
 [InfluenceOverview] La influencia generada por este mundo ha decrecido en un %lu por ciento.
+
+[Troops] Tropas
 
 [TABLEEND]
 
@@ -1045,6 +1106,8 @@ ScreenTitle] Configurar la Galaxia
 [Context_Rename_Button] Renombrar
 [Context_Name_Title] Click para renombrar
 
+[AscensionCrystalDescription] Construye bases estelares en estos cristales para absorber suficiente, de su aura para ascender a un plano superior de existencia.
+
 [TABLEEND]
 
 [TABLEALIAS OptionsWnd]
@@ -1079,9 +1142,11 @@ ScreenTitle] Configurar la Galaxia
 [AmbientLight] Luz ambiental
 [SpecularIntensity] Intensidad especular
 [SnapBack] Deshacer la rotación
+[ZoomToCursor] Zoom al cursor del mouse
 [ShowTradeRouteLines] Mostrar líneas de rutas comerciales
 [ShowAutoPilotLines] Mostrar líneas de piloto automático
 [ShowAsteroidFieldBonusLines] Mostrar líneas de bonif. de campos de asteroides
+[AutoMoveFleetAwayFromTerrorStar] Mover a las flotas de la estrella del terror lejos del ataque de la estrella si es posible.
 
 [Sound] Sound Options
 
@@ -1114,6 +1179,8 @@ ScreenTitle] Configurar la Galaxia
 [EdgeScrollSpeed] Velocidad desplaz. en bordes
 [ZoomSensitivity] Velocidad de Zoom
 [SaveShipDesignsToDisk] Guardar diseños de naves en el disco duro
+[DesignShipsForPlayer] Naves de auto diseñadas para el jugador
+[EnableRealClock] Mostrar reloj en tiempo real
 
 [SkipInternetAvailableTest] Omitir comprobación de conexión a Internet
 
@@ -1132,7 +1199,13 @@ ScreenTitle] Configurar la Galaxia
 [TurnsBeforeAutoSaving] Turnos para autoguardado
 [PreviousAutoSave] Guardar anterior autoguardado
 
-[AutoBuild] Construir la misma nave hasta nueva orden
+[GovernorWndPopup] Anuncio de la pantalla del gobernador al colonizar
+[AutoBuild] Constuir la nave hasta nueva orden
+[AutoLaunch] Auto lanzamiento de naves desde la órbita
+[RallyPointsUseAutoLaunch] Puntos de llegada de la colonia en lanzamiento automático
+[MinDefendersInOrbit] Auto lanzamiento deja las defensas al minimo
+[AutoLaunchTransports] Auto lanzamiento de transportes
+
 [GNN] Mostrar noticias de la GNN
 [ShowQuarterlyReport] Mostrar informes trimestrales
 [ViewAttacks] Mover cámara para ver ataques
@@ -1200,6 +1273,7 @@ ScreenTitle] Configurar la Galaxia
 [AllowMixedVPMode] Permitir modo de procesamiento de vértice mixto
 [GfxUseEnhancedRendering] Usar renderizado mejorado de naves
 [PlanetSurfaceVariety] Variedad superf. planetas (%)
+EnableAnimatedComponents] Habilitar componentes animados
 
 [ShipDesigner] Diseñador de nave
 [RotateParts] Rotar partes
@@ -1258,6 +1332,8 @@ ScreenTitle] Configurar la Galaxia
 [Cancel] Cancelar
 [Done] Hecho
 
+[Asterisk] * Indica una tecnología que es exclusiva de la civilización.
+
 [TreatyPopupHeader] Elige una raza.
 [AmountPopupHeader] Selecciona una cantidad.
 
@@ -1267,6 +1343,14 @@ ScreenTitle] Configurar la Galaxia
 [PlanetsTitle] Planetas
 [TechsTitle] Tecnologías
 [ShipsTitle] Naves estelares
+
+[MoneyInfo] Cuando solicitas dinero en un trato comercial, aparecerá el cuadro de diálogo con el valor máximo que te dará la otra civilización. Si teofrece dinero, aparecerá el cuadro de diálogo con la cantidad mínima que la otra civilización aceptará a cambio de los artículos actuales en la mesa a menos que aún no haya pedido nada, y luego se establecerá de forma predeterminada en 100ld B€$. Ni tú ni la otra civilización pueden ofrecer dinero que no tienen.\n\nLos puntos de influencia son esencialmente votos en los Planetas Unidos, acumulados cada mes a partir de la influencia generada por sus planetas y bases estelares.  
+[TradeGoodsInfo] Si intercambias por un bien comercial, la otra civilización aún conserva el derecho de comerciar el bien comercial y aún conserva los bonos; esencialmente está otorgando licencias del bien comercial de la otra civilización.
+[TreatiesInfo] Los tratados duran hasta que se rompen. Los posibles tratados incluyen: Alianza, Tratado Económico y Tratado de Investigación.\n\nUna alianza solo es posible si usted y la otra civilización tienen la tecnología de la Alianza y tienen relaciones cercanas. Crear rutas comerciales con la otra civilización es una excelente manera de mejorar las relaciones. Tus aliados te ayudarán si otra raza te declara la guerra y esperan que hagas lo mismo a cambio. También te ofrecen mejores ofertas al comerciar.\n\nUn tratado de investigación le permite compartir parte de su producción de investigación con otra civilización, sin costo para su propia producción. El tratado de economía funciona de la misma manera, ya que la otra civilización recibe ld B€$ cada mes que no se resta de sus arcas. Es menos probable que la otra civilización te ataque si tienes tratados con ellos, y se producirán malos sentimientos si declaras la guerra y rompes los tratados.\n\nTambién tienes la opción de declarar la guerra a una civilización de esta categoría, o pide a la otra civilización que vaya a la guerra con una tercera civilización, haz las paces con la otra civilización si estás en guerra con ellos. Estas son ofertas únicas y no tienen efectos duraderos. 
+[PlanetsInfo] La otra civilización tendrá más probabilidades de intercambiarte planetas que están al borde de su imperio.
+[TechsInfo] Clic derecho sobre las tecnologías para obtener más información. Un * al lado del nombre de la tecnología significa que es una tecnología específica de la raza.
+[ShipsInfo] Clic derecho sobre el nombre de la nave para obtener más información sobre la nave. Algunas naves no se pueden comerciar, como los constructores, y las flotas de naves no se pueden comerciar.
+[Info] Info
 
 [ReportTitle] Ver informe:
 [NoReport] Videoconferencia
@@ -1388,6 +1472,7 @@ DoneBtn] Hecho
 [PlanetTax] Impuesto de los Planetas Unidos por colonia:
 [StarbaseTax] Impuesto de los Planetas Unidos por base estelar:
 [EvilTax] Impuesto de los Planetas Unidos por maldad:
+[WarProfitIncome] Ganancias de guerra:
 
 [TABLEEND]
 
@@ -1456,6 +1541,7 @@ DoneBtn] Hecho
 [NumUndefendedColonies] Colonias indefensas en total:
 [NumTradeShips] Naves comerciales en total:
 [Starbases] Bonif. prod./inves.:
+[WarProfitIncome] Ganancias de guerra:
 
 [Leader] Líder:
 [Homeworld] Planeta natal:
@@ -1537,6 +1623,7 @@ DoneBtn] Hecho
 [ContractBtn] Menos <<
 [ResearchBtn] Investigar
 [Never] Nunca
+[DetailsBtn] Detalles
 
 [ScreenTitle] Investigación
 [ScreenHeader] Selecciona una tecnología a investigar
@@ -1565,6 +1652,8 @@ DoneBtn] Hecho
 [ResearchSpending] Gasto en invest.:
 [ResearchTreaties] Tratos de invest.:
 [ResearchTotal] Total:
+
+[CreativeAbilityAtWork] ¡Gracias a la capacidad creativa de tu raza, has completado la investigación de tu tecnología actual antes de lo previsto!
 
 [TABLEEND]
 
@@ -1668,6 +1757,7 @@ DoneBtn] Hecho
 [DeleteBtn] Borrar
 [ObsoleteBtn] Obsoleto
 [UseBtn] Usar
+[FocusBtn] Enfoque
 
 [Filter0] Todos
 [Filter1] Básicos
@@ -1676,6 +1766,11 @@ DoneBtn] Hecho
 
 [ShipsTab] Naves
 [TemplatesTab] Plantillas
+
+[NewDesignAvailable] Nuevo diseño disponible
+
+[TooltipToMainMenu] Al menú principal
+[TooltipToMainMap] Al mapa principal
 
 [TABLEEND]
 
@@ -1762,6 +1857,9 @@ DoneBtn] Hecho
 [Details] Más detalles
 [Cost] Coste: %d
 [Uncovers] Futuras Investigaciones:
+[TechTreeSelection] Árbol tecnológico:
+[AvailableTitle] Disponible:
+[SelectedTitle] Seleccionado:
 
 [TABLEEND]
 
@@ -1821,7 +1919,21 @@ DoneBtn] Hecho
 [Style11] Krynn
 
 
-[TALBEEND]
+[TABLEEND]
+
+[TABLEALIAS SelectStyleWnd]
+
+[HullBtn] Casco
+[TrimBtn] Cabina
+[EngineBtn] Motor
+[OKBtn] Desiño
+[CancelBtn] Cancelar
+
+[Title] Seleccionar estilo de nave
+[StyleTitle] Estilos de nave
+[ShipColorTitle] Colores de nave
+
+[TABLEEND]
 
 [TABLEALIAS ColorPickerWnd]
 
@@ -1870,14 +1982,14 @@ DoneBtn] Hecho
 [RepublicDescriptionEvil] Se conceden ciertos poderes a los líderes de los planetas, lo cual incrementa la productividad. También cabe una ligera posibilidad de rebelión planetaria, que podemos "despachar" si fuera necesario.
 
 [Democracy] Democracia
-[DemocracyDescription] Cada planeta se encarga de resolver la mayoría de sus asuntos. Ser capaces de gobernarse a sí mismos eleva el nivel de producción, pero será más difícil tener al pueblo contento.
-[DemocracyDescriptionGood] Cada planeta se encarga de resolver la mayoría de sus asuntos. Ser capaces de gobernarse a sí mismos eleva el nivel de producción, pero será más difícil tener al pueblo contento.
-[DemocracyDescriptionEvil] Cada planeta se encarga de resolver la mayoría de sus asuntos. Ser capaces de gobernarse a sí mismos eleva el nivel de producción, pero será más difícil tener al pueblo contento. Si saben lo que les conviene, irán por el buen camino...
+[DemocracyDescription] La mayoría de los problemas son tratados por los líderes planetarios. Ser capaces de gobernarse a sí mismos eleva el nivel de producción, pero será más difícil tener al pueblo contento.
+[DemocracyDescriptionGood] La mayoría de los problemas son tratados por los líderes planetarios. Ser capaces de gobernarse a sí mismos eleva el nivel de producción, pero será más difícil tener al pueblo contento.
+[DemocracyDescriptionEvil] La mayoría de los problemas son tratados por los líderes planetarios. Ser capaces de gobernarse a sí mismos eleva el nivel de producción, pero será más difícil tener al pueblo contento. Si saben lo que les conviene, irán por el buen camino...
 
 [Federation] Federación
-[FederationDescription] Se concede a los sistemas estelares libertad de gobierno. La productividad se eleva mucho, pero el Índice aprobación será clave para evitar que los planetas se separen de tu imperio.
-[FederationDesriptionGood] Se concede a los sistemas estelares libertad de gobierno. La productividad se eleva mucho, pero el Índice aprobación será clave para evitar que los planetas se separen de tu imperio.
-[FederationDesriptionEvil] Se concede a los sistemas estelares libertad de gobierno. La productividad se eleva mucho, pero el Índice aprobación será clave para evitar que los planetas se separen de tu imperio.
+[FederationDescription] Se concede a los planetas libertad de gobierno. La productividad se eleva mucho, pero el Índice aprobación será clave para evitar que los planetas se separen de tu imperio.
+[FederationDesriptionGood] Se concede a los planetas libertad de gobierno. La productividad se eleva mucho, pero el Índice aprobación será clave para evitar que los planetas se separen de tu imperio.
+[FederationDesriptionEvil] Se concede a los planetas libertad de gobierno. La productividad se eleva mucho, pero el Índice aprobación será clave para evitar que los planetas se separen de tu imperio.
 
 [GovBonusTitle] Bonificaciones del gobierno
 [SenateBonusTitle] Bonif./penal. del senado:
@@ -2164,6 +2276,7 @@ SortByHabitability] Habilabilidad
 [Factor_Help] Aprecian nuestra ayuda en el pasado
 [Factor_Peaceful] Amantes de la paz
 [Factor_Warmonger] Amantes de la guerra
+[Factor_Ascension] ¡Estás intentando ascender!
 
 [NoEvents] No hay sucesos de los que informar en este momento.
 [NoEspionage] Poco más se sabe de esta raza. Tendremos que dedicar más fondos a espionaje si queremos enterarnos de algo mínimamente importante.
@@ -2219,6 +2332,8 @@ SortByHabitability] Habilabilidad
 [DoneBtn] Hecho
 [AllBtn] Todo
 
+[Ascension] Ascensión
+
 [TABLEEND]
 
 [TABLEALIAS ElectionWnd]
@@ -2241,6 +2356,8 @@ SortByHabitability] Habilabilidad
 [PreWarVoteParagraph] Se ha convocado esta sesión de votación de emergencia para decidir si debemos entrar en guerra o no contra el %s.
 [GoToWar] Los miembros del senado han votado declararles la guerra al %s.
 [NoWar] Los miembros del senado han votado en favor del %s. No se declarará la guerra.
+[UseTerrorStar] Los miembros del Senado han votado para usar nuestra Estrella del Terror para destruir %s como una declaración de guerra.
+[NoUseTerrorStar] Los miembros del Senado han votado no usar nuestra Estrella del Terror para destruir %s como una declaración de guerra.
 
 [ChangeGovernmentVoteTitle] Votación para cambiar el gobierno
 [GovVoteParagraph] El senado se ha reunido para decidir si debemos pasar o no de la %s a la %s como forma de gobierno.
@@ -2269,12 +2386,16 @@ SortByHabitability] Habilabilidad
 [CultureStarbase] Base estelar de influencia
 [ResourceStarbase] Base estelar de recursos
 [MiningStarbase] Base estelar minera
+[TerrorStar] Estrella del terror
+[AscensionStarbase] Base estelar de ascensión
 
 [MilitaryStarbaseDescription] Te permite construir módulos que ayudan a las naves en combate.
 [EconomyStarbaseDescription] Te permite construir módulos que ayudan a incrementar los ingresos.
 [CultureStarbaseDescription] Te permite construir módulos que ayudan a extender tu influencia.
 [ResourceStarbaseDescription] Te permite recolectar un recurso espacial.
 [MiningStarbaseDescription] Te permite explotar campos de asteroides.
+[TerrorStarDescription] Permite destruir un sistema estelar.
+[AscensionStarbaseDescription] permite construir una base estelar de ascensión para absorber el aura de los cristales de ascensión.
 
 [AvailableConstructors] Constructores disp.:
 [MaxModules] Módulos máx.:
@@ -2326,7 +2447,7 @@ SortByHabitability] Habilabilidad
 [DefTitle] Def.:
 [DamageTitle] Daño:
 [Ships] Naves
-[StatBreakdown] %s\nTotal: %lu\nBase: %lu\nAyuda de bases estelares: %lu
+[StatBreakdown] %s\nTotal: %lu\nBase: %lu\nAyuda de bases estelares: %lu\nBonif. Componentes: %lu
 
 [Speed0]1x
 [Speed1]2x
@@ -2355,6 +2476,9 @@ SortByHabitability] Habilabilidad
 [ShieldTitle] Escudo
 [PointTitle] Antimisil
 [ArmorTitle] Blindaje
+
+[EndFirstRoundOneFleetLostBonus] Primera ronda de bonificaciones para %s ya no están vigentes
+[EndFirstRoundTwoFleetsLostBonus] Primera ronda de bonificaciones para ambas flotas ya no estan vigentes
 
 [TABLEEND]
 
@@ -2561,6 +2685,8 @@ SortByHabitability] Habilabilidad
 [she] ella
 [Sir] sir
 [Maam] ma'am
+[It] esto
+[Its] estos
 
 [ManufacturingUnit] fa
 
@@ -2587,6 +2713,7 @@ SortByHabitability] Habilabilidad
 [AttackTitle] Ataque:
 [SpeedTitle] Velocidad:
 [InstalledModulesTitle] Módulos instalados:
+[NoModules] No hay módulos disponibles
 [DialogTitle] Detalles de la base estelar
 
 [SpeedUnit] vel
@@ -2609,10 +2736,32 @@ SortByHabitability] Habilabilidad
 [CultureStarbase] Base estelar de influencia
 [MiningStarbase] Base estelar minera
 [ResourceStarbase] Base estelar de recursos
+[TerrorStar] Estrella del Terror
 
-[BuildMgr] Manejo de la Est. del Terror
-[BuildPriority] Auto-const. por prioridad.
-[ModulesListbox] Prioridad de const. Módulos
+[BuildMgr] Modulo del Manejo de la Est. del Terror
+[BuildPriority] Permite Auto-const. por prioridad.
+[ModulesListbox] Prioridad de Módulos
+
+[TABLEEND]
+
+[TABLEALIAS StarbaseAutoEntryWnd]
+
+[RepairAssist] Asistencia de reparación
+[AttackAssist] Ayuda de ataque
+[DefenseAssist] Ayuda de defensa
+[SpeedAssist] Asistente de velocidad
+[SlowEnemies] Enemigos lentos
+[ProductionAssist] Asistente de producción
+[Trade]	Comercio
+[Culture] Cultura
+[Mining] Minería
+[Range] Rango
+[TerrorStar] Módulo Estrella del Terror
+[DockShips] Astillero
+[StarbaseAttack] Ataque base estelar
+[StarbaseDefense] Defensa base estelar
+[StarbaseSensors] Sensores
+[RepairSB] Reparación de la base estelar
 
 [TABLEEND]
 
@@ -2673,11 +2822,15 @@ SortByHabitability] Habilabilidad
 [StoryAlliancesVictory] Nuestra civilización ha conseguido una victoria diplomática verdaderamente notable. Gracias a una serie de tratados, toda la galaxia está unida ahora de forma pacífica. Quién sabe qué grandes logros puede conseguir la galaxia unida. ¡Felicidades por una gran victoria para tu pueblo y para el resto de la galaxia!
 [StoryCulturalVictory] Hemos conquistado la galaxia. Los del %s no hemos ganado con armas, sino con ideas. Durante siglos, nuestros alimentos, tejidos y filosofía han ganado la batalla de las ideas. Aunque formalmente no controlamos la galaxia en ningún sentido legal o militar, nadie podría concebir un día en el que la galaxia pensara siquiera en no doblegarse a nuestra voluntad. La galaxia se fija en nosotros para progresar hacia el futuro. Sin nuestras diversiones y nuestro último grito en, nuestros restaurantes y nuestros centros de vacaciones, la vida les parecería vacía y sin sentido. Hemos logrado una victoria cultural. ¡Enhorabuena, %s!
 [StoryCulturalDefeat] Hemos sufrido una derrota cultural.\n\nLa juventud empezó a vestir ropas al estilo del %s. Los padres y los políticos pusieron el grito en el cielo. Con los años, los espectáculos a los que íbamos, los deportes a los que jugábamos, la comida que comíamos y las cosas que bebíamos parecían venir del %s.\n\nFue algo lento, sutil. ¿Quién podría decir el día en el que nuestra cultura dejó de ser nuestra? Nuestras filosofía, concepción de la vida y forma de vivir fueron totalmente influidas desde un lugar muy lejano. Nuestro pueblo, como el resto de la galaxia, no puede imaginar un mundo en el que el %s no forme parte de la vida diaria.\n\nAunque no estamos unidos a ellos oficialmente, de hecho, somos sus vasallos.\n\nEste mensaje es una gentileza de Slurm Cola. La principal bebida del %s y, por lo tanto, de toda la galaxia.
-[StoryTechWin] Los científicos del %s, sucesores de aquellos pioneros que llevaron el hiperimpulso a la galaxia, nos traen ahora el logro tecnológico definitivo. Han llevado la evolución de nuestra raza más allá de la barrera que separa al hombre de los dioses.
+[StoryTechWin] Los científicos del %s, sucesores de aquellos pioneros que nos han traído el máximo logro tecnológico, han llevado la evolución de nuestra raza más allá de la barrera que separa al hombre de los dioses.
 [StoryTechLoss] Los científicos del %s han hecho que el invento del hiperimpulso parezca tan sencillo como el mecanismo de un botijo. Han utilizado su conocimiento tecnológico superior para controlar la evolución de su pueblo, ahora convertidos en dioses. Todos se estremecerán ante su grandeza. 
 [DemoOver] ¿Sabes eso que dicen de que el tiempo y el espacio son infinitos? Pues en esta demostración, no. Hasta aquí has conseguido sobrevivir. Tal vez, si tuvieras la versión completa, habrías llevado a nuestra raza a conquistar toda la galaxia. Bueno, ¿te vas a pasar el resto de tu vida preguntándote lo que pudo haber sido o vas a conseguir la versión completa y averiguarlo? ¡Pídelo ya por Internet o en tu tienda habitual!
 [StoryRetire] Cansado de las contiendas e intrigas que inevitablemente conlleva el gobierno de un gran imperio, el emperador %s ha dejado las riendas del poder. El futuro del %s es ahora más incierto que nunca, pues carecen de liderazgo y las demás civilizaciones miran con codicia sus posesiones. Pero eso ya es otra historia...
 [StoryLost] El pueblo %s... una civilización sabia y duradera. Gracias al liderazgo del emperador %s, fueron una raza que aguantó hasta el final. Llegaron hasta donde otros no podrían, hicieron frente al poderoso %s hasta perder la última batalla y el último hombre. La historia del %s es una historia de amor y odio, de la eterna lucha por el éxito. Una historia que perdurará a lo largo de los años; pero, por desgracia, una historia que acabó tristemente.\n\n¿Y si la próxima vez probamos algo un poco menos difícil?
+[StoryTerrorStarSuicide] Salarios de los trabajadores...                                       4500ld B€$\nMaterias primas...                125000 ld B€$\nSytem de propulsión y combustible....             5500 ld B€$\nRayo Mortal...               10000 ld B€$\nHaciendo explotar su propio mundo con una estrella del terror...   no tiene precio.
+[StoryTerrorStarVictoriousAttack] Todos recordarán siempre dónde estaban y qué estaban haciendo en el momento en que los mayores enemigos del %s fueron destruidos en un solo ataque. En el futuro, este acto servirá como un ejemplo de lo que les sucede a quienes cruzan %s, pero, al menos por ahora, es un momento de celebración para %s. ¿Quién sabe qué prosperidad les depara el futuro? Lo que sea que se avecina, uno puede estar seguro de que la Estrella del Terror estará allí para asegurarse de que siga el camino de %s.
+[StoryAscensionWin] Al exponerse al aura de los misteriosos 'Cristales de la Ascensión' que dejó el Arnor, nuestros eruditos han encontrado el secreto para arrojar la mortalidad como una serpiente arroja su piel. Han guiado a las personas del %s para convertirse en criaturas de energía pura y ascender a un plano superior de existencia.
+[StoryAscensionLoss] Nuestros espías han hecho un descubrimiento notable. La gente de los %s parece haber desaparecido, junto con los misteriosos 'Cristales de Ascensión' que estaban estudiando. Uno de nuestros operativos descubrió un cuaderno de notas de uno de sus eruditos que sugiere que las personas de los %s pudieron ascender a un plano superior de existencia, convirtiéndose en criaturas de energía pura. Parece que el esfuerzo ha agotado completamente los 'Cristales de la Ascensión', ya que no hay rastro de ellos. Tememos que ahora que se han vuelto tan poderosos, nos destruyan, porque... ¿cómo luchas contra un enemigo que no puedes ver ni tocar?
 
 [TABLEEND]
 
@@ -2739,6 +2892,8 @@ SortByHabitability] Habilabilidad
 [AutoUpgradeImprovements] Modernización automática de mejoras en cuanto estén disponibles
 [AutoTerraform] Terraformación automática en cuanto se disponga de la tecnología
 
+[NoPlanetaryGovernor] Ninguno
+
 [TABLEEND]
 
 
@@ -2748,6 +2903,8 @@ SortByHabitability] Habilabilidad
 [MetaverseAddCharacter] http://metaverse.galciv2.com/index.aspx?g=char&cmd=add
 [MetaverseCreateAccount] http://www.galciv2.com/login.aspx
 [MetaverseManager] http://metaverse.galciv2.com
+[TournamentPost] http://metaverse.galciv2.com/rpc.axd
+
 [TABLEEND]
 
 
@@ -2951,11 +3108,11 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 [NextElectionSingular] Las próximas elecciones tendrán lugar la semana que viene.
 [NextElectionNow] Las próximas elecciones tendrán lugar al finalizar esta semana.
 
-[AlignmentBonuses0] + Los ciudadanos son más leales y menos propensos a cambiar de bando si sus colonias se encuentran bajo la influencia de un oponente.\n+ Los cinco planetas más poblados no pagan costes de mantenimiento por su colonia inicial.\n+ Los ingresos por comercio con otras civilizaciones benignas gozan de un incremento del 25%.\n+ Se obtiene una bonificación a la habilidad diplomática al tratar con otras civilizaciones benignas.\n+ Las tecnologías particulares incluyen defensas superiores.\n+ El logro galáctico "Templo de la Virtud" sólo está disponible para las civilizaciones benignas.
-[AlignmentBonuses1] + Los ciudadanos son más leales y menos propensos a cambiar de bando si sus colonias se encuentran bajo la influencia de un oponente.\n+ Los cinco planetas más poblados no pagan costes de mantenimiento por su colonia inicial.\n+ Los ingresos por comercio con otras civilizaciones benignas gozan de un incremento del 25%.\n+ Se obtiene una bonificación a la habilidad diplomática al tratar con otras civilizaciones benignas.\n+ Las tecnologías particulares incluyen defensas superiores.\n+ El logro galáctico "Templo de la Virtud" sólo está disponible para las civilizaciones benignas.
-[AlignmentBonuses2] + Los ciudadanos están más contentos, y se aplica una bonificación a la aprobación.\n+ Obtienes un descuento cuando compras directamente una nave en lugar de fabricarla.\n+ Las casillas susceptibles de modernización están disponibles inmediatamente.\n+ Se aplica una bonificación a las invasiones terrestres contra todos los alineamientos que no sean neutrales.\n+ Las tecnologías particulares incluyen más armas y tecnologías defensivas.\n+ El logro galáctico "Templo de la Neutralidad" sólo está disponible para las civilizaciones neutrales.
-[AlignmentBonuses3] + No hay costes por modernizar una base estelar.\n+ Los proyectos de centros de propaganda hacen a los planetas menos susceptibles a la rebelión.\n+ Los proyectos de Policía Secreta mejoran el nivel de aprobación de una colonia.\n+ Las rutas comerciales de las demás civilizaciones pagan 1 B€$ por cada turno que gasten dentro de la esfera de influencia de una civilización maligna.\n+ Las tecnologías particulares incluyen armas superiores.\n+ El logro galáctico "Templo del Mal" sólo está disponible para las civilizaciones malignas.
-[AlignmentBonuses4] + No hay costes por modernizar una base estelar.\n+ Los proyectos de centros de propaganda hacen a los planetas menos susceptibles a la rebelión.\n+ Los proyectos de Policía Secreta mejoran el nivel de aprobación de una colonia.\n+ Las rutas comerciales de las demás civilizaciones pagan 1 B€$ por cada turno que gasten dentro de la esfera de influencia de una civilización maligna.\n+ Las tecnologías particulares incluyen armas superiores.\n+ El logro galáctico "Templo del Mal" sólo está disponible para las civilizaciones malignas.
+[AlignmentBonuses0] + Los ciudadanos son 10% más leales y menos propensos a cambiar de bando si sus colonias se encuentran bajo la influencia de un oponente.\n+ Los cinco planetas más poblados no pagan costes de mantenimiento por su colonia inicial.\n+ Los ingresos por comercio con otras civilizaciones benignas gozan de un incremento del 25%.\n+ Se obtiene una bonificación a la habilidad diplomática al tratar con otras civilizaciones benignas.\n+ Las tecnologías particulares incluyen defensas superiores.\n+ El logro galáctico "Templo de la Virtud" sólo está disponible para las civilizaciones benignas.
+[AlignmentBonuses1] + Los ciudadanos son 10% más leales y menos propensos a cambiar de bando si sus colonias se encuentran bajo la influencia de un oponente.\n+ Los cinco planetas más poblados no pagan costes de mantenimiento por su colonia inicial.\n+ Los ingresos por comercio con otras civilizaciones benignas gozan de un incremento del 25%.\n+ Se obtiene una bonificación a la habilidad diplomática al tratar con otras civilizaciones benignas.\n+ Las tecnologías particulares incluyen defensas superiores.\n+ El logro galáctico "Templo de la Virtud" sólo está disponible para las civilizaciones benignas.
+[AlignmentBonuses2] + Los ciudadanos están más contentos, y se aplica una bonificación de un 15% a la aprobación.\n+ Obtienes un descuento del 25% cuando compras directamente mejoras planetarias y naves, o actualizas tus naves existentes \n + Los planetas se terraforman instantáneamente cuando se investigen las tecnologías correctas de terraformación \n+ Se aplica una bonificación a las invasiones terrestres contra todas las alineaciones no neutrales \n + Las tecnologías únicas incluyen tecnologías adicionales de investigación y comercio.\n+ El Logro Galáctico "Templo de la Neutralidad" solo está disponible para civilizaciones neutrales.
+[AlignmentBonuses3] + No hay costes por modernizar una base estelar.\n+ El Logro Galáctico del Centro de Propaganda mejora el índice de aprobación del imperio.\n+ El Logro Galáctico del Centro de Policía Secreta hace que los planetas sean menos propensos a rebelarse.\n+ Las rutas comerciales de otras civilizaciones pagan 1B€$ por turno que gastan de la esfera de influencia de una civilización maligna.\n + Las tecnologías únicas incluyen Armas superiores.\n + El logro galáctico "Templo del mal" solo está disponible para civilizaciones malignas.
+[AlignmentBonuses4] + No hay costes por modernizar una base estelar.\n+ El Logro Galáctico del Centro de Propaganda mejora el índice de aprobación del imperio.\n+ El Logro Galáctico del Centro de Policía Secreta hace que los planetas sean menos propensos a rebelarse.\n+ Las rutas comerciales de otras civilizaciones pagan 1B€$ por turno que gastan de la esfera de influencia de una civilización maligna.\n + Las tecnologías únicas incluyen Armas superiores.\n + El logro galáctico "Templo del mal" solo está disponible para civilizaciones malignas.
 [AlignmentBonuses99] Sin bonificaciones
 
 [AlignmentDescription0] Tu civilización es benigna pura y siempre va en pos de la honradez y la justicia en todo. Hasta la propia idea del mal le desagrada.
@@ -2988,6 +3145,7 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 [Condition3] Diplomática
 [Condition4] Tecnológica
 [Condition5] Cristal Ascension
+[Condition5] Victoria Ascensión
 
 [VictoryConditionDisabled] Esta condición de victoria está desactivada.
 
@@ -2997,12 +3155,13 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 [ResearchVictory] Para conseguir una victoria tecnológica, investiga más allá de la existencia mortal.
 [AllianceVictory] Para obtener una victoria de alianza, forma alianzas con todas las razas principales con las que no estés en guerra.
 [AIResearchVictory] Permitir a la IA ganar por victoria tecnológica
-[AscensionVictory] Para la victoria, las bases estelares tienen que absorber suficiente aura de los Cristales Ascension para ascender a un nuevo plano de existencia.
+[AscensionVictory] Usa bases estelares para absorber suficiente aura de los Cristales de Ascensión para ascender a un plano superior de existencia.
 
 [MilitaryFlavor] Hemos conquistado el %lu%% de la galaxia.
 [CulturalFlavor] Hemos influido en el %lu%% de la galaxia.
 [AllianceFlavor] Hemos recorrido el %lu%% del camino a una victoria diplomática.
 [TechFlavor] Hemos investigado el %lu%% de todas las tecnologías posibles.
+[AscensionFlavor] Hemos absorbido %lu de %lu puntos de aura necesarios para ascender a un plano superior de existencia.
 
 [[MilitaryVictoryReqKillNone] Felicidades, has destruido a todos los enemigos. La semana que viene conseguirás una victoria por conquista.
 [MilitaryVictoryReqKillOne] Para conseguir una victoria por conquista tienes que destruir al %s.
@@ -3024,6 +3183,8 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 [AllianceVictoryReqCiv] Para conseguir una victoria diplomática tienes que formar una alianza con el %s.
 [AllianceVictoryReqCivs] Para conseguir una victoria diplomática tienes que formar una alianza con %lu civilizaciones.
 [AllianceVictoryReqNone] Tienes alianzas con todas las demás civilizaciones. La semana que viene conseguirás una victoria diplomática. ¡Felicidades!
+
+[OpponentVictoryStatus] Estado de victoria del oponente
 
 [TABLEEND]
 
@@ -3132,10 +3293,37 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 [AfterSwapTitleRallyPoints] Deberíamos ir a:
 [AvailableGovernors] Gobernadores disponibles
 
+[MilitaryGovernorTab] Gobernadores militares
+[PlanetaryGovernorTab] Gobernadores planetarios
+
+[EditGovernors] Gobernadores planetarios
+[AvailableImprovements] Mejoras disponibles
+[AvailableImprovementView] Ver
+[AvailableImprovementViewNewFilter] Nuevo
+[AvailableImprovementViewOldFilter] Viejo
+[AvailableImprovementViewAllFilter] Todos
+[BuildQueue] Cola Const.
+[BuildQueueOrder] Ordenar
+
+[PlanetaryGovernorNewTitle] Nuevo gobernador
+[PlanetaryGovernorNewDescription] Crea un nuevo gobernador planetario.
+
+[PlanetaryGovernorNewButton] Nuevo
+[PlanetaryGovernorDeleteButton] Eliminar
+[PlanetaryGovernorClearButton] Limpiar
+[PlanetaryGovernorUpdateButton] Actualizar
+
+[PlanetaryGovernorAutoUpdateCheckbox] Auto-Actualizar
+[PlanetaryGovernorIgnoreFarmTilesCheckbox] Ignorar celdas agrícolas
+
+[InvalidNameHeader] Nombre inválido
+[InvalidName] Nombre inválido para un gobernador planetario. Los caracteres no válidos incluyen < > : " / \ % ? | , y .
+
+[InvalidNameUsed] Nombre no válido para un gobernador planetario; El nombre ya está en uso.
+
 [ShipOfType] Naves de este tipo:
 [ShouldAlwaysGo] Debemos ir siempre por:
 [StarportsWithDestination] Puntos estelares con destino:
-
 [StarportConstructionBtn] Constr. de puertos estelares
 [StarshipRallypointsBtn] Puntos de reunión de naves estelares
 [ColonyRallypointsBtn] Puntos de reunión de colonias
@@ -3222,6 +3410,7 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 [NumUndefendedColonies] Colonias indefensas en total:
 [NumTradeShips] Naves comerciales en total:
 [Starbases] Bonif. prod./inves.:
+[WarProfitIncome] Ganancia de guerra:
 
 [Leader] Líder:
 [Homeworld] Planeta Natal:
@@ -3324,10 +3513,11 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 [and] y
 
 [WinCondition0] Usar la influencia y comerciar para lograr la supremacía cultural.
-[WinCondition1] Investigar la tecnología definitiva y trascender la mortalidad.
+[WinCondition1] Investigar la tecnología definitiva y trascender en la mortalidad.
 [WinCondition2] Forjar alianzas con las demás civilizaciones principales y crear una paz duradera.
-[WinCondition3] Si una de las demás civilizaciones investiga la tecnología definitiva, ya no podrás hacerlo tú.
-[WinCondition4] Demostrar la validez de "la ley del más fuerte" y derrotar a todo el que se te oponga.
+[WinCondition3] Si otra civilización investiga la tecnología definitiva, ya no podrás hacerlo tú.
+[WinCondition4] Usar bases estelares para absorber suficiente del aura de los Cristales de Ascensión.
+[WinCondition5] Demostrar la validez de "la ley del más fuerte" y derrotar a todo el que se te oponga.
 
 [TABLEEND]
 
@@ -3345,6 +3535,7 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 
 [ComponentHeader] Componentes de la nave:
 [ComponentEntry] + %s (%s %+ld)
+[ComponentEntryExtraBonus] (%s +%ld%%)
 [ComponentEntryNoData] + %s (%s)
 
 [Armor] Blindaje
@@ -3361,7 +3552,15 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 [SensorRange] Alcance de los sensores
 [Capacity] Tropas
 [MaxCapacity] Capacidad máx.
-
+[Fortitude] PI
+[Driver] Bonif. de velocidad de flota
+[AtlasAttack] Bonif. de Ataque
+[AtlasAttackInZOC] Bonif. de Ataque (en propia influencia)
+[AtlasFleetAttackFirstRound] Bonif. de Ataque (primera ronda si es atacante)
+[AtlasDefense] Bonif. de Defensa
+[AtlasDefenseInZOC] Bonif. de Defensa (en propia influencia)
+[AtlasFleetAttack] Bonif. de Ataque de flota
+[AtlasFleetDefense] Bonif. de Defensa de flota
 
 
 [TABLEEND]
@@ -3486,6 +3685,7 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 [BuildMenuPrestigeBonusLabel] Bonif. influencia:
 [BuildMenuPlanetaryDefenseBonusLabel] Bonif. defensa:
 [BuildMenuStarshipQualityBonusLabel] Bonif. categoría naves:
+[BuildMenuStarshipHPBonusLabel] Bonif. de PI de nave:
 [BuildMenuResearchBonusLabel] Bonif. investigación:
 [BuildMenuResistBonusLabel]	Bonif. resistencia:
 [BuildMenuShipSpeedBonusLabel] Bonif. velocidad naves:
@@ -3517,7 +3717,7 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 [Ability14] Aumento de sensores:
 [Ability15] Bonif. espionaje:
 [Ability16] Bonif. veteranía:
-[Ability17] Bonif. tipos de interés:
+[Ability17] Bonif. compra actual:
 [Ability18] Bonif. categoría planetas:
 [Ability19] Bonif. rutas comerciales:
 [Ability20] Bonif. delincuencia:
@@ -3531,6 +3731,13 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 [Ability28] Puntos de logística:
 [Ability29] Bonif. miniaturización:
 [Ability30] Bonif. categoría planeta natal:
+[Ability31] Colonizar mundos de gravedad pesada
+[Ability32] Colonizar mundos acuáticos
+[Ability33] Colonizar mundos tóxicos
+[Ability34] Colonizar mundos estériles
+[Ability35] Colonizar mundos radiactivos
+[Ability36] Aprovechamiento de guerra
+[Ability37] Rutas comerciales persistentes
 
 [BonusFoodProduction] Bonif. alimentos:
 [BonusManufacturing] Bonif. fabricación:
@@ -3754,6 +3961,7 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 
 [SBBonuses] Bonif. de base estelar:
 [SBModules] Módulos
+[SBNoModules] No hay módulos disponibles
 
 [DoneBtn] Hecho
 
@@ -3764,6 +3972,7 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 [TABLEALIAS CustomShipStyleWnd]
 
 [Title] Personaliza el estilo de naves del oponente
+[Title2] Personaliza el estilo de nave de la raza
 [AvailableShips] Plantillas disponibles de naves:
 [DefaultShips] Naves %s:
 
@@ -3788,6 +3997,14 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 [SpaceMiner] Minero espacial %d
 [Survey] Reconocimiento %d
 [Spore] Nave Espora %d
+
+[Focus0] Rayo
+[Focus1] Misil
+[Focus3] Cañon
+
+[Focus0Short] (R)
+[Focus1Short] (M)
+[Focus3Short] (CA)
 
 [NoUserDefinedTemplates] No tienes ninguna plantilla de usuario.  El juego incluye algunas plantillas básicas predefinidas, pero tú tambien puedes diseñaro los tuyos propios en la pantalla del juego "Diseño de naves".  Simplemente juega con esta raza, y cuando guardes tus diseños de nave, selecciona la casilla que dice "Añadir también este diseño a las plantillas."  La próxima vez que inicies una nueva partida, y edites este estilo de naves personalizado, podrás seleccionar tus propias plantillas de naves así como las plantillas básicas incluidas.
 
@@ -3830,11 +4047,14 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 [LeaseBtn] Cancelar crédito
 
 [MaintenanceTitle] Mantenimiento
-[MaintenanceBtn] Retirar del servicio
+[MaintenanceBtn] Retirar
 
 [WeeklyTotal] %lu B€$/semana Total
 
 [LeasePayoffTooHigh] No tienes suficiente dinero en la tesorería para cancelar este crédito.
+
+[ShipsBtn] Naves
+[ImprovementsBtn] Mejoras
 
 [TABLEEND]
 
@@ -3877,5 +4097,67 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 [SectorRange8] Grande
 [SectorRange12] Enorme
 [SectorRange18] Gigantesco
+[SectorRange22] Immenso
+
+[TABLEEND]
+
+[TABLEALIAS TournamentWnd]
+
+[Title] Torneos
+[ChooseCharacterTitle] Elegir Personaje
+[LeaderboardTitle] Clasificación
+[Difficulty] Dificultad
+
+[BackBtn] Atras
+[MetaverseBtn] Metaverso
+[PlayBtn] Jugar
+[RefreshBtn] Refrescar
+
+[DescriptionTab] Descripción
+[StatisticsTab] Estadisticas
+
+
+[TABLEEND]
+
+[TABLEALIAS TechDetailsWnd]
+
+[Tech_Details_Title] Detalles Tecnológicos
+
+[Tech_Details_Done_Button] Hecho
+[Tech_Details_Bonus_Title] Bonif. de habilidad:
+[Tech_Details_Unlock_Title] Desbloquea::
+
+[UnlocksShipComponent] Desbloquea el componente de nave %s
+[UnlocksShipDesign] Desbloquea el diseño de nave %s
+[UnlocksFutureTech] Desbloquea la tecnología futura %s
+[UnlocksStarbaseModule] Desbloquea el módulo estelar %s
+[UnlocksAsteroidMiningBase] Desbloquea el módulo base de minería de campo de asteroides %s
+[UnlocksInvasionTactic] Desbloquea la táctica de invasión %s
+[UnlocksImprovement] Desbloquea la mejora %s
+
+[CannotTrade] Esta tecnología NO PUEDE intercambiarse con otras civilizaciones.
+[Unique] Esta tecnología es exclusiva de %s
+[Cost] Costo de investigación:: %lu Sem
+
+
+[TABLEEND]
+
+[TABLEALIAS ShipDesignFocusWnd]
+
+[ScreenTitle] Enfoque de diseño del barco
+
+[DoneBtn] Hecho
+[CancelBtn] Cancelar
+
+[WeaponFocusTitle] Elige enfoque diseño del Arma:
+[DefenseFocusTitle] Elige enfoque diseño Defensa:
+[MassDriverTitle] Cañon:
+[MissileTitle] Misil:
+[BeamTitle] Rayo:
+[ArmorTitle] Armadura:
+[PointDefenseTitle] Puntos defensivos:
+[ShieldsTitle] Escudos:
+
+[FocusUnit] %
 
 [TABLEEND]

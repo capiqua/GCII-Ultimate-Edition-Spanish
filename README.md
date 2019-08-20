@@ -17,11 +17,17 @@ Esta es la traducción del juego Galactic Civilizations II: Ultimate Edition v2.
 	  donde esta la carpeta spanish. Pulsmos "DONE"
 	·Acepta el reinicio
 
+	Nota: cada cambio de en la tradu, es recomendable borrar partidas
+	c:\Users\xxxx\Documents\My Games\GC2TwilightArnor\
+	
+ 
 ## Traducción
  
-	·UPIssues.xml -100%
-	·screens.str -100%
-	·TechTree.xml -90%
+	·FlavorText.xml - 0%
+	·GC2_Conversations.xml - 0%
+	·GC2Types.xml - 0%
+	·PlanetImprovements.xml - 0%
+	·TechTree.xml - 40%
 
 ## Traductores
 

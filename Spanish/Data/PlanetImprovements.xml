@@ -1,0 +1,3205 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PlanetImprovements>
+  <DataChecksum NoParse="1">
+    <Ignore>S_Name,S_Description,S_BriefDescription,S_IconName,S_QueryGraphicName</Ignore>
+    <Translate>S_Name,S_Description,S_BriefDescription</Translate>
+  </DataChecksum>
+  <!--Colony-->
+  <Improvement>
+    <S_InternalName>CapitalCity</S_InternalName>
+    <S_Name>Civilization Capital</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <S_Type>Normal</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>0</Cost>
+    <S_IconName>NeutralCivCapitol.png</S_IconName>
+    <S_QueryGraphicName>NeutralCivCapitol.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <Indestructable>1</Indestructable>
+    <S_TechRequirement>0</S_TechRequirement>
+    <Industry>24</Industry>
+    <Food>8</Food>
+    <Research>24</Research>
+    <EconomicBonus>25</EconomicBonus>
+    <PrestigeBonus>50</PrestigeBonus>
+    <PlanetaryDefenseBonus>50</PlanetaryDefenseBonus>
+    <S_InvasionMovie1>NeutralCivCapitol_Normal.bik</S_InvasionMovie1>
+    <S_InvasionMovie2>NeutralCivCapitol_Smoking.bik</S_InvasionMovie2>
+    <S_InvasionMovie3>NeutralCivCapitol_Damaged.bik</S_InvasionMovie3>
+    <S_InvasionMovie4>NeutralCivCapitol_Ruined.bik</S_InvasionMovie4>
+    <FoodProductionBonus>50</FoodProductionBonus>
+    <MoraleBonus>35</MoraleBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>InitialColony</S_InternalName>
+    <S_Name>Initial Colony</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>0</AI>
+    <S_Type>Normal</S_Type>
+    <Maintenance>10</Maintenance>
+    <Cost>0</Cost>
+    <S_IconName>NeutralCivCapitol.png</S_IconName>
+    <S_QueryGraphicName>NeutralCivCapitol.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <Indestructable>1</Indestructable>
+    <S_TechRequirement>0</S_TechRequirement>
+    <Industry>12</Industry>
+    <Food>8</Food>
+    <Research>12</Research>
+    <MoraleBonus>15</MoraleBonus>
+    <S_InvasionMovie1>NeutralCivCapitol_Normal.bik</S_InvasionMovie1>
+    <S_InvasionMovie2>NeutralCivCapitol_Smoking.bik</S_InvasionMovie2>
+    <S_InvasionMovie3>NeutralCivCapitol_Damaged.bik</S_InvasionMovie3>
+    <S_InvasionMovie4>NeutralCivCapitol_Ruined.bik</S_InvasionMovie4>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Decomission</S_InternalName>
+    <S_Name>Decommission</S_Name>
+    <S_UpgradeTarget>*</S_UpgradeTarget>
+    <S_Type>Destroy</S_Type>
+    <Cost>2</Cost>
+    <S_Description>Decommission this building, making the land available for future development.</S_Description>
+    <S_IconName>Decomission.png</S_IconName>
+    <S_QueryGraphicName>Decomission.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+  </Improvement>
+  <!--Ships-->
+  <Improvement>
+    <S_InternalName>BasicStarport</S_InternalName>
+    <S_Name>Starport</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>10</AI>
+    <S_Type>Normal</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>20</Cost>
+    <S_Description>Your basic starport. You need this to launch constructed starships.</S_Description>
+    <S_IconName>BasicStarport.png</S_IconName>
+    <S_QueryGraphicName>BasicStarport.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+  </Improvement>
+  <!--Ships Arcean-->
+  <Improvement>
+    <S_InternalName>Navigation Center</S_InternalName>
+    <S_Name>Navigation Center</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>50</Cost>
+    <S_BriefDescription>Increases speed of ships built here.</S_BriefDescription>
+    <S_Description>Navigation Centers provide specially trained navigators who are paired up with ships built on this world. They will increase the speed of those ships by 2.</S_Description>
+    <S_IconName>EngineFactory.png</S_IconName>
+    <S_QueryGraphicName>EngineFactory.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>InterstellarNavigation</S_TechRequirement>
+    <ShipMoveBonus>2</ShipMoveBonus>
+  </Improvement>
+  <!--Culture-->
+  <Improvement>
+    <S_InternalName>Embassy</S_InternalName>
+    <S_Name>Embassy</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>30</Cost>
+    <S_BriefDescription>Increases planetary influence.</S_BriefDescription>
+    <S_Description>This embassy will provide a place for alien visitors to visit and pick up some of our culture.</S_Description>
+    <S_IconName>Embasy.png</S_IconName>
+    <S_QueryGraphicName>embasy.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Diplomatic Relations</S_TechRequirement>
+    <PrestigeBonus>15</PrestigeBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>CulturalExchangeCenter</S_InternalName>
+    <S_Name>Cultural Exchange Center</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>Embassy</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>60</Cost>
+    <S_BriefDescription>Increases influence.</S_BriefDescription>
+    <S_Description>The Cultural Exchange Center will introduce alien travelers to our culture.</S_Description>
+    <S_IconName>CulturalExchangeCenter.png</S_IconName>
+    <S_QueryGraphicName>CulturalExchangeCenter.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Advanced Diplomacy</S_TechRequirement>
+    <PrestigeBonus>25</PrestigeBonus>
+  </Improvement>
+  <!--Culture Korath-->
+  <Improvement>
+    <S_InternalName>Dark Influence</S_InternalName>
+    <S_Name>Dark Influence</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>3</Maintenance>
+    <Cost>100</Cost>
+    <S_BriefDescription>Massively increases planetary influence.</S_BriefDescription>
+    <S_Description>The Dark Influence is a planetary improvement that will vastly increase the base planetary influence of the planet it is constructed on.</S_Description>
+    <S_IconName>LiqPrison.png</S_IconName>
+    <S_QueryGraphicName>LiqPrison.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>DarkInfluence</S_TechRequirement>
+    <PrestigeBonus>200</PrestigeBonus>
+  </Improvement>
+  <!--Culture Krynn-->
+  <Improvement>
+    <S_InternalName>Consulate</S_InternalName>
+    <S_Name>Consulate</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>25</Cost>
+    <S_BriefDescription>Improves Influence and directs trade on the world.</S_BriefDescription>
+    <S_Description>The Consulate helps manage the economy and culture of a given planet.</S_Description>
+    <S_IconName>Consulate.png</S_IconName>
+    <S_QueryGraphicName>Consulate.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>ThePath</S_TechRequirement>
+    <EconomicBonus>20</EconomicBonus>
+    <PrestigeBonus>20</PrestigeBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Law of Krynn</S_InternalName>
+    <S_Name>Temple of Krynn</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>50</Cost>
+    <S_BriefDescription>Increases influence and morale.</S_BriefDescription>
+    <S_Description>Members of our civilization can now learn the law of Krynn. Moreover, visitors to our worlds can also learn of our laws and way and help spread the truth of our beliefs to the galaxy.</S_Description>
+    <S_IconName>InterstellarMissionary1.png</S_IconName>
+    <S_QueryGraphicName>InterstellarMissionary1.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>LawsOfKrynn</S_TechRequirement>
+    <MoraleBonus>20</MoraleBonus>
+    <PrestigeBonus>20</PrestigeBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>OrderOfKrynn</S_InternalName>
+    <S_Name>Order Of Krynn</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>75</Cost>
+    <S_BriefDescription>Increases morale and influence.</S_BriefDescription>
+    <S_Description>The Order of Krynn teaches the underlying rationale of the Krynn which improves both morale and influence.</S_Description>
+    <S_IconName>InterstellarMissionary2.png</S_IconName>
+    <S_QueryGraphicName>InterstellarMissionary2.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>OrderOfKrynn</S_TechRequirement>
+    <MoraleBonus>30</MoraleBonus>
+    <PrestigeBonus>30</PrestigeBonus>
+  </Improvement>
+  <!--Culture Thalan-->
+  <Improvement>
+    <S_InternalName>Brain Washing Center</S_InternalName>
+    <S_Name>Brain Washing Center</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>100</Cost>
+    <S_BriefDescription>Increases planet influence and economy</S_BriefDescription>
+    <S_Description>Welcome tourists, we are happy to have you here. Now, step right in here and look closely at the light. That's right...</S_Description>
+    <S_IconName>Happy_Fun_Brain_Washing_Play_Land.png</S_IconName>
+    <S_QueryGraphicName>Happy_Fun_Brain_Washing_Play_Land.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>XenoBrainwashing</S_TechRequirement>
+    <EconomicBonus>20</EconomicBonus>
+    <PrestigeBonus>50</PrestigeBonus>
+  </Improvement>
+  <!--Manufacturing-->
+  <Improvement>
+    <S_InternalName>BasicFactory</S_InternalName>
+    <S_Name>Traditional Factory</S_Name>
+    <AI>15</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>35</Cost>
+    <S_BriefDescription>Increases manufacturing.</S_BriefDescription>
+    <S_Description>The basic factory increases this colony's the social + military production on this planet by up to 4 more industrial units. Depending on what percentage of your manufacturing capacity you are using and what percentage of it is directed towards social and military, this factory's capacity will be used.</S_Description>
+    <S_IconName>factory1.png</S_IconName>
+    <S_QueryGraphicName>factory1.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>IndustrialRevolution</S_TechRequirement>
+    <Industry>4</Industry>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>BasicFactory</S_InternalName>
+    <S_Name>Minor Traditional Factory</S_Name>
+    <AI>15</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>35</Cost>
+    <S_BriefDescription>Increases manufacturing.</S_BriefDescription>
+    <S_Description>The basic factory increases this colony's the social + military production on this planet by up to 4 more industrial units. Depending on what percentage of your manufacturing capacity you are using and what percentage of it is directed towards social and military, this factory's capacity will be used.</S_Description>
+    <S_IconName>factory1.png</S_IconName>
+    <S_QueryGraphicName>factory1.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>MinorIndustrialRevolution</S_TechRequirement>
+    <Industry>4</Industry>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Factory</S_InternalName>
+    <S_Name>Advanced Factory</S_Name>
+    <AI>15</AI>
+    <S_UpgradeTarget>BasicFactory</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>3</Maintenance>
+    <Cost>70</Cost>
+    <S_BriefDescription>Increases manufacturing.</S_BriefDescription>
+    <S_Description>Increases military/social production.</S_Description>
+    <S_IconName>factory2.png</S_IconName>
+    <S_QueryGraphicName>factory2.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>XenoIndustrialTheory</S_TechRequirement>
+    <Industry>6</Industry>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Enhanced Factory</S_InternalName>
+    <S_Name>Xeno Factory</S_Name>
+    <AI>15</AI>
+    <S_UpgradeTarget>Factory</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>4</Maintenance>
+    <Cost>105</Cost>
+    <S_BriefDescription>Increases manufacturing.</S_BriefDescription>
+    <S_Description>Increases military/social production.</S_Description>
+    <S_IconName>factory3.png</S_IconName>
+    <S_QueryGraphicName>factory3.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Xeno Factory Construction</S_TechRequirement>
+    <Industry>8</Industry>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Manufacturing Center</S_InternalName>
+    <S_Name>Manufacturing Center</S_Name>
+    <AI>15</AI>
+    <S_UpgradeTarget>Enhanced Factory</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>5</Maintenance>
+    <Cost>140</Cost>
+    <S_BriefDescription>Increases manufacturing.</S_BriefDescription>
+    <S_Description>Increases military/social production.</S_Description>
+    <S_IconName>Engine Turbo Design Center_64.png</S_IconName>
+    <S_QueryGraphicName>Engine_Turbo_Design_Center.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Manufacturing Centers</S_TechRequirement>
+    <Industry>10</Industry>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Industrial Sector</S_InternalName>
+    <S_Name>Industrial Sector</S_Name>
+    <AI>15</AI>
+    <S_UpgradeTarget>Manufacturing Center</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>6</Maintenance>
+    <Cost>175</Cost>
+    <S_BriefDescription>Increases manufacturing.</S_BriefDescription>
+    <S_Description>A high density manufacturing area.</S_Description>
+    <S_IconName>DesecrationFactory1.png</S_IconName>
+    <S_QueryGraphicName>DesecrationFactory1.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Industrial Sector</S_TechRequirement>
+    <Industry>12</Industry>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Anti-Matter Power Plant</S_InternalName>
+    <S_Name>Anti-Matter Power Plant</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>30</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>4</Maintenance>
+    <Cost>250</Cost>
+    <S_BriefDescription>Increases manufacturing.</S_BriefDescription>
+    <S_Description>Magnifies existing production by 30%.</S_Description>
+    <S_IconName>AntiMatterPowerPlant.png</S_IconName>
+    <S_QueryGraphicName>AntiMatterPowerPlant.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Anti-Matter Power Plants</S_TechRequirement>
+    <ManufactureBonus>30</ManufactureBonus>
+  </Improvement>
+  <!--Manufacturing Dread Lords-->
+  <Improvement>
+    <S_InternalName>DreadFactory</S_InternalName>
+    <S_Name>Dread Factory</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>Industrial Sector</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>210</Cost>
+    <S_BriefDescription>Increases manufacturing.</S_BriefDescription>
+    <S_Description>A high density manufacturing area.</S_Description>
+    <S_IconName>DesecrationFactory1.png</S_IconName>
+    <S_QueryGraphicName>DesecrationFactory1.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>DreadHistory</S_TechRequirement>
+    <Industry>14</Industry>
+  </Improvement>
+  <!--Manufacturing Drengin/Korath-->
+  <Improvement>
+    <S_InternalName>Basic Pit</S_InternalName>
+    <S_Name>Basic Slave Pit</S_Name>
+    <AI>40</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>25</Cost>
+    <S_BriefDescription>Increases production.</S_BriefDescription>
+    <S_Description>Increases military/social production at the cost of prestige.</S_Description>
+    <S_IconName>slave_pits.png</S_IconName>
+    <S_QueryGraphicName>slave_pits.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>TraditionalSlavery</S_TechRequirement>
+    <Industry>3</Industry>
+    <PrestigeBonus>-1</PrestigeBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>SlavePit</S_InternalName>
+    <S_Name>Slave Pit</S_Name>
+    <AI>40</AI>
+    <S_UpgradeTarget>Basic Pit</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>50</Cost>
+    <S_BriefDescription>Increases production.</S_BriefDescription>
+    <S_Description>Increases military/social production at the cost of prestige.</S_Description>
+    <S_IconName>SlavePits.png</S_IconName>
+    <S_QueryGraphicName>SlavePits.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>SlavePits</S_TechRequirement>
+    <Industry>5</Industry>
+    <PrestigeBonus>-2</PrestigeBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>SlaveCanyon</S_InternalName>
+    <S_Name>Slave Canyon</S_Name>
+    <AI>40</AI>
+    <S_UpgradeTarget>SlavePit</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>3</Maintenance>
+    <Cost>105</Cost>
+    <S_BriefDescription>Increases production.</S_BriefDescription>
+    <S_Description>Increases military/social production at the cost of prestige.</S_Description>
+    <S_IconName>SlaveMines.png</S_IconName>
+    <S_QueryGraphicName>SlaveMines.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>SlaveCanyons</S_TechRequirement>
+    <Industry>10</Industry>
+    <PrestigeBonus>-3</PrestigeBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>DevilsForge</S_InternalName>
+    <S_Name>Devil's Forge</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>30</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>4</Maintenance>
+    <Cost>225</Cost>
+    <S_BriefDescription>Increases manufacturing.</S_BriefDescription>
+    <S_Description>Magnifies the productivity of slave labor.</S_Description>
+    <S_IconName>devilsforge.png</S_IconName>
+    <S_QueryGraphicName>devilsforge.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>DevilsForge</S_TechRequirement>
+    <ManufactureBonus>20</ManufactureBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Death Furnace</S_InternalName>
+    <S_Name>Death Furnace</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>30</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>4</Maintenance>
+    <Cost>250</Cost>
+    <S_BriefDescription>Increases manufacturing.</S_BriefDescription>
+    <S_Description>Magnifies existing production.</S_Description>
+    <S_IconName>FleshIncinerator.png</S_IconName>
+    <S_QueryGraphicName>FleshIncinerator.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>DeathFurnaces</S_TechRequirement>
+    <ManufactureBonus>30</ManufactureBonus>
+  </Improvement>
+  <!--Manufacturing Korath-->
+  <Improvement>
+    <S_InternalName>Wretched Harvester</S_InternalName>
+    <S_Name>Wretched Harvester</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>30</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>200</Cost>
+    <S_BriefDescription>Increase Production</S_BriefDescription>
+    <S_Description>The Wretched Harvester increases the manufacturing capability of the planet. It does this by harvesting the life force of wretched clones.</S_Description>
+    <S_IconName>WretchedHarvester.png</S_IconName>
+    <S_QueryGraphicName>WretchedHarvester.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>WretchedCloning</S_TechRequirement>
+    <ManufactureBonus>20</ManufactureBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Aul Incinerator</S_InternalName>
+    <S_Name>Aul Incinerator</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>30</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>5</Maintenance>
+    <Cost>400</Cost>
+    <S_BriefDescription>Sacrifice planet quality by -1 to greatly increase productivity.</S_BriefDescription>
+    <S_Description>The Aul Incinerator will lower the quality of the planet by -1! However, in exchange, it will channel the life force of all it sacrifices into pure productive energy which is used to increase our manufacturing. Unused tiles will be sacrificed first. Otherwise, it will take the least valuable tile that is occupied.</S_Description>
+    <S_IconName>AulIncinerator.png</S_IconName>
+    <S_QueryGraphicName>AulIncinerator.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <Indestructable>1</Indestructable>
+    <ManualDestruction>0</ManualDestruction>
+    <S_TechRequirement>AulIncineration</S_TechRequirement>
+    <PlanetQualityChange>-1</PlanetQualityChange>
+    <ManufactureBonus>50</ManufactureBonus>
+    <S_InvasionMovie1>AulIncinerator_Normal.bik</S_InvasionMovie1>
+    <S_InvasionMovie2>AulIncinerator_Smoking.bik</S_InvasionMovie2>
+    <S_InvasionMovie3>AulIncinerator_Damaged.bik</S_InvasionMovie3>
+    <S_InvasionMovie4>AulIncinerator_Ruined.bik</S_InvasionMovie4>
+  </Improvement>
+  <!--Manufacturing Iconians-->
+  <Improvement>
+    <S_InternalName>Basic Replicator</S_InternalName>
+    <S_Name>Basic Replicator</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>25</Cost>
+    <S_BriefDescription>Improves Manufacturing</S_BriefDescription>
+    <S_Description>Using advanced robotics, the Basic Replicator produces some manufacturing output but isn't terribly efficient. It is eerily similar to the Yor Manufacturing Collective.</S_Description>
+    <S_IconName>BasicReplicator.png</S_IconName>
+    <S_QueryGraphicName>BasicReplicator.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>AdvancedRobotics</S_TechRequirement>
+    <Industry>3</Industry>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Interstellar Refinery</S_InternalName>
+    <S_Name>Interstellar Refinery</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>120</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>5</Maintenance>
+    <Cost>75</Cost>
+    <S_BriefDescription>Increases manufacturing</S_BriefDescription>
+    <S_Description>This precursor based technology gets its power from a core tap into the planet. We can only build one per planet, but it provides a great deal of manufacturing output.</S_Description>
+    <S_IconName>InterstellarRefinery.png</S_IconName>
+    <S_QueryGraphicName>InterstellarRefinery.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <Indestructable>1</Indestructable>
+    <ManualDestruction>1</ManualDestruction>
+    <S_TechRequirement>InterstellarRefining</S_TechRequirement>
+    <Industry>16</Industry>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Molecular Fabricator</S_InternalName>
+    <S_Name>Molecular Fabricator</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>4</Maintenance>
+    <Cost>150</Cost>
+    <S_BriefDescription>Increases manufacturing</S_BriefDescription>
+    <S_Description>The Molecular Fabricator magnifies how much manufacturing is being done on the planet.</S_Description>
+    <S_IconName>MolecularFabricator.png</S_IconName>
+    <S_QueryGraphicName>MolecularFabricator.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <Indestructable>1</Indestructable>
+    <ManualDestruction>1</ManualDestruction>
+    <S_TechRequirement>MolecularFabrication</S_TechRequirement>
+    <ManufactureBonus>50</ManufactureBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Industrial Replicator Level 1</S_InternalName>
+    <S_Name>Industrial Replicator Lv 1</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>Basic Replicator</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>3</Maintenance>
+    <Cost>70</Cost>
+    <S_BriefDescription>Increases manufacturing</S_BriefDescription>
+    <S_Description>Industrial Replicators are essentially factories manned by robots.</S_Description>
+    <S_IconName>IndustrialReplicator1.png</S_IconName>
+    <S_QueryGraphicName>IndustrialReplicator1.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>IndustrialReplication1</S_TechRequirement>
+    <Industry>6</Industry>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Industrial Replicator Level 2</S_InternalName>
+    <S_Name>Industrial Replicator Lv 2</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>Industrial Replicator Level 1</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>4</Maintenance>
+    <Cost>105</Cost>
+    <S_BriefDescription>Increases manufacturing</S_BriefDescription>
+    <S_Description>Industrial Replicators are essentially factories manned by robots.</S_Description>
+    <S_IconName>IndustrialReplicator2.png</S_IconName>
+    <S_QueryGraphicName>IndustrialReplicator2.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>IndustrialReplication2</S_TechRequirement>
+    <Industry>8</Industry>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Industrial Replicator Level 3</S_InternalName>
+    <S_Name>Industrial Replicator Lv 3</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>Industrial Replicator Level 2</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>5</Maintenance>
+    <Cost>140</Cost>
+    <S_BriefDescription>Increases manufacturing</S_BriefDescription>
+    <S_Description>Industrial Replicators are essentially factories manned by robots.</S_Description>
+    <S_IconName>IndustrialReplicator3.png</S_IconName>
+    <S_QueryGraphicName>IndustrialReplicator3.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>IndustrialReplication3</S_TechRequirement>
+    <Industry>10</Industry>
+  </Improvement>
+  <!--Manufacturing Thalan-->
+  <Improvement>
+    <S_InternalName>Manufacturing Matrix L1</S_InternalName>
+    <S_Name>Manufacturing Matrix L1</S_Name>
+    <AI>5</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>12</Maintenance>
+    <Cost>100</Cost>
+    <S_BriefDescription>Great manufacturing but expensive to maintain</S_BriefDescription>
+    <S_Description>Manufacturing Matrices have immense output but severe energy requirements that result in having a very high maintenance cost.</S_Description>
+    <S_IconName>LaborCommune.png</S_IconName>
+    <S_QueryGraphicName>LaborCommune.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>IndustrialAdaptation1</S_TechRequirement>
+    <Industry>10</Industry>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Manufacturing Matrix L2</S_InternalName>
+    <S_Name>Manufacturing Matrix L2</S_Name>
+    <AI>5</AI>
+    <S_UpgradeTarget>Manufacturing Matrix L1</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>7</Maintenance>
+    <Cost>200</Cost>
+    <S_BriefDescription>Great manufacturing but expensive to maintain</S_BriefDescription>
+    <S_Description>Manufacturing Matrices have immense output but severe energy requirements that result in having a very high maintenance cost.</S_Description>
+    <S_IconName>IndustrialCluster.png</S_IconName>
+    <S_QueryGraphicName>IndustrialCluster.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>IndustrialAdaptation2</S_TechRequirement>
+    <Industry>11</Industry>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Manufacturing Matrix L3</S_InternalName>
+    <S_Name>Manufacturing Matrix L3</S_Name>
+    <AI>20</AI>
+    <S_UpgradeTarget>Manufacturing Matrix L2</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>300</Cost>
+    <S_BriefDescription>Great manufacturing but expensive to maintain</S_BriefDescription>
+    <S_Description>Manufacturing Matrices have immense output but severe energy requirements that result in having a very high maintenance cost.</S_Description>
+    <S_IconName>SymbiosisPlatform.png</S_IconName>
+    <S_QueryGraphicName>SymbiosisPlatforms.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>IndustrialAdaptation3</S_TechRequirement>
+    <Industry>12</Industry>
+  </Improvement>
+  <!--Manufacturing Torians-->
+  <Improvement>
+    <S_InternalName>Central Mine</S_InternalName>
+    <S_Name>Central Mine</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>150</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>3</Maintenance>
+    <Cost>50</Cost>
+    <S_BriefDescription>Increases manufacturing</S_BriefDescription>
+    <S_Description>The Central Mine is a super mine in which we dig deep into the core of the planet. Only one per planet can be built, but it provides significant amounts of resources.</S_Description>
+    <S_IconName>StripMine.png</S_IconName>
+    <S_QueryGraphicName>StripMine.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <Indestructable>1</Indestructable>
+    <ManualDestruction>1</ManualDestruction>
+    <S_TechRequirement>Inherited Technology</S_TechRequirement>
+    <Industry>10</Industry>
+  </Improvement>
+  <!--Manufacturing Yor-->
+  <Improvement>
+    <S_InternalName>Collective</S_InternalName>
+    <S_Name>Basic Collective</S_Name>
+    <AI>35</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>45</Cost>
+    <S_BriefDescription>Increases our production</S_BriefDescription>
+    <S_Description>Cybernetic species manufacture products and goods through collectives.</S_Description>
+    <S_IconName>FactoryCollective1.png</S_IconName>
+    <S_QueryGraphicName>FactoryCollective1.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Cybernetic History</S_TechRequirement>
+    <Industry>5</Industry>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Improved Collective</S_InternalName>
+    <S_Name>Manufacturing Collective</S_Name>
+    <AI>35</AI>
+    <S_UpgradeTarget>Collective</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>85</Cost>
+    <S_BriefDescription>Increases our production</S_BriefDescription>
+    <S_Description>Cybernetic species manufacture products and goods through collectives.</S_Description>
+    <S_IconName>FactoryCollective2.png</S_IconName>
+    <S_QueryGraphicName>FactoryCollective2.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>CollectiveManufacturing1</S_TechRequirement>
+    <Industry>7</Industry>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Enhanced Collective</S_InternalName>
+    <S_Name>Manufacturing Collective II</S_Name>
+    <AI>35</AI>
+    <S_UpgradeTarget>Improved Collective</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>3</Maintenance>
+    <Cost>125</Cost>
+    <S_BriefDescription>Increases our production</S_BriefDescription>
+    <S_Description>Cybernetic species manufacture products and goods through collectives.</S_Description>
+    <S_IconName>FactoryCollective3.png</S_IconName>
+    <S_QueryGraphicName>FactoryCollective3.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>CollectiveManufacturing2</S_TechRequirement>
+    <Industry>9</Industry>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Superior Collective</S_InternalName>
+    <S_Name>Manufacturing Collective III</S_Name>
+    <AI>35</AI>
+    <S_UpgradeTarget>Enhanced Collective</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>4</Maintenance>
+    <Cost>165</Cost>
+    <S_BriefDescription>Increases our production</S_BriefDescription>
+    <S_Description>Cybernetic species manufacture products and goods through collectives.</S_Description>
+    <S_IconName>FactoryCollective4.png</S_IconName>
+    <S_QueryGraphicName>FactoryCollective4.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>CollectiveManufacturing3</S_TechRequirement>
+    <Industry>11</Industry>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Ultimate Collective</S_InternalName>
+    <S_Name>Manufacturing Collective IV</S_Name>
+    <AI>35</AI>
+    <S_UpgradeTarget>Superior Collective</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>5</Maintenance>
+    <Cost>205</Cost>
+    <S_BriefDescription>Increases our production</S_BriefDescription>
+    <S_Description>Cybernetic species manufacture products and goods through collectives.</S_Description>
+    <S_IconName>ProductionCollective.png</S_IconName>
+    <S_QueryGraphicName>ProductionCollective.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>CollectiveManufacturing4</S_TechRequirement>
+    <Industry>13</Industry>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Manufacturing Vortex</S_InternalName>
+    <S_Name>Manufacturing Vortex</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>30</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>300</Cost>
+    <S_BriefDescription>Effective production magnifier.</S_BriefDescription>
+    <S_Description>Increases your production by converting raw resources into usable material much more quickly.</S_Description>
+    <S_IconName>EnergyFeedingCenter.png</S_IconName>
+    <S_QueryGraphicName>EnergyFeedingCenter.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>ManufacturingVortex</S_TechRequirement>
+    <ManufactureBonus>30</ManufactureBonus>
+  </Improvement>
+  <!--Research-->
+  <Improvement>
+    <S_InternalName>Basic Lab</S_InternalName>
+    <S_Name>Research Lab</S_Name>
+    <AI>30</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>40</Cost>
+    <S_BriefDescription>Increases research.</S_BriefDescription>
+    <S_Description>Increases research on planet.</S_Description>
+    <S_IconName>Lab1.png</S_IconName>
+    <S_QueryGraphicName>Lab1.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>TraditionalResearch</S_TechRequirement>
+    <Research>4</Research>
+    <S_InvasionMovie1>Lab2_Normal.bik</S_InvasionMovie1>
+    <S_InvasionMovie2>Lab2_Smoking.bik</S_InvasionMovie2>
+    <S_InvasionMovie3>Lab2_Damaged.bik</S_InvasionMovie3>
+    <S_InvasionMovie4>Lab2_Ruined.bik</S_InvasionMovie4>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Basic Lab</S_InternalName>
+    <S_Name>Minor Research Lab</S_Name>
+    <AI>20</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>40</Cost>
+    <S_BriefDescription>Increases research.</S_BriefDescription>
+    <S_Description>Increases research on planet.</S_Description>
+    <S_IconName>Lab1.png</S_IconName>
+    <S_QueryGraphicName>Lab1.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>MinorTraditionalResearch</S_TechRequirement>
+    <Research>4</Research>
+    <S_InvasionMovie1>Lab2_Normal.bik</S_InvasionMovie1>
+    <S_InvasionMovie2>Lab2_Smoking.bik</S_InvasionMovie2>
+    <S_InvasionMovie3>Lab2_Damaged.bik</S_InvasionMovie3>
+    <S_InvasionMovie4>Lab2_Ruined.bik</S_InvasionMovie4>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Research Center</S_InternalName>
+    <S_Name>Research Center</S_Name>
+    <AI>30</AI>
+    <S_UpgradeTarget>Basic Lab</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>3</Maintenance>
+    <Cost>80</Cost>
+    <S_BriefDescription>Increases research.</S_BriefDescription>
+    <S_Description>Increases research on planet.</S_Description>
+    <S_IconName>Lab2.png</S_IconName>
+    <S_QueryGraphicName>Lab2.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Research Center</S_TechRequirement>
+    <Research>6</Research>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>ResearchAcademy</S_InternalName>
+    <S_Name>Research Academy</S_Name>
+    <AI>20</AI>
+    <S_UpgradeTarget>Research Center</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>4</Maintenance>
+    <Cost>120</Cost>
+    <S_BriefDescription>Increases research.</S_BriefDescription>
+    <S_Description>Increases research on planet.</S_Description>
+    <S_IconName>University.png</S_IconName>
+    <S_QueryGraphicName>University.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Research Academy</S_TechRequirement>
+    <Research>8</Research>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Invention Matrix</S_InternalName>
+    <S_Name>Invention Matrix</S_Name>
+    <AI>20</AI>
+    <S_UpgradeTarget>ResearchAcademy</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>5</Maintenance>
+    <Cost>160</Cost>
+    <S_BriefDescription>Increases research.</S_BriefDescription>
+    <S_Description>Increases research on planet.</S_Description>
+    <S_IconName>Lab5.png</S_IconName>
+    <S_QueryGraphicName>Lab5.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Invention Matrix</S_TechRequirement>
+    <Research>10</Research>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Discovery Sphere</S_InternalName>
+    <S_Name>Discovery Sphere</S_Name>
+    <AI>20</AI>
+    <S_UpgradeTarget>Invention Matrix</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>6</Maintenance>
+    <Cost>200</Cost>
+    <S_BriefDescription>Increases research.</S_BriefDescription>
+    <S_Description>Increases research on planet.</S_Description>
+    <S_IconName>Lab6.png</S_IconName>
+    <S_QueryGraphicName>Lab6.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Discovery Sphere</S_TechRequirement>
+    <Research>12</Research>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>ResCoordinationCenter</S_InternalName>
+    <S_Name>Research Coordination Center</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>30</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>3</Maintenance>
+    <Cost>300</Cost>
+    <S_BriefDescription>Boosts research.</S_BriefDescription>
+    <S_Description>Helps to coordinate research between labs on this world.</S_Description>
+    <S_IconName>ResCoordCenter.png</S_IconName>
+    <S_QueryGraphicName>ResCoordCenter.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Research Academy</S_TechRequirement>
+    <ResearchBonus>25</ResearchBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Learning Center</S_InternalName>
+    <S_Name>Neutrality Learning Center</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>30</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>5</Maintenance>
+    <Cost>300</Cost>
+    <S_BriefDescription>Increases research.</S_BriefDescription>
+    <S_Description>Increases research on planet.</S_Description>
+    <S_IconName>Correct_Thinking_Academy.png</S_IconName>
+    <S_QueryGraphicName>Correct_Thinking_Academy.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Neutrality Learning Center</S_TechRequirement>
+    <Research>12</Research>
+    <ResearchBonus>25</ResearchBonus>
+  </Improvement>
+  <!--Research Drengin/Korath-->
+  <Improvement>
+    <S_InternalName>SlavingImaginationLab</S_InternalName>
+    <S_Name>Slaveling Imagination Lab</S_Name>
+    <AI>30</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>25</Cost>
+    <S_BriefDescription>Increases research.</S_BriefDescription>
+    <S_Description>Increases research on planet.</S_Description>
+    <S_IconName>EvilLab1.png</S_IconName>
+    <S_QueryGraphicName>EvilLab1.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>SpecializedResearch</S_TechRequirement>
+    <Research>3</Research>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>ImprovedImaginationLab</S_InternalName>
+    <S_Name>Improved Slaveling Lab</S_Name>
+    <AI>30</AI>
+    <S_UpgradeTarget>SlavingImaginationLab</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>55</Cost>
+    <S_BriefDescription>Increases research.</S_BriefDescription>
+    <S_Description>Increases research on planet.</S_Description>
+    <S_IconName>EvilLab2.png</S_IconName>
+    <S_QueryGraphicName>EvilLab2.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Diabolical Research</S_TechRequirement>
+    <Research>5</Research>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>AdvancedSlavelingLab</S_InternalName>
+    <S_Name>Advanced Slaveling Lab</S_Name>
+    <AI>30</AI>
+    <S_UpgradeTarget>ImprovedImaginationLab</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>3</Maintenance>
+    <Cost>85</Cost>
+    <S_BriefDescription>Increases research.</S_BriefDescription>
+    <S_Description>Increases research on planet.</S_Description>
+    <S_IconName>EvilLab3.png</S_IconName>
+    <S_QueryGraphicName>EvilLab3.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Imaginative Research</S_TechRequirement>
+    <Research>7</Research>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>ULtimateSlavelingLab</S_InternalName>
+    <S_Name>Ultimate Slaveling Lab</S_Name>
+    <AI>30</AI>
+    <S_UpgradeTarget>AdvancedSlavelingLab</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>4</Maintenance>
+    <Cost>115</Cost>
+    <S_BriefDescription>Increases research.</S_BriefDescription>
+    <S_Description>Increases research on planet.</S_Description>
+    <S_IconName>EvilLab4.png</S_IconName>
+    <S_QueryGraphicName>EvilLab4.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Ultimate Diabolical Research</S_TechRequirement>
+    <Research>10</Research>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>PainAmplifier</S_InternalName>
+    <S_Name>Pain Amplifier</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>30</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>4</Maintenance>
+    <Cost>200</Cost>
+    <S_BriefDescription>Increases research.</S_BriefDescription>
+    <S_Description>Magnifies existing research by 20%.</S_Description>
+    <S_IconName>PainAmplifier.png</S_IconName>
+    <S_QueryGraphicName>PainAmplifier.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>PainAmplification</S_TechRequirement>
+    <ResearchBonus>20</ResearchBonus>
+  </Improvement>
+  <!--Research Iconians-->
+  <Improvement>
+    <S_InternalName>Precursor Archive</S_InternalName>
+    <S_Name>Precursor Archive</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>50</Cost>
+    <S_BriefDescription>Increases Research</S_BriefDescription>
+    <S_Description>This planet's copy of our civilization's copy of Precursor knowledge. It also improves the economy and influence of this world.</S_Description>
+    <S_IconName>PrecursorArchive.png</S_IconName>
+    <S_QueryGraphicName>PrecursorArchive.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>PrecursorLegacy</S_TechRequirement>
+    <Research>10</Research>
+    <EconomicBonus>10</EconomicBonus>
+    <PrestigeBonus>10</PrestigeBonus>
+  </Improvement>
+  <!--Research Thalan-->
+  <Improvement>
+    <S_InternalName>Technology Matrix L1</S_InternalName>
+    <S_Name>Technology Matrix L1</S_Name>
+    <AI>5</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>12</Maintenance>
+    <Cost>100</Cost>
+    <S_BriefDescription>Improves our research capability</S_BriefDescription>
+    <S_Description>The maintenance on these structures are painful, but they produce immense amounts of research.</S_Description>
+    <S_IconName>ThalanLab1.png</S_IconName>
+    <S_QueryGraphicName>ThalanLab1.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>TechnologyAdaptation1</S_TechRequirement>
+    <Research>10</Research>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Technology Matrix L2</S_InternalName>
+    <S_Name>Technology Matrix L2</S_Name>
+    <AI>5</AI>
+    <S_UpgradeTarget>Technology Matrix L1</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>7</Maintenance>
+    <Cost>200</Cost>
+    <S_BriefDescription>Improves our research capability</S_BriefDescription>
+    <S_Description>The maintenance on these structures are bad, but better than they were and produce immense amounts of research.</S_Description>
+    <S_IconName>ThalanLab2.png</S_IconName>
+    <S_QueryGraphicName>ThalanLab2.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>TechnologyAdaptation2</S_TechRequirement>
+    <Research>11</Research>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Technology Matrix L3</S_InternalName>
+    <S_Name>Technology Matrix L3</S_Name>
+    <AI>20</AI>
+    <S_UpgradeTarget>Technology Matrix L2</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>300</Cost>
+    <S_BriefDescription>Improves our research capability</S_BriefDescription>
+    <S_Description>The maintenance on these are competitive with other civilizations and produce more technology than any other similar tech.</S_Description>
+    <S_IconName>ThalanLab3.png</S_IconName>
+    <S_QueryGraphicName>ThalanLab3.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>TechnologyAdaptation3</S_TechRequirement>
+    <Research>12</Research>
+  </Improvement>
+  <!--Research Torians-->
+  <Improvement>
+    <S_InternalName>School</S_InternalName>
+    <S_Name>School</S_Name>
+    <AI>20</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>25</Cost>
+    <S_BriefDescription>Increases Research</S_BriefDescription>
+    <S_Description>Schools increase the knowledge output of society.</S_Description>
+    <S_IconName>TorianSchool1.png</S_IconName>
+    <S_QueryGraphicName>TorianSchool1.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Inherited Technology</S_TechRequirement>
+    <Research>3</Research>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>University</S_InternalName>
+    <S_Name>University</S_Name>
+    <AI>20</AI>
+    <S_UpgradeTarget>School</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>3</Maintenance>
+    <Cost>70</Cost>
+    <S_BriefDescription>Increases Research</S_BriefDescription>
+    <S_Description>Universities provide additional research for the planet.</S_Description>
+    <S_IconName>TorianSchool2.png</S_IconName>
+    <S_QueryGraphicName>TorianSchool2.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>University</S_TechRequirement>
+    <Research>5</Research>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>City of Learning</S_InternalName>
+    <S_Name>City of Learning</S_Name>
+    <AI>20</AI>
+    <S_UpgradeTarget>University</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>5</Maintenance>
+    <Cost>100</Cost>
+    <S_BriefDescription>Increases research production</S_BriefDescription>
+    <S_Description>A massive city dedicated to researching new technology.</S_Description>
+    <S_IconName>TorianSchool3.png</S_IconName>
+    <S_QueryGraphicName>TorianSchool3.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>City of Learning</S_TechRequirement>
+    <Research>8</Research>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Technology Commune</S_InternalName>
+    <S_Name>Technology Commune</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>30</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>5</Maintenance>
+    <Cost>250</Cost>
+    <S_BriefDescription>Increases Research Production by 20%</S_BriefDescription>
+    <S_Description>The best of the best come here to research new technologies.</S_Description>
+    <S_IconName>TorianSchool4.png</S_IconName>
+    <S_QueryGraphicName>TorianSchool4.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Technology Commune</S_TechRequirement>
+    <ResearchBonus>20</ResearchBonus>
+  </Improvement>
+  <!--Research Yor-->
+  <Improvement>
+    <S_InternalName>Research Matrix</S_InternalName>
+    <S_Name>Research Matrix</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>1000</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>3</Maintenance>
+    <Cost>50</Cost>
+    <S_BriefDescription>Integrates research into planet capital</S_BriefDescription>
+    <S_Description>The Research Matrix integrates what research is occurring on the planet into the planet's capital, resulting in a significant improvement in research.</S_Description>
+    <S_IconName>ResearchMatrix.png</S_IconName>
+    <S_QueryGraphicName>ResearchMatrix.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Cybernetic History</S_TechRequirement>
+    <Research>10</Research>
+  </Improvement>
+  <!--Economics-->
+  <Improvement>
+    <S_InternalName>Market Center</S_InternalName>
+    <S_Name>Market Center</S_Name>
+    <AI>30</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>30</Cost>
+    <S_BriefDescription>Boosts economic output of planet.</S_BriefDescription>
+    <S_Description>Provides a public place for colonists to buy and sell things.</S_Description>
+    <S_IconName>market1.png</S_IconName>
+    <S_QueryGraphicName>market1.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Capitalism</S_TechRequirement>
+    <EconomicBonus>10</EconomicBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Market Center</S_InternalName>
+    <S_Name>Minor Market Center</S_Name>
+    <AI>30</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>30</Cost>
+    <S_BriefDescription>Boosts economic output of planet.</S_BriefDescription>
+    <S_Description>Provides a public place for colonists to buy and sell things.</S_Description>
+    <S_IconName>market1.png</S_IconName>
+    <S_QueryGraphicName>market1.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>MinorCapitalism</S_TechRequirement>
+    <EconomicBonus>10</EconomicBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Adv. Market Center</S_InternalName>
+    <S_Name>Adv. Market Center</S_Name>
+    <AI>30</AI>
+    <S_UpgradeTarget>Market Center</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>60</Cost>
+    <S_BriefDescription>Boosts economic output of planet.</S_BriefDescription>
+    <S_Description>Provides a public place for colonists to buy and sell things.</S_Description>
+    <S_IconName>Market2.png</S_IconName>
+    <S_QueryGraphicName>Market2.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>XenoEconomics</S_TechRequirement>
+    <EconomicBonus>12</EconomicBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Trade Center</S_InternalName>
+    <S_Name>Trade Center</S_Name>
+    <AI>30</AI>
+    <S_UpgradeTarget>Adv. Market Center</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>90</Cost>
+    <S_BriefDescription>Boosts economic output of planet.</S_BriefDescription>
+    <S_Description>Provides a sophisticated public place for colonists to buy and sell things.</S_Description>
+    <S_IconName>Market3.png</S_IconName>
+    <S_QueryGraphicName>Market3.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Xeno Trade Centers</S_TechRequirement>
+    <EconomicBonus>15</EconomicBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Banking Center</S_InternalName>
+    <S_Name>Banking Center</S_Name>
+    <AI>30</AI>
+    <S_UpgradeTarget>Trade Center</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>120</Cost>
+    <S_BriefDescription>Increases economy.</S_BriefDescription>
+    <S_Description>The banking center will increase the taxes we collect from this planet.</S_Description>
+    <S_IconName>BankingCenter.png</S_IconName>
+    <S_QueryGraphicName>BankingCenter.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Xeno Bank Construction</S_TechRequirement>
+    <EconomicBonus>20</EconomicBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>StockMarket</S_InternalName>
+    <S_Name>Stock Market</S_Name>
+    <AI>30</AI>
+    <S_UpgradeTarget>Banking Center</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>150</Cost>
+    <S_BriefDescription>Increases economy.</S_BriefDescription>
+    <S_Description>A stock market will significantly improve our economic output on this planet.</S_Description>
+    <S_IconName>StockMarket.png</S_IconName>
+    <S_QueryGraphicName>StockMarket.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Galactic Stock Exchanges</S_TechRequirement>
+    <EconomicBonus>25</EconomicBonus>
+  </Improvement>
+  <!--Economics Iconians-->
+  <Improvement>
+    <S_InternalName>Barter Station</S_InternalName>
+    <S_Name>Barter Station</S_Name>
+    <AI>30</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>25</Cost>
+    <S_BriefDescription>Improves economic production</S_BriefDescription>
+    <S_Description>A place for merchants to meet and negotiate trade deals.</S_Description>
+    <S_IconName>TradeComplex1.png</S_IconName>
+    <S_QueryGraphicName>TradeComplex1.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>InterstellarBartering</S_TechRequirement>
+    <EconomicBonus>10</EconomicBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>MerchantEmporium</S_InternalName>
+    <S_Name>Merchant Emporium</S_Name>
+    <AI>30</AI>
+    <S_UpgradeTarget>Barter Station</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>50</Cost>
+    <S_BriefDescription>Improves economic output</S_BriefDescription>
+    <S_Description>A huge area for merchants to gather to make trades.</S_Description>
+    <S_IconName>TradeComplex2.png</S_IconName>
+    <S_QueryGraphicName>TradeComplex2.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>MerchantEmporiums</S_TechRequirement>
+    <EconomicBonus>15</EconomicBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Merchant Trade Complex</S_InternalName>
+    <S_Name>Merchant Trade Complex</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>200</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>250</Cost>
+    <S_BriefDescription>Increases economic output</S_BriefDescription>
+    <S_Description>This massive complex allows our people to coordinate trade across the planet.</S_Description>
+    <S_IconName>TradeComplex3.png</S_IconName>
+    <S_QueryGraphicName>TradeComplex3.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>MerchantTradeComplexes</S_TechRequirement>
+    <EconomicBonus>50</EconomicBonus>
+  </Improvement>
+  <!--Economics Korath-->
+  <Improvement>
+    <S_InternalName>Black Market</S_InternalName>
+    <S_Name>Black Market</S_Name>
+    <AI>30</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>30</Cost>
+    <S_BriefDescription>Boosts economic output of planet.</S_BriefDescription>
+    <S_Description>Provides a public place for colonists to buy and sell things.</S_Description>
+    <S_IconName>BlackMarket.png</S_IconName>
+    <S_QueryGraphicName>BlackMarket.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>BlackMarket</S_TechRequirement>
+    <EconomicBonus>10</EconomicBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Trade Den</S_InternalName>
+    <S_Name>Trader's Den</S_Name>
+    <AI>30</AI>
+    <S_UpgradeTarget>Black Market</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>60</Cost>
+    <S_BriefDescription>Increases tax revenue.</S_BriefDescription>
+    <S_Description>A place for lowly merchants to get together and do whatever it is they do that we then skim off the top.</S_Description>
+    <S_IconName>TradersDen.png</S_IconName>
+    <S_QueryGraphicName>TradersDen.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>CutthroatTrading</S_TechRequirement>
+    <EconomicBonus>15</EconomicBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Malicious Bazaar</S_InternalName>
+    <S_Name>Malicious Bazaar</S_Name>
+    <AI>30</AI>
+    <S_UpgradeTarget>Trade Den</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>90</Cost>
+    <S_BriefDescription>Increases tax revenue.</S_BriefDescription>
+    <S_Description>The malicious bazaar sends our most ruthless merchants into action in an effort to win the best deal for the empire.</S_Description>
+    <S_IconName>TheivesWarehouse.png</S_IconName>
+    <S_QueryGraphicName>TheivesWarehouse.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>MaliciousBargaining</S_TechRequirement>
+    <EconomicBonus>20</EconomicBonus>
+  </Improvement>
+  <!--Entertainment-->
+  <!--Entertainment Drath -->
+  <Improvement>
+    <S_InternalName>Minor Hatchling Mound</S_InternalName>
+    <S_Name>Minor Hatchling Mound</S_Name>
+    <AI>50</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>50</Cost>
+    <S_BriefDescription>Increases morale</S_BriefDescription>
+    <S_Description>Our kind has few joys in life. Watching our hatchlings grow and play is one of them.</S_Description>
+    <S_IconName>HiveFactory.png</S_IconName>
+    <S_QueryGraphicName>HiveFactory.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>WayOfTheDrath</S_TechRequirement>
+    <MoraleBonus>15</MoraleBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Hatchling Mound</S_InternalName>
+    <S_Name>Hatchling Mound</S_Name>
+    <AI>50</AI>
+    <S_UpgradeTarget>Minor Hatchling Mound</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>100</Cost>
+    <S_BriefDescription>Increases morale</S_BriefDescription>
+    <S_Description>Our kind has few joys in life. Watching out hatchlings grow is one of them.</S_Description>
+    <S_IconName>HiveFactory.png</S_IconName>
+    <S_QueryGraphicName>HiveFactory.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>HatchlingMound</S_TechRequirement>
+    <MoraleBonus>25</MoraleBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>EntertainmentNetwork</S_InternalName>
+    <S_Name>Entertainment Network</S_Name>
+    <AI>30</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>55</Cost>
+    <S_BriefDescription>Increases happiness.</S_BriefDescription>
+    <S_Description>Life is better with the Entertainment Network. Over 5000 channels of fun!</S_Description>
+    <S_IconName>MoraleImp1.png</S_IconName>
+    <S_QueryGraphicName>MoraleImp1.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>Innovative History</S_TechRequirement>
+    <MoraleBonus>15</MoraleBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>EntertainmentNetwork</S_InternalName>
+    <S_Name>Entertainment Network</S_Name>
+    <AI>50</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>55</Cost>
+    <S_BriefDescription>Increases happiness.</S_BriefDescription>
+    <S_Description>Life is better with the Entertainment Network. Over 5000 channels of fun!</S_Description>
+    <S_IconName>MoraleImp1.png</S_IconName>
+    <S_QueryGraphicName>MoraleImp1.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>A history of Mercantilism</S_TechRequirement>
+    <MoraleBonus>15</MoraleBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>EntertainmentNetwork</S_InternalName>
+    <S_Name>Entertainment Network</S_Name>
+    <AI>50</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>55</Cost>
+    <S_BriefDescription>Increases happiness.</S_BriefDescription>
+    <S_Description>Life is better with the Entertainment Network. Over 5000 channels of fun!</S_Description>
+    <S_IconName>MoraleImp1.png</S_IconName>
+    <S_QueryGraphicName>MoraleImp1.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>GloriousHistory</S_TechRequirement>
+    <MoraleBonus>15</MoraleBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>EntertainmentNetwork</S_InternalName>
+    <S_Name>Minor Entertainment Network</S_Name>
+    <AI>50</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>55</Cost>
+    <S_BriefDescription>Increases happiness.</S_BriefDescription>
+    <S_Description>Life is better with the Entertainment Network. Over 5000 channels of fun!</S_Description>
+    <S_IconName>MoraleImp1.png</S_IconName>
+    <S_QueryGraphicName>MoraleImp1.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>MinorHistory</S_TechRequirement>
+    <MoraleBonus>15</MoraleBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Multimedia Center</S_InternalName>
+    <S_Name>Multimedia Center</S_Name>
+    <AI>50</AI>
+    <S_UpgradeTarget>EntertainmentNetwork</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>110</Cost>
+    <S_BriefDescription>Increases happiness.</S_BriefDescription>
+    <S_Description>Hook up everyone to a planet wide multimedia system.</S_Description>
+    <S_IconName>MoraleImp2.png</S_IconName>
+    <S_QueryGraphicName>MoraleImp2.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>Xeno Entertainment</S_TechRequirement>
+    <MoraleBonus>20</MoraleBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Extreme Stadium</S_InternalName>
+    <S_Name>Extreme Stadium</S_Name>
+    <AI>50</AI>
+    <S_UpgradeTarget>Multimedia Center</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>165</Cost>
+    <S_BriefDescription>Increases happiness.</S_BriefDescription>
+    <S_Description>Death defying fun and adventure for your amusement.</S_Description>
+    <S_IconName>Stadium.png</S_IconName>
+    <S_QueryGraphicName>Stadium.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>ExtremeEntertainment</S_TechRequirement>
+    <MoraleBonus>25</MoraleBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Zero G Sports Arena</S_InternalName>
+    <S_Name>Zero-G Sports Arena</S_Name>
+    <AI>50</AI>
+    <S_UpgradeTarget>Extreme Stadium</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>220</Cost>
+    <S_BriefDescription>Increases happiness.</S_BriefDescription>
+    <S_Description>Teams battle it out without gravity.</S_Description>
+    <S_IconName>SportsmansColiseum.png</S_IconName>
+    <S_QueryGraphicName>SportsmansColiseum.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>ZeroGSportsArena</S_TechRequirement>
+    <MoraleBonus>30</MoraleBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Virtual Reality Center</S_InternalName>
+    <S_Name>Virtual Reality Center</S_Name>
+    <AI>50</AI>
+    <S_UpgradeTarget>Zero G Sports Arena</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>275</Cost>
+    <S_BriefDescription>Increases happiness.</S_BriefDescription>
+    <S_Description>Life is better with the Virtual Center! Quad-D imaging and Octophonic sound rock!</S_Description>
+    <S_IconName>Planetary_Mall.png</S_IconName>
+    <S_QueryGraphicName>Planetary_Mall.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>Virtual Reality Centers</S_TechRequirement>
+    <MoraleBonus>40</MoraleBonus>
+  </Improvement>
+  <!--Entertainment Altarians/Drath-->
+  <Improvement>
+    <S_InternalName>Drathian Temple</S_InternalName>
+    <S_Name>Traditional Temple</S_Name>
+    <AI>50</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>50</Cost>
+    <S_BriefDescription>Increases morale</S_BriefDescription>
+    <S_Description>Temples bring joy to the people.</S_Description>
+    <S_IconName>Temple.png</S_IconName>
+    <S_QueryGraphicName>Temple.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>A history of benevolence</S_TechRequirement>
+    <MoraleBonus>15</MoraleBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Temple</S_InternalName>
+    <S_Name>Temple</S_Name>
+    <AI>50</AI>
+    <S_UpgradeTarget>Drathian Temple</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>100</Cost>
+    <S_BriefDescription>Increases morale.</S_BriefDescription>
+    <S_Description>Offer sacrifices, attend rituals, and take a look at those sacred virgins.</S_Description>
+    <S_IconName>Temple.png</S_IconName>
+    <S_QueryGraphicName>Temple.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>Temples</S_TechRequirement>
+    <MoraleBonus>25</MoraleBonus>
+  </Improvement>
+  <!--Entertainment Drengin/Korath-->
+  <Improvement>
+    <S_InternalName>DrenginArena</S_InternalName>
+    <S_Name>Arena</S_Name>
+    <AI>5</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>60</Cost>
+    <S_BriefDescription>Increases morale.</S_BriefDescription>
+    <S_Description>The beatings will continue until morale improves.</S_Description>
+    <S_IconName>EvilArena.png</S_IconName>
+    <S_QueryGraphicName>EvilArena.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>RuthlessHistory</S_TechRequirement>
+    <MoraleBonus>12</MoraleBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Arena</S_InternalName>
+    <S_Name>Arena of Agony</S_Name>
+    <AI>5</AI>
+    <S_UpgradeTarget>DrenginArena</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>120</Cost>
+    <S_BriefDescription>Increases morale.</S_BriefDescription>
+    <S_Description>Gladiators compete to bring entertainment to the slaves! Guess who the gladiators are...</S_Description>
+    <S_IconName>ArenaOfAgony.png</S_IconName>
+    <S_QueryGraphicName>ArenaOfAgony.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>ArenasI</S_TechRequirement>
+    <MoraleBonus>20</MoraleBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Slaughtertorium</S_InternalName>
+    <S_Name>Slaughtertorium</S_Name>
+    <AI>5</AI>
+    <S_UpgradeTarget>Arena</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>180</Cost>
+    <S_BriefDescription>Increases morale.</S_BriefDescription>
+    <S_Description>Death for your amusement.</S_Description>
+    <S_IconName>Slaughtertorium.png</S_IconName>
+    <S_QueryGraphicName>Slaughtertorium.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>ArenasII</S_TechRequirement>
+    <MoraleBonus>30</MoraleBonus>
+  </Improvement>
+  <!--Entertainment Iconians-->
+  <Improvement>
+    <S_InternalName>Dream Conclave</S_InternalName>
+    <S_Name>Dream Conclave</S_Name>
+    <AI>50</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>75</Cost>
+    <S_BriefDescription>Improves Morale</S_BriefDescription>
+    <S_Description>Dream Conclaves provide a virtual reality like experience for the people which provides an almost unlimited source of entertainment.</S_Description>
+    <S_IconName>DreamConclave.png</S_IconName>
+    <S_QueryGraphicName>DreamConclave.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>PrecursorLegacy</S_TechRequirement>
+    <MoraleBonus>25</MoraleBonus>
+  </Improvement>
+  <!--Entertainment Thalan-->
+  <Improvement>
+    <S_InternalName>Recuperation Center</S_InternalName>
+    <S_Name>Recuperation Center</S_Name>
+    <AI>50</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>50</Cost>
+    <S_BriefDescription>Improves morale</S_BriefDescription>
+    <S_Description>Our race needs to meditate to manage stress. Recuperation Centers provide an environment to regain our sense of oneness.</S_Description>
+    <S_IconName>ZeroGAmusement.png</S_IconName>
+    <S_QueryGraphicName>ZeroGAmusement.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>PlanetaryAdaptation</S_TechRequirement>
+    <MoraleBonus>25</MoraleBonus>
+  </Improvement>
+  <!--Entertainment Torians-->
+  <Improvement>
+    <S_InternalName>Temple of Memories</S_InternalName>
+    <S_Name>Temple of Memories</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>200</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>25</Cost>
+    <S_BriefDescription>Increases morale</S_BriefDescription>
+    <S_Description>The Temple of Memories is a dedication to our traditional way of life that has been largely wiped out by the sudden leap into an industrialized society. Each world is encouraged to build a Temple of Memories in order to preserve our history.</S_Description>
+    <S_IconName>TempleOfMemories1.png</S_IconName>
+    <S_QueryGraphicName>TempleOfMemories1.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>TorianHistory</S_TechRequirement>
+    <MoraleBonus>15</MoraleBonus>
+    <PrestigeBonus>15</PrestigeBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>HealingPools</S_InternalName>
+    <S_Name>Healing Pools</S_Name>
+    <AI>50</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>55</Cost>
+    <S_BriefDescription>Boosts Morale.</S_BriefDescription>
+    <S_Description>Healing Pools boost a planet's morale by supplying public areas for the citizens to rest and relax.</S_Description>
+    <S_IconName>HealingPools.png</S_IconName>
+    <S_QueryGraphicName>HealingPools.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>HealingPools</S_TechRequirement>
+    <MoraleBonus>18</MoraleBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>WellnessFalls</S_InternalName>
+    <S_Name>Wellness Falls</S_Name>
+    <AI>50</AI>
+    <S_UpgradeTarget>HealingPools</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>110</Cost>
+    <S_BriefDescription>Boosts Morale.</S_BriefDescription>
+    <S_Description>Let your citizens' worries wash away beneath the refreshing 'Wellness Falls'.</S_Description>
+    <S_IconName>WellnessFalls.png</S_IconName>
+    <S_QueryGraphicName>WellnessFalls.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>WellnessFalls</S_TechRequirement>
+    <MoraleBonus>25</MoraleBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>TidesOfCleansing</S_InternalName>
+    <S_Name>Tides of Cleansing</S_Name>
+    <AI>50</AI>
+    <S_UpgradeTarget>WellnessFalls</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>165</Cost>
+    <S_BriefDescription>Boosts Morale.</S_BriefDescription>
+    <S_Description>Using an enhanced form of coral, the 'Tides of Cleansing' are rhythmically perfected waves, heated to the optimum temperature for soothing ones soul.</S_Description>
+    <S_IconName>TidesOfCleansing.png</S_IconName>
+    <S_QueryGraphicName>TidesOfCleansing.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>TidesOfCleansing</S_TechRequirement>
+    <MoraleBonus>35</MoraleBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>HotSprings</S_InternalName>
+    <S_Name>Hot Springs</S_Name>
+    <AI>50</AI>
+    <S_UpgradeTarget>TidesOfCleansing</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>220</Cost>
+    <S_BriefDescription>Boosts Morale.</S_BriefDescription>
+    <S_Description>Mineral rich spring water is tapped to the surface, giving citizens from all walks of life a natural and instant boost in their wellbeing.</S_Description>
+    <S_IconName>Hotsprings.png</S_IconName>
+    <S_QueryGraphicName>Hotsprings.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>TorianHotSprings</S_TechRequirement>
+    <MoraleBonus>50</MoraleBonus>
+  </Improvement>
+  <!--Farming-->
+  <Improvement>
+    <S_InternalName>BasicFarm</S_InternalName>
+    <S_Name>Basic Farm</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>25</Cost>
+    <S_BriefDescription>Increases population cap.</S_BriefDescription>
+    <S_Description>Grow enough food to feed 2 billion more people.</S_Description>
+    <S_IconName>IntensiveFarming.png</S_IconName>
+    <S_QueryGraphicName>IntensiveFarming.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>IndustrialRevolution</S_TechRequirement>
+    <FoodProductionBonus>25</FoodProductionBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>BasicFarm</S_InternalName>
+    <S_Name>Slave Farm</S_Name>
+    <AI>20</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>25</Cost>
+    <S_BriefDescription>Increases population cap.</S_BriefDescription>
+    <S_Description>Grow enough food to feed 2 billion more people.</S_Description>
+    <S_IconName>IntensiveFarming.png</S_IconName>
+    <S_QueryGraphicName>IntensiveFarming.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>TraditionalSlavery</S_TechRequirement>
+    <FoodProductionBonus>25</FoodProductionBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>BasicFarm</S_InternalName>
+    <S_Name>Minor Farm</S_Name>
+    <AI>20</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>25</Cost>
+    <S_BriefDescription>Increases population cap.</S_BriefDescription>
+    <S_Description>Grow enough food to feed 2 billion more people.</S_Description>
+    <S_IconName>IntensiveFarming.png</S_IconName>
+    <S_QueryGraphicName>IntensiveFarming.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>MinorIndustrialRevolution</S_TechRequirement>
+    <FoodProductionBonus>25</FoodProductionBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>BasicFarming</S_InternalName>
+    <S_Name>Xeno Farm</S_Name>
+    <AI>20</AI>
+    <S_UpgradeTarget>BasicFarm</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>50</Cost>
+    <S_BriefDescription>Increases population cap.</S_BriefDescription>
+    <S_Description>Grow enough food to feed 3 billion more people.</S_Description>
+    <S_IconName>Paradise_Farming.png</S_IconName>
+    <S_QueryGraphicName>Paradise_Farming.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>Xeno Farm Construction</S_TechRequirement>
+    <FoodProductionBonus>40</FoodProductionBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>XenoFarming</S_InternalName>
+    <S_Name>Enhanced Xeno Farm</S_Name>
+    <AI>20</AI>
+    <S_UpgradeTarget>BasicFarming</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>75</Cost>
+    <S_BriefDescription>Increases population cap.</S_BriefDescription>
+    <S_Description>Grow enough food to feed 4 billion people.</S_Description>
+    <S_IconName>AdvFarm.png</S_IconName>
+    <S_QueryGraphicName>AdvFarm.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>Xeno Farm Construction II</S_TechRequirement>
+    <FoodProductionBonus>50</FoodProductionBonus>
+  </Improvement>
+  <!--Farming Iconians-->
+  <Improvement>
+    <S_InternalName>Robotic Farming</S_InternalName>
+    <S_Name>Robotic Farm</S_Name>
+    <AI>20</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>50</Cost>
+    <S_BriefDescription>Produces Food, increases population limit</S_BriefDescription>
+    <S_Description>A Robotic Farm makes use of advanced robots to grow the food for the population.</S_Description>
+    <S_IconName>RoboticFarming.png</S_IconName>
+    <S_QueryGraphicName>RoboticFarming.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>AdvancedRobotics</S_TechRequirement>
+    <FoodProductionBonus>40</FoodProductionBonus>
+  </Improvement>
+  <!--Farming Torians-->
+  <Improvement>
+    <S_InternalName>Harvestor</S_InternalName>
+    <S_Name>Harvester</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>40</Cost>
+    <S_BriefDescription>Increase population growth and limit</S_BriefDescription>
+    <S_Description>Centralize harvesting on the planet with the planetary harvester. It coordinates the thousands of tiny farms around the world to increase food production by 4mt.</S_Description>
+    <S_IconName>FoodHarvester1.png</S_IconName>
+    <S_QueryGraphicName>FoodHarvester1.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>Inherited Technology</S_TechRequirement>
+    <PopulationGrowthBonus>5</PopulationGrowthBonus>
+    <FoodProductionBonus>50</FoodProductionBonus>
+  </Improvement>
+  <!--Farming Yor-->
+  <Improvement>
+    <S_InternalName>Basic Stalk</S_InternalName>
+    <S_Name>Basic Stalk</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>25</Cost>
+    <S_BriefDescription>Provides slight population growth and morale improvement.</S_BriefDescription>
+    <S_Description>Cybernetic organisms rely on energy stalks for their population management and sense of well being.</S_Description>
+    <S_IconName>ChargingStalks.png</S_IconName>
+    <S_QueryGraphicName>ChargingStalks.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>Cybernetic History</S_TechRequirement>
+    <MoraleBonus>10</MoraleBonus>
+    <FoodProductionBonus>15</FoodProductionBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Charging Stalks</S_InternalName>
+    <S_Name>Charging Stalks</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>Basic Stalk</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>50</Cost>
+    <S_BriefDescription>Increases population cap and morale</S_BriefDescription>
+    <S_Description>Charging Stalks help channel the spark of life from its ultimate source to our people which allows us to maintain and build our population. It also gives our people a sense of well being.</S_Description>
+    <S_IconName>ChargingStalks2.png</S_IconName>
+    <S_QueryGraphicName>ChargingStalks.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>ChargingStalks</S_TechRequirement>
+    <MoraleBonus>20</MoraleBonus>
+    <FoodProductionBonus>25</FoodProductionBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Advanced Charging Stalks</S_InternalName>
+    <S_Name>Advanced Charging Stalks</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>Charging Stalks</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>75</Cost>
+    <S_BriefDescription>Increases population cap and morale</S_BriefDescription>
+    <S_Description>Charging Stalks help channel the spark of life from its ultimate source to our people which allows us to maintain and build our population. It also gives our people a sense of well being.</S_Description>
+    <S_IconName>ChargingStalks3.png</S_IconName>
+    <S_QueryGraphicName>ChargingStalks.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>Advanced Charging Stalks</S_TechRequirement>
+    <MoraleBonus>30</MoraleBonus>
+    <FoodProductionBonus>40</FoodProductionBonus>
+  </Improvement>
+  <!--Terraforming-->
+  <Improvement>
+    <S_InternalName>SoilEnhancement</S_InternalName>
+    <S_Name>Soil Enhancement</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>50</Cost>
+    <S_BriefDescription>Turns yellow tiles to useable tiles.</S_BriefDescription>
+    <EnhanceLevel>1</EnhanceLevel>
+    <S_Description>By pumping the newest bio-chemicals into the planets outermost layers, we can significantly improve its quality.</S_Description>
+    <S_IconName>SoilEnhancement.png</S_IconName>
+    <S_QueryGraphicName>SoilEnhancement.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>Soil Enhancement</S_TechRequirement>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>HabitatImprovement</S_InternalName>
+    <S_Name>Habitat Improvement</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>50</Cost>
+    <S_BriefDescription>Upgrades orange tiles.</S_BriefDescription>
+    <EnhanceLevel>2</EnhanceLevel>
+    <S_Description>A step beyond enhancing the quality of the soil, building Habitat Improvement will give scientists the proper facilities for full blown biological recreation.</S_Description>
+    <S_IconName>HabitatImprovement.png</S_IconName>
+    <S_QueryGraphicName>HabitatImprovement.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>Habitat Improvement</S_TechRequirement>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Terraforming</S_InternalName>
+    <S_Name>Terraforming</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>50</Cost>
+    <S_BriefDescription>Upgrades red tiles.</S_BriefDescription>
+    <EnhanceLevel>3</EnhanceLevel>
+    <S_Description>Through a series of subterranean conduits, we'll have the ability to replenish and strengthen the planet.</S_Description>
+    <S_IconName>Terraforming.png</S_IconName>
+    <S_QueryGraphicName>TheTerraformer.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>Terraforming</S_TechRequirement>
+  </Improvement>
+  <!--Terraforming Altrians-->
+  <Improvement>
+    <S_InternalName>Biosphere Modulator</S_InternalName>
+    <S_Name>Biosphere Modulator</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>200</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>3</Maintenance>
+    <Cost>100</Cost>
+    <S_BriefDescription>Increases planet quality by 3.</S_BriefDescription>
+    <S_Description>The Biosphere Modulator takes our understanding of how species evolve on planets and puts it to use in maximizing the biological stability of a planet. In essence, we make the planet adapt to us.</S_Description>
+    <S_IconName>BiosphereModulator.png</S_IconName>
+    <S_QueryGraphicName>BiosphereModulator.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <Indestructable>1</Indestructable>
+    <ManualDestruction>0</ManualDestruction>
+    <S_TechRequirement>DivergentEvolution</S_TechRequirement>
+    <PlanetQualityChange>3</PlanetQualityChange>
+  </Improvement>
+  <!--Terraforming Arceans-->
+  <Improvement>
+    <S_InternalName>Weather Control Zenith</S_InternalName>
+    <S_Name>Weather Control Zenith</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>200</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>2</Maintenance>
+    <Cost>60</Cost>
+    <S_BriefDescription>Increases planet quality by 3.</S_BriefDescription>
+    <S_Description>By controlling planetary weather, the planet quality will go up by 3.</S_Description>
+    <S_IconName>WeatherControl1.png</S_IconName>
+    <S_QueryGraphicName>WeatherControl1.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <Indestructable>1</Indestructable>
+    <ManualDestruction>0</ManualDestruction>
+    <S_TechRequirement>WeatherControl</S_TechRequirement>
+    <PlanetQualityChange>3</PlanetQualityChange>
+  </Improvement>
+  <!--Biology-->
+  <Improvement>
+    <S_InternalName>Recruiting Center</S_InternalName>
+    <S_Name>Recruiting Center</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>1000</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>25</Cost>
+    <S_BriefDescription>Increases population growth</S_BriefDescription>
+    <S_Description>It is important to note that population on our planets is only the population of citizens. Citizenship can be earned through either military service or by becoming a tax payer. During good economic times, populations can increase dramatically. The Recruiting Center makes it easier for people to register for service which increases our official population.</S_Description>
+    <S_IconName>MedicalTheory.png</S_IconName>
+    <S_QueryGraphicName>MedicalTheory.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Space Militarization</S_TechRequirement>
+    <PopulationGrowthBonus>20</PopulationGrowthBonus>
+    <EconomicBonus>10</EconomicBonus>
+  </Improvement>
+  <!--Defense-->
+  <Improvement>
+    <S_InternalName>CounterespionageCenter</S_InternalName>
+    <S_Name>Counter Espionage Center</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>50</AI>
+    <S_Type>Normal</S_Type>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <Maintenance>1</Maintenance>
+    <Cost>100</Cost>
+    <S_BriefDescription>Planet Spy Immunity</S_BriefDescription>
+    <S_Description>Building a Counter-Espionage Center on this planet will make it immune to foreign agents.</S_Description>
+    <S_IconName>CounterespCenter.png</S_IconName>
+    <S_QueryGraphicName>UpgradedStarport.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>Counter Espionage</S_TechRequirement>
+    <MoraleBonus>20</MoraleBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>StarSystemDefense</S_InternalName>
+    <S_Name>Planetary Defense</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>1</Maintenance>
+    <Cost>100</Cost>
+    <S_BriefDescription>Increases planet defense.</S_BriefDescription>
+    <S_Description>Gives a 25% boost to your planet's invasion defenses.</S_Description>
+    <S_IconName>StarSystemDefense.png</S_IconName>
+    <S_QueryGraphicName>StarSystemDefense.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>Planetary Defense</S_TechRequirement>
+    <PlanetaryDefenseBonus>25</PlanetaryDefenseBonus>
+  </Improvement>
+  <!--Defense Arceans-->
+  <Improvement>
+    <S_InternalName>Space Cannon</S_InternalName>
+    <S_Name>Space Cannon</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>20</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>Normal</S_Type>
+    <Maintenance>3</Maintenance>
+    <Cost>50</Cost>
+    <S_BriefDescription>Increases planetary defense by 50%</S_BriefDescription>
+    <S_Description>The Space Cannon makes attacking and invading this planet much more difficult.</S_Description>
+    <S_IconName>BigGun1.png</S_IconName>
+    <S_QueryGraphicName>BigGun1.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>PlanetaryFortification</S_TechRequirement>
+    <PlanetaryDefenseBonus>50</PlanetaryDefenseBonus>
+  </Improvement>
+  <!--Trade Goods-->
+  <Improvement>
+    <S_InternalName>TriStrontiumSteel</S_InternalName>
+    <S_Name>Xinathium Hull Plating</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>TradeGood</S_Type>
+    <SpecialID>1</SpecialID>
+    <Maintenance>0</Maintenance>
+    <Cost>600</Cost>
+    <S_BriefDescription>Makes ships tougher.</S_BriefDescription>
+    <S_Description>This proprietary metal will allow all our ships to be 15% more durable (hitpoints).</S_Description>
+    <S_IconName>TradeGood5.png</S_IconName>
+    <S_QueryGraphicName>TradeGood5.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>Advanced Hulls</S_TechRequirement>
+    <AbilityType>12</AbilityType>
+    <AbilityAmount>15</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>DiplomaticTranslators</S_InternalName>
+    <S_Name>Diplomatic Translators</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>TradeGood</S_Type>
+    <SpecialID>2</SpecialID>
+    <Maintenance>0</Maintenance>
+    <Cost>500</Cost>
+    <S_BriefDescription>Increases diplomacy.</S_BriefDescription>
+    <S_Description>This trade good will give those who use them a 25% diplomacy ability boost.</S_Description>
+    <S_IconName>DiplomaticTranslators.png</S_IconName>
+    <S_QueryGraphicName>DiplomaticTranslators.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Diplomatic Relations</S_TechRequirement>
+    <AbilityType>11</AbilityType>
+    <AbilityAmount>25</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Aphrodisiac</S_InternalName>
+    <S_Name>Aphrodisiac</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>TradeGood</S_Type>
+    <SpecialID>3</SpecialID>
+    <Maintenance>0</Maintenance>
+    <Cost>500</Cost>
+    <S_BriefDescription>Increases birthrate.</S_BriefDescription>
+    <S_Description>This genetically-created spice will increase our population growth rate by an estimated 50%.</S_Description>
+    <S_IconName>aphrodisiac.png</S_IconName>
+    <S_QueryGraphicName>aphrodisiac.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Fertility Accleration</S_TechRequirement>
+    <AbilityType>5</AbilityType>
+    <AbilityAmount>50</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>HarmonyCrystals</S_InternalName>
+    <S_Name>Harmony Crystals</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>TradeGood</S_Type>
+    <SpecialID>4</SpecialID>
+    <Maintenance>0</Maintenance>
+    <Cost>570</Cost>
+    <S_BriefDescription>Increases happiness</S_BriefDescription>
+    <S_Description>This patented crystal design improves the mood of citizens by 20%.</S_Description>
+    <S_IconName>HarmonyCrystals.png</S_IconName>
+    <S_QueryGraphicName>HarmonyCrystals.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Xeno Ethics</S_TechRequirement>
+    <AbilityType>4</AbilityType>
+    <AbilityAmount>20</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>UltraSpices</S_InternalName>
+    <S_Name>Ultra Spices</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>TradeGood</S_Type>
+    <SpecialID>5</SpecialID>
+    <Maintenance>0</Maintenance>
+    <Cost>500</Cost>
+    <S_BriefDescription>Increases happiness.</S_BriefDescription>
+    <S_Description>These spices greatly improve the taste of any food by altering themselves to the taste of any alien (+15% to morale).</S_Description>
+    <S_IconName>TradeGood1.png</S_IconName>
+    <S_QueryGraphicName>TradeGood1.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>ExtremeEntertainment</S_TechRequirement>
+    <AbilityType>4</AbilityType>
+    <AbilityAmount>15</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>VirtualRealityModules</S_InternalName>
+    <S_Name>Virtual Reality Modules</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>TradeGood</S_Type>
+    <SpecialID>6</SpecialID>
+    <Maintenance>0</Maintenance>
+    <Cost>500</Cost>
+    <S_BriefDescription>Increases happiness.</S_BriefDescription>
+    <S_Description>Give our people the ability to experience VR (+12% to morale).</S_Description>
+    <S_IconName>TradeGood2.png</S_IconName>
+    <S_QueryGraphicName>TradeGood2.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Virtual Reality Centers</S_TechRequirement>
+    <AbilityType>4</AbilityType>
+    <AbilityAmount>12</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>FrictionlessClothing</S_InternalName>
+    <S_Name>Frictionless Clothing</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>TradeGood</S_Type>
+    <SpecialID>7</SpecialID>
+    <Maintenance>0</Maintenance>
+    <Cost>510</Cost>
+    <S_BriefDescription>Increases happiness.</S_BriefDescription>
+    <S_Description>Xeno Cultural Trends have let us develop new Xeno Cultural 'Threads'! Mass-Produce a new type of clothing that is incredibly soft for a 10% morale boost.</S_Description>
+    <S_IconName>TradeGood4.png</S_IconName>
+    <S_QueryGraphicName>TradeGood4.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Xeno Cultural Trends</S_TechRequirement>
+    <AbilityType>4</AbilityType>
+    <AbilityAmount>10</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>NanoRecorders</S_InternalName>
+    <S_Name>Nano Recorders</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>TradeGood</S_Type>
+    <SpecialID>8</SpecialID>
+    <Maintenance>0</Maintenance>
+    <Cost>100</Cost>
+    <S_BriefDescription>Increases research.</S_BriefDescription>
+    <S_Description>Aid our researchers by 10% with tiny robots who examine technology projects.</S_Description>
+    <S_IconName>NanoRecorders.png</S_IconName>
+    <S_QueryGraphicName>NanoRecorders.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Sensor2</S_TechRequirement>
+    <AbilityType>8</AbilityType>
+    <AbilityAmount>10</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>GravityAccelerators</S_InternalName>
+    <S_Name>Gravity Accelerators</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>TradeGood</S_Type>
+    <SpecialID>9</SpecialID>
+    <Maintenance>0</Maintenance>
+    <Cost>500</Cost>
+    <S_BriefDescription>Increases ship speed.</S_BriefDescription>
+    <S_Description>This trade good will increase the base speed of your ships by +1.</S_Description>
+    <S_IconName>GravityAccelerators.png</S_IconName>
+    <S_QueryGraphicName>GravityAccelerators.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>InterstellarConstruction</S_TechRequirement>
+    <AbilityType>3</AbilityType>
+    <AbilityAmount>10</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>HyperComputers</S_InternalName>
+    <S_Name>Hyper Computers</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>TradeGood</S_Type>
+    <SpecialID>10</SpecialID>
+    <Maintenance>0</Maintenance>
+    <Cost>540</Cost>
+    <S_BriefDescription>Increases research.</S_BriefDescription>
+    <S_Description>These powerful computers give those who have them a 20% bonus to overall research.</S_Description>
+    <S_IconName>HyperComputers.png</S_IconName>
+    <S_QueryGraphicName>HyperComputers.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Advanced Computing</S_TechRequirement>
+    <AbilityType>8</AbilityType>
+    <AbilityAmount>20</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>MicroRepairBots</S_InternalName>
+    <S_Name>Micro Repair Bots</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>TradeGood</S_Type>
+    <SpecialID>11</SpecialID>
+    <Maintenance>0</Maintenance>
+    <Cost>400</Cost>
+    <S_BriefDescription>Increases repair rate.</S_BriefDescription>
+    <S_Description>These micro robots give starships a 20% bonus to their repair ability.</S_Description>
+    <S_IconName>Microrepairbots.png</S_IconName>
+    <S_QueryGraphicName>Microrepairbots.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Enhanced Miniaturization</S_TechRequirement>
+    <AbilityType>13</AbilityType>
+    <AbilityAmount>20</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>GalacticGuideBook</S_InternalName>
+    <S_Name>Galactic Guide Book</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>TradeGood</S_Type>
+    <SpecialID>12</SpecialID>
+    <Maintenance>0</Maintenance>
+    <Cost>400</Cost>
+    <S_BriefDescription>Increases influence.</S_BriefDescription>
+    <S_Description>This travelling guide to the wonders of the galaxy provides a 15% bonus to the influence ability.</S_Description>
+    <S_IconName>GalacticGuidebook.png</S_IconName>
+    <S_QueryGraphicName>GalacticGuidebook.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Sensor2</S_TechRequirement>
+    <AbilityType>9</AbilityType>
+    <AbilityAmount>15</AbilityAmount>
+  </Improvement>
+  <!--Super Projects-->
+  <Improvement>
+    <S_InternalName>PoliticalCapital</S_InternalName>
+    <S_Name>Political Capital</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>400</Cost>
+    <S_BriefDescription>Greatly increases influence.</S_BriefDescription>
+    <S_Description>This sets a particular planet as our political capital. It doubles its cultural influence.</S_Description>
+    <S_IconName>PoliticalCapital.png</S_IconName>
+    <S_QueryGraphicName>PoliticalCapital.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>InterGov</S_TechRequirement>
+    <PrestigeBonus>100</PrestigeBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>ReeducationCenter</S_InternalName>
+    <S_Name>Re-education Center</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>600</Cost>
+    <S_BriefDescription>Prevents defections.</S_BriefDescription>
+    <S_Description>This center will prevent the planet it is built upon from being conquered culturally.</S_Description>
+    <S_IconName>ReEducationCenter.png</S_IconName>
+    <S_QueryGraphicName>ReEducationCenter.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>Cultural Domination</S_TechRequirement>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>HyperionShipyard</S_InternalName>
+    <S_Name>Hyperion Shipyard</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>700</Cost>
+    <S_BriefDescription>Increases starship quality.</S_BriefDescription>
+    <S_Description>This shipyard will increase the quality of ships built on this world.</S_Description>
+    <S_IconName>HyperionShipyard.png</S_IconName>
+    <S_QueryGraphicName>HyperionShipyard.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Master Hull Building</S_TechRequirement>
+    <StarshipQualityBonus>25</StarshipQualityBonus>
+    <StarshipHPBonus>25</StarshipHPBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>ManufacturingCapital</S_InternalName>
+    <S_Name>Manufacturing Capital</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>400</Cost>
+    <S_BriefDescription>Greatly increases manufacturing.</S_BriefDescription>
+    <S_Description>This sets a particular planet as our manufacturing capital. It doubles its manufacturing output.</S_Description>
+    <S_IconName>ManuFacturingCapital.png</S_IconName>
+    <S_QueryGraphicName>ManuFacturingCapital.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>PlanetaryImprovements</S_TechRequirement>
+    <ManufactureBonus>100</ManufactureBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>TechnologyCapital</S_InternalName>
+    <S_Name>Technological Capital</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>400</Cost>
+    <S_BriefDescription>Greatly increases research.</S_BriefDescription>
+    <S_Description>This sets a particular planet as our research capital. It doubles its research output.</S_Description>
+    <S_IconName>TechnologicalCapital.png</S_IconName>
+    <S_QueryGraphicName>TechnologicalCapital.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Advanced Computing</S_TechRequirement>
+    <ResearchBonus>100</ResearchBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>OmegaResearchCenter</S_InternalName>
+    <S_Name>Omega Research Center</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>500</Cost>
+    <S_BriefDescription>Greatly increases research.</S_BriefDescription>
+    <S_Description>This massive research center will greatly increase the research on this planet.</S_Description>
+    <S_IconName>OmegaResearchCenter.png</S_IconName>
+    <S_QueryGraphicName>OmegaResearchCenter.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Discovery Sphere</S_TechRequirement>
+    <ResearchBonus>50</ResearchBonus>
+    <Research>12</Research>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>EconomicCapital</S_InternalName>
+    <S_Name>Economic Capital</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>400</Cost>
+    <S_BriefDescription>Greatly increases income.</S_BriefDescription>
+    <S_Description>This Super Project sets a particular planet as our financial capital. It doubles its tax revenues.</S_Description>
+    <S_IconName>EconomicCaptial.png</S_IconName>
+    <S_QueryGraphicName>EconomicCaptial.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Trade</S_TechRequirement>
+    <EconomicBonus>100</EconomicBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>GalResort</S_InternalName>
+    <S_Name>Galactic Resort</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>300</Cost>
+    <S_BriefDescription>Increases morale and influence</S_BriefDescription>
+    <S_Description>A relaxing vacation spot for all citizens and tourists on the planet to enjoy.</S_Description>
+    <S_IconName>GalResort.png</S_IconName>
+    <S_QueryGraphicName>HarmonyCrystals.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>ZeroGSportsArena</S_TechRequirement>
+    <MoraleBonus>35</MoraleBonus>
+    <PrestigeBonus>35</PrestigeBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>SpinControlCenter</S_InternalName>
+    <S_Name>Spin Control Center</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>400</Cost>
+    <S_BriefDescription>Makes us appear stronger.</S_BriefDescription>
+    <S_Description>Ships in orbit around this planet appear 5 times mightier than they really are, thus making your military might seem greater to potential foes.</S_Description>
+    <S_IconName>SpinControl.png</S_IconName>
+    <S_QueryGraphicName>SpinControl.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Total Majesty</S_TechRequirement>
+    <F_MightMultiplier>5.000000</F_MightMultiplier>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>HyperionFleetManager</S_InternalName>
+    <S_Name>Orbital Command Center</S_Name>
+    <AI>1000</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>100</Cost>
+    <S_BriefDescription>All ships in orbit will be used to defend against attack on all planets.</S_BriefDescription>
+    <S_Description>The Orbital Command Center is designed to coordinate the defense of a planet by having all the ships in orbit work together for the defense of the planet. </S_Description>
+    <S_IconName>Orbital_Fleet_Control_Bunker.png</S_IconName>
+    <S_QueryGraphicName>Orbital_Fleet_Control_Bunker.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>Space Militarization</S_TechRequirement>
+    <MoraleBonus>10</MoraleBonus>
+    <PlanetaryDefenseBonus>25</PlanetaryDefenseBonus>
+    <F_LogisticLimit>10.000000</F_LogisticLimit>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>OmegaDefenseSystem</S_InternalName>
+    <S_Name>Omega Defense System</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>300</Cost>
+    <S_BriefDescription>Increases HP of ships.</S_BriefDescription>
+    <S_Description>The Omega Defense System doubles the hit points of ships in orbit around the planet, and greatly increases planetary defense.</S_Description>
+    <S_IconName>OmegaDefenseSystem.png</S_IconName>
+    <S_QueryGraphicName>OmegaDefenseSystem.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>Supreme Planetary Defense</S_TechRequirement>
+    <AbilityType>12</AbilityType>
+    <F_AbilityFactor>1.000000</F_AbilityFactor>
+    <PlanetaryDefenseBonus>100</PlanetaryDefenseBonus>
+  </Improvement>
+  <!--Super Projects Alltarians-->
+  <Improvement>
+    <S_InternalName>Shrine of the Mithrilar</S_InternalName>
+    <S_Name>Shrine of the Mithrilar</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>200</Cost>
+    <S_BriefDescription>Increases population growth</S_BriefDescription>
+    <S_Description>This monument to the guardians of the universe will inspire those who are not part of our civilization to join us.</S_Description>
+    <S_IconName>ShrineOfTheMithrilar.png</S_IconName>
+    <S_QueryGraphicName>ShrineOfTheMithralar.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>ShrineOfTheMithrilar</S_TechRequirement>
+    <AbilityType>5</AbilityType>
+    <AbilityAmount>10</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Shrine of Tandis</S_InternalName>
+    <S_Name>Shrine of Tandis</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>200</Cost>
+    <S_BriefDescription>Increases approval.</S_BriefDescription>
+    <S_Description>Tandis saved us from ourselves and brough peace to our kind. This Shrine honours him as best we can. Building his Shrine will inspire our people and bring happiness.</S_Description>
+    <S_IconName>ShrineOfTandis.png</S_IconName>
+    <S_QueryGraphicName>ShrineOfTandis.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>ShrineOfTandis</S_TechRequirement>
+    <AbilityType>4</AbilityType>
+    <AbilityAmount>10</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Doomsday Generator</S_InternalName>
+    <S_Name>Doomsday Generator</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>200</Cost>
+    <S_BriefDescription>Allows construction of incredibly lethal star ships.</S_BriefDescription>
+    <S_Description>The Doomsday Generator uses tremendous levels of dark energy to create the "Doom" reactor, which can be added to ships built on this planet. It will increase their quality by 33%. The Generator also provides a small boost to planetary production.</S_Description>
+    <S_IconName>DoomsdayGenerator.png</S_IconName>
+    <S_QueryGraphicName>DoomsdayGenerator.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>UnimaginableDestruction</S_TechRequirement>
+    <Industry>6</Industry>
+    <StarshipHPBonus>33</StarshipHPBonus>
+    <ManufactureBonus>10</ManufactureBonus>
+    <StarshipQualityBonus>33</StarshipQualityBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Dark Energy Weapons Lab</S_InternalName>
+    <S_Name>Dark Energy Lab</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>100</Cost>
+    <S_BriefDescription>Increases economy and manufacturing.</S_BriefDescription>
+    <S_Description>The Dark Energy Lab allows us to make use of dark energy as part of our economy and industry on this planet.</S_Description>
+    <S_IconName>DarkEnergyLab.png</S_IconName>
+    <S_QueryGraphicName>DarkEnergyLab.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>DarkEnergyResearch</S_TechRequirement>
+    <ManufactureBonus>10</ManufactureBonus>
+    <EconomicBonus>10</EconomicBonus>
+    <AbilityType>1</AbilityType>
+    <AbilityAmount>10</AbilityAmount>
+  </Improvement>
+  <!--Super Projects Arceans-->
+  <Improvement>
+    <S_InternalName>Stellar Forge</S_InternalName>
+    <S_Name>Stellar Forge</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>80</Cost>
+    <S_BriefDescription>Increase ship quality and economy.</S_BriefDescription>
+    <S_Description>The Stellar Forge, the Arcean's crowning achievement. With 50,000 years of engineering experience in constructing ships (though ships not capable of FTL travel), the Stellar Forge will increase the quality of ships built on this world by an astounding 25%, and increases the planetary economy by 25%.</S_Description>
+    <S_IconName>StellarForge.png</S_IconName>
+    <S_QueryGraphicName>StellarForge.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>GloriousHistory</S_TechRequirement>
+    <StarshipQualityBonus>25</StarshipQualityBonus>
+    <StarshipHPBonus>25</StarshipHPBonus>
+    <EconomicBonus>25</EconomicBonus>
+  </Improvement>
+  <!--Super Projects Drengin/Korath-->
+  <Improvement>
+    <S_InternalName>ArtificialSlaveCenter</S_InternalName>
+    <S_Name>Artificial Slave Center</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>800</Cost>
+    <S_BriefDescription>Increases military production.</S_BriefDescription>
+    <S_Description>The Artificial Slave Center grows more productive slaves for our shipyards. They will boost the military production in our empire by 20%.</S_Description>
+    <S_IconName>SlavePods.png</S_IconName>
+    <S_QueryGraphicName>SlavePods.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>ArtificialSlavelings</S_TechRequirement>
+    <F_AbilityFactor>0.200000</F_AbilityFactor>
+  </Improvement>
+  <!--Super Projects Thalan-->
+  <Improvement>
+    <S_InternalName>Hyperion Matrix</S_InternalName>
+    <S_Name>Hyperion Matrix</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>50</Cost>
+    <S_BriefDescription>Thalan equipment from the future</S_BriefDescription>
+    <S_Description>The Hyperion Matrix is the key equipment that the Thalan brought with them into this space-time. The planet that constructs it will be immensely powerful. Unfortunately, it can only be used once. It is, by far, the most powerful construction project in the known universe.</S_Description>
+    <S_IconName>HyperionMatrix.png</S_IconName>
+    <S_QueryGraphicName>HyperionMatrix.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <ManualDestruction>0</ManualDestruction>
+    <S_TechRequirement>HyperionPackages</S_TechRequirement>
+    <Industry>16</Industry>
+    <FoodProductionBonus>50</FoodProductionBonus>
+    <Research>16</Research>
+    <PlanetQualityChange>2</PlanetQualityChange>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Economic Direction Unit</S_InternalName>
+    <S_Name>Economic Direction Unit</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>50</Cost>
+    <S_BriefDescription>Greatly increases economy</S_BriefDescription>
+    <S_Description>It is impossible to simply transplant an entire interstellar economy from scratch. However, the Economic Direction Unit can replicate a wide variety of precious items that can be traded to greatly enhance the economic output of the planet it is built on.</S_Description>
+    <S_IconName>EcoDirectionUnit.png</S_IconName>
+    <S_QueryGraphicName>EcoDirectionUnit.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>TemporalMechanics</S_TechRequirement>
+    <EconomicBonus>25</EconomicBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Temporal Entertainment Matrix</S_InternalName>
+    <S_Name>Temporal Entertainment Matrix</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>50</Cost>
+    <S_BriefDescription>An incredibly powerful entertainment system</S_BriefDescription>
+    <S_Description>Knowing that life would be harsh adapting to an alien world, the Temporal Entertainment Matrix is an amazing technlogical feat of engineering. It provides holographic experiences that are beyond anything available anywhere thanks to its integrated Gravitronic power source.</S_Description>
+    <S_IconName>TemporalEntertainment.png</S_IconName>
+    <S_QueryGraphicName>TemporalEntertainment.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>TemporalMechanics</S_TechRequirement>
+    <MoraleBonus>50</MoraleBonus>
+  </Improvement>
+  <!--Galactic Achievements-->
+  <Improvement>
+    <S_InternalName>Restraunt</S_InternalName>
+    <S_Name>Restaurant of Eternity</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>GalacticAchievement</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>600</Cost>
+    <S_BriefDescription>Increases influence.</S_BriefDescription>
+    <S_Description>This incredible restaurant will help spread our cultural influence throught the galaxy (while also boosting the local economy, due to the exorbitant prices customers will have to pay).</S_Description>
+    <S_IconName>Restaurant.png</S_IconName>
+    <S_QueryGraphicName>Restaurant.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Xeno Business</S_TechRequirement>
+    <AbilityType>9</AbilityType>
+    <AbilityAmount>20</AbilityAmount>
+    <EconomicBonus>20</EconomicBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>PropagandaCenter</S_InternalName>
+    <S_Name>Propaganda Center</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>GalacticAchievement</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>600</Cost>
+    <S_BriefDescription>Increases morale.</S_BriefDescription>
+    <S_Description>To keep the people in our empire happy, the Propaganda Center will advertise the strengths of our culture.</S_Description>
+    <S_IconName>PropagandaMachine.png</S_IconName>
+    <S_QueryGraphicName>PropagandaMachine.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Concepts of Malice</S_TechRequirement>
+    <AbilityType>4</AbilityType>
+    <AbilityAmount>20</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>TempleOfEvil</S_InternalName>
+    <S_Name>Temple of Evil</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>GalacticAchievement</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>1000</Cost>
+    <S_BriefDescription>Get alien tourism money.</S_BriefDescription>
+    <S_Description>This Galactic Achievement diverts a percentage of all other evil races' background tourism revenue to your civilization. It also increases the influence of the planet it is located on by 50%.</S_Description>
+    <S_IconName>Temple_Of_Evil.png</S_IconName>
+    <S_QueryGraphicName>Temple_Of_Evil.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Concepts of Malice</S_TechRequirement>
+    <MaxAlignment>39</MaxAlignment>
+    <F_OwnerBonus>0.250000</F_OwnerBonus>
+    <F_NonOwnerPenalty>0.400000</F_NonOwnerPenalty>
+    <PrestigeBonus>50</PrestigeBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>HallOfEmpathy</S_InternalName>
+    <S_Name>Hall of Empathy</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>GalacticAchievement</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>600</Cost>
+    <S_BriefDescription>Increase population growth, and makes aliens more likely to surrender to you.</S_BriefDescription>
+    <S_Description>The Hall of Empathy is a beacon of hope, drawing in the refugees from the war-torn places of the galaxy, which increases the population growth in our empire by an estimated 25%. It also doubles the odds that alien civilizations will surrender to you when they decide to surrender.</S_Description>
+    <S_IconName>Hall_Of_Empathy.png</S_IconName>
+    <S_QueryGraphicName>Hall_Of_Empathy.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Concepts of Righteousness</S_TechRequirement>
+    <AbilityType>5</AbilityType>
+    <AbilityAmount>25</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>TempleOfRighteousness</S_InternalName>
+    <S_Name>Temple of Righteousness</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>GalacticAchievement</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>1000</Cost>
+    <S_BriefDescription>Get alien tourism money.</S_BriefDescription>
+    <S_Description>This Galactic Achievement diverts a percentage of all other good races' background tourism revenue to your civilization. It also increases the influence of the planet it is located on by 50%.</S_Description>
+    <S_IconName>Negotiating_Training_Academy.png</S_IconName>
+    <S_QueryGraphicName>Negotiating_Training_Academy.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Concepts of Righteousness</S_TechRequirement>
+    <MinAlignment>61</MinAlignment>
+    <F_OwnerBonus>0.250000</F_OwnerBonus>
+    <F_NonOwnerPenalty>0.400000</F_NonOwnerPenalty>
+    <PrestigeBonus>50</PrestigeBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>TempleofNeutrality</S_InternalName>
+    <S_Name>Temple of Neutrality</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>GalacticAchievement</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>1000</Cost>
+    <S_BriefDescription>Get alien tourism money.</S_BriefDescription>
+    <S_Description>This Galactic Achievement diverts a percentage of all other neutral races' background tourism revenue to your civilization. It also increases the influence of the planet it is located on by 50%.</S_Description>
+    <S_IconName>Center_For_Neutrality.png</S_IconName>
+    <S_QueryGraphicName>Center_For_Neutrality.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Balanced Vision</S_TechRequirement>
+    <MinAlignment>40</MinAlignment>
+    <MaxAlignment>60</MaxAlignment>
+    <F_OwnerBonus>0.250000</F_OwnerBonus>
+    <F_NonOwnerPenalty>0.400000</F_NonOwnerPenalty>
+    <PrestigeBonus>50</PrestigeBonus>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>GalacticExhibition</S_InternalName>
+    <S_Name>Galactic Bazaar</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>GalacticAchievement</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>600</Cost>
+    <S_BriefDescription>Increases skill at trade.</S_BriefDescription>
+    <S_Description>This Galactic Achievement will make you more influential when trading with other races, increasing the perceived value of your offers by 50%.</S_Description>
+    <S_IconName>GalacticExhibition.png</S_IconName>
+    <S_QueryGraphicName>GalacticExhibition.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Master Trade</S_TechRequirement>
+    <F_AbilityFactor>0.500000</F_AbilityFactor>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>UnitedPlanetsHeadquarters</S_InternalName>
+    <S_Name>Galactic Showcase</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>GalacticAchievement</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>600</Cost>
+    <S_BriefDescription>Improves Diplomacy Ability.</S_BriefDescription>
+    <S_Description>Increase your diplomatic ability by 25% by building the Galactic Showcase.</S_Description>
+    <S_IconName>United_Planets_Headquarters.png</S_IconName>
+    <S_QueryGraphicName>United_Planets_Headquarters.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Expert Diplomacy</S_TechRequirement>
+    <AbilityType>11</AbilityType>
+    <AbilityAmount>25</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>GalacticResupplyCenter</S_InternalName>
+    <S_Name>Re-Supply Center</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>GalacticAchievement</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>500</Cost>
+    <S_BriefDescription>Increases ship range.</S_BriefDescription>
+    <S_Description>The Re-Supply Center will increase the range of your ships by 50%.</S_Description>
+    <S_IconName>Galactic_Re-supply_Center.png</S_IconName>
+    <S_QueryGraphicName>Galactic_Re-supply_Center.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Advanced Life Support</S_TechRequirement>
+    <AbilityType>22</AbilityType>
+    <AbilityAmount>50</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>InformationLogisticsSystem</S_InternalName>
+    <S_Name>Logistics System</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>GalacticAchievement</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>800</Cost>
+    <S_BriefDescription>Increases logistics.</S_BriefDescription>
+    <S_Description>The Logistics System increases your Logistics ability by 24.</S_Description>
+    <S_IconName>Logistics_Tracking_Facility.png</S_IconName>
+    <S_QueryGraphicName>Logistics_Tracking_Facility.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Expert Logistics</S_TechRequirement>
+    <AbilityType>28</AbilityType>
+    <AbilityAmount>24</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>MiniaturizationCenter</S_InternalName>
+    <S_Name>The Hyper Shrinker</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>GalacticAchievement</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>800</Cost>
+    <S_BriefDescription>Increases miniaturization.</S_BriefDescription>
+    <S_Description>The Shrinker increases your Miniaturization ability by 15%.</S_Description>
+    <S_IconName>The_Shrinker.png</S_IconName>
+    <S_QueryGraphicName>The_Shrinker.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Expert Miniaturization</S_TechRequirement>
+    <AbilityType>29</AbilityType>
+    <AbilityAmount>15</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>EyesOfTheUniverse</S_InternalName>
+    <S_Name>Eyes of the Universe</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>GalacticAchievement</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>500</Cost>
+    <S_BriefDescription>Improves sensor range.</S_BriefDescription>
+    <S_Description>This Galactic Achievement increase our sensor range by 50%, lets us see all ships on the mini-map, and reduces the cost of sensor modules to zero.</S_Description>
+    <S_IconName>EyesoftheUniverse.png</S_IconName>
+    <S_QueryGraphicName>EyesoftheUniverse.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Sensor3</S_TechRequirement>
+    <AbilityType>14</AbilityType>
+    <AbilityAmount>6</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>SecretPoliceCenter</S_InternalName>
+    <S_Name>Secret Police Center</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>GalacticAchievement</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>300</Cost>
+    <S_BriefDescription>Improves loyalty.</S_BriefDescription>
+    <S_Description>By suppressing the spread of dissident ideas, this center will give a 20% boost to our empire's loyalty rating.</S_Description>
+    <S_IconName>SecretPolice.png</S_IconName>
+    <S_QueryGraphicName>SecretPolice.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Concepts of Malice</S_TechRequirement>
+    <AbilityType>27</AbilityType>
+    <AbilityAmount>20</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>OrbitalTerraformer</S_InternalName>
+    <S_Name>Orbital Terraformer</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>GalacticAchievement</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>800</Cost>
+    <S_BriefDescription>Upgrades all planets.</S_BriefDescription>
+    <S_Description>Makes all potentially usable tiles instantly usable on all planets under your control, and boosts the planet quality of all our planets by another 10%.</S_Description>
+    <S_IconName>Orbital_Terraforming_Unit.png</S_IconName>
+    <S_QueryGraphicName>Orbital_Terraforming_Unit.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>Terraforming</S_TechRequirement>
+    <AbilityType>18</AbilityType>
+    <AbilityAmount>10</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>EmpathicTacticalCenter</S_InternalName>
+    <S_Name>Empathic Tactical Center</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>GalacticAchievement</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>300</Cost>
+    <S_BriefDescription>Increases ship defense.</S_BriefDescription>
+    <S_Description>This Galactic Achievement boosts the defense of any of your military ships by 25%.</S_Description>
+    <S_IconName>Empathic_Tactical_Center.png</S_IconName>
+    <S_QueryGraphicName>Empathic_Tactical_Center.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Concepts of Righteousness</S_TechRequirement>
+    <AbilityType>2</AbilityType>
+    <AbilityAmount>25</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>TirQuanTraining</S_InternalName>
+    <S_Name>Tir-Quan Training</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>GalacticAchievement</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>600</Cost>
+    <S_BriefDescription>Better soldiers.</S_BriefDescription>
+    <S_Description>This center of advanced soldier training will increase our soldier's abilities by 25%.</S_Description>
+    <S_IconName>TriQuanTraining.png</S_IconName>
+    <S_QueryGraphicName>TriQuanTraining.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Space Marines</S_TechRequirement>
+    <AbilityType>16</AbilityType>
+    <AbilityAmount>25</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>MindControlCenter</S_InternalName>
+    <S_Name>Mind Control Center</S_Name>
+    <AI>10</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>GalacticAchievement</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>800</Cost>
+    <S_BriefDescription>Instant alien defections.</S_BriefDescription>
+    <S_Description>This Galactic Achievement ensures that alien worlds that are ripe for defection defect nearly instantly.</S_Description>
+    <S_IconName>SlaveFurnace.png</S_IconName>
+    <S_QueryGraphicName>SlaveFurnace.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Concepts of Malice</S_TechRequirement>
+    <AbilityAmount>100</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>NoMercyInvasionCenter</S_InternalName>
+    <S_Name>No Mercy Invasion Center</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>GalacticAchievement</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>800</Cost>
+    <S_BriefDescription>Free invasion tactics.</S_BriefDescription>
+    <S_Description>This Galactic Achievement eliminates the cost of special invasion tactics.</S_Description>
+    <S_IconName>Torture_Chamber.png</S_IconName>
+    <S_QueryGraphicName>Torture_Chamber.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Concepts of Malice</S_TechRequirement>
+  </Improvement>
+  <!--SuperProjects Altarians-->
+  <Improvement>
+    <S_InternalName>Social Matrix</S_InternalName>
+    <S_Name>Social Matrix</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>80</Cost>
+    <S_BriefDescription>Increases economy, social production</S_BriefDescription>
+    <S_Description>The Social Matrix sets up a system in which the people can work together more effectively to quickly build up a planet. It does this by increasing the social production in our empire by 25%, and boosting the economy of the planet it is located on by 25%.</S_Description>
+    <S_IconName>DarkEmbassy1.png</S_IconName>
+    <S_QueryGraphicName>DarkEmbassy1.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>A history of benevolence</S_TechRequirement>
+    <EconomicBonus>25</EconomicBonus>
+    <AbilityType>6</AbilityType>
+    <AbilityAmount>25</AbilityAmount>
+  </Improvement>
+  <!--SuperProjects Arcean-->
+  <Improvement>
+    <S_InternalName>CathedralOfValor</S_InternalName>
+    <S_Name>Cathedral of Valor</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>300</Cost>
+    <S_BriefDescription>Train Warrior Fanatics for defense...and offense.</S_BriefDescription>
+    <S_Description>Increases planetary defense by 33% while improving all your soldiers by 20%.</S_Description>
+    <S_IconName>TempleOfValor.png</S_IconName>
+    <S_QueryGraphicName>TempleOfValor.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>CathedralOfValor</S_TechRequirement>
+    <PlanetaryDefenseBonus>33</PlanetaryDefenseBonus>
+    <AbilityType>16</AbilityType>
+    <AbilityAmount>20</AbilityAmount>
+  </Improvement>
+  <!--SuperProjects Drengin-->
+  <Improvement>
+    <S_InternalName>PropagandaMachine</S_InternalName>
+    <S_Name>Propaganda Machine</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>GalacticAchievement</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>500</Cost>
+    <S_BriefDescription>Improves starbase influence.</S_BriefDescription>
+    <S_Description>This center increases the power of our influencer starbases by 50%.</S_Description>
+    <S_IconName>InternmentRig.png</S_IconName>
+    <S_QueryGraphicName>InternmentRig.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>XenoPropaganda</S_TechRequirement>
+    <F_AbilityFactor>0.500000</F_AbilityFactor>
+  </Improvement>
+  <!--SuperProjects Iconians-->
+  <Improvement>
+    <S_InternalName>PrecursorLibrary</S_InternalName>
+    <S_Name>Precursor Library</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>100</Cost>
+    <S_BriefDescription>Increases research.</S_BriefDescription>
+    <S_Description>The Precursor Library is something found on certain worlds. But we have the unique ability to actually construct one. It provides significant technology production on its own, plus magnifies all research done in our empire by another 10%.</S_Description>
+    <S_IconName>PrecursorLibrary.png</S_IconName>
+    <S_QueryGraphicName>PrecursorLibrary.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>PrecursorStudies</S_TechRequirement>
+    <Research>16</Research>
+    <ResearchBonus>100</ResearchBonus>
+    <AbilityType>8</AbilityType>
+    <AbilityAmount>10</AbilityAmount>
+  </Improvement>
+  <!--SuperProjects Korath-->
+  <Improvement>
+    <S_InternalName>Graft of Ages</S_InternalName>
+    <S_Name>Graft of Ages</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>300</Cost>
+    <S_BriefDescription>Increase income by stealing from the citizenry.</S_BriefDescription>
+    <S_Description>The Graft of Ages makes bribery and graft in our empire far more efficient and thus brings more money into our coffers.</S_Description>
+    <S_IconName>GraftOfAges.png</S_IconName>
+    <S_QueryGraphicName>GraftOfAges.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>GraftOfAges</S_TechRequirement>
+    <MoraleBonus>10</MoraleBonus>
+    <EconomicBonus>25</EconomicBonus>
+    <AbilityType>0</AbilityType>
+    <AbilityAmount>15</AbilityAmount>
+  </Improvement>
+  <!--SuperProjects Korx-->
+  <Improvement>
+    <S_InternalName>Freighter Command</S_InternalName>
+    <S_Name>Freighter Command</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>200</Cost>
+    <S_BriefDescription>Ensures our trade routes cannot be destroyed in war.</S_BriefDescription>
+    <S_Description>Normally a trade route is ended if the mini-freighter between two planets is destroyed too many times. With Freighter Command, you receive an unlimited number of mini-freigthers.</S_Description>
+    <S_IconName>UsageDepot1.png</S_IconName>
+    <S_QueryGraphicName>UsageDepot1.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>FortifiedFreighters</S_TechRequirement>
+    <AbilityType>37</AbilityType>
+    <AbilityAmount>1</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Mercenary Academy</S_InternalName>
+    <S_Name>Mercenary Academy</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>100</Cost>
+    <S_BriefDescription>Allows us to train mercenaries to fight in other people's wars.</S_BriefDescription>
+    <S_Description>Our mercenaries are in demand across the galaxy. Whenever there's a way, we can make money from it.</S_Description>
+    <S_IconName>MercenaryAcademy.png</S_IconName>
+    <S_QueryGraphicName>MercenaryAcademy.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Mercenaries</S_TechRequirement>
+    <AbilityType>36</AbilityType>
+    <AbilityAmount>5</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Festival of Capitalism</S_InternalName>
+    <S_Name>Festival of Capitalism</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>80</Cost>
+    <S_BriefDescription>Increases happiness.</S_BriefDescription>
+    <S_Description>A empire-wide celebration of the pursuit of money. It also increases the economy of the planet it is built on, thanks to all the tickets we sell.</S_Description>
+    <S_IconName>EconomicExchange.png</S_IconName>
+    <S_QueryGraphicName>EconomicExchange.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>XenoMercantilism</S_TechRequirement>
+    <EconomicBonus>25</EconomicBonus>
+    <AbilityType>4</AbilityType>
+    <AbilityAmount>25</AbilityAmount>
+  </Improvement>
+  <!--SuperProjects Krynn-->
+  <Improvement>
+    <S_InternalName>Oracle of Krynn</S_InternalName>
+    <S_Name>Oracle of Krynn</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>300</Cost>
+    <S_BriefDescription>Vastly increase morale and influence</S_BriefDescription>
+    <S_Description>This galactic achievement will spread The Way into the galaxy bringing joy and comfort to billions.</S_Description>
+    <S_IconName>InterstellarMissionary3.png</S_IconName>
+    <S_QueryGraphicName>InterstellarMissionary3.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>TheWay</S_TechRequirement>
+    <PrestigeBonus>200</PrestigeBonus>
+    <AbilityType>4</AbilityType>
+    <AbilityAmount>25</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Super Spy Training Center</S_InternalName>
+    <S_Name>Super Spy Training Center</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>100</Cost>
+    <S_BriefDescription>Increases research and espionage</S_BriefDescription>
+    <S_Description>This center helps training our spies. The information they provide will greatly increase our research.</S_Description>
+    <S_IconName>SuperSpyCenter.png</S_IconName>
+    <S_QueryGraphicName>SuperSpyCenter.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>SuperiorEspionage</S_TechRequirement>
+    <AbilityType>8</AbilityType>
+    <AbilityAmount>5</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Temple of Espionage</S_InternalName>
+    <S_Name>Temple of Espionage</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>300</Cost>
+    <S_BriefDescription>Greatly increases our espionage ability.</S_BriefDescription>
+    <S_Description>The Temple of Espionage greatly improves the training of our spies. The information they provide will significantly increase the research of our civilization.</S_Description>
+    <S_IconName>TempleOfEspionage.png</S_IconName>
+    <S_QueryGraphicName>TempleOfEspionage.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>UltimateEspionage</S_TechRequirement>
+    <AbilityType>8</AbilityType>
+    <AbilityAmount>10</AbilityAmount>
+  </Improvement>
+  <!--SuperProjects Terrans-->
+  <Improvement>
+    <S_InternalName>Innovation Complex</S_InternalName>
+    <S_Name>Innovation Complex</S_Name>
+    <PlacementLimit>1</PlacementLimit>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>80</Cost>
+    <S_BriefDescription>A place of learning in all its forms.</S_BriefDescription>
+    <S_Description>The Innovation Complex celebrates the ingenuity of this remarkable species. It greatly increases planetary influence, and lures in the most creative thinkers.</S_Description>
+    <S_IconName>MallOfTheGalaxy.png</S_IconName>
+    <S_QueryGraphicName>MallOfTheGalaxy.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Innovative History</S_TechRequirement>
+    <PrestigeBonus>25</PrestigeBonus>
+    <AbilityType>25</AbilityType>
+    <AbilityAmount>25</AbilityAmount>
+  </Improvement>
+  <!--SuperProjects Thalan-->
+  <Improvement>
+    <S_InternalName>Gaia Vortex</S_InternalName>
+    <S_Name>Gaia Vortex</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>300</Cost>
+    <S_BriefDescription>Increases planet quality for all our worlds.</S_BriefDescription>
+    <S_Description>The Gaia Vortex generates a type of energy that can be spread across all our worlds. The planet it inhabits sees the greatest level of improvement.</S_Description>
+    <S_IconName>WeatherControl1.png</S_IconName>
+    <S_QueryGraphicName>WeatherControl1.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>GaiaTheory</S_TechRequirement>
+    <FoodProductionBonus>40</FoodProductionBonus>
+    <MoraleBonus>10</MoraleBonus>
+    <EconomicBonus>10</EconomicBonus>
+    <PlanetQualityChange>1</PlanetQualityChange>
+    <AbilityType>18</AbilityType>
+    <AbilityAmount>10</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Church of Valor</S_InternalName>
+    <S_Name>Church of Valor</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>500</Cost>
+    <S_BriefDescription>Vastly increases our soldiering ability.</S_BriefDescription>
+    <S_Description>There is nothing quite like soldiers who know their cause is just.</S_Description>
+    <S_IconName>WarCollege1.png</S_IconName>
+    <S_QueryGraphicName>WarCollege1.png</S_QueryGraphicName>
+    <CanHaveAgents>0</CanHaveAgents>
+    <S_TechRequirement>Fanatics</S_TechRequirement>
+    <MoraleBonus>10</MoraleBonus>
+    <AbilityType>16</AbilityType>
+    <AbilityAmount>25</AbilityAmount>
+  </Improvement>
+  <!--SuperProjects Torians-->
+  <Improvement>
+    <S_InternalName>Aquatic Transport</S_InternalName>
+    <S_Name>Aquatic Transport Station</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>80</Cost>
+    <S_BriefDescription>Increases our Range Ability</S_BriefDescription>
+    <S_Description>Aquatic Transport helps our ships to better transport water between one another, increasing our ships' range and improving this planet's economy.</S_Description>
+    <S_IconName>AquaTransStation1.png</S_IconName>
+    <S_QueryGraphicName>AquaTransStation1.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Inherited Technology</S_TechRequirement>
+    <EconomicBonus>25</EconomicBonus>
+    <AbilityType>22</AbilityType>
+    <AbilityAmount>25</AbilityAmount>
+  </Improvement>
+  <!--SuperProjects Yor-->
+  <Improvement>
+    <S_InternalName>Distributed Energy Matrix</S_InternalName>
+    <S_Name>Distributed Energy Matrix</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>500</Cost>
+    <S_BriefDescription>Increases production.</S_BriefDescription>
+    <S_Description>Wherever energy is needed on this planet, the Distributed Energy Matrix will provide it instantly, immensely increasing production. It also transmits a small part of the generated energy to our shipyards on other planets, which will speed up their ship production.</S_Description>
+    <S_IconName>ElectrolyteGardens.png</S_IconName>
+    <S_QueryGraphicName>ElectrolyteGardens.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>DistributedEnergyMatrix</S_TechRequirement>
+    <ManufactureBonus>100</ManufactureBonus>
+    <Industry>13</Industry>
+    <AbilityType>7</AbilityType>
+    <AbilityAmount>10</AbilityAmount>
+  </Improvement>
+  <Improvement>
+    <S_InternalName>Maintainence Coordinator</S_InternalName>
+    <S_Name>Maintenance Grid</S_Name>
+    <AI>100</AI>
+    <S_UpgradeTarget>None</S_UpgradeTarget>
+    <S_Type>SuperProject</S_Type>
+    <Maintenance>0</Maintenance>
+    <Cost>80</Cost>
+    <S_BriefDescription>Increases morale</S_BriefDescription>
+    <S_Description>To a cybernetic species, morale is created from a sense of efficiency. The Maintenance Grid ensures that citizens in the empire are in tip top condition.</S_Description>
+    <S_IconName>ResearchCollective.png</S_IconName>
+    <S_QueryGraphicName>ResearchCollective.png</S_QueryGraphicName>
+    <CanHaveAgents>1</CanHaveAgents>
+    <S_TechRequirement>Cybernetic History</S_TechRequirement>
+    <PopulationGrowthBonus>25</PopulationGrowthBonus>
+    <AbilityType>4</AbilityType>
+    <AbilityAmount>20</AbilityAmount>
+  </Improvement>
+</PlanetImprovements>

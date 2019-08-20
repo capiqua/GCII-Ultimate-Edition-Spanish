@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<Topics>
+	<Translate NoParse="1">Text</Translate>
+	<MaxNumRacesInFile>15</MaxNumRacesInFile>
+	<Topic Name="CustomRace_Part1_LowAgression">
+		<Dialogue>
+			<Speaker Name="Generic">10</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>El humilde [EmpireName] es una nacion amante de la paz, que solo quiere encontrar su lugar en la galaxia.#El [EmpireName], una nacion pacifica, solo quiere vivir en armonia con sus razas vecinas.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>El [EmpireName] es una nacion de buscadores de justicia, que prefiere la diplomacia a la guerra.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>El temido [EmpireName] es el buitre de la galaxia, que prefiere dejar que otras razas se aniquilen entre si, para luego reclamar la posesion de los territorios arruinados.#Malvado y cobarde, el [EmpireName] prefiere dejar que otras razas luchen por el.#Malvado hasta la medula, el siniestro [EmpireName] prefiere recostarse y dejar que sus vecinos luchen hasta la muerte.#Conocido como la sanguijuela de la galaxia, [LeaderName] del [EmpireName] prefiere observar las guerras, no participar en ellas.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="CustomRace_Part1_MidAgression">
+		<Dialogue>
+			<Speaker Name="Generic">10</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>Los ciudadanos del humilde [EmpireName] son buscadores de la paz, pero entienden que en ciertas situaciones es necesaria la mano dura.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>[EmpireName], una nacion fundamentada en los ideales de la justicia, se da prisa por luchar si es necesario.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>El malvado [EmpireName], una antigua raza de guerreros, no duda en luchar si es provocados.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="CustomRace_Part1_HighAgression">
+		<Dialogue>
+			<Speaker Name="Generic">10</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>El [EmpireName] juro mantener la pureza de la galaxia, con metodos violentos si era necesario.#Aunque bueno de corazon, el [EmpireName] es conocido por ser peligrosamente agresivo cuando sus ideales son atacados.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>El honorable [EmpireName] se apresura a declarar la guerra contra cualquier raza que [LeaderName] sospeche que mantiene unas relaciones injustas.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>El malvado [EmpireName] busca expandir su nacion por cualquier medio necesario. Guerreros de corazon, estos monstruos hambrientos de guerra son considerados los nuevos villanos de la galaxia.# El saguinario [EmpireName] es una nacion de guerreros decididos a demoler la galaxia y reclamarla para si mismos.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="CustomRace_Part2_LowCashBoost">
+		<Dialogue>
+			<Speaker Name="Generic">10</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>Financieramente pobre pero espiritualmente rico, el [EmpireName]</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Internandose en las estrellas con un sistema economico compreltamente arruinado, el [EmpireName] </Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Con un abundante derroche economico, la nacion ha limitado su poder financiero, y </Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="CustomRace_Part2_MidCashBoost">
+		<Dialogue>
+			<Speaker Name="Generic">10</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="1">
+				<Text>Su sistema economico es realtivamente estable, y </Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Aunque basicamente corrupto, su motor economico funciona relativamente bien, y </Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="CustomRace_Part2_HighCashBoost">
+		<Dialogue>
+			<Speaker Name="Generic">10</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>Expertos en economia, la ilustrada nacion </Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Tiene una fuerte economia y </Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Su economia, basada en el miedo, es sorprendentemente poderosa, y </Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="CustomRace_Part3_LowNaturalAbility">
+		<Dialogue>
+			<Speaker Name="Generic">10</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>sera rapidamente masticado y escupido en una galaxia despiadada.#en realidad no tiene esperanza o alguna oracion.#se encontrara con toda probabilidad perdido en una competicion turbulenta y cruel por la expansion.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>esta seguro de ser devorado por las naciones mas fuertes de la galaxia.#probablemente morira en los primeros meses.#, es mas que probable que sea la primera baja de la expansion.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>probablemente morira rapidamente, a pesar de su discurso soble la conquista galactica.#esta destinado a ser tragado vivo en una galaxia desconocida.#pronto se percatara de lo poco que sabe sobre las guerras a escala epica.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="CustomRace_Part3_MidNaturalAbility">
+		<Dialogue>
+			<Speaker Name="Generic">10</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>tratara de servir de faro de esperanza en una galaxia de oscuridad.#esta destinado a convertirse en una de las ultimas esperanzas de un futuro pacifico.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>puede tener algunos trucos ocultos para que su imperio florezca.#indudablemente pasara a llevar una existencia honorable.#muy probablemente ocupara su lugar en las estrellas como un superpoder intergalactico.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>expandira sus fronteras sin compasion.#pondra todo de su parte para hacer suya la galaxia.#muy probablemente sera brutal en su lucha por la expansion.#, como destructor despiadado que es, debe convertirse en una nacion temida por todos.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="CustomRace_Part3_HighNaturalAbility">
+		<Dialogue>
+			<Speaker Name="Generic">10</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>sera un poderoso aliado para otras naciones bondadosas.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>sera un adversario impresionantemente desafiante en la lucha por las estrellas.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>es una nacion peligrosamente cualificada para tenerla como enemiga.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+</Topics>

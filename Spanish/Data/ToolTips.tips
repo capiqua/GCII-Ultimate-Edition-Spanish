@@ -132,7 +132,7 @@
 [ShipContext_Missile_Image] Misil
 [ShipContext_Point_Image] Puntos Defivos
 
-[ShipContext_Mass_Image] Controlador de masa
+[ShipContext_Mass_Image] Canon
 [ShipContext_Armor_Image] Armadura
 
 [ShipContext_Beam_Value] Haz
@@ -141,7 +141,7 @@
 [ShipContext_Missile_Value] Misil
 [ShipContext_Point_Value] Puntos Defivos
 
-[ShipContext_Mass_Value] Controlador de masa
+[ShipContext_Mass_Value] Canon
 [ShipContext_Armor_Value] Armadura
 
 [ShipContext_Rename_Button] Renombrar nave
@@ -160,7 +160,7 @@
 
 [ShipContext_Beam_Image] Haz
 [ShipContext_Missile_Image] Misil
-[ShipContext_Mass_Image] Controlador de masa
+[ShipContext_Mass_Image] Canon
 [ShipContext_Shield_Image] Escudo
 [ShipContext_Armor_Image] Armadura
 [ShipContext_Point_Image] Puntos Defivos
@@ -254,7 +254,7 @@
 [Beam] Armas de haz
 [Shields] Escudos
 
-[MassDrivers] Controlador de masa
+[MassDrivers] Canon
 [Armor] Armadura
 
 [Missiles] Misils
@@ -314,7 +314,7 @@
 [TABLEALIAS ShipDetailsWnd]
 [ShipDetails_Beam_Image] Haz
 [ShipDetails_Missile_Image] Misil
-[ShipDetails_Mass_Image] Controlador de masa
+[ShipDetails_Mass_Image] Canon
 [ShipDetails_Shield_Image] Escudos
 [ShipDetails_Point_Image] Puntos defensivos
 [ShipDetails_Armor_Image] Armadura
@@ -326,7 +326,7 @@
 [TABLEALIAS StackedShipsWnd]
 [Stacked_Beam_Image] Haz
 [Stacked_Missile_Image] Misil
-[Stacked_Mass_Image] Controlador de masa
+[Stacked_Mass_Image] Canon
 [Stacked_Shield_Image] Escudos
 [Stacked_Point_Image] Puntos defensivos
 [Stacked_Armor_Image] Armadura
@@ -335,7 +335,7 @@
 [TABLEALIAS FleetContextWnd]
 [Fleet_Context_Beam_Image] Haz
 [Fleet_Context_Missile_Image] Misil
-[Fleet_Context_Mass_Image] Controlador de masa
+[Fleet_Context_Mass_Image] Canon
 [Fleet_Context_Shield_Image] Escudos
 [Fleet_Context_Point_Image] Puntos defensivos
 [Fleet_Context_Armor_Image] Armadura
@@ -354,14 +354,14 @@
 [FleetCombat_Shield_Image_1] Escudo
 [FleetCombat_Missile_Image_1] Misil
 [FleetCombat_Point_Image_1] Puntos defensivos
-[FleetCombat_Mass_Image_1] Controlador de masa
+[FleetCombat_Mass_Image_1] Canon
 [FleetCombat_Armor_Image_1] Armadura
 
 [FleetCombat_Beam_Image_2] Haz
 [FleetCombat_Shield_Image_2] Escudo
 [FleetCombat_Missile_Image_2] Misil
 [FleetCombat_Point_Image_2] Puntos defensivos
-[FleetCombat_Mass_Image_2] Controlador de masa
+[FleetCombat_Mass_Image_2] Canon
 [FleetCombat_Armor_Image_2] Armadura
 
 [FleetCombat_Start_Button] Iniciar
@@ -381,7 +381,7 @@
 [TABLEALIAS CombatLogEntryWnd]
 [Combat_Log_Beam] Haz
 [Combat_Log_Missile] Misil
-[Combat_Log_Mass] Controlador de masa
+[Combat_Log_Mass] Canon
 
 [Combat_Log_Shield] Escudos
 [Combat_Log_Point] Puntos de defensa
@@ -395,21 +395,21 @@
 [FleetMan_Shield_Image] Escudo
 [FleetMan_Missile_Image] Misil
 [FleetMan_Point_Image] Puntos de defensa
-[FleetMan_Mass_Image] Controlador de masa
+[FleetMan_Mass_Image] Canon
 [FleetMan_Armor_Image] Armadura
 
 [FleetMan_Fleet_Context_Beam_Image] Haz
 [FleetMan_Fleet_Context_Shield_Image] Escudo
 [FleetMan_Fleet_Context_Missile_Image] Misil
 [FleetMan_Fleet_Context_Point_Image] Puntos de defensa
-[FleetMan_Fleet_Context_Mass_Image] Controlador de masa
+[FleetMan_Fleet_Context_Mass_Image] Canon
 [FleetMan_Fleet_Context_Armor_Image] Armadura
 
 [FleetMan_All_Beam_Image] Haz
 [FleetMan_All_Shield_Image] Escudo
 [FleetMan_All_Missile_Image] Misil
 [FleetMan_All_Point_Image] Puntos de defensa
-[FleetMan_All_Mass_Image] Controlador de masa
+[FleetMan_All_Mass_Image] Canon
 [FleetMan_All_Armor_Image] Armadura
 
 [FleetMan_Add_Button] Anadir a la flota
@@ -451,7 +451,7 @@
 [Summary_Ship_Beam_Image] Haz
 [Summary_Ship_Shield_Image] Escudo
 
-[Summary_Ship_Mass_Image] Controlador de masa
+[Summary_Ship_Mass_Image] Canon
 [Summary_Ship_Armor_Image] Armadura
 
 [Summary_Ship_Point_Image] Puntos de defensa

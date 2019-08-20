@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes" ?>
+<GC2Ships>
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName,Model,Description</Ignore>
+		<Translate>DisplayName,Description</Translate>
+	</DataChecksum>
+	<Ship Name="Scout">
+		<DisplayName>Rastreador</DisplayName>
+		<Model>Scout</Model>
+		<Description>Encuentro cosas, esa es mi funcion.</Description>
+		<Component>TinyHull3</Component>
+		<Component>Sensors0</Component>
+		<Component>Sensors0</Component>
+		<Component>BasicSupport</Component>
+		<Component>BasicSupport</Component>
+	</Ship>
+	<Ship Name="ColonyShip">
+		<DisplayName>Nave Colonial</DisplayName>
+		<Model>ColonyShip</Model>
+		<Description>Tomo a la gente en esta gran galaxia.</Description>
+		<Component>CargoHull0</Component>
+		<Component>BasicSupport</Component>
+		<Component>BasicSupport</Component>
+		<Component>BasicSupport</Component>
+		<Component>HyperDrive</Component>
+		<Component>ColonyModule</Component>
+	</Ship>
+	<Ship Name="Transport">
+		<DisplayName>Transporte</DisplayName>
+		<Model>Transport</Model>
+		<Description>Conozco gente de mundos distantes... tambien los conquisto.</Description>
+		<Component>CargoHull0</Component>
+		<Component>BasicSupport</Component>
+		<Component>HyperDrive</Component>
+		<Component>TroopsModule</Component>
+		<Component>TroopsModule</Component>
+	</Ship>
+	<Ship Name="SporeShip">
+		<DisplayName>Nave Esppra</DisplayName>
+		<Model>SporeShip</Model>
+		<Description>Destruccion a traves de guerra bacteriologica.</Description>
+		<Component>CargoHull0</Component>
+		<Component>BasicSupport</Component>
+		<Component>HyperDrive</Component>
+		<Component>SporeModule</Component>
+	</Ship>
+	<Ship Name="Freighter">
+		<DisplayName>Carguero</DisplayName>
+		<Model>Freighter</Model>
+		<Description>El negocio es mejor en la guerra. Envia el carguero a mundos amistosos para establecer rutas comerciales para ganar dinero.</Description>
+		<Component>CargoHull0</Component>
+		<Component>BasicSupport</Component>
+		<Component>BasicSupport</Component>
+		<Component>TradeModuleLeft</Component>
+		<Component>HyperDrive</Component>
+	</Ship>
+	<Ship Name="Constructor">
+		<DisplayName>Constructor</DisplayName>
+		<Model>Constructor</Model>
+		<Description>Disenado para construir bases estelares, el Constructor puede ser enviado a por recursos o a conseguir influencia extra si es necesario.</Description>
+		<Component>CargoHull0</Component>
+		<Component>BasicSupport</Component>
+		<Component>BasicSupport</Component>
+		<Component>HyperDrive</Component>
+		<Component>ConstructorModule</Component>
+	</Ship>
+	<Ship Name="Starbase">
+		<DisplayName>Base Estelar</DisplayName>
+		<Model>Starbase</Model>
+		<Description>Las bases estelares expande tus recursos y tu influencia.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>StarbaseHull</Component>
+		<Ability>Starbase</Ability>
+	</Ship>
+	<Ship Name="SurveyShip">
+		<DisplayName>Nave Mensajera</DisplayName>
+		<Model>SurveyShip</Model>
+		<Description>Viajando temerariamente a donde nadie ha ido antes ... en anomalias!</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>MediumHull0</Component>
+		<Component>Sensors0</Component>
+		<Component>StarScanner0</Component>
+		<Component>BasicSupport</Component>
+		<Component>BasicSupport</Component>
+		<Component>IonDrive</Component>
+		<Component>IonDrive</Component>
+	</Ship>
+	<Ship Name="SpaceMiner">
+		<DisplayName>Nave Minera</DisplayName>
+		<Model>SpaceMiner</Model>
+		<Description>La nave minera esta disenada para minear los campos de asteroides.</Description>
+		<Component>CargoHull0</Component>
+		<Component>BasicSupport</Component>
+		<Component>BasicSupport</Component>
+		<Component>HyperDrive</Component>
+		<Component>SpaceTruckModule</Component>
+	</Ship>
+	<Ship Name="Defender">
+		<DisplayName>Defensor</DisplayName>
+		<Model>Defender</Model>
+		<Description>Cuidado, que muerdo.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>SmallHull0</Component>
+		<Component>ParticleBeam</Component>
+		<Component>Sensors0</Component>
+		<Component>BasicSupport</Component>
+	</Ship>
+	<Ship Name="StarFighter">
+		<DisplayName>Furia Estelar</DisplayName>
+		<Model>StarFury</Model>
+		<Description>Cuidado, que muerdo.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>TinyHull0</Component>
+		<Component>Laser0</Component>
+		<Component>Sensors0</Component>
+		<Component>BasicSupport</Component>
+	</Ship>
+	<Ship Name="Phoenix">
+		<DisplayName>Fenix</DisplayName>
+		<Model>Phoenix</Model>
+		<Description>Reduzco a cenizas a mis enemigos.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>SmallHull0</Component>
+		<Component>ParticleBeam1</Component>
+		<Component>Deflectors3</Component>
+		<Component>Deflectors3</Component>
+	</Ship>
+	<Ship Name="Frigate">
+		<DisplayName>Hacha de Guerra</DisplayName>
+		<Model>BattleAxe</Model>
+		<Description>Te dolera mas a ti que a mi.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>MediumHull0</Component>
+		<Component>Plasma0</Component>
+		<Component>Plasma0</Component>
+		<Component>Plasma0</Component>
+		<Component>Sensors0</Component>
+		<Component>BasicSupport</Component>
+	</Ship>
+	<Ship Name="Destroyer">
+		<DisplayName>Destructor</DisplayName>
+		<Model>Destroyer</Model>
+		<Description>Es hora de sacar la basura.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>LargeHull0</Component>
+		<Component>Sensors0</Component>
+		<Component>GeneralSupport</Component>
+		<Component>Plasma2</Component>
+		<Component>Plasma2</Component>
+		<Component>Plasma2</Component>
+		<Component>Deflectors3</Component>
+	</Ship>
+	<Ship Name="Battleship">
+		<DisplayName>Acorazado</DisplayName>
+		<Model>Battleship</Model>
+		<Description>Destruyo porque me gusta.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>LargeHull0</Component>
+		<Component>Sensors0</Component>
+		<Component>GeneralSupport</Component>
+		<Component>Phasors0</Component>
+		<Component>Phasors0</Component>
+		<Component>Phasors0</Component>
+		<Component>Shields</Component>
+	</Ship>
+	<Ship Name="FireHawk">
+		<DisplayName>Halcon de Fuego</DisplayName>
+		<Model>FireHawk</Model>
+		<Description>A veces, la violencia es la solucion.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>MediumHull0</Component>
+		<Component>GeneralSupport</Component>
+		<Component>Sensors0</Component>
+		<Component>Phasors0</Component>
+		<Component>Phasors0</Component>
+		<Component>Shields</Component>
+	</Ship>
+	<Ship Name="Dreadnought">
+		<DisplayName>Dreadnaught</DisplayName>
+		<Model>Dreadnaught</Model>
+		<Description>Es hora de patear traseros y mascar chicle. Y me he quedado sin chicle.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>HugeHull0</Component>
+		<Component>Phasors2</Component>
+		<Component>Phasors2</Component>
+		<Component>Phasors2</Component>
+		<Component>Phasors2</Component>
+		<Component>Phasors2</Component>
+		<Component>Phasors2</Component>
+		<Component>Barriers</Component>
+		<Component>Barriers</Component>
+		<Component>Sensors0</Component>
+		<Component>GeneralSupport</Component>
+	</Ship>
+	<Ship Name="SolarFox">
+		<DisplayName>Francotirador</DisplayName>
+		<Model>Sniper</Model>
+		<Description>Yo hare el disparo.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>TinyHull0</Component>
+		<Component>MiniBalls0</Component>
+		<Component>MiniBalls0</Component>
+		<Component>Sensors0</Component>
+		<Component>BasicSupport</Component>
+	</Ship>
+	<Ship Name="SolarWing">
+		<DisplayName>Trueno</DisplayName>
+		<Model>Thunder</Model>
+		<Description>Vive y deja morir.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>SmallHull0</Component>
+		<Component>MassDriver0</Component>
+		<Component>MassDriver0</Component>
+		<Component>Sensors0</Component>
+		<Component>BasicSupport</Component>
+	</Ship>
+	<Ship Name="BattleHammer">
+		<DisplayName>Martillo de Guerra</DisplayName>
+		<Model>BattleHammer</Model>
+		<Description>El mundo es mi clavo.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>MediumHull0</Component>
+		<Component>SingularityDriver0</Component>
+		<Component>SingularityDriver0</Component>
+		<Component>SingularityDriver0</Component>
+		<Component>Sensors0</Component>
+		<Component>BasicSupport</Component>
+	</Ship>
+	<Ship Name="SledgeHammer">
+		<DisplayName>Martillo Pilon</DisplayName>
+		<Model>SledgeHammer</Model>
+		<Description>El dolor ensena y yo soy un profesor.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>LargeHull0</Component>
+		<Component>Sensors0</Component>
+		<Component>GeneralSupport</Component>
+		<Component>SingularityDriver2</Component>
+		<Component>SingularityDriver2</Component>
+		<Component>SingularityDriver2</Component>
+		<Component>SingularityDriver2</Component>
+		<Component>SingularityDriver2</Component>
+		<Component>Duranthium</Component>
+	</Ship>
+	<Ship Name="Overlord">
+		<DisplayName>Overlord</DisplayName>
+		<Model>Overlord</Model>
+		<Description>Descubre, depura, domina.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>LargeHull0</Component>
+		<Component>Sensors0</Component>
+		<Component>GeneralSupport</Component>
+		<Component>GravitonDisruptor0</Component>
+		<Component>GravitonDisruptor0</Component>
+		<Component>GravitonDisruptor0</Component>
+		<Component>GravitonDisruptor0</Component>
+		<Component>GravitonDisruptor0</Component>
+		<Component>Admantium2</Component>
+		<Component>Admantium2</Component>
+	</Ship>
+	<Ship Name="Star Avenger">
+		<DisplayName>Vengador Estelar</DisplayName>
+		<Model>StarAvenger</Model>
+		<Description>La victoria es la respuesta.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>MediumHull0</Component>
+		<Component>GeneralSupport</Component>
+		<Component>Sensors0</Component>
+		<Component>GravitonDisruptor0</Component>
+		<Component>GravitonDisruptor0</Component>
+		<Component>GravitonDisruptor0</Component>
+		<Component>Admantium2</Component>
+	</Ship>
+	<Ship Name="Ranger">
+		<DisplayName>Explorador</DisplayName>
+		<Model>Ranger</Model>
+		<Description>La galaxia es mi patio de recreo.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>HugeHull0</Component>
+		<Component>QuantumDriver0</Component>
+		<Component>QuantumDriver0</Component>
+		<Component>QuantumDriver0</Component>
+		<Component>QuantumDriver0</Component>
+		<Component>QuantumDriver0</Component>
+		<Component>QuantumDriver0</Component>
+		<Component>Admantium5</Component>
+		<Component>Admantium5</Component>
+		<Component>Admantium5</Component>
+		<Component>Sensors0</Component>
+		<Component>GeneralSupport</Component>
+	</Ship>
+	<Ship Name="MissileBoat">
+		<DisplayName>Torpedera</DisplayName>
+		<Model>MissileBoat</Model>
+		<Description>Vamos a volar algo.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>TinyHull0</Component>
+		<Component>Stinger1</Component>
+		<Component>Sensors0</Component>
+		<Component>BasicSupport</Component>
+	</Ship>
+	<Ship Name="Cruiser">
+		<DisplayName>Crucero</DisplayName>
+		<Model>Cruiser</Model>
+		<Description>Es hora de gritar.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>SmallHull0</Component>
+		<Component>Stinger2</Component>
+		<Component>Stinger2</Component>
+		<Component>Sensors0</Component>
+	</Ship>
+	<Ship Name="Corvette">
+		<DisplayName>Corbeta</DisplayName>
+		<Model>Corvette</Model>
+		<Description>Todo en orden.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>MediumHull0</Component>
+		<Component>Harpoon0</Component>
+		<Component>Harpoon0</Component>
+		<Component>ECM</Component>
+		<Component>Sensors0</Component>
+		<Component>BasicSupport</Component>
+	</Ship>
+	<Ship Name="Paladin">
+		<DisplayName>Paladin</DisplayName>
+		<Model>Paladin</Model>
+		<Description>Vengo a arreglar el dia!</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>LargeHull0</Component>
+		<Component>Sensors0</Component>
+		<Component>GeneralSupport</Component>
+		<Component>PhotonicTorpedo0</Component>
+		<Component>PhotonicTorpedo0</Component>
+		<Component>PhotonicTorpedo0</Component>
+		<Component>PointDefense</Component>
+	</Ship>
+	<Ship Name="Avatar">
+		<DisplayName>Avatar</DisplayName>
+		<Model>Avatar</Model>
+		<Description>La ley del mas fuerte.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>LargeHull0</Component>
+		<Component>Sensors0</Component>
+		<Component>GeneralSupport</Component>
+		<Component>PhotonTorpedo0</Component>
+		<Component>PhotonTorpedo0</Component>
+		<Component>PhotonTorpedo0</Component>
+		<Component>PhotonTorpedo0</Component>
+		<Component>PDCombo</Component>
+		<Component>PDCombo</Component>
+	</Ship>
+	<Ship Name="StarDragon">
+		<DisplayName>Dragon Estelar</DisplayName>
+		<Model>StarDragon</Model>
+		<Description>El miedo es mi arma. La muerte, mi solucion.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>MediumHull0</Component>
+		<Component>GeneralSupport</Component>
+		<Component>Sensors0</Component>
+		<Component>PhotonTorpedo2</Component>
+		<Component>PhotonTorpedo2</Component>
+		<Component>PDCombo</Component>
+	</Ship>
+	<Ship Name="Excalibur">
+		<DisplayName>Excalibur</DisplayName>
+		<Model>Excalibur</Model>
+		<Description>Es toda mia.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>HugeHull0</Component>
+		<Component>AntiMatterTorpedo0</Component>
+		<Component>AntiMatterTorpedo0</Component>
+		<Component>AntiMatterTorpedo0</Component>
+		<Component>AntiMatterTorpedo0</Component>
+		<Component>AntiMatterTorpedo0</Component>
+		<Component>DroidSentries</Component>
+		<Component>DroidSentries</Component>
+		<Component>DroidSentries</Component>
+		<Component>GeneralSupport</Component>
+	</Ship>
+	<Ship Name="CombatTransport">
+		<DisplayName>Transporte de Combate</DisplayName>
+		<Model>CombatTransport</Model>
+		<Description>Toma nuestras defensas planetarias y posibilidad de salvarse mediante el Transporte de Combate, una nueva linea de buque de Invasion, que puede llevar mas tropas y naves de ataque al enemigo.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>HugeHull0</Component>
+		<Component>ExtendedSupport</Component>
+		<Component>ExtendedSupport</Component>
+		<Component>AdvTroopsModule</Component>
+		<Component>AdvTroopsModule</Component>
+		<Component>GravitonDisruptor0</Component>
+		<Component>GravitonDisruptor0</Component>
+		<Component>Admantium</Component>
+	</Ship>
+	<Ship Name="PirateShip">
+		<DisplayName>Estrella Asaltante</DisplayName>
+		<Model>PirateShip</Model>
+		<Description>La nave espacial de los piratas, esta nave esta hecha de partes de naves robadas, pero no lo subestimes, esta nave puede ser mortal.</Description>
+		<Component>LargeHull0</Component>
+		<Component>BasicSupport</Component>
+		<Component>Titanium</Component>
+		<Component>MassDriver0</Component>
+		<Component>MassDriver0</Component>
+		<Ability>Attack</Ability>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+	</Ship>
+	<Ship Name="Arnorian_Small">
+	    <DisplayName>Fragata Arnor pequena</DisplayName>
+	    <Description>Esta nave Arnor quizas tenga un pequeno casco, pero pega unas tortas mortales.</Description>
+	    <Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>SmallHull6</Component>
+		<Component>DoomRay</Component>
+		<Component>NightmareTorp</Component>
+		<Component>BlackHoleGun</Component>
+		<Component>StellarFolder</Component>
+		<Component>Zero-Point Armor</Component>
+		<Component>AeronMissileDefense</Component>
+		<Component>ForceField6</Component>
+		<Model>Arnorian_Small</Model>
+	</Ship>
+	<Ship Name="Arnorian_Medium">
+		<DisplayName>Nave Arnor</DisplayName>
+		<Description>Una nave de casco mediano, la Nave Arnor esta mucho mas avanzada que otros tipos de fragata.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>MediumHull6</Component>
+		<Component>NightmareTorp</Component>
+		<Component>DoomRay</Component>
+		<Component>DoomRay</Component>
+		<Component>BlackHoleGun</Component>
+		<Component>BlackHoleGun</Component>
+		<Component>StellarFolder</Component>
+		<Component>Zero-Point Armor</Component>
+		<Component>Zero-Point Armor</Component>
+		<Component>AeronMissileDefense</Component>
+		<Component>AeronMissileDefense</Component>
+		<Component>ForceField6</Component>
+		<Component>ForceField6</Component>
+		<Component>UltraSupport</Component>
+		<Component>Sensors3</Component>
+		<Component>NightmareTorp</Component>
+		<Model>Arnorian_Medium</Model>
+	</Ship>
+	<Ship Name="Arnorian_Large">
+	    <DisplayName>Buque de combate Arnor</DisplayName>
+	    <Description>El Buque de combate Arnor: Es grande y esta armado hasta los dientes.</Description>
+	    <Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>LargeHull7</Component>
+		<Component>NightmareTorp</Component>
+		<Component>DoomRay</Component>
+		<Component>DoomRay</Component>
+		<Component>BlackHoleGun</Component>
+		<Component>BlackHoleGun</Component>
+		<Component>BlackHoleGun</Component>
+		<Component>DoomRay</Component>
+		<Component>NightmareTorp</Component>
+		<Component>StellarFolder</Component>
+		<Component>UltraSupport</Component>
+		<Component>Sensors3</Component>
+		<Component>Zero-Point Armor</Component>
+		<Component>Zero-Point Armor</Component>
+		<Component>AeronMissileDefense</Component>
+		<Component>AeronMissileDefense</Component>
+		<Component>ForceField6</Component>
+		<Component>ForceField6</Component>
+		<Component>NightmareTorp</Component>
+		<Model>Arnorian_Large</Model>
+	</Ship>
+	<Ship Name="Arnorian_Huge">
+		<DisplayName>Acorazado Arnor</DisplayName>
+		<Description>El orgullo de la flota Arnor, los disparos del Acorazado despiertan el miedo en los corazones de sus oponentes.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>HugeHull6</Component>
+		<Component>NightmareTorp</Component>
+		<Component>DoomRay</Component>
+		<Component>DoomRay</Component>
+		<Component>DoomRay</Component>
+		<Component>DoomRay</Component>
+		<Component>BlackHoleGun</Component>
+		<Component>BlackHoleGun</Component>
+		<Component>BlackHoleGun</Component>
+		<Component>BlackHoleGun</Component>
+		<Component>NightmareTorp</Component>
+		<Component>NightmareTorp</Component>
+		<Component>Zero-Point Armor</Component>
+		<Component>Zero-Point Armor</Component>
+		<Component>AeronMissileDefense</Component>
+		<Component>AeronMissileDefense</Component>
+		<Component>ForceField6</Component>
+		<Component>ForceField6</Component>
+		<Component>StellarFolder</Component>
+		<Component>Sensors3</Component>
+		<Component>UltraSupport</Component>
+		<Component>NightmareTorp</Component>
+		<Model>Arnorian_Huge</Model>
+	</Ship>
+</GC2Ships>

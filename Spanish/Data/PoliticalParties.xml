@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PoliticalParties>
+  <DataChecksum NoParse="1">
+    <Ignore>DisplayName,Description,Model,ColorRed,ColorGreen,ColorBlue</Ignore>
+    <Translate>DisplayName,Description</Translate>
+  </DataChecksum>
+  <!--
+  
+  ECONOMICS               0
+	WEAPONS                 1
+	DEFENSE                 2
+	SPEED                   3
+	MORALE                  4
+	POPULATIONGROWTH        5
+	SOCIALPRODUCTION        6
+	MILITARYPRODUCTION      7
+	RESEARCH                8
+	INFLUENCE               9
+	DIPLOMACY               11
+	HITPOINTS               12
+	REPAIR                  13
+	SENSORS                 14
+	ESPIONAGE               15
+	SOLDIERING              16
+	INTERESTRATES           17	
+	RANGE                   22
+	LUCK                    23
+	COURAGE                 24
+	CREATIVITY              25
+	LOYALTY                 27  
+  -->
+    
+  <PoliticalParty InternalName="Industrialist">
+    <ID>6</ID>
+    <DisplayName>Industrialista</DisplayName>
+    <Description>Los industriales son la antitesis de los tecnologos. Los industriales reciben una bonificacion a la capacidad de produccion.</Description>
+    <Model>gfx/Government/Industrialist.png</Model>
+    <OpposingParty>Technologists</OpposingParty>
+    <Bonus>6:20 7:20 15:-25</Bonus>
+    <Penalty>8:-20 15:-25</Penalty>
+    <ColorRed>210</ColorRed>
+    <ColorGreen>210</ColorGreen>
+    <ColorBlue>210</ColorBlue>
+  </PoliticalParty>
+  <PoliticalParty InternalName="Universalists">
+    <ID>7</ID>
+    <DisplayName>Universalistas </DisplayName>
+    <Description>Los Universalistas intentan ser todo para todos. </Description>
+    <Model>gfx/Government/Universalists.png</Model>
+    <OpposingParty>Populists</OpposingParty>
+    <Bonus>0:5 23:20 5:10 2:10 15:-25</Bonus>
+    <Penalty>9:-10 5:-10 4:-10 15:-25</Penalty>
+    <ColorRed>84</ColorRed>
+    <ColorGreen>242</ColorGreen>
+    <ColorBlue>81</ColorBlue>
+  </PoliticalParty>
+  
+  <PoliticalParty InternalName="Federalists">
+    <ID>0</ID>
+    <DisplayName>Federalistas</DisplayName>
+    <Description>Los federalistas creen firmemente en que el gobierno se distribuya de alguna manera. Tienden a ser bastante expertos en asuntos financieros internos. Seleccionar este partido le dara a tu civilizacion un impulso a tu economia.</Description>
+    <Model>gfx/Government/Federalists.png</Model>
+    <OpposingParty>Mercantile</OpposingParty>
+    <Bonus>0:20 15:-25</Bonus>
+    <Penalty>10:-50 17:-10 15:-25</Penalty>
+    <ColorRed>59</ColorRed>
+    <ColorGreen>133</ColorGreen>
+    <ColorBlue>202</ColorBlue>
+  </PoliticalParty>
+  <PoliticalParty InternalName="Populists">
+    <ID>1</ID>
+    <DisplayName>Populistas</DisplayName>
+    <Description>Los populistas son la fiesta del pueblo. A ellos les importa, realmente lo haces. Creen en centrarse en las necesidades y los temores de las personas.</Description>
+    <Model>gfx/Government/Populists.png</Model>
+    <OpposingParty>Universalists</OpposingParty>
+    <Bonus>9:10 5:10 4:10 15:-25</Bonus>
+    <Penalty>0:-5 23:-20 5:-10 2:-10 15:-25</Penalty>
+    <ColorRed>116</ColorRed>
+    <ColorGreen>170</ColorGreen>
+    <ColorBlue>79</ColorBlue>
+  </PoliticalParty>
+  <PoliticalParty InternalName="WarParty">
+    <ID>2</ID>
+    <DisplayName>Partido de guerra</DisplayName>
+    <Description>El Partido de guerra ve a las razas alienigenas por lo que son: alimanas que deben controlarse. La mejor defensa es un buen ataque. Tenemos un destino manifiesto para controlar toda la galaxia. Elegir este partido te dara bonificaciones en habilidades militares relacionadas.</Description>
+    <Model>gfx/Government/WarParty.png</Model>
+    <OpposingParty>Pacifists</OpposingParty>
+    <Bonus>16:10 12:10 1:10 2:10 15:-25</Bonus>
+    <Penalty>9:-15 11:-10 15:-25</Penalty>
+    <ColorRed>199</ColorRed>
+    <ColorGreen>64</ColorGreen>
+    <ColorBlue>47</ColorBlue>
+  </PoliticalParty>
+  <PoliticalParty InternalName="Pacifists">
+    <ID>3</ID>
+    <DisplayName>Pacifistas </DisplayName>
+    <Description>Los pacifistas son fuertes creyentes en la paz. Cualquier civilizacion capaz de poder viajar interestelamente debe ser pacifica. Los desacuerdos y las guerras entre civilizaciones se deben a malentendidos.</Description>
+    <Model>gfx/Government/Pacifists.png</Model>
+    <OpposingParty>WarParty</OpposingParty>
+    <Bonus>9:15 11:10 15:-25</Bonus>
+    <Penalty>16:-10 12:-10 1:-10 2:-10 15:-25</Penalty>
+    <ColorRed>176</ColorRed>
+    <ColorGreen>108</ColorGreen>
+    <ColorBlue>182</ColorBlue>
+  </PoliticalParty>
+  <PoliticalParty InternalName="Technologists">
+    <ID>4</ID>
+    <DisplayName>Tecnologos </DisplayName>
+    <Description>Los tecnologos creen que todos nuestros problemas pueden resolverse con tecnologia. Es por eso que los tecnologos dan un impulso impresionante a la investigacion y al alcance del sensor.</Description>
+    <Model>gfx/Government/Technologists.png</Model>
+    <OpposingParty>Industrialist</OpposingParty>
+    <Bonus>8:20 14:1 15:-25</Bonus>
+    <Penalty>6:-20 7:-20 15:-25</Penalty>
+    <ColorRed>220</ColorRed>
+    <ColorGreen>224</ColorGreen>
+    <ColorBlue>114</ColorBlue>
+  </PoliticalParty>
+  <PoliticalParty InternalName="Mercantile">
+    <ID>5</ID>
+    <DisplayName>Mercantil</DisplayName>
+    <Description>Los mercantilistas entienden el verdadero poder del hiperimpulsor: el comercio. Exportar bienes y cultura a otras civilizaciones los hara mas dependientes de nuestra prosperidad para su propio exito. Los mercantilistas reciben un impulso para comerciar y disfrutan de un descuento al comprar naves o mejoras.</Description>
+    <Model>gfx/Government/Mercantile.png</Model>
+    <OpposingParty>Federalists</OpposingParty>
+    <Bonus>10:50 17:10 15:-25</Bonus>
+    <Penalty>0:-20 15:-25</Penalty>
+    <ColorRed>219</ColorRed>
+    <ColorGreen>136</ColorGreen>
+    <ColorBlue>28</ColorBlue>
+  </PoliticalParty>
+</PoliticalParties>
