@@ -380,7 +380,7 @@ ScreenTitle] Configurar la Galaxia
 [IntelligenceDescription10] La economía del jugador IA aumenta en un 50% y se usan algoritmos avanzados.
 [IntelligenceDescription11] La economía del jugador IA aumenta en un 100%, se usan algoritmos avanzados, y el jugador del ordenador no tiene niebla de guerra.
 
-[NoSuperAbility] Sin superhabilidad
+[NoSuperAbility] Sin Super Habilidad
 
 [TABLEEND]
 
@@ -2757,7 +2757,7 @@ SortByHabitability] Habilabilidad
 [Mining] Minería
 [Range] Rango
 [TerrorStar] Módulo Estrella del Terror
-[DockShips] Astillero
+[DockShips] Atracar naves
 [StarbaseAttack] Ataque base estelar
 [StarbaseDefense] Defensa base estelar
 [StarbaseSensors] Sensores
@@ -3888,7 +3888,7 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 [DefaultPersonalityDescription10] Korath
 [DefaultPersonalityDescription11] Krynn
 
-[NoSuperAbility] No Super Ability
+[NoSuperAbility] Sin Super Habilidad
 
 
 [SuperAbilityDescription0] Los superdiplomáticos son negociadores expertos y gozan de una gran influencia.  

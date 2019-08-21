@@ -1,0 +1,300 @@
+ • Equipo de Actualización de la Comunidad •
+
+-=Cambios en el Arbol tecnologico & Afinado IA=-
+Antonio “Mabus” Invernizzi 
+Gaunathor 
+
+-=Mejoras Planetarias=-
+Antonio Invernizzi 
+Gaunathor 
+
+-=Armamento en Gral=-
+SilasOfBorg 
+
+-=Chanbios IU=-
+Antonio Invernizzi 
+
+-=Descripciomnes Tecnologicas=-
+Kamil “OShee” Bober 
+Antonio Invernizzi 
+SiliasOfBorg 
+DARCA1213 
+Sam “MarvinKosh” Edwards 
+Gaunathor 
+
+-=Testeo de Juego=-
+Antonio Invernizzi 
+Kamil Bober 
+Steffen "Maiden666" Jenter 
+DARCA1213 
+SiliasOfBorg 
+MarvinKosh 
+Leiavoia 
+
+-=Manual=-
+Antonio Invernizzi 
+
+-=Arte=-
+Steffen Jenter 
+Kamil Bober 
+
+ • Diseñador y Director del Proyecto •
+
+Brad Wardell
+
+
+ • Jefe del equipo •
+
+Scott Tykoski
+
+
+ • Encargado del Desarrollo •
+
+Cari Begle
+
+
+ • Director de Gráficos •
+
+Paul Boyer
+
+
+ • Encargado de IA/Economía •
+
+Brad Wardell
+
+
+ • Desarrolladores • 
+
+Cari Begle
+Jesse Brindle
+Scott Tykoski
+Brad Wardell
+Charles Lentz
+Ross Dexter
+
+
+ • Interfaz de Usuario •
+
+Paul Boyer
+
+
+ • Gráficos y Animación •
+
+Paul Boyer
+Scott Tykoski
+Akil Dawkins
+Ross Fairbanks/Z71 (Realized cursor)
+Stefan Gersdorf (Weapons FX)
+Paul Trogolo (Planet Textures)
+
+
+ • Intro Cinemática •
+ 
+Scott Tykoski
+Akil Dawkins
+
+
+ • Diseño de la Página Web •
+
+George Marsack
+
+
+ • Guión y Conceptos •
+
+Brad Wardell
+
+
+ • Conceptos Adicionales •
+
+Kristin Hatcher
+
+
+ • Instalación y Edición •
+
+Kris Kwilas
+www.gamemanagersport.com (GMS versión española)
+www.clandlan.net (versión española)
+
+
+ • Administración •
+
+Brian Clair
+Angela Marshall
+Larry Kuperman
+Kim Kolaz
+
+
+ • Stardock Central •
+
+Brian Harper
+
+
+ • Metaverso •
+
+Pat Ford
+Paul Kerchen
+Andrew Powell
+Cari Begle
+Laurence Parry
+
+
+ • Música •
+
+Mason Fischer
+Eric Heberling
+
+
+ • Voces • 
+
+Jillian H. Starr
+R. William Powell
+
+
+ • Narración • 
+
+Allison Green
+
+
+ • Documentación •
+
+Tom Chick
+Brad Wardell
+Kristin Hatcher
+
+
+ • Tutoriales •
+
+Paul Boyer
+Kristin Hatcher
+
+
+ • Encargado de DesktopX •
+
+Alberto Riccio
+
+
+• Desarrolladores Extras para Dread Lords •
+
+Paul Kerchen
+Scott Brodie
+Andy Hough
+
+
+ • Gráficos y Animación Extras para Dread Lords •
+
+Alex Gounaropolous
+Jake Callery
+Scott Brodie
+Andy Wilson
+Ross Fairbanks/Z71 (Curso Realizado)
+Kristoffer Lynch
+James Chen
+Jay Maher
+Paul Warzecha
+
+
+ • Gráficos y Animación Extras para Dark Avatar •
+Drew Loveridge
+Andy Wilson
+Stefan Gersdorf (FX de Armas)
+
+
+ • Campañas para Dark Avatar •
+
+Jeff Pinard
+
+ • Take 2 Games •
+
+Tony Costa
+Stacy Rachels
+Penny Armstrong
+
+
+ • Relaciones Públicas •
+
+Tom Ohle
+Vincent Slaven
+Belinda Banks
+
+
+ • Diseño Web •
+
+George Marsack
+
+
+ • Moderadores del Sitio •
+
+Mike Crassweller
+Aaron Rister
+
+
+ • Calidad •
+ 
+Michael Crassweller
+Aaron Rister
+Derek Batting
+Chris Williams
+Mike Haber
+Travis Gilshire
+Trent Polack
+Ross Dexter
+
+ • Probadores del Juego •
+
+Gracias a todos los que ayudaron en probar la versión beta.
+
+En particular a...
+
+Gherardo Albano
+Andre Buchanan
+Ray Chua
+Jean-Michel Forhan
+John Garth
+Paul Haggard
+Mark Fraser
+John Hamp
+Chris Jakan
+Justin Joy
+Stephen Joyce
+Greg Joynson
+John Kistler
+Mario McDonald
+Paul McEvoy
+Dennis Perry
+Trevor Powdrell
+John Schmid
+Eric Schwertfeger
+Matthew Taylor
+James Thibault
+Jim Tough
+David Webster
+Martyn Wraight
+Alex Wardell
+
+
+ • Agradecimientos Especiales •
+
+Soren Johnson
+Shane Maness
+Ryan 'NIGHT HAWK' Green
+Gregory 'Arilias' Hayes
+Jay 'Sarxos' Kemberling
+Robert 'M.B.M.' Erickson
+Enigma
+Tiavals
+
+
+
+
+"La Tierra es la cuna de la humanidad, pero uno no puede vivir siempre en la cuna."
+Konstantin Tsiolkovsky, 1895
+
+
+
+Uses Bink. Copyright © 1991-2007 by RAD Game Tools, Inc.
+
+Uses Miles Sound System. Copyright © 1991-2007 by RAD Game Tools, Inc.
+
+MPEG Layer-3 playback supplied with the Miles Sound System
+from RAD Game Tools, Inc.  MPEG Layer-3 audio compression
+technology licensed by Fraunhofer IIS and THOMSON multimedia.

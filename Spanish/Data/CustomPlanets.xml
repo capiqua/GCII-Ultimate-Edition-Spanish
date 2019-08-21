@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<CUSTOMPLANETS>
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName,Texture,TerrainPalette,Moon,PercentOfStarSize,Rings,Orbit,InnerRadius,OuterRadius</Ignore>
+		<Translate>DisplayName</Translate>
+	</DataChecksum>
+	<StarSystem Name="Sol">
+		<DisplayName>Sol</DisplayName>
+		<Texture>gfx/planets/sol.png</Texture>
+    <Planet Name="Mercury">
+      <DisplayName>Mercurio</DisplayName>
+      <Class>0</Class>
+      <Texture>gfx/planets/M10.png</Texture>
+      <TerrainPalette>JustRockPlanet</TerrainPalette>
+      <PercentOfStarSize>0.15</PercentOfStarSize>
+    </Planet>
+		<Planet Name="Earth">
+			<DisplayName>Tierra</DisplayName>
+			<Class>10</Class>
+			<Texture>gfx/planets/earth.png</Texture>
+			<RAWTerrain>earth.raw</RAWTerrain>
+			<TerrainPalette>Testing123</TerrainPalette>
+			<Moon>gfx/planets/m00.png</Moon>
+			<PercentOfStarSize>0.50</PercentOfStarSize>
+		</Planet>
+    <Planet Name="Mars">
+      <DisplayName>Marte</DisplayName>
+      <Class>4</Class>
+      <Texture>gfx/planets/mars.png</Texture>
+      <TerrainPalette>RedPlanet</TerrainPalette>
+      <PercentOfStarSize>0.40</PercentOfStarSize>
+    </Planet>		
+		<Planet Name="Jupiter">
+			<DisplayName>Jupiter</DisplayName>
+			<Class>0</Class>
+			<Texture>gfx/planets/jupiter.png</Texture>
+			<TerrainPalette>DesertPlanets1</TerrainPalette>
+			<PercentOfStarSize>0.80</PercentOfStarSize>
+		</Planet>
+		<Planet Name="Saturn">
+			<DisplayName>Saturno</DisplayName>
+			<Class>0</Class>
+			<Texture>gfx/planets/saturn.png</Texture>
+			<PercentOfStarSize>0.60</PercentOfStarSize>
+			<Rings>gfx/planets/r00.png</Rings>
+			<Orbit>1.25</Orbit>
+			<InnerRadius>0.2</InnerRadius>
+			<OuterRadius>15</OuterRadius>
+		</Planet>
+		<AsteroidField Name="SolarAsteroidBelt">
+			<DisplayName>Solar Asteroid Belt</DisplayName>
+			<Size>4</Size>
+		</AsteroidField>
+	</StarSystem>
+	<StarSystem Name="Drengia">
+		<DisplayName>Drengia</DisplayName>
+		<Planet Name="Drengi">
+			<DisplayName>Drengi</DisplayName>
+			<Class>10</Class>
+			<Texture>gfx/planets/Drengi.png</Texture>
+			<RAWTerrain>Drengi.raw</RAWTerrain>
+			<Moon>gfx/planets/m10.png</Moon>
+			<PercentOfStarSize>0.50</PercentOfStarSize>
+		</Planet>
+		<Planet Name="Kona">
+			<DisplayName>Kona</DisplayName>
+			<Texture>gfx/planets/C00.png</Texture>
+			<PercentOfStarSize>0.80</PercentOfStarSize>
+			<Class>4</Class>
+		</Planet>
+		<Planet Name="Grathis">
+			<DisplayName>Grathis</DisplayName>
+			<PercentOfStarSize>0.15</PercentOfStarSize>
+			<Texture>gfx/planets/M13.png</Texture>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Rathor">
+			<DisplayName>Rathor</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Mawhar">
+			<DisplayName>Mawhar</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<AsteroidField Name="DrenginAsteroidField">
+			<DisplayName>Asteroide de Kona</DisplayName>
+			<Size>3</Size>
+		</AsteroidField>
+	</StarSystem>
+	<StarSystem Name="Altaris">
+		<DisplayName>Altaris</DisplayName>
+		<Planet Name="Altaria">
+			<DisplayName>Altaria</DisplayName>
+			<Class>12</Class>
+			<Texture>gfx/planets/Altaria.png</Texture>
+			<RAWTerrain>Altaria.raw</RAWTerrain>
+			<Moon>gfx/planets/m03.png</Moon>
+		</Planet>
+		<Planet Name="Wisp">
+			<DisplayName>Wisp</DisplayName>
+			<Class>3</Class>
+		</Planet>
+		<Planet Name="Epas">
+			<DisplayName>Epas</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Imoth">
+			<DisplayName>Imoth</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Po">
+			<DisplayName>Po</DisplayName>
+			<Texture>gfx/planets/M04.png</Texture>
+			<PercentOfStarSize>0.20</PercentOfStarSize>
+			<Class>0</Class>
+		</Planet>
+		<AsteroidField Name="AltarianAsteroidField">
+			<DisplayName>Grupo de Asteroides Altarian</DisplayName>
+			<Size>3</Size>
+		</AsteroidField>
+	</StarSystem>
+	<StarSystem Name="Athol">
+		<DisplayName>Athol</DisplayName>
+		<Planet Name="Arcea">
+			<DisplayName>Arcea</DisplayName>
+			<Class>10</Class>
+			<Texture>gfx/planets/Arcea.png</Texture>
+			<RAWTerrain>Arcea.raw</RAWTerrain>
+			<Moon>gfx/planets/M07.png</Moon>
+		</Planet>
+		<Planet Name="Hammer">
+			<DisplayName>Hammer</DisplayName>
+			<Class>5</Class>
+		</Planet>
+		<Planet Name="ArceaIII">
+			<DisplayName>Athol III</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="ArceaIV">
+			<DisplayName>Athol IV</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="ArceaV">
+			<DisplayName>Athol V</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<AsteroidField Name="AtholianAsteroidCloud">
+			<DisplayName>Nube de Asteroides Althorian</DisplayName>
+			<Size>4</Size>
+		</AsteroidField>
+	</StarSystem>
+	<StarSystem Name="Torus">
+		<DisplayName>Torus</DisplayName>
+		<Planet Name="Toria">
+			<DisplayName>Toria</DisplayName>
+			<Class>9</Class>
+			<Texture>gfx/planets/Toria.png</Texture>
+			<RAWTerrain>Toria.raw</RAWTerrain>
+			<Rings>gfx/planets/R05.png</Rings>
+		</Planet>
+		<Planet Name="ToriaII">
+			<DisplayName>Torus II</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="ToriaIII">
+			<DisplayName>Torus III</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="ToriaIV">
+			<DisplayName>Torus IV</DisplayName>
+			<Class>6</Class>
+		</Planet>
+		<Planet Name="ToriaV">
+			<DisplayName>Torus V</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<AsteroidField Name="ToriaAsteroids">
+			<DisplayName>Asteroides de Torus</DisplayName>
+			<Size>3</Size>
+		</AsteroidField>
+	</StarSystem>
+	<StarSystem Name="Icos">
+		<DisplayName>Icos</DisplayName>
+		<Planet Name="Yor">
+			<DisplayName>Iconia</DisplayName>
+			<Class>10</Class>
+			<Texture>gfx/planets/Iconia.png</Texture>
+			<RAWTerrain>Iconia.raw</RAWTerrain>
+			<Rings>gfx/planets/R03.png</Rings>
+		</Planet>
+		<Planet Name="XTR-17">
+			<DisplayName>XTR-17</DisplayName>
+			<Class>4</Class>
+		</Planet>
+		<Planet Name="Icos II">
+			<DisplayName>Icos III</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Icos III">
+			<DisplayName>Icos IV</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Icos IV">
+			<DisplayName>Icos V</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<AsteroidField Name="AsteroidsOfIcos">
+			<DisplayName>Asteroides de Icos</DisplayName>
+			<Size>3</Size>
+		</AsteroidField>
+	</StarSystem>
+	<StarSystem Name="Oxor">
+		<DisplayName>Oxor</DisplayName>
+		<Planet Name="Korx">
+			<DisplayName>Korx</DisplayName>
+			<Class>8</Class>
+			<Texture>gfx/planets/Korx.png</Texture>
+			<RAWTerrain>Korx.raw</RAWTerrain>
+		</Planet>
+		<Planet Name="Mercenary">
+			<DisplayName>Mercenario</DisplayName>
+			<Class>8</Class>
+		</Planet>
+		<Planet Name="KorxIII">
+			<DisplayName>Oxor III</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="KorxIV">
+			<DisplayName>Oxor IV</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="KorxV">
+			<DisplayName>Oxor V</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<AsteroidField Name="OxorianAsteroids">
+			<DisplayName>Grupo de Asteroides Oxorian</DisplayName>
+			<Size>3</Size>
+		</AsteroidField>
+	</StarSystem>
+	<StarSystem Name="Drathis">
+		<DisplayName>Drathis</DisplayName>
+		<Planet Name="Dratha">
+			<DisplayName>Dratha</DisplayName>
+			<Class>10</Class>
+			<Texture>gfx/planets/Dratha.png</Texture>
+			<RAWTerrain>Dratha.raw</RAWTerrain>
+		</Planet>
+		<Planet Name="DrathaII">
+			<DisplayName>Drathis II</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="DrathaIII">
+			<DisplayName>Drathis III</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="DrathaIV">
+			<DisplayName>Drathis IV</DisplayName>
+			<Class>4</Class>
+		</Planet>
+		<Planet Name="DrathaV">
+			<DisplayName>Drathis V</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<AsteroidField Name="DrathanAsteroids">
+			<DisplayName>Asteroides Drathan</DisplayName>
+			<Size>2</Size>
+		</AsteroidField>
+	</StarSystem>
+	<StarSystem Name="Thalis">
+		<DisplayName>Thalis</DisplayName>
+		<Planet Name="Thala">
+			<DisplayName>Thala</DisplayName>
+			<Class>15</Class>
+			<Texture>gfx/planets/Thala.png</Texture>
+			<RAWTerrain>Thala.raw</RAWTerrain>
+		</Planet>
+		<Planet Name="ThaliaII">
+			<DisplayName>Thalis II</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="ThaliaIII">
+			<DisplayName>Thalis III</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="ThaliaIV">
+			<DisplayName>Thalis IV</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="ThaliaV">
+			<DisplayName>Thalis V</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<AsteroidField Name="ThalisAsteroids">
+			<DisplayName>Asteroides Thalis</DisplayName>
+			<Size>1</Size>
+		</AsteroidField>
+	</StarSystem>
+	<StarSystem Name="Iconis">
+		<DisplayName>Iconis</DisplayName>
+		<Planet Name="NewIconia">
+			<DisplayName>Nueva Iconia</DisplayName>
+			<Class>14</Class>
+			<Texture>gfx/planets/NewIconia.png</Texture>
+			<RAWTerrain>NewIconia.raw</RAWTerrain>
+		</Planet>
+		<Planet Name="NewIconiaII">
+			<DisplayName>Iconia II</DisplayName>
+			<Class>3</Class>
+		</Planet>
+		<Planet Name="NewIconiaIII">
+			<DisplayName>Iconia III</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="NewIconiaIV">
+			<DisplayName>Iconia IV</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="NewIconiaV">
+			<DisplayName>Iconia V</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<AsteroidField Name="NewIconianAsteroids">
+			<DisplayName>Campo de Asteroides de Iconia</DisplayName>
+			<Size>3</Size>
+		</AsteroidField>
+	</StarSystem>
+	<StarSystem Name="Ra'nagoh">
+		<DisplayName>Ra'nagoh</DisplayName>
+		<Planet Name="Kora">
+			<DisplayName>Kora</DisplayName>
+			<Texture>gfx/planets/kora.png</Texture>
+			<RAWTerrain>Kora.raw</RAWTerrain>
+			<Class>10</Class>
+		</Planet>
+		<Planet Name="Kynda">
+			<DisplayName>Kindar</DisplayName>
+			<Class>4</Class>
+		</Planet>
+		<Planet Name="Ra'nagoh III">
+			<DisplayName>Ra'nagoh III</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Ra'nagoh IV">
+			<DisplayName>Ra'nagoh IV</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Ra'nagoh V">
+			<DisplayName>Ra'nagoh V</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<AsteroidField Name="RanagohAsteroids">
+			<DisplayName>Asteroides Ra'nagoh</DisplayName>
+			<Size>1</Size>
+		</AsteroidField>
+	</StarSystem>
+	<StarSystem Name="Alora">
+		<DisplayName>Alora</DisplayName>
+		<Planet Name="Kryseth">
+			<DisplayName>Kryseth</DisplayName>
+			<Texture>gfx/planets/Kryseth.png</Texture>
+			<RAWTerrain>Kryseth.raw</RAWTerrain>
+			<Class>10</Class>
+		</Planet>
+		<Planet Name="Ghella">
+			<DisplayName>Ghella</DisplayName>
+			<Class>4</Class>
+		</Planet>
+		<Planet Name="Alora III">
+			<DisplayName>Alora III</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Alora IV">
+			<DisplayName>Alora IV</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Alora V">
+			<DisplayName>Alora V</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<AsteroidField Name="AloraAsteroids">
+			<DisplayName>Alora Asteroids</DisplayName>
+			<Size>1</Size>
+		</AsteroidField>
+	</StarSystem>
+	<StarSystem Name="CustomDefault">
+		<Planet Name="Homeworld">
+			<Class>10</Class>
+			<Moon>gfx/planets/m00.png</Moon>
+			<PercentOfStarSize>0.50</PercentOfStarSize>
+		</Planet>
+		<Planet Name="Planet2">
+			<Class>4</Class>
+			<PercentOfStarSize>0.40</PercentOfStarSize>
+		</Planet>
+		<Planet Name="Planet3">
+			<Class>0</Class>
+			<PercentOfStarSize>0.15</PercentOfStarSize>
+		</Planet>
+		<Planet Name="Planet4">
+			<Class>0</Class>
+			<PercentOfStarSize>0.80</PercentOfStarSize>
+		</Planet>
+		<Planet Name="Planet5">
+			<Class>0</Class>
+			<PercentOfStarSize>0.60</PercentOfStarSize>
+			<Rings>gfx/planets/r00.png</Rings>
+		</Planet>
+		<AsteroidField>
+			<Size>3</Size>
+		</AsteroidField>
+	</StarSystem>
+</CUSTOMPLANETS>

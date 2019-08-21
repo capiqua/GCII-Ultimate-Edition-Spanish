@@ -805,7 +805,7 @@
     <SpeedAbility>10</SpeedAbility>
     <WillingnessToTrade>90</WillingnessToTrade>
   </Propulsion>
-  <Propulsion ID="HiperWarp II">
+  <Propulsion ID="HyperWarp II">
     <DisplayName>HiperWarp II</DisplayName>
     <Description>Propulsion por hiperwarp mejorada.</Description>
     <Details>Seguimos mejorando la propulsion por hiperwarp. Cada vez requiere menos energia plegar el espacio, como en las generaciones anteriores.</Details>
