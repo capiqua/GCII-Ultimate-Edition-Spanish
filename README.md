@@ -17,7 +17,7 @@ Esta es la traducción del juego Galactic Civilizations II: Ultimate Edition v2.
 	  donde esta la carpeta spanish. Pulsmos "DONE"
 	·Acepta el reinicio
 
-	Nota: cada cambio de en la tradu, es recomendable borrar partidas
+	Nota: cada cambio de en la tradu, es recomendable borrar las razas que se crean en
 	c:\Users\xxxx\Documents\My Games\GC2TwilightArnor\
 	
  
