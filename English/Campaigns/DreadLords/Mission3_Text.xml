@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<Topics>
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>You're very persistent, [YourLeaderName]. But, you're also too late. We've recovered the Precursor object and have troops scouring Karion to find the lost Arnorian temple. Soon we will release the power of the Precursors... a power that we will wield to take over the galaxy.
+
+
+Enjoy your last days, human.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Altarian">2</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>0</Morality>
+				<Text>We will help you recover the artifact. The Drengin must be stopped.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_WINNING_HATE">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>The darkness spreads, [YourLeaderName]. We will soon be stronger than any mortal force... give up while you still can.
+
+#Your forces are weak and frightened, human. With the power of the Precursors within our grasp, you have little hope to cling to.
+
+Do you come to beg for mercy?
+
+#Your lifeforce weakens, [YourLeaderName], and my troops are getting closer to finding the Arnorian Temple. Have you come begging for the mercy of [TheirLeaderName]?</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_LOSING_HATE"/>
+	<Topic Name="AI_SCOFF_AT_BRIBE"/>
+</Topics>

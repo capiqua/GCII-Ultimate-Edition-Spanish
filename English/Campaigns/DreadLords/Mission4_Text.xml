@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<Topics>
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>Foolish Human, coming to seek an alliance with the Drengin to fight back the Dread Lords.
+
+
+No, I think you and your friends will wage war against this menace. We will be the ones to enslave the powerless victors.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Altarian">2</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>0</Morality>
+				<Text>The Drengin may have released the imprisoned Precursor army, but that will not stop us from charging into battle.
+
+
+For the good of the galaxy, let us fight off this evil, [YourLeaderName]!</Text>
+			</Phrase>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>Honor means little to the Drengin, [YourLeaderName]. They sacrifice the galaxy to the Dread Lords in hopes of weakening our alliance.
+
+
+Let us show them the true power of our united forces!</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Arcean">3</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>0</Morality>
+				<Text>The Drengin may have released the imprisoned Precursor army, but that will not stop the us from charging into battle.
+
+
+For the good of the galaxy, let us fight off this evil, [YourLeaderName]!</Text>
+			</Phrase>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>Honor means little to the Drengin, [YourLeaderName]. They sacrificed the galaxy to the Dread Lords with the hope of weakening our alliance.
+
+
+Let us show them the true power of our united forces!</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Yor">5</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>An army of incalculable might has been released upon the galaxy. Fighting a war against us, the Drengin, and the Dread Lords will wear your forces thin.
+
+
+Surrender is the only logical option, Human.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_WINNING_HATE">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>Your forces are powerless against the might of the Precursors... We will sacrifice our outer worlds, while you desperately try to protect every last human child and their teddy bears. Whether by our own hands or the immutable will of the Dread Lords, the [YourEmpireName] will be defeated.
+
+#Your suffering brings me much joy, [YourLeaderName]. The Precursor device has unleashed the legendary Dread Lord Armada! Any hope you hold onto now will soon be crushed.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Yor">5</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>Our calculations were correct... your foolish attempt to save your worlds from the Dread Lord army has left the human forces weak and broken. Destruction is upon you, [YourLeaderName].
+
+#Beings of flesh and bone are designed to be destroyed, [YourLeaderName]. The Dark Arnor will rip through your forces with ease.
+
+
+Your death awaits, human.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_LOSING_HATE">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>You fight back, despite the odds? How can you hope to overcome the strength of the legendary Dread Lords?</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Yor">5</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>Your alliance may be able to fend off this first wave of attacks, but when you feel the full strength of the Dark Arnor, you'll regret your current resistance. Die now, while death can still be somewhat peaceful.
+
+# The Dark Arnor have only begun to expose their true power. Our calculations indicate that a Human victory against them is nearly impossible. Choose the logical path and surrender while you still have the chance.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+</Topics>

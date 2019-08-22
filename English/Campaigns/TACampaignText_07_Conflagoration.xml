@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<Topics>
+	<MaxNumRacesInFile>15</MaxNumRacesInFile>
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase Morality="0">
+				<Text>Here's a tip.  This quadrant is a warzone.  Unless you wish to fall to the [SPEAKING_RACE_NAME] as well, I'd suggest you leave.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Here's your first and only warning:  This quadrant is a warzone.  Unless you wish to fall to the [SPEAKING_RACE_NAME] as well, I'd suggest you leave.  Now.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>This quadrant is a warzone, [YourLeaderName].  Your presence here tells me you wish to die along with the rest of them.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Altarian">2</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase Morality="0">
+				<Text>Saludos, [YourLeaderName]! Esta batalla se hace cada vez mas grande. De que lado estas?</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Esta guerra ha estado se ha librando por bastante tiempo. Se hace cada vez mas grande. De que lado estas, [YourLeaderName]?</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>En medio de esta guerra, nunca imagine que veria a [YourEmpireName] en el territorio [SPEAKING_RACE_NAME]. Supongo que estas aqui con intencion maliciosa. Hora de morir.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Arcean">3</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase Morality="0">
+				<Text>Los [SPEAKING_RACE_NAME] son una raza orgullosa y noble. Nos referimos a [YourEmpireName], no les hemos hecho dano. No se nos cruce si desea mantenerlo asi.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Los [SPEAKING_RACE_NAME] son una orgullosa civilizacion guerrera. En medio de esta guerra galactica, no tenemos nada en contra de [YourEmpireName]. Siempre y cuando respetes nuestro poder y sabiduria.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Esta galaxia pronto sera completamente propiedad de [SPEAKING_RACE_NAME], todos los que se interpongan en el camino seran traficados rapidamente. </Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Yor">5</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase Morality="0">
+				<Text>Ya hemos calculado como ganar esta guerra, pero eso fue antes de tu llegada.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Ya hemos calculado como ganar esta guerra, pero eso fue antes de tu llegada. Hazte a un lado y mira el show.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Ya hemos calculado como ganar esta guerra, pero eso fue antes de tu llegada. La solucion mas rapida es eliminarte y no tener que volver a crear una estrategia.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Iconian">9</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase Morality="0">
+				<Text>Oh, hola [YourLeaderName]! Supongo que no has logrado matar a ninguno de esos viles Yor que tenias?</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Tu presencia en este cuadrante podria significar dos cosas. Estas con nosotros o contra nosotros. Tu eliges.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Esta guerra puede estar agotando la paciencia de [SPEAKING_RACE_NAME], pero no te confundas [YourLeaderName], lo ganaremos ... incluso si eso significa eliminar el [YourEmpireName] en el camino.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Korath">13</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase Morality="0">
+				<Text>Bueno ole [YourLeaderName], siguiendo el [SPEAKING_RACE_NAME] una vez mas. Puede ser el momento de que [YourEmpireName] sea atendido de una vez por todas.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>[YourLeaderName], veo que ha decidido seguir a [SPEAKING_RACE_NAME] una vez mas. Puedo estar ocupado ganando la guerra en este cuadrante, pero nunca estoy ocupado para eliminar el [YourEmpireName].</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>No tengo tiempo para escuchar tus excusas sobre por que te has topado con el territorio [SPEAKING_RACE_NAME], [YourLeaderName]. Preparese para la destruccion</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Krynn">14</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase Morality="0">
+				<Text>El [SPEAKING_RACE_NAME] quiere decir a [YourEmpireName], no les hemos hecho dano.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>El [SPEAKING_RACE_NAME] quiere decir a [YourEmpireName], no les hemos hecho dano. Por otra parte, podemos cambiar de opinion.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>El [SPEAKING_RACE_NAME] quiere decir a [YourEmpireName], no les hemos hecho dano. Pero si deseas mantenerlo asi, retiraran sus naves de nuestro territorio.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+</Topics>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<Topics>
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Yor">5</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>Human, the Yor army has recently been outfitted with Hyperdrive-equipped missile weaponry. These ships will easily cut through your shield technology, leaving your forces in ruin.
+
+Extermination awaits, [YourLeaderName].</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Iconian">9</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>0</Morality>
+				<Text>The galaxy is in turmoil, [YourLeaderName]. The evil Dread Lord armada has been released, the Yor have developed and launched deadly new warships, and the Drengin forces gather and strengthen.
+
+We must put this dark hour behind us, human - the Iconian army is ready to fight!</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_WINNING_HATE">
+		<Dialogue>
+			<Speaker Name="Yor">5</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>Calculations indicate you will have a difficult time defeating us, human. Your shield technology will do little to save your forces against our new weaponry.
+#The Dread Lords are an ancient civilization from our time, [YourLeaderName]. They were the ones that taught us the weak nature of biological beings. Their return marks the end of the human race.
+
+There is little you can do to change this.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_LOSING_HATE">
+		<Dialogue>
+			<Speaker Name="Yor">5</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>Your forces are stronger than we expected. We will have to strengthen our missiles to couter-balance this.
+#Our Hyperdrive-equipped missiles should be more efficient against your vessels. Apparently we miscalculated your military might.
+#We calculated the skill of your army based on your past military failures. Apparently you've improved since last fighting our Drengin allies.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+</Topics>

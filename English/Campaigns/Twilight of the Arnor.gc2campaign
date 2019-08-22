@@ -1,0 +1,53 @@
+[INFO]
+Prologue=El equilibrio de poder que una vez mantuvo el orden en la galaxia se ha roto. Ahora, solo el malvado Imperio Drengin y sus primos mas despiadados, los Korath siguen siendo un factor clave. Detras de escena, los Senores del Miedo continuan manipulando a ambos lados en un esfuerzo por recuperar la dominacion del universo conocido.||Mientras tanto, una tarea fuerte de exploracion humana ha regresado al espacio conocido para descubrir el desastre que ha ocurrido...
+
+Mientras tanto, un grupo de trabajo de exploracion humana ha regresado al espacio conocido para descubrir el desastre que ha ocurrido...
+
+Epilogue=Con la destruccion de Kai'vox y los fragmentos del cristal de Telenanth, el poder abrumador de los Senores del Miedo se desvanece rapidamente. En gran medida superados en numero y practicamente indefensos, se ven obligados a retirarse de cada confrontacion. Su dominio sobre la galaxia esta llegando a su fin y, con ellos, muere el legado de los Arnor.||A pesar de la desaparicion de los senores del Miedo, la galaxia aun se encuentra en un estado de incertidumbre. La guerra galactica cambiara para siempre con la introduccion del poder puro de la Estrella del Terror. Sus secretos deben ser cuidadosamente guardados, para que no caigan en las manos equivocadas...
+Missions=9
+Image=gfx\Loading\TA_Campaign_Image.png
+Title=Crepusculo del Arnor
+Version=2
+Icon=
+[Mission0]
+Scenario=01_Of the Arnor.gc2scenario
+Map=01_Of the Arnor.GC2Map
+Lose=1
+Win=2
+[Mission1]
+Scenario=02_Proving Grounds.gc2scenario
+Map=02_Proving Grounds.GC2Map
+Lose=2
+Win=3
+[Mission2]
+Scenario=03_Shatter Point.gc2scenario
+Map=03_Shatter Point.GC2Map
+Lose=3
+Win=4
+[Mission3]
+Scenario=04_Sea of Dread.gc2scenario
+Map=04_Sea of Dread.GC2Map
+Lose=4
+Win=5
+[Mission4]
+Scenario=05_Crossfire.gc2scenario
+Map=05_Crossfire.GC2Map
+Lose=5
+Win=6
+[Mission5]
+Scenario=06_Rock & Hard Place.gc2scenario
+Map=06_Rock & Hard Place.GC2Map
+Lose=6
+Win=7
+[Mission6]
+Scenario=07_Conflagoration.gc2scenario
+Map=07_Conflagoration.GC2Map
+Lose=7
+Win=8
+[Mission7]
+Scenario=08_Nightmare.gc2scenario
+Map=08_Nightmare.GC2Map
+Lose=8
+[Mission8]
+Scenario=
+Map=

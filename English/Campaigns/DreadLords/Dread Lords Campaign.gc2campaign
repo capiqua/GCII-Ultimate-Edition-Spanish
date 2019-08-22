@@ -1,0 +1,89 @@
+[INFO]
+Prologue=A long time ago, before humans walked the Earth, there was a powerful space-faring civilization that we've come to call the Precursors. When younger civilizations started to thrive in their primitive states, the Precursors were split on how to react to them. One group wanted to nurture them and guide them to their destiny amongst the stars. The other group wanted to enslave them. This 'difference' in opinion led to a civil war between the factions known as the Arnor and the Dread Lords.||These beings were immensely powerful and frighteningly advanced. Their war waged across the galaxy for thousands of years. The Dread Lords were on the verge of final victory when suddenly, both the Arnor and Dread Lords vanished from known space.||Over thousands of years, the younger civilizations started making it into the stars on their own. Their progress was greatly accelerated when Humans discovered Hyperdrive technology. Hyperdrive allowed individual ships to travel great distances independently.||At first the galaxy was filled with activity as each of the galactic civilizations sent out colony ships to explore and expand. Each civilization came into more intimate contact with other civilizations and slowly the galaxy began to divide on ideological lines -- as if history were repeating itself.||On the one hand, Humanity had built a coalition of civilizations that looked for open trade, free expression, and peaceful coexistence. At the opposite end of the spectrum, the evil Drengin Empire looked to deal with the galaxy much as they had dealt with their own homeworld thousands of years ago -- by exterminating all rivals to their power. Making an alliance of convenience with the Yor, the Drengin Alliance has become an immensely powerful foe.||The peace has been maintained by the diplomatic victory of bringing the Arcean Empire onto our side. The Arcean Empire are nearly as powerful as the Drengin Empire. But last month, the Drengin Empire launched a massive surprise attack on the Arcean Empire, which devestated much of their fleet. While the tide of war is not strongly against us, the Drengin have made clear that they will not stop until they have conquered the coalition of the Terran Alliance, Arcean Empire, and Altarian Republic.|
+Epilogue=
+Missions=17
+Image=gfx\Loading\Campaign_01.png
+Title=Dread Lords
+[Mission0]
+Scenario=An Unexpected Visitor.gc2scenario
+Map=An Unexpected Visitor.GC2Map
+Lose=2
+Win=3
+[Mission1]
+Scenario=Desperate Ally.gc2scenario
+Map=Desperate Ally.GC2Map
+Lose=-1
+Win=3
+[Mission2]
+Scenario=Ixith.gc2scenario
+Map=Ixith.GC2Map
+Lose=4
+Win=5
+[Mission3]
+Scenario=The Xenon Project.gc2scenario
+Map=The Xenon Project.GC2Map
+Lose=-1
+Win=5
+[Mission4]
+Scenario=Darkness Rising.gc2scenario
+Map=Darkness Rising.GC2Map
+Lose=6
+Win=6
+[Mission5]
+Scenario=Siege.gc2scenario
+Map=Siege.GC2Map
+Lose=7
+Win=8
+[Mission6]
+Scenario=Hearts and Minds.gc2scenario
+Map=Hearts and Minds.GC2Map
+Win=8
+Lose=-1
+[Mission7]
+Scenario=Achilles' Heel.gc2scenario
+Map=Achilles' Heel.GC2Map
+Lose=9
+Win=11
+[Mission8]
+Scenario=Arms Race.gc2scenario
+Map=Arms Race.GC2Map
+Win=10
+Lose=-1
+[Mission9]
+Scenario=The Thalan.gc2scenario
+Map=The Thalan.GC2Map
+Win=11
+Lose=-1
+[Mission10]
+Scenario=Apocalypse.gc2scenario
+Map=Apocalypse.GC2Map
+Lose=-1
+Win=12
+[Mission11]
+Scenario=Exploitation.gc2scenario
+Map=Exploitation.GC2Map
+Win=13
+Lose=-1
+[Mission12]
+Scenario=Deception.gc2scenario
+Map=Deception.GC2Map
+Win=15
+Lose=14
+[Mission13]
+Scenario=Pathfinder.gc2scenario
+Map=Pathfinder.GC2Map
+Win=15
+Lose=-1
+[Mission14]
+Scenario=Salvation.gc2scenario
+Map=Salvation.GC2Map
+Win=16
+Lose=-1
+[Mission15]
+Scenario=Escape.gc2scenario
+Map=Escape.GC2Map
+Lose=-1
+Win=-1
+[Mission16]
+Scenario=
+Map=

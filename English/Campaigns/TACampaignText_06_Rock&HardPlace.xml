@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<Topics>
+	<MaxNumRacesInFile>15</MaxNumRacesInFile>
+	<Topic Name="" />
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Yor">5</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase Morality="0">
+				<Text>Greetings [YourLeaderName].  The [SPEAKING_RACE_NAME] hope to have a lot of contact with your species.</Text></Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>The [SPEAKING_RACE_NAME] mission is simple: Take Out The Iconians.  What is the [YourEmpireName] mission, [YourLeaderName]?</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>It's no secret that the [SPEAKING_RACE_NAME] is at war with the Iconians.  What may surprise you however, [YourLeaderName], is that by helping them defend themselves you doom your own existance.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Iconian">9</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase Morality="0">
+				<Text>I fear that the [SPEAKING_RACE_NAME] are vastly out-numbered in this quadrant.  We could really use the aid of the [YourEmpireName].</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>This war is taking its toll on the [SPEAKING_RACE_NAME].  Any help the [YourEmpireName] can provide would be greatly appreciated.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>The [SPEAKING_RACE_NAME] have held our own thus far, no thanks to the [YourEmpireName].</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Korath">13</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase Morality="0">
+				<Text>You remind me a lot of myself [YourLeaderName].  If I was much weaker and less intelligent.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>The Iconians will all die, and if you aid them in any way [YourLeaderName], the [YourEmpireName] will meet the same fate.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Know this [YourLeaderName], helping the Iconians is equal to slapping the entire [SPEAKING_RACE_NAME] in the face.  Now tell me, what are your plans?</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Krynn">14</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase Morality="0">
+				<Text>The [SPEAKING_RACE_NAME] look to expand our galactic borders peacefully.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>The [SPEAKING_RACE_NAME] look to expand our galactic borders peacefully.  We mean the [YourEmpireName] no harm.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>The [SPEAKING_RACE_NAME] look to expand our galactic borders.  We will use force if necessary.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+</Topics>

@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<TechTrees>
+  <TechTree InternalName="Korath_TechTree">
+    <DataChecksum NoParse="1">
+      <Ignore>DisplayName,Description,Details,Model,xmlns</Ignore>
+      <Translate>DisplayName,Description,Details</Translate>
+    </DataChecksum>
+    <DisplayName>Korath</DisplayName>
+    <!--Communications-->
+    <Culture ID="Xeno Communications">
+    </Culture>
+    <Culture ID="UniversalTranslator">
+    </Culture>
+    <!--Government-->
+    <Culture ID="InterGov">
+      <DisplayName>Administrative Slaveling Theory</DisplayName>
+      <Description>Research into specialized slavelings.</Description>
+      <Details>For hundreds of years, the [YOURSHORTCIVNAME] have used genetic engineering to improve our workforce. One of our biggest challenges has been something of a paradox. For economic planning, we need slaves that are smart enough to understand the nuances of interstellar commerce, but not smart enough to start rebellions.||One of our scientists has recently made a proposal; if we mix our own genome with that of a dumb but naturally empathic slave species, we might get a hybrid smart enough to be put to use in the business sector, but so attuned to the happiness of others that the mere thought of deliberately causing chaos and destruction would be unbearably painful. Using our own pure genome in such a way is heresy, of course, and the scientist and his team have already been sentenced to the Arena.||Mind you, that doesn't mean we're going to ignore this promising idea. Oh, and here's your tickets for tonight's fight, enjoy!</Details>
+      <CanBeTraded>0</CanBeTraded>
+      <CanBeStolen>0</CanBeStolen>
+    </Culture>
+    <Culture ID="StarRep">
+      <DisplayName>Administrative Slavelings</DisplayName>
+      <Description>Improving our economy whether they like it or not.</Description>
+      <Details>We did it! The first generation of administrative slavelings is already at work on our budget. There seems to be some natural variation in the slavelings' approaches, so we've segregated them into several groups. To mock other races of the galaxy, we named these slave groups after prominent political parties of their governments. Even more amusing, they have come to think that you, [YOURLEADERNAME], are having a change of heart and want to bring more equality to [YOUREMPIRENAME]! Seriously - there is no end to the comedy here - we're even thinking of setting up mock 'elections'!||Unfortunately, there is a small downside to the empathic nature of these slavelings. If they are around too many unhappy people, if throws them off their game and they start making costly mistakes. So we kind of have to keep our own people happy to keep them reliable. And, uh, [YOURLEADERNAME], Most Awesome And Terrifying, we.. uh.. might need to put off declarations of war if our populace is unhappy, for similar reas-OUCH!||I deserved that.</Details>
+      <CanBeTraded>0</CanBeTraded>
+      <CanBeStolen>0</CanBeStolen>
+    </Culture>
+    <Culture ID="StarDem">
+      <DisplayName>Enhanced Ambassadors</DisplayName>
+      <Description>Send better representatives to other races.</Description>
+      <Details>There is no question that the best diplomacy is the business end of a pulse rifle pointed at your enemies' tender bits. On occasion, if there are insufficient pulse rifles available, we need to convince another species that we don't actually want to enslave them, at least not right this minute. That's where diplomacy comes into play. But because of our history and our combative nature, it's not our strong suit.||Though we hate to admit it, there are sometimes individuals born among our people that are cursed with mild appearance and demeanor. Normally, they don't survive their first decade of life. However, if we cull such wastes of flesh from the general population, and perhaps torture them a little to break them down even further, they can actually appear believably harmless and docile to our enemies! Those "lucky" citizens are our new generation of ambassadors. The galaxy has never seen smooth talkers quite like this!||As a side benefit, the genetic monitoring we developed to catch such individuals before they're killed by their siblings has led to breeding refinements in our administrative slavelings, improving their productivity and our economy further.</Details>
+      <CanBeTraded>0</CanBeTraded>
+      <CanBeStolen>0</CanBeStolen>
+    </Culture>
+    <Culture ID="StarFed">
+      <DisplayName>Hyper Incubators</DisplayName>
+      <Description>More and cheaper slavelings!</Description>
+      <Details>Although our administrative slavelings have many of the traits we need, their lifespans are short and they cannot naturally reproduce. We tried getting more out of them by increasing their intelligence, but couldn't manage that without decreasing their empathic ability. We tried extending their lifespans, but they just got senile faster. Finally, we threw in the towel and just started investigating ways of making more of them. Lots more.||With our new hyper-incubation chambers, administrative slavelings are now cheap and plentiful. We've even put some of them to work on the diplomatic front, helping our ambassadors figure out the best ways to confuse and manipulate our enemies. It's a win all around!</Details>
+      <CanBeTraded>0</CanBeTraded>
+      <CanBeStolen>0</CanBeStolen>
+    </Culture>
+    <!--Culture-->
+    <Culture ID="DarkInfluence">
+    </Culture>
+    <!--Trade-->
+    <Culture ID="Trade">      
+      <Description>Enables us to create trade routes with other civilizations (very difficult for this race).</Description>
+      <Details>Considering our agenda to enslave or destroy all sub-Drengin our merchants will have a difficult time procuring good deals. Fortunately our slaveling researchers are properly "motivated" to tackle this problem.</Details>     
+     
+      <!--The Korath aren't known for the friendlyness so trading with other races will be difficult for them.-->
+      <Cost>300</Cost>
+    </Culture>
+    <Culture ID="Advanced Trade">
+      <Description>Enables us to support two more trade routes (very difficult for this race).</Description>
+     
+      <!--The Korath aren't known for the friendlyness so trading with other races will be difficult for them.-->
+      <Cost>600</Cost>
+    </Culture>
+    <Culture ID="Master Trade">
+      <Description>Enables us to add more trade routes (very difficult for this race).</Description>
+     
+      <!--The Korath aren't known for the friendlyness so trading with other races will be difficult for them.-->
+      <Cost>1800</Cost>
+    </Culture>
+    <Culture ID="Neutral Shipping">
+    </Culture>
+    <!--Diplomacy-->
+    <Culture ID="Diplomatic Relations">
+      <DisplayName>Basic Diplomacy</DisplayName>
+      <Description>Enables us to set up embassies with other civilizations (very difficult for this race).</Description>
+      <Details>Diplomacy is not our strong point given our agenda of exterminating all other life in the universe. But for now, we will continue to negotiate with the inferior races as we prepare to liquidate them.</Details>      
+     
+      <!--Cost reflects the Korath's attitude to other races.--> 
+      <Cost>300</Cost>      
+    </Culture>
+    <Culture ID="Counter Espionage">
+      <Requires>Diplomatic Relations</Requires>
+    </Culture>
+    <Culture ID="Alliances">
+      <Details>Better to team up with others to crush our enemies..and then crush our teammates later.</Details>
+    </Culture>
+    <Culture ID="XenoIntimidation">
+    </Culture>
+    <!--Propulsion-->
+    <Computing ID="FusionReactors">
+    </Computing>
+    <Propulsion ID="HyperDrive">
+    </Propulsion>
+    <Propulsion ID="NewPropulsion">
+    </Propulsion>
+    <Propulsion ID="IonDrive">
+    </Propulsion>
+    <Propulsion ID="ImpulseDrive">
+    </Propulsion>
+    <Propulsion ID="Impulse Drive Mark II">
+    </Propulsion>
+    <Propulsion ID="Impulse Drive Mark III">
+    </Propulsion>
+    <Propulsion ID="Warp Drive">
+    </Propulsion>
+    <Propulsion ID="Warp Drive II">
+    </Propulsion>
+    <Propulsion ID="Warp Drive III">
+    </Propulsion>
+    <Propulsion ID="HyperWarp">
+    </Propulsion>
+    <Propulsion ID="HyperWarp II">
+    </Propulsion>
+    <Propulsion ID="HyperWarp III">
+    </Propulsion>
+    <!--Space Mining-->
+    <Logistics ID="Space Mining">
+    </Logistics>
+    <Logistics ID="Space Mining2">
+    </Logistics>
+    <Logistics ID="Space Mining3">
+    </Logistics>
+    <!--Range-->
+    <Logistics ID="Basic Life Support">
+    </Logistics>
+    <Logistics ID="Extended Life Support">
+    </Logistics>
+    <Logistics ID="Advanced Life Support">
+    </Logistics>
+    <Logistics ID="Ultra Life Support">
+    </Logistics>
+    <!--Logistics-->
+    <Logistics ID="Basic Logistics">
+    </Logistics>
+    <Logistics ID="Enhanced Logistics">
+    </Logistics>
+    <Logistics ID="Advanced Logistics">
+    </Logistics>
+    <Logistics ID="Expert Logistics">
+    </Logistics>
+    <Logistics ID="Ultimate Logistics">
+    </Logistics>
+    <!--Miniaturization-->
+    <Computing ID="Basic Miniaturization">
+    </Computing>
+    <Computing ID="Enhanced Miniaturization">
+    </Computing>
+    <Computing ID="Advanced Miniaturization">
+    </Computing>
+    <Computing ID="Expert Miniaturization">
+    </Computing>
+    <Computing ID="Ultimate Miniaturization">
+    </Computing>
+    <Computing ID="Supreme Miniaturization">
+    </Computing>
+    <!--Sensor-->
+    <Computing ID="StarScanner">
+    </Computing>
+    <Computing ID="StarScanner2">
+    </Computing>
+    <Computing ID="Sensor2">
+    </Computing>
+    <Computing ID="Sensor3">
+    </Computing>
+    <!--Hull-->
+    <Industry ID="InterstellarConstruction">
+    </Industry>
+    <Logistics ID="Advanced Hulls">
+    </Logistics>
+    <Logistics ID="Medium Scale Building">
+    </Logistics>
+    <Logistics ID="Superior Hulls">
+    </Logistics>
+    <Logistics ID="Large Scale Building">
+    </Logistics>
+    <Logistics ID="Master Hull Building">
+    </Logistics>
+    <Logistics ID="Massive Scale Building">
+    </Logistics>
+    <Logistics ID="Reinforced Hull Design">
+    </Logistics>
+    <Logistics ID="Hardened Hull Design">
+    </Logistics>
+    <!--Manufacturing-->
+    <Industry ID="ArtificialGravity">
+      <DisplayName>Gravity Control</DisplayName>
+    </Industry>
+    <Industry ID="Xeno Engineering">
+    </Industry>
+    <Industry ID="PlanetaryImprovements">
+      <DisplayName>Xeno Slavery</DisplayName>
+      <Description>Spread the practical use of slaves into the galaxy -- for now.</Description>
+      <Details>Our Drengin cousins rely on slavelings as the center of their economy. We too shall rely on slaves -- for now.  Our long-term goal is to simply manufacture slaves using vast cloning techniques but we are still a long ways off from making that cost effective.</Details>
+     
+      <!--Slaves are cheap and easy and plentifull-->
+      <Cost>100</Cost>
+    </Industry>
+    <Industry ID="SlavePits">
+    </Industry>
+    <Industry ID="SlaveCanyons">
+    </Industry>
+    <Industry ID="EnhancedSlavelings">
+      <Requires>SlaveCanyons</Requires>
+    </Industry>
+    <Industry ID="ArtificialSlavelings">
+    </Industry>
+    <Biology ID="WretchedCloning">
+    </Biology>
+    <Biology ID="AulIncineration">
+    </Biology>
+    <!--Pure Research-->
+    <Computing ID="XenoResearch">
+      <DisplayName>Slaveling Research</DisplayName>
+      <Description>Optimize pain based research.</Description>
+      <Details>Other civilizations toss a bunch of clever people into an expensive building and call it research. That won't work for us. For one, there's no screaming on a regular basis. How can one be inventive without agony is beyond us but to our researchers it's a form off bliss that stimulates creativity. Oh, and screams. Lot's of screams.</Details>
+    </Computing>
+    <Computing ID="Diabolical Research">
+    </Computing>
+    <Computing ID="Imaginative Research">
+    </Computing>
+    <Computing ID="Ultimate Diabolical Research">
+    </Computing>
+    <Computing ID="PainAmplification">
+    </Computing>
+    <Computing ID="TormentingRealizations">
+    </Computing>
+    <Computing ID="Advanced Computing">
+      <Requires>Diabolical Research</Requires>
+    </Computing>
+    <Computing ID="Neutrality Learning Center">
+    </Computing>
+    <!--Research-->
+    <Computing ID="VisionsOfAgony">
+    </Computing>
+    <Computing ID="TechnologyThresholds">
+    </Computing>
+    <Computing ID="Beyond Mortality">
+      <Requires>TechnologyThresholds</Requires>
+    </Computing>
+    <Computing ID="Technology Victory">
+      <SoldieringAbility>200</SoldieringAbility>
+    </Computing>
+    <!--Cartography-->
+    <Computing ID="StellarCartography">
+    </Computing>
+    <!--Economics-->
+    <Industry ID="CutthroatTrading">
+    </Industry>
+    <Industry ID="MaliciousBargaining">
+    </Industry>
+    <Industry ID="GraftOfAges">
+    </Industry>
+    <!--Ethics-->
+    <Culture ID="Xeno Ethics">
+    </Culture>
+    <Culture ID="Good and Evil">
+    </Culture>
+    <Culture ID="Concepts of Malice">
+    </Culture>
+    <Culture ID="Concepts of Righteousness">
+    </Culture>
+    <Culture ID="Balanced Vision">
+    </Culture>
+    <!--Entertainment-->
+    <Culture ID="ArenasI">
+    </Culture>
+    <Culture ID="ArenasII">
+    </Culture>
+    <!--Farming-->
+    <Biology ID="Xeno Farm Construction">
+      <DisplayName>Xeno Farming</DisplayName>
+      <Details>We do not adapt to alien worlds. Alien worlds are made to adapt to us.||Xeno Farming provides a seamless transition to bringing our biosphere to other worlds. These worlds are modified to suit our needs in growing proper foods.</Details>
+      <PopulationGrowthAbility>15</PopulationGrowthAbility>
+    </Biology>
+    <Biology ID="Xeno Farm Construction II">
+      <DisplayName>Xeno Farming Level 2</DisplayName>
+      <PopulationGrowthAbility>15</PopulationGrowthAbility>
+      <MoraleAbility>10</MoraleAbility>
+      <!--Race specific tweak. Farming lvl 2 is to powerful for the AI to ignore. AIP7 loves category Biology, not farming.-->
+      <Category>Biology</Category>
+    </Biology>
+    <!--Terraforming-->
+    <Biology ID="Soil Enhancement">
+    </Biology>
+    <Biology ID="Habitat Improvement">
+    </Biology>
+    <Biology ID="Terraforming">
+    </Biology>
+    <!--Biology-->
+    <Biology ID="Xeno Biology">
+      <DisplayName>Corrupted Genetics</DisplayName>
+      <Description>Use Genetic Engineering to modify your people to be more easily managed.</Description>
+      <Details>The masses are sheep. While some foolish civilizations spend all their time trying to cater to the whims of their people, we breed those whims out of them.</Details>
+      <LoyaltyAbility>10</LoyaltyAbility>
+      <MoraleAbility>10</MoraleAbility>
+      <CanBeTraded>0</CanBeTraded>
+      <CanBeStolen>0</CanBeStolen>
+      <WillingnessToTrade>0</WillingnessToTrade>
+    </Biology>
+    <Biology ID="Xeno Medicine">
+    </Biology>
+    <!--Aquatic Terraforming-->
+    <Biology ID="AquaticWorldColonization">
+    </Biology>
+    <Biology ID="AdvancedAquaticWorldColonization">
+    </Biology>
+    <!--Barren Terraforming-->
+    <Biology ID="BarrenWorldColonization">
+    </Biology>
+    <Biology ID="AdvancedBarrenWorldColonization">
+    </Biology>
+    <!--Gravity Terraforming-->
+    <Biology ID="HeavyGravityColonization">
+    </Biology>
+    <Biology ID="AdvancedHeavyGravityColonization">
+    </Biology>
+    <!--Radioactive Terraforming-->
+    <Biology ID="RadioactiveWorldColonization">
+    </Biology>
+    <Biology ID="AdvancedRadioactiveWorldColonization">
+    </Biology>
+    <!--Toxic Terraforming-->
+    <Biology ID="ToxicAtmosphereReductor">
+    </Biology>
+    <Biology ID="AdvancedToxicAtmosphereReductor">
+    </Biology>
+    <!--Colonization-->
+    <!--Military-->
+    <Weapons ID="Galactic Warfare">
+      <DisplayName>Interstellar Conquest</DisplayName>
+      <Description>An international consortium on how dangerous space really is (very easy for this race).</Description>
+      <Details>There is an art to conquering inferior races. One does not merely defeat the enemy, one must crush them utterly. Interstellar Conquest lays the path to conquest of the universe. With it, we can militarize space and eventually look at weapon systems, defenses, conquest of worlds, and beyond.</Details>
+
+      <!--The Korath are a warlike species. Thinking up ways to kill others comes naturally to them.-->
+      <Cost>50</Cost>      
+    </Weapons>
+    <Weapons ID="Space Militarization">
+      <DisplayName>Conquest Strategies</DisplayName>
+      <Description>Starts us down the path of arming and defending our ships (very easy for this race).</Description>
+      <Details>The galaxy is a big place and coming up with effective ways to conquer and enslave it require a great deal of thinking on our part.||Stellar Conquest Strategies give us the tools we need to start evaluating different means to attack our enemies and defend against their retaliation in the vacuum of space.</Details>      
+      
+      <!--The Korath are a warlike species. Thinking up ways to kill others comes naturally to them.-->
+      <Cost>80</Cost>
+    </Weapons>
+    <Weapons ID="Space Weapons">
+    </Weapons>
+    <Defenses ID="StarshipDefenses">
+      <DisplayName>Space Defenses</DisplayName>
+    </Defenses>
+    <!--Beam-->
+    <Weapons ID="Beam Weapon theory">
+      <Details>Beam weapons allow us to cut right through the hulls of unprotected ships,  but don't do a lot of collateral damage.  Sometimes there is such thing as a "free lunch",  if we can get to the wreckage in time.</Details>
+    </Weapons>
+    <Weapons ID="Laser">
+    </Weapons>
+    <Weapons ID="Laser II">
+    </Weapons>
+    <Weapons ID="Laser III">
+    </Weapons>
+    <Weapons ID="ParticleBeams">
+    </Weapons>
+    <Weapons ID="ParticleBeams2">
+    </Weapons>
+    <Weapons ID="ParticleBeams3">
+    </Weapons>
+    <Weapons ID="IonBeams">
+    </Weapons>
+    <Weapons ID="IonBeams2">
+    </Weapons>
+    <Weapons ID="IonBeams3">
+    </Weapons>
+    <Weapons ID="Phasors">
+      <Requires>IonBeams3</Requires>
+    </Weapons>
+    <Weapons ID="Phasors II">
+    </Weapons>
+    <Weapons ID="Phasors III">
+    </Weapons>
+    <Weapons ID="Disruptors">
+    </Weapons>
+    <Weapons ID="Disruptors II">
+    </Weapons>
+    <Weapons ID="Disruptors III">
+    </Weapons>
+    <Weapons ID="Doom Ray">
+    </Weapons>
+    <Weapons ID="Psionic Beam">
+    </Weapons>
+    <!--Missile-->
+    <Weapons ID="Missile Weapon Theory">
+    </Weapons>
+    <Weapons ID="Stinger">
+    </Weapons>
+    <Weapons ID="Stinger II">
+    </Weapons>
+    <Weapons ID="Stinger III">
+    </Weapons>
+    <Weapons ID="Harpoon">
+    </Weapons>
+    <Weapons ID="Harpoon II">
+    </Weapons>
+    <Weapons ID="Harpoon III">
+    </Weapons>
+    <Weapons ID="Photonic Torpedo">
+    </Weapons>
+    <Weapons ID="Photonic Torpedo II">
+    </Weapons>
+    <Weapons ID="Photonic Torpedo III">
+    </Weapons>
+    <Weapons ID="Photon Torpedo">
+    </Weapons>
+    <Weapons ID="Photon Torpedo II">
+    </Weapons>
+    <Weapons ID="Photon Torpedo III">
+    </Weapons>
+    <Weapons ID="Anti-Matter Torp">
+    </Weapons>
+    <Weapons ID="Anti-Matter Torp II">
+    </Weapons>
+    <Weapons ID="Anti-Matter Torp III">
+    </Weapons>
+    <Weapons ID="NightmareTorpedo">
+    </Weapons>
+    <Weapons ID="Psionic Missile">
+    </Weapons>
+    <!--MD-->
+    <Weapons ID="Mass Driver Theory">
+    </Weapons>
+    <Weapons ID="IonCannons">
+    </Weapons>
+    <Weapons ID="IonCannons2">
+    </Weapons>
+    <Weapons ID="IonCannons3">
+    </Weapons>
+    <Weapons ID="Singularity Driver">
+      <Requires>IonCannons3</Requires>
+    </Weapons>
+    <Weapons ID="Singularity Driver II">
+    </Weapons>
+    <Weapons ID="Singularity Driver III">
+    </Weapons>
+    <Weapons ID="PulseCannons">
+    </Weapons>
+    <Weapons ID="PulseCannons2">
+    </Weapons>
+    <Weapons ID="PulseCannons3">
+    </Weapons>
+    <Weapons ID="Graviton Driver">
+    </Weapons>
+    <Weapons ID="Graviton Driver II">
+    </Weapons>
+    <Weapons ID="Graviton Driver III">
+    </Weapons>
+    <Weapons ID="Quantum Driver">
+    </Weapons>
+    <Weapons ID="Quantum Driver II">
+    </Weapons>
+    <Weapons ID="Quantum Driver III">
+    </Weapons>
+    <Weapons ID="Black Hole Gun">
+    </Weapons>
+    <Weapons ID="Psionic Shredder">
+    </Weapons>
+    <!--Shields-->
+    <Defenses ID="Shield Defense Theory">
+    </Defenses>
+    <Defenses ID="Deflectors">
+    </Defenses>
+    <Defenses ID="EnhDeflectors">
+    </Defenses>
+    <Defenses ID="ADvDeflectors">
+    </Defenses>
+    <Defenses ID="Shields">
+    </Defenses>
+    <Defenses ID="Shields II">
+    </Defenses>
+    <Defenses ID="Shields III">
+    </Defenses>
+    <Defenses ID="Barriers">
+    </Defenses>
+    <Defenses ID="Barriers II">
+    </Defenses>
+    <Defenses ID="Barriers III">
+    </Defenses>
+    <Defenses ID="Force Fields">
+    </Defenses>
+    <Defenses ID="Advanced Force Fields">
+    </Defenses>
+    <Defenses ID="Superior Force Fields">
+    </Defenses>
+    <Defenses ID="Ultimate Invulnerability">
+    </Defenses>
+    <Defenses ID="Subspace Rebounder">
+    </Defenses>
+    <!--Point Defense-->
+    <Defenses ID="Missile Defense Theory">
+    </Defenses>
+    <Defenses ID="Chaff">
+    </Defenses>
+    <Defenses ID="Smart Chaff">
+    </Defenses>
+    <Defenses ID="Adaptive Chaff">
+    </Defenses>
+    <Defenses ID="ECM">
+    </Defenses>
+    <Defenses ID="ECM II">
+    </Defenses>
+    <Defenses ID="ECM III">
+    </Defenses>
+    <Defenses ID="Point Defense">
+    </Defenses>
+    <Defenses ID="Point Defense II">
+    </Defenses>
+    <Defenses ID="Point Defense III">
+    </Defenses>
+    <Defenses ID="PD Combo">
+    </Defenses>
+    <Defenses ID="PD Combo II">
+    </Defenses>
+    <Defenses ID="PD Combo III">
+    </Defenses>
+    <Defenses ID="Aereon Missile Defense">
+    </Defenses>
+    <Defenses ID="Telepathic Defense">
+    </Defenses>
+    <!--Armor-->
+    <Defenses ID="Armor Theory">
+    </Defenses>
+    <Defenses ID="Titanitum Armor">
+    </Defenses>
+    <Defenses ID="Titanium Armor II">
+    </Defenses>
+    <Defenses ID="Titanium Armor III">
+    </Defenses>
+    <Defenses ID="Duranthium">
+    </Defenses>
+    <Defenses ID="Duranthium II">
+    </Defenses>
+    <Defenses ID="Duranthium III">
+    </Defenses>
+    <Defenses ID="Tri-Strontium">
+    </Defenses>
+    <Defenses ID="Enhanced Tri-Strontium">
+    </Defenses>
+    <Defenses ID="Superior Tri-Strontium">
+    </Defenses>
+    <Defenses ID="Adamantium Armor">
+    </Defenses>
+    <Defenses ID="Adamantium II">
+    </Defenses>
+    <Defenses ID="Ultimate Adamantium">
+    </Defenses>
+    <Defenses ID="Zero-Point Armor">
+    </Defenses>
+    <Defenses ID="Arnorian Battle Armor">
+    </Defenses>
+    <!--Atlas Modules-->
+    <Computing ID="TulonWeaponFocus">
+    </Computing>
+    <Computing ID="VengeanceScanner">
+    </Computing>
+    <Weapons ID="UnconventionalWarfare">
+    </Weapons>
+    <Computing ID="AmplifiedWeaponry">
+    </Computing>
+    <Computing ID="KillZoneComputers">
+    </Computing>
+    <!--Invasion-->
+    <Weapons ID="Planetary Invasion">
+    </Weapons>
+    <Weapons ID="Shock Troops">
+    </Weapons>
+    <Weapons ID="Planetary Bombardment">
+      <Requires>Shock Troops</Requires>
+    </Weapons>
+    <Weapons ID="Tidal Disruption">
+    </Weapons>
+    <Weapons ID="Space Marines">
+    </Weapons>
+    <Weapons ID="Advanced Troop Mods">
+    </Weapons>
+    <!--Military Starbases-->
+    <Weapons ID="AdvancedStarbaseConstruction">
+    </Weapons>
+    <Computing ID="StarbaseMilitarization">
+    </Computing>
+    <Computing ID="StarbaseMobilization">
+    </Computing>
+    <Computing ID="StarbaseProjection">
+    </Computing>
+    <Computing ID="StarbaseDomination">
+    </Computing>
+    <Computing ID="StarbaseConquestStrategy">
+    </Computing>
+    <Computing ID="TerrorStar0">
+    </Computing>
+    <!--History-->
+    <Industry ID="TraditionalSlavery">
+    </Industry>
+    <Computing ID="SpecializedResearch">
+    </Computing>
+    <Industry ID="BlackMarket">
+    </Industry>
+    <Culture ID="RuthlessHistory">
+    </Culture>
+  </TechTree>
+</TechTrees>

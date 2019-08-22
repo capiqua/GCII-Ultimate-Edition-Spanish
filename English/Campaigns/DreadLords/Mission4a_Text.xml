@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<Topics>
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>So, the weak humans retreat from the Dread Lord forces... I should have expected this from you, [YourLeaderName].</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Torian">4</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>0</Morality>
+				<Text>Ah, the humans. I see the Drengin army has pushed your forces back as well. We appreciate your attempt to rescue our Spiritual Leader from their grasp, but we still have hope that he will be rescued once the war is over.
+
+We are open to trade, but be warned, scouts have reported a Drengin oupost in the area. Stay on your guard.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_WINNING_HATE">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>Don't try and bring the Torians to your side... they're almost as weak as you humans are.
+#The Torians make horrible warriors, [YourLeaderName]. The only thing we've found them good for is as fuel for our slave furnaces.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_LOSING_HATE">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>You can drive us out of this sector, [YourLeaderName], but it'll take more than a show of strength to get the cowardly Torians to join your side.
+#Trust us, human, your forces would be better off without the Torians. You'd be better off taking just them over, then using their worlds as military bases.
+
+Just a friendly suggestion.
+#The Torians are known weaklings. Your war is lost if they join your side.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+</Topics>

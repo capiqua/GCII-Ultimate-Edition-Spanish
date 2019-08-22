@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<Topics>
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>You may have defeated the Precursor army, but the war has weakened your forces.
+
+Crushing the once-mighty humans will be a swift and effortless exercise, [YourLeaderName].</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Arcean">3</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>[YourLeaderName], the situation is dire. War has left our home sector undefended, and now the Yor and Drengin forces have united to attack Arcea.
+The Arcean Empire is in danger of being destroyed by this monstrous alliance. Please, my human friend... help us any way you can.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Altarian">2</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>0</Morality>
+				<Text>And now the true war begins. With the Dread Lords defeated, we can focus on the true villains.
+
+To war, cousin!
+</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Torian">4</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>0</Morality>
+				<Text>We will not let the Drengin enslave the galaxy like they once did to the Torians. They will fall and our united forces will stand triumphant!</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Yor">5</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>The Dread Lords were weaker than first assumed. Now, the battle falls on us! We will triumph over you weak fleshlings.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Iconian">9</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>0</Morality>
+				<Text>The Dark Arnor have fallen, but evil still remains in the galaxy. Let us save the Arceans before it is too late.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_WINNING_HATE">
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_LOSING_HATE">
+	</Topic>
+	<Topic Name="AI_SINCERE_THANKS_FRIEND">
+	</Topic>
+	<Topic Name="AI_SINCERE_THANKS">
+	</Topic>
+	<Topic Name="AI_CRY_FOR_HELP">
+	</Topic>
+	<Topic Name="AI_WELCOME_NEWWAR_WINNING">
+	</Topic>
+	<Topic Name="AI_WELCOME_NEWWAR_LOSING">
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_LOSING">
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_WINNING">
+	</Topic>
+	<Topic Name="AI_WELCOME_ATTACKER_LOSING">
+	</Topic>
+	<Topic Name="AI_WELCOME_ATTACKER_WINNING">
+	</Topic>
+	<Topic Name="AI_GREETING_RELATIONS_VERYLOW">
+	</Topic>
+	<Topic Name="AI_GREETING_RELATIONS_LOW">
+	</Topic>
+	<Topic Name="AI_GREETING_RELATIONS_OK">
+	</Topic>
+	<Topic Name="AI_GREETING_RELATIONS_GOOD">
+	</Topic>
+	<Topic Name="AI_GREETING_RELATIONS_ALLY">
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_VERYLOW">
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_LOW">
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_OK">
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_GOOD">
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_ALLY">
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_VERYLOW">
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_LOW">
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_OK">
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_GOOD">
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_ALLY">
+	</Topic>
+</Topics>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<Topics>
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Yor">5</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>Human leader, we are the army of the Yor Collective. We have heard of your failures in battle against our allies, the Drengin Empire. While we calculate your forces to be of little threat to ours, your presence in this quadrant is still unwelcome.
+Leave now and never come back. Or be destroyed.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Iconian">9</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>0</Morality>
+				<Text>Greetings, Human. We thank you for your gift of Hyperdrive in this time of war.
+
+Our old creations, the Yor, have discovered our refuge and are targeting us for a massive assault. We humbly request any assistance you can provide.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_WINNING_HATE">
+		<Dialogue>
+			<Speaker Name="Yor">5</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>Do not attempt to save the Iconians. They are weak. They will fall. You can not help them... just as they cannot help YOU.
+
+#Your forces will meet the same doom as our former creators. Leave this quadrant or die.
+
+#Do not stand between us and our prey. The Iconians will fall. As will your forces.
+
+#Why do you attempt to ally with the Iconians? They are weak. It is a foolish miscalculation. We pity your biological thought-processing organs.
+
+#You and Iconians will make an easy team to defeat. Crushing your empires will help train our soldiers for larger battles.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_LOSING_HATE">
+		<Dialogue>
+			<Speaker Name="Yor">5</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>You have stood between us and our true enemy, the Iconians. We have recalculated a strategy that deals with your forces first.
+
+#Do not gloat over a victory not yet won. The Iconians will fall. Your forces will fall. Biological forces will never match the skill and precision of the Yor army.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_OK">
+		<Dialogue>
+			<Speaker Name="Iconian">9</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>Greetings, human. The Yor have waged war on us both. Let us work together of fight off the vile machines.
+
+#It seems that the Yor have targeted us both for annihilation.  We will do our best to protect you while you gather your forces.
+
+#Is there anything we can help you with, [YourLeaderName], as we fight off the Yor?
+
+#The Yor have no mercy when it comes to the well-being of biological life forms. We must stick together in these dark times.
+
+#The Yor army is a mighty foe, one that won't be easily defeated. What can we do to help your forces against this great evil?</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_GOOD">
+		<Dialogue>
+			<Speaker Name="Iconian">9</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>The battle rages on, but we will not leave your side, [YourLeaderName]. The Yor will see the true power of non-robotic life forms.
+
+#The Yor fighters will most likely try to pick your forces off first. We'll do our best to keep the enemy at bay while you regroup your fleets.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_LOW">
+		<Dialogue>
+			<Speaker Name="Iconian">9</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>The Yor are a highly advanced form of robotic life. You are going to have to muster a larger force than THAT if you want to survive this war.
+
+#Your forces are too weak to properly wage war. Try to build some warships to help fight off the Yor or we're both goners.
+
+#Your forces are pathetically weak. We'll do our best to defend you, but we're already spread too thin.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_VERYLOW">
+		<Dialogue>
+			<Speaker Name="Iconian">9</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>The Yor are going to eat you alive, friend. It's been nice knowing you. Thanks for the Hyperdrive.
+
+#I can see how the Drengin had such an easy time wiping you out in previous battles.
+
+#Have you come to beg for help? If this is the best military the human race can muster up, perhaps you deserve to be destroyed.
+
+#You plan to fight this war with THAT army?! The Yor are going to destroy you if you don't change your plan of attack.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_CRY_FOR_HELP">
+		<Dialogue>
+			<Speaker Name="Iconian">9</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>The war has taken it's toll on my people, [YourLeaderName]. If you don't help us soon, the Yor will quickly defeat us. Please send any help you can muster!</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_LOSING">
+		<Dialogue>
+			<Speaker Name="Iconian">9</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>What kind of fool are you, [YourLeaderName]? Attacking us when the Yor are the true enemy? You do realize that, if we're destroyed, you can't possibly hope to win this war?
+
+#Attacking us when the Yor are just going to wipe you out? You're a fool, [YourLeaderName]!
+
+#I should never have trusted you humans. I hope the Yor torture you beyond pain. You'll beg for death when they're done with you.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_NEWWAR_LOSING">
+		<Dialogue>
+			<Speaker Name="Iconian">9</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>I'm... I'm... I'm speechless! You attacked us! Your only chance for survival?!?! What kind of fool are you, [YourLeaderName]?!
+
+#It's not too late... let us end this war between us, before things get ugly. We must turn our attention once more toward the Yor.
+
+#You stupid human! You realize that we're your only chance for survival, right? That fighting us will give the Yor time to bring in reinforcements. That, once those reinforcements arrive, your puny army will be wiped out!
+
+Not the sharpest stick in the bunch, are you [YourLeaderName]?</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_NEWWAR_WINNING">
+		<Dialogue>
+			<Speaker Name="Iconian">9</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>You... want to fight us?! How thick can you be?!
+
+#We'll assume that this war was just an accident. Let us come to terms before the Yor have time to muster their forces and destroy us both.
+
+#While we COULD crush you like a bug, we'll assume that you ACCIDENTALLY thought (for a second) that we were the Yor, and come to terms so we can attack the true enemy.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+</Topics>

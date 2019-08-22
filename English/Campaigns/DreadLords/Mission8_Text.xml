@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<Topics>
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>So far away from your home... don't you think Earth can use all the defenses you can muster, [YourLeaderName]?</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Yor">5</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>You will not escape your doom, [YourLeaderName]. War will find you, even in this quadrant of space.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Korx">6</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>We have heard of your triumph over the legendary Dread Lord forces, human. I look forward to doing business with such a mighty race, [YourLeaderName].</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Drath">7</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>So you have escaped the Dread Lords' grasp, human. We congratulate you on your victory, but warn your forces that rogue Precursor ships still lurk in this quadrant.
+Safe star-faring, [YourLeaderName].</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_WINNING_HATE">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>Your search for salvation has met its end.  Prepare for death, human. #Your forces have failed Earth, [YourLeaderName]. They will never discover the Salvation device, and your people will soon bow down before a new leader.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Yor">5</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>Calculations indicate your doom is neigh. Give up this hopeless search for the Salvation device and surrender to your mechanical superiors. #We are your new masters. Your forces cannot match the precision of our mechanical intellect. Give up your search for the Salvation device and bow down before the [TheirEmpireName].</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_LOSING_HATE">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>The Salvation device will not be enough to save your dying race, human.#You may have overcome the Dreadlord's fleet, but your death still lies ahead of you. The Salvation device cannot protect you from this inevitability.#Your death will come soon enough, human. You will find no comfort in this quadrant of space.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Yor">5</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>It is a calculated irony that to save your people from an army of machines, you rely a machine for salvation. You will not find the device, and the human race will fall. #There are countless ways to destroy you and your nation, human. The Salvation device that you seek cannot help you.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_SINCERE_THANKS_FRIEND">
+		<Dialogue>
+			<Speaker Name="Korx">6</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>Your generosity is as strong as your army, [YourLeaderName].  We will do what we can to help you save Earth from the Drengin.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Drath">7</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>The [TheirEmpireName] is honored to receive such gifts form the race that brought down the Dread Lords. In time perhaps we can return the favor.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_SINCERE_THANKS"/>
+	<Topic Name="AI_CRY_FOR_HELP"/>
+	<Topic Name="AI_WELCOME_NEWWAR_WINNING"/>
+	<Topic Name="AI_WELCOME_NEWWAR_LOSING"/>
+	<Topic Name="AI_WELCOME_DEFENDING_LOSING"/>
+	<Topic Name="AI_WELCOME_DEFENDING_WINNING"/>
+	<Topic Name="AI_WELCOME_ATTACKER_LOSING"/>
+	<Topic Name="AI_WELCOME_ATTACKER_WINNING"/>
+	<Topic Name="AI_GREETING_RELATIONS_VERYLOW"/>
+	<Topic Name="AI_GREETING_RELATIONS_LOW"/>
+	<Topic Name="AI_GREETING_RELATIONS_OK">
+		<Dialogue>
+			<Speaker Name="Korx">6</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>Greetings, being of Earth. We hear your planet has been targeted by the Drengin and Yor army. Perhaps we can interest you in come technologies that can 'even the playing field'. #Rumors have begun to circulate on your success against the Dread Lords. We can only hope to offer you the deals a galactic hero is worthy of. #The [TheirEmpireName] is always interested in trading with the warriors that brought down the Dreadlord fleet. What can we interest you in, [YourLeaderName]?</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_GREETING_RELATIONS_GOOD"/>
+	<Topic Name="AI_GREETING_RELATIONS_ALLY"/>
+	<Topic Name="AI_GROVEL_RELATIONS_VERYLOW">
+		<Dialogue>
+			<Speaker Name="Korx">6</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>We may be lowly buisinessmen, human, but if you raise arms against us, we will fight back.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_LOW">
+		<Dialogue>
+			<Speaker Name="Korx">6</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>Our forces have already been weakened by the Dread Lords, [YourLeaderName]. Please have mercy on us.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_OK">
+		<Dialogue>
+			<Speaker Name="Korx">6</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>What can the lowly [TheirEmpireName] do for the mightly slayer of the Dread Lords?</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_GOOD">
+		<Dialogue>
+			<Speaker Name="Korx">6</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>Always an honor, [YourLeaderName]. What to you need in your battle to save Earth from the vile Drengin army?</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_ALLY"/>
+	<Topic Name="AI_SNEER_RELATIONS_VERYLOW"/>
+	<Topic Name="AI_SNEER_RELATIONS_LOW"/>
+	<Topic Name="AI_SNEER_RELATIONS_OK">
+		<Dialogue>
+			<Speaker Name="Korx">6</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>So, this is the pink thing that defeated the legendary Dread Lords? Guess they must not have been so legendary after all.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Drath">7</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>This is the great warrior that brought down the Dreadlord army? I always pictured you taller. #The [TheirEmpireName] is a noble nation. We understand your plight, but do not bring your war with the Drengin to our soil.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_GOOD"/>
+	<Topic Name="AI_SNEER_RELATIONS_ALLY"/>
+</Topics>

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GC2Map>
+	<Info>
+		<Width>4</Width>
+		<Height>4</Height>
+		<Size>1</Size>
+		<Stars>10</Stars>
+		<Planets>13</Planets>
+		<Resources>0</Resources>
+		<Ships>4</Ships>
+		<AsteroidFields>0</AsteroidFields>
+		<HomelessPlayers>0</HomelessPlayers>
+		<DarkAvatarMap>1</DarkAvatarMap>
+	</Info>
+	<Race>
+		<Terran>0</Terran>
+		<Drengin>1</Drengin>
+		<Altarian>2</Altarian>
+		<Arcean>3</Arcean>
+		<Torian>4</Torian>
+		<Yor>5</Yor>
+		<Korx>6</Korx>
+		<Drath>7</Drath>
+		<Thalan>8</Thalan>
+		<Iconian>9</Iconian>
+		<Korath>10</Korath>
+		<Krynn>11</Krynn>
+		<Custom>12</Custom>
+		<Dreadlords>13</Dreadlords>
+	</Race>
+	<Star Name="Star [3,3].[48,51]">
+		<X>48</X>
+		<Y>51</Y>
+		<Type>6</Type>
+		<CustomName>0</CustomName>
+		<Size>97.0000</Size>
+		<RotationSpeed>0.0300</RotationSpeed>
+		<Pattern>19.5000</Pattern>
+		<Density>1.2400</Density>
+	</Star>
+	<Star Name="Star [1,2].[24,41]">
+		<X>24</X>
+		<Y>41</Y>
+		<Type>5</Type>
+		<CustomName>0</CustomName>
+		<Size>75.0000</Size>
+		<RotationSpeed>0.0600</RotationSpeed>
+		<Pattern>42.7500</Pattern>
+		<Density>1.0400</Density>
+	</Star>
+	<Star Name="Star [2,2].[34,42]">
+		<X>34</X>
+		<Y>42</Y>
+		<Type>6</Type>
+		<CustomName>0</CustomName>
+		<Size>70.0000</Size>
+		<RotationSpeed>0.0300</RotationSpeed>
+		<Pattern>11.2500</Pattern>
+		<Density>1.1600</Density>
+	</Star>
+	<Star Name="Star [3,2].[47,31]">
+		<X>47</X>
+		<Y>31</Y>
+		<Type>2</Type>
+		<CustomName>0</CustomName>
+		<Size>78.0000</Size>
+		<RotationSpeed>0.0200</RotationSpeed>
+		<Pattern>23.2500</Pattern>
+		<Density>2.6400</Density>
+	</Star>
+	<Star Name="Star [1,1].[26,18]">
+		<X>26</X>
+		<Y>18</Y>
+		<Type>1</Type>
+		<CustomName>0</CustomName>
+		<Size>70.0000</Size>
+		<RotationSpeed>0.0100</RotationSpeed>
+		<Pattern>40.5000</Pattern>
+		<Density>0.4800</Density>
+	</Star>
+	<Star Name="Star [1,0].[20,7]">
+		<X>20</X>
+		<Y>7</Y>
+		<Type>3</Type>
+		<CustomName>0</CustomName>
+		<Size>68.0000</Size>
+		<RotationSpeed>0.0300</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>1.3600</Density>
+	</Star>
+	<Star Name="Star [0,0].[10,9]">
+		<X>10</X>
+		<Y>9</Y>
+		<Type>4</Type>
+		<CustomName>0</CustomName>
+		<Size>76.0000</Size>
+		<RotationSpeed>0.0500</RotationSpeed>
+		<Pattern>21.0000</Pattern>
+		<Density>1.1600</Density>
+	</Star>
+	<Star Name="Star [0,2].[11,42]">
+		<X>11</X>
+		<Y>42</Y>
+		<Type>1</Type>
+		<CustomName>0</CustomName>
+		<Size>82.0000</Size>
+		<RotationSpeed>0.0300</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>2.0000</Density>
+	</Star>
+	<Star Name="Star [2,1].[35,22]">
+		<X>35</X>
+		<Y>22</Y>
+		<Type>3</Type>
+		<CustomName>0</CustomName>
+		<Size>64.0000</Size>
+		<RotationSpeed>0.0600</RotationSpeed>
+		<Pattern>9.0000</Pattern>
+		<Density>2.7200</Density>
+	</Star>
+	<Star Name="Star [1,2].[16,31]">
+		<X>16</X>
+		<Y>31</Y>
+		<Type>0</Type>
+		<CustomName>0</CustomName>
+		<Size>65.0000</Size>
+		<RotationSpeed>0.0400</RotationSpeed>
+		<Pattern>9.0000</Pattern>
+		<Density>2.1600</Density>
+	</Star>
+	<Planet Name="Teth">
+		<CustomName>1</CustomName>
+		<Owner>13</Owner>
+		<Homeworld>1</Homeworld>
+		<X>50</X>
+		<Y>50</Y>
+		<Quality>6</Quality>
+		<Type>0</Type>
+		<Size>18.0000</Size>
+		<RotationSpeed>0.0700</RotationSpeed>
+		<Influence>25</Influence>
+		<Star>Star [3,3].[48,51]</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Ring>
+			<SatelliteSize>30.0000</SatelliteSize>
+			<Orbit>40.0000</Orbit>
+			<OrbitSpeed>0.6000</OrbitSpeed>
+			<Tilt1>1.5708</Tilt1>
+			<Tilt2>-1.5708</Tilt2>
+		</Ring>
+	</Planet>
+	<Planet Name="Planet [0,0].[12,9]">
+		<CustomName>0</CustomName>
+		<Owner>3</Owner>
+		<Homeworld>1</Homeworld>
+		<X>12</X>
+		<Y>9</Y>
+		<Quality>10</Quality>
+		<Type>0</Type>
+		<Size>18.0000</Size>
+		<RotationSpeed>0.0700</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [0,0].[10,9]</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Outpost 22">
+		<CustomName>1</CustomName>
+		<Owner>0</Owner>
+		<X>27</X>
+		<Y>16</Y>
+		<Quality>11</Quality>
+		<Type>0</Type>
+		<Size>18.0000</Size>
+		<RotationSpeed>0.0700</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [1,1].[26,18]</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Outpost 21">
+		<CustomName>1</CustomName>
+		<Owner>0</Owner>
+		<Homeworld>1</Homeworld>
+		<X>23</X>
+		<Y>8</Y>
+		<Quality>15</Quality>
+		<Type>0</Type>
+		<Size>21.0000</Size>
+		<RotationSpeed>0.0700</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [1,0].[20,7]</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Moon>
+			<SatelliteSize>10.0000</SatelliteSize>
+			<Orbit>43.0000</Orbit>
+			<OrbitSpeed>-0.4900</OrbitSpeed>
+			<Tilt1>-0.9425</Tilt1>
+			<Tilt2>-1.0472</Tilt2>
+		</Moon>
+	</Planet>
+	<Planet Name="Planet [2,2].[36,42]">
+		<CustomName>0</CustomName>
+		<X>36</X>
+		<Y>42</Y>
+		<Quality>5</Quality>
+		<Type>0</Type>
+		<Size>18.0000</Size>
+		<RotationSpeed>0.0700</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [2,2].[34,42]</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [0,2].[8,42]">
+		<CustomName>0</CustomName>
+		<X>8</X>
+		<Y>42</Y>
+		<Quality>11</Quality>
+		<Type>0</Type>
+		<Size>18.0000</Size>
+		<RotationSpeed>0.0700</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [0,2].[11,42]</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [0,2].[11,39]">
+		<CustomName>0</CustomName>
+		<X>11</X>
+		<Y>39</Y>
+		<Quality>9</Quality>
+		<Type>0</Type>
+		<Size>15.0000</Size>
+		<RotationSpeed>0.0700</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [0,2].[11,42]</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [2,1].[37,21]">
+		<CustomName>0</CustomName>
+		<X>37</X>
+		<Y>21</Y>
+		<Quality>4</Quality>
+		<Type>0</Type>
+		<Size>18.0000</Size>
+		<RotationSpeed>0.0700</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [2,1].[35,22]</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [1,2].[22,40]">
+		<CustomName>0</CustomName>
+		<X>22</X>
+		<Y>40</Y>
+		<Quality>7</Quality>
+		<Type>0</Type>
+		<Size>18.0000</Size>
+		<RotationSpeed>0.0700</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [1,2].[24,41]</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [3,2].[48,33]">
+		<CustomName>0</CustomName>
+		<X>48</X>
+		<Y>33</Y>
+		<Quality>10</Quality>
+		<Type>0</Type>
+		<Size>18.0000</Size>
+		<RotationSpeed>0.0700</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [3,2].[47,31]</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [1,2].[15,32]">
+		<CustomName>0</CustomName>
+		<X>15</X>
+		<Y>32</Y>
+		<Quality>8</Quality>
+		<Type>0</Type>
+		<Size>22.0000</Size>
+		<RotationSpeed>0.0700</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [1,2].[16,31]</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [1,1].[25,20]">
+		<CustomName>0</CustomName>
+		<Owner>2</Owner>
+		<Homeworld>1</Homeworld>
+		<X>25</X>
+		<Y>20</Y>
+		<Quality>8</Quality>
+		<Type>0</Type>
+		<Size>18.0000</Size>
+		<RotationSpeed>0.0700</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [1,1].[26,18]</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [1,1].[23,18]">
+		<CustomName>0</CustomName>
+		<Owner>4</Owner>
+		<Homeworld>1</Homeworld>
+		<X>23</X>
+		<Y>18</Y>
+		<Quality>8</Quality>
+		<Type>0</Type>
+		<Size>18.0000</Size>
+		<RotationSpeed>0.0700</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [1,1].[26,18]</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Ship Name="TAS Builder">
+		<X>24</X>
+		<Y>9</Y>
+		<Type>Constructor</Type>
+		<Owner>0</Owner>
+	</Ship>
+	<Ship Name="Night Flyer">
+		<X>22</X>
+		<Y>10</Y>
+		<Type>Scout</Type>
+		<Owner>0</Owner>
+	</Ship>
+	<Ship Name="Sarak">
+		<X>52</X>
+		<Y>50</Y>
+		<Type>Defender</Type>
+		<Owner>11</Owner>
+	</Ship>
+	<Ship Name="Voyager">
+		<X>24</X>
+		<Y>7</Y>
+		<Type>SurveyShip</Type>
+		<Owner>0</Owner>
+	</Ship>
+</GC2Map>

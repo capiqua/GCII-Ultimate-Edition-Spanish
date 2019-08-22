@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<Topics>
+	<MaxNumRacesInFile>15</MaxNumRacesInFile>
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Arcean">3</Speaker>
+			<Listener Name="Drengin">1</Listener>
+			<Phrase Morality="1">
+				<Text>Make us a good offer and perhaps we'll lend you a hand.
+Attempt to take our worlds and death is all you'll claim.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Yor">5</Speaker>
+			<Listener Name="Drengin">1</Listener>
+			<Phrase Morality="2">
+				<Text>Dread Lord forces hold a 98.87 kill percentage. Newly developed Korath Spore vessels hold a 99.36 rate of invasion. Likelihood of failure is 37:2.
+Calculations predict a formidable engagement.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Thalan">8</Speaker>
+			<Listener Name="Drengin">1</Listener>
+			<Phrase Morality="1">
+				<Text>Your plight seems hopeless, but we hope you overcome your adversaries and plot a new moral course.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Iconian">9</Speaker>
+			<Listener Name="Drengin">1</Listener>
+			<Phrase Morality="0">
+				<Text>The Dark Arnor will be difficult to defeat with the Korath as their pawns. Strike without mercy, for you shall receive none in return.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Korath">13</Speaker>
+			<Listener Name="Drengin">1</Listener>
+			<Phrase Morality="2">
+				<Text>Rip...
+...tear...
+...bleed...
+...die.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+</Topics>

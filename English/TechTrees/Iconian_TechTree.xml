@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<TechTrees>
+  <TechTree InternalName="Iconian_TechTree">
+    <DataChecksum NoParse="1">
+      <Ignore>DisplayName,Description,Details,Model,xmlns</Ignore>
+      <Translate>DisplayName,Description,Details</Translate>
+    </DataChecksum>
+    <DisplayName>Iconian</DisplayName>
+    <!--Communications-->
+    <Culture ID="Xeno Communications">
+    </Culture>
+    <Culture ID="UniversalTranslator">
+    </Culture>
+    <!--Government-->
+    <Culture ID="InterGov">
+      <DisplayName>Communities</DisplayName>
+      <Description>We are different from other species in how we govern ourselves. We believe every individual is equal to another regardless of birth, social standing, wealth or intellect. While we do have an emperor the function is symbolic in nature and no real power rests on the throne. However, our observation's of other civilizations make it clear that governing a people can yield great results economically. It would be wise to invest into more advanced forms of governing lest we fall behind other civilizations.</Description>
+      <CanBeTraded>0</CanBeTraded>
+      <CanBeStolen>0</CanBeStolen>
+      
+      <!--AIP10 tweak. AIP10 doesn't research category Government.-->
+      <Category>Pure Research</Category>
+    </Culture>
+    <Culture ID="StarRep">
+      <DisplayName>Cooperative Society</DisplayName>
+      <Description>Our natural tendency to cooperate rather than compete with one another sets us apart from the other civilizations. Other forms of government focus on a select few that decide for many. This is not our way nor can it be. The idea of campaigning for a position is alien to us. However letting our people choose a select few chosen for their competence and not for their promises we will see a small increase in our society's efficiency.</Description>
+      <MoraleAbility>2</MoraleAbility>
+      <CanBeTraded>0</CanBeTraded>
+      <CanBeStolen>0</CanBeStolen>
+      
+      <!--AIP10 tweak. AIP10 doesn't research category Government.-->
+      <Category>Pure Research</Category>
+    </Culture>
+    <Culture ID="StarDem">
+      <DisplayName>Decentralized Governing</DisplayName>
+      <Description>The community is the core. Cabinets that govern from a distant lose touch with the community resulting in a society where neither side trusts each other or listens to one another. By decentralizing our governments we put the politicials back amoungst the people. They will listen. They will understand and as a result they will govern with out people's best intrests in mind. This will result in a moderate economic increase.</Description>
+      <MoraleAbility>3</MoraleAbility>
+      <CanBeTraded>0</CanBeTraded>
+      <CanBeStolen>0</CanBeStolen>
+     
+      <!--AIP10 tweak. AIP10 doesn't research category Government.-->
+      <Category>Pure Research</Category>
+    </Culture>
+    <Culture ID="StarFed">
+      <DisplayName>Egalitarian Principles</DisplayName>
+      <Description>Other civilization's stress change, growth and a need to rise above one's station despite the fact that many simply desire safety, security and stability. Such societies are often led by people who experience this need for themselves but we know this is not the same for everyone. Despite these civilizations best attempts to curb the ill effects inherit from this philosophy they fail in doing so for a select few. This goes firmly against who we are but despite this we are susceptible to outside influence. Egalitarian Principles reinforces our core values while still allowing incredible opportunities for individuals to explore who they are and grow into all they can become. Our people will be happier and as a result we expect an incredible boost to our economy.</Description>
+      <MoraleAbility>5</MoraleAbility>
+      <CanBeTraded>0</CanBeTraded>
+      <CanBeStolen>0</CanBeStolen>
+    </Culture>
+    <!--Culture-->
+    <Culture ID="XenoPersuasion">
+    </Culture>
+    <Culture ID="Xeno Business">
+      <Requires>XenoPersuasion</Requires>
+    </Culture>
+    <Culture ID="Cultural Domination">
+    </Culture>
+    <Culture ID="Historical Assimilation">
+    </Culture>
+    <Culture ID="Xeno Cultural Trends">
+    </Culture>
+    <Culture ID="Cultural Insurrection">
+    </Culture>
+    <Culture ID="Cultural Conquest">
+    </Culture>
+    <!--Trade-->
+    <Culture ID="Trade">
+    </Culture>
+    <Culture ID="Advanced Trade">
+    </Culture>
+    <Culture ID="Master Trade">
+    </Culture>
+    <Culture ID="Neutral Shipping">
+    </Culture>
+    <!--Diplomacy-->
+    <Culture ID="Diplomatic Relations">
+    </Culture>
+    <Culture ID="Advanced Diplomacy">
+    </Culture>
+    <Culture ID="Expert Diplomacy">
+    </Culture>
+    <Culture ID="Counter Espionage">
+    </Culture>
+    <Culture ID="Alliances">
+    </Culture>
+    <!--Propulsion-->
+    <Computing ID="FusionReactors">
+    </Computing>
+    <Propulsion ID="HyperDrive">
+    </Propulsion>
+    <Propulsion ID="NewPropulsion">
+    </Propulsion>
+    <Propulsion ID="IonDrive">
+    </Propulsion>
+    <Propulsion ID="ImpulseDrive">
+    </Propulsion>
+    <Propulsion ID="Impulse Drive Mark II">
+    </Propulsion>
+    <Propulsion ID="Impulse Drive Mark III">
+    </Propulsion>
+    <Propulsion ID="Warp Drive">
+    </Propulsion>
+    <Propulsion ID="Warp Drive II">
+    </Propulsion>
+    <Propulsion ID="Warp Drive III">
+    </Propulsion>
+    <Propulsion ID="HyperWarp">
+    </Propulsion>
+    <Propulsion ID="HyperWarp II">
+    </Propulsion>
+    <Propulsion ID="HyperWarp III">
+    </Propulsion>
+    <!--Space Mining-->
+    <Logistics ID="Space Mining">
+    </Logistics>
+    <Logistics ID="Space Mining2">
+    </Logistics>
+    <Logistics ID="Space Mining3">
+    </Logistics>
+    <!--Range-->
+    <Logistics ID="Basic Life Support">
+    </Logistics>
+    <Logistics ID="Extended Life Support">
+    </Logistics>
+    <Logistics ID="Advanced Life Support">
+    </Logistics>
+    <Logistics ID="Ultra Life Support">
+    </Logistics>
+    <!--Logistics-->
+    <Logistics ID="Basic Logistics">
+    </Logistics>
+    <Logistics ID="Enhanced Logistics">
+    </Logistics>
+    <Logistics ID="Advanced Logistics">
+    </Logistics>
+    <Logistics ID="Expert Logistics">
+    </Logistics>
+    <Logistics ID="Ultimate Logistics">
+    </Logistics>
+    <!--Miniaturization-->
+    <Computing ID="Basic Miniaturization">
+    </Computing>
+    <Computing ID="Enhanced Miniaturization">
+    </Computing>
+    <Computing ID="Advanced Miniaturization">
+    </Computing>
+    <Computing ID="Expert Miniaturization">
+    </Computing>
+    <Computing ID="Ultimate Miniaturization">
+    </Computing>
+    <Computing ID="Supreme Miniaturization">
+    </Computing>
+    <Logistics ID="OrganicMaterials">
+    </Logistics>
+    <!--Sensor-->
+    <Computing ID="StarScanner">
+    </Computing>
+    <Computing ID="StarScanner2">
+    </Computing>
+    <Computing ID="Sensor2">
+    </Computing>
+    <Computing ID="Sensor3">
+    </Computing>
+    <!--Hull-->
+    <Industry ID="InterstellarConstruction">
+    </Industry>
+    <Logistics ID="Advanced Hulls">
+    </Logistics>
+    <Logistics ID="ExpertEngineering">
+    </Logistics>
+    <Logistics ID="Medium Scale Building">
+      <Requires>ExpertEngineering</Requires>
+    </Logistics>
+    <Logistics ID="Superior Hulls">
+    </Logistics>
+    <Logistics ID="Large Scale Building">
+    </Logistics>
+    <Logistics ID="Master Hull Building">
+    </Logistics>
+    <Logistics ID="Massive Scale Building">
+    </Logistics>
+    <Logistics ID="Reinforced Hull Design">
+    </Logistics>
+    <Logistics ID="Hardened Hull Design">
+    </Logistics>
+    <Logistics ID="OrganicHulls">
+    </Logistics>
+    <Logistics ID="SelfHealingHulls">
+    </Logistics>
+    <!--Manufacturing-->
+    <Industry ID="ArtificialGravity">
+      <DisplayName>Gravitational Manipulation</DisplayName>
+    </Industry>
+    <Industry ID="Xeno Engineering">
+    </Industry>
+    <Industry ID="PlanetaryImprovements">
+    </Industry>
+    <Industry ID="InterstellarRefining">
+    </Industry>
+    <Industry ID="MolecularFabrication">
+    </Industry>
+    <Industry ID="IndustrialReplication1">
+    </Industry>
+    <Industry ID="IndustrialReplication2">
+    </Industry>
+    <Industry ID="IndustrialReplication3">
+    </Industry>
+    <!--Pure Research-->
+    <Computing ID="PrecursorStudies">
+    </Computing>
+    <Computing ID="Research Center">
+      <Requires>PrecursorStudies</Requires>
+
+      <!--The Iconians start without a spammable lab. It's essential to their research to grab research center because of that.-->
+      <AIValue>30</AIValue>
+    </Computing>
+    <Computing ID="Research Academy">
+    </Computing>
+    <Computing ID="Invention Matrix">
+    </Computing>
+    <Computing ID="Discovery Sphere">
+    </Computing>
+    <Computing ID="Advanced Computing">
+    </Computing>
+    <Computing ID="Neutrality Learning Center">
+    </Computing>
+    <!--Research-->
+    <Computing ID="Deeper Knowledge">
+    </Computing>
+    <Computing ID="Galactic Understanding">
+    </Computing>
+    <Computing ID="Near Omniscience">
+    </Computing>
+    <Computing ID="Beyond Mortality">
+    </Computing>
+    <Computing ID="Technology Victory">
+      <PlanetQualityAbility>50</PlanetQualityAbility>
+    </Computing>
+    <!--Cartography-->
+    <Computing ID="StellarCartography">
+    </Computing>
+    <!--Economics-->
+    <Industry ID="InterstellarBartering">
+    </Industry>
+    <Industry ID="MerchantEmporiums">
+    </Industry>
+    <Industry ID="MerchantTradeComplexes">
+    </Industry>
+    <!--Ethics-->
+    <Culture ID="Xeno Ethics">      
+      <!--AIP10 tweak. AIP10 doesn't research category Ethics.-->
+      <Category>Economics</Category>
+    </Culture>
+    <Culture ID="Good and Evil">
+      <!--AIP10 tweak. AIP10 doesn't research category Ethics.-->
+      <Category>Pure Research</Category>
+    </Culture>
+    <Culture ID="Concepts of Malice">
+    </Culture>
+    <Culture ID="Concepts of Righteousness">
+      <!--AIP10 tweak. AIP10 doesn't research category Ethics.-->
+      <Category>Pure Research</Category>
+    </Culture>
+    <Culture ID="Balanced Vision">
+    </Culture>
+    <Computing ID="CreativeGood">
+    </Computing>
+    <Biology ID="ParadiseWorlds">
+    </Biology>
+    <Computing ID="RighteousMight">
+    </Computing>
+    <Computing ID="RighteousJustice">
+    </Computing>
+    <!--Entertainment-->
+    <!--Farming-->
+    <!--Terraforming-->
+    <Biology ID="Soil Enhancement">
+      <Description>Allows us to take marginal lands and make them productive (easy for this race).</Description>
+      <Requires>EnhancedAdaptation</Requires>
+
+      <!--The Iconians are super adapters. As such terraforming is simple to them.-->
+      <Cost>270</Cost>
+    </Biology>
+    <Biology ID="Habitat Improvement">
+      <Description>Allows us to take poor lands and make them productive (easy for this race).</Description>
+
+      <!--The Iconians are super adapters. As such terraforming is simple to them.-->
+      <Cost>1350</Cost>
+    </Biology>
+    <Biology ID="Terraforming">
+      <Description>Allows us to take useless lands and make them useful (easy for this race).</Description>
+
+      <!--The Iconians are super adapters. As such terraforming is simple to them.-->
+      <Cost>2700</Cost>
+    </Biology>
+    <Biology ID="EnhancedAdaptation">
+      <PlanetQualityAbility>8</PlanetQualityAbility>
+    </Biology>
+    <!--Biology-->
+    <Biology ID="Xeno Biology">
+      <Requires>EnhancedAdaptation</Requires>
+    </Biology>
+    <Biology ID="Xeno Medicine">
+    </Biology>
+    <!--Aquatic Terraforming-->
+    <Biology ID="AquaticWorldColonization">
+    </Biology>
+    <Biology ID="AdvancedAquaticWorldColonization">
+    </Biology>
+    <!--Barren Terraforming-->
+    <Biology ID="BarrenWorldColonization">
+    </Biology>
+    <Biology ID="AdvancedBarrenWorldColonization">
+    </Biology>
+    <!--Gravity Terraforming-->
+    <Biology ID="HeavyGravityColonization">
+    </Biology>
+    <Biology ID="AdvancedHeavyGravityColonization">
+    </Biology>
+    <!--Radioactive Terraforming-->
+    <Biology ID="RadioactiveWorldColonization">
+    </Biology>
+    <Biology ID="AdvancedRadioactiveWorldColonization">
+    </Biology>
+    <!--Toxic Terraforming-->
+    <Biology ID="ToxicAtmosphereReductor">
+    </Biology>
+    <Biology ID="AdvancedToxicAtmosphereReductor">
+    </Biology>
+    <!--Colonization-->
+    <!--Military-->
+    <Weapons ID="Galactic Warfare">
+      <DisplayName>Interstellar Warfare</DisplayName>
+      <Description>The Iconian view of warfare (very difficult for this race).</Description>
+      <Details>We have never had a war in space. But our ancestors witnessed the greatest war in history -- the war between the Arnor and the evil Dread Lords.||With the human invention of Hyperdrive, we have seen war become inevitable in space. The cold war in the galaxy between the Drengin and their ilk has brought home the need to research offensive and defensive technology.||Because we have so little experience in the art of war, it will be more difficult for us to research these kinds of technologies. But we will persevere.</Details>
+      
+      <!--Cost reflects the Iconians inexperience in matters of war.-->
+      <Cost>200</Cost>
+    </Weapons>
+    <Weapons ID="Space Militarization">
+      <Description>Starts us down the path of arming and defending our ships (very difficult for this race).</Description>
+     
+      <!--Cost reflects the Iconians inexperience in matters of war.-->
+      <Cost>300</Cost>
+    </Weapons>
+    <Weapons ID="Space Weapons">
+      <Description>Allows us to begin researching weapons (very difficult for this race).</Description>
+      
+      <!--Cost reflects the Iconians inexperience in matters of war.-->
+      <Cost>250</Cost>
+    </Weapons>
+    <Defenses ID="StarshipDefenses">
+      <Description>Gives us access to technologies that will help us put defenses on our ships (very difficuly for this race).</Description>
+     
+      <!--Cost reflects the Iconians inexperience in matters of war.-->
+      <Cost>250</Cost>
+    </Defenses>
+    <!--Beam-->
+    <Weapons ID="Beam Weapon theory">
+      <Description>Allows us to begin researching beam weapons (very difficult for this race).</Description>
+      
+      <!--Cost reflects the Iconians inexperience in matters of war.-->
+      <Cost>400</Cost>
+    </Weapons>
+    <Weapons ID="KineticStreams1">
+    </Weapons>
+    <Weapons ID="KineticStreams2">
+    </Weapons>
+    <Weapons ID="KineticStreams3">
+    </Weapons>
+    <Weapons ID="ParticleBeams">
+      <Requires>KineticStreams3</Requires>
+    </Weapons>
+    <Weapons ID="ParticleBeams2">
+    </Weapons>
+    <Weapons ID="ParticleBeams3">
+    </Weapons>
+    <Weapons ID="Plasma Weapons">
+    </Weapons>
+    <Weapons ID="Plasma Weapons II">
+    </Weapons>
+    <Weapons ID="Plasma Weapons III">
+    </Weapons>
+    <Weapons ID="Phasors">
+    </Weapons>
+    <Weapons ID="Phasors II">
+    </Weapons>
+    <Weapons ID="Phasors III">
+    </Weapons>
+    <Weapons ID="Disruptors">
+    </Weapons>
+    <Weapons ID="Disruptors II">
+    </Weapons>
+    <Weapons ID="Disruptors III">
+    </Weapons>
+    <Weapons ID="Doom Ray">
+    </Weapons>
+    <Weapons ID="Psionic Beam">
+    </Weapons>
+    <!--Missile-->
+    <Weapons ID="Missile Weapon Theory">
+      <Description>Allows us to begin researching missile weapons (very difficult for this race).</Description>
+     
+      <!--Cost reflects the Iconians inexperience in matters of war.-->
+      <Cost>400</Cost>
+    </Weapons>
+    <Weapons ID="Seeker1">
+    </Weapons>
+    <Weapons ID="Seeker2">
+    </Weapons>
+    <Weapons ID="Seeker3">
+    </Weapons>
+    <Weapons ID="Harpoon">
+      <Requires>Seeker3</Requires>
+    </Weapons>
+    <Weapons ID="Harpoon II">
+    </Weapons>
+    <Weapons ID="Harpoon III">
+    </Weapons>
+    <Weapons ID="Photonic Torpedo">
+    </Weapons>
+    <Weapons ID="Photonic Torpedo II">
+    </Weapons>
+    <Weapons ID="Photonic Torpedo III">
+    </Weapons>
+    <Weapons ID="Photon Torpedo">
+    </Weapons>
+    <Weapons ID="Photon Torpedo II">
+    </Weapons>
+    <Weapons ID="Photon Torpedo III">
+    </Weapons>
+    <Weapons ID="Anti-Matter Torp">
+    </Weapons>
+    <Weapons ID="Anti-Matter Torp II">
+    </Weapons>
+    <Weapons ID="Anti-Matter Torp III">
+    </Weapons>
+    <Weapons ID="NightmareTorpedo">
+    </Weapons>
+    <Weapons ID="Psionic Missile">
+    </Weapons>
+    <!--MD-->
+    <Weapons ID="Mass Driver Theory">
+      <Description>Allows us to begin researching mass driver weapons (very difficult for this race).</Description>
+     
+      <!--Cost reflects the Iconians inexperience in matters of war.-->
+      <Cost>400</Cost>
+    </Weapons>
+    <Weapons ID="ScatterBlaster1">
+    </Weapons>
+    <Weapons ID="ScatterBlaster2">
+    </Weapons>
+    <Weapons ID="ScatterBlaster3">
+    </Weapons>
+    <Weapons ID="Singularity Driver">
+      <Requires>ScatterBlaster3</Requires>
+    </Weapons>
+    <Weapons ID="Singularity Driver II">
+    </Weapons>
+    <Weapons ID="Singularity Driver III">
+    </Weapons>
+    <Weapons ID="PulseCannons">
+    </Weapons>
+    <Weapons ID="PulseCannons2">
+    </Weapons>
+    <Weapons ID="PulseCannons3">
+    </Weapons>
+    <Weapons ID="Graviton Driver">
+    </Weapons>
+    <Weapons ID="Graviton Driver II">
+    </Weapons>
+    <Weapons ID="Graviton Driver III">
+    </Weapons>
+    <Weapons ID="Quantum Driver">
+    </Weapons>
+    <Weapons ID="Quantum Driver II">
+    </Weapons>
+    <Weapons ID="Quantum Driver III">
+    </Weapons>
+    <Weapons ID="Black Hole Gun">
+    </Weapons>
+    <Weapons ID="Psionic Shredder">
+    </Weapons>
+    <!--Shields-->
+    <Defenses ID="Shield Defense Theory">
+      <Description>Allows us to begin researching various types of shield defenses (very difficult for this race).</Description>
+     
+      <!--Cost reflects the Iconians inexperience in matters of war.-->
+      <Cost>280</Cost>
+    </Defenses>
+    <Defenses ID="Deflectors">
+    </Defenses>
+    <Defenses ID="EnhDeflectors">
+    </Defenses>
+    <Defenses ID="ADvDeflectors">
+    </Defenses>
+    <Defenses ID="Shields">
+    </Defenses>
+    <Defenses ID="Shields II">
+    </Defenses>
+    <Defenses ID="Shields III">
+    </Defenses>
+    <Defenses ID="Barriers">
+    </Defenses>
+    <Defenses ID="Barriers II">
+    </Defenses>
+    <Defenses ID="Barriers III">
+    </Defenses>
+    <Defenses ID="Force Fields">
+    </Defenses>
+    <Defenses ID="Advanced Force Fields">
+    </Defenses>
+    <Defenses ID="Superior Force Fields">
+    </Defenses>
+    <Defenses ID="Ultimate Invulnerability">
+    </Defenses>
+    <Defenses ID="Subspace Rebounder">
+    </Defenses>
+    <!--Point Defense-->
+    <Defenses ID="Missile Defense Theory">
+      <Description>Allows us to begin researching various types of missile defenses (very difficult for this race).</Description>
+     
+      <!--Cost reflects the Iconians inexperience in matters of war.-->
+      <Cost>280</Cost>
+    </Defenses>
+    <Defenses ID="Chaff">
+    </Defenses>
+    <Defenses ID="Smart Chaff">
+    </Defenses>
+    <Defenses ID="Adaptive Chaff">
+    </Defenses>
+    <Defenses ID="ECM">
+    </Defenses>
+    <Defenses ID="ECM II">
+    </Defenses>
+    <Defenses ID="ECM III">
+    </Defenses>
+    <Defenses ID="Point Defense">
+    </Defenses>
+    <Defenses ID="Point Defense II">
+    </Defenses>
+    <Defenses ID="Point Defense III">
+    </Defenses>
+    <Defenses ID="PD Combo">
+    </Defenses>
+    <Defenses ID="PD Combo II">
+    </Defenses>
+    <Defenses ID="PD Combo III">
+    </Defenses>
+    <Defenses ID="Aereon Missile Defense">
+    </Defenses>
+    <Defenses ID="Telepathic Defense">
+    </Defenses>
+    <!--Armor-->
+    <Defenses ID="Armor Theory">
+      <Description>Allows us to begin researching various types of armor (very difficult for this race).</Description>
+     
+      <!--Cost reflects the Iconians inexperience in matters of war.-->
+      <Cost>280</Cost>
+    </Defenses>
+    <Defenses ID="Titanitum Armor">
+    </Defenses>
+    <Defenses ID="Titanium Armor II">
+    </Defenses>
+    <Defenses ID="Titanium Armor III">
+    </Defenses>
+    <Defenses ID="Duranthium">
+    </Defenses>
+    <Defenses ID="Duranthium II">
+    </Defenses>
+    <Defenses ID="Duranthium III">
+    </Defenses>
+    <Defenses ID="Tri-Strontium">
+    </Defenses>
+    <Defenses ID="Enhanced Tri-Strontium">
+    </Defenses>
+    <Defenses ID="Superior Tri-Strontium">
+    </Defenses>
+    <Defenses ID="Adamantium Armor">
+    </Defenses>
+    <Defenses ID="Adamantium II">
+    </Defenses>
+    <Defenses ID="Ultimate Adamantium">
+    </Defenses>
+    <Defenses ID="Zero-Point Armor">
+    </Defenses>
+    <Defenses ID="Arnorian Battle Armor">
+    </Defenses>
+    <!--Atlas Modules-->
+    <Computing ID="TulonWeaponFocus">
+    </Computing>
+    <Computing ID="XalaxDefenseCoord">
+    </Computing>
+    <!--Invasion-->
+    <Weapons ID="Planetary Invasion">
+    </Weapons>
+    <Weapons ID="Planetary Bombardment">
+    </Weapons>
+    <Weapons ID="Tidal Disruption">
+    </Weapons>
+    <!--Military Starbases-->
+    <Weapons ID="AdvancedStarbaseConstruction">
+    </Weapons>
+    <Computing ID="StarbaseMilitarization">
+    </Computing>
+    <Computing ID="StarbaseMobilization">
+    </Computing>
+    <Computing ID="StarbaseProjection">
+    </Computing>
+    <Computing ID="StarbaseDomination">
+    </Computing>
+    <Computing ID="StarbaseConquestStrategy">
+    </Computing>
+    <Computing ID="TerrorStar0">
+    </Computing>
+    <!--History-->
+    <Culture ID="PrecursorLegacy">
+    </Culture>
+    <Industry ID="AdvancedRobotics">
+    </Industry>
+  </TechTree>
+</TechTrees>

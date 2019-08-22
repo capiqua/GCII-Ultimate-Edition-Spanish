@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<Topics>
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>We see you've gathered an alliance of the weak to battle the greatest evil ever known.
+
+
+Good luck with your war, [YourLeaderName].</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Altarian">2</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>0</Morality>
+				<Text>Greetings, friend. Let us rise up against this evil and prove our unified might.
+
+
+For the fate of the galaxy,  go forth with honor and courage.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Arcean">3</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>And so it begins. We shall battle these Dread Lords and deal with the wretched Drengin and their unholy robotic ally soon enough.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Torian">4</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>0</Morality>
+				<Text>We have lived under the shadow of oppression before. It will not happen again.
+
+
+Our forces will join yours to triumph over the Dread Lords.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Yor">5</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>Still holding onto hope, fleshling? Your future is bleak, [YourLeaderName]... and your death is inevitable.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Iconian">9</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>0</Morality>
+				<Text>It is time for us to finish the war of the Arnor. Together, we will bring down the Dread Lord army and put an end to this darkness.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_WINNING_HATE"/>
+	<Topic Name="AI_WELCOME_DEFENDING_LOSING_HATE"/>
+	<Topic Name="AI_SINCERE_THANKS_FRIEND"/>
+	<Topic Name="AI_SINCERE_THANKS"/>
+	<Topic Name="AI_CRY_FOR_HELP">
+		<Dialogue>
+			<Speaker Name="Altarian">2</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>0</Morality>
+				<Text>Honor and courage can only get you so far. The power of the Dread Lords consumes my forces, [YourLeaderName]. Is there anything you can do to help?</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Arcean">3</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>The tide of war washes over our forces, cousin. If you can spare the troops, we desperately need your help.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Iconian">9</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>0</Morality>
+				<Text>The strength of the Dark Arnor has grown and our forces crumble beneath their might. Can you do anything to help, [YourLeaderName]?</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_NEWWAR_WINNING"/>
+	<Topic Name="AI_WELCOME_NEWWAR_LOSING">
+		<Dialogue>
+			<Speaker Name="Arcean">3</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>Why would you attack my forces, [YourLeaderName]? The Dread Lords are the true enemies!</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Altarian">2</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>0</Morality>
+				<Text>Brother, you come seeking war when war already surrounds us? Let us put these grievances behinds us and refocus on the true enemy!</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_LOSING"/>
+	<Topic Name="AI_WELCOME_DEFENDING_WINNING"/>
+	<Topic Name="AI_WELCOME_ATTACKER_LOSING"/>
+	<Topic Name="AI_WELCOME_ATTACKER_WINNING"/>
+	<Topic Name="AI_GREETING_RELATIONS_VERYLOW"/>
+	<Topic Name="AI_GREETING_RELATIONS_LOW"/>
+	<Topic Name="AI_GREETING_RELATIONS_OK"/>
+	<Topic Name="AI_GREETING_RELATIONS_GOOD"/>
+	<Topic Name="AI_GREETING_RELATIONS_ALLY"/>
+	<Topic Name="AI_GROVEL_RELATIONS_VERYLOW"/>
+	<Topic Name="AI_GROVEL_RELATIONS_LOW"/>
+	<Topic Name="AI_GROVEL_RELATIONS_OK"/>
+	<Topic Name="AI_GROVEL_RELATIONS_GOOD"/>
+	<Topic Name="AI_GROVEL_RELATIONS_ALLY"/>
+	<Topic Name="AI_SNEER_RELATIONS_VERYLOW"/>
+	<Topic Name="AI_SNEER_RELATIONS_LOW"/>
+	<Topic Name="AI_SNEER_RELATIONS_OK"/>
+	<Topic Name="AI_SNEER_RELATIONS_GOOD"/>
+	<Topic Name="AI_SNEER_RELATIONS_ALLY"/>
+</Topics>

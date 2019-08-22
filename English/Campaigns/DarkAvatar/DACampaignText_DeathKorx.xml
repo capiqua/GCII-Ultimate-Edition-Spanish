@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<Topics>
+	<MaxNumRacesInFile>15</MaxNumRacesInFile>
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Korx">6</Speaker>
+			<Listener Name="Drengin">1</Listener>
+			<Phrase Morality="2">
+				<Text>Hurry, take Yux Ulnar to safety! We are finished, but through our leader perhaps we can live on.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Korath">13</Speaker>
+			<Listener Name="Drengin">1</Listener>
+			<Phrase Morality="2">
+				<Text>Watch as the Korx meet the same demise that awaits you. The might of the Dread Lords is unstoppable.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+</Topics>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<Topics>
+	<MaxNumRacesInFile>15</MaxNumRacesInFile>
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Yor">5</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase Morality="0">
+				<Text>You are outnumbered in this quadrant.  Please leave.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>You are outnumbered in this quadrant.  Please leave now.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>You are outnumbered in this quadrant.  Please leave now or we will invade.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+</Topics>

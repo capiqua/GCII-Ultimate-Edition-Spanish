@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<Topics>
+	<MaxNumRacesInFile>15</MaxNumRacesInFile>
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Korath">13</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase Morality="0">
+				<Text>So [YourLeaderName], you think you can just waltz in here and colonize worlds that rightfully belong to the [SPEAKING_RACE_NAME]?</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>So [YourLeaderName], you think you can just waltz in here and colonize worlds that rightfully belong to the [SPEAKING_RACE_NAME]?  I think not.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>So [YourLeaderName], you think you can just waltz in here and colonize worlds that rightfully belong to the [SPEAKING_RACE_NAME]?  I think not.  Prepare to die.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+</Topics>

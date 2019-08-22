@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<Topics>
+	<MaxNumRacesInFile>15</MaxNumRacesInFile>
+	<Topic Name="" />
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Iconian">9</Speaker>
+			<Listener Name="Drengin">1</Listener>
+			<Phrase Morality="0">
+				<Text>While we feel little sympathy for your current plight, know this [YourLeaderName]. Your kin are no longer of their own minds, the will of the Dark Arnor is too deeply entrenched.
+They cannot be saved.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Korath">13</Speaker>
+			<Listener Name="Drengin">1</Listener>
+			<Phrase Morality="2">
+				<Text>Mercy, my brother? You will soon die like all others, removed from a galaxy that no longer requires your existence.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+</Topics>

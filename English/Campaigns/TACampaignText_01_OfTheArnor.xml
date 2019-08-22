@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<Topics>
+	<MaxNumRacesInFile>15</MaxNumRacesInFile>
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Korath">13</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase Morality="0">
+				<Text>Mantengase alejado [YourLeaderName].</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Mantengase alejado [YourLeaderName] y no os mataremos a TODOS.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Mantengase alejado [YourLeaderName] o sufra las consecuencias.</Text>
+			</Phrase>			
+		</Dialogue>
+	</Topic>
+</Topics>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<Topics>
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>We have you on the run, [YourLeaderName]. Not even this hypothetical shielding technology will be enough to save your putrid hide.
+
+We WILL find Beta Prime, we WILL destroy your research, and we will FINALLY put an end to your withering species.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Altarian">2</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>0</Morality>
+				<Text>Shielding technology could easily turn the war in our favor, cousin.
+You and your scientists work on the technology... we'll take care of the Drengin.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Arcean">3</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>We are here to help, [YourLeaderName]. Your scientists will be safe with the Arcean army protecting them.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_WINNING_HATE">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>Beta Prime is in our cross-hairs. We've been sharpening our teeth on our previous battles against you. Prepare to feel the true bite of the Drengin army.
+
+#How's that shielding technology coming along? Not so well, eh? Stupid humans... always relying on their pitiful technology.
+
+#The Drengin Army is massing on your borders... and not even your precious Shield technology can save you from oblivion.
+
+#[YourLeaderName]... you were kind enough to share Hyperdrive technology, then foolish enough to use it against us. Not even this rumored Shield technology can save you.
+
+#Prepare for the fall of Beta Prime and the extinction of the human race.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_LOSING_HATE">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>So, the humans still have some tricks up their sleeve... be on guard, [YourLeaderName], for Beta Prime will fall.
+
+#Pitiful human... you've been lucky thus far, but soon your luck will run out.
+
+
+No precious Shield technology will save you then.
+
+#Shields will only save you for so long, Human. Our scientists are hard at work on stonger, more advanced weaponry that will bring you to your knees.
+
+#Why are you here, human? I suggest you round up troops to protect your scientists on Beta Prime... trust me, they are in extreme danger.
+
+#Beta Prime won't be safe until you've taken out all of my troops. And trust me, human, I won't make it easy.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_SCOFF_AT_BRIBE">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>Why would you give me this? It takes more than a bribe to stop the Drengin army from taking Beta Prime.
+
+#You've gone mad! Your gifts will not keep us from defeating you again... your forces will fall like before, only this time our victory will be all-encompassing. The human race will die... only now with less toys.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+</Topics>

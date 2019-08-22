@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<Topics>
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Thalan">8</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>Greetings, human leader [YourLeaderName]. The Thalan are a peaceful people and do not wish to get involved in outside conflicts.
+
+Other than this, you are more than welcome in our sector of space.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_WINNING_HATE">
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_LOSING_HATE">
+	</Topic>
+	<Topic Name="AI_SINCERE_THANKS_FRIEND">
+		<Dialogue>
+			<Speaker Name="Thalan">8</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>Your kindness and generosity are great, [YourLeaderName] of the Humans. We appreciate your gifts. Our thoughts are with you and your troops engaged against the Dread Lords.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_SINCERE_THANKS">
+	</Topic>
+	<Topic Name="AI_CRY_FOR_HELP">
+	</Topic>
+	<Topic Name="AI_WELCOME_NEWWAR_WINNING">
+	</Topic>
+	<Topic Name="AI_WELCOME_NEWWAR_LOSING">
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_LOSING">
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_WINNING">
+	</Topic>
+	<Topic Name="AI_WELCOME_ATTACKER_LOSING">
+	</Topic>
+	<Topic Name="AI_WELCOME_ATTACKER_WINNING">
+	</Topic>
+	<Topic Name="AI_GREETING_RELATIONS_VERYLOW">
+	</Topic>
+	<Topic Name="AI_GREETING_RELATIONS_LOW">
+	</Topic>
+	<Topic Name="AI_GREETING_RELATIONS_OK">
+	</Topic>
+	<Topic Name="AI_GREETING_RELATIONS_GOOD">
+		<Dialogue>
+			<Speaker Name="Thalan">8</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>While our citizens demand that the Thalan government assist your forces in battle, we are too few in number to offer much assistance.
+#We are desperately trying to stay out of this galactic war, but our citizens demand action against the Dread Lords. I have to insist, however, that we cannot help... as much as we wish to.
+
+I'm sorry, friend.
+#Riots have broken out amongst the Thalan people. Your plight has touched them and they demand our forces join yours.
+
+However, as much as we wish to help, our army is no match for the might of the Dread Lords. I'm sorry, [YourLeaderName].</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_GREETING_RELATIONS_ALLY">
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_VERYLOW">
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_LOW">
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_OK">
+		<Dialogue>
+			<Speaker Name="Thalan">8</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>Our people grow fond of your kind, human. We hope to see a quick and successful end to your conflict with the Dread Lords.
+#We have received word that the Dread Lords continue to wage war across the galaxy. The Thalan army is weak and we don't wish to get involved, but our thoughts are with you and your allies.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_GOOD">
+		<Dialogue>
+			<Speaker Name="Thalan">8</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>While our citizens demand that the Thalan government assist your forces in battle, our forces would just get in the way of the mighty [YourEmpireName] army.
+#We are desperately trying to stay out of this galactic war, but our citizens demand action against the Dread Lords. I have to insist, however, that your forces are stronger without our pathetic army getting in the way.
+
+I'm sorry, friend.
+#Riots have broken out amongst the Thalan people. Your plight has touched them and they demand our forces join you in battle.
+
+However, as much as we wish to help, our army is too weak in comparision to yours. The Dread Lords would quickly wipe us out. I'm sorry, [YourLeaderName], but for the good of my people, we cannot join this war.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_ALLY">
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_VERYLOW">
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_LOW">
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_OK">
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_GOOD">
+		<Dialogue>
+			<Speaker Name="Thalan">8</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>Somehow you've convinced our people that this war is worth joining. However, we do not wish to ally with the losing side of this galactic struggle. The Dread Lords are too powerful, and even together, we are too weak.
+
+I'm sorry.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_ALLY">
+	</Topic>
+</Topics>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<Topics>
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>Finally, the human race is about to be crushed. Any last words, [YourLeaderName]?</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Arcean">3</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>1</Morality>
+				<Text>Our backs are against the wall, friend. There is nothing more to do but try to take out as many Drengin and Yor fleets as possible before we're overwhelmed.
+We are proud to have fought alongside the humans, [YourLeaderName].</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Altarian">2</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>0</Morality>
+				<Text>Hope is lost, cousin. The Drengin have our forces outnumbered and our planets are falling quickly before their onslaught.
+Save Earth before it's too late!</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Torian">4</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>0</Morality>
+				<Text>They've done it again. Those vile Drengin have enslaved a majority of the Torian population, and rule over them without mercy or compassion.
+
+I really do hate them, [YourLeaderName]. Why can't they just die?</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Yor">5</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>Earth cannot be saved, human. Death awaits your species.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Iconian">9</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>0</Morality>
+				<Text>This evil spreads through the galaxy like a virus. Forces from the Drengin and Yor alliance have taken over most of our worlds.
+The hour is dark, human.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_WINNING_HATE">
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_LOSING_HATE">
+	</Topic>
+	<Topic Name="AI_SINCERE_THANKS_FRIEND">
+	</Topic>
+	<Topic Name="AI_SINCERE_THANKS">
+	</Topic>
+	<Topic Name="AI_CRY_FOR_HELP">
+	</Topic>
+	<Topic Name="AI_WELCOME_NEWWAR_WINNING">
+	</Topic>
+	<Topic Name="AI_WELCOME_NEWWAR_LOSING">
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_LOSING">
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_WINNING">
+	</Topic>
+	<Topic Name="AI_WELCOME_ATTACKER_LOSING">
+	</Topic>
+	<Topic Name="AI_WELCOME_ATTACKER_WINNING">
+	</Topic>
+	<Topic Name="AI_GREETING_RELATIONS_VERYLOW">
+	</Topic>
+	<Topic Name="AI_GREETING_RELATIONS_LOW">
+	</Topic>
+	<Topic Name="AI_GREETING_RELATIONS_OK">
+	</Topic>
+	<Topic Name="AI_GREETING_RELATIONS_GOOD">
+	</Topic>
+	<Topic Name="AI_GREETING_RELATIONS_ALLY">
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_VERYLOW">
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_LOW">
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_OK">
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_GOOD">
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_ALLY">
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_VERYLOW">
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_LOW">
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_OK">
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_GOOD">
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_ALLY">
+	</Topic>
+</Topics>

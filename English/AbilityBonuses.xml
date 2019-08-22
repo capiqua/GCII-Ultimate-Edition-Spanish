@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AbilityBonuses>
+  <DataChecksum NoParse="1">
+    <Ignore>Name, Option0Text, Option1Text, Option2Text, Option3Text, Option4Text, Option5Text</Ignore>
+    <Translate>Option0Text, Option1Text, Option2Text, Option3Text, Option4Text, Option5Text</Translate>
+  </DataChecksum>
+  <Ability Name="Economía">
+    <AbilityIndex>0</AbilityIndex>
+    <AvailableOptions>3</AvailableOptions>
+    <BonusUnits>%</BonusUnits>
+    <Option0Text>Avanzados</Option0Text>
+    <Option0Bonus>10</Option0Bonus>
+    <Option0Cost>10</Option0Cost>
+    <Option1Text>Talentosos</Option1Text>
+    <Option1Bonus>15</Option1Bonus>
+    <Option1Cost>20</Option1Cost>
+    <Option2Text>Maestros</Option2Text>
+    <Option2Bonus>25</Option2Bonus>
+    <Option2Cost>40</Option2Cost>
+  </Ability>
+  <Ability Name="Armas">
+    <AbilityIndex>1</AbilityIndex>
+    <AvailableOptions>2</AvailableOptions>
+    <BonusUnits>%</BonusUnits>
+    <Option0Text>Sobresalientes</Option0Text>
+    <Option0Bonus>10</Option0Bonus>
+    <Option0Cost>10</Option0Cost>
+    <Option1Text>Maestros</Option1Text>
+    <Option1Bonus>20</Option1Bonus>
+    <Option1Cost>20</Option1Cost>
+  </Ability>
+  <Ability Name="Defensa">
+    <AbilityIndex>2</AbilityIndex>
+    <AvailableOptions>3</AvailableOptions>
+    <BonusUnits>%</BonusUnits>
+    <Option0Text>Avanzados</Option0Text>
+    <Option0Bonus>10</Option0Bonus>
+    <Option0Cost>10</Option0Cost>
+    <Option1Text>Talentosos</Option1Text>
+    <Option1Bonus>20</Option1Bonus>
+    <Option1Cost>20</Option1Cost>
+    <Option2Text>Maestros</Option2Text>
+    <Option2Bonus>30</Option2Bonus>
+    <Option2Cost>30</Option2Cost>
+  </Ability>
+  <Ability Name="Propulsión">
+    <AbilityIndex>3</AbilityIndex>
+    <AvailableOptions>2</AvailableOptions>
+    <BonusUnits>pc</BonusUnits>
+    <Option0Text>1 pársec/sem extra</Option0Text>
+    <Option0Bonus>1</Option0Bonus>
+    <Option0Cost>40</Option0Cost>
+    <Option1Text>2 pársec/sem extra</Option1Text>
+    <Option1Bonus>2</Option1Bonus>
+    <Option1Cost>80</Option1Cost>
+  </Ability>
+  <Ability Name="Moral">
+    <AbilityIndex>4</AbilityIndex>
+    <AvailableOptions>3</AvailableOptions>
+    <BonusUnits>%</BonusUnits>
+    <Option0Text>Contentos por naturaleza</Option0Text>
+    <Option0Bonus>10</Option0Bonus>
+    <Option0Cost>10</Option0Cost>
+    <Option1Text>Felices por naturaleza</Option1Text>
+    <Option1Bonus>15</Option1Bonus>
+    <Option1Cost>20</Option1Cost>
+    <Option2Text>Alegres por naturaleza</Option2Text>
+    <Option2Bonus>20</Option2Bonus>
+    <Option2Cost>30</Option2Cost>
+  </Ability>
+  <Ability Name="Crecimiento de población">
+    <AbilityIndex>5</AbilityIndex>
+    <AvailableOptions>4</AvailableOptions>
+    <BonusUnits>%</BonusUnits>
+    <Option0Text>Fogosos</Option0Text>
+    <Option0Bonus>5</Option0Bonus>
+    <Option0Cost>5</Option0Cost>
+    <Option1Text>Muy fogosos</Option1Text>
+    <Option1Bonus>10</Option1Bonus>
+    <Option1Cost>15</Option1Cost>
+    <Option2Text>Fructíferos</Option2Text>
+    <Option2Bonus>20</Option2Bonus>
+    <Option2Cost>35</Option2Cost>
+    <Option3Text>Mejor no preguntes</Option3Text>
+    <Option3Bonus>40</Option3Bonus>
+    <Option3Cost>80</Option3Cost>
+  </Ability>
+  <Ability Name="Producción social">
+    <AbilityIndex>6</AbilityIndex>
+    <AvailableOptions>4</AvailableOptions>
+    <BonusUnits>%</BonusUnits>
+    <Option0Text>Avanzados</Option0Text>
+    <Option0Bonus>10</Option0Bonus>
+    <Option0Cost>10</Option0Cost>
+    <Option1Text>Talentosos</Option1Text>
+    <Option1Bonus>20</Option1Bonus>
+    <Option1Cost>25</Option1Cost>
+    <Option2Text>Maestros</Option2Text>
+    <Option2Bonus>30</Option2Bonus>
+    <Option2Cost>40</Option2Cost>
+    <Option3Text>Excepcionales</Option3Text>
+    <Option3Bonus>50</Option3Bonus>
+    <Option3Cost>80</Option3Cost>
+  </Ability>
+  <Ability Name="Producción militar">
+    <AbilityIndex>7</AbilityIndex>
+    <AvailableOptions>4</AvailableOptions>
+    <BonusUnits>%</BonusUnits>
+    <Option0Text>Avanzados</Option0Text>
+    <Option0Bonus>10</Option0Bonus>
+    <Option0Cost>10</Option0Cost>
+    <Option1Text>Talentosos</Option1Text>
+    <Option1Bonus>20</Option1Bonus>
+    <Option1Cost>25</Option1Cost>
+    <Option2Text>Maestros</Option2Text>
+    <Option2Bonus>30</Option2Bonus>
+    <Option2Cost>40</Option2Cost>
+    <Option3Text>Excepcionales</Option3Text>
+    <Option3Bonus>50</Option3Bonus>
+    <Option3Cost>80</Option3Cost>
+  </Ability>
+  <Ability Name="Investigación">
+    <AbilityIndex>8</AbilityIndex>
+    <AvailableOptions>4</AvailableOptions>
+    <BonusUnits>%</BonusUnits>
+    <Option0Text>Avanzados</Option0Text>
+    <Option0Bonus>5</Option0Bonus>
+    <Option0Cost>5</Option0Cost>
+    <Option1Text>Talentosos</Option1Text>
+    <Option1Bonus>10</Option1Bonus>
+    <Option1Cost>15</Option1Cost>
+    <Option2Text>Maestros</Option2Text>
+    <Option2Bonus>15</Option2Bonus>
+    <Option2Cost>30</Option2Cost>
+    <Option3Text>Excepcionales</Option3Text>
+    <Option3Bonus>25</Option3Bonus>
+    <Option3Cost>60</Option3Cost>
+  </Ability>
+  <Ability Name="Influencia">
+    <AbilityIndex>9</AbilityIndex>
+    <AvailableOptions>4</AvailableOptions>
+    <BonusUnits>%</BonusUnits>
+    <Option0Text>Avanzados</Option0Text>
+    <Option0Bonus>5</Option0Bonus>
+    <Option0Cost>5</Option0Cost>
+    <Option1Text>Talentosos</Option1Text>
+    <Option1Bonus>10</Option1Bonus>
+    <Option1Cost>15</Option1Cost>
+    <Option2Text>Maestros</Option2Text>
+    <Option2Bonus>20</Option2Bonus>
+    <Option2Cost>35</Option2Cost>
+    <Option3Text>Gigantes comerciales</Option3Text>
+    <Option3Bonus>25</Option3Bonus>
+    <Option3Cost>50</Option3Cost>
+  </Ability>
+  <Ability Name="Reparación">
+    <AbilityIndex>13</AbilityIndex>
+    <AvailableOptions>1</AvailableOptions>
+    <BonusUnits>%</BonusUnits>
+    <Option0Text>Talentosos</Option0Text>
+    <Option0Bonus>40</Option0Bonus>
+    <Option0Cost>10</Option0Cost>
+  </Ability>
+  <Ability Name="Sensores">
+    <AbilityIndex>14</AbilityIndex>
+    <AvailableOptions>3</AvailableOptions>
+    <BonusUnits>pc</BonusUnits>
+    <Option0Text>Avanzados</Option0Text>
+    <Option0Bonus>1</Option0Bonus>
+    <Option0Cost>10</Option0Cost>
+    <Option1Text>Talentosos</Option1Text>
+    <Option1Bonus>2</Option1Bonus>
+    <Option1Cost>25</Option1Cost>
+    <Option2Text>Maestros</Option2Text>
+    <Option2Bonus>3</Option2Bonus>
+    <Option2Cost>40</Option2Cost>
+  </Ability>
+  <Ability Name="Espionaje">
+    <AbilityIndex>15</AbilityIndex>
+    <AvailableOptions>2</AvailableOptions>
+    <BonusUnits>%</BonusUnits>
+    <Option0Text>Avanzados</Option0Text>
+    <Option0Bonus>15</Option0Bonus>
+    <Option0Cost>15</Option0Cost>
+    <Option1Text>Talentosos</Option1Text>
+    <Option1Bonus>25</Option1Bonus>
+    <Option1Cost>30</Option1Cost>
+  </Ability>
+  <Ability Name="Veteranía">
+    <AbilityIndex>16</AbilityIndex>
+    <AvailableOptions>3</AvailableOptions>
+    <BonusUnits>%</BonusUnits>
+    <Option0Text>Fuertes</Option0Text>
+    <Option0Bonus>10</Option0Bonus>
+    <Option0Cost>10</Option0Cost>
+    <Option1Text>Correosos</Option1Text>
+    <Option1Bonus>15</Option1Bonus>
+    <Option1Cost>20</Option1Cost>
+    <Option2Text>Invencibles</Option2Text>
+    <Option2Bonus>25</Option2Bonus>
+    <Option2Cost>40</Option2Cost>
+  </Ability>
+  <Ability Name="Categoría de planetas">
+    <AbilityIndex>18</AbilityIndex>
+    <AvailableOptions>2</AvailableOptions>
+    <BonusUnits>%</BonusUnits>
+    <Option0Text>Exuberante</Option0Text>
+    <Option0Bonus>10</Option0Bonus>
+    <Option0Cost>40</Option0Cost>
+    <Option1Text>Paradisíaco</Option1Text>
+    <Option1Bonus>20</Option1Bonus>
+    <Option1Cost>80</Option1Cost>
+  </Ability>
+  <Ability Name="Comercio">
+    <AbilityIndex>10</AbilityIndex>
+    <AvailableOptions>4</AvailableOptions>
+    <BonusUnits>%</BonusUnits>
+    <Option0Text>Comerciantes talentosos</Option0Text>
+    <Option0Bonus>25</Option0Bonus>
+    <Option0Cost>10</Option0Cost>
+    <Option1Text>Comerciantes sobresalientes</Option1Text>
+    <Option1Bonus>50</Option1Bonus>
+    <Option1Cost>25</Option1Cost>
+    <Option2Text>Comerciantes magistrales</Option2Text>
+    <Option2Bonus>100</Option2Bonus>
+    <Option2Cost>60</Option2Cost>
+    <Option3Text>Ultimate Traders</Option3Text>
+    <Option3Bonus>125</Option3Bonus>
+    <Option3Cost>80</Option3Cost>
+  </Ability>
+  <Ability Name="Rutas comerciales">
+    <AbilityIndex>19</AbilityIndex>
+    <AvailableOptions>3</AvailableOptions>
+    <BonusUnits>rts</BonusUnits>
+    <Option0Text>Comerciantes talentosos</Option0Text>
+    <Option0Bonus>1</Option0Bonus>
+    <Option0Cost>10</Option0Cost>
+    <Option1Text>Comerciantes sobresalientes</Option1Text>
+    <Option1Bonus>2</Option1Bonus>
+    <Option1Cost>20</Option1Cost>
+    <Option2Text>Comerciantes magistrales</Option2Text>
+    <Option2Bonus>3</Option2Bonus>
+    <Option2Cost>30</Option2Cost>
+  </Ability>
+  <Ability Name="Diplomacia">
+    <AbilityIndex>11</AbilityIndex>
+    <AvailableOptions>4</AvailableOptions>
+    <BonusUnits>%</BonusUnits>
+    <Option0Text>Diplomáticos talentosos</Option0Text>
+    <Option0Bonus>5</Option0Bonus>
+    <Option0Cost>5</Option0Cost>
+    <Option1Text>Diplomáticos habilidosos</Option1Text>
+    <Option1Bonus>10</Option1Bonus>
+    <Option1Cost>15</Option1Cost>
+    <Option2Text>Diplomáticos magistrales</Option2Text>
+    <Option2Bonus>20</Option2Bonus>
+    <Option2Cost>35</Option2Cost>
+    <Option3Text>Diplomáticos expertos</Option3Text>
+    <Option3Bonus>25</Option3Bonus>
+    <Option3Cost>50</Option3Cost>
+  </Ability>
+  <Ability Name="Puntos de impacto">
+    <AbilityIndex>12</AbilityIndex>
+    <AvailableOptions>3</AvailableOptions>
+    <BonusUnits>%</BonusUnits>
+    <Option0Text>Sobresalientes</Option0Text>
+    <Option0Bonus>10</Option0Bonus>
+    <Option0Cost>10</Option0Cost>
+    <Option1Text>Excepcionales</Option1Text>
+    <Option1Bonus>20</Option1Bonus>
+    <Option1Cost>30</Option1Cost>
+    <Option2Text>Invencibles</Option2Text>
+    <Option2Bonus>30</Option2Bonus>
+    <Option2Cost>50</Option2Cost>
+  </Ability>
+  <Ability Name="Autonomía">
+    <AbilityIndex>22</AbilityIndex>
+    <AvailableOptions>1</AvailableOptions>
+    <Option0Text>+1 al alcance inicial</Option0Text>
+    <Option0Bonus>10</Option0Bonus>
+    <Option0Cost>30</Option0Cost>
+    <BonusUnits>sct</BonusUnits>
+  </Ability>
+  <Ability Name="Suerte">
+    <AbilityIndex>23</AbilityIndex>
+    <AvailableOptions>1</AvailableOptions>
+    <BonusUnits>%</BonusUnits>
+    <Option0Text>Muy afortunados</Option0Text>
+    <Option0Bonus>20</Option0Bonus>
+    <Option0Cost>25</Option0Cost>
+  </Ability>
+  <Ability Name="Coraje">
+    <AbilityIndex>24</AbilityIndex>
+    <AvailableOptions>1</AvailableOptions>
+    <BonusUnits>%</BonusUnits>
+    <Option0Text>Valientes</Option0Text>
+    <Option0Bonus>25</Option0Bonus>
+    <Option0Cost>10</Option0Cost>
+  </Ability>
+  <Ability Name="Creatividad">
+    <AbilityIndex>25</AbilityIndex>
+    <AvailableOptions>1</AvailableOptions>
+    <BonusUnits>%</BonusUnits>
+    <Option0Text>Muy creativos</Option0Text>
+    <Option0Bonus>25</Option0Bonus>
+    <Option0Cost>10</Option0Cost>
+  </Ability>
+  <Ability Name="Lealtad">
+    <AbilityIndex>27</AbilityIndex>
+    <AvailableOptions>2</AvailableOptions>
+    <BonusUnits>%</BonusUnits>
+    <Option0Text>Fieles en general</Option0Text>
+    <Option0Bonus>10</Option0Bonus>
+    <Option0Cost>10</Option0Cost>
+    <Option1Text>Devotos</Option1Text>
+    <Option1Bonus>20</Option1Bonus>
+    <Option1Cost>30</Option1Cost>
+  </Ability>
+</AbilityBonuses>

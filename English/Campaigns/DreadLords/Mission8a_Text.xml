@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<Topics>
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Yor">5</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>The device you seek can not save your forces, human. The war is already lost for you. Earth will be ours.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_WINNING_HATE">
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_LOSING_HATE">
+	</Topic>
+	<Topic Name="AI_SINCERE_THANKS_FRIEND">
+	</Topic>
+	<Topic Name="AI_SINCERE_THANKS">
+	</Topic>
+	<Topic Name="AI_CRY_FOR_HELP">
+	</Topic>
+	<Topic Name="AI_WELCOME_NEWWAR_WINNING">
+	</Topic>
+	<Topic Name="AI_WELCOME_NEWWAR_LOSING">
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_LOSING">
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_WINNING">
+	</Topic>
+	<Topic Name="AI_WELCOME_ATTACKER_LOSING">
+	</Topic>
+	<Topic Name="AI_WELCOME_ATTACKER_WINNING">
+	</Topic>
+	<Topic Name="AI_GREETING_RELATIONS_VERYLOW">
+	</Topic>
+	<Topic Name="AI_GREETING_RELATIONS_LOW">
+	</Topic>
+	<Topic Name="AI_GREETING_RELATIONS_OK">
+	</Topic>
+	<Topic Name="AI_GREETING_RELATIONS_GOOD">
+	</Topic>
+	<Topic Name="AI_GREETING_RELATIONS_ALLY">
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_VERYLOW">
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_LOW">
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_OK">
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_GOOD">
+	</Topic>
+	<Topic Name="AI_GROVEL_RELATIONS_ALLY">
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_VERYLOW">
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_LOW">
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_OK">
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_GOOD">
+	</Topic>
+	<Topic Name="AI_SNEER_RELATIONS_ALLY">
+	</Topic>
+</Topics>

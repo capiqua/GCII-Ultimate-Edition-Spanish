@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<AsteroidFieldMiningBaseModules>
+	
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName,Description</Ignore>
+		<Translate>DisplayName,Description</Translate>
+	</DataChecksum>
+	<!-- 
+		AsteroidFieldMiningBaseModule Properties:
+		
+		InternalName: Name that the game will use to identify the module
+		DisplayName: Name of module to be displayed to player 
+		NextModule: Internal Name of the next module in the upgrade path
+		Description: Description of the module
+		TurnsToComplete: The number of turns it will take for the space truck to complete this module
+		BonusValue: The amount (in percent) the bonus will be increased when this module is completed
+		Cost: Cost (in bc) to complete the module (it is charged when module is started)
+		TechRequirement: Internal name of the required technology (Leave blank or omit this field for no tech requirement)
+		Model: The shipcfg file name (without path, Sx_ suffix, or file extension) that will be used to create the mining 
+		       base (If omitted, AsteroidFieldMiningBase0 is the default)
+		Thumbnail: Image that is displayed for the mining base in the mining base window
+	-->
+	
+	<AsteroidFieldMiningBaseModule InternalName="IndustrialMiningBase00">
+		<DisplayName>Industrial básico</DisplayName>
+		<NextModule>IndustrialMiningBase01</NextModule>
+		<Description>Produce un máximo de 5 unidades industriales</Description>
+		<TurnsToComplete>4</TurnsToComplete>
+		<BonusValue>5</BonusValue>
+		<Cost>0</Cost>
+		<TechRequirement></TechRequirement>
+		<Model>AsteroidFieldMiningBaseMorale0</Model>
+		<Thumbnail>AsteroidFieldMiningBaseMorale</Thumbnail>
+	</AsteroidFieldMiningBaseModule>
+	<AsteroidFieldMiningBaseModule InternalName="IndustrialMiningBase01">
+		<DisplayName>Intermedio industrial</DisplayName>
+		<NextModule>AdvancedMiningBase02</NextModule>
+		<Description>Aumenta el máximo de unidades industriales posibles producidas a 10</Description>
+		<TurnsToComplete>4</TurnsToComplete>
+		<BonusValue>5</BonusValue>
+		<Cost>0</Cost>
+		<TechRequirement>Space Mining</TechRequirement>
+		<Model>AsteroidFieldMiningBaseMorale1</Model>
+		<Thumbnail>AsteroidFieldMiningBaseMorale</Thumbnail>
+	</AsteroidFieldMiningBaseModule>
+	<AsteroidFieldMiningBaseModule InternalName="AdvancedMiningBase02">
+		<DisplayName>Industrial avanzado</DisplayName>
+		<NextModule>AdvancedMiningBase03</NextModule>
+		<Description>Aumenta el máximo de unidades industriales posibles producidas a 20</Description>
+		<TurnsToComplete>8</TurnsToComplete>
+		<BonusValue>10</BonusValue>
+		<Cost>0</Cost>
+		<TechRequirement>Space Mining2</TechRequirement>
+		<Model>AsteroidFieldMiningBaseMorale2</Model>
+		<Thumbnail>AsteroidFieldMiningBaseMorale</Thumbnail>
+	</AsteroidFieldMiningBaseModule>
+	<AsteroidFieldMiningBaseModule InternalName="AdvancedMiningBase03">
+		<DisplayName>Industrial Definitivo</DisplayName>
+		<Description>Aumenta el máximo de unidades industriales posibles producidas a 30</Description>
+		<TurnsToComplete>8</TurnsToComplete>
+		<BonusValue>10</BonusValue>
+		<Cost>0</Cost>
+		<TechRequirement>Space Mining3</TechRequirement>
+		<Model>AsteroidFieldMiningBaseMorale3</Model>
+		<Thumbnail>AsteroidFieldMiningBaseMorale</Thumbnail>
+	</AsteroidFieldMiningBaseModule>
+</AsteroidFieldMiningBaseModules>

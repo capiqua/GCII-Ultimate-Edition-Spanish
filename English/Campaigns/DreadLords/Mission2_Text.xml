@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<Topics>
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>You again, [YourLeaderName]? I mean, really... have the humans nothing better to do than to follow us around the galaxy? Mark my words, death is all you'll find in this quadrant.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_WINNING_HATE">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>So you have decided to remain. This quadrant will be your death bed, [YourLeaderName].
+
+#You risk much for such a small section of the galaxy... or are you here for more than the expansion of your puny empire? Either way, your destruction is all you will find here.
+
+#We will hold Ixith and drive you from this quadrant, filthy human. Your death awaits.
+
+#Our forces stand strong as your's falter and die. I told you humans were too weak for this quadrant of space. But did you listen to me? Oh, no. You knew it all, didn't you?</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_LOSING_HATE">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>Ixith will not fall easily, human.
+
+#Your forces may be strong in this quadrant, but we will hold Ixith without fail.
+
+#Ah, [YourLeaderName]. Intruding on my trade screen like you intruded into this quadrant. Make it quick, human.
+
+#Your persistence is honorable, human, but you will never take the Drengin world of Ixith.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+</Topics>

@@ -1,0 +1,2215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GC2Map>
+	<Info>
+		<Width>12</Width>
+		<Height>12</Height>
+		<Size>4</Size>
+		<Stars>31</Stars>
+		<Planets>56</Planets>
+		<Resources>10</Resources>
+		<Ships>16</Ships>
+		<AsteroidFields>85</AsteroidFields>
+		<HomelessPlayers>0</HomelessPlayers>
+		<DarkAvatarMap>1</DarkAvatarMap>
+	</Info>
+	<Race>
+		<Terran>0</Terran>
+		<Drengin>1</Drengin>
+		<Altarian>2</Altarian>
+		<Arcean>3</Arcean>
+		<Torian>4</Torian>
+		<Yor>5</Yor>
+		<Korx>6</Korx>
+		<Drath>7</Drath>
+		<Thalan>8</Thalan>
+		<Iconian>9</Iconian>
+		<Korath>10</Korath>
+		<Krynn>11</Krynn>
+		<Custom>12</Custom>
+		<Dreadlords>13</Dreadlords>
+	</Race>
+	<Star Name="Omega Canis Majoris">
+		<X>18</X>
+		<Y>19</Y>
+		<Type>1</Type>
+		<CustomName>1</CustomName>
+		<Size>80.0000</Size>
+		<RotationSpeed>0.0680</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>1.2400</Density>
+	</Star>
+	<Star Name="Wezen">
+		<X>27</X>
+		<Y>21</Y>
+		<Type>5</Type>
+		<CustomName>1</CustomName>
+		<Size>95.0000</Size>
+		<RotationSpeed>0.0650</RotationSpeed>
+		<Pattern>45.7500</Pattern>
+		<Density>2.0400</Density>
+	</Star>
+	<Star Name="Omicron Canis Majoris">
+		<X>32</X>
+		<Y>33</Y>
+		<Type>6</Type>
+		<CustomName>1</CustomName>
+		<Size>100.0000</Size>
+		<RotationSpeed>0.0440</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>1.2400</Density>
+	</Star>
+	<Star Name="Sirius">
+		<X>55</X>
+		<Y>65</Y>
+		<Type>1</Type>
+		<CustomName>1</CustomName>
+		<Size>85.0000</Size>
+		<RotationSpeed>0.0446</RotationSpeed>
+		<Pattern>12.7500</Pattern>
+		<Density>0.7600</Density>
+	</Star>
+	<Star Name="Star [5,3].[79,56]">
+		<X>79</X>
+		<Y>56</Y>
+		<Type>1</Type>
+		<CustomName>0</CustomName>
+		<Size>95.0000</Size>
+		<RotationSpeed>0.0320</RotationSpeed>
+		<Pattern>60.7500</Pattern>
+		<Density>3.2400</Density>
+	</Star>
+	<Star Name="x">
+		<X>44</X>
+		<Y>64</Y>
+		<Type>3</Type>
+		<CustomName>1</CustomName>
+		<Size>50.0000</Size>
+		<RotationSpeed>0.0440</RotationSpeed>
+		<Pattern>23.2500</Pattern>
+		<Density>1.2400</Density>
+	</Star>
+	<Star Name="Muliphein">
+		<X>36</X>
+		<Y>71</Y>
+		<Type>1</Type>
+		<CustomName>1</CustomName>
+		<Size>90.0000</Size>
+		<RotationSpeed>0.0560</RotationSpeed>
+		<Pattern>33.0000</Pattern>
+		<Density>1.8000</Density>
+	</Star>
+	<Star Name="Theta Canis Majoris">
+		<X>47</X>
+		<Y>85</Y>
+		<Type>3</Type>
+		<CustomName>1</CustomName>
+		<Size>85.0000</Size>
+		<RotationSpeed>0.0440</RotationSpeed>
+		<Pattern>71.2500</Pattern>
+		<Density>0.4800</Density>
+	</Star>
+	<Star Name="Procyon">
+		<X>5</X>
+		<Y>162</Y>
+		<Type>5</Type>
+		<CustomName>1</CustomName>
+		<Size>80.0000</Size>
+		<RotationSpeed>0.0320</RotationSpeed>
+		<Pattern>75.0000</Pattern>
+		<Density>4.0000</Density>
+	</Star>
+	<Star Name="Gomeisa">
+		<X>19</X>
+		<Y>171</Y>
+		<Type>1</Type>
+		<CustomName>1</CustomName>
+		<Size>80.0000</Size>
+		<RotationSpeed>0.0680</RotationSpeed>
+		<Pattern>23.2500</Pattern>
+		<Density>0.4800</Density>
+	</Star>
+	<Star Name="Luyten's Star">
+		<X>19</X>
+		<Y>158</Y>
+		<Type>2</Type>
+		<CustomName>1</CustomName>
+		<Size>65.0000</Size>
+		<RotationSpeed>0.0320</RotationSpeed>
+		<Pattern>21.0000</Pattern>
+		<Density>1.8800</Density>
+	</Star>
+	<Star Name="Betelgeuse">
+		<X>112</X>
+		<Y>161</Y>
+		<Type>2</Type>
+		<CustomName>1</CustomName>
+		<Size>100.0000</Size>
+		<RotationSpeed>0.0320</RotationSpeed>
+		<Pattern>35.2500</Pattern>
+		<Density>1.8000</Density>
+	</Star>
+	<Star Name="Meissa">
+		<X>141</X>
+		<Y>172</Y>
+		<Type>6</Type>
+		<CustomName>1</CustomName>
+		<Size>90.0000</Size>
+		<RotationSpeed>0.0320</RotationSpeed>
+		<Pattern>51.7500</Pattern>
+		<Density>1.2400</Density>
+	</Star>
+	<Star Name="Bellatrix">
+		<X>153</X>
+		<Y>151</Y>
+		<Type>0</Type>
+		<CustomName>1</CustomName>
+		<Size>50.0000</Size>
+		<RotationSpeed>0.0560</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>1.2400</Density>
+	</Star>
+	<Star Name="Mintaka">
+		<X>140</X>
+		<Y>116</Y>
+		<Type>2</Type>
+		<CustomName>1</CustomName>
+		<Size>100.0000</Size>
+		<RotationSpeed>0.0440</RotationSpeed>
+		<Pattern>51.7500</Pattern>
+		<Density>2.7600</Density>
+	</Star>
+	<Star Name="Alnitak">
+		<X>128</X>
+		<Y>106</Y>
+		<Type>3</Type>
+		<CustomName>1</CustomName>
+		<Size>61.0000</Size>
+		<RotationSpeed>0.0440</RotationSpeed>
+		<Pattern>51.7500</Pattern>
+		<Density>1.2400</Density>
+	</Star>
+	<Star Name="Alnilam">
+		<X>134</X>
+		<Y>111</Y>
+		<Type>1</Type>
+		<CustomName>1</CustomName>
+		<Size>80.0000</Size>
+		<RotationSpeed>0.0704</RotationSpeed>
+		<Pattern>9.0000</Pattern>
+		<Density>0.4800</Density>
+	</Star>
+	<Star Name="Saiph">
+		<X>114</X>
+		<Y>65</Y>
+		<Type>1</Type>
+		<CustomName>1</CustomName>
+		<Size>90.0000</Size>
+		<RotationSpeed>0.0560</RotationSpeed>
+		<Pattern>23.2500</Pattern>
+		<Density>2.7600</Density>
+	</Star>
+	<Star Name="Rigel">
+		<X>160</X>
+		<Y>68</Y>
+		<Type>1</Type>
+		<CustomName>1</CustomName>
+		<Size>95.0000</Size>
+		<RotationSpeed>0.0320</RotationSpeed>
+		<Pattern>9.0000</Pattern>
+		<Density>3.5200</Density>
+	</Star>
+	<Star Name="Tau Orion">
+		<X>156</X>
+		<Y>77</Y>
+		<Type>1</Type>
+		<CustomName>1</CustomName>
+		<Size>80.0000</Size>
+		<RotationSpeed>0.0320</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>1.2400</Density>
+	</Star>
+	<Star Name="Iota Orionis">
+		<X>133</X>
+		<Y>87</Y>
+		<Type>6</Type>
+		<CustomName>1</CustomName>
+		<Size>95.0000</Size>
+		<RotationSpeed>0.0440</RotationSpeed>
+		<Pattern>23.2500</Pattern>
+		<Density>2.7600</Density>
+	</Star>
+	<Star Name="Adhara">
+		<X>36</X>
+		<Y>7</Y>
+		<Type>1</Type>
+		<CustomName>1</CustomName>
+		<Size>85.0000</Size>
+		<RotationSpeed>0.0320</RotationSpeed>
+		<Pattern>48.0000</Pattern>
+		<Density>1.9200</Density>
+	</Star>
+	<Star Name="Sigma Canis Majoris">
+		<X>32</X>
+		<Y>14</Y>
+		<Type>3</Type>
+		<CustomName>1</CustomName>
+		<Size>95.0000</Size>
+		<RotationSpeed>0.0278</RotationSpeed>
+		<Pattern>54.0000</Pattern>
+		<Density>2.8400</Density>
+	</Star>
+	<Star Name="Aludra">
+		<X>7</X>
+		<Y>9</Y>
+		<Type>1</Type>
+		<CustomName>1</CustomName>
+		<Size>100.0000</Size>
+		<RotationSpeed>0.0440</RotationSpeed>
+		<Pattern>39.7500</Pattern>
+		<Density>1.8400</Density>
+	</Star>
+	<Star Name="Sata">
+		<X>82</X>
+		<Y>99</Y>
+		<Type>2</Type>
+		<CustomName>1</CustomName>
+		<Size>50.0000</Size>
+		<RotationSpeed>0.0440</RotationSpeed>
+		<Pattern>23.2500</Pattern>
+		<Density>1.2400</Density>
+	</Star>
+	<Star Name="Star [8,9].[128,142]">
+		<X>128</X>
+		<Y>142</Y>
+		<Type>5</Type>
+		<CustomName>0</CustomName>
+		<Size>75.0000</Size>
+		<RotationSpeed>0.0200</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>2.0000</Density>
+	</Star>
+	<Star Name="Star [9,6].[139,97]">
+		<X>139</X>
+		<Y>97</Y>
+		<Type>5</Type>
+		<CustomName>0</CustomName>
+		<Size>75.0000</Size>
+		<RotationSpeed>0.0200</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>2.0000</Density>
+	</Star>
+	<Star Name="Star [2,2].[40,43]">
+		<X>40</X>
+		<Y>43</Y>
+		<Type>5</Type>
+		<CustomName>0</CustomName>
+		<Size>75.0000</Size>
+		<RotationSpeed>0.0200</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>2.0000</Density>
+	</Star>
+	<Star Name="Star [4,5].[67,82]">
+		<X>67</X>
+		<Y>82</Y>
+		<Type>5</Type>
+		<CustomName>0</CustomName>
+		<Size>75.0000</Size>
+		<RotationSpeed>0.0200</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>2.0000</Density>
+	</Star>
+	<Star Name="Star [6,8].[97,126]">
+		<X>97</X>
+		<Y>126</Y>
+		<Type>1</Type>
+		<CustomName>0</CustomName>
+		<Size>75.0000</Size>
+		<RotationSpeed>0.0200</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>2.0000</Density>
+	</Star>
+	<Star Name="Star [9,10].[140,162]">
+		<X>140</X>
+		<Y>162</Y>
+		<Type>4</Type>
+		<CustomName>0</CustomName>
+		<Size>75.0000</Size>
+		<RotationSpeed>0.0200</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>2.0000</Density>
+	</Star>
+	<Planet Name="Planet [1,10].[19,155]">
+		<CustomName>0</CustomName>
+		<X>19</X>
+		<Y>155</Y>
+		<Quality>8</Quality>
+		<Type>0</Type>
+		<Size>20.0000</Size>
+		<RotationSpeed>0.2500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Luyten's Star</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [1,10].[22,160]">
+		<CustomName>0</CustomName>
+		<X>22</X>
+		<Y>160</Y>
+		<Quality>8</Quality>
+		<Type>0</Type>
+		<Size>20.0000</Size>
+		<RotationSpeed>0.2500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Luyten's Star</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [1,11].[18,169]">
+		<CustomName>0</CustomName>
+		<X>18</X>
+		<Y>169</Y>
+		<Quality>8</Quality>
+		<Type>3</Type>
+		<Size>20.0000</Size>
+		<RotationSpeed>0.2500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Gomeisa</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [1,11].[22,173]">
+		<CustomName>0</CustomName>
+		<X>22</X>
+		<Y>173</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>30.0000</Size>
+		<RotationSpeed>0.2500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Gomeisa</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Moon>
+			<SatelliteSize>25.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>0.5000</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Moon>
+	</Planet>
+	<Planet Name="Planet [0,10].[6,159]">
+		<CustomName>0</CustomName>
+		<Owner>0</Owner>
+		<Homeworld>1</Homeworld>
+		<X>6</X>
+		<Y>159</Y>
+		<Quality>13</Quality>
+		<Type>0</Type>
+		<Size>20.0000</Size>
+		<RotationSpeed>0.2500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Procyon</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [0,10].[8,162]">
+		<CustomName>0</CustomName>
+		<X>8</X>
+		<Y>162</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>20.0000</Size>
+		<RotationSpeed>0.2500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Procyon</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Ring>
+			<SatelliteSize>5.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>0.5000</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Ring>
+	</Planet>
+	<Planet Name="Planet [1,11].[17,173]">
+		<CustomName>0</CustomName>
+		<X>17</X>
+		<Y>173</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>30.0000</Size>
+		<RotationSpeed>0.2500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Gomeisa</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Moon>
+			<SatelliteSize>5.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>0.5000</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Moon>
+	</Planet>
+	<Planet Name="Planet [1,10].[22,156]">
+		<CustomName>0</CustomName>
+		<Owner>3</Owner>
+		<Homeworld>1</Homeworld>
+		<X>22</X>
+		<Y>156</Y>
+		<Quality>10</Quality>
+		<Type>1</Type>
+		<Size>32.0000</Size>
+		<RotationSpeed>0.2500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Luyten's Star</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Moon>
+			<SatelliteSize>5.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>0.5000</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Moon>
+	</Planet>
+	<Planet Name="Planet [5,6].[84,102]">
+		<CustomName>0</CustomName>
+		<Owner>5</Owner>
+		<X>84</X>
+		<Y>102</Y>
+		<Quality>10</Quality>
+		<Type>1</Type>
+		<Size>20.0000</Size>
+		<RotationSpeed>0.2500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Sata</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [5,6].[80,97]">
+		<CustomName>0</CustomName>
+		<Owner>5</Owner>
+		<Homeworld>1</Homeworld>
+		<X>80</X>
+		<Y>97</Y>
+		<Quality>15</Quality>
+		<Type>1</Type>
+		<Size>35.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Sata</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [5,6].[85,97]">
+		<CustomName>0</CustomName>
+		<X>85</X>
+		<Y>97</Y>
+		<Quality>10</Quality>
+		<Type>0</Type>
+		<Size>30.0000</Size>
+		<RotationSpeed>0.2500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Sata</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Moon>
+			<SatelliteSize>5.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>-0.3000</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Moon>
+	</Planet>
+	<Planet Name="Planet [5,6].[79,101]">
+		<CustomName>0</CustomName>
+		<X>79</X>
+		<Y>101</Y>
+		<Quality>6</Quality>
+		<Type>0</Type>
+		<Size>25.0000</Size>
+		<RotationSpeed>0.2500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Sata</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Ring>
+			<SatelliteSize>30.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>0.5000</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Ring>
+	</Planet>
+	<Planet Name="Planet [9,11].[139,169]">
+		<CustomName>0</CustomName>
+		<Owner>1</Owner>
+		<Homeworld>1</Homeworld>
+		<X>139</X>
+		<Y>169</Y>
+		<Quality>13</Quality>
+		<Type>1</Type>
+		<Size>33.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Meissa</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Moon>
+			<SatelliteSize>5.0000</SatelliteSize>
+			<Orbit>52.0000</Orbit>
+			<OrbitSpeed>-0.7000</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Moon>
+	</Planet>
+	<Planet Name="Planet [9,11].[143,170]">
+		<CustomName>0</CustomName>
+		<X>143</X>
+		<Y>170</Y>
+		<Quality>7</Quality>
+		<Type>1</Type>
+		<Size>20.0000</Size>
+		<RotationSpeed>0.2500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Meissa</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Moon>
+			<SatelliteSize>5.0000</SatelliteSize>
+			<Orbit>45.0000</Orbit>
+			<OrbitSpeed>-0.3000</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Moon>
+	</Planet>
+	<Planet Name="Planet [7,4].[112,68]">
+		<CustomName>0</CustomName>
+		<X>112</X>
+		<Y>68</Y>
+		<Quality>9</Quality>
+		<Type>4</Type>
+		<Size>18.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Saiph</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Moon>
+			<SatelliteSize>10.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>-0.7000</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Moon>
+	</Planet>
+	<Planet Name="Planet [1,1].[28,24]">
+		<CustomName>0</CustomName>
+		<X>28</X>
+		<Y>24</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>18.0000</Size>
+		<RotationSpeed>0.6500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Wezen</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Ring>
+			<SatelliteSize>20.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>0.1100</OrbitSpeed>
+			<Tilt1>1.5708</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Ring>
+	</Planet>
+	<Planet Name="Planet [1,1].[16,20]">
+		<CustomName>0</CustomName>
+		<X>16</X>
+		<Y>20</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>18.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Omega Canis Majoris</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Moon>
+			<SatelliteSize>5.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>-0.6000</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Moon>
+	</Planet>
+	<Planet Name="Planet [0,0].[5,7]">
+		<CustomName>0</CustomName>
+		<X>5</X>
+		<Y>7</Y>
+		<Quality>4</Quality>
+		<Type>0</Type>
+		<Size>33.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Aludra</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Ring>
+			<SatelliteSize>30.0000</SatelliteSize>
+			<Orbit>64.0000</Orbit>
+			<OrbitSpeed>0.2000</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Ring>
+	</Planet>
+	<Planet Name="Planet [0,0].[9,11]">
+		<CustomName>0</CustomName>
+		<X>9</X>
+		<Y>11</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>18.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Aludra</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Ring>
+			<SatelliteSize>30.0000</SatelliteSize>
+			<Orbit>40.0000</Orbit>
+			<OrbitSpeed>0.5000</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Ring>
+	</Planet>
+	<Planet Name="Planet [2,0].[34,5]">
+		<CustomName>0</CustomName>
+		<X>34</X>
+		<Y>5</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>18.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Adhara</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Ring>
+			<SatelliteSize>5.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>0.5000</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Ring>
+	</Planet>
+	<Planet Name="Planet [2,0].[39,8]">
+		<CustomName>0</CustomName>
+		<X>39</X>
+		<Y>8</Y>
+		<Quality>5</Quality>
+		<Type>0</Type>
+		<Size>18.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Adhara</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Ring>
+			<SatelliteSize>5.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>0.5000</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Ring>
+	</Planet>
+	<Planet Name="Planet [2,0].[34,12]">
+		<CustomName>0</CustomName>
+		<Owner>10</Owner>
+		<Homeworld>1</Homeworld>
+		<X>34</X>
+		<Y>12</Y>
+		<Quality>13</Quality>
+		<Type>1</Type>
+		<Size>33.0000</Size>
+		<RotationSpeed>0.2500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Sigma Canis Majoris</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Moon>
+			<SatelliteSize>5.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>0.1100</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Moon>
+	</Planet>
+	<Planet Name="Planet [1,1].[29,19]">
+		<CustomName>0</CustomName>
+		<X>29</X>
+		<Y>19</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>23.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Wezen</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [1,1].[18,18]">
+		<CustomName>0</CustomName>
+		<X>18</X>
+		<Y>18</Y>
+		<Quality>9</Quality>
+		<Type>3</Type>
+		<Size>18.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Omega Canis Majoris</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [2,2].[31,32]">
+		<CustomName>0</CustomName>
+		<X>31</X>
+		<Y>32</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>18.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Omicron Canis Majoris</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [2,2].[34,35]">
+		<CustomName>0</CustomName>
+		<X>34</X>
+		<Y>35</Y>
+		<Quality>9</Quality>
+		<Type>4</Type>
+		<Size>18.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Omicron Canis Majoris</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [2,4].[41,62]">
+		<CustomName>0</CustomName>
+		<X>41</X>
+		<Y>62</Y>
+		<Quality>8</Quality>
+		<Type>0</Type>
+		<Size>35.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>x</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Moon>
+			<SatelliteSize>25.0000</SatelliteSize>
+			<Orbit>76.0000</Orbit>
+			<OrbitSpeed>-0.6900</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Moon>
+	</Planet>
+	<Planet Name="Planet [5,3].[80,53]">
+		<CustomName>0</CustomName>
+		<X>80</X>
+		<Y>53</Y>
+		<Quality>6</Quality>
+		<Type>0</Type>
+		<Size>31.0000</Size>
+		<RotationSpeed>0.0200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [5,3].[79,56]</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Moon>
+			<SatelliteSize>30.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>-0.0100</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Moon>
+	</Planet>
+	<Planet Name="Planet [9,7].[143,114]">
+		<CustomName>0</CustomName>
+		<X>143</X>
+		<Y>114</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>21.0000</Size>
+		<RotationSpeed>0.0200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Mintaka</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [8,7].[131,113]">
+		<CustomName>0</CustomName>
+		<X>131</X>
+		<Y>113</Y>
+		<Quality>11</Quality>
+		<Type>0</Type>
+		<Size>26.0000</Size>
+		<RotationSpeed>0.0200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Alnilam</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [8,7].[131,105]">
+		<CustomName>0</CustomName>
+		<X>131</X>
+		<Y>105</Y>
+		<Quality>8</Quality>
+		<Type>1</Type>
+		<Size>21.0000</Size>
+		<RotationSpeed>0.0200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Alnitak</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [8,7].[125,105]">
+		<CustomName>0</CustomName>
+		<X>125</X>
+		<Y>105</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>21.0000</Size>
+		<RotationSpeed>0.2200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Alnitak</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [9,7].[142,119]">
+		<CustomName>0</CustomName>
+		<X>142</X>
+		<Y>119</Y>
+		<Quality>11</Quality>
+		<Type>0</Type>
+		<Size>21.0000</Size>
+		<RotationSpeed>0.0200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Mintaka</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [8,5].[134,84]">
+		<CustomName>0</CustomName>
+		<X>134</X>
+		<Y>84</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>26.0000</Size>
+		<RotationSpeed>0.4200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Iota Orionis</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Ring>
+			<SatelliteSize>5.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>0.3900</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Ring>
+	</Planet>
+	<Planet Name="Planet [8,5].[131,84]">
+		<CustomName>0</CustomName>
+		<X>131</X>
+		<Y>84</Y>
+		<Quality>11</Quality>
+		<Type>2</Type>
+		<Size>26.0000</Size>
+		<RotationSpeed>0.0200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Iota Orionis</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [7,10].[114,161]">
+		<CustomName>0</CustomName>
+		<X>114</X>
+		<Y>161</Y>
+		<Quality>0</Quality>
+		<Type>1</Type>
+		<Size>26.0000</Size>
+		<RotationSpeed>0.2200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Betelgeuse</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Moon>
+			<SatelliteSize>5.0000</SatelliteSize>
+			<Orbit>40.0000</Orbit>
+			<OrbitSpeed>-0.0100</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Moon>
+	</Planet>
+	<Planet Name="Planet [7,10].[115,159]">
+		<CustomName>0</CustomName>
+		<X>115</X>
+		<Y>159</Y>
+		<Quality>16</Quality>
+		<Type>6</Type>
+		<Size>21.0000</Size>
+		<RotationSpeed>0.4200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Betelgeuse</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [10,10].[150,150]">
+		<CustomName>0</CustomName>
+		<X>150</X>
+		<Y>150</Y>
+		<Quality>10</Quality>
+		<Type>5</Type>
+		<Size>31.0000</Size>
+		<RotationSpeed>0.2200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Bellatrix</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Moon>
+			<SatelliteSize>10.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>-0.3000</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Moon>
+	</Planet>
+	<Planet Name="Planet [10,10].[154,154]">
+		<CustomName>0</CustomName>
+		<X>154</X>
+		<Y>154</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>16.0000</Size>
+		<RotationSpeed>0.2200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Bellatrix</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Ring>
+			<SatelliteSize>5.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>0.5000</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Ring>
+	</Planet>
+	<Planet Name="Planet [10,10].[154,150]">
+		<CustomName>0</CustomName>
+		<X>154</X>
+		<Y>150</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>10.0000</Size>
+		<RotationSpeed>0.2200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Bellatrix</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [10,4].[158,71]">
+		<CustomName>0</CustomName>
+		<X>158</X>
+		<Y>71</Y>
+		<Quality>8</Quality>
+		<Type>6</Type>
+		<Size>35.0000</Size>
+		<RotationSpeed>0.2200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Rigel</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Ring>
+			<SatelliteSize>30.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>0.5000</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Ring>
+	</Planet>
+	<Planet Name="Planet [10,5].[159,79]">
+		<CustomName>0</CustomName>
+		<X>159</X>
+		<Y>79</Y>
+		<Quality>10</Quality>
+		<Type>6</Type>
+		<Size>20.0000</Size>
+		<RotationSpeed>0.2200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Tau Orion</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Moon>
+			<SatelliteSize>10.0000</SatelliteSize>
+			<Orbit>76.0000</Orbit>
+			<OrbitSpeed>-0.3000</OrbitSpeed>
+			<Tilt1>1.2392</Tilt1>
+			<Tilt2>-1.2392</Tilt2>
+		</Moon>
+	</Planet>
+	<Planet Name="Planet [3,4].[57,67]">
+		<CustomName>0</CustomName>
+		<X>57</X>
+		<Y>67</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>15.0000</Size>
+		<RotationSpeed>0.2200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Sirius</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [3,4].[57,62]">
+		<CustomName>0</CustomName>
+		<X>57</X>
+		<Y>62</Y>
+		<Quality>4</Quality>
+		<Type>1</Type>
+		<Size>15.0000</Size>
+		<RotationSpeed>0.2200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Sirius</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [2,4].[36,73]">
+		<CustomName>0</CustomName>
+		<X>36</X>
+		<Y>73</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>15.0000</Size>
+		<RotationSpeed>0.2200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Muliphein</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [9,7].[142,116]">
+		<CustomName>0</CustomName>
+		<X>142</X>
+		<Y>116</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>10.0000</Size>
+		<RotationSpeed>0.2200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Mintaka</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [9,7].[139,117]">
+		<CustomName>0</CustomName>
+		<X>139</X>
+		<Y>117</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>10.0000</Size>
+		<RotationSpeed>0.2200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Mintaka</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [3,5].[49,84]">
+		<CustomName>0</CustomName>
+		<X>49</X>
+		<Y>84</Y>
+		<Quality>4</Quality>
+		<Type>1</Type>
+		<Size>25.0000</Size>
+		<RotationSpeed>0.2200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Theta Canis Majoris</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [3,5].[49,88]">
+		<CustomName>0</CustomName>
+		<X>49</X>
+		<Y>88</Y>
+		<Quality>0</Quality>
+		<Type>1</Type>
+		<Size>25.0000</Size>
+		<RotationSpeed>0.6200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Theta Canis Majoris</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [2,4].[37,70]">
+		<CustomName>0</CustomName>
+		<X>37</X>
+		<Y>70</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>10.0000</Size>
+		<RotationSpeed>0.2200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Muliphein</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [8,9].[127,144]">
+		<CustomName>0</CustomName>
+		<X>127</X>
+		<Y>144</Y>
+		<Quality>10</Quality>
+		<Type>2</Type>
+		<Size>20.0000</Size>
+		<RotationSpeed>0.2500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [8,9].[128,142]</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [9,6].[138,100]">
+		<CustomName>0</CustomName>
+		<X>138</X>
+		<Y>100</Y>
+		<Quality>10</Quality>
+		<Type>2</Type>
+		<Size>20.0000</Size>
+		<RotationSpeed>0.2500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [9,6].[139,97]</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [2,2].[39,41]">
+		<CustomName>0</CustomName>
+		<X>39</X>
+		<Y>41</Y>
+		<Quality>10</Quality>
+		<Type>5</Type>
+		<Size>18.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [2,2].[40,43]</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [4,5].[69,84]">
+		<CustomName>0</CustomName>
+		<X>69</X>
+		<Y>84</Y>
+		<Quality>10</Quality>
+		<Type>5</Type>
+		<Size>30.0000</Size>
+		<RotationSpeed>0.2500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [4,5].[67,82]</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [6,8].[95,124]">
+		<CustomName>0</CustomName>
+		<X>95</X>
+		<Y>124</Y>
+		<Quality>10</Quality>
+		<Type>6</Type>
+		<Size>30.0000</Size>
+		<RotationSpeed>0.2500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [6,8].[97,126]</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [9,10].[143,163]">
+		<CustomName>0</CustomName>
+		<X>143</X>
+		<Y>163</Y>
+		<Quality>10</Quality>
+		<Type>0</Type>
+		<Size>31.0000</Size>
+		<RotationSpeed>0.2200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [9,10].[140,162]</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Resource>
+		<X>158</X>
+		<Y>24</Y>
+		<Type>2</Type>
+	</Resource>
+	<Resource>
+		<X>127</X>
+		<Y>21</Y>
+		<Type>3</Type>
+	</Resource>
+	<Resource>
+		<X>80</X>
+		<Y>157</Y>
+		<Type>1</Type>
+	</Resource>
+	<Resource>
+		<X>8</X>
+		<Y>113</Y>
+		<Type>2</Type>
+	</Resource>
+	<Resource>
+		<X>97</X>
+		<Y>9</Y>
+		<Type>5</Type>
+	</Resource>
+	<Resource>
+		<X>174</X>
+		<Y>100</Y>
+		<Type>4</Type>
+	</Resource>
+	<Resource>
+		<X>54</X>
+		<Y>128</Y>
+		<Type>2</Type>
+	</Resource>
+	<Resource>
+		<X>143</X>
+		<Y>98</Y>
+		<Type>2</Type>
+	</Resource>
+	<Resource>
+		<X>151</X>
+		<Y>136</Y>
+		<Type>3</Type>
+	</Resource>
+	<Resource>
+		<X>101</X>
+		<Y>62</Y>
+		<Type>1</Type>
+	</Resource>
+	<AsteroidField>
+		<X>82</X>
+		<Y>105</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165215630</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [5,7].[82,105]</Name>
+		<Star>Sata</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>81</X>
+		<Y>104</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165215775</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [5,6].[81,104]</Name>
+		<Star>Sata</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>115</X>
+		<Y>58</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165216013</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [7,3].[115,58]</Name>
+		<Star>Saiph</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>117</X>
+		<Y>59</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165216015</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [7,3].[117,59]</Name>
+		<Star>Saiph</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>120</X>
+		<Y>60</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165216017</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [8,4].[120,60]</Name>
+		<Star>Saiph</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>119</X>
+		<Y>55</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165216019</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [7,3].[119,55]</Name>
+		<Star>Saiph</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>114</X>
+		<Y>54</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165216021</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [7,3].[114,54]</Name>
+		<Star>Saiph</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>126</X>
+		<Y>58</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165216025</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [8,3].[126,58]</Name>
+		<Star>Saiph</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>72</X>
+		<Y>46</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165216030</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [4,3].[72,46]</Name>
+		<Star>Star [5,3].[79,56]</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>80</X>
+		<Y>48</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165216032</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [5,3].[80,48]</Name>
+		<Star>Star [5,3].[79,56]</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>87</X>
+		<Y>48</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165216034</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [5,3].[87,48]</Name>
+		<Star>Star [5,3].[79,56]</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>144</X>
+		<Y>99</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165216044</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,6].[144,99]</Name>
+		<Star>Iota Orionis</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>73</X>
+		<Y>66</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165216056</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [4,4].[73,66]</Name>
+		<Star>Star [5,3].[79,56]</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>107</X>
+		<Y>74</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165216061</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [7,4].[107,74]</Name>
+		<Star>Saiph</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>16</X>
+		<Y>162</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165216126</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [1,10].[16,162]</Name>
+		<Star>Procyon</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>23</X>
+		<Y>10</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165216129</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [1,0].[23,10]</Name>
+		<Star>Omega Canis Majoris</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>20</X>
+		<Y>35</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165216131</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [1,2].[20,35]</Name>
+		<Star>Omicron Canis Majoris</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>39</X>
+		<Y>26</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165216133</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [2,1].[39,26]</Name>
+		<Star>Sigma Canis Majoris</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>49</X>
+		<Y>74</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165216136</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [3,4].[49,74]</Name>
+		<Star>x</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>116</X>
+		<Y>157</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165216143</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [7,10].[116,157]</Name>
+		<Star>Betelgeuse</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>44</X>
+		<Y>44</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165217173</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [2,2].[44,44]</Name>
+		<Star>Omicron Canis Majoris</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>44</X>
+		<Y>43</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165217175</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [2,2].[44,43]</Name>
+		<Star>Omicron Canis Majoris</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>43</X>
+		<Y>42</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165217179</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [2,2].[43,42]</Name>
+		<Star>Omicron Canis Majoris</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>44</X>
+		<Y>42</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165217182</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [2,2].[44,42]</Name>
+		<Star>Omicron Canis Majoris</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>43</X>
+		<Y>43</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165217189</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [2,2].[43,43]</Name>
+		<Star>Omicron Canis Majoris</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>142</X>
+		<Y>99</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165217481</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,6].[142,99]</Name>
+		<Star>Iota Orionis</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>142</X>
+		<Y>97</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165217483</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,6].[142,97]</Name>
+		<Star>Iota Orionis</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>144</X>
+		<Y>97</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165217486</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,6].[144,97]</Name>
+		<Star>Iota Orionis</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>145</X>
+		<Y>100</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165217763</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,6].[145,100]</Name>
+		<Star>Alnilam</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>145</X>
+		<Y>169</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166042975</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,11].[145,169]</Name>
+		<Star>Meissa</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>145</X>
+		<Y>168</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166042976</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,11].[145,168]</Name>
+		<Star>Meissa</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>144</X>
+		<Y>166</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166042977</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,11].[144,166]</Name>
+		<Star>Meissa</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>143</X>
+		<Y>165</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166042978</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,11].[143,165]</Name>
+		<Star>Meissa</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>137</X>
+		<Y>164</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166042980</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,10].[137,164]</Name>
+		<Star>Meissa</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>136</X>
+		<Y>165</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166042981</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,11].[136,165]</Name>
+		<Star>Meissa</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>135</X>
+		<Y>170</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166042982</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,11].[135,170]</Name>
+		<Star>Meissa</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>135</X>
+		<Y>171</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166042983</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,11].[135,171]</Name>
+		<Star>Meissa</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>136</X>
+		<Y>173</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166042984</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,11].[136,173]</Name>
+		<Star>Meissa</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>142</X>
+		<Y>175</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166042986</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,11].[142,175]</Name>
+		<Star>Meissa</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>143</X>
+		<Y>174</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166042987</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,11].[143,174]</Name>
+		<Star>Meissa</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>145</X>
+		<Y>163</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166042990</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,10].[145,163]</Name>
+		<Star>Bellatrix</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>144</X>
+		<Y>159</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166042991</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,10].[144,159]</Name>
+		<Star>Bellatrix</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>133</X>
+		<Y>165</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166042993</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [8,11].[133,165]</Name>
+		<Star>Meissa</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>130</X>
+		<Y>166</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166042995</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [8,11].[130,166]</Name>
+		<Star>Meissa</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>120</X>
+		<Y>161</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166042999</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [8,10].[120,161]</Name>
+		<Star>Betelgeuse</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>119</X>
+		<Y>163</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043002</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [7,10].[119,163]</Name>
+		<Star>Betelgeuse</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>119</X>
+		<Y>160</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043003</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [7,10].[119,160]</Name>
+		<Star>Betelgeuse</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>150</X>
+		<Y>154</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043007</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [10,10].[150,154]</Name>
+		<Star>Bellatrix</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>143</X>
+		<Y>124</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043009</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,8].[143,124]</Name>
+		<Star>Mintaka</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>142</X>
+		<Y>123</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043011</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,8].[142,123]</Name>
+		<Star>Alnilam</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>145</X>
+		<Y>122</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043013</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,8].[145,122]</Name>
+		<Star>Alnilam</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>145</X>
+		<Y>120</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043014</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,8].[145,120]</Name>
+		<Star>Alnilam</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>146</X>
+		<Y>119</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043015</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,7].[146,119]</Name>
+		<Star>Alnilam</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>140</X>
+		<Y>121</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043016</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,8].[140,121]</Name>
+		<Star>Alnilam</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>146</X>
+		<Y>113</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043019</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,7].[146,113]</Name>
+		<Star>Alnilam</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>145</X>
+		<Y>112</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043020</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,7].[145,112]</Name>
+		<Star>Alnilam</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>124</X>
+		<Y>108</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043047</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [8,7].[124,108]</Name>
+		<Star>Alnitak</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>123</X>
+		<Y>107</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043048</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [8,7].[123,107]</Name>
+		<Star>Alnitak</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>121</X>
+		<Y>107</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043049</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [8,7].[121,107]</Name>
+		<Star>Alnitak</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>121</X>
+		<Y>103</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043050</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [8,6].[121,103]</Name>
+		<Star>Alnitak</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>123</X>
+		<Y>102</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043051</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [8,6].[123,102]</Name>
+		<Star>Alnitak</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>127</X>
+		<Y>99</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043052</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [8,6].[127,99]</Name>
+		<Star>Iota Orionis</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>129</X>
+		<Y>81</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043058</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [8,5].[129,81]</Name>
+		<Star>Iota Orionis</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>130</X>
+		<Y>80</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043059</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [8,5].[130,80]</Name>
+		<Star>Iota Orionis</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>131</X>
+		<Y>80</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043060</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [8,5].[131,80]</Name>
+		<Star>Iota Orionis</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>135</X>
+		<Y>80</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043061</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,5].[135,80]</Name>
+		<Star>Iota Orionis</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>136</X>
+		<Y>81</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043062</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,5].[136,81]</Name>
+		<Star>Iota Orionis</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>138</X>
+		<Y>86</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043064</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,5].[138,86]</Name>
+		<Star>Iota Orionis</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>140</X>
+		<Y>89</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043066</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [9,5].[140,89]</Name>
+		<Star>Iota Orionis</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>132</X>
+		<Y>92</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043067</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [8,6].[132,92]</Name>
+		<Star>Iota Orionis</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>131</X>
+		<Y>91</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043068</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [8,6].[131,91]</Name>
+		<Star>Iota Orionis</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>133</X>
+		<Y>92</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043069</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [8,6].[133,92]</Name>
+		<Star>Iota Orionis</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>17</X>
+		<Y>146</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043142</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [1,9].[17,146]</Name>
+		<Star>Luyten's Star</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>15</X>
+		<Y>146</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043143</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [1,9].[15,146]</Name>
+		<Star>Luyten's Star</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>30</X>
+		<Y>150</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043146</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [2,10].[30,150]</Name>
+		<Star>Luyten's Star</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>26</X>
+		<Y>149</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043147</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [1,9].[26,149]</Name>
+		<Star>Luyten's Star</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>28</X>
+		<Y>160</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043148</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [1,10].[28,160]</Name>
+		<Star>Luyten's Star</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>26</X>
+		<Y>164</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043149</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [1,10].[26,164]</Name>
+		<Star>Luyten's Star</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>8</X>
+		<Y>148</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043151</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [0,9].[8,148]</Name>
+		<Star>Luyten's Star</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>5</X>
+		<Y>151</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043151</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [0,10].[5,151]</Name>
+		<Star>Procyon</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>84</X>
+		<Y>62</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043162</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [5,4].[84,62]</Name>
+		<Star>Star [5,3].[79,56]</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>86</X>
+		<Y>60</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043163</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [5,4].[86,60]</Name>
+		<Star>Star [5,3].[79,56]</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>87</X>
+		<Y>60</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043168</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [5,4].[87,60]</Name>
+		<Star>Star [5,3].[79,56]</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>106</X>
+		<Y>61</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043190</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [7,4].[106,61]</Name>
+		<Star>Saiph</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>104</X>
+		<Y>67</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166043193</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [6,4].[104,67]</Name>
+		<Star>Saiph</Star>
+	</AsteroidField>
+	<Ship Name="ColonyShip 900">
+		<X>26</X>
+		<Y>154</Y>
+		<Type>ColonyShip</Type>
+		<Owner>3</Owner>
+	</Ship>
+	<Ship Name="SpaceMiner 957">
+		<X>25</X>
+		<Y>153</Y>
+		<Type>SpaceMiner</Type>
+		<Owner>3</Owner>
+	</Ship>
+	<Ship Name="SurveyShip 206">
+		<X>24</X>
+		<Y>152</Y>
+		<Type>SurveyShip</Type>
+		<Owner>3</Owner>
+	</Ship>
+	<Ship Name="SpaceMiner 219">
+		<X>80</X>
+		<Y>95</Y>
+		<Type>SpaceMiner</Type>
+		<Owner>5</Owner>
+	</Ship>
+	<Ship Name="ColonyShip 539">
+		<X>86</X>
+		<Y>101</Y>
+		<Type>ColonyShip</Type>
+		<Owner>5</Owner>
+	</Ship>
+	<Ship Name="Defender 702">
+		<X>83</X>
+		<Y>98</Y>
+		<Type>Defender</Type>
+		<Owner>5</Owner>
+	</Ship>
+	<Ship Name="SurveyShip 992">
+		<X>81</X>
+		<Y>95</Y>
+		<Type>SurveyShip</Type>
+		<Owner>5</Owner>
+	</Ship>
+	<Ship Name="Defender 9">
+		<X>137</X>
+		<Y>169</Y>
+		<Type>Defender</Type>
+		<Owner>1</Owner>
+	</Ship>
+	<Ship Name="ColonyShip 389">
+		<X>34</X>
+		<Y>16</Y>
+		<Type>ColonyShip</Type>
+		<Owner>10</Owner>
+	</Ship>
+	<Ship Name="Defender 877">
+		<X>35</X>
+		<Y>15</Y>
+		<Type>Defender</Type>
+		<Owner>10</Owner>
+	</Ship>
+	<Ship Name="SpaceMiner 352">
+		<X>36</X>
+		<Y>14</Y>
+		<Type>SpaceMiner</Type>
+		<Owner>10</Owner>
+	</Ship>
+	<Ship Name="SurveyShip 213">
+		<X>37</X>
+		<Y>13</Y>
+		<Type>SurveyShip</Type>
+		<Owner>10</Owner>
+	</Ship>
+	<Ship Name="SpaceMiner 739">
+		<X>139</X>
+		<Y>170</Y>
+		<Type>SpaceMiner</Type>
+		<Owner>1</Owner>
+	</Ship>
+	<Ship Name="ColonyShip 687">
+		<X>138</X>
+		<Y>169</Y>
+		<Type>ColonyShip</Type>
+		<Owner>1</Owner>
+	</Ship>
+	<Ship Name="Scout 629">
+		<X>139</X>
+		<Y>168</Y>
+		<Type>Scout</Type>
+		<Owner>1</Owner>
+	</Ship>
+	<Ship Name="SurveyShip 114">
+		<X>140</X>
+		<Y>169</Y>
+		<Type>SurveyShip</Type>
+		<Owner>1</Owner>
+	</Ship>
+</GC2Map>

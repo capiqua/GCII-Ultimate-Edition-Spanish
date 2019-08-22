@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<Topics>
+	<MaxNumRacesInFile>15</MaxNumRacesInFile>
+	<Topic Name="" />
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Human">0</Speaker>
+			<Listener Name="Drengin">1</Listener>
+			<Phrase Morality="1">
+				<Text>Ha! The great Drengin Army continues to trumpet their empty battles and minuscule victories...while for all your might, you fail to properly defend your worlds.
+Best of luck reclaiming the Charon Quadrant, [YourLeaderName]! You'll find us humans surprisingly resilient.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Thalan">8</Speaker>
+			<Listener Name="Drengin">1</Listener>
+			<Phrase Morality="0">
+				<Text>Our outpostss in this quadrant are of a peaceful nature. Your troopsss need not invade.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Our outpostss in this quadrant are of a peaceful nature. Your troopsss need not invade.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+</Topics>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<Topics>
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>Greetings, [YourLeaderName]. The friendship between your [YourEmpireName] and the Arcean Empire has put a strain on our already brittle relationship. Since they are our enemies, we have no choice but to assume the Human race is also a threat to our nation.
+
+Your presence will be met with force if you decide to remain in this quadrant. This is your first and final warning, Earthling.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Altarian">2</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>0</Morality>
+				<Text>Hello, cousin. We have set up an outpost in this quadrant to keep an watchful eye on Drengin activities. From what we have deciphered, they search for a lost holocron chronicling the last days of the Precursors. We don't understand their motivation, but we're sure it can't be good.
+
+We will keep you posted.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_WINNING_HATE">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>So you have decided to remain. This quadrant will be your death bed, [YourLeaderName].
+
+#You risk much for such a small section of the galaxy... or are you here for more than the expansion of your puny empire? Either way, your destruction is all you will find here.
+
+#You're here to explain why you didn't heed my warning? When the [TheirEmpireName] tells you to leave a quadrant, the threat is not an idle one.
+
+#So, the foolish human has decided to stick around. Know that by deciding to stay, you have decided to die, [YourLeaderName].</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_WELCOME_DEFENDING_LOSING_HATE">
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase>
+				<Morality>2</Morality>
+				<Text>Filthy ape. Leave this quadrant while you still have skin to save.
+
+#Why do you persist? You saw the damage we've inflicted on the Acreans. Continue to take our threats lightly and the same will happen to you, [YourLeaderName]!
+
+#Your destruction will come, human. It may not be in this quadrant of the galaxy, but we WILL bring you to your knees.
+
+#This quadrant may be lost, human, but rest assured, you and your Arcean friends will suffer the same fate in time.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+</Topics>

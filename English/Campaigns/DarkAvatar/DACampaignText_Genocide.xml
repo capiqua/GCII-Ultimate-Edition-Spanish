@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<Topics>
+	<MaxNumRacesInFile>15</MaxNumRacesInFile>
+	<Topic Name="" />
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Drath">7</Speaker>
+			<Listener Name="Drengin">1</Listener>
+			<Phrase Morality="1">
+				<Text>You horrible monsters! The enslavement of my people will not be allowed. 
+
+Our final world will not succumb to your vile brotherhood.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Thalan">8</Speaker>
+			<Listener Name="Drengin">1</Listener>
+			<Phrase Morality="0">
+				<Text>Pleasse, [YourLeaderName], leave our worldsss in peace. We mean your alliance no harm.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Pleasse, [YourLeaderName], leave our worldsss in peace. We mean your alliance no harm.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Korath">13</Speaker>
+			<Listener Name="Drengin">1</Listener>
+			<Phrase Morality="2">
+				<Text>Greetings, brother in arms. The final Drath world is ripe for our taking. Troops from the Korath Clan are here to help you deal with these...lesser creatures.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+	<Topic Name="AI_CRY_FOR_HELP">
+		<Dialogue>
+			<Speaker Name="Korath">13</Speaker>
+			<Listener Name="Drengin">1</Listener>
+			<Phrase Morality="2">
+				<Text>Brother, the foul [OtherEmpireName] already have a surprising counter-force mustered. Is there any help you can provide our military?</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+</Topics>

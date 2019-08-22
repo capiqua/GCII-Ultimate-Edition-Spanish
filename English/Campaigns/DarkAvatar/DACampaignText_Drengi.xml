@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<Topics>
+	<MaxNumRacesInFile>15</MaxNumRacesInFile>
+	<Topic Name="" />
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Thalan">8</Speaker>
+			<Listener Name="Drengin">1</Listener>
+			<Phrase Morality="1">
+				<Text>We do not elate in your sssituation, [YourLeaderName], but as well we feel no sssorrow. Your nation now feels the pain that it has sspread throughout the galaxy.
+May you learn much from the hardshipss you must now endure.
+</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Korath">13</Speaker>
+			<Listener Name="Drengin">1</Listener>
+			<Phrase Morality="2">
+				<Text>Death awaits you, [YourLeaderName].</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+</Topics>

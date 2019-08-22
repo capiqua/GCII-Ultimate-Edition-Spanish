@@ -10,13 +10,10 @@ Esta es la traducción del juego Galactic Civilizations II: Ultimate Edition v2.
 
 	·Descargar todo el zip. Pulsamos en Clone or download (esta en verde)
 	·Pulsamos Download zip (al escritorio por ejemplo)
-	·Descomprimir todo el .zip en la carpeta
-	  c:\Program Files (x86)\Steam\steamapps\common\Galactic Civilizations II - Ultimate Edition\Mods\
+	·Descomprimir todo el .zip en la carpeta, sobreescribiendo archivos
+	  c:\Program Files (x86)\Steam\steamapps\common\Galactic Civilizations II - Ultimate Edition\Twilight\Data\English\
 	·Entrar en el juego.
-	·Ir al apartado de “options”, a continuación en la columna game options, activa "use mods” e indicamos
-	  donde esta la carpeta spanish. Pulsmos "DONE"
-	·Acepta el reinicio
-
+	
 	Nota: cada cambio de en la tradu, es recomendable borrar las razas que se crean en
 	c:\Users\xxxx\Documents\My Games\GC2TwilightArnor\
 	

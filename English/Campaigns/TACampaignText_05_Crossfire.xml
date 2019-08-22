@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<Topics>
+	<MaxNumRacesInFile>15</MaxNumRacesInFile>
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Korath">13</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase Morality="0">
+				<Text>Well, well, well... if it isn't [YourLeaderName].  I see you haven't tired of sticking your nose into quadrants that are none of your business.  Retreat now.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Well, well, well... if it isn't [YourLeaderName].  I see you haven't tired of sticking your nose into quadrants that are none of your business.  Retreat now or this may be your last time.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Well, well, well... if it isn't [YourLeaderName].  I see you haven't tired of sticking your nose into quadrants that are none of your business.  Retreat now or this may be your last time.  Death comes quickly at the hands of the [SPEAKING_RACE_NAME]!</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Drengin">1</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase Morality="0">
+				<Text>Arg, not YOU again, [YourLeaderName].  I've got to be honest, I've never really liked you..</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Arg, not YOU again, [YourLeaderName].  I've got to be honest, I've never really liked you or the rest of the [YourEmpireName].</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Arg, not YOU again, [YourLeaderName].  I've got to be honest, I've always hated you and the rest of the [YourEmpireName].  Get any closer to [SPEAKING_RACE_NAME] territory and you'll pay the price!</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Yor">5</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase Morality="0">
+				<Text>Greetings [YourLeaderName], we are the [SPEAKING_RACE_NAME]. We have already set a plan in motion to colonize certain worlds.  It would be in your best interest to stay away from them.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Greetings, flesh creature. The [SPEAKING_RACE_NAME] have made claims to many of these worlds, and have plans for a few more. If we calculate that you are a threat to those plans, we will not hesitate to exterminate you.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Carbon-form, once this war is over, this galaxy will belong to the [SPEAKING_RACE_NAME].  We have no love for organic life.  Stay out of our way, or become space dust!</Text>
+			</Phrase>
+		</Dialogue>		
+	</Topic>
+</Topics>

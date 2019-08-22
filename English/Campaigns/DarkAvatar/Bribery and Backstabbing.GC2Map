@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GC2Map>
+	<Info>
+		<Width>5</Width>
+		<Height>5</Height>
+		<Size>2</Size>
+		<Stars>11</Stars>
+		<Planets>27</Planets>
+		<Resources>8</Resources>
+		<Ships>17</Ships>
+		<AsteroidFields>27</AsteroidFields>
+		<HomelessPlayers>0</HomelessPlayers>
+		<DarkAvatarMap>1</DarkAvatarMap>
+	</Info>
+	<Race>
+		<Terran>0</Terran>
+		<Drengin>1</Drengin>
+		<Altarian>2</Altarian>
+		<Arcean>3</Arcean>
+		<Torian>4</Torian>
+		<Yor>5</Yor>
+		<Korx>6</Korx>
+		<Drath>7</Drath>
+		<Thalan>8</Thalan>
+		<Iconian>9</Iconian>
+		<Korath>10</Korath>
+		<Krynn>11</Krynn>
+		<Custom>12</Custom>
+		<Dreadlords>13</Dreadlords>
+	</Race>
+	<Star Name="Almach">
+		<X>15</X>
+		<Y>66</Y>
+		<Type>3</Type>
+		<CustomName>1</CustomName>
+		<Size>90.0000</Size>
+		<RotationSpeed>0.0320</RotationSpeed>
+		<Pattern>51.7500</Pattern>
+		<Density>1.2400</Density>
+	</Star>
+	<Star Name="Upsilon Andromedae">
+		<X>28</X>
+		<Y>58</Y>
+		<Type>5</Type>
+		<CustomName>1</CustomName>
+		<Size>51.0000</Size>
+		<RotationSpeed>0.0440</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>2.0000</Density>
+	</Star>
+	<Star Name="Mirach">
+		<X>38</X>
+		<Y>38</Y>
+		<Type>2</Type>
+		<CustomName>1</CustomName>
+		<Size>85.0000</Size>
+		<RotationSpeed>0.0320</RotationSpeed>
+		<Pattern>51.7500</Pattern>
+		<Density>1.2400</Density>
+	</Star>
+	<Star Name="Mu Andromodae">
+		<X>47</X>
+		<Y>44</Y>
+		<Type>0</Type>
+		<CustomName>1</CustomName>
+		<Size>75.0000</Size>
+		<RotationSpeed>0.0488</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>2.0000</Density>
+	</Star>
+	<Star Name="Omicron Andromedae">
+		<X>52</X>
+		<Y>51</Y>
+		<Type>1</Type>
+		<CustomName>1</CustomName>
+		<Size>90.0000</Size>
+		<RotationSpeed>0.0446</RotationSpeed>
+		<Pattern>17.2500</Pattern>
+		<Density>3.3200</Density>
+	</Star>
+	<Star Name="Delta Andromedae">
+		<X>53</X>
+		<Y>19</Y>
+		<Type>3</Type>
+		<CustomName>1</CustomName>
+		<Size>75.0000</Size>
+		<RotationSpeed>0.0320</RotationSpeed>
+		<Pattern>23.2500</Pattern>
+		<Density>2.7600</Density>
+	</Star>
+	<Star Name="Alpheratz">
+		<X>71</X>
+		<Y>12</Y>
+		<Type>1</Type>
+		<CustomName>1</CustomName>
+		<Size>85.0000</Size>
+		<RotationSpeed>0.0680</RotationSpeed>
+		<Pattern>23.2500</Pattern>
+		<Density>2.7600</Density>
+	</Star>
+	<Star Name="Beta Tri">
+		<X>11</X>
+		<Y>47</Y>
+		<Type>3</Type>
+		<CustomName>1</CustomName>
+		<Size>63.0000</Size>
+		<RotationSpeed>0.0578</RotationSpeed>
+		<Pattern>10.5000</Pattern>
+		<Density>3.4800</Density>
+	</Star>
+	<Star Name="Rasalmothallah">
+		<X>16</X>
+		<Y>21</Y>
+		<Type>5</Type>
+		<CustomName>1</CustomName>
+		<Size>80.0000</Size>
+		<RotationSpeed>0.0482</RotationSpeed>
+		<Pattern>45.7500</Pattern>
+		<Density>1.5200</Density>
+	</Star>
+	<Star Name="Gamma Tri">
+		<X>4</X>
+		<Y>45</Y>
+		<Type>0</Type>
+		<CustomName>1</CustomName>
+		<Size>52.0000</Size>
+		<RotationSpeed>0.0254</RotationSpeed>
+		<Pattern>66.0000</Pattern>
+		<Density>1.2400</Density>
+	</Star>
+	<Star Name="Star [1,3].[20,52]">
+		<X>20</X>
+		<Y>52</Y>
+		<Type>4</Type>
+		<CustomName>0</CustomName>
+		<Size>75.0000</Size>
+		<RotationSpeed>0.0200</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>2.0000</Density>
+	</Star>
+	<Planet Name="Planet [2,2].[39,37]">
+		<CustomName>0</CustomName>
+		<Owner>6</Owner>
+		<X>39</X>
+		<Y>37</Y>
+		<Quality>5</Quality>
+		<Type>1</Type>
+		<Size>14.0000</Size>
+		<RotationSpeed>0.1900</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Mirach</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Korx">
+		<CustomName>1</CustomName>
+		<Owner>6</Owner>
+		<Homeworld>1</Homeworld>
+		<X>37</X>
+		<Y>35</Y>
+		<Quality>24</Quality>
+		<Type>1</Type>
+		<Size>30.0000</Size>
+		<RotationSpeed>0.2600</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Mirach</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Moon>
+			<SatelliteSize>23.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>0.0400</OrbitSpeed>
+			<Tilt1>0.6283</Tilt1>
+			<Tilt2>-0.6283</Tilt2>
+		</Moon>
+	</Planet>
+	<Planet Name="Planet [3,2].[48,43]">
+		<CustomName>0</CustomName>
+		<X>48</X>
+		<Y>43</Y>
+		<Quality>1</Quality>
+		<Type>0</Type>
+		<Size>11.0000</Size>
+		<RotationSpeed>0.1900</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Mu Andromodae</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [2,2].[36,41]">
+		<CustomName>0</CustomName>
+		<X>36</X>
+		<Y>41</Y>
+		<Quality>5</Quality>
+		<Type>1</Type>
+		<Size>20.0000</Size>
+		<RotationSpeed>0.2600</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Mirach</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Ring>
+			<SatelliteSize>29.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>1.0000</OrbitSpeed>
+			<Tilt1>1.5708</Tilt1>
+			<Tilt2>1.5708</Tilt2>
+		</Ring>
+	</Planet>
+	<Planet Name="Planet [0,3].[9,47]">
+		<CustomName>0</CustomName>
+		<Owner>1</Owner>
+		<Homeworld>1</Homeworld>
+		<X>9</X>
+		<Y>47</Y>
+		<Quality>10</Quality>
+		<Type>1</Type>
+		<Size>19.0000</Size>
+		<RotationSpeed>0.3200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Beta Tri</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Moon>
+			<SatelliteSize>8.0000</SatelliteSize>
+			<Orbit>41.0000</Orbit>
+			<OrbitSpeed>-0.3600</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Moon>
+	</Planet>
+	<Planet Name="Sidin">
+		<CustomName>1</CustomName>
+		<Owner>10</Owner>
+		<Homeworld>1</Homeworld>
+		<X>6</X>
+		<Y>46</Y>
+		<Quality>10</Quality>
+		<Type>1</Type>
+		<Size>14.0000</Size>
+		<RotationSpeed>0.1200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Gamma Tri</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Moon>
+			<SatelliteSize>5.0000</SatelliteSize>
+			<Orbit>44.0000</Orbit>
+			<OrbitSpeed>-0.1000</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Moon>
+	</Planet>
+	<Planet Name="Planet [4,0].[68,14]">
+		<CustomName>0</CustomName>
+		<Owner>2</Owner>
+		<Homeworld>1</Homeworld>
+		<X>68</X>
+		<Y>14</Y>
+		<Quality>15</Quality>
+		<Type>1</Type>
+		<Size>20.0000</Size>
+		<RotationSpeed>0.1000</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Alpheratz</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Ring>
+			<SatelliteSize>28.0000</SatelliteSize>
+			<Orbit>40.0000</Orbit>
+			<OrbitSpeed>-0.2200</OrbitSpeed>
+			<Tilt1>-1.2392</Tilt1>
+			<Tilt2>1.2392</Tilt2>
+		</Ring>
+	</Planet>
+	<Planet Name="Planet [1,1].[19,23]">
+		<CustomName>0</CustomName>
+		<Owner>0</Owner>
+		<Homeworld>1</Homeworld>
+		<X>19</X>
+		<Y>23</Y>
+		<Quality>16</Quality>
+		<Type>1</Type>
+		<Size>27.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Rasalmothallah</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Moon>
+			<SatelliteSize>18.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>-0.7600</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Moon>
+	</Planet>
+	<Planet Name="Planet [3,1].[54,22]">
+		<CustomName>0</CustomName>
+		<X>54</X>
+		<Y>22</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>20.0000</Size>
+		<RotationSpeed>0.0700</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Delta Andromedae</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [3,1].[56,19]">
+		<CustomName>0</CustomName>
+		<X>56</X>
+		<Y>19</Y>
+		<Quality>5</Quality>
+		<Type>1</Type>
+		<Size>15.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Delta Andromedae</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [3,1].[55,16]">
+		<CustomName>0</CustomName>
+		<X>55</X>
+		<Y>16</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>15.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Delta Andromedae</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [3,1].[50,20]">
+		<CustomName>0</CustomName>
+		<X>50</X>
+		<Y>20</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>11.0000</Size>
+		<RotationSpeed>0.1200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Delta Andromedae</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [3,1].[51,17]">
+		<CustomName>0</CustomName>
+		<X>51</X>
+		<Y>17</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>15.0000</Size>
+		<RotationSpeed>0.1200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Delta Andromedae</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [3,3].[55,50]">
+		<CustomName>0</CustomName>
+		<X>55</X>
+		<Y>50</Y>
+		<Quality>5</Quality>
+		<Type>0</Type>
+		<Size>35.0000</Size>
+		<RotationSpeed>0.1900</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Omicron Andromedae</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Moon>
+			<SatelliteSize>30.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>-0.2300</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Moon>
+	</Planet>
+	<Planet Name="Planet [3,3].[49,52]">
+		<CustomName>0</CustomName>
+		<X>49</X>
+		<Y>52</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>35.0000</Size>
+		<RotationSpeed>0.2600</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Omicron Andromedae</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Ring>
+			<SatelliteSize>5.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>0.8900</OrbitSpeed>
+			<Tilt1>1.5708</Tilt1>
+			<Tilt2>1.5708</Tilt2>
+		</Ring>
+	</Planet>
+	<Planet Name="Planet [1,4].[15,64]">
+		<CustomName>0</CustomName>
+		<X>15</X>
+		<Y>64</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>22.0000</Size>
+		<RotationSpeed>0.1900</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Almach</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [1,4].[15,69]">
+		<CustomName>0</CustomName>
+		<X>15</X>
+		<Y>69</Y>
+		<Quality>6</Quality>
+		<Type>1</Type>
+		<Size>22.0000</Size>
+		<RotationSpeed>0.1900</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Almach</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [1,3].[27,57]">
+		<CustomName>0</CustomName>
+		<X>27</X>
+		<Y>57</Y>
+		<Quality>9</Quality>
+		<Type>0</Type>
+		<Size>35.0000</Size>
+		<RotationSpeed>0.1900</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Upsilon Andromedae</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [1,3].[29,55]">
+		<CustomName>0</CustomName>
+		<X>29</X>
+		<Y>55</Y>
+		<Quality>0</Quality>
+		<Type>0</Type>
+		<Size>13.0000</Size>
+		<RotationSpeed>0.5800</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Upsilon Andromedae</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+		<Moon>
+			<SatelliteSize>10.0000</SatelliteSize>
+			<Orbit>100.0000</Orbit>
+			<OrbitSpeed>-0.6300</OrbitSpeed>
+			<Tilt1>0.0000</Tilt1>
+			<Tilt2>0.0000</Tilt2>
+		</Moon>
+	</Planet>
+	<Planet Name="Planet [0,3].[13,45]">
+		<CustomName>0</CustomName>
+		<X>13</X>
+		<Y>45</Y>
+		<Quality>3</Quality>
+		<Type>0</Type>
+		<Size>15.0000</Size>
+		<RotationSpeed>0.1900</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Beta Tri</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [0,3].[12,49]">
+		<CustomName>0</CustomName>
+		<X>12</X>
+		<Y>49</Y>
+		<Quality>16</Quality>
+		<Type>0</Type>
+		<Size>27.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Beta Tri</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [0,3].[3,46]">
+		<CustomName>0</CustomName>
+		<X>3</X>
+		<Y>46</Y>
+		<Quality>16</Quality>
+		<Type>0</Type>
+		<Size>27.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Gamma Tri</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [2,2].[39,40]">
+		<CustomName>0</CustomName>
+		<X>39</X>
+		<Y>40</Y>
+		<Quality>16</Quality>
+		<Type>0</Type>
+		<Size>27.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Mirach</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [3,3].[50,50]">
+		<CustomName>0</CustomName>
+		<X>50</X>
+		<Y>50</Y>
+		<Quality>16</Quality>
+		<Type>0</Type>
+		<Size>27.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Omicron Andromedae</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [1,1].[16,23]">
+		<CustomName>0</CustomName>
+		<X>16</X>
+		<Y>23</Y>
+		<Quality>16</Quality>
+		<Type>0</Type>
+		<Size>27.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Rasalmothallah</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [1,4].[17,65]">
+		<CustomName>0</CustomName>
+		<X>17</X>
+		<Y>65</Y>
+		<Quality>16</Quality>
+		<Type>0</Type>
+		<Size>27.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Almach</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Planet Name="Planet [1,3].[18,54]">
+		<CustomName>0</CustomName>
+		<X>18</X>
+		<Y>54</Y>
+		<Quality>16</Quality>
+		<Type>0</Type>
+		<Size>27.0000</Size>
+		<RotationSpeed>0.4500</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [1,3].[20,52]</Star>
+		<FlipTerrainHorz>0</FlipTerrainHorz>
+		<FlipTerrainVert>0</FlipTerrainVert>
+		<TerrainTileOffset>0</TerrainTileOffset>
+	</Planet>
+	<Resource>
+		<X>37</X>
+		<Y>3</Y>
+		<Type>1</Type>
+	</Resource>
+	<Resource>
+		<X>29</X>
+		<Y>27</Y>
+		<Type>5</Type>
+	</Resource>
+	<Resource>
+		<X>60</X>
+		<Y>70</Y>
+		<Type>3</Type>
+	</Resource>
+	<Resource>
+		<X>3</X>
+		<Y>3</Y>
+		<Type>5</Type>
+	</Resource>
+	<Resource>
+		<X>71</X>
+		<Y>34</Y>
+		<Type>2</Type>
+	</Resource>
+	<Resource>
+		<X>13</X>
+		<Y>58</Y>
+		<Type>4</Type>
+	</Resource>
+	<Resource>
+		<X>5</X>
+		<Y>53</Y>
+		<Type>4</Type>
+	</Resource>
+	<Resource>
+		<X>16</X>
+		<Y>52</Y>
+		<Type>3</Type>
+	</Resource>
+	<AsteroidField>
+		<X>57</X>
+		<Y>51</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165017109</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [3,3].[57,51]</Name>
+		<Star>Mu Andromodae</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>56</X>
+		<Y>52</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165035009</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [3,3].[56,52]</Name>
+		<Star>Mu Andromodae</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>58</X>
+		<Y>50</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165035011</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [3,3].[58,50]</Name>
+		<Star>Mu Andromodae</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>59</X>
+		<Y>49</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165035013</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [3,3].[59,49]</Name>
+		<Star>Mu Andromodae</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>57</X>
+		<Y>50</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165035016</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [3,3].[57,50]</Name>
+		<Star>Mu Andromodae</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>58</X>
+		<Y>51</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165035018</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [3,3].[58,51]</Name>
+		<Star>Mu Andromodae</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>30</X>
+		<Y>26</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165035050</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [2,1].[30,26]</Name>
+		<Star>Mirach</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>27</X>
+		<Y>27</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165035062</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [1,1].[27,27]</Name>
+		<Star>Rasalmothallah</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>30</X>
+		<Y>28</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165035066</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [2,1].[30,28]</Name>
+		<Star>Mirach</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>28</X>
+		<Y>28</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165035069</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [1,1].[28,28]</Name>
+		<Star>Rasalmothallah</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>28</X>
+		<Y>26</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165035072</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [1,1].[28,26]</Name>
+		<Star>Rasalmothallah</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>31</X>
+		<Y>27</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165035101</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [2,1].[31,27]</Name>
+		<Star>Mirach</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>42</X>
+		<Y>41</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165194940</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [2,2].[42,41]</Name>
+		<Star>Mirach</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>16</X>
+		<Y>54</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165194956</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [1,3].[16,54]</Name>
+		<Star>Gamma Tri</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>17</X>
+		<Y>53</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165195379</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [1,3].[17,53]</Name>
+		<Star>Beta Tri</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>67</X>
+		<Y>4</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165869346</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [4,0].[67,4]</Name>
+		<Star>Alpheratz</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>68</X>
+		<Y>5</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165869347</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [4,0].[68,5]</Name>
+		<Star>Alpheratz</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>69</X>
+		<Y>6</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1165869347</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [4,0].[69,6]</Name>
+		<Star>Alpheratz</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>10</X>
+		<Y>44</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166025649</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [0,2].[10,44]</Name>
+		<Star>Gamma Tri</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>11</X>
+		<Y>44</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166025651</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [0,2].[11,44]</Name>
+		<Star>Gamma Tri</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>10</X>
+		<Y>43</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166025657</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [0,2].[10,43]</Name>
+		<Star>Gamma Tri</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>17</X>
+		<Y>67</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166025759</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [1,4].[17,67]</Name>
+		<Star>Almach</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>15</X>
+		<Y>62</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166025762</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [1,4].[15,62]</Name>
+		<Star>Almach</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>16</X>
+		<Y>50</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166025851</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [1,3].[16,50]</Name>
+		<Star>Gamma Tri</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>15</X>
+		<Y>53</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166025869</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [1,3].[15,53]</Name>
+		<Star>Gamma Tri</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>15</X>
+		<Y>51</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166025871</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [1,3].[15,51]</Name>
+		<Star>Gamma Tri</Star>
+	</AsteroidField>
+	<AsteroidField>
+		<X>17</X>
+		<Y>51</Y>
+		<NumAsteroids>10</NumAsteroids>
+		<RandomSeed>1166025900</RandomSeed>
+		<CustomName>0</CustomName>
+		<Name>Asteroid Field [1,3].[17,51]</Name>
+		<Star>Beta Tri</Star>
+	</AsteroidField>
+	<Ship Name="SurveyShip 121">
+		<X>36</X>
+		<Y>37</Y>
+		<Type>SurveyShip</Type>
+		<Owner>6</Owner>
+	</Ship>
+	<Ship Name="SurveyShip 462">
+		<X>68</X>
+		<Y>13</Y>
+		<Type>SurveyShip</Type>
+		<Owner>2</Owner>
+	</Ship>
+	<Ship Name="Altarian Colony">
+		<X>69</X>
+		<Y>10</Y>
+		<Type>ColonyShip</Type>
+		<Owner>2</Owner>
+	</Ship>
+	<Ship Name="Scout 44">
+		<X>27</X>
+		<Y>26</Y>
+		<Type>Scout</Type>
+		<Owner>0</Owner>
+	</Ship>
+	<Ship Name="SurveyShip 750">
+		<X>19</X>
+		<Y>24</Y>
+		<Type>SurveyShip</Type>
+		<Owner>0</Owner>
+	</Ship>
+	<Ship Name="Terran Colony">
+		<X>19</X>
+		<Y>21</Y>
+		<Type>ColonyShip</Type>
+		<Owner>0</Owner>
+	</Ship>
+	<Ship Name="Defender 6">
+		<X>8</X>
+		<Y>47</Y>
+		<Type>Defender</Type>
+		<Owner>1</Owner>
+	</Ship>
+	<Ship Name="Defender 1">
+		<X>7</X>
+		<Y>47</Y>
+		<Type>Defender</Type>
+		<Owner>10</Owner>
+	</Ship>
+	<Ship Name="Drengin Colony">
+		<X>8</X>
+		<Y>46</Y>
+		<Type>ColonyShip</Type>
+		<Owner>1</Owner>
+	</Ship>
+	<Ship Name="Korx Colony">
+		<X>39</X>
+		<Y>35</Y>
+		<Type>ColonyShip</Type>
+		<Owner>6</Owner>
+	</Ship>
+	<Ship Name="SurveyShip 14">
+		<X>8</X>
+		<Y>48</Y>
+		<Type>SurveyShip</Type>
+		<Owner>1</Owner>
+	</Ship>
+	<Ship Name="SurveyShip 389">
+		<X>4</X>
+		<Y>47</Y>
+		<Type>SurveyShip</Type>
+		<Owner>10</Owner>
+	</Ship>
+	<Ship Name="SpaceMiner 792">
+		<X>10</X>
+		<Y>49</Y>
+		<Type>SpaceMiner</Type>
+		<Owner>1</Owner>
+	</Ship>
+	<Ship Name="SpaceMiner 451">
+		<X>22</X>
+		<Y>24</Y>
+		<Type>SpaceMiner</Type>
+		<Owner>0</Owner>
+	</Ship>
+	<Ship Name="SpaceMiner 750">
+		<X>35</X>
+		<Y>33</Y>
+		<Type>SpaceMiner</Type>
+		<Owner>6</Owner>
+	</Ship>
+	<Ship Name="SpaceMiner 80">
+		<X>67</X>
+		<Y>9</Y>
+		<Type>SpaceMiner</Type>
+		<Owner>2</Owner>
+	</Ship>
+	<Ship Name="Constructor 728">
+		<X>9</X>
+		<Y>46</Y>
+		<Type>Constructor</Type>
+		<Owner>1</Owner>
+	</Ship>
+</GC2Map>

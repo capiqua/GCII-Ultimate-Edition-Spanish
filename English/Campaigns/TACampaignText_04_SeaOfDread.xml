@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<Topics>
+	<MaxNumRacesInFile>15</MaxNumRacesInFile>
+	<Topic Name="MISC_FIRST_CONTACT">
+		<Dialogue>
+			<Speaker Name="Korath">13</Speaker>
+			<Listener Name="Human">0</Listener>
+			<Phrase Morality="0">
+				<Text>Thought you could sneak through this quadrant undetected eh, [YourLeaderName]?  The [SPEAKING_RACE_NAME] are not a bunch of fools.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Thought you could sneak through this quadrant undetected eh, [YourLeaderName]?  The [SPEAKING_RACE_NAME] are not a bunch of fools.  You will pay for that assumption!</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Thought you could sneak through this quadrant undetected eh, [YourLeaderName]?  The [SPEAKING_RACE_NAME] are not a bunch of fools.  You will pay for that assumption!  Nothing but death awaits you in this quadrant.</Text>
+			</Phrase>
+		</Dialogue>
+	</Topic>
+</Topics>

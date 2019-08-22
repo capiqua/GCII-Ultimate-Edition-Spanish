@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GC2Map>
+	<Info>
+		<Width>4</Width>
+		<Height>4</Height>
+		<Size>1</Size>
+		<Stars>8</Stars>
+		<Planets>11</Planets>
+		<Resources>6</Resources>
+		<Anomalies>1</Anomalies>
+		<Ships>3</Ships>
+		<HomelessPlayers>0</HomelessPlayers>
+	</Info>
+	<Race>
+		<Human>0</Human>
+		<Drengin>1</Drengin>
+		<Altarian>2</Altarian>
+		<Arcean>3</Arcean>
+		<Torian>4</Torian>
+		<Yor>5</Yor>
+		<Korx>6</Korx>
+		<Drath>7</Drath>
+		<Thalan>8</Thalan>
+		<Iconian>9</Iconian>
+		<Custom>10</Custom>
+		<Dreadlords>11</Dreadlords>
+	</Race>
+	<Star Name="Star [1,2].[21,37]">
+		<X>21</X>
+		<Y>37</Y>
+		<Type>3</Type>
+		<CustomName>0</CustomName>
+		<Size>75.0000</Size>
+		<RotationSpeed>0.0000</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>2.0000</Density>
+	</Star>
+	<Star Name="Star [0,3].[6,54]">
+		<X>6</X>
+		<Y>54</Y>
+		<Type>3</Type>
+		<CustomName>0</CustomName>
+		<Size>75.0000</Size>
+		<RotationSpeed>0.0000</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>2.0000</Density>
+	</Star>
+	<Star Name="Alpha Centauri">
+		<X>50</X>
+		<Y>8</Y>
+		<Type>4</Type>
+		<CustomName>1</CustomName>
+		<Size>99.0000</Size>
+		<RotationSpeed>0.0400</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>2.0000</Density>
+	</Star>
+	<Star Name="Star [2,0].[35,10]">
+		<X>35</X>
+		<Y>10</Y>
+		<Type>0</Type>
+		<CustomName>0</CustomName>
+		<Size>78.0000</Size>
+		<RotationSpeed>0.0300</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>2.0000</Density>
+	</Star>
+	<Star Name="Star [2,1].[42,27]">
+		<X>42</X>
+		<Y>27</Y>
+		<Type>5</Type>
+		<CustomName>0</CustomName>
+		<Size>78.0000</Size>
+		<RotationSpeed>0.0600</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>2.0000</Density>
+	</Star>
+	<Star Name="Star [2,2].[33,41]">
+		<X>33</X>
+		<Y>41</Y>
+		<Type>1</Type>
+		<CustomName>0</CustomName>
+		<Size>78.0000</Size>
+		<RotationSpeed>0.0400</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>2.0000</Density>
+	</Star>
+	<Star Name="Star [1,1].[27,22]">
+		<X>27</X>
+		<Y>22</Y>
+		<Type>2</Type>
+		<CustomName>0</CustomName>
+		<Size>87.0000</Size>
+		<RotationSpeed>0.0500</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>2.0000</Density>
+	</Star>
+	<Star Name="Star [1,0].[22,6]">
+		<X>22</X>
+		<Y>6</Y>
+		<Type>6</Type>
+		<CustomName>0</CustomName>
+		<Size>78.0000</Size>
+		<RotationSpeed>0.0300</RotationSpeed>
+		<Pattern>37.5000</Pattern>
+		<Density>2.0000</Density>
+	</Star>
+	<Planet Name="Planet [1,2].[21,35]">
+		<CustomName>0</CustomName>
+		<X>21</X>
+		<Y>35</Y>
+		<Quality>6</Quality>
+		<Size>21.0000</Size>
+		<RotationSpeed>0.0000</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [1,2].[21,37]</Star>
+	</Planet>
+	<Planet Name="Karg">
+		<CustomName>1</CustomName>
+		<Owner>1</Owner>
+		<Homeworld>1</Homeworld>
+		<X>4</X>
+		<Y>54</Y>
+		<Quality>10</Quality>
+		<Size>16.0000</Size>
+		<RotationSpeed>0.2300</RotationSpeed>
+		<Influence>15</Influence>
+		<Star>Star [0,3].[6,54]</Star>
+	</Planet>
+	<Planet Name="Beta Prime">
+		<CustomName>1</CustomName>
+		<Owner>0</Owner>
+		<Homeworld>1</Homeworld>
+		<X>50</X>
+		<Y>6</Y>
+		<Quality>17</Quality>
+		<Size>20.0000</Size>
+		<RotationSpeed>0.0600</RotationSpeed>
+		<Influence>5</Influence>
+		<Star>Alpha Centauri</Star>
+	</Planet>
+	<Planet Name="Planet [2,0].[32,11]">
+		<CustomName>0</CustomName>
+		<X>32</X>
+		<Y>11</Y>
+		<Quality>8</Quality>
+		<Size>21.0000</Size>
+		<RotationSpeed>0.2300</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [2,0].[35,10]</Star>
+	</Planet>
+	<Planet Name="Planet [2,0].[37,13]">
+		<CustomName>0</CustomName>
+		<X>37</X>
+		<Y>13</Y>
+		<Quality>4</Quality>
+		<Size>20.0000</Size>
+		<RotationSpeed>0.2300</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [2,0].[35,10]</Star>
+	</Planet>
+	<Planet Name="Planet [2,1].[40,26]">
+		<CustomName>0</CustomName>
+		<X>40</X>
+		<Y>26</Y>
+		<Quality>12</Quality>
+		<Size>14.0000</Size>
+		<RotationSpeed>0.2300</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [2,1].[42,27]</Star>
+	</Planet>
+	<Planet Name="Planet [1,0].[22,8]">
+		<CustomName>0</CustomName>
+		<X>22</X>
+		<Y>8</Y>
+		<Quality>6</Quality>
+		<Size>26.0000</Size>
+		<RotationSpeed>0.2300</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [1,0].[22,6]</Star>
+	</Planet>
+	<Planet Name="Planet [2,2].[33,39]">
+		<CustomName>0</CustomName>
+		<X>33</X>
+		<Y>39</Y>
+		<Quality>7</Quality>
+		<Size>16.0000</Size>
+		<RotationSpeed>0.2200</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Star [2,2].[33,41]</Star>
+	</Planet>
+	<Planet Name="Salath">
+		<CustomName>1</CustomName>
+		<Owner>2</Owner>
+		<Homeworld>1</Homeworld>
+		<X>51</X>
+		<Y>10</Y>
+		<Quality>6</Quality>
+		<Size>20.0000</Size>
+		<RotationSpeed>0.0600</RotationSpeed>
+		<Influence>5</Influence>
+		<Star>Alpha Centauri</Star>
+	</Planet>
+	<Planet Name="Jor">
+		<CustomName>1</CustomName>
+		<Owner>3</Owner>
+		<Homeworld>1</Homeworld>
+		<X>53</X>
+		<Y>7</Y>
+		<Quality>8</Quality>
+		<Size>20.0000</Size>
+		<RotationSpeed>0.0600</RotationSpeed>
+		<Influence>5</Influence>
+		<Star>Alpha Centauri</Star>
+	</Planet>
+	<Planet Name="Iolo">
+		<CustomName>1</CustomName>
+		<X>47</X>
+		<Y>9</Y>
+		<Quality>11</Quality>
+		<Size>24.0000</Size>
+		<RotationSpeed>0.0600</RotationSpeed>
+		<Influence>0</Influence>
+		<Star>Alpha Centauri</Star>
+		<Ring>
+			<SatelliteSize>30.0000</SatelliteSize>
+			<Orbit>40.0000</Orbit>
+			<OrbitSpeed>-0.5100</OrbitSpeed>
+			<Tilt1>1.2043</Tilt1>
+			<Tilt2>-0.9076</Tilt2>
+		</Ring>
+	</Planet>
+	<Resource>
+		<X>9</X>
+		<Y>38</Y>
+		<Type>1</Type>
+	</Resource>
+	<Resource>
+		<X>20</X>
+		<Y>48</Y>
+		<Type>1</Type>
+	</Resource>
+	<Resource>
+		<X>35</X>
+		<Y>34</Y>
+		<Type>1</Type>
+	</Resource>
+	<Resource>
+		<X>22</X>
+		<Y>21</Y>
+		<Type>3</Type>
+	</Resource>
+	<Resource>
+		<X>37</X>
+		<Y>21</Y>
+		<Type>5</Type>
+	</Resource>
+	<Resource>
+		<X>54</X>
+		<Y>12</Y>
+		<Type>2</Type>
+	</Resource>
+	<Ship Name="Xir'ah">
+		<X>5</X>
+		<Y>52</Y>
+		<Type>Frigate</Type>
+		<Owner>1</Owner>
+	</Ship>
+	<Ship Name="Kil Theth">
+		<X>6</X>
+		<Y>52</Y>
+		<Type>Defender</Type>
+		<Owner>1</Owner>
+	</Ship>
+	<Ship Name="Kirak">
+		<X>7</X>
+		<Y>52</Y>
+		<Type>Frigate</Type>
+		<Owner>1</Owner>
+	</Ship>
+</GC2Map>

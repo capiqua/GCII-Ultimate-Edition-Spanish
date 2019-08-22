@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Anomalies>
+	<DataChecksum NoParse="1">
+		<Ignore>Title,Description,Image,Model</Ignore>
+		<Translate>Title,Description</Translate>
+	</DataChecksum>
+	<Anomaly InternalName="Monster01">
+		<Title>Monstruo!</Title>
+		<Description>Si bien desde un punto de vista inocente, la anomalia rocosa que esta siendo investigada por nuestro equipo de investigacion ha resultado ser el huevo de una criatura espacial. Si la nave no tiene las capacidades ofensivas adecuadas, se sugiere que abandonen el area de inmediato.</Description>
+		<Image>Gfx\\Event1.png</Image>
+		<Model>7</Model>
+		<Quantity>1</Quantity>
+		<Commoness>3</Commoness>
+		<Power>1.000</Power>
+		<Class>1</Class>
+		<Type>12</Type>
+	</Anomaly>
+	<Anomaly InternalName="FreeShip01">
+		<Title>Paseo Gratis</Title>
+		<Description>En lo profundo de la anomalia, tu equipo de investigacion se ha topado con una nave espacial abandonada. Utilizando su conocimiento interestelar, bandas de goma de repuesto y un destornillador, conectan al chico malo y lo ponen en marcha nuevamente. Nada mejor que un barco gratis! </Description>
+		<Image>Gfx\\TestFreeShip.png</Image>
+		<Model>4</Model>
+		<Quantity>1</Quantity>
+		<Commoness>1</Commoness>
+		<Power>1.000</Power>
+		<Class>1</Class>
+		<Type>5</Type>
+	</Anomaly>
+	<Anomaly InternalName="Research01">
+		<Title>InvestigacionMas</Title>
+		<Description>Gracias a las sondas de la anomalia espacial, nuestros investigadores han podido hacer avances fenomenales en la tecnologia que se esta investigando actualmente.
+
+Nuestra base de datos de informacion sobre la tecnologia ha crecido en un 25%!</Description>
+		<Image>Gfx\\Breakthrough01.png</Image>
+		<Model>6</Model>
+		<Quantity>25</Quantity>
+		<Commoness>1</Commoness>
+		<Power>1.000</Power>
+		<Class>1</Class>
+		<Type>3</Type>
+	</Anomaly>
+	<Anomaly InternalName="Research02">
+		<Title>Investigacion</Title>
+		<Description>Despues de probar la anomalia, nuestros cientificos han concluido que no se puede obtener nada de interes de la anormalidad espacial.
+
+Como dijo un asistente de investigacion, "Que perdida de tiempo"</Description>
+		<Image>Gfx\\Breakthrough01.png</Image>
+		<Model>6</Model>
+		<Quantity>0</Quantity>
+		<Commoness>1</Commoness>
+		<Power>1.000</Power>
+		<Class>1</Class>
+		<Type>3</Type>
+	</Anomaly>
+	<Anomaly InternalName="ShipHPBonus01">
+		<Title>Bonif.PuntosNave</Title>
+		<Description>La tripulacion de tu nave ha descubierto los restos de una poderosa nave a la deriva a traves del espacio. Si bien la mayoria de los escombros se etiquetarian generosamente como "basura espacial", hay un gran volumen de aleacion de metales preciosos que mejora los puntos de golpe de tu nave en +4.</Description>
+		<Image>Gfx\\TestFreeShip.png</Image>
+		<Model>3</Model>
+		<Quantity>1</Quantity>
+		<Commoness>1</Commoness>
+		<Power>4.000</Power>
+		<Class>1</Class>
+		<Type>6</Type>
+	</Anomaly>
+	<Anomaly InternalName="ShipExpBonus01">
+		<Title>Bonif.ExpNave</Title>
+		<Description>Tu tripulacion ha descubierto un conjunto de registros de capitan en los escombros. Estos registros contenian lecciones valiosas para su tripulacion, lo que ha mejorado su nivel de experiencia. Actualizar tu nave mas tarde lo hara mucho mas letal.</Description>
+		<Image>Gfx\\TestFreeShip.png</Image>
+		<Model>3</Model>
+		<Quantity>1</Quantity>
+		<Commoness>1</Commoness>
+		<Power>3.000</Power>
+		<Class>2</Class>
+		<Type>6</Type>
+	</Anomaly>
+	<Anomaly InternalName="Soldiering01">
+		<Title>Soldadesca</Title>
+		<Description>Por casualidad, el equipo de exploracion se topo con una formula antigua utilizada por una raza perdida para mejorar la calidad de su gente. Usando esta formula, nuestros cientificos han ideado un suero para fortalecer a nuestros soldados en +1 por ciento.</Description>
+		<Image>Gfx\\Soldiering01.png</Image>
+		<Model>1</Model>
+		<Quantity>16</Quantity>
+		<Commoness>1</Commoness>
+		<Power>1.000</Power>
+		<Class>1</Class>
+		<Type>11</Type>
+	</Anomaly>
+	<Anomaly InternalName="Economy1">
+		<Title>Economia</Title>
+		<Description>Hemos descubierto un nuevo tipo de patron de energia que beneficiara a nuestra economia en un +1 por ciento.</Description>
+		<Image>Gfx\\money.png</Image>
+		<Model>1</Model>
+		<Quantity>0</Quantity>
+		<Commoness>1</Commoness>
+		<Power>1.000</Power>
+		<Class>1</Class>
+		<Type>11</Type>
+	</Anomaly>
+	<Anomaly InternalName="Weapons1">
+		<Title>Armas</Title>
+		<Description>Hemos descubierto una nueva forma de onda que ayudara a mejorar nuestro armamento en aproximadamente un +1 por ciento.</Description>
+		<Image>Gfx\\anomaly_data2.png</Image>
+		<Model>1</Model>
+		<Quantity>1</Quantity>
+		<Commoness>1</Commoness>
+		<Power>1.000</Power>
+		<Class>1</Class>
+		<Type>11</Type>
+	</Anomaly>
+	<Anomaly InternalName="Defenses1">
+		<Title>Defensas</Title>
+		<Description>Hemos descubierto un plasma extrano pero util que podemos usar para polarizar el enchapado de nuestra nave para ayudar a nuestros buques en la batalla en aproximadamente un +1 por ciento.</Description>
+		<Image>Gfx\\anomaly_data2.png</Image>
+		<Model>1</Model>
+		<Quantity>2</Quantity>
+		<Commoness>1</Commoness>
+		<Power>1.000</Power>
+		<Class>1</Class>
+		<Type>11</Type>
+	</Anomaly>
+	<Anomaly InternalName="Morale">
+		<Title>Moral</Title>
+		<Description>Nuestro equipo de encuesta descubrio los restos de un dispositivo que produce ondas de sonido relajantes que relajan a las personas sin efectos secundarios. La moral de nuestra gente mejorara con este descubrimiento en un estimado +2 por ciento.</Description>
+		<Image>Gfx\\anomaly_data2.png</Image>
+		<Model>1</Model>
+		<Quantity>4</Quantity>
+		<Commoness>1</Commoness>
+		<Power>2.000</Power>
+		<Class>1</Class>
+		<Type>11</Type>
+	</Anomaly>
+	<Anomaly InternalName="Espionage">
+		<Title>Espionaje</Title>
+		<Description>Nuestro equipo de reconocimientos ha descubierto un campo de energia que puede hacer que las personas sean casi invisibles durante breves periodos. Esto ayudara a nuestros futuros esfuerzos de espionaje en un +1 por ciento!</Description>
+		<Image>Gfx\\anomaly_data2.png</Image>
+		<Model>1</Model>
+		<Quantity>15</Quantity>
+		<Commoness>1</Commoness>
+		<Power>1.000</Power>
+		<Class>1</Class>
+		<Type>11</Type>
+	</Anomaly>
+	<Anomaly InternalName="Research">
+		<Title>Investigacion</Title>
+		<Description>Nuestro equipo ha descubierto una nueva fuente de energia que es ideal para circuitos de nanocomputacion. Nuestros cientificos estiman que aumentara nuestra capacidad de investigacion en un +1 por ciento.</Description>
+		<Image>Gfx\\anomaly_data2.png</Image>
+		<Model>1</Model>
+		<Quantity>8</Quantity>
+		<Commoness>5</Commoness>
+		<Power>1.000</Power>
+		<Class>1</Class>
+		<Type>11</Type>
+	</Anomaly>
+	<Anomaly InternalName="Repair">
+		<Title>Reparacion </Title>
+		<Description>Los escaneos de la anomalia han llevado a nuestro equipo a descubrir una nueva forma de energia que permite el sellado de varios tipos de metales. Esto deberia mejorar nuestra tasa de reparacion en aproximadamente +1 por ciento.</Description>
+		<Image>Gfx\\anomaly_data2.png</Image>
+		<Model>1</Model>
+		<Quantity>13</Quantity>
+		<Commoness>1</Commoness>
+		<Power>1.000</Power>
+		<Class>1</Class>
+		<Type>11</Type>
+	</Anomaly>
+	<Anomaly InternalName="Wormhole01">
+		<Title>GusanoTemporal</Title>
+		<Description>Nuestros exploradores se han topado con un agujero de gusano temporal, enviando la nave y a su tripulacion a un sector aleatorio de la galaxia. Quien sabe que botin les espera alli?</Description>
+		<Image>Gfx\\Testhole01.png</Image>
+		<Model>5</Model>
+		<Quantity>100</Quantity>
+		<Commoness>1</Commoness>
+		<Power>1.000</Power>
+		<Class>1</Class>
+		<Type>8</Type>
+	</Anomaly>
+	<Anomaly InternalName="Influence">
+		<Title>Influencia</Title>
+		<Description>Nuestro equipo de reconocimiento ha descubierto una maquina que puede implantar pensamientos en el cerebro de cualquier persona dentro del alcance. Lamentablemente, su alcance es limitado, pero ayudara a aumentar nuestra capacidad de influencia en un +1 por ciento!</Description>
+		<Image>Gfx\\anomaly_data2.png</Image>
+		<Model>1</Model>
+		<Quantity>9</Quantity>
+		<Commoness>1</Commoness>
+		<Power>1.000</Power>
+		<Class>1</Class>
+		<Type>11</Type>
+	</Anomaly>
+	<Anomaly InternalName="Loyalty">
+		<Title>Lealtad</Title>
+		<Description>Nuestro equipo de reconocimiento ha descubierto un archivo de historias legendarias de una civilizacion antigua. Con algunos ajustes, se han "adaptado" para ajustarse a nuestra cultura y promover nuestros valores. Esto seguramente mejorara la lealtad de nuestros ciudadanos en un +1 por ciento.</Description>
+		<Image>Gfx\\anomaly_data2.png</Image>
+		<Model>1</Model>
+		<Quantity>27</Quantity>
+		<Commoness>1</Commoness>
+		<Power>1.000</Power>
+		<Class>1</Class>
+		<Type>11</Type>
+	</Anomaly>
+	<Anomaly InternalName="PopulationGrowth">
+		<Title>Crecim.Poblacion</Title>
+		<Description>Nuestro equipo de reconocimiento ha encontrado una pequena caja con un simbolo extrano. Despues de luchar durante media hora para abrirlo, el equipo finalmente rompio el sello y descubrio un medicamento que aumentara el crecimiento de nuestra poblacion en un +1 por ciento</Description>
+		<Image>Gfx\\anomaly_data2.png</Image>
+		<Model>1</Model>
+		<Quantity>5</Quantity>
+		<Commoness>1</Commoness>
+		<Power>1.000</Power>
+		<Class>1</Class>
+		<Type>11</Type>
+	</Anomaly>
+	<Anomaly InternalName="Trade">
+		<Title>Comercio</Title>
+		<Description>Nuestro equipo de exploradores ha tropezado con los restos de una antigua nave comercial. Al observar el diseno de esta nave, hemos podido realizar pequenas mejoras en nuestras propias naves comerciales que aumentaran nuestra capacidad comercial en un +5 por ciento.</Description>
+		<Image>Gfx\\anomaly_data2.png</Image>
+		<Model>1</Model>
+		<Quantity>10</Quantity>
+		<Commoness>1</Commoness>
+		<Power>5.000</Power>
+		<Class>1</Class>
+		<Type>11</Type>
+	</Anomaly>
+	<Anomaly InternalName="Diplomacy">
+		<Title>Diplomacia</Title>
+		<Description>Nuestro equipo de exploradores ha descubierto un documento que describe los tratados de una antigua civilizacion con sus vecinos. Analizamos el documento y aprendimos varios trucos que aumentaran nuestra capacidad de diplomacia en un +1 por ciento.</Description>
+		<Image>Gfx\\anomaly_data2.png</Image>
+		<Model>1</Model>
+		<Quantity>11</Quantity>
+		<Commoness>1</Commoness>
+		<Power>1.000</Power>
+		<Class>1</Class>
+		<Type>11</Type>
+	</Anomaly>
+	<Anomaly InternalName="Money01">
+		<Title>DineroLeve</Title>
+		<Description>Nuestra intrepida banda de exploradores ha descubierto un tesoro de artefactos. Hemos vendido los productos al precio "justo" de 100 B?$.</Description>
+		<Image>Gfx\\money.png</Image>
+		<Model>1</Model>
+		<Quantity>100</Quantity>
+		<Commoness>1</Commoness>
+		<Power>1.000</Power>
+		<Class>1</Class>
+		<Type>0</Type>
+	</Anomaly>
+	<Anomaly InternalName="Money02">
+		<Title>DineroNormal</Title>
+		<Description>Nuestro equipo de reconocimiento ha descubierto una nave colonial abandonada, pero no esta operativa. No hay signos de vida, pero encontramos un arsenal de bienes que hemos subastado a 1000 B?$</Description>
+		<Image>Gfx\\money.png</Image>
+		<Model>1</Model>
+		<Quantity>1000</Quantity>
+		<Commoness>1</Commoness>
+		<Power>1.000</Power>
+		<Class>1</Class>
+		<Type>0</Type>
+	</Anomaly>
+	<Anomaly InternalName="Money03">
+		<Title>Dinero</Title>
+		<Description>Justo cuando el equipo de reconocimiento penso que no habia nada de valor, el capitan vio algo brillante en la superficie de la anomalia. Recogio la moneda por valor de 1 B?$, y se observo que decia: "Debe ser mi dia de suerte!"</Description>
+		<Image>Gfx\\money.png</Image>
+		<Model>1</Model>
+		<Quantity>1</Quantity>
+		<Commoness>1</Commoness>
+		<Power>1.000</Power>
+		<Class>1</Class>
+		<Type>0</Type>
+	</Anomaly>
+	<Anomaly InternalName="Money04">
+		<Title>DineroPiezas</Title>
+		<Description>Nuestro equipo de reconocimiento ha descubierto una nave abandonada. No esta en condiciones de funcionamiento, pero hemos podido vender las piezas utilizables por 250 B?$. </Description>
+		<Image>Gfx\\money.png</Image>
+		<Model>1</Model>
+		<Quantity>250</Quantity>
+		<Commoness>1</Commoness>
+		<Power>1.000</Power>
+		<Class>1</Class>
+		<Type>0</Type>
+	</Anomaly>
+	<Anomaly InternalName="Money05">
+		<Title>DineroBienes</Title>
+		<Description>Tras la inspeccion de los restos, se descubrio que este no era una nave cualquiera, sino una escolta real. No hay signos de juego sucio, y la bodega de carga esta llena de bienes caros por valor de 500B?$.</Description>
+		<Image>Gfx\\money.png</Image>
+		<Model>1</Model>
+		<Quantity>500</Quantity>
+		<Commoness>1</Commoness>
+		<Power>1.000</Power>
+		<Class>1</Class>
+		<Type>0</Type>
+	</Anomaly>
+	
+</Anomalies>

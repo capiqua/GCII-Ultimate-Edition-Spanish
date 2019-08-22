@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<GC2ShipStyles>
+	<ShipStyle Name="Thalan Empire Style">
+		<AIAttacker1>AttackerTemplate2_t</AIAttacker1>
+		<AIAttacker2>AttackerTemplate1_t</AIAttacker2>
+		<AIAttacker3>AttackerTemplate3_t</AIAttacker3>
+		<AIBattleship1>BattleshipTemplate2_t</AIBattleship1>
+		<AIBattleship2>BattleshipTemplate1_t</AIBattleship2>
+		<AIBattleship3>BattleshipTemplate3_t</AIBattleship3>
+		<AIColonyShip1>ColonyShipTemplate1_t</AIColonyShip1>
+		<AIConstructor1>ConstructorTemplate1_t</AIConstructor1>
+		<AIDefender1>DefenderTemplate1_t</AIDefender1>
+		<AIDreadnought1>DreadnoughtTemplate3_t</AIDreadnought1>
+		<AIDreadnought2>DreadnoughtTemplate2_t</AIDreadnought2>
+		<AIDreadnought3>DreadnoughtTemplate1_t</AIDreadnought3>
+		<AIFighter1>FighterTemplate2_t</AIFighter1>
+		<AIFighter2>FighterTemplate3_t</AIFighter2>
+		<AIFighter3>FighterTemplate1_t</AIFighter3>
+		<AIFreighter1>FreighterTemplate1_t</AIFreighter1>
+		<AIFrigate1>FrigateTemplate3_t</AIFrigate1>
+		<AIFrigate2>FrigateTemplate1_t</AIFrigate2>
+		<AIFrigate3>FrigateTemplate2_t</AIFrigate3>
+		<AIHeavyFighter1>HvyFtrTemplate2_t</AIHeavyFighter1>
+		<AIHeavyFighter2>HvyFtrTemplate1_t</AIHeavyFighter2>
+		<AIHeavyFighter3>HvyFtrTemplate3_t</AIHeavyFighter3>
+		<AISpaceMiner1>SpaceMinerTemplate1_t</AISpaceMiner1>
+		<AISpore1>SporeShipTemplate1_t</AISpore1>
+		<AISurvey1>SurveyTemplate1_t</AISurvey1>
+		<AITransport1>TransportTemplate1_t</AITransport1>
+		<DisplayName>Estilo Imperio Thalan</DisplayName>
+		<Hidden>0</Hidden>
+		<Prefix>S8</Prefix>
+		<ModuleStyle>2</ModuleStyle>
+	</ShipStyle>
+</GC2ShipStyles>
