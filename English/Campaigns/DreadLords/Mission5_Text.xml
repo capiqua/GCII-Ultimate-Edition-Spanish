@@ -6,7 +6,7 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>0</Morality>
-				<Text>Hello, cousin. Let's see, if we can find someting on this Dread Lord outpost, that we can use against them.</Text>
+				<Text>Hola primo. Veamos, si podemos encontrar algo en este puesto avanzado de los Senores del Miedo, que podamos usar contra ellos. </Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -14,7 +14,7 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>Greetings, friend. We will help you conquering this Dread Lord outpost.</Text>
+				<Text>Saludos, amigo. Te ayudaremos a conquistar este puesto avanzado de Senores del Miedo.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -22,7 +22,7 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>0</Morality>
-				<Text>Welcome, my friend. We will help you in any way we can to defeat the Dread Lords, [YourLeaderName].</Text>
+				<Text>Bienvenido, amigo mio. Te ayudaremos en todo lo que podamos para derrotar a los Senores del Miedo, [YourLeaderName].</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>

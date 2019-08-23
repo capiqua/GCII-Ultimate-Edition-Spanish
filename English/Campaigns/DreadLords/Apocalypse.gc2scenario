@@ -1,10 +1,10 @@
 [INFO]
-Description=This is it. We have assembled our entire alliance here. The Arceans, the Altarians, the Iconians, and even the Torians are here. This will be a huge battle that will settle the fate of the galaxy. We must defeat the Dread Lords once and for all. However, we're at the galactic core here. The Korx and Drath have worlds in this quadrant and the Drengin and Yor have a couple of outposts. That should not distract us from the primary goal: wiping out the Dread Lords.||The Dread Lords don't seem that concerned with the Yor and Drengin. We can only conclude that they consider us the greater threat. Like in other missions, the Dread Lords don't have much in terms of numbers. Moreover, the Dread Lords apparently do not colonize worlds.||The Dread Lord weakness continues to be their own technological advantage. The infrastructure necessary for them to create new weapons and ships is so vast that they have a hard time doing so with the primitive infrastructure on the planets they conquer. It's not surprising that they don't bother to even try to colonize given how long it would take them to build up from nothing.||We believe the key to victory is to strike fast. The longer the Dread Lords occupy their worlds, the more time they'll have to build up the infrastructure. In the long-term, the Dread Lords are unstoppable.
-Victory=The Dread Lords are defeated! From their base worlds, we have recovered the pocket universe activation device. Not that this will help us now. But when the war is over, we'll be able to study it and learn a great deal from it. Unfortunately, right now we have to head to the defense of Arcea, as the Drengin have launched a massive attack against the Arcean homeworld!
-Defeat=The Dread Lords have won. The galaxy will soon be theirs! Run for your lives!
+Description=Eso es todo. Hemos reunido toda nuestra alianza aqui. Los Arceanos, los Altarianos, los Iconianos e incluso los Torianos estan aqui. Esta sera una gran batalla que resolvera el destino de la galaxia. Debemos derrotar a los Senores del Miedo de una vez por todas. Sin embargo, estamos en el nucleo galactico aqui. Korx y Drath tienen mundos en este cuadrante y Drengin y Yor tienen un par de puestos avanzados. Eso no deberia distraernos del objetivo principal: eliminar a los Senores del Miedo.||Los Senores del Miedo no parecen preocupados por los Yor y Drengin. Solo podemos concluir que nos consideran la mayor amenaza. Como en otras misiones, los Senores del Miedo no tienen mucho en terminos de numeros. Ademas, los Senores del Miedo aparentemente no colonizan los mundos.||La debilidad de los Senores del Miedo sigue siendo su propia ventaja tecnologica. La infraestructura necesaria para que creen nuevas armas y naves es tan amplia que les resulta dificil hacerlo con la infraestructura primitiva en los planetas que conquistan. No es sorprendente que ni siquiera se molesten en tratar de colonizar dado el tiempo que les tomaria construir de la nada.||Creemos que la clave de la victoria es atacar rapido. Cuanto mas tiempo ocupan sus mundos los Senores del Miedo, mas tiempo tendran para construir la infraestructura. A largo plazo, los Senores del Miedo son imparables.
+Victory=Los Senores del Miedo han sido derrotados! De sus mundos base, hemos recuperado el dispositivo de activacion del universo hueco. No es que esto nos ayude ahora. Pero cuando termine la guerra, podremos estudiarla y aprender mucho de ella. Desafortunadamente, ahora tenemos que dirigirnos a la defensa de Arcea, ya que los Drengin han lanzado un ataque masivo contra el mundo natal de los Arceanos!
+Defeat=Los Senores del Miedo han ganado. La galaxia pronto sera suya! Corran por sus vidas!
 PlayerRace=0
 Conversation=Campaigns\DreadLords\Mission6_Text.xml
-Title=Apocalypse
+Title=Apocalipsis
 Image=Gfx\Loading\Apocalypse.png
 IntroScenePath=
 VictoryScenePath=
@@ -12,9 +12,9 @@ Version=2
 Details=
 [TEAM]
 Human=1
-Name1=Coalition
+Name1=Coalicion
 Drengin=2
-Name2=Axis
+Name2=Eje
 Altarian=1
 Name3=
 Arcean=1
@@ -36,8 +36,8 @@ Name11=
 Dreadlords=0
 Name12=
 Terran=1
-TeamName1=Coalition
-TeamName2=Axis
+TeamName1=Coalicion
+TeamName2=Eje
 TeamName3=
 TeamName4=
 TeamName5=
@@ -317,12 +317,12 @@ Krynn=4
 type=1
 race=13
 outcome=1
-description=Defeat the Dread Lords.
+description=Derrota a los Senores del Miedo
 [EVENT1]
 type=1
 race=0
 outcome=0
-description=Protect our outposts.
+description=Protege nuestros puestos de avanzada.
 [Terran]
 Terran=0
 Drengin=-1

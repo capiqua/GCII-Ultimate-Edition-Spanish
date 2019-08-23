@@ -1,10 +1,10 @@
 [INFO]
-Description=We now know where the Dread Lords disappeared to. In their final battle with the Arnor, the Arnorians activated a device on the planet Karion and sent the entire Dread Lord fleet into a pocket universe. The Drengin have unwittingly brought these immensely powerful beings back and they're now wreaking havoc on the galaxy.||We have contacted the Drengin Ambassador to discuss a truce so that we can pool our forces against this new enemy... but the Drengin response was chilling. The Drengin Ambassador put it like this: "Here is what is going to happen. You and your pitiful allies are going to fight these new beings. We will give ground to them. Most of the worlds we occupy are not inhabited by Drengin anyway so those people will perish. But you pathetic humans and the fool Arceans will try to save your worlds from annihilation. The fight with these Dread Lords will cost you a great deal. If you win the day, your forces will be weak and we will crush what's left. If you lose, then we will deal with the Dread Lords. In either event, you humans will have interfered with our plans for the last time. Earth will be ours."||We need more allies.||The Torians are militarily powerful enough to help us. And they have an intense hatred of the Drengin Empire. But, they are not particularly friendly with us. There is a Torian world that is under occupation by the Drengin. We cannot permanently conquer it because the Dread Lords are now in this sector. However, in hiding on the planet is the spiritual leader of the Torians (who was visiting when the Drengin attacked). If we can rescue him, the Torians are likely to join our side.||We must take the planet Tiniath. It is located in the upper-left part of this quadrant.  The challenge is to get that planet before the Dread Lords get too powerful in this quadrant. Avoid engaging the Dread Lords if possible.
-Victory=Our troops quickly find the Torian spiritual leader and take him on board, and the ship flies safely into hyperspace as the Dread Lords approach.  ||With the safe return of their leader, the Torians have agreed to join our cause.
-Defeat=Our forces have been defeated. The combined power of the Dread Lords and the Drengin were too much for us. Luckily, we still control other sectors and can regroup to formulate a more indirect strategy.|
+Description=Ahora sabemos donde desaparecieron los Senores del Miedo. En su batalla final con los Arnorionos. Los Arnorianos activaron un dispositivo en el planeta Karion y enviaron a toda la flota de Senores del Miedo a un universo hueco. Los Drengin involuntariamente han traido de vuelta a estos seres inmensamente poderosos y ahora estan causando estragos en la galaxia.||Nos hemos puesto en contacto con el Embajador Drengin para discutir una tregua para que podamos unir nuestras fuerzas contra este nuevo enemigo .. pero la respuesta de los Drengin fue escalofriante. El embajador de Drengin lo expreso asi: "Esto es lo que va a suceder. Tu y tus aliados lamentables lucharan contra estos nuevos seres. Les daremos tierras. La mayoria de los mundos que ocupamos no estan habitados por Drengin de todos modos. esas personas pereceran. Pero ustedes, pateticos humanos y tontos Arceanos, intentaran salvar sus mundos de la aniquilacion. La lucha con estos Senores del Miedo les costara mucho. Si ganamos el dia, sus fuerzas seran debiles y los aplastaremos. lo que queda. Si pierdes, nos ocuparemos de los Senores del Miedo. En cualquier caso, ustedes los humanos habran interferido con nuestros planes por ultima vez. La Tierra sera nuestra".||Necesitamos mas aliados.||Los Torianos son militarmente poderosos para ayudarnos. Y tienen un intenso odio hacia el Imperio Drengin. Pero, no son particularmente amigables con nosotros. Hay un mundo Toriano que esta ocupado por los Drengin. No podemos conquistarlo permanentemente porque los Senores del Miedo ahora estan en este sector. Sin embargo, en el planeta se esconde el lider espiritual de los Torianos (que estaba de visita cuando los Drengin atacaron). Si podemos rescatarlo, es probable que los Torianos se unan a nuestro lado.||Debemos tomar el planeta Tiniath. Se encuentra en la parte superior izquierda de este cuadrante. El desafio es conseguir ese planeta antes de que los Senores del Miedo se vuelvan demasiado poderosos en este cuadrante. Evita involucrar a los Senores del Miedo si es posible.
+Victory=Nuestras tropas encontraron rapidamente al lider espiritual de Toria y lo llevan a bordo, y la nave vuela de forma segura al hiperespacio cuando los Senores del Miedo se acercaron.||Con el regreso seguro de su lider, los Torianos han acordado unirse a nuestra causa.
+Defeat=Nuestras fuerzas han sido derrotadas. El poder combinado de los Senores del Miedo y los Drengin fueron demasiado para nosotros. Afortunadamente, todavia controlamos otros sectores y podemos reagruparnos para formular una estrategia mas indirecta.
 PlayerRace=0
 Conversation=Campaigns\DreadLords\Mission4_Text.xml
-Title=Siege
+Title=Asedio
 Image=gfx\Loading\Seige.png
 IntroScenePath=
 VictoryScenePath=
@@ -317,13 +317,13 @@ Krynn=4
 type=1
 race=0
 outcome=0
-description=If our planets are lost then defeat.
+description=Si nuestros planetas los perdemos, estaremos derrotados.
 [EVENT1]
 type=0
 race=0
 star=Tiniath
 outcome=1
-description=Take Tiniath and we achieve victory. The Drengin currently control it.
+description=Toma a Tiniath y lograremos la victoria. Los Drengin lo controlan actualmente.
 planet=Tiniath
 [Terran]
 Terran=0

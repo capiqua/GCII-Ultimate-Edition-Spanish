@@ -546,7 +546,7 @@ ScreenTitle] Configurar la Galaxia
 [Armor] Blindaje
 [Shields] Escudos
 [Point Defense] Antimisil
-[Mass Driver] Cañón
+[Mass Driver] CanonMasa
 [Beam] Laser
 [Missile] Misil
 [Engine] Motor
@@ -1745,7 +1745,7 @@ DoneBtn] Hecho
 [Attack] Ataque:
 [Beam] Laser:
 [Missile] Misil:
-[Mass] Cañón:
+[Mass] Cañon:
 [Shield] Escudo:
 [Point] Antimis.:
 [Armor] Blindaje:
@@ -2074,7 +2074,7 @@ SortByHabitability] Habilabilidad
 
 [SortByOverallAttack] Ataque total
 [SortByOverallDefense] Defensa total
-[SortByMassDriver] Cañones
+[SortByMassDriver] CanonMasa
 [SortByBeam] Rayos
 [SortByMissile] Misiles
 [SortByArmor] Blindaje
@@ -2471,7 +2471,7 @@ SortByHabitability] Habilabilidad
 
 [BeamTitle] Laser
 [MissileTitle] Misil
-[MassTitle] Cañón
+[MassTitle] CanonMasa
 
 [ShieldTitle] Escudo
 [PointTitle] Antimisil
@@ -3503,7 +3503,7 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 
 [Objectives] Condiciones finales:
 [Teams] Equipos:
-[UnalliedPlayers] No aliados
+[UnalliedPlayers] Sin aliados
 [NextBtn] Siguiente
 [BackBtn] Volver
 
@@ -3543,7 +3543,7 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 [Shield] Escudo
 [Beam] Laser
 [Missile] Misil
-[Mass] Cañones
+[Mass] CanonMasa
 [Hull] Casco
 [Speed] Velocidad
 [Trade] Comercio
@@ -3916,7 +3916,7 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 [ShipStat2] Clase:
 [ShipStat3] Longitud:
 [ShipStat4] Envergadura:
-[ShipStat5] Masa:
+[ShipStat5] CanonMasa:
 [ShipStat6] Velocidad:
 [ShipStat7] Autonomía:
 [ShipStat8] Ataque:
@@ -3940,7 +3940,7 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 
 [SBStat1] Dueño:
 [SBStat2] Tipo:
-[SBStat3] Masa:
+[SBStat3] Canon:
 [SBStat4] Sensores:
 [SBStat5] Mód. instalados:
 [SBStat6] Ataque:
@@ -4000,7 +4000,7 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 
 [Focus0] Rayo
 [Focus1] Misil
-[Focus3] Cañon
+[Focus3] CanonMasa
 
 [Focus0Short] (R)
 [Focus1Short] (M)
@@ -4151,7 +4151,7 @@ WonderBuilt] El %s ha construido el portento "%s", algo verdaderamente único. Se
 
 [WeaponFocusTitle] Elige enfoque diseño del Arma:
 [DefenseFocusTitle] Elige enfoque diseño Defensa:
-[MassDriverTitle] Cañon:
+[MassDriverTitle] CanonMasa:
 [MissileTitle] Misil:
 [BeamTitle] Rayo:
 [ArmorTitle] Armadura:

@@ -6,13 +6,13 @@
 			<Speaker Name="Korath">13</Speaker>
 			<Listener Name="Human">0</Listener>
 			<Phrase Morality="0">
-				<Text>So [YourLeaderName], you think you can just waltz in here and colonize worlds that rightfully belong to the [SPEAKING_RACE_NAME]?</Text>
+				<Text>Entonces, [YourLeaderName], crees que puedes simplemente entrar aqui y colonizar mundos que legitimamente pertenecen a [SPEAKING_RACE_NAME]?</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>So [YourLeaderName], you think you can just waltz in here and colonize worlds that rightfully belong to the [SPEAKING_RACE_NAME]?  I think not.</Text>
+				<Text>Entonces, [YourLeaderName], crees que puedes simplemente entrar aqui y colonizar mundos que legitimamente pertenecen a [SPEAKING_RACE_NAME]? Creo que no.</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>So [YourLeaderName], you think you can just waltz in here and colonize worlds that rightfully belong to the [SPEAKING_RACE_NAME]?  I think not.  Prepare to die.</Text>
+				<Text>Entonces, [YourLeaderName], crees que puedes simplemente entrar aqui y colonizar mundos que legitimamente pertenecen a [SPEAKING_RACE_NAME]? Creo que no. Preparate para morir.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>

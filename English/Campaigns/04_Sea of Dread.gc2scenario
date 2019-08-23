@@ -1,10 +1,10 @@
 [INFO]
 Version=2
-Description=With the second shard in our hands, things are looking up, but there are still two shards left. Tandis has located the next shard; unfortunately the only way to get to it is through a quadrant that's heavily occupied by both the Korath and the Dread Lords. There's too many of them for us to stand a chance in a straight-up fight, so we're going to have to make a run for it. We're going to need to get at least one ship to the other side of the quadrant if we're going to get a shot at the third shard.||With an additional shard at his disposal, Tandis has been able to create a second Arnorian Battle Cruiser to help us fight our way through the quadrant. Try not to lose it!
-Title=Sea of Dread
+Description=Con el segundo fragmento en nuestras manos, las cosas estan mejorando, pero aun quedan dos fragmentos. Tandis ha localizado el siguiente fragmento; desafortunadamente, la unica forma de llegar es a traves de un cuadrante que esta muy ocupado tanto por los Korath como por los Senores del Miedo. Hay demasiados de ellos para que tengamos una oportunidad en una pelea directa, por lo que vamos a tener que huir. Tendremos que llevar al menos una nave al otro lado del cuadrante si vamos a tener una oportunidad con el tercer fragmento.||Con un fragmento adicional a tu disposicion, Tandis ha podido crear un segundo Crucero de Batalla Arnoriano para ayudarnos a abrirnos camino a traves del cuadrante. Intenta no perderlo!
+Title=Mar del Miedo
 Image=gfx\Loading\TACampaign_04_SeaOfDread.png
-Victory=You've managed to get this far unscathed, but keep moving if you want to stay that way!
-Defeat=Wow, they were all over you during that mission.  Perhaps a different route would prove to be useful.  After all, there's more than one way to get to Sector X:4, Y:0.  Clearly, your route just wasn't a safe one.
+Victory=Has logrado llegar tan lejos ileso, pero sigue moviendote si quieres seguir asi!
+Defeat=Guau, estuvieron sobre ti durante esa mision. Quizas una ruta diferente resultaria util. Despues de todo, hay mas de una forma de llegar al Sector X:4, Y:0. Claramente, tu ruta no era segura.
 PlayerRace=0
 Conversation=Campaigns\TACampaignText_04_SeaOfDread.xml
 IntroScenePath=
@@ -12,7 +12,7 @@ VictoryScenePath=
 Details=
 [TEAM]
 Terran=0
-TeamName1=Zhiard Alliance
+TeamName1=Alianza Zhiard
 Drengin=0
 TeamName2=
 Altarian=0
@@ -335,14 +335,14 @@ count=2
 type=1
 race=0
 outcome=0
-description=Don't get wiped out.
+description=No te auto-elimines.
 [EVENT1]
 type=4
 race=0
 outcome=1
 sectorX=4
 sectorY=0
-description=Get a ship from your task force across the quadrant to Sector X:4, Y:0
+description=Obten una nave de tu equipo de trabajo a traves del cuadrante para el Sector X:4, Y:0
 [TECHNOLOGY]
 Terran_Starting=49
 Terran_Starting0=Mass Drivers

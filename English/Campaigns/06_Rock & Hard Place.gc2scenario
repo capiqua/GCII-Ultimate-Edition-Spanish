@@ -1,10 +1,10 @@
 [INFO]
 Version=2
-Description=Tandis informs us that the last missing shard exists in a quadrant full of Korath and that only with the help of the Iconians who remain a force in that quadrant can we possibly capture the last shard.||In this quadrant, the Iconians are at war with their old enemies, the Yor.  The Krynn Consolate have moved in here too but are currently neutral.||We must win over the Iconians.
-Title=Rock & Hard Place
+Description=Tandis nos informa que el ultimo fragmento faltante existe esta en un cuadrante lleno de Korath y que solo con la ayuda de los Iconianos que siguen siendo una fuerza en ese cuadrante podemos capturar el ultimo fragmento.||En este cuadrante, los Iconianos estan en guerra con sus viejos enemigos, los Yor. El Consulado Krynn tambien se han mudado aqui, pero actualmente son neutrales.||Debemos vencer a los Iconianos.
+Title=Sitio Duro y Dificil
 Image=gfx\Loading\TACampaign_06_Rock&HardPlace.png
-Victory=After saving the Iconians, they have sided with us.  Good work!
-Defeat=Your defeat is surprising.  It's quite simple really.  All you had to do was protect the Iconians and get them to ally.  You can do this in whatever manner you wish.  Kill everyone besides them; ally with some and kill the rest; or heck, you could even kill no one but still manage to get the Iconians to ally.  Basically ANYTHING but what you DID do.
+Victory=Despues de salvar a los iconianos, se pusieron de nuestro lado. Buen trabajo!
+Defeat=Tu derrota es sorprendente. Es bastante simple en realidad. Todo lo que tenias que hacer era proteger a los iconianos y hacer que se aliaran. Puedes hacer esto de la manera que desees. Matar a todo el mundo, (aparte de ellos) ; aliarse con algunos y matar al resto; o que diablos, incluso podrias matar a nadie, pero aun asi lograr que los Iconianos se alien. Basicamente CUALQUIER COSA es mejor que lo que HICISTE.
 PlayerRace=0
 Conversation=Campaigns\TACampaignText_06_Rock&HardPlace.xml
 IntroScenePath=
@@ -337,17 +337,17 @@ race=9
 outcome=1
 relation=8
 op=1
-description=Ally with the Iconians.
+description=Aliarse con los iconianos.
 [EVENT1]
 type=1
 race=9
 outcome=0
-description=Save the Iconians from extermination.
+description=Salva a los iconianos del exterminio.
 [EVENT2]
 type=1
 race=0
 outcome=0
-description=While trying to save the Iconians, make sure not to get yourself killed.
+description=Mientras intentas salvar a los Iconianos, asegurate de no matarte.
 [TECHNOLOGY]
 Terran_Starting=56
 Terran_Starting0=Advanced Hulls

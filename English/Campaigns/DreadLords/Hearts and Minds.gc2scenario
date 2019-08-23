@@ -1,10 +1,10 @@
 [INFO]
-Description=We must bring the Torians into the war.||The Torian Confederation was once dominated by the Drengin Empire. Long ago, the Drengin Empire conquered the Torians and enslaved them. In time, the Torians were able to free their world from Drengin rule, but they still harbor a deep distrust of their ancient foes. To this day, they have regular border clashes with the Drengin.||But, in the current galactic conflict, they have remained neutral so far. While they despise the Drengin, they recognize that the Drengin are powerful and their relations with Earth have been inconsistent.||To bring the Torians into the war on our side, we must convince them that we are the "good guys". That is the biggest obstacle we've had to face, as the Torians don't know what to make of humans yet.||Your mission is to convince the Torians of our goodness. The best way to do that is through trade and culture.||Build starbases with modules to expand our influence. Send freighters to the Torians. Either via an outright alliance or through cultural assimilation, we must help the Torians learn more about us and convince them to join us against the darkness that is attempting to cover the galaxy.
-Victory=Thanks to your excellent work, the Torian High Council has agreed to enter the war on our side. There may yet be hope for the future...
-Defeat=Without the assistance of the Torians, the Dread Lords quickly consume the rest of the Terran Alliance and lay waste to our civilization.||The human race is defeated.
+Description=Debemos llevar a los Torianos a la guerra.||La Confederacion Toriana estuvo dominada por el Imperio Drengin. Hace mucho tiempo, el Imperio Drengin conquisto a los Torianos y los esclavizo. Con el tiempo, los Torianos pudieron liberar a su mundo del dominio Drengin, pero aun albergan una profunda desconfianza hacia sus antiguos enemigos. Hasta el dia de hoy, tienen enfrentamientos fronterizos regulares con los Drengin.||Pero, en el actual conflicto galactico, se han mantenido neutrales hasta ahora. Si bien desprecian a los Drengin, reconocen que los Drengin son poderosos y sus relaciones con la Tierra han sido inconsistentes.||Para llevar a los Torianos a la guerra de nuestro lado, debemos convencerlos de que somos los "buenos". Ese es el obstaculo mas grande que hemos tenido que enfrentarnos, ya que los Torianos aun no saben que hacer con los humanos.||Tu mision es convencer a los Torianos de nuestra bondad. La mejor manera de hacerlo es a traves del comercio y la cultura.||Construir bases estelares con modulos para expandir nuestra influencia. Enviar cargueros a los Torianos. Ya sea a traves de una alianza directa o mediante la asimilacion cultural, debemos ayudar a los Torianos a aprender mas sobre nosotros y convencerlos de que se unan a nosotros contra la oscuridad que intenta cubrir la galaxia.
+Victory=Gracias a su excelente trabajo, el Alto Consejo de Torianos, que ha acordado entrar en la guerra de nuestro lado. Todavia puede haber esperanza para el futuro ...
+Defeat=Sin la ayuda de los Torianos, los Senores del Miedo consumiran rapidamente al resto del Alianza Terraquea y destruiran nuestra civilizacion.||La raza humana es derrotada.
 PlayerRace=0
 Conversation=Campaigns\DreadLords\Mission4a_Text.xml
-Title=Hearts & Minds
+Title=Corazones y Mentes
 Image=Gfx\Loading\HeartsAndMinds.png
 IntroScenePath=
 VictoryScenePath=
@@ -319,14 +319,14 @@ race=4
 outcome=1
 relation=8
 op=1
-description=Build an alliance with the Torian Confederation for victory.
+description=Construye una alianza con la Confederacion Toriana para la victoria.
 [EVENT1]
 type=2
 race=4
 outcome=0
 relation=2
 op=0
-description=If the Torians go to war against us, we lose.
+description=Si los Torianos van a la guerra contra nosotros, perdemos.
 [Terran]
 Terran=0
 Drengin=-1

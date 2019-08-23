@@ -1,10 +1,10 @@
 [INFO]
 Version=2
-Description=The Drengin Empire and their ally the Yor are fighting an epic battle for this quadrant with the Dread Lords and Korath.  Unfortunately for us, they all want to wipe us out.  The Arnorian Tandis has used our captured shard to create 3 Arnorian battle cruisers as well as has made available to us a new technology called 'Fortitude' that will allow us to equip ships in a fleet with more hitpoints on them making them quite lethal.||The planet Tarnex is the world that holds the second of the three shards we must capture.  We must take Tarnex, get the shard and get out of here.
-Title=Crossfire
+Description=El Imperio Drengin y su aliado Yor estan librando una batalla epica por este cuadrante con los Senores del miedo y los Korath. Desafortunadamente para nosotros, todos quieren eliminarnos. El Arnoriano Tandis ha utilizado nuestro fragmento capturado para crear 3 Cruceros de Batalla Arnorianos y ha puesto a nuestra disposicion una nueva tecnologia llamada 'Fortaleza' que nos permitira equipar a las naves de una flota con mas puntos de vida, lo que las hace bastante letales. El planeta Tarnex es el mundo que contiene el segundo de los tres fragmentos que debemos capturar. Debemos tomar Tarnex, sacar el fragmento y salir de aqui.
+Title=Fuego Cruzado
 Image=gfx\Loading\TACampaign_05_Crossfire.png
-Victory=We've taken Tarnex and found the shard.  Now let's get out of here.
-Defeat=Despite THREE battle cruisers from Tandis, AND new technology that increases hitpoints, you have been defeated.  That's a problem.  But the biggest problem of all is that you didn't manage to get the shard from the planet Tarnex.  Who knows what will become of the universe now?
+Victory=Tomamos Tarnex y encontramos el fragmento. Ahora salgamos de aqui.
+Defeat=A pesar de TRES cruceros de batalla de Tandis, Y la nueva tecnologia que aumenta los puntos de vida, has sido derrotado. Eso es un problema. Pero el mayor problema de todos es que no lograste obtener el fragmento del planeta Tarnex. Quien sabe que sera del universo ahora?
 PlayerRace=0
 Conversation=Campaigns\TACampaignText_05_Crossfire.xml
 IntroScenePath=
@@ -12,9 +12,9 @@ VictoryScenePath=
 Details=
 [TEAM]
 Terran=0
-TeamName1=Enort Dominion
+TeamName1=Dominio Enort
 Drengin=2
-TeamName2=Supreme Allegiance
+TeamName2=Lealtad Suprema
 Altarian=0
 TeamName3=
 Arcean=0
@@ -335,13 +335,13 @@ count=2
 type=1
 race=0
 outcome=0
-description=No one will hesitate to eliminate you.  Avoid that at all costs.
+description=Nadie dudara en eliminarte. Evita eso a toda costa.
 [EVENT1]
 type=0
 race=0
 planet=Tarnex
 outcome=1
-description=Take over Tarnex, find the shard, and get a move on.
+description=Toma el control de Tarnex, encuentra el fragmento y sigue adelante.
 [TECHNOLOGY]
 Terran_Starting=56
 Terran_Starting0=Advanced Hulls

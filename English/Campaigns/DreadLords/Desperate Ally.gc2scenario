@@ -1,10 +1,10 @@
 [INFO]
-Description=Because of our previous defeat, we must find new allies. The Drengin Empire have recently enlisted the cruel robotic race known as the Yor. It is said that the Yor were created by another civilization long ago during the time of the Precursors. Our research leads us to believe we've found that civilization - the Iconians.||The ancestors of the Iconians apparently used to be servants of the Arnor (one of the two Precursor civilizations). The Iconians had built the Yor to assist their duties, but when the Arnor and the Dread Lords went to war, the Dread Lords secretly modified the Yor to give them self-awareness and a loathing of all biological life. The Iconians were nearly wiped out and the remnants fled to a far corner of the galaxy.||Now that we're aware of the Iconians and have found their planet, we've given them Hyperdrive. The Iconians are favorably disposed towards us, but not ready to join in a grand alliance against the mighty Drengin Empire. We must convince them through trade, diplomacy, and our military strength that they should join our fight against their former creations and the vile Drengins.
-Victory=We have been successful in creating an alliance with the Iconians. Moreover, the Iconians know what planet we must go to in order to find the Precursor base -- Ixith.
-Defeat=We have been defeated. Again. Because of your ineptitude, we have decided to replace you with someone capable of bringing the Human race victory.
+Description=Debido a nuestra derrota anterior, debemos encontrar nuevos aliados. El Imperio Drengin ha alistado recientemente a la cruel raza robotica conocida como Yor. Se dice que los Yor fueron creados por otra civilizacion hace mucho tiempo durante la epoca de los Precursores. Nuestra investigacion nos lleva a creer que hemos encontrado esa civilizacion: los Iconianos.||Los antepasados ​​de los Iconianos aparentemente solian ser sirvientes de los Arnor (una de las dos civilizaciones precursoras). Los Iconianos habian construido a los Yor para ayudarlos en sus tareas, pero cuando los Arnor y los Senores del Miedo fueron a la guerra, los Senores del Miedo modificaron en secreto a los Yor para darles autoconciencia y odiar toda vida biologica. Los Iconianos casi fueron aniquilados y el resto huyeron a un rincon lejano de la galaxia.||Ahora que conocemos a los Iconianos y hemos encontrado su planeta, les hemos dado el Hiperimpulso. Los iconianos estan dispuestos favorablemente hacia nosotros, pero no estan listos para unirse en una gran alianza contra el poderoso Imperio Drengin. Debemos convencerlos a traves del comercio, la diplomacia y nuestra fuerza militar de que deben unirse a nuestra lucha contra sus antiguos formadores y los viles Drengins.
+Victory=Hemos tenido exito en crear una alianza con los Iconianos. Ademas, los Iconianos saben a que planeta debemos ir para encontrar la base Precursora: Ixith.
+Defeat=Hemos sido derrotados, otra vez. Debido a tu ineptitud, hemos decidido reemplazarlo por alguien capaz de lograr la victoria de la raza humana.
 PlayerRace=0
 Conversation=Campaigns\DreadLords\Mission1a_Text.xml
-Title=Desperate Ally
+Title=Aliado Desesperado
 Image=Gfx\Loading\DesperateAlly.png
 IntroScenePath=
 VictoryScenePath=
@@ -287,7 +287,7 @@ race=9
 outcome=0
 relation=7
 op=1
-description=Protect the Iconians.
+description=Proteger a los Iconianos.
 [MORALITY]
 Human=3
 Drengin=0
@@ -326,19 +326,19 @@ race=9
 outcome=1
 relation=7
 op=1
-description=Build a close relationship with the Iconians.
+description=Construye una relacion cercana con los Iconianos.
 [EVENT2]
 type=1
 race=5
 outcome=1
 relation=8
 op=1
-description=Wipe out the Yor if you can.
+description=Elimina a los Yor si puedes.
 [EVENT3]
 type=1
 race=5
 outcome=1
-description=If the Yor is defeated then Victory.
+description=Si el Yor es derrotado, entonces sera Victoria.
 [Terran]
 Terran=0
 Drengin=0

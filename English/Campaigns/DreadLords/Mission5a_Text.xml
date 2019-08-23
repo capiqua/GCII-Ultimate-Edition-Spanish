@@ -6,9 +6,9 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>Human, the Yor army has recently been outfitted with Hyperdrive-equipped missile weaponry. These ships will easily cut through your shield technology, leaving your forces in ruin.
+				<Text>Humano, el ejercito de Yor ha sido equipado recientemente con armamento de misiles equipados con Hiperimpulso. Estas naves atravesaran facilmente la tecnologia de tu escudo, dejando a tus fuerzas en ruinas.
 
-Extermination awaits, [YourLeaderName].</Text>
+El exterminio espera, [YourLeaderName].</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -16,9 +16,9 @@ Extermination awaits, [YourLeaderName].</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>0</Morality>
-				<Text>The galaxy is in turmoil, [YourLeaderName]. The evil Dread Lord armada has been released, the Yor have developed and launched deadly new warships, and the Drengin forces gather and strengthen.
+				<Text>La galaxia esta en crisis, [YourLeaderName]. La armada malvada de los Senores del Miedo ha sido liberada, los Yor han desarrollado y lanzado nuevos buques de guerra mortales, y las fuerzas Drengin se reunen y se fortalecen.
 
-We must put this dark hour behind us, human - the Iconian army is ready to fight!</Text>
+Debemos dejar atras esta hora oscura, humano: el ejercito Iconiano esta listo para luchar!</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -28,10 +28,10 @@ We must put this dark hour behind us, human - the Iconian army is ready to fight
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>Calculations indicate you will have a difficult time defeating us, human. Your shield technology will do little to save your forces against our new weaponry.
-#The Dread Lords are an ancient civilization from our time, [YourLeaderName]. They were the ones that taught us the weak nature of biological beings. Their return marks the end of the human race.
+				<Text>Los calculos indican que tendras dificultades para derrotarnos, humano. Tu tecnologia de escudo hara poco para salvar tus fuerzas contra nuestro nuevo armamento.
+#Los Senores del Miedo son una civilizacion antigua de nuestro tiempo, [YourLeaderName]. Ellos fueron los que nos ensenaron la naturaleza debil de los seres biologicos. Su regreso marca el final de la raza humana.
 
-There is little you can do to change this.</Text>
+Hay poco que puedes hacer para cambiar esto. </Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -41,9 +41,9 @@ There is little you can do to change this.</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>Your forces are stronger than we expected. We will have to strengthen our missiles to couter-balance this.
-#Our Hyperdrive-equipped missiles should be more efficient against your vessels. Apparently we miscalculated your military might.
-#We calculated the skill of your army based on your past military failures. Apparently you've improved since last fighting our Drengin allies.</Text>
+				<Text>Tus fuerzas son mas fuertes de lo que esperabamos. Tendremos que fortalecer nuestros misiles para equilibrar esto.
+#Nuestros misiles equipados con HiperImpulso deberian ser mas eficientes contra tus naves. Aparentemente calculamos mal tu poderio militar.
+#Calculamos la habilidad de tu ejercito en base a tus derrotas militares pasadas. Aparentemente has mejorado desde la ultima vez que peleaste con nuestros aliados Drengin.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>

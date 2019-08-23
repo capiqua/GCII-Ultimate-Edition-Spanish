@@ -6,13 +6,13 @@
 			<Speaker Name="Korath">13</Speaker>
 			<Listener Name="Human">0</Listener>
 			<Phrase Morality="0">
-				<Text>Thought you could sneak through this quadrant undetected eh, [YourLeaderName]?  The [SPEAKING_RACE_NAME] are not a bunch of fools.</Text>
+				<Text>Pensaste que podrias escabullirte a traves de este cuadrante sin ser detectado eh, [YourLeaderName]? los [SPEAKING_RACE_NAME] no son tontos.</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>Thought you could sneak through this quadrant undetected eh, [YourLeaderName]?  The [SPEAKING_RACE_NAME] are not a bunch of fools.  You will pay for that assumption!</Text>
+				<Text>Pensaste que podrias escabullirte a traves de este cuadrante sin ser detectado eh, [YourLeaderName]? los [SPEAKING_RACE_NAME] no son tontos. Pagaras por esa suposicion!</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>Thought you could sneak through this quadrant undetected eh, [YourLeaderName]?  The [SPEAKING_RACE_NAME] are not a bunch of fools.  You will pay for that assumption!  Nothing but death awaits you in this quadrant.</Text>
+				<Text>Pensaste que podrias escabullirte a traves de este cuadrante sin ser detectado eh, [YourLeaderName]? los [SPEAKING_RACE_NAME] no son tontos. Pagaras por esa suposicion! Nada mas que la muerte te espera en este cuadrante.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>

@@ -1,10 +1,10 @@
 [INFO]
 Version=2
-Description=The Arnor known as Tandis has, with the power of the shard in his possession, created an Arnorian Battle Cruiser for us to use in our struggle to free the galaxy from the Dread Lords. To test out our new addition to the fleet, you've been tasked to wipe out the Yor presence in this quadrant. Try not to lose the Battle Cruiser, as it will take Tandis some time to replace it. 
-Title=Proving Grounds
+Description=El Arnor conocido como Tandis, ha creado con el poder del fragmento en sus manos, un Crucero de Batalla Arnoriano para que lo usemos en nuestra lucha para liberar a la galaxia de los Senores del Miedo. Para probar nuestra nueva incorporacion a la flota, se le ha encomendado la tarea de eliminar la presencia de Yor en este cuadrante. Intenta no perder el Crucero de Batalla, ya que Tandis tardara un tiempo en reemplazarlo.
+Title=Campo de Pruevas
 Image=gfx\Loading\TACampaign_02_ProvingGrounds.png
-Victory=Good work.  You learn quickly.  It's time to move on.
-Defeat=Despite the battle cruiser provided by Tandis, you have still managed to fail.  What should have been an easy exhibition of our new capabilities, has turned out to be a complete embarrassment.
+Victory=Buen trabajo. Aprendes rapido. Es hora de moverse.
+Defeat=A pesar del Crucero de Batalla provisto por Tandis, aun has logrado fallar. Lo que deberia haber sido una exposicion facil de nuestras nuevas capacidades, resulto ser una vergüenza total.
 PlayerRace=0
 Conversation=Campaigns\TACampaignText_02_ProvingGrounds.xml
 IntroScenePath=
@@ -335,12 +335,12 @@ count=2
 type=1
 race=0
 outcome=0
-description=Don't let the Yor defeat us.
+description=No dejes que los Yor nos derrote.
 [EVENT1]
 type=1
 race=5
 outcome=1
-description=Take out the Yor.
+description=Echa a los Yor.
 [TECHNOLOGY]
 Terran_Starting=34
 Terran_Starting0=Armor Theory

@@ -6,13 +6,13 @@
 			<Speaker Name="Korath">13</Speaker>
 			<Listener Name="Human">0</Listener>
 			<Phrase Morality="0">
-				<Text>Mantengase alejado [YourLeaderName].</Text>
+				<Text>Mantente alejado [YourLeaderName].</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>Mantengase alejado [YourLeaderName] y no os mataremos a TODOS.</Text>
+				<Text>Mantente alejado [YourLeaderName] y no os mataremos a TODOS.</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>Mantengase alejado [YourLeaderName] o sufra las consecuencias.</Text>
+				<Text>Mantente alejado [YourLeaderName] o sufre las consecuencias.</Text>
 			</Phrase>			
 		</Dialogue>
 	</Topic>

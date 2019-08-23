@@ -1,10 +1,10 @@
 [INFO]
 Version=2
-Description=One of the shards we must capture is located on Ka’thax.  This quadrant is dominated by the Korath so this will have to be a lightning strike.  Build a transport, take out Ka’thax’s defenses and take the planet and thereby capture the shard.
-Title=Shatter Point
+Description=Uno de los fragmentos que debemos capturar se encuentra en Ka’thax. Este cuadrante esta dominado por los Korath, por lo que tendras que ser un rayo. Construye un transporte, elimina las defensas de Ka’thax y toma el planeta y, por lo tanto, captura el fragmento.
+Title=Punto de la fragmentacion
 Image=gfx\Loading\TACampaign_03_ShatterPoint.png
-Victory=Shard acquired!  Now get a move on!
-Defeat=You have failed to take over Ka'thax.  Who knows what evil awaits us now that the shard is in the hands of the enemy.
+Victory=Fragmento adquirido! Ahora muevete!
+Defeat=Has fallado en hacerte cargo de Ka'thax. Quien sabe que mal nos espera ahora que el fragmento esta en manos del enemigo.
 PlayerRace=0
 Conversation=Campaigns\TACampaignText_03_ShatterPoint.xml
 IntroScenePath=
@@ -12,7 +12,7 @@ VictoryScenePath=
 Details=
 [TEAM]
 Terran=0
-TeamName1=Aldath Coalition
+TeamName1=Coalicion Aldath
 Drengin=0
 TeamName2=
 Altarian=0
@@ -335,13 +335,13 @@ count=2
 type=1
 race=0
 outcome=0
-description=Avoid extermination.
+description=Evitar el exterminio.
 [EVENT1]
 type=0
 race=0
 planet=Ka'thax
 outcome=1
-description=Capture Ka'thax, thereby obtaining the shard
+description=Captura a Ka'thax, obteniendo asi el fragmento
 [TECHNOLOGY]
 Terran_Starting=47
 Terran_Starting0=Mass Drivers

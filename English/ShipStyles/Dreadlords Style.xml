@@ -27,7 +27,7 @@
 		<AISpore1>SporeShipTemplate1_t</AISpore1>
 		<AISurvey1>FrigateTemplate1_t</AISurvey1>
 		<AITransport1>TransportTemplate1_t</AITransport1>
-		<DisplayName>Estilo Señores del Terror</DisplayName>
+		<DisplayName>Estilo Senores del Terror</DisplayName>
 		<Hidden>1</Hidden>
 		<Prefix>S13</Prefix>
 		<ModuleStyle>5</ModuleStyle>

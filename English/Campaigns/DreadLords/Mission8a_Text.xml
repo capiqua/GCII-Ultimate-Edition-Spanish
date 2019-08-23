@@ -6,7 +6,7 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>The device you seek can not save your forces, human. The war is already lost for you. Earth will be ours.</Text>
+				<Text>El dispositivo que buscas no puede salvar tus fuerzas, humano. La guerra ya esta perdida para ti. La tierra sera nuestra.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>

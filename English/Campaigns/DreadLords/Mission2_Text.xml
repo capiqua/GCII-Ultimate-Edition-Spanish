@@ -6,7 +6,7 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>You again, [YourLeaderName]? I mean, really... have the humans nothing better to do than to follow us around the galaxy? Mark my words, death is all you'll find in this quadrant.</Text>
+				<Text>De nuevo, [YourLeaderName]? Quiero decir, realmente... no tienen los humanos nada mejor que hacer que seguirnos por la galaxia? Marca mis palabras, la muerte es todo lo que encontraras en este cuadrante.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -16,13 +16,13 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>So you have decided to remain. This quadrant will be your death bed, [YourLeaderName].
+				<Text>Entonces has decidido quedarte. Este cuadrante sera tu lecho de muerte, [YourLeaderName].
 
-#You risk much for such a small section of the galaxy... or are you here for more than the expansion of your puny empire? Either way, your destruction is all you will find here.
+#Arriesgas mucho por una seccion tan pequena de la galaxia... o estas aqui por algo mas que la expansion de tu imperio insignificante? De cualquier manera, tu destruccion es todo lo que encontraras aqui.
 
-#We will hold Ixith and drive you from this quadrant, filthy human. Your death awaits.
+#Sostendremos a Ixith y te sacaremos de este cuadrante, humano inmundo. Tu muerte te espera.
 
-#Our forces stand strong as your's falter and die. I told you humans were too weak for this quadrant of space. But did you listen to me? Oh, no. You knew it all, didn't you?</Text>
+#Nuestras fuerzas se mantienen fuertes a medida que las tuyas vacilan y mueren. Te dije que los humanos eran demasiado debiles para este cuadrante del espacio. Pero me escuchaste? no. Lo sabias todo, no? </Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -32,13 +32,13 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>Ixith will not fall easily, human.
+				<Text>Ixith no caera facilmente, humano.
 
-#Your forces may be strong in this quadrant, but we will hold Ixith without fail.
+#Tus fuerzas pueden ser fuertes en este cuadrante, pero mantendremos a Ixith sin falta.
 
-#Ah, [YourLeaderName]. Intruding on my trade screen like you intruded into this quadrant. Make it quick, human.
+#Ah, [YourLeaderName]. Entrometerte en mi pantalla de comercio como tu te has entrometio en este cuadrante. Hazlo rapido, humano.
 
-#Your persistence is honorable, human, but you will never take the Drengin world of Ixith.</Text>
+#Tu persistencia es honorable, humano, pero nunca tomaras el mundo Drengin de Ixith.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>

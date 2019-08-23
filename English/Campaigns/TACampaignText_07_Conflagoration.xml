@@ -6,13 +6,13 @@
 			<Speaker Name="Drengin">1</Speaker>
 			<Listener Name="Human">0</Listener>
 			<Phrase Morality="0">
-				<Text>Here's a tip.  This quadrant is a warzone.  Unless you wish to fall to the [SPEAKING_RACE_NAME] as well, I'd suggest you leave.</Text>
+				<Text>Aqui hay un consejo. Este cuadrante es una zona de guerra. A menos que desees ser derribado por [SPEAKING_RACE_NAME], te sugiero que te vayas.</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>Here's your first and only warning:  This quadrant is a warzone.  Unless you wish to fall to the [SPEAKING_RACE_NAME] as well, I'd suggest you leave.  Now.</Text>
+				<Text>Aqui esta tu primera y unica advertencia: Este cuadrante es una zona de guerra. A menos que desees ser derribado por [SPEAKING_RACE_NAME], te sugiero que te vayas. Ahora.</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>This quadrant is a warzone, [YourLeaderName].  Your presence here tells me you wish to die along with the rest of them.</Text>
+				<Text>Este cuadrante es una zona de guerra, [YourLeaderName]. Tu presencia aqui me dice que deseas morir junto con el resto de ellos.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -22,7 +22,7 @@
 				<Text>Saludos, [YourLeaderName]! Esta batalla se hace cada vez mas grande. De que lado estas?</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>Esta guerra ha estado se ha librando por bastante tiempo. Se hace cada vez mas grande. De que lado estas, [YourLeaderName]?</Text>
+				<Text>Esta guerra ha estado librandose por bastante tiempo. Se hace cada vez mas grande. De que lado estas, [YourLeaderName]?</Text>
 			</Phrase>
 			<Phrase Morality="2">
 				<Text>En medio de esta guerra, nunca imagine que veria a [YourEmpireName] en el territorio [SPEAKING_RACE_NAME]. Supongo que estas aqui con intencion maliciosa. Hora de morir.</Text>
@@ -32,7 +32,7 @@
 			<Speaker Name="Arcean">3</Speaker>
 			<Listener Name="Human">0</Listener>
 			<Phrase Morality="0">
-				<Text>Los [SPEAKING_RACE_NAME] son una raza orgullosa y noble. Nos referimos a [YourEmpireName], no les hemos hecho dano. No se nos cruce si desea mantenerlo asi.</Text>
+				<Text>Los [SPEAKING_RACE_NAME] son una raza orgullosa y noble. Quiere decir a [YourEmpireName], que no les hemos hecho dano. No se nos cruce si desea mantenerlo asi.</Text>
 			</Phrase>
 			<Phrase Morality="1">
 				<Text>Los [SPEAKING_RACE_NAME] son una orgullosa civilizacion guerrera. En medio de esta guerra galactica, no tenemos nada en contra de [YourEmpireName]. Siempre y cuando respetes nuestro poder y sabiduria.</Text>
@@ -64,7 +64,7 @@
 				<Text>Tu presencia en este cuadrante podria significar dos cosas. Estas con nosotros o contra nosotros. Tu eliges.</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>Esta guerra puede estar agotando la paciencia de [SPEAKING_RACE_NAME], pero no te confundas [YourLeaderName], lo ganaremos ... incluso si eso significa eliminar el [YourEmpireName] en el camino.</Text>
+				<Text>Esta guerra puede estar agotando la paciencia de [SPEAKING_RACE_NAME], pero no te confundas [YourLeaderName], lo ganaremos... incluso si eso significa eliminar el [YourEmpireName] en el camino.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -84,13 +84,13 @@
 			<Speaker Name="Krynn">14</Speaker>
 			<Listener Name="Human">0</Listener>
 			<Phrase Morality="0">
-				<Text>El [SPEAKING_RACE_NAME] quiere decir a [YourEmpireName], no les hemos hecho dano.</Text>
+				<Text>El [SPEAKING_RACE_NAME] quiere decir a [YourEmpireName], que no les hemos hecho dano.</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>El [SPEAKING_RACE_NAME] quiere decir a [YourEmpireName], no les hemos hecho dano. Por otra parte, podemos cambiar de opinion.</Text>
+				<Text>El [SPEAKING_RACE_NAME] quiere decir a [YourEmpireName], que no les hemos hecho dano. Por otra parte, podemos cambiar de opinion.</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>El [SPEAKING_RACE_NAME] quiere decir a [YourEmpireName], no les hemos hecho dano. Pero si deseas mantenerlo asi, retiraran sus naves de nuestro territorio.</Text>
+				<Text>El [SPEAKING_RACE_NAME] quiere decir a [YourEmpireName], que no les hemos hecho dano. Pero si deseas mantenerlo asi, retiraran sus naves de nuestro territorio.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>

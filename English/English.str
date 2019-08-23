@@ -462,12 +462,12 @@
 [PointDefense] Defensa de bases estelares (antimisiles):
 [OverallDefense] Defensa de bases estelares (todas las categorías):
 
-[MassDrivers] Ataque de bases estelares (cañones):
+[MassDrivers] Ataque de bases estelares (CanonesMasa):
 [Missiles] Ataque de bases estelares (misiles):
 [Beam] Ataque de bases estelares (rayos):
 [OverallAttack] Ataque de bases estelares (todas las categorías):
 
-[MassDriverAssist] Ayuda de naves (cañones):
+[MassDriverAssist] Ayuda de naves (CanonesMasa):
 [MissileAssist] Ayuda de naves (misiles):
 [BeamAssist] Ayuda de naves (rayos):
 [OverallAssist] Ayuda de naves (todas las categorías):
@@ -763,7 +763,7 @@
 [Event_Xenophobia_2] El periodo de xenofobia parece amainar, ya que los centros de intercambio cultural repartidos por la galaxia informan de un renovado interés por aprender las ideas y los modos de vida de otras culturas.
 [Event_Xenophile_1] Parece haber un gran interés en todo lo extranjero. Se ha incrementado el interés de nuestro pueblo por conocer otras culturas interestelares. Los comerciantes informan de que esto parece ser una tendencia extendida por toda la galaxia. ¿Será el origen de una nueva era? Tu influencia cultural ha aumentado.
 [Event_Xenophile_2] El reinado de la xenofobia toca a su fin. Al menos según un nuevo estudio del Instituto de Ideas Tradicionales. La gente muestra de nuevo interés por las ideas de otras culturas, pero ni mucho menos al nivel que lo hacía antes.
-[Event_DarkArnor_1] Cuenta la leyenda que hace cientos de miles de años hubo un mundo llamado Arnor. En dicho mundo, había una raza conocida como los Precursores.\n\nAl parecer, hubo una guerra entre dos facciones de ellos. Por un lado, estaban los que se llamaban a sí mismos "los Arnor" y, por el otro, los conocidos como "los Señores del Miedo". La batalla final entre ambas partes es lo que se conoce como el Cataclismo. Durante la batalla, los Señores del Miedo quedaron encerrados en un cristal conocido como el Telenanth. Corren rumores de que una pequeña secta religiosa va buscando una "llave" para abrir dicho cristal y liberarlos. Sería conveniente que prestáramos cierta atención a este asunto.
+[Event_DarkArnor_1] Cuenta la leyenda que hace cientos de miles de años hubo un mundo llamado Arnor. En dicho mundo, había una raza conocida como los Precursores.\n\nAl parecer, hubo una guerra entre dos facciones de ellos. Por un lado, estaban los que se llamaban a sí mismos "los Arnor" y, por el otro, los conocidos como "los Señores del Miedo". La batalla final entre ambas partes es lo que se conoce como el Cataclismo. Durante la batalla, los Señores del Miedo quedaron encerrados en un cristal conocido como el Telenanto. Corren rumores de que una pequeña secta religiosa va buscando una "llave" para abrir dicho cristal y liberarlos. Sería conveniente que prestáramos cierta atención a este asunto.
 [Event_DarkArnor_2] Hemos sabido más acerca de la mencionada secta religiosa. Están buscando un orbe. Tenemos a nuestros agentes en el caso, tratando de seguirles la pista y detenerlos.
 [Event_DarkArnor_3] Nuestros agentes han localizado a la secta religiosa. Tras una cruenta lucha en el planeta %s, los agentes han fracasado. Nuestros esfuerzos en espionaje al parecer no han sido suficientes para detener a esta secta religiosa y ahora han utilizado el mencionado orbe para abrir el cristal que contenía a los ejércitos Precursores congelados, a los que se conoce como los "Señores del Miedo".\n\nSe han hecho con el control del planeta y parecen ser casi imparables. Han enviado un mensaje a todas las civilizaciones: OS HA LLEGADO LA HORA. TODOS VAIS A SER EXTERMINADOS.
 [Event_DarkArnor_4] Nuestros agentes de seguridad han detenido a la mencionada secta religiosa antes de que pudiera actuar. Por fortuna, habíamos realizado el suficiente trabajo de espionaje por toda la galaxia para poder localizar su cadena de mando y descubrir sus terribles planes.
@@ -821,7 +821,7 @@
 [Espionage_7] Nuestros expertos y bien pagados agentes han determinado que era el %s quien tramaba en secreto un plan para unir a las demás civilizaciones en nuestra contra. Han conseguido frustrar el plan y salvarnos de una guerra interestelar de magnitud considerable.
 [Espionage_8] ¡ALERTA! Los espías no han podido descubrir el origen de la gran conspiración para conseguir que las civilizaciones alienígenas se unan contra nosotros. Hoy, el Consejo de Seguridad de los Planetas Unidos ha celebrado una sesión de emergencia para decidir qué hacer con nosotros. Nos consideran una civilización "criminal" de la que "hay que ocuparse". Han votado para librar a la galaxia de nosotros entre todos ellos.
 
-[Comeback_1] Los malvados %s están tan desesperados por conquistar la galaxia que han hecho algo monstruoso. Los detalles son imprecisos, pero esto es lo que sabemos:\n\nUno de sus científicos ha descubierto un antiguo artefacto. Dicho artefacto parece ser un fragmento de cristal conocido como "el Telenanth". No se sabe mucho más sobre este cristal. Sin embargo, se dice que un ser ancestral conocido como "el Draginol" utilizó este cristal para crear a los Precursores. Han sacrificado a millones de sus propios ciudadanos para obtener la "fuerza vital" necesaria para alimentar ese cristal. El cristal, por su parte, está dotando a sus líderes de un inmenso poder para construir, fabricar e investigar. Nuestros agentes creen que debemos actuar deprisa, ya que con el tiempo se harán más y más poderosos.
+[Comeback_1] Los malvados %s están tan desesperados por conquistar la galaxia que han hecho algo monstruoso. Los detalles son imprecisos, pero esto es lo que sabemos:\n\nUno de sus científicos ha descubierto un antiguo artefacto. Dicho artefacto parece ser un fragmento de cristal conocido como "el Telenanto". No se sabe mucho más sobre este cristal. Sin embargo, se dice que un ser ancestral conocido como "el Draginol" utilizó este cristal para crear a los Precursores. Han sacrificado a millones de sus propios ciudadanos para obtener la "fuerza vital" necesaria para alimentar ese cristal. El cristal, por su parte, está dotando a sus líderes de un inmenso poder para construir, fabricar e investigar. Nuestros agentes creen que debemos actuar deprisa, ya que con el tiempo se harán más y más poderosos.
 [Comeback_2] Nos llegan informes en que dicen que la decadente civilización de los %s ha descubierto, de algún modo, una pieza de un artefacto antiguo que dota al que lo controla de un poder casi ilimitado. Este poder crece con el tiempo. Cada día que pase, esa civilización será más poderosa en muchos aspectos. Nuestros agentes consideran que o bien actuamos ahora y destruimos esa civilización o llegará un día en que seremos sus esclavos.
 
 [Event_Culture_1] Mientras tanto...\n\nLas muestras de repulsa hacia los %s crecen por toda la galaxia. Se acusa a los %s de "conquista cultural". Comerciantes y tenderos se ven presionados para vender sólo bienes y servicios "nativos". El resultado final es que el poder cultural nativo ha crecido.
@@ -854,7 +854,7 @@
 [ShipName_Arnor_0] Letal
 [ShipName_Arnor_1] Dominador
 [ShipName_Arnor_2] Futilidad
-[DreadLord_Description] Los Señores del Miedo existían mucho antes de que los humanos caminaran por la Tierra. Gobernaban un planeta mítico conocido como Arnor. En dicho mundo vivió la raza de los Precursores. Convencidos de que estaban destinados a gobernar la galaxia, los Señores del Miedo se escindieron de la raza originaria.\n\nCrearon un orbe de poder diseñado para dotarles de una fuerza increíble y darles la habilidad de invocar enormes ejércitos, listos para combatir bajo sus órdenes.\nDicho orbe obtenía su energía de la fuerza vital de la otra mitad de la civilización de los Precursores, quienes se llamaban a sí mismos "los Arnor". Una batalla final entre los dos bandos acabó con el dominio de los Señores del Miedo, quienes quedaron atrapados en el interior de un fragmento del mítico cristal conocido como el Telenanth. Pero los Arnor pagaron un alto precio por ello, pues resultaron destruidos por completo.\n\nAhora, liberados por unos mortales desquiciados, los Señores del Miedo han regresado para completar su objetivo de controlar la galaxia.
+[DreadLord_Description] Los Señores del Miedo existían mucho antes de que los humanos caminaran por la Tierra. Gobernaban un planeta mítico conocido como Arnor. En dicho mundo vivió la raza de los Precursores. Convencidos de que estaban destinados a gobernar la galaxia, los Señores del Miedo se escindieron de la raza originaria.\n\nCrearon un orbe de poder diseñado para dotarles de una fuerza increíble y darles la habilidad de invocar enormes ejércitos, listos para combatir bajo sus órdenes.\nDicho orbe obtenía su energía de la fuerza vital de la otra mitad de la civilización de los Precursores, quienes se llamaban a sí mismos "los Arnor". Una batalla final entre los dos bandos acabó con el dominio de los Señores del Miedo, quienes quedaron atrapados en el interior de un fragmento del mítico cristal conocido como el Telenanto. Pero los Arnor pagaron un alto precio por ello, pues resultaron destruidos por completo.\n\nAhora, liberados por unos mortales desquiciados, los Señores del Miedo han regresado para completar su objetivo de controlar la galaxia.
 [Draginol_Description] Dice la leyenda que el Draginol era uno de los cinco Mithrilar creados por un ser de inmenso poder en el principio de los tiempos. Los Mithrilar eran los guardianes del universo, encargados de mantener el equilibrio en el cosmos. Pero el Draginol no era como los otros. A diferencia de los demás Mithrilar, acusaba el paso del tiempo. A medida que pasaron los eones, enloqueció poco a poco y se propuso destruir la creación para liberarse de la agonía de la existencia. Aunque este ser sólo es una sombra de lo que era, aún conserva la habilidad de seducir a gentes de todas las razas para que le sirvan. Debe ser destruido.
 
 [NewCiv_1] Veganos
@@ -2570,9 +2570,6 @@
 [Time] Hora
 [Del] Borrar
 
-[TABLEEND]
-
-
 // ** tech tree screen **
 [TABLEALIAS TechTreeScreen]
 [ScreenTitle] Visor del árbol tecnológico
@@ -2952,38 +2949,38 @@
 [TABLEEND]
 
 [TABLEALIAS MinorRaces]
-[MinorRace0] Akilianos
-[MinorRace1] Carinoides
-[MinorRace2] Escolingas
-[MinorRace3] Jesuinos
+[MinorRace0] Akilians
+[MinorRace1] Carinoids
+[MinorRace2] Scottlingas
+[MinorRace3] Jessuins
 [MinorRace4NOLONGERUSED] Andians
-[MinorRace4] Andianos
+[MinorRace4] LentzLandians
 [MinorRace5] Paulos
-[MinorRace6] Yor Oscuros
+[MinorRace6] Dark Yor
 [MinorRace7] Snathi
-[MinorRace8] Kwilasianos
-[MinorRace9] Alexianos
+[MinorRace8] Kwilasians
+[MinorRace9] Alexians
 
-[MinorRace10] Rebeldes
-[MinorRace11] Aliados Independientes
-[MinorRace12] Señores del Miedo
+[MinorRace10] Rebels
+[MinorRace11] Independent League
+[MinorRace12] Dread Lords
 [MinorRace13] Draginol
 [MinorRace14] Calor
-[MinorRace15] Piratas
-[MinorRace16] Moralistas
-[MinorRace17] Fanáticos Religiosos
-[MinorRace18] Monstruos Espaciales
+[MinorRace15] Pirates
+[MinorRace16] Moralists
+[MinorRace17] Religious Fanatics
+[MinorRace18] Space Monsters
 
-[ILeague] Aliados I
+[ILeague] I-League
 [Pirates] Pirates!
-[Monsters] ¡Monstruos!
-[MonsterRace] Tiburon Espacial
-[Dreadlords] Señores del Miedo
+[Monsters] Monsters!!!!
+[MonsterRace] Space Shark
+[Dreadlords] Dread Lords
 
 [MinorRaceDescription12] Los Señores del Miedo son un mal ancestral, más poderoso de lo que alcanzas a imaginar.
 [DreadlordsDescription] Los Señores del Miedo son un mal ancestral, más poderoso de lo que alcanzas a imaginar.
 
-[DreadlordsLeader] Lord Dread
+[DreadlordsLeader] Lord Miedo
 
 [TABLEEND]
 
@@ -3004,18 +3001,18 @@
 
 [TABLEALIAS MajorRaces]
 
-[Race0] Consorcio Terráqueo
+[Race0] Consorcio Terraqueo
 [Race1] Imperio Drengin
-[Race2] Sistema Republicano Altariano
+[Race2] Resistencia Altariana
 [Race3] Imperio Arceano
-[Race4] Sistema Confederado Toriano
+[Race4] Confederacion Toriana
 [Race5] Colectivo Yor
 [Race6] Dominio de Korx
-[Race7] Ejército Drath
+[Race7] Legion Drath
 [Race8] Imperio Thalan
 [Race9] Imperio Iconiano
 
-[Race0Short] Terráqueos
+[Race0Short] Terraqueos
 [Race1Short] Drengin
 [Race2Short] Altarianos
 [Race3Short] Arceanos

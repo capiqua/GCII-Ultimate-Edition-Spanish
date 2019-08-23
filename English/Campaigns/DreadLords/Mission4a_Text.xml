@@ -6,7 +6,7 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>So, the weak humans retreat from the Dread Lord forces... I should have expected this from you, [YourLeaderName].</Text>
+				<Text>Entonces, los humanos debiles se retiran de las fuerzas de los Senores del Miedo... Deberia haber esperado esto de ti, [YourLeaderName].</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -14,9 +14,9 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>0</Morality>
-				<Text>Ah, the humans. I see the Drengin army has pushed your forces back as well. We appreciate your attempt to rescue our Spiritual Leader from their grasp, but we still have hope that he will be rescued once the war is over.
+				<Text>Ah, los humanos. Veo que el ejercito Drengin tambien ha rechazado tus fuerzas. Apreciamos tu intento de rescatar a nuestro Lider espiritual de su alcance, pero todavia tenemos la esperanza de que sera rescatado una vez que termine la guerra.
 
-We are open to trade, but be warned, scouts have reported a Drengin oupost in the area. Stay on your guard.</Text>
+Estamos abiertos al comercio, pero ten cuidado, los exploradores han informado de una avanzada Drengin en el area. Mantente en guardia.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -26,8 +26,8 @@ We are open to trade, but be warned, scouts have reported a Drengin oupost in th
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>Don't try and bring the Torians to your side... they're almost as weak as you humans are.
-#The Torians make horrible warriors, [YourLeaderName]. The only thing we've found them good for is as fuel for our slave furnaces.</Text>
+				<Text>No trates de llevar a los Torianos a tu lado... son casi tan debiles como los humanos.
+#Los Torianos son guerreros horribles, [YourLeaderName]. Lo unico para lo que los encontramos buenos es como combustible para nuestros hornos esclavos.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -37,11 +37,11 @@ We are open to trade, but be warned, scouts have reported a Drengin oupost in th
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>You can drive us out of this sector, [YourLeaderName], but it'll take more than a show of strength to get the cowardly Torians to join your side.
-#Trust us, human, your forces would be better off without the Torians. You'd be better off taking just them over, then using their worlds as military bases.
+				<Text>Puede expulsarnos de este sector, [YourLeaderName], pero se necesitara mas que una muestra de fuerza para lograr que los cobardes Torianos se unan a tu lado.
+# Confia en nosotros, humano, tus fuerzas estarian mejor sin los Torianos. Seria mejor tomarlos y luego usar sus mundos como bases militares.
 
-Just a friendly suggestion.
-#The Torians are known weaklings. Your war is lost if they join your side.</Text>
+Solo una sugerencia amigable.
+#Los torianos son debiles conocidos. Tu guerra la perderas, si se unen a tu lado.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>

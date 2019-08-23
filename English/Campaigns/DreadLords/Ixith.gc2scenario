@@ -1,7 +1,7 @@
 [INFO]
-Description=The planet Ixith is said to have a powerful Precursor artifact. Our agents have learned that the artifact can only be used in a certain location. We suspect the Drengin have already recovered the device, but we need to take the planet Ixith in order to learn where they plan to go to use the device.||By taking the planet and learning where the Drengin plan to use this device, we can intercept them and recover the Precursor device for ourselves.
-Victory=Ixith is ours! We have discovered that the device has to be used on at the top of a temple on the planet Karion in a different quadrant. We must race to Karion to stop the Drengin!
-Defeat=We have been defeated! The Drengin Empire seems unstoppable. Yet, there is hope for the future. Our scientists on Alpha Centauri are on the verge of a new defense technology that could thwart the Drengin in a big way. However, the Drengin have gotten wind of this and are on the way to conquer that planet!
+Description=Se dice que el planeta Ixith tiene un poderoso artefacto precursor. Nuestros agentes han aprendido que el artefacto solo se puede usar en un lugar determinado. Sospechamos que los Drengin ya han recuperado el dispositivo, pero necesitamos tomar el planeta Ixith para saber a donde planean ir para usar el dispositivo.||Al tomar el planeta y aprender donde planean los Drengin usar este dispositivo, podemos interceptarlos y recuperar el dispositivo Precursor por nosotros mismos.
+Victory=Ixith es nuestro! Hemos descubierto que el dispositivo debe usarse en la parte superior de un templo en el planeta Karion en un cuadrante diferente. Debemos correr hacia Karion para detener a losDrengin!
+Defeat=Hemos sido derrotados! El Imperio Drengin parece imparable. Sin embargo, hay esperanza para el futuro. Nuestros cientificos en Alpha Centauri estan al borde de una nueva tecnologia de defensa que podria frustrar a los Drengin a lo grande. Sin embargo, los Drengin se han enterado de esto y estan en camino de conquistar ese planeta!
 PlayerRace=0
 Conversation=Campaigns\DreadLords\Mission2_Text.xml
 Title=Ixith
@@ -317,12 +317,12 @@ Krynn=4
 type=1
 race=1
 outcome=1
-description=Eliminate the Drengin if possible.
+description=Eliminar a los Drengin si es posible.
 [EVENT1]
 type=0
 race=0
 outcome=1
-description=Take Ixith.
+description=Tomar Ixith.
 star=Ixith
 planet=Ixith
 [EVENT2]

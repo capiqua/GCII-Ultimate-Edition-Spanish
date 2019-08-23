@@ -1,10 +1,10 @@
 [INFO]
-Description=Colonel Bradley of the Terran Alliance navy has reported that while visiting Precursor ruins on Epsilon 3, a mysterious figure approached him and told him of a planet where Precursor technology has been left behind.||Moreover, he says that the Drengin Empire has become obsessed with finding Precursor technology in recent years and is likely already on the world and in possession of the artifacts.||According to the report, one of the planets in this sector has a temple that contains a holocron that will give us the location of the world that has the powerful Precursor artifact. We must take control of all 3 planets in this sector to ensure we discover the location of this lost Precursor world.||There is an Altarian outpost in this sector and they will aid us in our endeavor.
-Victory=We have found a holocron on the third world that speaks of a mysterious planet called Ixith.||The viewing device shows that Ixith was once a major Arnorian home world. Based on the debris seen around the world, a great battle once took place there.||According to legend, the Arnor split off into two groups. One kept the name Arnor and the other, the "rebels" became known as the Dread Lords. The Dread Lords were winning and had even imprisoned the Arnorian homeworld within an impenetrable force field. But, at the last battle, something happened and the Arnor and Dread Lords in the battle all disappeared. Our information is sketchy as it comes mostly from the Altarians who have turned the whole thing into a sort of mythology. But, we have seen enough evidence of Precursor technology to know that they were very powerful.||Unfortunately, the Drengin have a head start on us and have already sent forces to take the planet.
-Defeat=The Drengin have beaten us out of the sector!||Whatever information the temple contained is now in their hands. We will need to win over more allies in order to continue the war.
+Description=El coronel Bradley, de la marina de la Alianza Terraquea, informo que mientras visitaba las ruinas Precursoras en Epsilon 3, una misteriosa figura se le acerco y le hablo de un planeta donde la tecnologia Precursora se habia quedado atras.||Ademas, dice que el Imperio Drengin se ha obsesionado. con la busqueda de tecnologia Precursora en los ultimos anos y probablemente ya este en el mundo y en posesion de los artefactos.||Segun el informe, uno de los planetas en este sector tiene un templo que contiene un holocron que nos dara la ubicacion del mundo que tiene el poderoso artefacto precursor. Debemos tomar el control de los 3 planetas en este sector para asegurarnos de descubrir la ubicacion de este mundo Precursor perdido.||Hay un puesto avanzado Altariano en este sector y nos ayudaran en nuestro esfuerzo.
+Victory=Hemos encontrado un holocron en el tercer mundo que habla de un planeta misterioso llamado Ixith.||El dispositivo de visualizacion muestra que Ixith fue una vez un importante mundo natal de Arnor. Basado en los escombros vistos en todo el mundo, una gran batalla una vez tuvo lugar alli.|| egun la leyenda, los Arnor se dividieron en dos grupos. Uno mantuvo el nombre de Arnor y el otro, los "rebeldes" se hicieron conocidos como los SSenores del Miedo. Los Senores del Miedo estaban ganando e incluso habian encarcelado al mundo natal de Arnorianos dentro de un campo de fuerza impenetrable. Pero, en la ultima batalla, algo sucedio, los Arnor y los Senores del Miedo en la batalla desaparecieron. Nuestra informacion es incompleta, ya que proviene principalmente de los Altarianos que han convertido todo en una especie de mitologia. Pero, hemos visto suficiente evidencia de la tecnologia Precursora para saber que eran muy poderosos.||Desafortunadamente, los Drengin tienen una ventaja sobre nosotros y ya han enviado fuerzas para tomar el planeta.
+Defeat=Los Drengin nos han sacado del sector!||Cualquier informacion que contenga el templo esta ahora en sus manos. Tendremos que ganar mas aliados para continuar la guerra.
 PlayerRace=0
 Conversation=Campaigns\DreadLords\Mission1_Text.xml
-Title=An Unexpected Visitor
+Title=Un visitante Inesperado
 Image=Gfx\Loading\AnUnexpectedVisitor.png
 IntroScenePath=movies/DLCampaign_Intro.bik
 VictoryScenePath=
@@ -317,12 +317,12 @@ Krynn=4
 type=1
 race=1
 outcome=1
-description=Take the Drengin planets in this quadrant.
+description=Toma los planetas Drengin en este cuadrante.
 [EVENT1]
 type=1
 race=0
 outcome=0
-description=Protect our outpost.
+description=Protege nuestro puesto avanzado.
 [Terran]
 Terran=0
 Drengin=-1

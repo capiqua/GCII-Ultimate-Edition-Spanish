@@ -1,10 +1,10 @@
 [INFO]
-Description=The Thalan are a mysterious new civilization we have almost no knowledge of. But, we need to make them our friends. There are a few ways of doing this. If we can gain friendly relations with them, then they may be willing to trade a new weapon technology called Mass Drivers. We can either try to culturally assimilate them through influence or gain a "friendly" diplomatic relationship with them. If we go to war with them, we lose.||The Yor and Korx have a presence in this quadrant so be very careful.
-Victory=The Thalan leaders have joined our side, but have little to offer in terms of raw military might. They have contributed several new technologies that will help us in our battle against the Dread Lords. Most notably - Mass Drivers.
-Defeat=The Thalan people appear to prefer their own culture over ours. They spit out our soda beverages, they laugh at our ridiculous clothing, and they even fail to grasp the genius of 'Reality' holotronics.||The human race was quickly overcome by the Dread Lord forces after our recent failure. In short, the Thalan people have left our culture to be forgotten in the mists of time.
+Description=Los Thalanos son una nueva civilizacion misteriosa de la que casi no tenemos conocimiento. Pero, tenemos que hacerlos nuestros amigos. Hay algunas formas de hacerlo. Si podemos establecer relaciones amistosas con ellos, entonces pueden estar dispuestos a intercambiar una nueva tecnologia de armas llamada CanonMasa. Podemos tratar de asimilarlos culturalmente a traves de la influencia u obtener una relacion diplomatica "amigable" con ellos. Si vamos a la guerra con ellos, perdemos.||Los Yor y Korx tienen presencia en este cuadrante, asi que ten mucho cuidado.
+Victory=Los lideres Thalanos se han unido a nuestro lado, pero tienen poco que ofrecer en terminos de poderio militar puro. Han aportado varias tecnologias nuevas que nos ayudaran en nuestra batalla contra los Senores del Miedo. Lo mas notable - CanonMasa.
+Defeat=La gente de Thalanos parece preferir su propia cultura sobre la nuestra. Escupieron nuestras bebidas gaseosas, se rieron de nuestra ropa ridicula e incluso no lograron comprender el genio de la holotronicidad de la "Realidad". La raza humana fue rapidamente superada por las fuerzas del Senor del Miedo despues de nuestro reciente fracaso. En resumen, la gente de Thalanos ha dejado nuestra cultura para ser olvidada en las brumas del tiempo.
 PlayerRace=0
 Conversation=Campaigns\DreadLords\Mission5b_Text.xml
-Title=The Thalan
+Title=Los Thalanos
 Image=Gfx\Loading\TheThalan.png
 IntroScenePath=
 VictoryScenePath=
@@ -319,14 +319,14 @@ race=8
 outcome=1
 relation=6
 op=1
-description=Build a friendship with the Thalan.
+description=Construye una amistad con los Thalanos.
 [EVENT1]
 type=2
 race=8
 outcome=0
 relation=2
 op=0
-description=Don't anger the Thalan. If they declare war on us, we fail.
+description=No enojes a los Thalanos. Si nos declaran la guerra, fallamos.
 [Terran]
 Terran=0
 Drengin=0

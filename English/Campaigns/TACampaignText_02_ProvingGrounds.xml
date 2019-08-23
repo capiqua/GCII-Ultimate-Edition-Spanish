@@ -6,13 +6,13 @@
 			<Speaker Name="Yor">5</Speaker>
 			<Listener Name="Human">0</Listener>
 			<Phrase Morality="0">
-				<Text>You are outnumbered in this quadrant.  Please leave.</Text>
+				<Text>Te superan en numero en este cuadrante. Por favor, vete</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>You are outnumbered in this quadrant.  Please leave now.</Text>
+				<Text>Te superan en numero en este cuadrante. Por favor, vete ahora</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>You are outnumbered in this quadrant.  Please leave now or we will invade.</Text>
+				<Text>Te superan en numero en este cuadrante. Por favor, vete ahora o puedes ser invadido.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>

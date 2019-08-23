@@ -6,9 +6,9 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>We have you on the run, [YourLeaderName]. Not even this hypothetical shielding technology will be enough to save your putrid hide.
+				<Text>Te tenemos en la carrera, [YourLeaderName]. Ni siquiera esta tecnologia de proteccion hipotetica sera suficiente para salvar tu piel podrida.
 
-We WILL find Beta Prime, we WILL destroy your research, and we will FINALLY put an end to your withering species.</Text>
+Encontraremos Beta Prime, destruiremos tu investigacion y FINALMENTE pondremos fin a sus especies marchitas.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -16,8 +16,8 @@ We WILL find Beta Prime, we WILL destroy your research, and we will FINALLY put 
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>0</Morality>
-				<Text>Shielding technology could easily turn the war in our favor, cousin.
-You and your scientists work on the technology... we'll take care of the Drengin.</Text>
+				<Text>La tecnologia de proteccion podria convertir facilmente la guerra a nuestro favor, primo.
+Tu y tus cientificos trabajan en la tecnologia... nosotros nos encargaremos de los Drengin.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -25,7 +25,7 @@ You and your scientists work on the technology... we'll take care of the Drengin
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>We are here to help, [YourLeaderName]. Your scientists will be safe with the Arcean army protecting them.</Text>
+				<Text>Estamos aqui para ayudar, [YourLeaderName]. Tus cientificos estaran a salvo con el ejercito Arceano protegiendolos.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -35,15 +35,15 @@ You and your scientists work on the technology... we'll take care of the Drengin
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>Beta Prime is in our cross-hairs. We've been sharpening our teeth on our previous battles against you. Prepare to feel the true bite of the Drengin army.
+				<Text>Beta Prime esta en nuestro punto de mira. Hemos estado afilando nuestros dientes en nuestras batallas anteriores contra ti. Preparate para sentir la verdadera mordida del ejercito Drengin.
 
-#How's that shielding technology coming along? Not so well, eh? Stupid humans... always relying on their pitiful technology.
+#Como va esa tecnologia de proteccion? No tan bien, eh? Estupidos humanos... siempre confiando en su lamentable tecnologia.
 
-#The Drengin Army is massing on your borders... and not even your precious Shield technology can save you from oblivion.
+#El Ejercito Drengin se esta concentrando en tus fronteras... y ni siquiera tu preciosa tecnologia Escudo puede salvarte del olvido.
 
-#[YourLeaderName]... you were kind enough to share Hyperdrive technology, then foolish enough to use it against us. Not even this rumored Shield technology can save you.
+#[YourLeaderName]... fuiste lo suficientemente amable como para compartir la tecnologia HiperImpulso, y luego lo suficientemente tonto como para usarlo contra nosotros. Ni siquiera esa rumoreada tecnologia de Escudo puede salvarte.
 
-#Prepare for the fall of Beta Prime and the extinction of the human race.</Text>
+#Preparate para la caida de Beta Prime y la extincion de la raza humana.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -53,18 +53,18 @@ You and your scientists work on the technology... we'll take care of the Drengin
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>So, the humans still have some tricks up their sleeve... be on guard, [YourLeaderName], for Beta Prime will fall.
+				<Text>Entonces, los humanos todavia tienen algunos trucos bajo la manga... estate en guardia, [YourLeaderName], porque Beta Prime caera.
 
-#Pitiful human... you've been lucky thus far, but soon your luck will run out.
+#Humano hermoso... hasta ahora has tenido suerte, pero pronto tu suerte se acabara.
 
 
-No precious Shield technology will save you then.
+Ninguna tecnologia de escudo preciosa te salvara entonces.
 
-#Shields will only save you for so long, Human. Our scientists are hard at work on stonger, more advanced weaponry that will bring you to your knees.
+#El Escudo solo te salvara por algun tiempo, Humano. Nuestros cientificos estan trabajando arduamente en armamento mas fuerte y avanzado que te pondra de rodillas.
 
-#Why are you here, human? I suggest you round up troops to protect your scientists on Beta Prime... trust me, they are in extreme danger.
+#Por que estas aqui, humano? Te sugiero que reunas a las tropas para proteger a tus cientificos en Beta Prime... creeme, estan en peligro extremo.
 
-#Beta Prime won't be safe until you've taken out all of my troops. And trust me, human, I won't make it easy.</Text>
+#Beta Prime no estara a salvo hasta que hayas eliminado a todas mis tropas. Y confia en mi, humano, no lo hare facil.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -74,9 +74,9 @@ No precious Shield technology will save you then.
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>Why would you give me this? It takes more than a bribe to stop the Drengin army from taking Beta Prime.
+				<Text>Por que me darias esto? Se necesita mas que un soborno para evitar que el ejercito Drengin tome Beta Prime.
 
-#You've gone mad! Your gifts will not keep us from defeating you again... your forces will fall like before, only this time our victory will be all-encompassing. The human race will die... only now with less toys.</Text>
+#Te has vuelto loco! Tus regalos no nos impediran volver a derrotarte... tus fuerzas caeran como antes, solo que esta vez nuestra victoria lo abarcara todo. La raza humana morira... solo que ahora con menos juguetes.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>

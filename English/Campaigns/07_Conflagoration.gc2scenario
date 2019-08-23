@@ -1,10 +1,10 @@
 [INFO]
 Version=2
-Description=The planet Du’toth, currently a Dread Lord world, is the location of the last missing shard.||Unfortunately, this quadrant is the center of the galactic war.  And Du’toth is at the other side of the quadrant.  Your mission is to get there, capture the planet, and find the last shard.
-Title=Conflagration
+Description=El planeta Du’toth, actualmente es un mundo de Senores del Miedo, es la ubicación del último fragmento perdido.||Desafortunadamente, este cuadrante es el centro de la guerra galáctica. Y Du’toth está al otro lado del cuadrante. Tu misión es llegar allí, capturar el planeta y encontrar el último fragmento.
+Title=Conflagracion
 Image=gfx\Loading\TACampaign_07_Conflagoration.png
-Victory=You've taken Du'toth and found the last shard.  Time to get out of there!
-Defeat=You have failed to take Du'toth and acquire the last of the shards.  Even though we have 3 of them, the fact that the Dread Lords still have 1 is something to be quite concerned about.  We really need that last shard.
+Victory=Has tomado Du'toth y has encontrado el último fragmento. ¡Hora de salir de allí!
+Defeat=No has podido tomar Du'toth y adquirir el último de los fragmentos. A pesar de que tenemos 3 de ellos, el hecho de que los Senores del Miedo todavía tengan 1 es algo de lo que preocuparse. Realmente necesitamos ese último fragmento.
 PlayerRace=0
 Conversation=Campaigns\TACampaignText_07_Conflagoration.xml
 IntroScenePath=
@@ -336,12 +336,12 @@ type=0
 race=0
 planet=Du'toth
 outcome=1
-description=Capture Du'toth
+description=Capturar a Du'toth
 [EVENT1]
 type=1
 race=0
 outcome=0
-description=Don't get yourself killed.
+description=No te mates a ti mismo.
 [TECHNOLOGY]
 Terran_Starting=65
 Terran_Starting0=Adaptive Chaff

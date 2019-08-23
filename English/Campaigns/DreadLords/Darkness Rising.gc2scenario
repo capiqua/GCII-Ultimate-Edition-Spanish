@@ -1,10 +1,10 @@
 [INFO]
-Description=The Drengin Empire has obtained a Precursor device whose purpose is unknown to us. What we do know is that the device can only be used in a certain location -- a temple on the planet Karion. The Altarians are here to help lend us a hand.||Our mission is to take Karion, capture the device, and use it to help Earth's war effort.||We have sent a group of new Phoenix class warships that are equipped with the recently developed Shield technology. This makes them the most lethal ships in the known galaxy against the Drengin weaponry. We must press our advantage and take Karion.
-Victory=As our troops finish taking over Karion, a Drengin general uses the mysterious Precursor artifact from the top of the ancient Arnorian temple. With a circular dipping motion the device is activated, causing the entire sky to begin shimmering and erupt with a blinding light. Suddenly, the space around Karion is filled with hundreds of bizarre looking ships. A Drengin task force that had just hyperspaced into the quadrant is instantly destroyed by the mysterious warships.||Without hesitation, our forces flee the onslaught and narrowly escape this deadly and seemingly invincible foe! As a famous philosopher once said, "I've got a bad feeling about this!"
-Defeat=Our forces have been defeated by the Drengin. Again. Our last warship was about to fall to a newly arrived Drengin task force when suddenly a host of bizarre looking alien ships began to appear out of nowhere. The Drengin fleet was almost instantly destroyed, leaving our ship just enough time to narrowly escape a similar fate.
+Description=El Imperio Drengin ha obtenido un dispositivo Precursor cuyo proposito es desconocido para nosotros. Lo que si sabemos es que el dispositivo solo se puede usar en un lugar determinado: un templo en el planeta Karion. Los Altarianos estan aqui para ayudarnos.||Nuestra mision es tomar Karion, capturar el dispositivo y usarlo para ayudar en el esfuerzo de guerra de la Tierra.|| emos enviado un grupo de nuevos buques de guerra de clase Fenix equipados con el Tecnologia Escudo recientemente desarrollada. Esto los convierte en las naves mas letales de la galaxia conocida contra el armamento Drengin. Debemos aprovechar nuestra ventaja y tomar Karion.
+Victory=Cuando nuestras tropas terminaronn de apoderarse de Karion, un general Drengin uso el misterioso artefacto Precursor en la parte superior del antiguo templo de Arnorian. Con un movimiento de inmersion circular, el dispositivo se activo, haciendo que todo el cielo comience a brillar y estalle con una luz cegadora. De repente, el espacio alrededor de Karion se lleno con cientos de naves de aspecto extrano. Una fuerza de tarea de Drengin que acababa de hiperespaciarse en el cuadrante fue destruida instantaneamente por los misteriosos buques de guerra. Sin duda, nuestras fuerzas huyeron del ataque y escaparon por poco de este enemigo mortal y aparentemente invencible. Como dijo un famoso filosofo: "Tengo un mal presentimiento sobre esto!"
+Defeat=Nuestras fuerzas han sido derrotadas por los Drengin. Otra vez. Nuestro ultimo buque de guerra estaba a punto de caer ante un grupo de trabajo Drengin recien llegado cuando de repente una gran cantidad de naves alienigenas de aspecto extrano comenzaron a aparecer de la nada. La flota Drengin fue destruida casi instantaneamente, dejando a nuestra nave el tiempo suficiente para escapar por poco de un destino similar.
 PlayerRace=0
 Conversation=Campaigns\DreadLords\Mission3_Text.xml
-Title=Darkness Rising
+Title=Alzamiento de la Oscuridad
 Image=gfx\loading\DarknessRising.png
 IntroScenePath=
 VictoryScenePath=movies\DLCampaign_Release.bik
@@ -317,13 +317,13 @@ Krynn=4
 type=1
 race=0
 outcome=0
-description=Protect our bases in this quadrant.
+description=Protege nuestras bases en este cuadrante.
 [EVENT1]
 type=0
 race=0
 star=Karion
 outcome=1
-description=Take Karion!
+description=Toma Karion
 planet=Karion
 [Terran]
 Terran=0

@@ -6,9 +6,9 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>You may have defeated the Precursor army, but the war has weakened your forces.
+				<Text>Puede que hayas derrotado al ejercito Precursor, pero la guerra ha debilitado tus fuerzas.
 
-Crushing the once-mighty humans will be a swift and effortless exercise, [YourLeaderName].</Text>
+Aplastar a los humanos que alguna vez fueron poderosos sera un ejercicio rapido y sin esfuerzo, [YourLeaderName].</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -16,8 +16,8 @@ Crushing the once-mighty humans will be a swift and effortless exercise, [YourLe
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>[YourLeaderName], the situation is dire. War has left our home sector undefended, and now the Yor and Drengin forces have united to attack Arcea.
-The Arcean Empire is in danger of being destroyed by this monstrous alliance. Please, my human friend... help us any way you can.</Text>
+				<Text>[YourLeaderName], la situacion es grave. La guerra ha dejado sin defensas a nuestro sector de origen, y ahora las fuerzas Yor y Drengin se han unido para atacar a Arcea.
+El Imperio Arceano esta en peligro de ser destruido por esta monstruosa alianza. Por favor, mi amigo humano... ayudanos de cualquier manera que puedas.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -25,9 +25,9 @@ The Arcean Empire is in danger of being destroyed by this monstrous alliance. Pl
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>0</Morality>
-				<Text>And now the true war begins. With the Dread Lords defeated, we can focus on the true villains.
+				<Text>Y ahora comienza la verdadera guerra. Con los Senores del Miedo derrotados, podemos centrarnos en los verdaderos villanos.
 
-To war, cousin!
+A la guerra, primo!
 </Text>
 			</Phrase>
 		</Dialogue>
@@ -36,7 +36,7 @@ To war, cousin!
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>0</Morality>
-				<Text>We will not let the Drengin enslave the galaxy like they once did to the Torians. They will fall and our united forces will stand triumphant!</Text>
+				<Text>No dejaremos que los Drengin esclavicen la galaxia como lo hicieron antes con los Torianos. Caeran y nuestras fuerzas unidas se mantendran triunfantes!</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -44,7 +44,7 @@ To war, cousin!
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>The Dread Lords were weaker than first assumed. Now, the battle falls on us! We will triumph over you weak fleshlings.</Text>
+				<Text>Los Senores del Miedo fueron mas debiles de lo que se suponia. Ahora, la batalla caera sobre nosotros! Triunfaremos sobre vosotros, debiles carnales.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -52,7 +52,7 @@ To war, cousin!
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>0</Morality>
-				<Text>The Dark Arnor have fallen, but evil still remains in the galaxy. Let us save the Arceans before it is too late.</Text>
+				<Text>Los Arnor Oscuros han caido, pero el mal aun permanece en la galaxia. Salvemos a los Arceanos antes de que sea demasiado tarde.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>

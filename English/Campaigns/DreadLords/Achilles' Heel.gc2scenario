@@ -1,10 +1,10 @@
 [INFO]
-Description=Nearly a year has passed since the Dread Lords were unleashed on the galaxy. The Drengin Empire has given way to them without fighting. For the most part, the Dread Lords have had little interest in the beings that live on their abandoned worlds. Their preference for outright extermination has resulted in the deaths of billions of innocents||From what we can tell, there are not that many Dread Lords. At least, there never are very many at a single time. But, strength in numbers is not their advantage. Their power comes from their immense technological advantage.||The incredible Dread Lord technology is also their Achilles' Heel. The planetary infrastructure necessary to make Dread Lord ships and weapons is immense. The worlds that the Dread Lords have been conquering obviously do not have that infrastructure.||Intelligence from the recently conquered planet Teth indicate that the Dread Lords appear to be making it into a serious base. The good news is Teth is relatively isolated and open to attack. Our mission is to conquer Teth and see if we can find new weapons technologies.||In battles across the galaxy, the Dread Lord ships seem to employ various kinds of weapons such as mass drivers and missiles. They also have the appropriate defenses for them. We have seen previously how effective shields have been against the Drengin, who have started to employ them on their new ships. If we can capture Teth, we will be able to build ships with more types of weapons and better adapt to Dread Lord technologies.||There's no way we can take on the Dread Lords by ourselves. Even with our military at its peak we couldn't. The Arceans, Altarians, and Torians have also sent forces to aid in the effort.
-Victory=Teth is ours. We may not be able to hold it long, but we discovered a host of information on new types of weapons and defenses that we can now make use of in a climatic battle with the Dread Lords.
+Description=Ha pasado casi un ano desde que los Senores del Miedo se desataron en la galaxia. El Imperio Drengin les ha dado paso sin luchar. En su mayor parte, los Senores del Miedo han tenido poco interes en los seres que viven en sus mundos abandonados. Su preferencia por el exterminio directo ha resultado en la muerte de miles de millones de inocentes.||Por lo que podemos decir, no hay tantos Senores del Miedo. Al menos, nunca hay muchos a la vez. Pero, la fuerza en los numeros no es su ventaja. Su poder proviene de su inmensa ventaja tecnologica.||La increible tecnologia Senores del Miedo es tambien su talon de Aquiles. La infraestructura planetaria necesaria para hacer naves y armas de Senores del Miedo es inmensa. Los mundos que los Senores del Miedo han estado conquistando obviamente no tienen esa infraestructura.||La inteligencia del planeta recientemente conquistado Teth indica que los Senores del Miedo parecen estar convirtiendose en una base seria. La buena noticia es que Teth esta relativamente aislado y abierto a ataques. Nuestra mision es conquistar a Teth y ver si podemos encontrar nuevas tecnologias de armas.||En las batallas a traves de la galaxia, las naves de los Senores del Miedo parecen emplear varios tipos de armas, como conductores de masas y misiles. Tambien tienen las defensas apropiadas para ellos. Hemos visto anteriormente cuan efectivos han sido los escudos contra los Drengin, que han comenzado a emplearlos en sus nuevas naves. Si podemos capturar a Teth, podremos construir naves con mas tipos de armas y adaptarnos mejor a las tecnologias de los Senores del Miedo.||No hay forma de que podamos enfrentarnos a los Senores del Miedo por nosotros mismos. Incluso con nuestros militares en su apogeo no pudimos. Los Arceanos, los Altarianos y los Torianos tambien han enviado fuerzas para ayudar en el esfuerzo.
+Victory=Teth es nuestro. Es posible que no podamos mantenerlo por mucho tiempo, pero descubrimos una gran cantidad de informacion sobre nuevos tipos de armas y defensas que ahora podemos utilizar en una batalla climatica con los Senores del Miedo.
 Defeat=The Dread Lords are just too powerful. We must find a way to obtain new weapons technologies.
 PlayerRace=0
 Conversation=Campaigns\DreadLords\Mission5_Text.xml
-Title=Achilles' Heel
+Title=Talon de Aquiles
 Image=Gfx\Loading\AchillesHeel.png
 IntroScenePath=
 VictoryScenePath=
@@ -317,13 +317,13 @@ Krynn=4
 type=1
 race=0
 outcome=0
-description=We must protect our base planets.
+description=Debemos proteger nuestros planetas base.
 [EVENT1]
 type=0
 race=0
 star=Teth
 outcome=1
-description=Capture Teth and victory is ours.
+description=Captura Teth y la victoria sera nuestra.
 planet=Teth
 [Terran]
 Terran=0

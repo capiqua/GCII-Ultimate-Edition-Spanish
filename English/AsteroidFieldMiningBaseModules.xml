@@ -22,9 +22,9 @@
 	-->
 	
 	<AsteroidFieldMiningBaseModule InternalName="IndustrialMiningBase00">
-		<DisplayName>Industrial básico</DisplayName>
+		<DisplayName>Industrial basico</DisplayName>
 		<NextModule>IndustrialMiningBase01</NextModule>
-		<Description>Produce un máximo de 5 unidades industriales</Description>
+		<Description>Produce un maximo de 5 unidades industriales</Description>
 		<TurnsToComplete>4</TurnsToComplete>
 		<BonusValue>5</BonusValue>
 		<Cost>0</Cost>
@@ -35,7 +35,7 @@
 	<AsteroidFieldMiningBaseModule InternalName="IndustrialMiningBase01">
 		<DisplayName>Intermedio industrial</DisplayName>
 		<NextModule>AdvancedMiningBase02</NextModule>
-		<Description>Aumenta el máximo de unidades industriales posibles producidas a 10</Description>
+		<Description>Aumenta el maximo de unidades industriales posibles producidas a 10</Description>
 		<TurnsToComplete>4</TurnsToComplete>
 		<BonusValue>5</BonusValue>
 		<Cost>0</Cost>
@@ -46,7 +46,7 @@
 	<AsteroidFieldMiningBaseModule InternalName="AdvancedMiningBase02">
 		<DisplayName>Industrial avanzado</DisplayName>
 		<NextModule>AdvancedMiningBase03</NextModule>
-		<Description>Aumenta el máximo de unidades industriales posibles producidas a 20</Description>
+		<Description>Aumenta el maximo de unidades industriales posibles producidas a 20</Description>
 		<TurnsToComplete>8</TurnsToComplete>
 		<BonusValue>10</BonusValue>
 		<Cost>0</Cost>
@@ -56,7 +56,7 @@
 	</AsteroidFieldMiningBaseModule>
 	<AsteroidFieldMiningBaseModule InternalName="AdvancedMiningBase03">
 		<DisplayName>Industrial Definitivo</DisplayName>
-		<Description>Aumenta el máximo de unidades industriales posibles producidas a 30</Description>
+		<Description>Aumenta el maximo de unidades industriales posibles producidas a 30</Description>
 		<TurnsToComplete>8</TurnsToComplete>
 		<BonusValue>10</BonusValue>
 		<Cost>0</Cost>

@@ -1,10 +1,10 @@
 [INFO]
-Description=Beta Prime in the Alpha Centauri system has been working on a new defense technology called Shields. Thus far in all our battles, we've fought with a single type of weaponry and defense: Beam Weapons and Armor. These shields provide an energy field about the ship that deflect and absorb beam weapon energy. We believe this could really even the odds with the Drengin.||The Arceans and Altarians have sent us some help.||However, the Drengin are operating from a barren planet at the corner of the quadrant and have sent in an impressive strike force of frigates and transports to conquer Beta Prime.  We must hold off the Drengin long enough to build some prototype ships that have shields.
-Victory=Our new shield technology has come in handy and we've defeated the Drengin. We also captured information from their base on the location where the Precursor device we previously failed to obtain is going to be used -- the planet Karion.
-Defeat=You clearly are not suited for command. We will find someone else.
+Description=Beta Prime en el sistema Alpha Centauri ha estado trabajando en una nueva tecnologia de defensa llamada Escudos. Hasta ahora, en todas nuestras batallas, hemos luchado con un solo tipo de armamento y defensa: Armas laser y Armaduras. Estos escudos proporcionan un campo de energia sobre la nave que desvia y absorbe la energia del arma de rayos. Creemos que esto podria igualar las probabilidades con los Drengin.||Los Arceanos y los Altarianos nos han enviado ayuda.||Sin embargo, los Drengin estan operando desde un planeta arido en la esquina del cuadrante y han enviado una impresionante fuerza de ataque, de fragatas y transportes para conquistar Beta Prime. Debemos detener a los Drengin el tiempo suficiente para construir algunas naves prototipo que tengan escudos.
+Victory=Nuestra nueva tecnologia de escudo ha sido util y hemos derrotado a los Drengin. Tambien capturamos informacion de su base en la ubicacion donde se utilizara el dispositivo Precursor que no obtuvimos anteriormente: el planeta Karion.
+Defeat=Claramente no eres apto para el mando. Encontraremos a alguien mas.
 PlayerRace=0
 Conversation=Campaigns\DreadLords\Mission2a_Text.xml
-Title=The Xenon Project
+Title=El Proyecto Xenon
 Image=Gfx\Loading\TheXenonProject.png
 IntroScenePath=
 VictoryScenePath=
@@ -317,7 +317,7 @@ Krynn=4
 type=1
 race=1
 outcome=1
-description=Remove the Drengin scum from this quadrant.
+description=Elimina la escoria Drengin de este cuadrante.
 [EVENT1]
 type=1
 race=0

@@ -6,10 +6,10 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>We see you've gathered an alliance of the weak to battle the greatest evil ever known.
+				<Text>Vemos que has reunido una alianza de los debiles para luchar contra el mayor mal jamas conocido.
 
 
-Good luck with your war, [YourLeaderName].</Text>
+Buena suerte con tu guerra, [YourLeaderName].</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -17,10 +17,10 @@ Good luck with your war, [YourLeaderName].</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>0</Morality>
-				<Text>Greetings, friend. Let us rise up against this evil and prove our unified might.
+				<Text>Saludos amigo. Levantemonos contra este mal y demostremos nuestro poder unificado.
 
 
-For the fate of the galaxy,  go forth with honor and courage.</Text>
+Por el destino de la galaxia, sal con honor y coraje.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -28,7 +28,7 @@ For the fate of the galaxy,  go forth with honor and courage.</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>And so it begins. We shall battle these Dread Lords and deal with the wretched Drengin and their unholy robotic ally soon enough.</Text>
+				<Text>Y asi comienza. Lucharemos contra estos Senores del Miedo y lidiaremos con los miserables Drengin y su impio aliado robotico lo suficientemente pronto.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -36,10 +36,10 @@ For the fate of the galaxy,  go forth with honor and courage.</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>0</Morality>
-				<Text>We have lived under the shadow of oppression before. It will not happen again.
+				<Text>Hemos vivido bajo la sombra de la opresion antes. Eso no volvera a pasar.
 
 
-Our forces will join yours to triumph over the Dread Lords.</Text>
+Nuestras fuerzas se uniran a las tuyas para triunfar sobre los Senores del Miedo.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -47,7 +47,7 @@ Our forces will join yours to triumph over the Dread Lords.</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>Still holding onto hope, fleshling? Your future is bleak, [YourLeaderName]... and your death is inevitable.</Text>
+				<Text>Aun te aferras a la esperanza, carino? Tu futuro es sombrio [YourLeaderName]... y tu muerte es inevitable.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -55,7 +55,7 @@ Our forces will join yours to triumph over the Dread Lords.</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>0</Morality>
-				<Text>It is time for us to finish the war of the Arnor. Together, we will bring down the Dread Lord army and put an end to this darkness.</Text>
+				<Text>Es hora de que terminemos la guerra de los Arnor. Juntos, derribaremos al ejercito de Senores del Miedo y pondremos fin a esta oscuridad.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -69,7 +69,7 @@ Our forces will join yours to triumph over the Dread Lords.</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>0</Morality>
-				<Text>Honor and courage can only get you so far. The power of the Dread Lords consumes my forces, [YourLeaderName]. Is there anything you can do to help?</Text>
+				<Text>El honor y el coraje solo pueden llevarte tan lejos. El poder de los Senores del Miedo consume mis fuerzas, [YourLeaderName]. Hay algo que puedas hacer para ayudar?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -77,7 +77,7 @@ Our forces will join yours to triumph over the Dread Lords.</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>The tide of war washes over our forces, cousin. If you can spare the troops, we desperately need your help.</Text>
+				<Text>La marea de guerra se apodera de nuestras fuerzas, primo. Si puedes escatimar a las tropas, necesitamos tu ayuda desesperadamente.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -85,7 +85,7 @@ Our forces will join yours to triumph over the Dread Lords.</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>0</Morality>
-				<Text>The strength of the Dark Arnor has grown and our forces crumble beneath their might. Can you do anything to help, [YourLeaderName]?</Text>
+				<Text>La fuerza del Arnor Oscuro ha crecido y nuestras fuerzas se desmoronan bajo su poder. Puedes hacer algo para ayudar, [YourLeaderName]?</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -96,7 +96,7 @@ Our forces will join yours to triumph over the Dread Lords.</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>Why would you attack my forces, [YourLeaderName]? The Dread Lords are the true enemies!</Text>
+				<Text>Por que atacarias a mis fuerzas, [YourLeaderName]? los Senores del Miedo son los verdaderos enemigos!</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -104,7 +104,7 @@ Our forces will join yours to triumph over the Dread Lords.</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>0</Morality>
-				<Text>Brother, you come seeking war when war already surrounds us? Let us put these grievances behinds us and refocus on the true enemy!</Text>
+				<Text>Hermano, vienes a buscar la guerra cuando la guerra ya nos rodea? Dejemos atras estas quejas y reenfoquemonos en el verdadero enemigo!</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>

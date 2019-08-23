@@ -1,10 +1,10 @@
 [INFO]
-Description=Our defeat at Charon is a major setback. Earth has sent a covert force to attempt to steal the Salvation Device. Should they be successful, they will need to be able to take the device back to Earth with us as escort. While they attempt to obtain the device, we must clear this quadrant of all enemies. It won't be easy. There is a Dread Lord outpost here and a number of Yor planetary bases. Thankfully, the Dread Lords are quickly fading now that their main fleet has been destroyed. Post-battle analysis has indicated that a Dread Lord fleet generally only consisted of a few dozen individuals, so this outpost may have only a single Dread Lord living on it. But, it could be enough to gum up the works.
-Victory=Our agents have stolen the Salvation Device from under the Drengin's noses. We must escort them back to Earth with the hope that all our sacrifices have not been in vain.
-Defeat=Utter defeat. Our ship has been captured by a Dread Lord. Our liives will be over momentarily...
+Description=Nuestra derrota en Charon es un gran reves. La Tierra ha enviado una fuerza encubierta para intentar robar el Dispositivo de Salvacion. Si tienen exito, deberan poder llevar el dispositivo a la Tierra con nosotros como escolta. Mientras intentan obtener el dispositivo, debemos eliminar este cuadrante a todos los enemigos. No sera facil. Aqui hay un puesto de avanzada de Senores del Miedo y varias bases planetarias de Yor. Afortunadamente, los Senores del Miedo se estan desvaneciendo rapidamente ahora que su flota principal ha sido destruida. El analisis posterior a la batalla ha indicado que una flota de Senores del Miedo en general solo consistia en unas pocas docenas de individuos, por lo que este puesto avanzado puede tener solo un Senor del Miedo viviendo en el. Pero, podria ser suficiente para diluir el trabajo.
+Victory=Nuestros agentes han robado el Dispositivo de Salvacion de debajo de las narices de Drengin. Debemos escoltarlos de regreso a la Tierra con la esperanza de que todos nuestros sacrificios no hayan sido en vano.
+Defeat=Derrota absoluta. Nuestra nave ha sido capturada por un Senor del Terror. Nuestras vidas se acabaran momentaneamente...
 PlayerRace=0
 Conversation=Campaigns\DreadLords\Mission8a_Text.xml
-Title=Pathfinder
+Title=El Camino Descubiero
 Image=Gfx\Loading\Pathfinder.png
 IntroScenePath=
 VictoryScenePath=

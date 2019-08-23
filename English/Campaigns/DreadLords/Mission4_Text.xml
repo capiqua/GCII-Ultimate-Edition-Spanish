@@ -6,10 +6,10 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>Foolish Human, coming to seek an alliance with the Drengin to fight back the Dread Lords.
+				<Text>Humano tonto, que viene a buscar una alianza con los Drengin para luchar contra los Senores del Miedo.
 
 
-No, I think you and your friends will wage war against this menace. We will be the ones to enslave the powerless victors.</Text>
+No, creo que tu y tus amigos haran la guerra contra esta amenaza. Seremos los que esclavicemos a los vencedores impotentes.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -17,17 +17,17 @@ No, I think you and your friends will wage war against this menace. We will be t
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>0</Morality>
-				<Text>The Drengin may have released the imprisoned Precursor army, but that will not stop us from charging into battle.
+				<Text>Los Drengin pueden haber liberado al ejercito Precursor encarcelado, pero eso no nos impedira cargar en la batalla.
 
 
-For the good of the galaxy, let us fight off this evil, [YourLeaderName]!</Text>
+Por el bien de la galaxia, luchemos contra este mal, [YourLeaderName]!</Text>
 			</Phrase>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>Honor means little to the Drengin, [YourLeaderName]. They sacrifice the galaxy to the Dread Lords in hopes of weakening our alliance.
+				<Text>Honor significa poco para Drengin, [YourLeaderName]. Sacrifican la galaxia a los Senores del Miedo con la esperanza de debilitar nuestra alianza.
 
 
-Let us show them the true power of our united forces!</Text>
+Demostremosles el verdadero poder de nuestras fuerzas unidas!</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -35,17 +35,17 @@ Let us show them the true power of our united forces!</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>0</Morality>
-				<Text>The Drengin may have released the imprisoned Precursor army, but that will not stop the us from charging into battle.
+				<Text>Los Drengin pueden haber liberado al ejercito Precursor encarcelado, pero eso no impedira que nosotros carguemos en la batalla.
 
 
-For the good of the galaxy, let us fight off this evil, [YourLeaderName]!</Text>
+Por el bien de la galaxia, luchemos contra este mal, [YourLeaderName]!</Text>
 			</Phrase>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>Honor means little to the Drengin, [YourLeaderName]. They sacrificed the galaxy to the Dread Lords with the hope of weakening our alliance.
+				<Text>Honor significa poco para los Drengin, [YourLeaderName]. Sacrificaron la galaxia a los Senores del Miedo con la esperanza de debilitar nuestra alianza.
 
 
-Let us show them the true power of our united forces!</Text>
+Demostremosles el verdadero poder de nuestras fuerzas unidas!</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -53,10 +53,10 @@ Let us show them the true power of our united forces!</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>An army of incalculable might has been released upon the galaxy. Fighting a war against us, the Drengin, and the Dread Lords will wear your forces thin.
+				<Text>Un ejercito de poder incalculable ha sido lanzado sobre la galaxia. Peleando una guerra contra nosotros, los Drengin y los Senores del Miedo desgastaran tus fuerzas.
 
 
-Surrender is the only logical option, Human.</Text>
+Rendirse es la unica opcion logica, Humano.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -66,9 +66,9 @@ Surrender is the only logical option, Human.</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>Your forces are powerless against the might of the Precursors... We will sacrifice our outer worlds, while you desperately try to protect every last human child and their teddy bears. Whether by our own hands or the immutable will of the Dread Lords, the [YourEmpireName] will be defeated.
+				<Text>Tus fuerzas son impotentes contra el poder de los Precursores... Sacrificaremos nuestros mundos exteriores, mientras tratas desesperadamente de proteger hasta el ultimo nino humano y sus ositos de peluche. Ya sea por nuestras propias manos o por la voluntad inmutable de los Senores del Miedo, el [YourEmpireName] sera derrotado.
 
-#Your suffering brings me much joy, [YourLeaderName]. The Precursor device has unleashed the legendary Dread Lord Armada! Any hope you hold onto now will soon be crushed.</Text>
+#Tu sufrimiento me trae mucha alegria, [YourLeaderName]. El dispositivo Precursor ha desatado a la legendaria Armada de los Senores del Miedo! Cualquier esperanza que tengas ahora pronto sera aplastada.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -76,12 +76,12 @@ Surrender is the only logical option, Human.</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>Our calculations were correct... your foolish attempt to save your worlds from the Dread Lord army has left the human forces weak and broken. Destruction is upon you, [YourLeaderName].
+				<Text>Nuestros calculos fueron correctos... tu intento tonto de salvar tus mundos del ejercito de los Senores del Miedo han dejado a las fuerzas humanas debiles y rotas. La destruccion esta sobre ti, [YourLeaderName].
 
-#Beings of flesh and bone are designed to be destroyed, [YourLeaderName]. The Dark Arnor will rip through your forces with ease.
+#Los seres de carne y hueso estan disenados para ser destruidos, [YourLeaderName]. Los Senores del Miedo destruiran tus fuerzas con facilidad.
 
 
-Your death awaits, human.</Text>
+Tu muerte espera, humano.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -91,7 +91,7 @@ Your death awaits, human.</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>You fight back, despite the odds? How can you hope to overcome the strength of the legendary Dread Lords?</Text>
+				<Text>Te defiendes, a pesar de las probabilidades? Como puedes esperar superar la fuerza de los legendarios Senores del Miedo?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -99,9 +99,9 @@ Your death awaits, human.</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>Your alliance may be able to fend off this first wave of attacks, but when you feel the full strength of the Dark Arnor, you'll regret your current resistance. Die now, while death can still be somewhat peaceful.
+				<Text>Tu alianza puede ser capaz de defenderse de esta primera ola de ataques, pero cuando sienta toda la fuerza del Arnor Oscuro, lamentara su resistencia actual. Muere ahora, mientras que la muerte todavia puede ser algo pacifica.
 
-# The Dark Arnor have only begun to expose their true power. Our calculations indicate that a Human victory against them is nearly impossible. Choose the logical path and surrender while you still have the chance.</Text>
+#El Arnor Oscuro solo ha comenzado a exponer su verdadero poder. Nuestros calculos indican que una victoria humana contra ellos es casi imposible. Elije el camino logico y rindete mientras todavia tienes la oportunidad.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>

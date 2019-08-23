@@ -1,11 +1,11 @@
 [INFO]
 Version=2
-Description=We now have all of the shards. But the Dread Lords do not need to be in physical custody of the shards to draw on their power.  ||Tandis explains that there are only two ways to neutralize the shards. The first way would be to use the Orb of Forging to alter the shards. But that artifact was apparently left in the pocket universe.  ||The second way to neutralize the shards would be to have them put into a special energy magnification chamber and put it in the path of a star going supernova.||Unfortunately, there are no stars about to go supernova.  But Tandis has another option, one that he is loathe to share with us: We MAKE a star go supernova.||Tandis has created the energy magnification chamber and placed the shards, including the one he possesses, into the chamber.  ||"This will be the twilight of the Arnor," said Tandis.  "Once these shards are destroyed, the Arnor - both my kind and the Dread Lords, will be forever diminished. We will be shadows of what we once were. But the galaxy will be free to set its own destiny."||Tandis shares with us a new technology that can lead us to the creation of a weapon of doom - a Terror Star. ||A Terror Star will cause a sun to go supernova and destroy all the planets in its system. They were originally created to deal with the galaxy Andromeda which is scheduled to collide with our galaxy in 700 million Earth years. But the Precursor war consumed the Arnor before they could be used.||We already occupy the planet Kai'vox. That's the good news. We simply have to destroy this star with the shards on this planet.||The bad news is that the Dread Lords are coming.  We are surrounded on all sides by them.  There is a buffer between us and the Dread Lords occupied by the Krynn and Iconians. The Dread Lords will destroy them on their way to us but those battles may bide us enough time to construct the terror star.||However, we will need to be proactive in delaying the Dread Lords as long as possible. Building a terror star is a non-trivial endeavor and as a starbase, they are quite fragile compared to even a Dread Lord scout.  We must protect it at all costs.||Tandis has provided us with an entire fleet of Arnorian warships, along with a technology called 'Atlas' that allows ships in a given fleet to move faster.||Good luck!
+Description=Ahora tenemos todos los fragmentos. Pero los Senores del Miedo no necesitan tener una custodia fisica de los fragmentos para aprovechar su poder.||Tandis explica que solo hay dos formas de neutralizar los fragmentos. La primera forma seria usar el Orbe de forja para alterar los fragmentos. Pero ese artefacto aparentemente quedo en el universo hueco.|| La segunda forma de neutralizar los fragmentos seria colocarlos en una camara de aumento de energia especial , colocandolos en el camino de una supernova que se convierta en estrella.||Desafortunadamente, no hay estrellas a punto de convertirse en supernova. Pero Tandis tiene otra opcion, una que odia compartir con nosotros: HACEMOS que una estrella se convierta en supernova.||Tandis ha creado la camara de aumento de energia y ha colocado los fragmentos, incluido el que posee, en la camara.||"Este sera el crepusculo de los Arnor", dijo Tandis. "Una vez que se destruyan estos fragmentos, los Arnor, tanto de mi clase como de los Senores del Miedo, se veran disminuidos para siempre. Seremos sombras de lo que fuimos. Pero la galaxia sera libre de establecer su propio destino".||Tandis comparte con nosotros una nueva tecnologia que nos puede llevar a la creacion de un arma de la fatalidad: una Estrella del Terror.||Una estrella del terror hara que un sol se convierta en supernova y destruya todos los planetas de su sistema. Originalmente fueron creados para tratar con la galaxia Andromeda, que esta programada para colisionar con nuestra galaxia en 700 millones de anos terrestres. Pero la guerra Precursora consumio a los Arnor antes de que pudiera ser utilizada.||Ya ocupamos el planeta Kai'vox. Esa es la buena noticia. Simplemente tenemos que destruir esta estrella con los fragmentos de este planeta.||La mala noticia es que los Senores del Miedo estan llegando. Estamos rodeados por todos lados de ellos. Hay un amortiguador entre nosotros y los Senores del Miedo ocupados por los Krynn y los Iconianos. Los Senores del miedo los destruiran en su camino hacia nosotros, pero esas batallas pueden demorarnos el tiempo suficiente para construir la estrella del terror. Sin embargo, tendremos que ser proactivos para retrasar a los Senores del Miedo el mayor tiempo posible. Construir una estrella del terror no es un esfuerzo trivial y, como base estelar, son bastante fragiles en comparacion con un explorador del Senor del Miedo. Debemos protegerlo a toda costa.||Tandis nos ha proporcionado una flota completa de buques de guerra Arnoriana, junto con una tecnologia llamada 'Atlas' que permite que las naves de una flota determinada se muevan mas rapido.||Buena suerte!
 Details=
-Title=Nightmare
+Title=Pesadilla
 Image=gfx\Loading\TACampaign_08_Nightmare.png
-Victory=We did it! Let's blow this star and go home!
-Defeat=We have failed. The Dread Lords have overwhelmed our defenses and captured Kai'vox. All of the shards are once again in their possession. Any hope for defeating the Dread Lords died with the charred remains of the unfinished Terror Star. There will be no stopping them now.
+Victory=Lo hicimos! Volamos esa estrella y nos vamonos a casa!
+Defeat=Hemos fallado Los Senores del Miedo han abrumado nuestras defensas y capturado a Kai'vox. Todos los fragmentos estan una vez mas en su posesion. Cualquier esperanza de derrotar a los Senores del miedo, murio con los restos carbonizados de la Estreella del Terror inacabada. No habra quien los detenga ahora.
 PlayerRace=0
 Conversation=Campaigns\TACampaignText_08_Nightmare.xml
 IntroScenePath=
@@ -335,18 +335,18 @@ count=3
 type=6
 planet=Kai'vox
 outcome=1
-description=Destroy the planet Kai'vox by constructing a terror star and destroying its star, Robius.
+description=Destruye el planeta Kai'vox construyendo una estrella del terror y destruyendo su estrella, Robius.
 [EVENT1]
 type=0
 race=13
 planet=Kai'vox
 outcome=0
-description=Don't allow the Dread Lords to capture Kai'vox.
+description=No permitas que los Senores del Miedo capturen a Kai'vox.
 [EVENT2]
 type=1
 race=0
 outcome=0
-description=Don't get wiped out.
+description=No dejes que te borren.
 [TECHNOLOGY]
 Terran_Starting=65
 Terran_Starting0=Adaptive Chaff

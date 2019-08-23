@@ -6,9 +6,9 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>Greetings, human leader [YourLeaderName]. The Thalan are a peaceful people and do not wish to get involved in outside conflicts.
+				<Text>Saludos, lider humano [YourLeaderName]. Los Thalan son gente pacifica y no desean involucrarse en conflictos externos.
 
-Other than this, you are more than welcome in our sector of space.</Text>
+Aparte de esto, eres mas que bienvenido en nuestro sector del espacio.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -22,7 +22,7 @@ Other than this, you are more than welcome in our sector of space.</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>Your kindness and generosity are great, [YourLeaderName] of the Humans. We appreciate your gifts. Our thoughts are with you and your troops engaged against the Dread Lords.</Text>
+				<Text>Tu amabilidad y generosidad son geniales, [YourLeaderName] de los humanos. Agradecemos tus regalos. Nuestros pensamientos estan contigo y tus tropas comprometidas contra los Senores del Miedo.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -54,13 +54,13 @@ Other than this, you are more than welcome in our sector of space.</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>While our citizens demand that the Thalan government assist your forces in battle, we are too few in number to offer much assistance.
-#We are desperately trying to stay out of this galactic war, but our citizens demand action against the Dread Lords. I have to insist, however, that we cannot help... as much as we wish to.
+				<Text>Si bien nuestros ciudadanos exigen que el gobierno de Thalan asista a tus fuerzas en la batalla, somos muy pocos para ofrecerte mucha ayuda.
+#Estamos tratando desesperadamente de mantenernos al margen de esta guerra galactica, pero nuestros ciudadanos exigen acciones contra los Senores del Miedo. Sin embargo, tengo que insistir en que no podemos ayudar... tanto como deseamos.
 
-I'm sorry, friend.
-#Riots have broken out amongst the Thalan people. Your plight has touched them and they demand our forces join yours.
+Lo siento amigo.
+#Los disturbios han estallado entre la gente de Thalan. Tu situacion los ha tocado y exigen que nuestras fuerzas se unan a las tuyas.
 
-However, as much as we wish to help, our army is no match for the might of the Dread Lords. I'm sorry, [YourLeaderName].</Text>
+Sin embargo, por mucho que queramos ayudar, nuestro ejercito no es rival para el poder de los Senores del Miedo. Lo siento, [YourLeaderName].</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -76,8 +76,8 @@ However, as much as we wish to help, our army is no match for the might of the D
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>Our people grow fond of your kind, human. We hope to see a quick and successful end to your conflict with the Dread Lords.
-#We have received word that the Dread Lords continue to wage war across the galaxy. The Thalan army is weak and we don't wish to get involved, but our thoughts are with you and your allies.</Text>
+				<Text>Nuestra gente se encarina con tu especie, humano. Esperamos ver un final rapido y exitoso de tu conflicto con los Senores del Miedo.
+#Hemos recibido noticias de que los Senores del Miedo continuan librando una guerra en toda la galaxia. El ejercito de Thalan es debil y no deseamos involucrarnos, pero nuestros pensamientos estan contigo y tus aliados.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -87,13 +87,13 @@ However, as much as we wish to help, our army is no match for the might of the D
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>While our citizens demand that the Thalan government assist your forces in battle, our forces would just get in the way of the mighty [YourEmpireName] army.
-#We are desperately trying to stay out of this galactic war, but our citizens demand action against the Dread Lords. I have to insist, however, that your forces are stronger without our pathetic army getting in the way.
+				<Text>Si bien nuestros ciudadanos exigen que el gobierno de Thalan asista a tus fuerzas en la batalla, nuestras fuerzas se interpondrian en el camino del poderoso ejercito [YourEmpireName].
+#Estamos tratando desesperadamente de mantenernos al margen de esta guerra galactica, pero nuestros ciudadanos exigen acciones contra los Senores del Miedo. Sin embargo, tengo que insistir en que tus fuerzas son mas fuertes sin que nuestro patetico ejercito se interponga en el camino.
 
-I'm sorry, friend.
-#Riots have broken out amongst the Thalan people. Your plight has touched them and they demand our forces join you in battle.
+Lo siento amigo.
+#Los disturbios han estallado entre la gente de Thalan. Tu situacion los ha tocado y exigen que nuestras fuerzas se unan a ti en la batalla.
 
-However, as much as we wish to help, our army is too weak in comparision to yours. The Dread Lords would quickly wipe us out. I'm sorry, [YourLeaderName], but for the good of my people, we cannot join this war.</Text>
+Sin embargo, por mucho que queramos ayudar, nuestro ejercito es demasiado debil en comparacion con el tuyo. Los Senores del Miedo nos eliminarian rapidamente. Lo siento, [YourLeaderName], pero por el bien de mi gente, no podemos unirnos a esta guerra.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -111,9 +111,9 @@ However, as much as we wish to help, our army is too weak in comparision to your
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>Somehow you've convinced our people that this war is worth joining. However, we do not wish to ally with the losing side of this galactic struggle. The Dread Lords are too powerful, and even together, we are too weak.
+				<Text>De alguna manera has convencido a nuestra gente de que vale la pena unirse a esta guerra. Sin embargo, no deseamos aliarnos con el lado perdedor de esta lucha galactica. Los Senores del Miedo son demasiado poderosos, e incluso juntos, somos demasiado debiles.
 
-I'm sorry.</Text>
+Lo siento.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>

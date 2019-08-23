@@ -1,10 +1,10 @@
 [INFO]
-Description=The Yor have invented a missile-based weapon. Missiles were considered unsuitable for space combat because they are so slow. The Yor have managed to put micro-hyperdrives on each missile in order to make the missiles fly at incredible speeds. The only way we're going to get this technology will be to completely wipe out the Yor. We will have the help of the Iconians this time.
-Victory=The Yor have been wiped out of this quadrant. The Iconians are very pleased with the results and we now have missile and anti-missile technology.
-Defeat=With our defeat the end has come -- for you. You've been replaced.
+Description=Los Yor han inventado un arma basada en misiles. Los misiles se consideraban inadecuados para el combate espacial porque son muy lentos. Los Yor han logrado poner micro-hiperimpulsores en cada misil para que los misiles vuelen a velocidades increibles. La unica forma que vamos a obtener esta tecnologia sera eliminar completamente el Yor. Tendremos la ayuda de los Iconianos esta vez.
+Victory=Los Yor han sido eliminados de este cuadrante. Los Iconianos estan muy satisfechos con los resultados y ahora tenemos tecnologia de misiles y antimisiles.
+Defeat=Con nuestra derrota ha llegado el final, para ti. Has sido reemplazado.
 PlayerRace=0
 Conversation=Campaigns\DreadLords\Mission5a_Text.xml
-Title=Arms Race
+Title=Armamento de las Razas
 Image=Gfx\Loading\ArmsRace.png
 IntroScenePath=
 VictoryScenePath=
@@ -317,12 +317,12 @@ Krynn=4
 type=1
 race=0
 outcome=0
-description=Keep our outpost intact.
+description=Mantener nuestro puesto de avanzada intacto.
 [EVENT1]
 type=1
 race=5
 outcome=1
-description=Eliminate our robotic nemsis from this quadrant.
+description=Eliminar nuestro nemesis robotico de este cuadrante.
 [Terran]
 Terran=0
 Drengin=0

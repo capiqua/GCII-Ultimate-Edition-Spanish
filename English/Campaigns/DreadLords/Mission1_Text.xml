@@ -6,9 +6,9 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>Greetings, [YourLeaderName]. The friendship between your [YourEmpireName] and the Arcean Empire has put a strain on our already brittle relationship. Since they are our enemies, we have no choice but to assume the Human race is also a threat to our nation.
+				<Text>Saludos, [YourLeaderName]. La amistad entre su [YourEmpireName] y el Imperio Arceano ha puesto a prueba nuestra relacion ya fragil. Como son nuestros enemigos, no tenemos mas remedio que asumir que la raza humana tambien es una amenaza para nuestra nacion.
 
-Your presence will be met with force if you decide to remain in this quadrant. This is your first and final warning, Earthling.</Text>
+Tu presencia se encontrara con una fuerza, si decide permanecer en este cuadrante. Esta es su primera y ultima advertencia, Terraqueo. </Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -16,9 +16,9 @@ Your presence will be met with force if you decide to remain in this quadrant. T
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>0</Morality>
-				<Text>Hello, cousin. We have set up an outpost in this quadrant to keep an watchful eye on Drengin activities. From what we have deciphered, they search for a lost holocron chronicling the last days of the Precursors. We don't understand their motivation, but we're sure it can't be good.
+				<Text>Hola primo. Hemos establecido un puesto avanzado en este cuadrante para vigilar las actividades de los Drengin. Por lo que hemos descifrado, buscan un holocron perdido que narra los ultimos dias de los Precursores. No entendemos su motivacion, pero estamos seguros de que no puede ser bueno.
 
-We will keep you posted.</Text>
+Le mantendremos informado.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -28,13 +28,13 @@ We will keep you posted.</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>So you have decided to remain. This quadrant will be your death bed, [YourLeaderName].
+				<Text>Entonces has decidido quedarte. Este cuadrante sera su lecho de muerte, [YourLeaderName].
 
-#You risk much for such a small section of the galaxy... or are you here for more than the expansion of your puny empire? Either way, your destruction is all you will find here.
+#Arriesgas mucho por una seccion tan pequena de la galaxia... o estas aqui por algo mas que la expansion de tu imperio insignificante? De cualquier manera, tu destruccion es todo lo que encontraras aqui.
 
-#You're here to explain why you didn't heed my warning? When the [TheirEmpireName] tells you to leave a quadrant, the threat is not an idle one.
+#Estas aqui para explicar por que no prestaste atencion a mi advertencia? Cuando el [TheirEmpireName] le dice que deje un cuadrante, la amenaza no esta inactiva.
 
-#So, the foolish human has decided to stick around. Know that by deciding to stay, you have decided to die, [YourLeaderName].</Text>
+#Entonces, el humano tonto ha decidido quedarse. Tu sabes que al decidir quedarte, has decidido morir, [YourLeaderName].</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -44,13 +44,13 @@ We will keep you posted.</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>Filthy ape. Leave this quadrant while you still have skin to save.
+				<Text>Mono sucio. Deje este cuadrante mientras aun tengas piel para salvarla.
 
-#Why do you persist? You saw the damage we've inflicted on the Acreans. Continue to take our threats lightly and the same will happen to you, [YourLeaderName]!
+#Por que persistes? Viste el dano que hemos infligido a los Acreanos. Continua tomandote nuestras amenazas a la ligera y lo mismo te sucedera a ti, [YourLeaderName]!
 
-#Your destruction will come, human. It may not be in this quadrant of the galaxy, but we WILL bring you to your knees.
+#Tu destruccion vendra, humano. Puede que no este en este cuadrante de la galaxia, pero lo pondremos de rodillas.
 
-#This quadrant may be lost, human, but rest assured, you and your Arcean friends will suffer the same fate in time.</Text>
+#Este cuadrante puede perderse, humano, pero ten la seguridad de que tu y sus amigos Arceanos sufriran el mismo destino a tiempo.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>

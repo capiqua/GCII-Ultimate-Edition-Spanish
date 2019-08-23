@@ -7,52 +7,52 @@
 			<Speaker Name="Yor">5</Speaker>
 			<Listener Name="Human">0</Listener>
 			<Phrase Morality="0">
-				<Text>Greetings [YourLeaderName].  The [SPEAKING_RACE_NAME] hope to have a lot of contact with your species.</Text></Text>
+				<Text>Saludos [YourLeaderName]. Los [SPEAKING_RACE_NAME] esperan tener mucho contacto con tu especie.</Text></Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>The [SPEAKING_RACE_NAME] mission is simple: Take Out The Iconians.  What is the [YourEmpireName] mission, [YourLeaderName]?</Text>
+				<Text>La mision de [SPEAKING_RACE_NAME] es simple: eliminar a los iconianos. Cual es la mision de [YourEmpireName], [YourLeaderName]?</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>It's no secret that the [SPEAKING_RACE_NAME] is at war with the Iconians.  What may surprise you however, [YourLeaderName], is that by helping them defend themselves you doom your own existance.</Text>
+				<Text>No es ningun secreto que [SPEAKING_RACE_NAME] esta en guerra con los Iconianos. Sin embargo, lo que puede sorprenderte, [YourLeaderName], es que al ayudarlos a defenderse, condenara nuestra propia existencia.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Iconian">9</Speaker>
 			<Listener Name="Human">0</Listener>
 			<Phrase Morality="0">
-				<Text>I fear that the [SPEAKING_RACE_NAME] are vastly out-numbered in this quadrant.  We could really use the aid of the [YourEmpireName].</Text>
+				<Text>Me temo que los [SPEAKING_RACE_NAME] nos superan sampliamente en este cuadrante. Realmente podriamos usar la ayuda de [YourEmpireName].</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>This war is taking its toll on the [SPEAKING_RACE_NAME].  Any help the [YourEmpireName] can provide would be greatly appreciated.</Text>
+				<Text>Esta guerra esta pasando factura a [SPEAKING_RACE_NAME]. Cualquier ayuda que pueda proporcionar [YourEmpireName] seria muy apreciada.</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>The [SPEAKING_RACE_NAME] have held our own thus far, no thanks to the [YourEmpireName].</Text>
+				<Text>Los [SPEAKING_RACE_NAME] se han mantenido firmes hasta el momento, no gracias a [YourEmpireName].</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Korath">13</Speaker>
 			<Listener Name="Human">0</Listener>
 			<Phrase Morality="0">
-				<Text>You remind me a lot of myself [YourLeaderName].  If I was much weaker and less intelligent.</Text>
+				<Text>Me recuerdas mucho a mi [YourLeaderName]. Si fuera mucho mas debil y menos inteligente.</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>The Iconians will all die, and if you aid them in any way [YourLeaderName], the [YourEmpireName] will meet the same fate.</Text>
+				<Text>Todos los Iconianos moriran, y si los ayudas de alguna manera [YourLeaderName], [YourEmpireName] tendra el mismo destino.</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>Know this [YourLeaderName], helping the Iconians is equal to slapping the entire [SPEAKING_RACE_NAME] in the face.  Now tell me, what are your plans?</Text>
+				<Text>Sepa esto [YourLeaderName], ayudar a los Iconianos es igual que abofetear a [SPEAKING_RACE_NAME] en la cara. Ahora dime, cuales son tus planes?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Krynn">14</Speaker>
 			<Listener Name="Human">0</Listener>
 			<Phrase Morality="0">
-				<Text>The [SPEAKING_RACE_NAME] look to expand our galactic borders peacefully.</Text>
+				<Text>Los [SPEAKING_RACE_NAME] buscamos expandir nuestras fronteras galacticas de manera pacifica.</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>The [SPEAKING_RACE_NAME] look to expand our galactic borders peacefully.  We mean the [YourEmpireName] no harm.</Text>
+				<Text>Los [SPEAKING_RACE_NAME] buscamos expandir nuestras fronteras galacticas de manera pacifica. Quiere decir a [YourEmpireName], que no les hemos hecho dano</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>The [SPEAKING_RACE_NAME] look to expand our galactic borders.  We will use force if necessary.</Text>
+				<Text>Los [SPEAKING_RACE_NAME] miramos expandir nuestras fronteras galacticas. Usaremos la fuerza si es necesario.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>

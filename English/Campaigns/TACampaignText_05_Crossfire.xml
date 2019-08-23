@@ -6,39 +6,39 @@
 			<Speaker Name="Korath">13</Speaker>
 			<Listener Name="Human">0</Listener>
 			<Phrase Morality="0">
-				<Text>Well, well, well... if it isn't [YourLeaderName].  I see you haven't tired of sticking your nose into quadrants that are none of your business.  Retreat now.</Text>
+				<Text>Bueno, bueno, bueno... si es [YourLeaderName]. Veo que no te has cansado de meter la nariz en cuadrantes que no son de tu incumbencia. Retirate ahora.</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>Well, well, well... if it isn't [YourLeaderName].  I see you haven't tired of sticking your nose into quadrants that are none of your business.  Retreat now or this may be your last time.</Text>
+				<Text>Bueno, bueno, bueno... si es [YourLeaderName]. Veo que no te has cansado de meter la nariz en cuadrantes que no son de tu incumbencia. Retirate ahora o esta puede ser su ultima vez. </Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>Well, well, well... if it isn't [YourLeaderName].  I see you haven't tired of sticking your nose into quadrants that are none of your business.  Retreat now or this may be your last time.  Death comes quickly at the hands of the [SPEAKING_RACE_NAME]!</Text>
+				<Text>Bueno, bueno, bueno... si es [YourLeaderName]. Veo que no te has cansado de meter la nariz en cuadrantes que no son de tu incumbencia. Retirate ahora o esta puede ser su ultima vez. La muerte llega rapidamente a manos de [SPEAKING_RACE_NAME]!</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Drengin">1</Speaker>
 			<Listener Name="Human">0</Listener>
 			<Phrase Morality="0">
-				<Text>Arg, not YOU again, [YourLeaderName].  I've got to be honest, I've never really liked you..</Text>
+				<Text>Arg, no Tu otra vez, [YourLeaderName]. Tengo que ser honesto, nunca me gustaste realmente...</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>Arg, not YOU again, [YourLeaderName].  I've got to be honest, I've never really liked you or the rest of the [YourEmpireName].</Text>
+				<Text>Arg, no Tu otra vez, [YourLeaderName]. Tengo que ser honesto, nunca me gustaste ni a ti ni al resto de [YourEmpireName].</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>Arg, not YOU again, [YourLeaderName].  I've got to be honest, I've always hated you and the rest of the [YourEmpireName].  Get any closer to [SPEAKING_RACE_NAME] territory and you'll pay the price!</Text>
+				<Text>Arg, no Tu otra vez, [YourLeaderName]. Tengo que ser honesto, siempre te he odiado a ti y al resto de [YourEmpireName]. Acercate mas al territorio de [SPEAKING_RACE_NAME] y pagaras el precio!</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Yor">5</Speaker>
 			<Listener Name="Human">0</Listener>
 			<Phrase Morality="0">
-				<Text>Greetings [YourLeaderName], we are the [SPEAKING_RACE_NAME]. We have already set a plan in motion to colonize certain worlds.  It would be in your best interest to stay away from them.</Text>
+				<Text>Saludos [YourLeaderName], somos [SPEAKING_RACE_NAME]. Ya hemos puesto en marcha un plan para colonizar ciertos mundos. Te conviene mantenerse alejado de ellos.</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>Greetings, flesh creature. The [SPEAKING_RACE_NAME] have made claims to many of these worlds, and have plans for a few more. If we calculate that you are a threat to those plans, we will not hesitate to exterminate you.</Text>
+				<Text>Saludos, criatura de carne. Los [SPEAKING_RACE_NAME] han hecho reclamaciones a muchos de estos mundos y tienen planes para algunos mas. Si calculamos que eres una amenaza para esos planes, no dudaremos en exterminarte.</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>Carbon-form, once this war is over, this galaxy will belong to the [SPEAKING_RACE_NAME].  We have no love for organic life.  Stay out of our way, or become space dust!</Text>
+				<Text>Forma de carbono, una vez que termine esta guerra, esta galaxia pertenecera a [SPEAKING_RACE_NAME]. No amamos la vida organica. Alejate de nuestro camino o conviertete en polvo espacial!</Text>
 			</Phrase>
 		</Dialogue>		
 	</Topic>

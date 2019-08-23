@@ -6,7 +6,7 @@
   </DataChecksum>
   <Race Name="Terran Alliance">
     <RaceID>0</RaceID>
-    <DisplayName>Terran Alliance</DisplayName>
+    <DisplayName>Consorcio Terraqueo</DisplayName>
     <Alignment>75</Alignment>
     <Description>Los Humanos se han unido recientemente al club interestelar gracias a la invencion del hiperimpulso. Son los diplomaticos y los comerciantes de la galaxia. Aunque un tanto impulsivos, son mas tenaces de lo que parecen.</Description>
     <Homeworld>Tierra</Homeworld>
@@ -97,7 +97,7 @@
   </Race>
   <Race Name="Drengin Empire">
     <RaceID>1</RaceID>
-    <DisplayName>Drengin Empire</DisplayName>
+    <DisplayName>Imperio Drengin</DisplayName>
     <Alignment>1</Alignment>
     <Description>Los Drengin son una raza cruel y maligna, decidida a exterminar o exclavizar a todo el que se interponga en su camino.</Description>
     <Homeworld>Drengi</Homeworld>
@@ -188,7 +188,7 @@
   </Race>
   <Race Name="Altarian Resistance">
     <RaceID>2</RaceID>
-    <DisplayName>Altarian Resistance</DisplayName>
+    <DisplayName>Resistencia Altariana</DisplayName>
     <Alignment>99</Alignment>
     <Description>Los Altarianos se ven exactamente como los terranos debido a circunstancias extranas que aun no se comprenden completamente. Conocidos por su benevolencia, inteligencia y amabilidad, los Altarianos inspiran a otros a ser buenos.</Description>
     <Homeworld>Altaria</Homeworld>
@@ -280,7 +280,7 @@
   </Race>
   <Race Name="Arcean Empire">
     <RaceID>3</RaceID>
-    <DisplayName>Arcean Empire</DisplayName>
+    <DisplayName>Imperio Arceano</DisplayName>
     <Alignment>50</Alignment>
     <Description>Los Arceanos son una civilizacion antigua y noble que generalmente es honorable. Cada miembro de la sociedad Arceana se adhiere a un estricto codigo moral basado en la neutralidad.</Description>
     <Homeworld>Arcea</Homeworld>
@@ -372,7 +372,7 @@
   </Race>
   <Race Name="Torian Confederation">
     <RaceID>4</RaceID>
-    <DisplayName>Torian Confederation</DisplayName>
+    <DisplayName>Confederacion Toriana</DisplayName>
     <Alignment>80</Alignment>
     <Description>Los torianos fueron esclavos del Imperio Drengin. Se las arreglaron para deshacerse de sus cadenas, pero tienen una hostilidad persistente hacia los Drengin y generalmente desconfian de los extranos.</Description>
     <Homeworld>Toria</Homeworld>
@@ -463,7 +463,7 @@
   </Race>
   <Race Name="Yor Collective">
     <RaceID>5</RaceID>
-    <DisplayName>Yor Collective</DisplayName>
+    <DisplayName>Colectivo Yor</DisplayName>
     <Alignment>25</Alignment>
     <Description>Los Yor son una raza de seres artificiales inteligentes. Creados por los Iconianos para ayudar a servir a los Precursores, los Yor son despiadados y es casi imposible corromperlos culturalmente.</Description>
     <Homestar>Icos</Homestar>
@@ -553,7 +553,7 @@
   </Race>
   <Race Name="Dominion of Korx">
     <RaceID>6</RaceID>
-    <DisplayName>Dominion of Korx</DisplayName>
+    <DisplayName>Dominio de Korx</DisplayName>
     <Alignment>1</Alignment>
     <Description>Los Korx son los mercenarios por excelencia. Te venderan y haran lo que sea si hay suficiente dinero de por medio. Cuando les preguntes, puedes apostar que tienen un 'precio especial' solo para ti!</Description>
     <Homeworld>Korx</Homeworld>
@@ -645,7 +645,7 @@
   </Race>
   <Race Name="Drath Legion">
     <RaceID>7</RaceID>
-    <DisplayName>Drath Legion</DisplayName>
+    <DisplayName>Legion Drath</DisplayName>
     <Alignment>50</Alignment>
     <Description>Los Drath son una raza reptiloide que, originalmente, fueron la especie dominante en lo que hoy se conoce como Altaria. Si bien es enorme en tamano, los Drath prefieren quedarse en las sombras y especializarse en tirar de los hilos desde lejos.</Description>
     <Homeworld>Dratha</Homeworld>
@@ -737,7 +737,7 @@
   </Race>
   <Race Name="Thalan Empire">
     <RaceID>8</RaceID>
-    <DisplayName>Thalan Empire</DisplayName>
+    <DisplayName>Imperio Thalan</DisplayName>
     <Alignment>50</Alignment>
     <Description>Los Thalan son una raza insectoide que afirma haber venido del futuro para detener un desastre inminente. Poco o nada se sabe sobre ellos, aparte de que son quizas las especies tecnologicamente mas avanzadas de la galaxia.</Description>
     <Homeworld>Thala</Homeworld>
@@ -832,7 +832,7 @@
   </Race>
   <Race Name="Iconian Refuge">
     <RaceID>9</RaceID>
-    <DisplayName>Iconian Refuge</DisplayName>
+    <DisplayName>Imperio Iconiano</DisplayName>
     <Alignment>90</Alignment>
     <Description>Los iconianos son la civilizacion mas antigua y crearon a los Yor como sirvientes roboticos. Casi fueron eliminados cuando los Senores del Miedo le dieron sensibilidad al Yor. Una raza muy inventiva y orgullosa, se consideran herederos del Arnor.</Description>
     <Homeworld>Nueva Iconia</Homeworld>
@@ -921,7 +921,7 @@
   </Race>
   <Race Name="Korath Clan">
     <RaceID>10</RaceID>
-    <DisplayName>Korath Clan</DisplayName>
+    <DisplayName>Clan Korath</DisplayName>
     <Alignment>1</Alignment>
     <Description>Los Korath eran parte del Imperio Drengin, pero su determinacion de exterminar toda vida que no fuera Drengin, en lugar de esclavizarlos, sumio al Imperio Drengin en una guerra civil. El Korath corto sus lazos y sus primos ya no lo retienen.</Description>
     <Homeworld>Kora</Homeworld>
@@ -1004,7 +1004,7 @@
   </Race>
   <Race Name="Krynn Consulate">
     <RaceID>11</RaceID>
-    <DisplayName>Krynn Consulate</DisplayName>
+    <DisplayName>Consulado Krynn</DisplayName>
     <Alignment>50</Alignment>
     <Description>Los Krynn son una coleccion de especies unidas por una fe comun: El Camino. Creen que la salvacion solo se puede lograr intensificando la sensibilidad. Y la unica forma de lograr esto es convertir a otros hacia El Camino.</Description>
     <Homeworld>Kryseth</Homeworld>
@@ -1096,7 +1096,7 @@
   </Race>
   <Race Name="Custom Race">
     <RaceID>12</RaceID>
-    <DisplayName>Custom Race</DisplayName>
+    <DisplayName>Raza Personalizada</DisplayName>
     <Alignment>50</Alignment>
     <Description></Description>
     <Homeworld>Hogar Personalizado</Homeworld>
@@ -1174,7 +1174,7 @@
   <Race Name="Akilians">
     <RaceID>13</RaceID>
     <CivType>3</CivType>
-    <DisplayName>Akilians</DisplayName>
+    <DisplayName>Akilianos</DisplayName>
     <RaceMusic>Race09</RaceMusic>
     <Alignment>50</Alignment>
     <ShortEmpireName>Akilians</ShortEmpireName>
@@ -1255,7 +1255,7 @@
   <Race Name="Carinoids">
     <RaceID>14</RaceID>
     <RaceMusic>Race03</RaceMusic>
-    <DisplayName>Carinoids</DisplayName>
+    <DisplayName>Carinoidos</DisplayName>
     <Alignment>50</Alignment>
     <Homeworld>Carinoids</Homeworld>
     <Homestar>Carinoids</Homestar>
@@ -1335,7 +1335,7 @@
   </Race>
   <Race Name="Scottlingas">
     <RaceID>15</RaceID>
-    <DisplayName>Scottlingas</DisplayName>
+    <DisplayName>Escolingas</DisplayName>
     <RaceMusic>Race08</RaceMusic>
     <Alignment>50</Alignment>
     <Homeworld>Scottlingas</Homeworld>
@@ -1412,7 +1412,7 @@
   </Race>
   <Race Name="Jessuins">
     <RaceID>16</RaceID>
-    <DisplayName>Jessuins</DisplayName>
+    <DisplayName>Jesuinos</DisplayName>
     <RaceMusic>Race04</RaceMusic>
     <Alignment>50</Alignment>
     <Homeworld>Jessuins</Homeworld>
@@ -1562,7 +1562,7 @@
   </Race>
   <Race Name="LentzLandians">
     <RaceID>17</RaceID>
-    <DisplayName>LentzLandians</DisplayName>
+    <DisplayName>LentzLandianos</DisplayName>
     <RaceMusic>Race02</RaceMusic>
     <Alignment>50</Alignment>
     <Homeworld>LentzLand</Homeworld>
@@ -1639,7 +1639,7 @@
   </Race>
   <Race Name="Dark Yor">
     <RaceID>19</RaceID>
-    <DisplayName>Dark Yor</DisplayName>
+    <DisplayName>Yor Oscuros</DisplayName>
     <Alignment>1</Alignment>
     <Homeworld>Dark Yor</Homeworld>
     <Homestar>Dark Yor</Homestar>
@@ -1794,7 +1794,7 @@
   </Race>
   <Race Name="Dread Lords">
     <RaceID>23</RaceID>
-    <DisplayName>Dread Lords</DisplayName>
+    <DisplayName>Senores del Miedo</DisplayName>
     <Alignment>1</Alignment>
     <Description>Los Senores del Miedo son una raza ancestral y poseedora de un increible poder.</Description>
     <Homeworld>Amalda</Homeworld>
@@ -1877,7 +1877,7 @@
   </Race>
   <Race Name="Pirates!">
     <RaceID>26</RaceID>
-    <DisplayName>Pirates</DisplayName>
+    <DisplayName>Piratas</DisplayName>
     <Alignment>0</Alignment>
     <Description>Entrega el ron y nadie saldra herido!! (Bueno, puede que solo un poco.)</Description>
     <Homestar>Perla Negra</Homestar>

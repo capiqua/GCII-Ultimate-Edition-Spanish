@@ -6,7 +6,7 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>Finally, the human race is about to be crushed. Any last words, [YourLeaderName]?</Text>
+				<Text>Finalmente, la raza humana esta a punto de ser aplastada. Alguna ultima palabra, [YourLeaderName]?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -14,8 +14,8 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>Our backs are against the wall, friend. There is nothing more to do but try to take out as many Drengin and Yor fleets as possible before we're overwhelmed.
-We are proud to have fought alongside the humans, [YourLeaderName].</Text>
+				<Text>Nuestras espaldas estan contra la pared, amigo. No hay nada mas que hacer, pero trata de eliminar tantas las flotas de Drengin y Yor como sea posible antes de que nos veamos abrumados.
+Estamos orgullosos de haber luchado junto a los humanos, [YourLeaderName].</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -23,8 +23,8 @@ We are proud to have fought alongside the humans, [YourLeaderName].</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>0</Morality>
-				<Text>Hope is lost, cousin. The Drengin have our forces outnumbered and our planets are falling quickly before their onslaught.
-Save Earth before it's too late!</Text>
+				<Text>La esperanza esta perdida, primo. Los Drengin tienen muchas menos fuerzas y nuestros planetas estan cayendo rapidamente antes de su ataque.
+Salva la Tierra antes de que sea demasiado tarde!</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -32,9 +32,9 @@ Save Earth before it's too late!</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>0</Morality>
-				<Text>They've done it again. Those vile Drengin have enslaved a majority of the Torian population, and rule over them without mercy or compassion.
+				<Text>Lo han vuelto a hacer. Esos viles Drengin han esclavizado a la mayoria de la poblacion de Torianos y los gobiernan sin piedad ni compasion.
 
-I really do hate them, [YourLeaderName]. Why can't they just die?</Text>
+Realmente los odio, [YourLeaderName]. Por que no pueden simplemente morir?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -42,7 +42,7 @@ I really do hate them, [YourLeaderName]. Why can't they just die?</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>Earth cannot be saved, human. Death awaits your species.</Text>
+				<Text>La tierra no se puede salvar, humano. La muerte espera a tu especie.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -50,8 +50,8 @@ I really do hate them, [YourLeaderName]. Why can't they just die?</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>0</Morality>
-				<Text>This evil spreads through the galaxy like a virus. Forces from the Drengin and Yor alliance have taken over most of our worlds.
-The hour is dark, human.</Text>
+				<Text>Este mal se extiende por la galaxia como un virus. Las fuerzas de la Alianza Drengin y Yor se han apoderado de la mayoria de nuestros mundos.
+La hora es oscura, humano.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>

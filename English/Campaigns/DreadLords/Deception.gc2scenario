@@ -1,8 +1,8 @@
 [INFO]
-Description=Earth is under siege by the combined forces of the Drengin and Yor. However, the mysterious visitor has returned and told us that there is a second device connected with the final days of the Dread Lord / Arnor war that is loosely translated as the Salvation Device.  ||This quadrant contains the planet Charon, which apparently has the device we are looking for. Precursor artifacts are just never convenient.||This is one messed up quadrant. Our task force includes a colony ship and couple of cruisers. We've found an unoccupied world to land on, but the quadrant already has a few renegade Dread Lords, Yor, Drengin, Korx, and Drath. The planet Charon is currently not occupied by anyone, but that will likely change. Regardless of who has it, we must take it for ourselves to recover the so-called "Salvation Device".||Charon is also located near the center of this quadrant, close to a Yor outpost. It's going to be a real slog.
-Title=Deception
-Victory=We have found the Salvation Device. And if it does what we think it does, it definitely lives up to its name. We must quickly return to Earth before it's too late!
-Defeat=We have failed to recover the device. This is too important to Earth to ignore, so a second team has been sent. In the meantime, you have been ordered to clear a quadrant so that when the device is recovered, they can return directly to Earth.
+Description=La Tierra esta bajo asedio por las fuerzas combinadas de los Drengin y los Yor. Sin embargo, el misterioso visitante ha regresado y nos dijo que hay un segundo dispositivo conectado con los ultimos dias de la guerra de Senores del Miedo/Arnor que se traduce libremente como el Dispositivo de Salvacion.||Este cuadrante contiene el planeta Charon, que aparentemente tiene el dispositivo que estamos buscando. Los artefactos precursores nunca son convenientes.||Este es un cuadrante desordenado. Nuestra fuerza de trabajo incluye una nave colonial y un par de cruceros. Hemos encontrado un mundo desocupado en el que aterrizar, pero el cuadrante ya tiene algunos renegados; Senores del Miedo, Yor, Drengin, Korx y Drath. El planeta Charon actualmente no esta ocupado por nadie, pero eso probablemente cambiara. Independientemente de quien lo tenga, debemos tomarlo por nosotros mismos para recuperar el llamado "Dispositivo de Salvacion".||Charon tambien se encuentra cerca del centro de este cuadrante, cerca de un puesto avanzado de Yor. Sera un verdadero trabajo.
+Title=Decepcion
+Victory=Hemos encontrado el dispositivo de salvacion. Y si hace lo que creemos que hace, definitivamente hace honor a su nombre. Debemos regresar rapidamente a la Tierra antes de que sea demasiado tarde!
+Defeat=No hemos podido recuperar el dispositivo. Esto es demasiado importante para que la Tierra lo ignore, por lo que se envio un segundo equipo. Mientras tanto, se le ha ordenado borrar un cuadrante para que cuando se recupere el dispositivo, puedan regresar directamente a la Tierra.
 PlayerRace=0
 Conversation=Campaigns\DreadLords\Mission8_Text.xml
 Image=Gfx\Loading\Deception.png
@@ -12,9 +12,9 @@ Version=2
 Details=
 [TEAM]
 Human=1
-Name1=Coalition
+Name1=Coalicion
 Drengin=2
-Name2=Axis
+Name2=Eje
 Altarian=0
 Name3=
 Arcean=0
@@ -36,8 +36,8 @@ Name11=
 Dreadlords=0
 Name12=
 Terran=1
-TeamName1=Coalition
-TeamName2=Axis
+TeamName1=Coalicion
+TeamName2=Eje
 TeamName3=
 TeamName4=
 TeamName5=
@@ -317,7 +317,7 @@ Krynn=4
 type=0
 race=0
 outcome=1
-description=Take Charon and get the Salvation device.
+description=Toma Charon y consigue el Dispositivo de Salvacion.
 star=Charon
 planet=Charon
 [EVENT1]

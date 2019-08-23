@@ -6,8 +6,8 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>Human leader, we are the army of the Yor Collective. We have heard of your failures in battle against our allies, the Drengin Empire. While we calculate your forces to be of little threat to ours, your presence in this quadrant is still unwelcome.
-Leave now and never come back. Or be destroyed.</Text>
+				<Text>Lider humano, somos el ejercito del Colectivo Yor. Hemos oido hablar de tus fracasos en la batalla contra nuestros aliados, el Imperio Drengin. Si bien calculamos que tus fuerzas son una pequena amenaza para las nuestras, tu presencia en este cuadrante aun no es bienvenida.
+Vete ahora y nunca vuelvas. O seras destruido.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -15,9 +15,9 @@ Leave now and never come back. Or be destroyed.</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>0</Morality>
-				<Text>Greetings, Human. We thank you for your gift of Hyperdrive in this time of war.
+				<Text>Saludos, humanos. Te agradecemos tu regalo de HiperImpulso en este tiempo de guerra.
 
-Our old creations, the Yor, have discovered our refuge and are targeting us for a massive assault. We humbly request any assistance you can provide.</Text>
+Nuestras viejas creaciones, los Yor, han descubierto nuestro refugio y nos estan apuntando a un asalto masivo. Humildemente solicitamos cualquier ayuda que nos puedas proporcionar.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -27,15 +27,15 @@ Our old creations, the Yor, have discovered our refuge and are targeting us for 
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>Do not attempt to save the Iconians. They are weak. They will fall. You can not help them... just as they cannot help YOU.
+				<Text>No intentes salvar a los Iconianos. Ellos son debiles. Ellos caeran No puedes ayudarlos... asi como ellos no pueden ayudarte a TI.
 
-#Your forces will meet the same doom as our former creators. Leave this quadrant or die.
+#Tus fuerzas se encontraran con la misma fatalidad que nuestros antiguos creadores. Deja este cuadrante o muere.
 
-#Do not stand between us and our prey. The Iconians will fall. As will your forces.
+#No te pares entre nosotros y nuestra presa. Los iconianos caeran. Al igual que tus fuerzas.
 
-#Why do you attempt to ally with the Iconians? They are weak. It is a foolish miscalculation. We pity your biological thought-processing organs.
+#Por que intentas aliarte con los Iconianos? Ellos son debiles. Es un error tonto de calculo. Lamentamos tu procesamiento de pensamiento de tus organos biologicos.
 
-#You and Iconians will make an easy team to defeat. Crushing your empires will help train our soldiers for larger battles.</Text>
+#Tu y los Iconianos haran un equipo facil de vencer. Aplastar a tus imperios ayudara a entrenar a nuestros soldados para batallas mas grandes.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -45,9 +45,9 @@ Our old creations, the Yor, have discovered our refuge and are targeting us for 
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>You have stood between us and our true enemy, the Iconians. We have recalculated a strategy that deals with your forces first.
+				<Text>Te has puesto entre nosotros y nuestro verdadero enemigo, los Iconianos. Hemos recalculado una estrategia que tratara primero con tus fuerzas.
 
-#Do not gloat over a victory not yet won. The Iconians will fall. Your forces will fall. Biological forces will never match the skill and precision of the Yor army.</Text>
+#No te regocijes por una victoria aun no ganada. Los Iconianos caeran. Tus fuerzas caeran. Las fuerzas biologicas nunca igualaran la habilidad y precision del ejercito de Yor.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -57,15 +57,15 @@ Our old creations, the Yor, have discovered our refuge and are targeting us for 
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>Greetings, human. The Yor have waged war on us both. Let us work together of fight off the vile machines.
+				<Text>Saludos, humanos. Los Yor nos han hecho la guerra a los dos. Trabajemos juntos para luchar contra esas las viles maquinas.
 
-#It seems that the Yor have targeted us both for annihilation.  We will do our best to protect you while you gather your forces.
+#Parece que los Yor nos han apuntado a los dos para la aniquilacion. Haremos todo lo posible para protegerte mientras reunes tus fuerzas.
 
-#Is there anything we can help you with, [YourLeaderName], as we fight off the Yor?
+#Hay algo en lo que podamos ayudarlo, [YourLeaderName], mientras luchamos contra los Yor?
 
-#The Yor have no mercy when it comes to the well-being of biological life forms. We must stick together in these dark times.
+#Los Yor no tienen piedad cuando se trata del bienestar de las formas de vida biologicas. Debemos permanecer juntos en estos tiempos oscuros.
 
-#The Yor army is a mighty foe, one that won't be easily defeated. What can we do to help your forces against this great evil?</Text>
+#El ejercito de Yor es un poderoso enemigo, uno que no sera facilmente derrotado. Que podemos hacer para ayudar a tus fuerzas contra este gran mal? </Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -75,9 +75,9 @@ Our old creations, the Yor, have discovered our refuge and are targeting us for 
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>The battle rages on, but we will not leave your side, [YourLeaderName]. The Yor will see the true power of non-robotic life forms.
+				<Text>La batalla continua, pero no te dejaremos de lado, [YourLeaderName]. Los Yor veran el verdadero poder de las formas de vida no roboticas.
 
-#The Yor fighters will most likely try to pick your forces off first. We'll do our best to keep the enemy at bay while you regroup your fleets.</Text>
+#Los luchadores Yor probablemente trataran de eliminar tus fuerzas primero. Haremos todo lo posible para mantener a raya al enemigo mientras reagrupas tus flotas.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -87,11 +87,11 @@ Our old creations, the Yor, have discovered our refuge and are targeting us for 
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>The Yor are a highly advanced form of robotic life. You are going to have to muster a larger force than THAT if you want to survive this war.
+				<Text>Los Yor son una forma muy avanzada de vida robotica. Tendras que reunir una fuerza mayor que ESA si quieres sobrevivir a esta guerra.
 
-#Your forces are too weak to properly wage war. Try to build some warships to help fight off the Yor or we're both goners.
+#Tus fuerzas son demasiado debiles para emprender la guerra adecuadamente. Intenta construir algunos buques de guerra para ayudar a luchar contra los Yor o ambos somos perderemos.
 
-#Your forces are pathetically weak. We'll do our best to defend you, but we're already spread too thin.</Text>
+#Tus fuerzas son pateticamente debiles. Haremos todo lo posible para defenderte, pero ya estamos demasiado dispersos. </Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -101,13 +101,13 @@ Our old creations, the Yor, have discovered our refuge and are targeting us for 
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>The Yor are going to eat you alive, friend. It's been nice knowing you. Thanks for the Hyperdrive.
+				<Text>Los Yor te comeran vivo, amigo. Ha sido un placer conocerte. Gracias por el HiperImpulso
 
-#I can see how the Drengin had such an easy time wiping you out in previous battles.
+#Puedo ver como los Drengin tuvieron un momento tan facil eliminandote en batallas anteriores.
 
-#Have you come to beg for help? If this is the best military the human race can muster up, perhaps you deserve to be destroyed.
+#Has venido a pedir ayuda? Si este es el mejor ejercito que la raza humana puede reunir, tal vez mereces ser destruido.
 
-#You plan to fight this war with THAT army?! The Yor are going to destroy you if you don't change your plan of attack.</Text>
+#Planeas pelear esta guerra con ESE ejercito?! Los Yor te destruiran si no cambias tu plan de ataque.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -117,7 +117,7 @@ Our old creations, the Yor, have discovered our refuge and are targeting us for 
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>The war has taken it's toll on my people, [YourLeaderName]. If you don't help us soon, the Yor will quickly defeat us. Please send any help you can muster!</Text>
+				<Text>La guerra ha afectado a mi gente, [YourLeaderName]. Si no nos ayudas pronto, los Yor nos derrotaran rapidamente. Por favor envia cualquier ayuda que puedas reunir!</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -127,11 +127,11 @@ Our old creations, the Yor, have discovered our refuge and are targeting us for 
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>What kind of fool are you, [YourLeaderName]? Attacking us when the Yor are the true enemy? You do realize that, if we're destroyed, you can't possibly hope to win this war?
+				<Text>Que clase de tonto eres, [YourLeaderName]? Atacandonos cuando los Yor son el verdadero enemigo? Te das cuenta de que, si somos destruidos, no puedes esperar ganar esta guerra?
 
-#Attacking us when the Yor are just going to wipe you out? You're a fool, [YourLeaderName]!
+#Atacandonos cuando los Yor te van a eliminar? Eres un tonto, [YourLeaderName]!
 
-#I should never have trusted you humans. I hope the Yor torture you beyond pain. You'll beg for death when they're done with you.</Text>
+#Nunca debi haber confiado en vosotros los humanos. Espero que los Yor te torturen mas alla del dolor. Rogaras por la muerte cuando terminen contigo.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -141,13 +141,13 @@ Our old creations, the Yor, have discovered our refuge and are targeting us for 
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>I'm... I'm... I'm speechless! You attacked us! Your only chance for survival?!?! What kind of fool are you, [YourLeaderName]?!
+				<Text>Estoy... estoy... estoy sin palabras! Nos atacaste! Tu unica oportunidad de supervivencia?!?! Que clase de tonto eres, [YourLeaderName]?!
 
-#It's not too late... let us end this war between us, before things get ugly. We must turn our attention once more toward the Yor.
+#No es demasiado tarde... terminemos esta guerra entre nosotros, antes de que las cosas se pongan feas. Debemos dirigir nuestra atencion una vez mas hacia los Yor.
 
-#You stupid human! You realize that we're your only chance for survival, right? That fighting us will give the Yor time to bring in reinforcements. That, once those reinforcements arrive, your puny army will be wiped out!
+#Eres un estupido humano! Te das cuenta de que somos tu unica oportunidad de supervivencia, verdad? Que luchar contra nosotros le dara mas tiempo a los Yor para traer refuerzos. Que, una vez que lleguen esos refuerzos, tu pequeno ejercito sera aniquilado!
 
-Not the sharpest stick in the bunch, are you [YourLeaderName]?</Text>
+No es el palo mas afilado del grupo, estas ahi [YourLeaderName]?</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -157,11 +157,11 @@ Not the sharpest stick in the bunch, are you [YourLeaderName]?</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>You... want to fight us?! How thick can you be?!
+				<Text>Tu... quieres pelear con nosotros? Que tan grueso puedes ser?
 
-#We'll assume that this war was just an accident. Let us come to terms before the Yor have time to muster their forces and destroy us both.
+#Asumiremos que esta guerra fue solo un accidente. Lleguemos a un acuerdo antes de que los Yor tengan tiempo de reunir sus fuerzas y destruirnos a los dos.
 
-#While we COULD crush you like a bug, we'll assume that you ACCIDENTALLY thought (for a second) that we were the Yor, and come to terms so we can attack the true enemy.</Text>
+#Mientras PODRiAMOS aplastarte como un insecto, asumiremos que ACCIDENTEMENTE pensaste (por un segundo) que eramos los Yor, y llegemos a un acuerdo para que podamos atacar al verdadero enemigo.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>

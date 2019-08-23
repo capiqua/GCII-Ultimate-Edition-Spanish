@@ -27,7 +27,7 @@
 		<AISpore1>SporeShipTemplate1_t</AISpore1>
 		<AISurvey1>SurveyTemplate1_t</AISurvey1>
 		<AITransport1>TransportTemplate1_t</AITransport1>
-		<DisplayName>Estilo Confederación Torian</DisplayName>
+		<DisplayName>Estilo Confederacion Torian</DisplayName>
 		<Hidden>0</Hidden>
 		<Prefix>S4</Prefix>
 		<ModuleStyle>1</ModuleStyle>

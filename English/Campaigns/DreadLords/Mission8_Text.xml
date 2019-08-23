@@ -6,7 +6,7 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>So far away from your home... don't you think Earth can use all the defenses you can muster, [YourLeaderName]?</Text>
+				<Text>Tan lejos de tu hogar... no crees que la Tierra puede usar todas las defensas que puedas reunir, [YourLeaderName]?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -14,7 +14,7 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>You will not escape your doom, [YourLeaderName]. War will find you, even in this quadrant of space.</Text>
+				<Text>No escaparas de tu destino [YourLeaderName]. La guerra te encontrara, incluso en este cuadrante del espacio.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -22,7 +22,7 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>We have heard of your triumph over the legendary Dread Lord forces, human. I look forward to doing business with such a mighty race, [YourLeaderName].</Text>
+				<Text>Hemos oido hablar de tu triunfo sobre las legendarias fuerzas de los Senores del Miedo, humano. Espero hacer negocios con una raza tan poderosa, [YourLeaderName].</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -30,8 +30,8 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>So you have escaped the Dread Lords' grasp, human. We congratulate you on your victory, but warn your forces that rogue Precursor ships still lurk in this quadrant.
-Safe star-faring, [YourLeaderName].</Text>
+				<Text>Asi que has escapado del alcance de los Senores del Miedo, humano. Te felicitamos por tu victoria, pero advertimos a tus fuerzas que las naves precursoras rebeldes aun acechan en este cuadrante.
+Viaje seguro por las estrellas, [YourLeaderName].</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -41,7 +41,7 @@ Safe star-faring, [YourLeaderName].</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>Your search for salvation has met its end.  Prepare for death, human. #Your forces have failed Earth, [YourLeaderName]. They will never discover the Salvation device, and your people will soon bow down before a new leader.</Text>
+				<Text>Tu busqueda de la salvacion ha llegado a su fin. Preparate para la muerte, humano. #Tus fuerzas le han fallado a la Tierra, [YourLeaderName]. Nunca descubriras el dispositivo de Salvacion, y tu gente pronto se inclinara ante un nuevo lider.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -49,7 +49,7 @@ Safe star-faring, [YourLeaderName].</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>Calculations indicate your doom is neigh. Give up this hopeless search for the Salvation device and surrender to your mechanical superiors. #We are your new masters. Your forces cannot match the precision of our mechanical intellect. Give up your search for the Salvation device and bow down before the [TheirEmpireName].</Text>
+				<Text>Los calculos indican que tu destino esta cerca. Renuncia a esta busqueda desesperada del dispositivo de Salvacion y entregate a tus superiores mecanicos. #Somos tus nuevos maestros. Tus fuerzas no pueden igualar la precision de nuestro intelecto mecanico. Renuncia a tu busqueda del dispositivo de Salvacion e inclinate ante el [TheirEmpireName].</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -59,7 +59,7 @@ Safe star-faring, [YourLeaderName].</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>The Salvation device will not be enough to save your dying race, human.#You may have overcome the Dreadlord's fleet, but your death still lies ahead of you. The Salvation device cannot protect you from this inevitability.#Your death will come soon enough, human. You will find no comfort in this quadrant of space.</Text>
+				<Text>El dispositivo de Salvacion no sera suficiente para salvar a tu raza moribunda, humano. Puede que hayas vencido a la flota de los Senores del Miedo, pero tu muerte aun te espera. El dispositivo de Salvacion no puede protegerte de esta inevitabilidad. #Tu muerte llegara pronto, humano. No encontraras comodidad en este cuadrante del espacio.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -67,7 +67,7 @@ Safe star-faring, [YourLeaderName].</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>It is a calculated irony that to save your people from an army of machines, you rely a machine for salvation. You will not find the device, and the human race will fall. #There are countless ways to destroy you and your nation, human. The Salvation device that you seek cannot help you.</Text>
+				<Text>Es una ironia calculada que para salvar a tu gente de un ejercito de maquinas, confies en una maquina para la salvacion. No encontraras el dispositivo y la raza humana caera. #Hay innumerables formas de destruirte a ti y a tu nacion, humano. El dispositivo de salvacion que buscas no puede ayudarte.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -77,7 +77,7 @@ Safe star-faring, [YourLeaderName].</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>Your generosity is as strong as your army, [YourLeaderName].  We will do what we can to help you save Earth from the Drengin.</Text>
+				<Text>Tu generosidad es tan fuerte como tu ejercito, [YourLeaderName]. Haremos lo que podamos para ayudarlo a salvar la Tierra de los Drengin.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -85,7 +85,7 @@ Safe star-faring, [YourLeaderName].</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>The [TheirEmpireName] is honored to receive such gifts form the race that brought down the Dread Lords. In time perhaps we can return the favor.</Text>
+				<Text>Los [TheirEmpireName] tienen el honor de recibir tales regalos de la raza que derribo a los Senores del Miedo. Con el tiempo quizas podamos devolver el favor.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -105,7 +105,7 @@ Safe star-faring, [YourLeaderName].</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>Greetings, being of Earth. We hear your planet has been targeted by the Drengin and Yor army. Perhaps we can interest you in come technologies that can 'even the playing field'. #Rumors have begun to circulate on your success against the Dread Lords. We can only hope to offer you the deals a galactic hero is worthy of. #The [TheirEmpireName] is always interested in trading with the warriors that brought down the Dreadlord fleet. What can we interest you in, [YourLeaderName]?</Text>
+				<Text>Saludos, ser de la Tierra. Escuchamos que tu planeta ha sido blanco del ejercito de los Drengin y Yor. Quizas puede interesarte las tecnologias que pueden 'igualar el campo de juego'. #Han comenzado a circular rumores sobre tu exito contra los Senores del Miedo. Solo podemos esperar ofrecerle las ofertas que merece un heroe galactico. #Los [TheirEmpireName] siempre estan interesados en comerciar con los guerreros que derribaron la flota del Senor del Miedo. En que podemos interesarle [YourLeaderName]?</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -117,7 +117,7 @@ Safe star-faring, [YourLeaderName].</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>We may be lowly buisinessmen, human, but if you raise arms against us, we will fight back.</Text>
+				<Text>Podemos ser hombres de negocios humildes, humanos, pero si levantan las armas contra nosotros, nos defenderemos.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -127,7 +127,7 @@ Safe star-faring, [YourLeaderName].</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>Our forces have already been weakened by the Dread Lords, [YourLeaderName]. Please have mercy on us.</Text>
+				<Text>Nuestras fuerzas ya han sido debilitadas por los Senores del Miedo, [YourLeaderName]. Por favor ten piedad de nosotros.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -137,7 +137,7 @@ Safe star-faring, [YourLeaderName].</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>What can the lowly [TheirEmpireName] do for the mightly slayer of the Dread Lords?</Text>
+				<Text>Que puede el humilde [TheirEmpireName] hacer por el poderoso asesino de los Senores del Miedo?</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -147,7 +147,7 @@ Safe star-faring, [YourLeaderName].</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>Always an honor, [YourLeaderName]. What to you need in your battle to save Earth from the vile Drengin army?</Text>
+				<Text>Siempre un honor, [YourLeaderName]. Que necesitas en tu batalla para salvar a la Tierra del vil ejercito Drengin?</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -160,7 +160,7 @@ Safe star-faring, [YourLeaderName].</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>So, this is the pink thing that defeated the legendary Dread Lords? Guess they must not have been so legendary after all.</Text>
+				<Text>Entonces, esta es la cosa rosa que derroto a los legendarios Senores del Miedo? Supongo que no deben haber sido tan legendarios despues de todo.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -168,7 +168,7 @@ Safe star-faring, [YourLeaderName].</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>1</Morality>
-				<Text>This is the great warrior that brought down the Dreadlord army? I always pictured you taller. #The [TheirEmpireName] is a noble nation. We understand your plight, but do not bring your war with the Drengin to our soil.</Text>
+				<Text>Este es el gran guerrero que derribo al ejercito de los Senores del Miedo? Siempre te imagine mas alto. #Los [TheirEmpireName] son una nacion noble. Entendemos tu situacion, pero no traiga su guerra con los Drengin a nuestro suelo.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>

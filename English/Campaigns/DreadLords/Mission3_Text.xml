@@ -6,10 +6,10 @@
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>You're very persistent, [YourLeaderName]. But, you're also too late. We've recovered the Precursor object and have troops scouring Karion to find the lost Arnorian temple. Soon we will release the power of the Precursors... a power that we will wield to take over the galaxy.
+				<Text> Eres muy persistente, [YourLeaderName]. Pero tambien llegas demasiado tarde. Hemos recuperado el objeto Precursor y tenemos tropas rastreando a Karion para encontrar el templo Arnorian perdido. Pronto liberaremos el poder de los Precursores... un poder que ejerceremos para tomar el control de la galaxia.
 
 
-Enjoy your last days, human.</Text>
+Disfruta tus ultimos dias, humano.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -17,7 +17,7 @@ Enjoy your last days, human.</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>0</Morality>
-				<Text>We will help you recover the artifact. The Drengin must be stopped.</Text>
+				<Text>Te ayudaremos a recuperar el artefacto. Los Drengin deben ser detenidos.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -27,13 +27,13 @@ Enjoy your last days, human.</Text>
 			<Listener Name="Human">0</Listener>
 			<Phrase>
 				<Morality>2</Morality>
-				<Text>The darkness spreads, [YourLeaderName]. We will soon be stronger than any mortal force... give up while you still can.
+				<Text>La oscuridad se extiende, [YourLeaderName]. Pronto seremos mas fuertes que cualquier fuerza mortal... rindete mientras puedas.
 
-#Your forces are weak and frightened, human. With the power of the Precursors within our grasp, you have little hope to cling to.
+#Tus fuerzas son debiles y asustadizas, humano. Con el poder de los precursores a nuestro alcance, tienes pocas esperanzas de aferrarte.
 
-Do you come to beg for mercy?
+Vienes a suplicar piedad?
 
-#Your lifeforce weakens, [YourLeaderName], and my troops are getting closer to finding the Arnorian Temple. Have you come begging for the mercy of [TheirLeaderName]?</Text>
+#Tu fuerza vital se debilita, [YourLeaderName], y mis tropas se estan acercando a encontrar el Templo Arnoriano. Has venido rogando por la misericordia de [TheirLeaderName]?</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>

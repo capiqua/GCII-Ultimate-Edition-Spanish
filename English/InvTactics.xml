@@ -24,7 +24,7 @@
 		<ImprovementPenaltyMax>0</ImprovementPenaltyMax>
 	</InvTactic>
 	<InvTactic InternalName="MassDrivers">
-		<DisplayName>Impulsores de masa</DisplayName>
+		<DisplayName>CanonMasa</DisplayName>
 		<Description>Acoplando propulsores a asteroides cercanos, seremos capaces de utilizar estas grandes rocas espaciales como armas de proyectil a gran escala. Aunque el ataque resultara imparable, la destruccion a nivel planetario es inevitable.</Description>
 		<Tech_Requirement>Planetary Bombardment</Tech_Requirement>
 		<Image>Tactics_Meteor</Image>

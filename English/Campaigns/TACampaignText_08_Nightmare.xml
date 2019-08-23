@@ -7,13 +7,13 @@
 			<Speaker Name="Iconian">9</Speaker>
 			<Listener Name="Human">0</Listener>
 			<Phrase Morality="0">
-				<Text>Destruye los fragmentos, [YourLeaderName]. Mantendremos a Dark Arnor todo el tiempo que podamos.</Text>
+				<Text>Destruye los fragmentos, [YourLeaderName]. Mantendremos ocupado al Arnor Oscuro todo el tiempo que podamos.</Text>
 		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Krynn">14</Speaker>
 			<Listener Name="Human">0</Listener>
 			<Phrase Morality="1">
-				<Text>El [SPEAKING_RACE_NAME] quiere decir a [YourEmpireName], no les hemos hecho dano. Por otra parte, podemos cambiar de opinion.</Text>
+				<Text>El [SPEAKING_RACE_NAME] quiere decir a [YourEmpireName], que no les hemos hecho dano. Por otra parte, podemos cambiar de opinion.</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
