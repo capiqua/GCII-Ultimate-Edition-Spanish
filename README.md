@@ -28,6 +28,8 @@ Esta es la traducción del juego Galactic Civilizations II: Ultimate Edition v2.
 
  * Capiqua -Traductor y adaptacion a la v2.20-
  * samanoske -Traductor-
+ * miraun -Traductor-
+ * GameManagerSport -Traductor-
 
 ## Enlaces
 
